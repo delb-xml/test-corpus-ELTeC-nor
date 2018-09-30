@@ -1,0 +1,94 @@
+<teiheader type="novelHeader">
+ <fileDesc>
+  <titleStmt>
+   <title>
+    Garman &amp; Worse
+   </title>
+   <author>
+    <persName>
+     <forname>
+      Alexander
+     </forname>
+     <surname>
+      Lange
+     </surname>
+     <surname>
+      Kjelland
+     </surname>
+    </persName>
+    <persName>
+     A. L. Kjelland
+    </persName>
+    <birth when="1849"/>
+    <death when="1906"/>
+    <sex value="M"/>
+    <idno type="viaf">
+     https://viaf.org/viaf/54187212
+    </idno>
+    <idno type="wiki">
+     https://www.wikidata.org/wiki/Q318358
+    </idno>
+   </author>
+   <respStmt>
+    <resp>
+     ELTeC encoding
+    </resp>
+    <name>
+     Michael Preminger
+    </name>
+   </respStmt>
+  </titleStmt>
+  <extent>
+   <measure quantity="44106" unit="words"/>
+   <measure quantity="362" unit="pages"/>
+  </extent>
+  <publicationStmt>
+   <p>
+    Incorporated into the ELTeC
+    <date>
+     2018-09-30
+    </date>
+   </p>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl>
+    <author>
+     A. L. Kjelland
+    </author>
+    <title>
+     bokselskap.no, 2013.
+Alexander L. Kielland: Garman &amp; Worse (1880)
+
+Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på skannet og ocr-lest fil mottatt fra Nasjonalbiblioteket/Bokhylla.no.
+    </title>
+    <publPlace>
+     København
+    </publPlace>
+    <publisher>
+     Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)
+    </publisher>
+    <date>
+     1880
+    </date>
+    <idno type="wiki">
+     https://www.wikidata.org/wiki/Q21473314
+    </idno>
+   </bibl>
+   <bibl>
+    <title>
+     bokselskap.no, 2013.
+Alexander L. Kielland: Garman &amp; Worse (1880)
+
+Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på skannet og ocr-lest fil mottatt fra Nasjonalbiblioteket/Bokhylla.no.
+    </title>
+    <ref target="wiki">
+     some ref
+    </ref>
+   </bibl>
+  </sourceDesc>
+ </fileDesc>
+ <profileDesc>
+ </profileDesc>
+ <revisionDesc>
+ </revisionDesc>
+</teiheader>
