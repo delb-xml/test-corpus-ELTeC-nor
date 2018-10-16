@@ -1,1 +1,3 @@
-# ELTeC-nor contains Norwegian text, both Bokmal and Nynorsk
+# ELTeC-nor 
+
+contains Norwegian texts (both Bokmal and Nynorsk)
