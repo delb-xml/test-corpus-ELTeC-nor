@@ -37,7 +37,7 @@
         </encodingDesc>
         <profileDesc xmlns:e="http://distantreading.net/eltec/ns">
             <langUsage>
-                <language ident="no" usage="100"/>
+                <language ident="nb" usage="100"/>
             </langUsage>
             <textDesc>
                 <e:authorGender key="M"/>
