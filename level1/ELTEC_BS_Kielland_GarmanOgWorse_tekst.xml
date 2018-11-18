@@ -20,7 +20,8 @@
             <sourceDesc>
                 <bibl><ref target="http://www.bokselskap.no/boker/forraadt/tittelside">Teksten i
                         bokselskap.no er basert p&amp;#x00E5; skannet og ocr-lest txt-fil mottatt
-                        fra NB/bokhylla.no.</ref><ref target="wiki">some ref</ref><relatedItem>
+                        fra NB/bokhylla.no.</ref><ref target="wiki">some ref</ref>
+                    <relatedItem type="copyText">
                         <bibl><author>A. L. Kjelland</author><title>bokselskap.no, 2013. Alexander
                                 L. Kielland: Garman &amp; Worse (1880) Teksten i bokselskap.no
                                 følger 1. utgave, 1880. Digitaliseringen er basert på skannet og
@@ -37,7 +38,7 @@
         </encodingDesc>
         <profileDesc xmlns:e="http://distantreading.net/eltec/ns">
             <langUsage>
-                <language ident="nb" usage="100"/>
+                <language ident="no" usage="100"/>
             </langUsage>
             <textDesc>
                 <e:authorGender key="M"/>

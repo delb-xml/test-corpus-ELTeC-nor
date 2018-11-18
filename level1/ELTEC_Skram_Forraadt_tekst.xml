@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
-<TEI xml:id="NOR0001" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="NOR0002" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader >
         <fileDesc>
             <titleStmt>
@@ -21,7 +21,8 @@
             <sourceDesc>
                 <bibl><ref target="http://www.bokselskap.no/boker/forraadt/tittelside">Teksten i
                         bokselskap.no er basert p&amp;#x00E5; skannet og ocr-lest txt-fil mottatt
-                        fra NB/bokhylla.no.</ref><ref target="wiki">some ref</ref><relatedItem>
+                        fra NB/bokhylla.no.</ref><ref target="wiki">some ref</ref>
+                    <relatedItem type="copyText">
                         <bibl><author>A. Skram</author><title>Forraadt
                                 ELTeC-utgaven</title><pubPlace>Kjøbenhavn</pubPlace><publisher>I.H.
                                 Schubotes Boghandel</publisher><date>1892</date><idno type="wiki"
@@ -34,7 +35,7 @@
         </encodingDesc>
         <profileDesc xmlns:e="http://distantreading.net/eltec/ns">
             <langUsage>
-                <language ident="nb" usage="100"/>
+                <language ident="no" usage="100"/>
             </langUsage>
             <textDesc>
                 <e:authorGender key="F"/>
@@ -55,7 +56,7 @@
 
         </front>
         <body>
-            <div n="1" type="chapter" xml:id="NOR0001001">
+            <div n="1" type="chapter" xml:id="NOR0002001">
                 <head><ref target="contents_1" type="contents" xml:id="chapter_1">I.</ref></head>
                 <p>«Naa Riber, er Du allerede færdig?» spurgte Ingstad sin Svigersøn, den store,
                     brudgomsklædte Kaptejn Riber, der med sit blonde Helskæg, sine godmodige, lidt
@@ -334,7 +335,7 @@
                 <p>«Det gjør det samme. Jeg skal hilse ham fra Dig.»</p>
                 <p>«Sig saa til Riber, at jeg er færdig,» sa Ory langsomt og dumpt.</p>
             </div>
-            <div n="2" type="chapter" xml:id="NOR0001002">
+            <div n="2" type="chapter" xml:id="NOR0002002">
                 <head><ref target="contents_2" type="contents" xml:id="chapter_2">II.</ref></head>
                 <p>Kort efter kjørte Ory afsted med sin Brudgom, som sad lidt fremoverbøjet med
                     opknappet Overfrakke og Hatten i Nakken.</p>
@@ -602,7 +603,7 @@
                 <p>Da de var naat tilbage til Værelset med den gamle Brudeseng, klædte hun sig rolig
                     af og la sig. Et Øjeblik efter var hun tæt omslynget af Ribers stærke Arme.</p>
             </div>
-            <div n="3" type="chapter" xml:id="NOR0001003">
+            <div n="3" type="chapter" xml:id="NOR0002003">
                 <head><ref target="contents_3" type="contents" xml:id="chapter_3">III.</ref></head>
                 <p>Ar'n't you hungry, Mrs. Reiber?</p>
                 <p>Ory vendte sig om fra Vinduet, hvor hun i Timevis havde siddet og sløvt stirret
@@ -929,7 +930,7 @@
                     Du galen, Jente! Hvor Fanden skulde <emph>jeg</emph> vide <emph>det</emph>
                     fra?»</p>
             </div>
-            <div n="4" type="chapter" xml:id="NOR0001004">
+            <div n="4" type="chapter" xml:id="NOR0002004">
                 <head><ref target="contents_4" type="contents" xml:id="chapter_4">IV.</ref></head>
                 <p>Ory laa vaagen i den høje, brede Himmelseng. Hun havde saa længe havt Hænderne
                     stukket ind under Nakken, at det gjorde ondt i Armhulerne og værked for Brystet.
@@ -1120,7 +1121,7 @@
                     Ryggen mod hinanden og trak Strømperne paa – «her i London kunde man trænge at
                     gaa i Bad mindst to Ganger om Dagen. Dette Kulstøvet trænger ind overalt.»</p>
             </div>
-            <div n="5" type="chapter" xml:id="NOR0001005">
+            <div n="5" type="chapter" xml:id="NOR0002005">
                 <head><ref target="contents_5" type="contents" xml:id="chapter_5">V.</ref></head>
                 <p>Der var gaat en Uge, og i den Tid havde Riber flere Ganger gjort sig tidlig
                     færdig med sine Forretninger og var tat ud med Ory til nogle af Londons
@@ -1430,7 +1431,7 @@
                     hvile forskende paa sig, ikke skulde se at hun kjæmped mod Graaden og hvert
                     Øjeblik fik fugtige Øjne.</p>
             </div>
-            <div n="6" type="chapter" xml:id="NOR0001006">
+            <div n="6" type="chapter" xml:id="NOR0002006">
                 <head><ref target="contents_6" type="contents" xml:id="chapter_6">VI.</ref></head>
                 <p>Da de kom hjem, syntes Ory, det var for tidlig at gaa i Seng, og vilde sidde lidt
                     i deres Stue nedenunder. Riber tændte Gassen, la Hat og Frakke midt paa Bordet
@@ -1733,7 +1734,7 @@
                     Verden, Aurora. Men inat taaler ingen af os mere. Det maa være, til vi kommer
                     paa Sjøen og har fint Vejr en Dag. Imorgen skal vi jo sejle.»</p>
             </div>
-            <div n="7" type="chapter" xml:id="NOR0001007">
+            <div n="7" type="chapter" xml:id="NOR0002007">
                 <head><ref target="contents_7" type="contents" xml:id="chapter_7">VII.</ref></head>
                 <p>Tøjet var sendt ombord, og Ory og Riber havde tat Afsked med Værtinden, hvorpaa
                     de sammen var gaat ud for at kjøbe nogle Smaating inden Afrejsen.</p>
@@ -2007,7 +2008,7 @@
                     iland.</p>
                 <p>«Er De gal! Hal dem bare nedover til Gravesend det forteste I kan.</p>
             </div>
-            <div n="8" type="chapter" xml:id="NOR0001008">
+            <div n="8" type="chapter" xml:id="NOR0002008">
                 <head><ref target="contents_8" type="contents" xml:id="chapter_8">VIII.</ref></head>
                 <p>Ory steg ned ad Trappen, der i en Krumning sprang frem i den skumle Forkahyt, som
                     brugtes til Spiserum. I Midten var et aflangt voksdugsklædt Bord og paa begge
@@ -2467,7 +2468,7 @@
                     hvile her bestandig,» hvisked han. «Andet steds er der ikke Fred for mig at
                     finde.»</p>
             </div>
-            <div n="9" type="chapter" xml:id="NOR0001009">
+            <div n="9" type="chapter" xml:id="NOR0002009">
                 <head><ref target="contents_9" type="contents" xml:id="chapter_9">IX.</ref></head>
                 <p>Det blæste en forrygende Storm af Sydvest. Riber stod agterud paa det svajende
                     Dæk og holdt sig fast i Kanten af Kappen, mens han af og til plired op i den
@@ -2670,7 +2671,7 @@
                     Skuden roligere. I Grunden laa hun som i en Gynge, der vugged hende frem og
                     tilbage.</p>
             </div>
-            <div n="10" type="chapter" xml:id="NOR0001010">
+            <div n="10" type="chapter" xml:id="NOR0002010">
                 <head><ref target="contents_10" type="contents" xml:id="chapter_10">X.</ref></head>
                 <p>Ved Kappen stod Styrmanden og keg gjennem Sekstanten op mod den glødende Solskive
                     for at ta Middagshøjden. Vinden var agterlig, og Skuden, som havde alle Sejl
@@ -2797,7 +2798,7 @@
                     der er knapt nok blet en almindelig Kaftejn tilbage. Faar vi saa den
                     Kaffetaaren, Gut!» Styrmændene gik ind i sit Kammer og stopte sine Snadder.</p>
             </div>
-            <div n="11" type="chapter" xml:id="NOR0001011">
+            <div n="11" type="chapter" xml:id="NOR0002011">
                 <head><ref target="contents_11" type="contents" xml:id="chapter_11">XI.</ref></head>
                 <p>Inde i Salonen sad Riber i Sofahjørnet med en lang, utændt Pibe i Haanden. Han
                     saa frem for sig med et træt Blik. Af og til sukked han tungt og flytted sig i
@@ -3215,7 +3216,7 @@
                 <p>Ory saa efter ham. Han gik helt forover og steg op paa Bakken. Der blev han
                     siddende i flere Timer.</p>
             </div>
-            <div n="12" type="chapter" xml:id="NOR0001012">
+            <div n="12" type="chapter" xml:id="NOR0002012">
                 <head><ref target="contents_12" type="contents" xml:id="chapter_12"
                     >XII.</ref></head>
                 <p>I elleve Dager havde «Orion» ligget for Vindstille i Floridabugtens døde Vande.
