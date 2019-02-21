@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0002" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="NOR0001" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -65,7 +65,7 @@
     <text type="novel" xml:id="BS_Kielland_GarmanOgWorse_tekst">
 
         <body>
-            <div n="1" type="chapter" xml:id="NOR0002001">
+            <div n="1" type="chapter" xml:id="NOR0001001">
                 <head><ref target="contents_1" type="contents" xml:id="chapter_1">I.</ref></head>
                 <p><pb n="1"/>Intet er saa rummeligt som Havet, intet saa taalmodigt. Paa sin brede
                     Ryg bærer det lig en godslig Elefant de smaa Puslinger, der bebo Jorden; og i
@@ -557,7 +557,7 @@
                 <p>Den næste Dag red han altsaa til Byen.</p>
 
             </div>
-            <div n="3" type="chapter" xml:id="NOR0002003">
+            <div n="3" type="chapter" xml:id="NOR0001003">
                 <head><ref target="contents_3" type="contents" xml:id="chapter_3">III.</ref></head>
                 <p><pb n="31"/>«Avoir – avant – avu – saa var det! – avoir – avant – avu – det er
                     rigtigt – Gutten min! – avoir – avant.» –</p>
@@ -788,7 +788,7 @@
                     Dette var naturligvis en Misforstaaelse; enhver vidste, at Unge-Konsulen ikke
                     kunde le. –</p>
             </div>
-            <div n="4" type="chapter" xml:id="NOR0002004">
+            <div n="4" type="chapter" xml:id="NOR0001004">
                 <head><ref target="contents_4" type="contents" xml:id="chapter_4">IV.</ref></head>
                 <p><pb n="46"/>Da Gabriel havde lukket Døren, efterat have meldt Onkelens Ankomst,
                     reiste Konsulen sig og gik hen til Nøgleskabet. Her tog han et Uhyre af en
@@ -977,7 +977,7 @@
                     høitidelig og korrekt ud i Fingerspidserne. –</p>
 
             </div>
-            <div n="5" type="chapter" xml:id="NOR0002005">
+            <div n="5" type="chapter" xml:id="NOR0001005">
                 <head><ref target="contents_5" type="contents" xml:id="chapter_5">V.</ref></head>
                 <p><pb n="57"/>Man spiste ovenpaa i den lille Sal mod Nord, og Selskabet samledes i
                     de to saakaldte Søndagsstuer, der vendte mod Haven.</p>
@@ -1261,7 +1261,7 @@
                     for at inspicere Skibet og snakke engelsk med Mr. Robson.</p>
 
             </div>
-            <div n="6" type="chapter" xml:id="NOR0002006">
+            <div n="6" type="chapter" xml:id="NOR0001006">
                 <head><ref target="contents_6" type="contents" xml:id="chapter_6">VI.</ref></head>
                 <p><pb n="75"/>Det første Bekjendskab, Madeleine gjorde i sine nye Omgivelser, var
                     med Sypigen; thi hun maatte naturligvis «syes fuldstændigt op» – især
@@ -1599,7 +1599,7 @@
                     tyndere Spiraler svirrede muntert opigjennem Glasset og spredtes i Mørket. –</p>
 
             </div>
-            <div n="7" type="chapter" xml:id="NOR0002007">
+            <div n="7" type="chapter" xml:id="NOR0001007">
                 <head><ref target="contents_7" type="contents" xml:id="chapter_7">VII.</ref></head>
                 <p><pb n="96"/>Fru Fanny Garman havde lige fra først af været overmaade venlig mod
                     Madeleine og bedet hende endeligen at se indover til dem i Byen. Men derved blev
@@ -1889,7 +1889,7 @@
                     nøie.</p>
 
             </div>
-            <div n="8" type="chapter" xml:id="NOR0002008">
+            <div n="8" type="chapter" xml:id="NOR0001008">
                 <head><ref target="contents_8" type="contents" xml:id="chapter_8">VIII.</ref></head>
                 <p><pb n="114"/>«Der er noget, jeg bestandig undrer mig over ved Dem – Hr. Kandiat
                     Johnsen!» sagde Rachel, «i næsten alle de Samtaler, vi har havt om alvorlige
@@ -2236,7 +2236,7 @@
                 <p>– En liden Stund efter snorkede de gamle Herrer fredeligt sammen</p>
 
             </div>
-            <div n="9" type="chapter" xml:id="NOR0002009">
+            <div n="9" type="chapter" xml:id="NOR0001009">
                 <head><ref target="contents_9" type="contents" xml:id="chapter_9">IX.</ref></head>
                 <p><pb n="135"/>Gustaf, Oscar, Carl Johan Torpander fortæredes af sin stille Elskov.
                     Alle de Skillinger, han kunde afse, anvendte han dels til at smykke sin Person,
@@ -2481,7 +2481,7 @@
                     Mand, som turde vove noget. Det havde aldrig Jacob Worse havt Mod til!</p>
 
             </div>
-            <div n="10" type="chapter" xml:id="NOR0002010">
+            <div n="10" type="chapter" xml:id="NOR0001010">
                 <head><ref target="contents_10" type="contents" xml:id="chapter_10">X.</ref></head>
                 <p><pb n="150"/>Jacob Worse's Moder var en af Byens Originaler. – Da hendes Mand
                     døde, var han saa fallit som det omtrent er muligt at blive. I de sidste Aar
@@ -2776,7 +2776,7 @@
                     nu fandt den smukke Frue, at Rollerne vare komne i de rette Hænder.</p>
 
             </div>
-            <div n="11" type="chapter" xml:id="NOR0002011">
+            <div n="11" type="chapter" xml:id="NOR0001011">
                 <head><ref target="contents_11" type="contents" xml:id="chapter_11">XI.</ref></head>
                 <p><pb n="169"/>Alle Frøknerne Sparre – de vare fem – styrtede til Vinduerne.</p>
                 <p>«Det er Johnsen – Skolebestyreren – aa langtfra – jo det er! – det er
@@ -3065,7 +3065,7 @@
                     ventede ham. –</p>
 
             </div>
-            <div n="12" type="chapter" xml:id="NOR0002012">
+            <div n="12" type="chapter" xml:id="NOR0001012">
                 <head><ref target="contents_12" type="contents" xml:id="chapter_12"
                     >XII.</ref></head>
                 <p><pb n="187"/>Onsdag i samme Uge skulde Fanny og Madeleine i Dameselskab; Rachel
@@ -3294,7 +3294,7 @@
                 <p>Lydløst som det var kommet gled Spøgelset ud igjen, og Døren lukkedes. –</p>
 
             </div>
-            <div n="13" type="chapter" xml:id="NOR0002013">
+            <div n="13" type="chapter" xml:id="NOR0001013">
                 <head><ref target="contents_13" type="contents" xml:id="chapter_13"
                     >XIII.</ref></head>
                 <p><pb n="201"/>Den næste Dag øsregnet det. Morten og Fanny kjørte til Byen strax
@@ -3481,7 +3481,7 @@
                     uden at kunne begribe det hele. –</p>
 
             </div>
-            <div n="14" type="chapter" xml:id="NOR0002014">
+            <div n="14" type="chapter" xml:id="NOR0001014">
                 <head><ref target="contents_14" type="contents" xml:id="chapter_14"
                     >XIV.</ref></head>
                 <p><pb n="213"/>Nu var Høstregnet rigtig begyndt. Dag ud og Dag ind strømmede Vandet
@@ -3529,7 +3529,7 @@
                     de havde glemt; hvorledes Solen saa ud. –</p>
 
             </div>
-            <div n="15" type="chapter" xml:id="NOR0002015">
+            <div n="15" type="chapter" xml:id="NOR0001015">
                 <head><ref target="contents_15" type="contents" xml:id="chapter_15">XV.</ref></head>
                 <p><pb n="216"/>Endeligt – en Dag ude i December syntes det onde Veir at have raset
                     ud for en Stund. Himlen var ganske klar, og der – fandtes ikke den mindste Sky,
@@ -3858,7 +3858,7 @@
                     Aftensbordet. –</p>
 
             </div>
-            <div n="16" type="chapter" xml:id="NOR0002016">
+            <div n="16" type="chapter" xml:id="NOR0001016">
                 <head><ref target="contents_16" type="contents" xml:id="chapter_16"
                     >XVI.</ref></head>
                 <p><pb n="236"/>Endelig slæbte Vinteren sig Nordover som et trægt Udyr med sin lange
@@ -4034,7 +4034,7 @@
                     Raab og Lyden af mange Mennesker. –</p>
 
             </div>
-            <div n="17" type="chapter" xml:id="NOR0002017">
+            <div n="17" type="chapter" xml:id="NOR0001017">
                 <head><ref target="contents_17" type="contents" xml:id="chapter_17"
                     >XVII.</ref></head>
                 <p><pb n="247"/>Fru Garman var allerede gaaet tilsengs efter den lange besværlige
@@ -4218,7 +4218,7 @@
                     hjalp hende.</p>
 
             </div>
-            <div n="18" type="chapter" xml:id="NOR0002018">
+            <div n="18" type="chapter" xml:id="NOR0001018">
                 <head><ref target="contents_18" type="contents" xml:id="chapter_18"
                     >XVIII.</ref></head>
                 <p><pb n="258"/>Da Onkel Richard blev fordrevet fra Taget af Materialhuset og
@@ -4378,7 +4378,7 @@
                     ham, at han vilde komme paa Brandforhør. –</p>
 
             </div>
-            <div n="19" type="chapter" xml:id="NOR0002019">
+            <div n="19" type="chapter" xml:id="NOR0001019">
                 <head><ref target="contents_19" type="contents" xml:id="chapter_19"
                     >XIX.</ref></head>
                 <p><pb n="258"/>Konsul Garman laa i Sengen, det var tre Dage efter. Den venstre Side
@@ -4514,7 +4514,7 @@
                     gjorde han bedst i at pakke sig af Landet jo før jo heller. –</p>
 
             </div>
-            <div n="20" type="chapter" xml:id="NOR0002020">
+            <div n="20" type="chapter" xml:id="NOR0001020">
                 <head><ref target="contents_20" type="contents" xml:id="chapter_20">XX.</ref></head>
                 <p><pb n="277"/>Unge-Konsulen maatte dø. I fjorten Dage var det gaaet op og ned med
                     ham. Stundom syntes det, somom den høire Side skulde seire; men saa fik den
@@ -4569,7 +4569,7 @@
                     –</p>
 
             </div>
-            <div n="21" type="chapter" xml:id="NOR0002021">
+            <div n="21" type="chapter" xml:id="NOR0001021">
                 <head><ref target="contents_21" type="contents" xml:id="chapter_21"
                     >XXI.</ref></head>
                 <p><pb n="281"/>Samme Formiddag gik Gustav, Oscar, Carl Johan Torpander udover
@@ -4717,7 +4717,7 @@
                     Vinduskarmen; thi Kapellanen taalte ikke Træk. –</p>
 
             </div>
-            <div n="22" type="chapter" xml:id="NOR0002022">
+            <div n="22" type="chapter" xml:id="NOR0001022">
                 <head><ref target="contents_22" type="contents" xml:id="chapter_22"
                     >XXII.</ref></head>
                 <p><pb n="291"/>Konsul Garmans Død vakte megen Bevægelse i Byen. Den mærkelige
@@ -4972,7 +4972,7 @@
                     det; men det var ganske vist; Madam Rasmussen havde selv fortalt det.</p>
 
             </div>
-            <div n="23" type="chapter" xml:id="NOR0002023">
+            <div n="23" type="chapter" xml:id="NOR0001023">
                 <head><ref target="contents_23" type="contents" xml:id="chapter_23"
                     >XXIII.</ref></head>
                 <p><pb n="306"/>I Lighed med alle gode Regenter, der mene, at de bør markere sin
@@ -5212,7 +5212,7 @@
                     var mange. –</p>
 
             </div>
-            <div n="24" type="chapter" xml:id="NOR0002024">
+            <div n="24" type="chapter" xml:id="NOR0001024">
                 <head><ref target="contents_24" type="contents" xml:id="chapter_24"
                     >XXIV.</ref></head>
                 <p><pb n="321"/>Unge-Konsulens Død medførte ikke store Forandringer hverken i
@@ -5464,7 +5464,7 @@
                     utallige smaa Rynker var en sikker Laas til det sidste.</p>
 
             </div>
-            <div n="25" type="chapter" xml:id="NOR0002025">
+            <div n="25" type="chapter" xml:id="NOR0001025">
                 <head><ref target="contents_25" type="contents" xml:id="chapter_25"
                     >XXV.</ref></head>
                 <p><pb n="337"/>Saaledes forløb sex Aar. Provsten Sparre var ganske rigtig bleven
@@ -5701,7 +5701,7 @@
                     omsno!»</l></quote>
 
             </div>
-            <div n="26" type="chapter" xml:id="NOR0002026">
+            <div n="26" type="chapter" xml:id="NOR0001026">
                 <head><ref target="contents_26" type="contents" xml:id="chapter_26"
                     >XXVI.</ref></head>
                 <p><pb n="352"/>I den klare Sommersol strakte den gulhvide Sand sig nordover med
