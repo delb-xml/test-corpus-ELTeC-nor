@@ -1,39 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.bokselskap.no/tekstkoding/NSL_tei_xinclude.dtd">-->
-<TEI xml:id="NOR0003" xml:lang="nn" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.bokselskap.no/tekstkoding/NSL_tei_xinclude.dtd">-->
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0003" xml:lang="nn">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Juvikingar ELTeC-utgaven</title>
-                <author>Duun, Olav (1876-1939)<idno type="viaf"
-                        >https://viaf.org/viaf/66543636</idno><idno type="wiki"
-                        >https://www.wikidata.org/wiki/Q19376632</idno></author>
+                <author ref="viaf:https://viaf.org/viaf/66543636">Duun, Olav  (1876-1939)</author>
                 <respStmt>
                     <resp>ELTeC encoding</resp>
                     <name>Michael Preminger</name>
                 </respStmt>
             </titleStmt>
-            <extent><measure unit="words">71484</measure><measure unit="pages"
-                >216</measure></extent>
-            <publicationStmt>
-                <p>Incorporated into the ELTeC<date>2018-10-24</date></p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl><ref
-                        target="https://www.nb.no/nbsok/nb/48924643c3caaec752ef4eeaa384696a?index=2#0"
-                        >Teksten i bokselskap.no f&amp;#x00F8;lger 1. utgave, 1918 (Kristiania, Olaf
-                        Norlis forlag)</ref><ref target="wiki">some ref</ref>
-                    <relatedItem type="copyText">
-                        <bibl><author>O. Duun</author><title>bokselskap.no, 2016 Olav Duun:
+            <extent><measure unit="words">71484</measure><measure unit="pages">216</measure></extent>
+            <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-10-25"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC2018-10-24--></publicationStmt>
+            <sourceDesc><bibl type="unspecified"><ref target="https://www.nb.no/nbsok/nb/48924643c3caaec752ef4eeaa384696a?index=2#0">Teksten i bokselskap.no f&amp;#x00F8;lger 1. utgave, 1918 (Kristiania, Olaf
+                        Norlis forlag)</ref>
+                    </bibl><bibl type="unspecified"><author>O. Duun</author><title>bokselskap.no, 2016 Olav Duun:
                                 Juvikingar Teksten i bokselskap.no følger 1. utgave, 1918
                                 (Kristiania, Olaf Norlis forlag). Digitaliseringen er basert på fil
                                 fra Nasjonalbiblioteket (nb.no) ISBN: 978-82-8319-303-9 (digital,
                                 bokselskap.no), 978-82-8319-304-6 (epub), 978-82-8319-305-3 (mobi)
                                 </title><pubPlace>Kristiania</pubPlace><publisher> Olaf Norlis
-                                forlag</publisher><date>1918</date><idno type="wiki"
-                                >https://www.wikidata.org/wiki/Q21473314</idno></bibl>
-                    </relatedItem></bibl>
-            </sourceDesc>
+                                forlag</publisher><date>1918</date><idno type="wiki">https://www.wikidata.org/wiki/Q21473314</idno></bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-0">
             <p n="eltec-0"/>
@@ -49,7 +40,7 @@
                 <e:timeSlot key="T4"/>
             </textDesc>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2019-10-25">Checked by releaseChecker script</change>
             <change when="2016-08-09">Lagt inn ISBN.</change>
             <change when="2016-07-08">Ført inn korrekturrettelser. Entiteter, kodekontroll og
                 validering.</change>
@@ -60,8 +51,8 @@
 
         <body>
             <div n="1" type="chapter" xml:id="NOR0003001">
-                <head type="main"><ref target="contents_1" type="contents" xml:id="chapter_1">Frå
-                        gammalt av.</ref></head>
+                <head type="main">Frå
+                        gammalt av.</head>
                 <p><pb n="5"/>Den første juvikingen dei veit å fortele om, var kommen sunnant, ifrå
                     Sparbun eller Stoe eller kor det no var. Han heitte Per.</p>
                 <p>Han hadde vore gift, vart det sagt, og havt gar og grunn, og mor si hadde han med
@@ -91,8 +82,7 @@
                     mindre at ho låg slik.</p>
                 <p>Ein vakker dag kom Mærit dit med guten, og ho vart verande. Du lyt vel slå deg
                     for da, skal han ha sagt, du får ta romme etter ho mor, ho sturta her i fjor.
-                    Det hadde ingen hørt – når vart ho førd<note type="footnote">Forfatternote: førd
-                        ɔ: ført til kirkegaren.</note> da? – Førd? Nei ho ligg nedi bakken her.
+                    Det hadde ingen hørt – når vart ho førd da? – Førd? Nei ho ligg nedi bakken her.
                     Bedre jord å ligge i er her vandt om. – Gifta seg gjorde dei ikkje, men han og
                     Mærit levde lenge og vel og fekk mange born. <pb n="7"/>Ingen gjekk dem for nær,
                     og aldri la dei seg innpå nokon heller.</p>
@@ -217,8 +207,8 @@
                     Anders døde ung.</p>
             </div>
             <div n="2" type="chapter" xml:id="NOR0003002">
-                <head type="main"><ref target="contents_2" type="contents" xml:id="chapter_2">Løssi
-                        Langnatt.</ref></head>
+                <head type="main">Løssi
+                        Langnatt.</head>
                 <div n="2_1" type="uchapter">
                     <head type="sub">I.</head>
                     <p><pb n="14"/>Lei skjønna ikkje dette, kvinnfolka: kva det var med kallen i
@@ -234,8 +224,7 @@
                         Juvik-garen, dei hadde vore oppe midnattes tid og set etter ei ku, og da
                         brann det klåre logen over haugane, beint opp frå Juvika; dei vart så rædde
                         dei seig mest ihop, men så vekte dei mannen og så la dei på sprang hitetter,
-                        med kvar si vassbøtte. Men da dei kom opp i kleiva og såg <pb n="15"
-                        />hitover, så låg Juvik-garen der i svartaste nattens fred, husa låg der
+                        med kvar si vassbøtte. Men da dei kom opp i kleiva og såg <pb n="15"/>hitover, så låg Juvik-garen der i svartaste nattens fred, husa låg der
                         midt i måneskine og visste ikkje orde av varme. Nei, og da skjønna dei det
                         med ein gong: Det hadde vore brandsyn! Slikt såg ein over Håberg, straks
                         føre varmen var laus der, men der vart det no berre smia og eine bure som
@@ -295,8 +284,7 @@
                         slik hadde dei vore mest alle mann her i garen; og det røde vart blått når
                         dei låg på likstrå. Nasen var liten men kvass, og kvasse var auga med, dei
                         prøvde å sjå tvert framgjenom alt som kom i vegen.</p>
-                    <p><pb n="18"/>Det var straks føre jul, men det var lé-vêr<note type="footnote"
-                            >Forfatternote: lé-vêr ɔ: linn-vêr.</note> no, for brygging og bakster,
+                    <p><pb n="18"/>Det var straks føre jul, men det var lé-vêr no, for brygging og bakster,
                         som dei sa, og no skulde dei til, kvinnfolka, om det var ei veke for tidlig
                         aldri så mykje. Dei fekk slutte med det gamle røle no, litt medkvart, for no
                         skreiv dei 1800-tale for lenge sea.</p>
@@ -500,8 +488,7 @@
                         kropp-slåtten til kuhamn, og så kyrne vårbære: så vart det smør å sele, og
                         så vart det handpeng. Kvifor hadde ho berre ein gutunge til dreng?</p>
                     <p>Ane smått sautra og let ille: Drengen ho hadde her, han var så urimelig;
-                        sistpå vilde han ha 4 speisidaler åre, og enda støvlar og buksety <pb n="28"
-                        />og det eine verre enn det andre. Nei, før han fekk eit par støvlar attåt
+                        sistpå vilde han ha 4 speisidaler åre, og enda støvlar og buksety <pb n="28"/>og det eine verre enn det andre. Nei, før han fekk eit par støvlar attåt
                         om åre, før fekk han fara; og fór gjorde han.</p>
                     <p>Gæli, gæli, mumla Per Anders. Dei skulde drive litegrand; dei skulde røre i
                         blode. Rå til børenskap du, og send han på fiskja svartaste vinteren; det er
@@ -553,8 +540,7 @@
                         drive seg meir, som sagt, så ho ikkje vart gåande og tvitenke på det same
                         all tida. Og så skulde ho helst late dem få det som dei vilde ha det, dei
                         som smålig og kleint folk var. Han sa det tett inn i andlete på henne: «Nei
-                        for, kjem ein i ska for å gjera rang ei – det e eit falig vanhaugg<note
-                            type="footnote">Forfatternote: vanhaugg ɔ: skadehogg.</note> det. Det e
+                        for, kjem ein i ska for å gjera rang ei – det e eit falig vanhaugg det. Det e
                         respekterli! Og farvel, Ane, og takk for mæg.»</p>
                     <p>Han hørte ikkje kva ho svara. Og så gjekk dei kvar sin veg.</p>
                     <p>«Det e respekterli,» mumla han, og såg stivt fram i vegen. Per Anders fór
@@ -573,8 +559,7 @@
                         han kjørte han ut åleine midt framfor nasen på dem. Men da han stod i båten
                         og stakk ifrå land, ropte han til dem:</p>
                     <p>«Kom dokk no bortover sjursmess-dan ja, så kund det hend det vart ein
-                            slagtar-batta.»<note type="footnote">Forfatternote: batta ɔ:
-                            beta.</note></p>
+                            slagtar-batta.»</p>
                     <p>Så sette han seg i årane.</p>
                 </div>
                 <div n="2_3" type="uchapter">
@@ -685,12 +670,9 @@
                         dæg, ban.»</p>
                     <p>At ho ikkje kunde ha vore med han og rodd, sa ho. Og i natt var det ho Løssi
                         Langnatt … «Det veit du! Ro? Pøtt san. Æg e eit krøter te å ro, ska æg
-                        fortel dæg. Og eit helvet med di, at æg bli alder klar!»<note
-                            type="footnote">Forfatternote: bli alder klar ɔ: gaar aldri
-                            trøytt.</note></p>
+                        fortel dæg. Og eit helvet med di, at æg bli alder klar!»</p>
                     <p>Det same sa han med seg sjøl, da han låg uti nordvesten og sleit. Snøkóve
-                        linda seg ikring han som tjukke fellar, det var å stinte seg frå <pb n="37"
-                        />odd til odd lande frammed, slik at ein kunde ta borti det med årane. –
+                        linda seg ikring han som tjukke fellar, det var å stinte seg frå <pb n="37"/>odd til odd lande frammed, slik at ein kunde ta borti det med årane. –
                         Enno stod ho Asel og såg etter han, kom det for han; ho lo når det glufsa
                         innover framskotten til han, men ho var rædd òg, såla. Det er ikkje roandes
                         vêr det her, sa ho.</p>
@@ -730,8 +712,7 @@
                         veggene her han låg. Nauste og brygga stod vegg i vegg; der var dør imillom,
                         men ho var stengt, elles hadde han gått ut og set etter. Da det leid om
                         litt, luska det hund frammed veggen, med nasen i jorda. Per Anders kjente
-                        etter om han hadde slirkniven på seg, og så snudde han seg og <pb n="39"
-                        />sovna ifrå skiten. I sømnen hørte han det kom nokon opp frå sjøen, reiv
+                        etter om han hadde slirkniven på seg, og så snudde han seg og <pb n="39"/>sovna ifrå skiten. I sømnen hørte han det kom nokon opp frå sjøen, reiv
                         opp døra og stod still der, i mørkre. Vinden kom isande inn, gjorde han blå
                         vaken. «Orka du å stå, så orka vel æg å liggji,» sa Per Anders, og han låg.
                         No let det visst att døra, her vart lognt att. Per Anders breidde godt over
@@ -918,8 +899,8 @@
                 </div>
             </div>
             <div n="3" type="chapter" xml:id="NOR0003003">
-                <head type="main"><ref target="contents_3" type="contents" xml:id="chapter_3">Bukken
-                        remjar.</ref></head>
+                <head type="main">Bukken
+                        remjar.</head>
                 <div n="3_1" type="uchapter">
                     <p><pb n="48"/>Dagen etter krak Per Anders seg opp, da det leid utpå, men det
                         var ikkje stort om han. Han var i veg og såg etter gutungane alt i eitt,
@@ -1064,8 +1045,7 @@
                         han? Men Jens var ein underlig bror å ha.</p>
                     <p>«No ha æg tak i det. Og no fór det,» – han sa det før han sansa seg.</p>
                     <p>Jens vilde vita kva det var. Det var ingenting, å kalle. Men eg sit og tenker
-                        litt, somtid. – Ja, det skal ein vente! sa Jens. – Eg hører så <pb n="55"
-                        />tydelig kva dei seier til meg. Men det er ikkje så beint. – Og så krokut
+                        litt, somtid. – Ja, det skal ein vente! sa Jens. – Eg hører så <pb n="55"/>tydelig kva dei seier til meg. Men det er ikkje så beint. – Og så krokut
                         som vi ror! sa Jens. Sea tagde han, og da var det slett ikkje å få tak på
                         han.</p>
                     <p>– – – Det var fullt ved kvenna, så der vart dei gåande både lenge og litt
@@ -1105,8 +1085,7 @@
                     <p>«Stunn-ulen!» sa Jens.</p>
                     <p>Per kvikna til, for det var friskt at endelig ein sa eitkvart, og så sette
                         han handa for munnen og svara: Hu-uh! så det rønn i berge. Han var ein
-                        meister til å herme etter stunn-ulen,<note type="footnote">Forfatternote:
-                            stunn-ul ɔ: steinugle, hubro.</note>
+                        meister til å herme etter stunn-ulen,
                         <pb n="57"/>hadde lokka han heilt fram til husa heime eingong med det, og no
                         kom han straks lenger fram på fjellbruna og svara. Det gjekk lystig for seg
                         ei tid, dei rodde og hua, og han etter og bles. Men dei vart snart litt
@@ -1127,8 +1106,7 @@
                         folkemål! Per kunde ikkje late vera, han svara. Da kaldflirte han over dem,
                         det var som du skulde høre på eit tullmenneske som den vonde har fare i.</p>
                     <p>Og no svara det oppmillom haugane, det er oppi Svarthammaren heime, det
-                        flirer langt og lystig, det er så det kan dra bust utor ryggen <pb n="58"
-                        />på ein. Han på mastertoppen lettar på seg og fer dit – no er dei to i
+                        flirer langt og lystig, det er så det kan dra bust utor ryggen <pb n="58"/>på ein. Han på mastertoppen lettar på seg og fer dit – no er dei to i
                         båten og to oppi berge! Og no ropar det, just med dei sit og ventar på det:
                         Per og Jens! ropar det, Per og Jens!</p>
                     <p>Karane tagde og rodde. Dei bind båten til ein stein i støa heime, hiver
@@ -1232,8 +1210,7 @@
                         i armane.</p>
                     <p>«Jens!» ropte Per Anders i senga. Han ropte ein gong til, og det slik att
                         Jens kom slurande inn. – «Ikkj-noko ban-fakti åt mæg!» varskudde han. «For e
-                        du ikkje skræmt enno, så bli du det; hus-på det, Jens. For du e ikkj <pb
-                            n="63"/>noko te kar lel du. A nei san; det vart no ikkj slik. Det hørtes
+                        du ikkje skræmt enno, så bli du det; hus-på det, Jens. For du e ikkj <pb n="63"/>noko te kar lel du. A nei san; det vart no ikkj slik. Det hørtes
                         som ei nå-låt fer mæg.»</p>
                     <p>Han fekk ikkje sova den natta, han hadde ikkje godt av maten. Dei sov ikkje
                         dei andre heller, dei sat oppe og heldt vakarnatt, som skikken var. Men Per
@@ -1311,8 +1288,7 @@
                     <p>Han sov att, og han vakna ikkje før andre dagen. Dei var oppe heile natta,
                         dei to døtterne; men Ane var trøytt og klar og sov for det meste, og det
                         gjorde mora med. Han låg og tulla og snakka, og somtid lo han; det var
-                        utrivelig å høre på, Åsel sa det sea, at ho syntes ho skjelvoks <pb n="67"
-                        />over all sin kropp når han tok til på det verste. Midnattes tid låg han og
+                        utrivelig å høre på, Åsel sa det sea, at ho syntes ho skjelvoks <pb n="67"/>over all sin kropp når han tok til på det verste. Midnattes tid låg han og
                         lya, tok i senggavlen og letta på seg: «Høyr den støgge bokkjen da, kor han
                         remja! Å nei, ban, du skremi ikkj mæg ikkj!» – Månen skjein så det spraka i
                         veggene, det var så sugande gult og stilt ute, det var verre enn svartaste
@@ -1334,8 +1310,7 @@
                         det er tussi å gå ifrå det slik.</p>
                     <p>«Åsel, kor det vart tå dæg?» Ho bøyde seg over han. «Ja, der e du!» han
                         smilte som barne og leita etter handa hennar. «Du må driv døgti med småfe i
-                        Juvika da, når du kjem så langt. Og så må du veit ut myra te gagns, <pb
-                            n="68"/>der hi dem det dem ska hald seg i varmin med, småkaran din. Og –
+                        Juvika da, når du kjem så langt. Og så må du veit ut myra te gagns, <pb n="68"/>der hi dem det dem ska hald seg i varmin med, småkaran din. Og –
                         e – så val du vara god med 'om Jens og 'n Beret, det vart no ikkj så greit
                         for dem. Så var det ikkje noko meir da. Rettno – tek æg staven.»</p>
                     <p>Han sov mest før han fekk sagt det. Jens drog opp ein liten flir og gjekk
@@ -1356,8 +1331,7 @@
                         Blå-Per det her, sa han. A ja, alle monnane dreg; når dei berre dreg til
                         gars; gu gjer dei så ja. Sildgarn? pytt san! Eg tek alt som ligg på rak i
                         fjorden. Skal du stela, ban, så må du ikkje stå og darra, du må ta det som
-                        du eig det sjøl. Men no er eg full og rik – og i gudsrike der <pb n="69"
-                        />skulde eg ha vore ja. Eg veit kva eg gjer: eg ber til bake heile
+                        du eig det sjøl. Men no er eg full og rik – og i gudsrike der <pb n="69"/>skulde eg ha vore ja. Eg veit kva eg gjer: eg ber til bake heile
                         stulderen! Det er kars verk det: å bera heim tjuvgods! Fred i nauste, sei eg
                         – trur du eg er mørkrædd! – – Nei, ban, det er 'n far det her. Han Anders
                         sjøl. Banka kjerringa ja, kven annan skulde banke henne, sei meg det? No har
@@ -1405,8 +1379,7 @@
                 </div>
             </div>
             <div n="4" type="chapter" xml:id="NOR0003004">
-                <head type="main"><ref target="contents_4" type="contents" xml:id="chapter_4"
-                        >Nårøyken slær til gars.</ref></head>
+                <head type="main">Nårøyken slær til gars.</head>
                 <div n="4_1" type="uchapter">
                     <head type="sub">I.</head>
                     <p><pb n="72"/>Dagen etter brennte dei likhalmen. Det var stilt i dråtten, kan
@@ -1650,8 +1623,7 @@
                         til eit med dei grommaste. – Å jøss for ei kiste, hørte dei ei kone som sa.
                         – Ja, det står mest ikkje på, når ein får ei slik ei, svara den andre. –
                         Nei, og enn slikt godvêr da, både på sjø og land. – Å ja, han Per Anders
-                        Juvika, han hadde no gjernast lukka med seg han. – Ja, som no <pb n="84"
-                        />berre det: at dei brennte i år; dei som brennte så sjelden.</p>
+                        Juvika, han hadde no gjernast lukka med seg han. – Ja, som no <pb n="84"/>berre det: at dei brennte i år; dei som brennte så sjelden.</p>
                     <p>Og dei smaka på det som brennt var, og dei tykte det var godt. Ingen drakk
                         seg tå; det var gasta folk; mein dei vart snakkarglade så det var ein
                         hugnad, og linne og godslige av seg; husfolke gjekk ut og inn og sola seg i
@@ -1832,8 +1804,7 @@
                 </div>
             </div>
             <div n="5" type="chapter" xml:id="NOR0003005">
-                <head type="main"><ref target="contents_5" type="contents" xml:id="chapter_5"
-                        >Juvik-kjempa lear på seg.</ref></head>
+                <head type="main">Juvik-kjempa lear på seg.</head>
                 <div n="5_1" type="uchapter">
                     <head type="sub">I.</head>
                     <p><pb n="93"/>Sjøl veit, sa Per ein dagen, han og Jens var nedmed sjøen og
@@ -1973,14 +1944,12 @@
                         godslig som ein leikande unge; så stana det ur-lite og lya, langt ut i
                         lufta, og så tok det til att.</p>
                     <p>Jens sputta aldri på agne når han hivde det, og ongul kalla han ongul og fisk
-                        kalla han fisk, og slik bortgjenom, han var egte juviking, enten <pb n="100"
-                        />dei trudde det eller ikkje; og fisk fekk han for det, såg ikkje anna. – Og
+                        kalla han fisk, og slik bortgjenom, han var egte juviking, enten <pb n="100"/>dei trudde det eller ikkje; og fisk fekk han for det, såg ikkje anna. – Og
                         i kveld skal dei bli vâr meg, gammalkarane, enten dei vil eller ikkje, sa
                         han; han sa det høgt i fosseduren, og togg seg på leppa. – I kveld skal dei
                         få sjå!</p>
                     <p>Han fór ikkje Oterbekken ned til plassen, han tok tvert om myra og til
-                        Dølbekken, enda der var agneta<note type="footnote">Forfatternote: agnet ɔ:
-                            små-aure.</note> så små ho var ikkje steikande. Han heftast heller ikkje
+                        Dølbekken, enda der var agneta så små ho var ikkje steikande. Han heftast heller ikkje
                         der, han var snart nedmed ein plass som heiter Aune. Der kom det ein ut og
                         stod i døra, ein ungdom, noko yngre enn Jens; han stod litt og følgde
                         fiskaren, og visste ikkje rettelig. Men så tok han seg mot for og gjekk
@@ -2118,8 +2087,7 @@
                         som kom, ho var rar så lys og still; han tok kute sistpå, han flirte men han
                         måtte i veg, hinka og sprang og gjorde ein vill fart.</p>
                     <p>Da han stod heime i garen, pusta han ut. Da såg han det for seg, det var ein
-                        forunderlig klår og rar augeblink: Slik hadde dei rennt seg <pb n="107"
-                        />rædde, alle dei gamle bjønnane her, mann etter mann hitgjenom tida – å,
+                        forunderlig klår og rar augeblink: Slik hadde dei rennt seg <pb n="107"/>rædde, alle dei gamle bjønnane her, mann etter mann hitgjenom tida – å,
                         det er kaldvore å vera vaksen-kar òg, somtid, for det om ein aldri trur på
                         det slag meir. Men han Per, han er ein urande liten ein: Han fer og ligg
                         borti Gammel-stu om nættene, skal herde seg til og bli som 'n far. Det er
@@ -2139,8 +2107,7 @@
                         skulde bli bryllopp vest i plassane. Tidna gjekk i kross og krok, til ho
                         nådde fram til Juvika òg.</p>
                     <p>Valborg la ifrå seg arbeide sitt, tørka av fingrane lenge og vel og så gjekk
-                        ho ut. – Ja, du Per, du Per, sa ho, og ho var mjuk og opptint over <pb
-                            n="108"/>heile det breie sterke andlete. – Nei, eg visste det, eg, det
+                        ho ut. – Ja, du Per, du Per, sa ho, og ho var mjuk og opptint over <pb n="108"/>heile det breie sterke andlete. – Nei, eg visste det, eg, det
                         vart ei råd. Når du berre vilde.</p>
                     <p>Per var nedpå gjorde og flytta hestane. Valborg tok med seg bøtta som stod
                         der, og var bortom bekken etter vatn til dem med det same. No først kom det
@@ -2181,8 +2148,7 @@
                         til. Jens arbeidde så det stod etter, og daganes dag, så Per vart reint opp
                         i under. Han likte det, og han likte det ikkje. Det var slikt gjøys med
                         Jens, han tok vêre ifrå ein annan ein; så pla det snåpt vera over att, og
-                        det var det verste Per visste. Serlig no dei var toeina. For da <pb n="110"
-                        />stod det så tydelig, midt imot dem, at dei hadde ikkje fått tak på det dei
+                        det var det verste Per visste. Serlig no dei var toeina. For da <pb n="110"/>stod det så tydelig, midt imot dem, at dei hadde ikkje fått tak på det dei
                         skulde gjera, og fekk det ikkje heller. Det var ikkje anna råd enn å ta det
                         med kapparbeid, som dei var fiendar, for da var det von at Jens hang med. –
                         Han hang med. Dei demte opp og søkte bekken eit par aln, så langt som
@@ -2372,7 +2338,7 @@
                     <p><pb n="119"/>Ho måtte ut med det til Per, om kvelden dei vart toeina:</p>
                     <p>«Det skuld no aldri vara – – »</p>
                     <p>«– han Morten som va tjyven jau? Jau, det kan du ferbann dæg på!»</p>
-                    <p>«Æg mein da du e fél,<note type="footnote">Forfatternote: fél ɔ: fæl</note>
+                    <p>«Æg mein da du e fél,
                         æg!» Ho vart liggande fortenkt. – Ja ja, sa ho om ei stund; det fekk våge
                         seg det; no når det var gjort. Men sprang han på sjøen da? Ja, da var det no
                         sjølgjort da; så da fekk det bli hans sak å svara for det.</p>
@@ -2440,8 +2406,7 @@
                 </div>
             </div>
             <div n="6" type="chapter" xml:id="NOR0003006">
-                <head type="main"><ref target="contents_6" type="contents" xml:id="chapter_6"
-                        >Tuftene skyt ham.</ref></head>
+                <head type="main">Tuftene skyt ham.</head>
                 <div n="6_1" type="uchapter">
                     <head type="sub">I.</head>
                     <p><pb n="122"/>Juvik-garen ligg ned imot fjorden i aust, med brattreinar og
@@ -2494,8 +2459,7 @@
                     <p>Valborg måtte for resten sjå på Per. Så utsliten hadde ho ikkje set han. Slik
                         hadde ho ønskt seg han skulde bli, nokon gong, så skulde ho vera god med
                         han. Men no sa ho berre:</p>
-                    <p>«Du e no vel ikkj styrlaus, Per? Du må no vel vatta<note type="footnote"
-                            >Forfatternote: vatta ɔ: veta.</note> hut?»</p>
+                    <p>«Du e no vel ikkj styrlaus, Per? Du må no vel vatta hut?»</p>
                     <p>Han blinka, og stod og kjente med tunga innetter tanngaren, liksom han hadde
                         svare der ein staden.</p>
                     <p>«He?» Valborg vart mållaus mest, kva skulde ein trive til? Ho vart mørkraud
@@ -2610,8 +2574,7 @@
                         hadde når dei tok seg for med eitkvart.</p>
                     <p>Å jau, sa han medkvart. Å jau; med guds og godmanns hjelp så. Og skog ja, og
                         hamning – han stod på Stallhaugen og såg bortover – her måtte ein da vel
-                        vera bra usørgandes for det. Og ingen lang sjøveg. Og så<note
-                            type="footnote">så] rettet fra: sa (trykkfeil i 1. utg.)</note>
+                        vera bra usørgandes for det. Og ingen lang sjøveg. Og så
                         brenntorv, brenntorv alt med ein såg bortover. Og nyland å ta opp, nøgda for
                         heile live:</p>
                     <p>«Bevare dæg for ei vidd og for ei megtiheit!»</p>
@@ -2646,8 +2609,7 @@
                         ho såg det for seg kor det bar att og ned med garen, og åra tok henne sjøl,
                         ho skulde sele no og få litt peng på kistebotnen, det var ingen småskilling
                         han baud henne, 400 daler radt og rundt! og slegtningane etter mannen hennar
-                        dem skulde han snakke med, han skulde gå dikt på dem, sa han, <pb n="132"
-                        />by dem proces og full hyre, var så dei lysta på det.</p>
+                        dem skulde han snakke med, han skulde gå dikt på dem, sa han, <pb n="132"/>by dem proces og full hyre, var så dei lysta på det.</p>
                     <p>Dikt på dem! – det var eit ord som tok henne. Han Per fekk dei agte seg eit
                         grand for.</p>
                     <p>Ja, eller kanskje han skulde godsnakke med dem? Kanskje så flyttar du til
@@ -3002,8 +2964,7 @@
                         greine med både eitt og anna.</p>
                     <p>Men da hadde alt Åsel komme dit. – Ja, no får du ta garen, sa han til henne.
                         – Ho? – Just nettopp ja. – Men enn han da? – Nei. Slik fór ein ikkje og rak.
-                        Og du, han snudde seg til Dåret, du får få eit lite kår, ei ku og <pb
-                            n="149"/>litt korn og kva det no kan bli; så vidt du lever. – Kår? –
+                        Og du, han snudde seg til Dåret, du får få eit lite kår, ei ku og <pb n="149"/>litt korn og kva det no kan bli; så vidt du lever. – Kår? –
                         Jaha, kår ja. For det bli ikkje så du får komma dragande hit med han der
                         huskallen din nedant Skare, det klikka det, sa vi. Veikjungen snakkar vi
                         ikkje om – har du forstått meg rett? – Ja ja da, sa Dåret, og no seig ho i
@@ -3037,8 +2998,8 @@
                 </div>
             </div>
             <div n="7" type="chapter" xml:id="NOR0003007">
-                <head type="main"><ref target="contents_7" type="contents" xml:id="chapter_7">«Men
-                        frels os fra det onde!»</ref></head>
+                <head type="main">«Men
+                        frels os fra det onde!»</head>
                 <div n="7_1" type="uchapter">
                     <head type="sub">I.</head>
                     <p><pb n="151"/>Det var utpå førejulsvinteren, ein totre år etter.</p>
@@ -3268,8 +3229,7 @@
                         han etter Ane. Steffen Storsko kalla gutstrikane han, for han hadde slike
                         store foteblad, – dei hadde tinga seg horn-skjei-emne utor stortå-neglene
                         hans, fortalte dei. Det var ein tru ein i alt arbeid, og Per hadde komme på
-                        snakk med han, så reint av seg sjøl; det var ikkje mange han snakka <pb
-                            n="162"/>noko med. – Håberg skal bli gar det, Steffen, sa han med han. –
+                        snakk med han, så reint av seg sjøl; det var ikkje mange han snakka <pb n="162"/>noko med. – Håberg skal bli gar det, Steffen, sa han med han. –
                         Håberg er gar det, murra den andre. – Når vi får stelt lite grand med
                         storsteinen her, og med vatne. – Nå, det veit eg no ikkje. – Kvifor ikkje? –
                         Ja. Han er no gammal her han da, steinen. Frå føre di tid. – Ja, men rettno
@@ -3280,8 +3240,7 @@
                     <p>Han lea innpå denne praten fleire gonger utover sommaren, men Steffen vart
                         meir og meir sta. Steinen, kva gale hadde han gjort? Og vatne? Hadde dei
                         ingen rett no for tida, slike ting? «Det vart vakkert til årveg på Håberg i
-                        år. Det gjord så. Men: veit du ka du fe<note type="footnote">Forfatternote:
-                            ka du fe ɔ: kva du får.</note> te åri komman', mein du?»</p>
+                        år. Det gjord så. Men: veit du ka du fe te åri komman', mein du?»</p>
                     <p>Ovtru og tull, bles Per. – Ja, kva det no var og ikkje om det – – så var ho
                         no gammal ho som temte. Han Iver Brudalen, ein såg no med han. – Kva det var
                         med han da? – Nei, ingen ting. Anna enn det da, at han vart under steinen
@@ -3329,8 +3288,7 @@
                         seg. Han kunde hoppe si eiga høgd enno, han kunde kappspringe med hesten;
                         kunde jaga folk på sjøen, stod det om, smilte han med seg sjøl.</p>
                     <p>No gjekk han sin veg, til sitt. Han heldt på med storsteinen lenger nedpå
-                        gjorde. Han løfta på auga da han gjekk, såg seg i kring med <pb n="165"
-                        />slikt høgt eit mot: Det var dette her han hadde stått etter all sin dag;
+                        gjorde. Han løfta på auga da han gjekk, såg seg i kring med <pb n="165"/>slikt høgt eit mot: Det var dette her han hadde stått etter all sin dag;
                         det var derfor han var kommen her. Det kom ikkje for han at han hadde tvila
                         på det nokon gong; det var ho Valborg det, og ho hadde tida til å tru det ho
                         vilde.</p>
@@ -3349,8 +3307,7 @@
                         Det vilde Per gjerne tru. Småkallane heldt vel til her, og no skulde han
                         vanlaga huse for dem; han hadde set ein av dem her ifjor, han sprang frå den
                         steinen der borte til steinrauka nedom reina, nøsta og sprang så sliren
-                        slong bakpå han. Per støytte jarnstauren midt i andlete på steinen: Huff <pb
-                            n="166"/>gut! Så hoppa han ned i hole og til å grava. Det var litt
+                        slong bakpå han. Per støytte jarnstauren midt i andlete på steinen: Huff <pb n="166"/>gut! Så hoppa han ned i hole og til å grava. Det var litt
                         vålig, for grava var djup og trong, og steinen låg visst berre på lur. Per
                         gjorde seg som ei trapp i den andre veggen. Så om tuftkallane fann på å
                         velta han i veg for tidlig, så skulde dei ikkje ha stort for det.</p>
@@ -3392,8 +3349,7 @@
                         mest var borte inni mørkre og skogen. Da lo han hitover: «A–i a–i a–i
                         ó!»</p>
                     <p>Per humra litt, han òg, og så gav han seg til å løyse steinen. Gamlingen seig
-                        ned i senga si med ein lang, grov sukk; han var for gammal til å <pb n="168"
-                        />mæle imot. Røyken stod unna han, og jamenn tok han Per etter seg!</p>
+                        ned i senga si med ein lang, grov sukk; han var for gammal til å <pb n="168"/>mæle imot. Røyken stod unna han, og jamenn tok han Per etter seg!</p>
                     <p>«Nei bi no!» sa Per, tok seg drægt og fór opp att, – «æg ska no ikkj rottn'
                         her! – Dem vart no for støtt denher gongjen", la han til.</p>
                     <p>Så vilde han ta småstein-dungen og hive ovapå storen i hole. Det blir grunnt
@@ -3409,8 +3365,7 @@
                         stykke, føtene dei veikna bort under han, og han vart ulik all igjenom. Han
                         tok etter ein til, for han vart arg, men det var inga magt i han meir, han
                         måtte bera han nedover.</p>
-                    <p>Forresten var linfåa<note type="footnote">Forfatternote: Linfå ɔ: hol dei
-                            fådde lin i.</note> fyllt no, så dei var kvitt både hole og steinen, og
+                    <p>Forresten var linfåa fyllt no, så dei var kvitt både hole og steinen, og
                         Anders måtte heim og sjå etter sauene, dei stal seg gjerne til fjells til
                         natta.</p>
                     <p>Per gjekk i måneskine og stussa med småsteinen. <pb n="169"/>Det var ikkje
@@ -3620,8 +3575,7 @@
                     <head type="sub">V.</head>
                     <p>Han let det vera. Fjortan-dagane hadde gått, og enno var Jens på Håberg. Eitt
                         og anna take hjelpte han til i garen med, men elles fór han og slong for det
-                        meste, var ute og fór med pelsen på, såg innom einkvan kjendingen, dei <pb
-                            n="179"/>kunde sjå det alle i hop at det hadde vorte storkar tå han. Dei
+                        meste, var ute og fór med pelsen på, såg innom einkvan kjendingen, dei <pb n="179"/>kunde sjå det alle i hop at det hadde vorte storkar tå han. Dei
                         snakka frampå om det til Per, at javisst hadde det vorte storkar tå han Jens
                         ja, der trefte dei ein som hamla opp med dem, både prest og lensmann, – han
                         strauk vel nordover snart att? –</p>
@@ -3640,8 +3594,7 @@
                         ikkje, eg, sa ho, – han er visst ikkje så frak han Per. – Han? – Ja, han har
                         skamgjort seg med ein stein, trur eg. Han har slite seg sund.</p>
                     <p>Jens kvikna til når Valborg snakka til han, for det gjekk så sjelden på. –
-                        He! var han ikkje sterkare karen? Slite seg sund? det har da visst <pb
-                            n="180"/>aldri ein juviking gjort før. Det bli berre skrap med heile
+                        He! var han ikkje sterkare karen? Slite seg sund? det har da visst <pb n="180"/>aldri ein juviking gjort før. Det bli berre skrap med heile
                         greina da – løkk på reisa!</p>
                     <p>Valborg beit seg hardt i leppa. – Det var 'n Halt-Andrias han kom i vanhogg
                         for; kom til å fara urlite hardhendt med han; dagen etter fekk han det. Men
@@ -3807,8 +3760,7 @@
                         ikkj svara mæg, Valbor?»</p>
                     <p>«Den som berre visst – – ka' n skuld svara!»</p>
                     <p>Per sette seg attmed varmen. Valborg sat i senga. Dei merka at tida gjekk
-                        ikkje, og dei venta ikkje ho skulde gå heller. Anders hørte <pb n="188"
-                        />dei, rett som det var, måle hans var kring alle veggene og i alle dører;
+                        ikkje, og dei venta ikkje ho skulde gå heller. Anders hørte <pb n="188"/>dei, rett som det var, måle hans var kring alle veggene og i alle dører;
                         han var så berrmælt og frisk. «Kjem æg att, så kjem æg i natt,» sa han. Per
                         krøktes framover, han anka seg høgt ned i hendene sine: «Å ja ja! Du kjem
                         vel, du gjer ikkj anna.»</p>
@@ -3908,8 +3860,8 @@
                 </div>
             </div>
             <div n="8" type="chapter" xml:id="NOR0003008">
-                <head type="main"><ref target="contents_8" type="contents" xml:id="chapter_8">Ein
-                        båredal i ætta.</ref></head>
+                <head type="main">Ein
+                        båredal i ætta.</head>
                 <div n="8_1" type="uchapter">
                     <head type="sub">I.</head>
                     <p><pb n="193"/>Det kom over Per som ei sveitting ein kvelden, at no gjekk han
@@ -3946,7 +3898,7 @@
                         det hadde vore slik med dei alle; ein trudde det ein trong å tru, men enda
                         tagg ein ikkje for seg.</p>
                     <p><pb n="195"/>Per vart stillvoren i seg. Det var dette med helsa. Ho var så
-                        tung å umbera.<note type="footnote">Forfatternote: umbera ɔ: undvera.</note>
+                        tung å umbera.
                         Kunde ein lure henne til seg att, så var ho det vel verd. Men han gav seg
                         ikkje om det; dei kunde ha henne, dei som hadde teke henne. Ja visst, folk
                         gjekk og såg på han for dette: Han hadde vorte nedtukta. Dumme folk er folk
@@ -4048,8 +4000,7 @@
                         no ein ting å ha, det òg, ei kjerring som ikkje tok tukt!</p>
                     <p>Det var verst når han råkte folk. Det var ei skamm: Ein ungdom i beste åra,
                         og det ein juviking enda, som gjekk her og drog seg og hadde sott! Han var
-                        utpeka for heile bygda – han hadde vorte for stutt. Derfor heldt han seg <pb
-                            n="200"/>utor folkeauga. Derfor var det han la i veg austover òg, i
+                        utpeka for heile bygda – han hadde vorte for stutt. Derfor heldt han seg <pb n="200"/>utor folkeauga. Derfor var det han la i veg austover òg, i
                         gårkveld, han mintes det no.</p>
                     <p>Best han sat, hivde han ein mosedott ifrå seg, magen var ikkje til å kjenne
                         paa lenger, han stirde ut i vêre med stivt andlet: Som ein tyrk har eg fare

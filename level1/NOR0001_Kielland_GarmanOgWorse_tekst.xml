@@ -1,37 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0001" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0001" xml:lang="nb">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Garman &amp; Worse ELTeC-utgaven</title>
-                <author>Kjelland, Alexander (1849-1906)<idno type="viaf"
-                        >https://viaf.org/viaf/54187212</idno><idno type="wiki"
-                        >https://www.wikidata.org/wiki/Q318358</idno></author>
+                <author ref="viaf:https://viaf.org/viaf/54187212">Kjelland, Alexander  (1849-1906)</author>
                 <respStmt>
                     <resp>ELTeC encoding</resp>
                     <name>Michael Preminger</name>
                 </respStmt>
             </titleStmt>
-            <extent><measure unit="words">44106</measure><measure unit="pages"
-                >362</measure></extent>
-            <publicationStmt>
-                <p>Incorporated into the ELTeC<date>2018-10-22</date></p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl><ref target="http://www.bokselskap.no/boker/forraadt/tittelside">Teksten i
+            <extent><measure unit="words">44106</measure><measure unit="pages">362</measure></extent>
+            <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-10-25"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC2018-10-22--></publicationStmt>
+            <sourceDesc><bibl type="unspecified"><ref target="http://www.bokselskap.no/boker/forraadt/tittelside">Teksten i
                         bokselskap.no er basert p&amp;#x00E5; skannet og ocr-lest txt-fil mottatt
-                        fra NB/bokhylla.no.</ref><ref target="wiki">some ref</ref>
-                    <relatedItem type="copyText">
-                        <bibl><author>A. L. Kjelland</author><title>bokselskap.no, 2013. Alexander
+                        fra NB/bokhylla.no.</ref>
+                    </bibl><bibl type="unspecified"><author>A. L. Kjelland</author><title>bokselskap.no, 2013. Alexander
                                 L. Kielland: Garman &amp; Worse (1880) Teksten i bokselskap.no
                                 følger 1. utgave, 1880. Digitaliseringen er basert på skannet og
                                 ocr-lest fil mottatt fra
                                 Nasjonalbiblioteket/Bokhylla.no.</title><pubPlace>Kjøbenhavn</pubPlace><publisher>Gyldendalske
                                 Boghandels Forlag (F. Hegel &amp;
-                                Søn)</publisher><date>1880</date><idno type="wiki"
-                                >https://www.wikidata.org/wiki/Q21473314</idno></bibl>
-                    </relatedItem></bibl>
-            </sourceDesc>
+                                Søn)</publisher><date>1880</date><idno type="wiki">https://www.wikidata.org/wiki/Q21473314</idno></bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-0">
             <p n="eltec-0"/>
@@ -47,7 +41,7 @@
                 <e:timeSlot key="T3"/>
             </textDesc>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2019-10-25">Checked by releaseChecker script</change>
             <change when="2013-05-16">Rettet ca 40 skanne-/tastefeil i de to siste kapitlene
                 (oppdaget og innsendt av en bruker). Validert. Sender oppdatert fil til
                 Bodil.</change>
@@ -66,7 +60,7 @@
 
         <body>
             <div n="1" type="chapter" xml:id="NOR0001001">
-                <head><ref target="contents_1" type="contents" xml:id="chapter_1">I.</ref></head>
+                <head>I.</head>
                 <p><pb n="1"/>Intet er saa rummeligt som Havet, intet saa taalmodigt. Paa sin brede
                     Ryg bærer det lig en godslig Elefant de smaa Puslinger, der bebo Jorden; og i
                     sit store kjælige Dyb eier det Plads for al Verdens Jammer. Det er ikke sandt,
@@ -76,8 +70,7 @@
                 <p>Og mens Puslingerne stirre udover, synger Havet sine gamle Sange. Mange forstaar
                     det slet ikke; men aldrig forstaar to det paa samme Maade. Thi Havet har et
                     særskilt Ord til hver især, som stiller sig Ansigt til Ansigt med det.</p>
-                <p>Det smiler med blanke, grønne Smaabølger til de barbente Unger, som fanger <pb
-                        n="2"/>Krabber; det bryder i blaa Dønninger mod Skibet og sender den friske,
+                <p>Det smiler med blanke, grønne Smaabølger til de barbente Unger, som fanger <pb n="2"/>Krabber; det bryder i blaa Dønninger mod Skibet og sender den friske,
                     salte Skumsprøit langt ind over Dækket; tunge, graa Sjøer komme væltende mod
                     Stranden, og mens trætte Øine følge de lange, hvidgraa Brændinger, skyller
                     Skumstriberne i blanke Buer henover den glatte Sand. Og i den dumpe Lyd, naar
@@ -309,7 +302,7 @@
 
             </div>
             <div n="2" type="chapter" xml:id="NOR0001002">
-                <head><ref target="contents_2" type="contents" xml:id="chapter_2">II.</ref></head>
+                <head>II.</head>
                 <p><pb n="16"/>Det høieste Punkt paa den milelange flade Sandstrand var
                     Bratvoldsbrækken. Der var Fyrhuset bygget paa den yderste Kant af Skraaningen,
                     som faldt saa brat af mod Søen, at man maatte løbe ned ad den paaskjøns og
@@ -337,8 +330,7 @@
                     over det lille Fyrhus, sad Fader og Datter lunt bag de tykke Mure og de lukkede
                     Skodder; medens Lyset faldt i regelmæssige blændende Blink fra Fyrlygten ud over
                     Bølgerne, som kogte og brusede nede i Stranden. Det evige Drøn fra Havet
-                    blandede sig i deres Samtaler, i deres Latter, i hendes Musik, – deres <pb
-                        n="18"/>hele Liv tog en frisk Smag af dette altid vexlende Hav, der skyllede
+                    blandede sig i deres Samtaler, i deres Latter, i hendes Musik, – deres <pb n="18"/>hele Liv tog en frisk Smag af dette altid vexlende Hav, der skyllede
                     lige under deres Vinduer.</p>
                 <p>Madeleine havde arvet meget af Faderens lette Sind; men saa havde hun ogsaa noget
                     heftigt – en af Gouvernanterne havde kaldt det Trods. Da hun derfor blev voxen,
@@ -510,8 +502,7 @@
                     Mærke i Sandet, og hendes smaa Damestøvler tog sig saa snurrigt ud ved Siden, at
                     de maatte vende sig og le. De legte og lo som Barn uden at mærke, at de vare
                     voxne, og Per maatte love, at holde op med at tygge Tobak. Og langsmed den
-                    bugtede Strand lige ved Randen af det store friske Hav feirede de <pb n="28"
-                    />sin Livsfest – disse unge Hjerter, mens Brændingen rullede med smaa krumme
+                    bugtede Strand lige ved Randen af det store friske Hav feirede de <pb n="28"/>sin Livsfest – disse unge Hjerter, mens Brændingen rullede med smaa krumme
                     Bølger, der tindrede i det klare Solskin. –</p>
                 <p>– Fyrforvalteren havde netop fuldført et Brev til sin Broder. Det var et af disse
                     kjedsommelige Forretningsbreve med indlagte Vexelblanketter. Aldrig kunde han
@@ -558,7 +549,7 @@
 
             </div>
             <div n="3" type="chapter" xml:id="NOR0001003">
-                <head><ref target="contents_3" type="contents" xml:id="chapter_3">III.</ref></head>
+                <head>III.</head>
                 <p><pb n="31"/>«Avoir – avant – avu – saa var det! – avoir – avant – avu – det er
                     rigtigt – Gutten min! – avoir – avant.» –</p>
                 <p>Nu vidste hele Klassen, at Adjunkten var falden i Tanker. Han gik med lange
@@ -766,8 +757,7 @@
                 <p>Og dog var der en Conto, som ingen havde Greie paa og det var
                     Legationssekretærens. Den havde intet dødeligt Øie seet; nogle mente, den maatte
                     findes i Konsulens røde Bog, andre troede, at den slet ikke var til. – Ogsaa
-                    Korrespondancen med Legationssekretæren førtes af Husets Chef personligt; <pb
-                        n="44"/>og det mærkeligste var, at disse Breve aldrig blev kopierede.
+                    Korrespondancen med Legationssekretæren førtes af Husets Chef personligt; <pb n="44"/>og det mærkeligste var, at disse Breve aldrig blev kopierede.
                     Kontorfolkene spekulerede mange Gange herover og fandt tilslut ud, at
                     Unge-Konsulen ikke vilde, at man skulde erfare, i hvilket Forhold Richard Garman
                     stod til Firmaet.</p>
@@ -782,14 +772,13 @@
                     Dag, der var kommet Brev fra Bratvold. Da han – Budet – kom ind med
                     Bankporteføljen, stod Unge-Konsulen henne ved Nøgleskabet med Brevet i den ene
                     Haand og to Vexler i den anden – ganske rød og sammenkroget, somom han vilde
-                    kvæles. Først troede Budet, at Konsulen havde faaet Slag, da – ja <pb n="45"
-                    />enhver kunde jo høre, at det var Løgn – da vilde han – Budet – tydeligt have
+                    kvæles. Først troede Budet, at Konsulen havde faaet Slag, da – ja <pb n="45"/>enhver kunde jo høre, at det var Løgn – da vilde han – Budet – tydeligt have
                     hørt Konsulen – Unge-Konsulen – sprude ud i en liden kort, men tydelig Latter.
                     Dette var naturligvis en Misforstaaelse; enhver vidste, at Unge-Konsulen ikke
                     kunde le. –</p>
             </div>
             <div n="4" type="chapter" xml:id="NOR0001004">
-                <head><ref target="contents_4" type="contents" xml:id="chapter_4">IV.</ref></head>
+                <head>IV.</head>
                 <p><pb n="46"/>Da Gabriel havde lukket Døren, efterat have meldt Onkelens Ankomst,
                     reiste Konsulen sig og gik hen til Nøgleskabet. Her tog han et Uhyre af en
                     Nøgle, hvorved der hang et gammelt sort Træstykke. Derpaa børstede han sine
@@ -941,8 +930,7 @@
                 <p>Men Gyngehesten var et Legetøi fra deres Barndom – «alting var mere solid i gamle
                     Dage– » sagde Christian Fredrik – og da den engang kom for Dagen blandt andet
                     Skrammel, lod Konsulen den bringe ned i Vinkjælderen.</p>
-                <p>I mange Aar havde han nu siddet pa sin Barnehest og drukket den gamle Vin af <pb
-                        n="55"/>de gamle Glas med sin gamle Legekammerat. Og Legationssekretæren sad
+                <p>I mange Aar havde han nu siddet pa sin Barnehest og drukket den gamle Vin af <pb n="55"/>de gamle Glas med sin gamle Legekammerat. Og Legationssekretæren sad
                     i den skrøbelige Lænestol, der knagede under hans Vægt, fortalte Historier og
                     lo, mindedes gamle Dage og drak den funklende Vin. Og aldrig havde nogen Vin
                     smagt ham saa godt, aldrig havde nogen Sal straalet saaledes i hans Øine som den
@@ -978,7 +966,7 @@
 
             </div>
             <div n="5" type="chapter" xml:id="NOR0001005">
-                <head><ref target="contents_5" type="contents" xml:id="chapter_5">V.</ref></head>
+                <head>V.</head>
                 <p><pb n="57"/>Man spiste ovenpaa i den lille Sal mod Nord, og Selskabet samledes i
                     de to saakaldte Søndagsstuer, der vendte mod Haven.</p>
                 <p>Fru Garman var altid i sort Silke; men idag var den ualmindeligt svær og
@@ -1203,8 +1191,7 @@
                     i Haand.»</p>
                 <p>«Netop» – tog Adjunkten Ordet, «har en Gut faaet Bank i Skolen, bør han ogsaa
                     have det hjemme.»</p>
-                <p><pb n="71"/>«Hjemmene ere jo forskjellige»,<note type="footnote">forskjellige»,]
-                        rettet fra: forskjellige,</note> sagde Johnsen; det var første Gang, han
+                <p><pb n="71"/>«Hjemmene ere jo forskjellige», sagde Johnsen; det var første Gang, han
                     sagde noget, som Rachel ikke fandt kraftigt nok.</p>
                 <p>«Aa – men alligevel!» raabte Fru Aalbom, lagde Hovedet paa Siden og saa op i
                     Loftet, «Hjerteforholdet – Hjemmet – Moderømheden – o – Hjemmet – Hjemmet!»</p>
@@ -1236,8 +1223,7 @@
                     ned i den brede Gang foran Huset og ventede paa Kaffen. Han var endnu sint over
                     sine Uheld og de Krænkelser, han havde lidt. Fruen søgte at berolige ham, idet
                     hun slyngede den ene Arm omkring ham:</p>
-                <p>«Hvorledes kan dog en Mand som du – Aalbom! – bryde dig om sligt! – <pb n="73"
-                    />disse nye, unge Mennesker kommer her en Tid, saa gjør de sig paa en eller
+                <p>«Hvorledes kan dog en Mand som du – Aalbom! – bryde dig om sligt! – <pb n="73"/>disse nye, unge Mennesker kommer her en Tid, saa gjør de sig paa en eller
                     anden Maade umulige. Vi er dog de første alligevel; – saa du ikke, Konsulen tog
                     mig tilbords.»</p>
                 <p>«Aa skidt!» svarede hendes Mand, «hvad bryder jeg mig om disse Pengesække og
@@ -1262,7 +1248,7 @@
 
             </div>
             <div n="6" type="chapter" xml:id="NOR0001006">
-                <head><ref target="contents_6" type="contents" xml:id="chapter_6">VI.</ref></head>
+                <head>VI.</head>
                 <p><pb n="75"/>Det første Bekjendskab, Madeleine gjorde i sine nye Omgivelser, var
                     med Sypigen; thi hun maatte naturligvis «syes fuldstændigt op» – især
                     udvendigt.</p>
@@ -1600,7 +1586,7 @@
 
             </div>
             <div n="7" type="chapter" xml:id="NOR0001007">
-                <head><ref target="contents_7" type="contents" xml:id="chapter_7">VII.</ref></head>
+                <head>VII.</head>
                 <p><pb n="96"/>Fru Fanny Garman havde lige fra først af været overmaade venlig mod
                     Madeleine og bedet hende endeligen at se indover til dem i Byen. Men derved blev
                     det ogsaa; og selv Madeleine, som dog ikke var synderligt dreven i de
@@ -1660,8 +1646,7 @@
                     til Sandsgaard, strøg Onkelen hende ikke over Haaret.</p>
                 <p>Idetheletaget forstod hun slet ikke sine nye Omgivelser; alt var kommet saa
                     ganske anderledes, end hun havde tænkt sig det. Da hun skiltes fra Vente-Per,
-                    havde de ikke vexlet mange Ord; men da han gik nedover <pb n="100"
-                    />Bratvoldsskrænten, stod hun længe og stirrede efter ham.</p>
+                    havde de ikke vexlet mange Ord; men da han gik nedover <pb n="100"/>Bratvoldsskrænten, stod hun længe og stirrede efter ham.</p>
                 <p>Hun lovede den Gang sig selv at holde fast ved ham, hvad de saa sagde i Byen, –
                     og hun vidste, at alle derinde vilde være mod hende. Og hun kastede et Blik
                     udover Havet og kjendte sig saa sund og stærk, hun følte baade Mod og Kraft til
@@ -1741,8 +1726,7 @@
                     der da ogsaa nogle skikkelige gamle Koner, der have taget Forargelse af mine
                     hyppige Besøg paa Sandsgaard og her hos Dem.»</p>
                 <p>«Nei – hvor morsomt! – hører du Madeleine!» raabte Fru Fanny straalende.</p>
-                <p>«Ja De ler – Frue!» sagde Kapellanen godmodigt, «men det kunde sandelig være <pb
-                        n="105"/>slemt nok for mig, hvis jeg ikke havde saa god Støtte i
+                <p>«Ja De ler – Frue!» sagde Kapellanen godmodigt, «men det kunde sandelig være <pb n="105"/>slemt nok for mig, hvis jeg ikke havde saa god Støtte i
                     Provsten.»</p>
                 <p>«Saa Provsten Sparre og De kommer godt ud af det med hinanden? jeg troede ellers,
                     at Forholdet – –»</p>
@@ -1890,7 +1874,7 @@
 
             </div>
             <div n="8" type="chapter" xml:id="NOR0001008">
-                <head><ref target="contents_8" type="contents" xml:id="chapter_8">VIII.</ref></head>
+                <head>VIII.</head>
                 <p><pb n="114"/>«Der er noget, jeg bestandig undrer mig over ved Dem – Hr. Kandiat
                     Johnsen!» sagde Rachel, «i næsten alle de Samtaler, vi har havt om alvorlige
                     Ting, kommer vi til et eller andet Punkt, som pludselig vækker en hel Række af
@@ -1901,8 +1885,7 @@
                     Bekjendtskab havde hun været paa sin Post mod ethvert Ord, der kunde have den
                     fjerneste Smag af en Kompliment. Men hvergang hun betragtede det alvorlige –
                     lidt grove Ansigt, følte hun sig beroliget; hun svarede derfor: «Aa der skal
-                    ikke stor Skarpsindighed til, forat indse, at naar to Mennesker drøfte <pb
-                        n="115"/>en Ting sammen, maa der komme mere ud deraf end om hver tænkte
+                    ikke stor Skarpsindighed til, forat indse, at naar to Mennesker drøfte <pb n="115"/>en Ting sammen, maa der komme mere ud deraf end om hver tænkte
                     alene for sig. Men hvad der undrer mig, er egentlig dette, at De ikke forlængst
                     har gjennemarbeidet disse Problemer og disse Tvivl.»</p>
                 <p>«De har aabnet mine Øine for meget, som før –»</p>
@@ -2002,8 +1985,7 @@
                 <p>Hun angrede Ordet med det samme, det var udtalt. Det var ogsaa faldt hende i
                     Munden, fordi hun just havde brugt det i Samtalen med Johnsen. Men hun gik
                     alligevel ind i huset uden nogen videre Forklaring.</p>
-                <p>Jacob Worse stod og stirrede betænkeligt paa sin Cigar. Nu var den altsaa <pb
-                        n="121"/>kommen til Udbrud – den Misstemning, han længe havde mærket hos
+                <p>Jacob Worse stod og stirrede betænkeligt paa sin Cigar. Nu var den altsaa <pb n="121"/>kommen til Udbrud – den Misstemning, han længe havde mærket hos
                     hende. Han vidste, at hun mente, hvad hun sagde; hun syntes, at han var
                     feig.</p>
                 <p>Deres Forhold havde ligefra først af taget en kammeratslig Vending, som
@@ -2237,7 +2219,7 @@
 
             </div>
             <div n="9" type="chapter" xml:id="NOR0001009">
-                <head><ref target="contents_9" type="contents" xml:id="chapter_9">IX.</ref></head>
+                <head>IX.</head>
                 <p><pb n="135"/>Gustaf, Oscar, Carl Johan Torpander fortæredes af sin stille Elskov.
                     Alle de Skillinger, han kunde afse, anvendte han dels til at smykke sin Person,
                     dels til at traktere den Elskedes Broder. Thi han havde endnu aldrig havt Mod
@@ -2282,8 +2264,7 @@
                     svor paa, at han ikke vidste det, og Morten svarede, at «det var noget, som ikke
                     skilte Skolegutter», hvoraf Gabriel uddrog den Slutning, at ingen af dem vidste
                     Besked – ialfald ikke Morten.</p>
-                <p>Hele denne Sommer gik det daarligt paa skolen med Gabriel. Det var ogsaa <pb
-                        n="138"/>formeget forlangt, at han skulde hænge over Bøgerne, mens der
+                <p>Hele denne Sommer gik det daarligt paa skolen med Gabriel. Det var ogsaa <pb n="138"/>formeget forlangt, at han skulde hænge over Bøgerne, mens der
                     arbeidedes, raabtes og bankedes den hele Dag nede paa Værftet. Hans Karakterbog
                     frembød et trist Skue, og hver Maaned, naar han skulde ind til Faderen med den,
                     foresatte han sig at holde en liden Tale, hvoraf Hovedindholdet var, at han ikke
@@ -2413,8 +2394,7 @@
                     tillader det – Frøken! vilde jeg gjerne tale mere med Dem om den Sag?»</p>
                 <p>«Det er mig altid kjært at tale med Dem –» svarede Rachel og saa paa ham. Det var
                     de samme kloge, blaa Øine som Konsul Garman havde. Rachel lignede overhovedet
-                    mest sin Fader; hendes Undermund var ogsaa en liden Smule fremskudt. Det <pb
-                        n="146"/>mørke Haar var lidt rødligt især fremover Panden, og hendes Figur
+                    mest sin Fader; hendes Undermund var ogsaa en liden Smule fremskudt. Det <pb n="146"/>mørke Haar var lidt rødligt især fremover Panden, og hendes Figur
                     var høi og kraftig. Alt dette gjorde hendes Person mere imponerende end egentlig
                     hvad man kalder indtagende. Hun var de unge Herrers Skræk og havde Ord for at
                     være lærd og skarp som bare Fanden; hvilket var stor Synd for hende; thi ellers
@@ -2482,7 +2462,7 @@
 
             </div>
             <div n="10" type="chapter" xml:id="NOR0001010">
-                <head><ref target="contents_10" type="contents" xml:id="chapter_10">X.</ref></head>
+                <head>X.</head>
                 <p><pb n="150"/>Jacob Worse's Moder var en af Byens Originaler. – Da hendes Mand
                     døde, var han saa fallit som det omtrent er muligt at blive. I de sidste Aar
                     havde han holdt Forretningen gaaende ved en utrolig masse Papir; og ligetil sin
@@ -2525,8 +2505,7 @@
                     Mand havde taget ved Næsen. Stemningen havde været noksaa blød i Betragtning af,
                     at det dog skulde blive ret opbyggeligt at se den hovmodige Fru Worse leve af
                     maanedlig Understøttelse; men nu slog den om og blev haard som Sten.</p>
-                <p>Men Fru Worse syntes ogsaa at være bleven haardere siden igaar, og da hun <pb
-                        n="153"/>traadte ind i Konsul Garmans Kontor med Pitter Nilkens Papirer
+                <p>Men Fru Worse syntes ogsaa at være bleven haardere siden igaar, og da hun <pb n="153"/>traadte ind i Konsul Garmans Kontor med Pitter Nilkens Papirer
                     under Armen, var hendes Skridt faste som en Mands.</p>
                 <p>Det var vistnok mange Aar siden Worse var traadt ud af Firmaet; men der var altid
                     et Nag mellem begge Partier; den Afdøde og C. F. Garman havde aldrig kunnet
@@ -2777,7 +2756,7 @@
 
             </div>
             <div n="11" type="chapter" xml:id="NOR0001011">
-                <head><ref target="contents_11" type="contents" xml:id="chapter_11">XI.</ref></head>
+                <head>XI.</head>
                 <p><pb n="169"/>Alle Frøknerne Sparre – de vare fem – styrtede til Vinduerne.</p>
                 <p>«Det er Johnsen – Skolebestyreren – aa langtfra – jo det er! – det er
                     Fattigforstanderen – tror du ikke, jeg kjender Johnsen; han har endda faaet ny
@@ -2954,8 +2933,7 @@
                     øverste Vinduer mod Syd faldt et dæmpet Lys over hans Skikkelse; – Ansigtet
                     havde det samme Præg af ophøiet Sjælefred; intet Udtryk af Uro eller
                     Misbilligelse var faret hen over det under Talen, og dette gjorde en beroligende
-                    Virkning paa Menigheden. Stemningen var urolig og febrilsk; men de <pb n="180"
-                    />fleste opsatte med at fælde nogen endelig Dom.</p>
+                    Virkning paa Menigheden. Stemningen var urolig og febrilsk; men de <pb n="180"/>fleste opsatte med at fælde nogen endelig Dom.</p>
                 <p>Pastor Martens havde forladt Præstestolen strax efter Prækenen; thi han skulde
                     forrette Tjenesten ved Alteret. Mens han messede, dirrede hans noget tørre
                     Stemme af indre Bevægelse. Endeligt var det da bleven aabenbaret, hvad der boede
@@ -3066,8 +3044,7 @@
 
             </div>
             <div n="12" type="chapter" xml:id="NOR0001012">
-                <head><ref target="contents_12" type="contents" xml:id="chapter_12"
-                    >XII.</ref></head>
+                <head>XII.</head>
                 <p><pb n="187"/>Onsdag i samme Uge skulde Fanny og Madeleine i Dameselskab; Rachel
                     havde svaret nei Tak – kort og godt; men det var man vant til.</p>
                 <p>«Aa – jeg har saadan forskrækkelig Hovedpine,» klynkede Fanny, hun kom ind til
@@ -3130,8 +3107,7 @@
                     slukkede hun Lyset og satte sig til at stirre udover Fjorden, som laa blank i
                     Maaneskin.</p>
                 <p>Dersom han nu kom – forladt af alle andre, og bad om mere end hendes Venskab? –
-                    hun var forberedt paa det og havde taget sin Bestemmelse. Han var en Mand <pb
-                        n="191"/>– en modig Mand, og hun vilde følge ham. Hun havde glædet sig til
+                    hun var forberedt paa det og havde taget sin Bestemmelse. Han var en Mand <pb n="191"/>– en modig Mand, og hun vilde følge ham. Hun havde glædet sig til
                     at møde en saadan Mand; – men hvorfor var hun ikke glad?</p>
                 <p>Rachel sad saa længe ved Vinduet, til hun hørte Vognen, der bragte Madeleine hjem
                     fra Selskabet; da klædte hun sig hurtigt af og gik iseng.</p>
@@ -3217,8 +3193,7 @@
                     lune Høstaften.</p>
                 <p>Hannerne sad hist og her i Sivet, speidende til alle Sider med de fremstaaende
                     Øine. Naar to kom hinanden for nær, styrtede de mod hverandre; de klare Vinger
-                    som fine – fine Plader af Kraagesølv<note type="footnote">Marieglas.
-                        Argyrolithus.</note> slog mod hinanden med en Hvislen, og det raslede saa
+                    som fine – fine Plader af Kraagesølv slog mod hinanden med en Hvislen, og det raslede saa
                     smaat, naar de skjællede Kroppe stødte sammen i Kampen. Saa blev der igjen
                     stille i Sivet, indtil der nærmede sig en Hunlibelle.</p>
                 <p>Den kom surrende langsomt og ubestemt etstedsfra i Haven, nærmede sig Dammen,
@@ -3243,8 +3218,7 @@
                     fra. Mange forvirrede Drømmerier begynte at knytte fine Traade i hendes Sind,
                     medens Maanen spandt sit hemmelighedsfulde Net af Straaler over den stille
                     Nat.</p>
-                <p>Da blev hendes Opmærksomhed vakt ved en Lyd fra Haven. Hun troede bestemt <pb
-                        n="198"/>at have hørt Døren til Havepavillonen knirke paa de rustne
+                <p>Da blev hendes Opmærksomhed vakt ved en Lyd fra Haven. Hun troede bestemt <pb n="198"/>at have hørt Døren til Havepavillonen knirke paa de rustne
                     Hængsler. Idetsamme hørte hun ogsaa Mortens tunge Trin nede i Trappen; han var
                     vel færdig med Staalsvampen. Det var Tid til at lægge sig; alligevel blev hun
                     staaende og saa henimod Pavillonen.</p>
@@ -3295,8 +3269,7 @@
 
             </div>
             <div n="13" type="chapter" xml:id="NOR0001013">
-                <head><ref target="contents_13" type="contents" xml:id="chapter_13"
-                    >XIII.</ref></head>
+                <head>XIII.</head>
                 <p><pb n="201"/>Den næste Dag øsregnet det. Morten og Fanny kjørte til Byen strax
                     efter Frokost. Madeleine laa tilsengs og havde Feber.</p>
                 <p>Rachel var inde og saa til hende; men hun fandt Madeleine saa besynderlig, at hun
@@ -3373,8 +3346,7 @@
                     igang i den sølede, halvlyse Høstmorgen. Han skulde være i Almuskolen før otte
                     og indlede Ugens Gjerning med Bøn og Sang. Dette havde han slet ikke tænkt paa
                     igaar.</p>
-                <p>Han kom til at mindes, hvor Børnene lugtede ondt, naar de kom vaade i Skolen, <pb
-                        n="206"/>den uskjønne Sang og al den trevne Aandløshed, hvormed Skoleugen
+                <p>Han kom til at mindes, hvor Børnene lugtede ondt, naar de kom vaade i Skolen, <pb n="206"/>den uskjønne Sang og al den trevne Aandløshed, hvormed Skoleugen
                     atter begyndte at slide sig henimod Lørdag og Søndag, og hele dette smaalige
                     Hverdagsarbeide forekom ham idag saa trøstesløst. Var det noget for ham?</p>
                 <p>Mens han sad ved Frokosten og just tænkte paa, at sende Pigen hen til Skolen med
@@ -3482,8 +3454,7 @@
 
             </div>
             <div n="14" type="chapter" xml:id="NOR0001014">
-                <head><ref target="contents_14" type="contents" xml:id="chapter_14"
-                    >XIV.</ref></head>
+                <head>XIV.</head>
                 <p><pb n="213"/>Nu var Høstregnet rigtig begyndt. Dag ud og Dag ind strømmede Vandet
                     ned, og om Natten hørte man det piske paa Ruden og dryppe fra Taget, hvergang
                     man vaagnede.</p>
@@ -3511,8 +3482,7 @@
                     med tyve Tagsten ad Gangen – den hele udslagne Nat.</p>
                 <p>Konsulen gik og kigede paa Barometeret og pikkede paa det, forat se, om
                     Kviksølvsøilen steg eller faldt. Men – sandt at sige – det gjorde ikke stor
-                    Forskjel enten den steg eller faldt: Luften, Skyerne, Regnet, <pb n="215"
-                    />Stormen – det var i et Røre altsammen, og dermed gik det Uge efter Uge udimod
+                    Forskjel enten den steg eller faldt: Luften, Skyerne, Regnet, <pb n="215"/>Stormen – det var i et Røre altsammen, og dermed gik det Uge efter Uge udimod
                     Vinteren.</p>
                 <p>Paa Værftet gik det langsomt; thi Garman &amp; Worse var ikke saa nymodens, at de
                     byggede under Tag. Men Mr. Robson mente dog, han skulde blive færdig «paa
@@ -3530,7 +3500,7 @@
 
             </div>
             <div n="15" type="chapter" xml:id="NOR0001015">
-                <head><ref target="contents_15" type="contents" xml:id="chapter_15">XV.</ref></head>
+                <head>XV.</head>
                 <p><pb n="216"/>Endeligt – en Dag ude i December syntes det onde Veir at have raset
                     ud for en Stund. Himlen var ganske klar, og der – fandtes ikke den mindste Sky,
                     som kunde foranledige Spaadomme.</p>
@@ -3586,7 +3556,7 @@
                     Byen igjen. Alligevel betvang han baade sit Sind og sit Ansigt: det var en
                     Prøvelse, han skulde modtage i Ydmyghed. Kun angrede han, at han havde betroet
                     sig til Fru Garman. –</p>
-                <p>– Pastor Martens's<note type="footnote">t i Martens's utydelig i 1. utgave</note>
+                <p>– Pastor Martens's
                     Frieri fuldstændiggjorde den pinlige Tilstand, hvori Madeleine havde levet siden
                     hin Maaneskinsaften ihøst. Og alligevel kunde Kapellanen paa en vis Maade have
                     Ret, naar han syntes, at Madeleine var kommen ham imøde med Venlighed. Der laa
@@ -3808,8 +3778,7 @@
                     Haanden paa hans Arm, «det var ikke ondt ment, men jeg er saa mistroisk; –
                     Omforladelse! – se saa lad nu det være glemt! De mente altsaa virkeligt, at jeg
                     burde skrive.»</p>
-                <p>«Uden Tvivl –» svarede Worse, som strax blev god igjen, «De sidder inde med <pb
-                        n="233"/>mange originale Tanker, De har en Energi, som vil overvinde enhver
+                <p>«Uden Tvivl –» svarede Worse, som strax blev god igjen, «De sidder inde med <pb n="233"/>mange originale Tanker, De har en Energi, som vil overvinde enhver
                     Vanskelighed, og Mod mangler De ialfald ikke!»</p>
                 <p>Midt i den tossede Ballarm omkring dem lød de dobbelt underligt i hendes Øre –
                     disse opmuntrende Ord, som med engang aabnede nye Udsigter.</p>
@@ -3859,8 +3828,7 @@
 
             </div>
             <div n="16" type="chapter" xml:id="NOR0001016">
-                <head><ref target="contents_16" type="contents" xml:id="chapter_16"
-                    >XVI.</ref></head>
+                <head>XVI.</head>
                 <p><pb n="236"/>Endelig slæbte Vinteren sig Nordover som et trægt Udyr med sin lange
                     Hale af skiddenhvide Sneflekker langs Gjærderne og blaasort Is – smaahullet
                     somom den var markstukken – udover Vandene. Og Vaaren fulgte lige i Hælene og
@@ -3889,8 +3857,7 @@
                 <p>Legationssekretæren saa ikke stort af alt dette idag. I hele Vinter havde han
                     ikke havt det godt. Hjemme savnede han Madeleine, og naar han kom til Sandsgaard
                     og saa hende, blev han ikke gladere.</p>
-                <p>Hun havde fortalt ham at Pastor Martens havde friet til hende; men det var da <pb
-                        n="238"/>ikke noget at sørge over – tænkte Legationssekretæren, – især da
+                <p>Hun havde fortalt ham at Pastor Martens havde friet til hende; men det var da <pb n="238"/>ikke noget at sørge over – tænkte Legationssekretæren, – især da
                     hun jo svarede nei. Der maatte være noget andet iveien, og idag vilde han spørge
                     Christian Fredrik: han vidste Raad for alting. Saa vilde han ogsaa endelig tage
                     Mod til sig og spørge Broderen, hvorledes det hang sammen med disse Vexler og
@@ -4035,8 +4002,7 @@
 
             </div>
             <div n="17" type="chapter" xml:id="NOR0001017">
-                <head><ref target="contents_17" type="contents" xml:id="chapter_17"
-                    >XVII.</ref></head>
+                <head>XVII.</head>
                 <p><pb n="247"/>Fru Garman var allerede gaaet tilsengs efter den lange besværlige
                     Dag. Madeleine havde ogsaa trukket sig tilbage som hun gjerne pleiede, naar
                     Fanny var der.</p>
@@ -4219,8 +4185,7 @@
 
             </div>
             <div n="18" type="chapter" xml:id="NOR0001018">
-                <head><ref target="contents_18" type="contents" xml:id="chapter_18"
-                    >XVIII.</ref></head>
+                <head>XVIII.</head>
                 <p><pb n="258"/>Da Onkel Richard blev fordrevet fra Taget af Materialhuset og
                     forstod, at alt Haab var ude, gik han hen, forat tage fat ved Sprøiterne. Det
                     var somom han døvede sin Smerte, naar han arbeidede, og han pumpede med af alle
@@ -4379,8 +4344,7 @@
 
             </div>
             <div n="19" type="chapter" xml:id="NOR0001019">
-                <head><ref target="contents_19" type="contents" xml:id="chapter_19"
-                    >XIX.</ref></head>
+                <head>XIX.</head>
                 <p><pb n="258"/>Konsul Garman laa i Sengen, det var tre Dage efter. Den venstre Side
                     var endnu næsten fuldstængt lam; men Doktoren mente, det kunde rette paa sig,
                     siden Patienten havde overstaaet de første Dage.</p>
@@ -4442,8 +4406,7 @@
                     den Syge. –</p>
                 <p>En af de følgende Dage, da Konsulen havde ligget en lang Stund stille, sagde han
                     til Rachel: «Lad Gabriel komme ind til mig.»</p>
-                <p>Faderen rakte ham den høire Haand, som han nu kunde bevæge lidt lettere: «Tak <pb
-                        n="272"/>– min Dreng! – du har sparet os for et stort Tab, og vist dig som
+                <p>Faderen rakte ham den høire Haand, som han nu kunde bevæge lidt lettere: «Tak <pb n="272"/>– min Dreng! – du har sparet os for et stort Tab, og vist dig som
                     en Mand. Dersom det er saaledes, som jeg hører af Rachel, at du fremdeles ønsker
                     at opgive dine Studier» –</p>
                 <p>«Hvis du ikke forlanger det – Far!» – stammede Gutten.</p>
@@ -4459,8 +4422,7 @@
                     du besørge Navnebrætterne.»</p>
                 <p>Da Gabriel kom ud, traf han Jomfru Cordsen. Han kastede sig om Halsen paa hende,
                     klemte og kyssede hende, medens han gjentog: «Phønix! – Dresden! – Firma!»</p>
-                <p>«Hvalp!» skjændte jomfru Cordsen og sprællede imod, skrige gik ikke an; men <pb
-                        n="273"/>«Hvalpen» var hende for stærk, og den gamle Dame overlod sig til
+                <p>«Hvalp!» skjændte jomfru Cordsen og sprællede imod, skrige gik ikke an; men <pb n="273"/>«Hvalpen» var hende for stærk, og den gamle Dame overlod sig til
                     sin Skjæbne.</p>
                 <p>Endelig løb han videre, og Jomfru Cordsen rettede paa sin Kappestrimmel, idet hun
                     sagde ved sig selv: «Det ligger dem i Blodet allesammen.</p>
@@ -4515,7 +4477,7 @@
 
             </div>
             <div n="20" type="chapter" xml:id="NOR0001020">
-                <head><ref target="contents_20" type="contents" xml:id="chapter_20">XX.</ref></head>
+                <head>XX.</head>
                 <p><pb n="277"/>Unge-Konsulen maatte dø. I fjorten Dage var det gaaet op og ned med
                     ham. Stundom syntes det, somom den høire Side skulde seire; men saa fik den
                     venstre igjen Overtaget og stærkere hver Gang.</p>
@@ -4570,8 +4532,7 @@
 
             </div>
             <div n="21" type="chapter" xml:id="NOR0001021">
-                <head><ref target="contents_21" type="contents" xml:id="chapter_21"
-                    >XXI.</ref></head>
+                <head>XXI.</head>
                 <p><pb n="281"/>Samme Formiddag gik Gustav, Oscar, Carl Johan Torpander udover
                     Sandsgaardveien. Han gjorde sig en Frimandag, hvilket ellers ikke var hans
                     Vane.</p>
@@ -4718,8 +4679,7 @@
 
             </div>
             <div n="22" type="chapter" xml:id="NOR0001022">
-                <head><ref target="contents_22" type="contents" xml:id="chapter_22"
-                    >XXII.</ref></head>
+                <head>XXII.</head>
                 <p><pb n="291"/>Konsul Garmans Død vakte megen Bevægelse i Byen. Den mærkelige
                     Begivenhed med Skibet var allerede Stof nok til flere Ugers Snak, og nu kom
                     dette Dødsfald til med alle dets nærmere Omstændigheder og mulige Følger; – der
@@ -4923,8 +4883,7 @@
                     han ret saa efter. Han kom til at tænke paa Jacob Worse, som havde trukket sig
                     tilbage fra ham. Det var ofte hændt Delphin, at Folk ikke holdt længe ud med
                     ham; det var bare Fanny, som holdt ud.</p>
-                <p>Endnu engang prøvede han at gjøre hendes Billede saa skjønt og bedaarende som <pb
-                        n="303"/>muligt; men det vilde ikke lykkes. Madeleine skjød frem overalt,
+                <p>Endnu engang prøvede han at gjøre hendes Billede saa skjønt og bedaarende som <pb n="303"/>muligt; men det vilde ikke lykkes. Madeleine skjød frem overalt,
                     saa kom Præsten, og de pinlige Tanker begyndte omigjen.</p>
                 <p>Saa var der da intet Holdepunkt i hans Liv, det var altsammen forspildt –
                     forfusket – ødelagt –; og tilslut blev han sig selv saa væmmelig som han laa der
@@ -4955,8 +4914,7 @@
                     Rygtet om Kapellanens Forlovelse omkring i Byen. Det trængte ind gjennem
                     Sprækker og lukkede Døre, fyldte Husene fra Kjælder til Loft og stod saa tæt i
                     Gaderne, at det standsede Trafiken.</p>
-                <p>«Har De hørt Nyheden? – en Forlovelse – gjæt – hvor? – hvem? – Frøken Garman <pb
-                        n="305"/>– jeg har hørt det for en Time siden! – har De hørt Nyheden? –
+                <p>«Har De hørt Nyheden? – en Forlovelse – gjæt – hvor? – hvem? – Frøken Garman <pb n="305"/>– jeg har hørt det for en Time siden! – har De hørt Nyheden? –
                     Kapellanen er forlovet! – Gud, hvor jeg er overrasket! – de kunde ventet til
                     over Begravelsen – er det vist? – han har været hos Guldsmeden – har De hørt
                     Nyheden? –» saaledes gik det –snur–snur– fra Hus til Hus. Og da endelig den
@@ -4973,8 +4931,7 @@
 
             </div>
             <div n="23" type="chapter" xml:id="NOR0001023">
-                <head><ref target="contents_23" type="contents" xml:id="chapter_23"
-                    >XXIII.</ref></head>
+                <head>XXIII.</head>
                 <p><pb n="306"/>I Lighed med alle gode Regenter, der mene, at de bør markere sin
                     Regjerings Tiltrædelse med enkelte milde Handlinger, havde Morten givet Per Karl
                     Tilladelse til at kjøre Ligvognen med «de gamle sorte», saa skulde de skydes
@@ -5133,8 +5090,7 @@
                     væk disse Benene, før de kommer med Fattigligene. Nei – nei! – det er som jeg
                     siger: de Fattige – Gudbevar os! – de Fattige er til Uleilighed saavel i Livet
                     som i Døden!»</p>
-                <p>Der var engang en ny Klokker, som vilde afsætte Abraham; han vakte Forargelse <pb
-                        n="316"/>i Menigheden, naar han tumlede drukken om mellem Gravene. Men
+                <p>Der var engang en ny Klokker, som vilde afsætte Abraham; han vakte Forargelse <pb n="316"/>i Menigheden, naar han tumlede drukken om mellem Gravene. Men
                     Provsten sagde:</p>
                 <p>«Hvad skulde saa den arme Mand tage sig for; han vilde falde Dem eller mig til
                     Byrde. Og desuden, jeg har nu havt ham, saalænge jeg har været her og baaret
@@ -5150,8 +5106,7 @@
                     eller Organisten eller Kirketjeneren eller Klokkerdrengen eller Kalkanten –
                     ingen af dem havde faaet sit, saa kunde det jo ikke være anderledes. Og naar han
                     ret saa efter – Væggelusen – saa syntes han, at han gjenfandt i disse afspiste
-                    Ben og disse blankpillede Skaller et Udtryk, han kjendte fra Livet – dette <pb
-                        n="317"/>afskrabede Udtryk, der pleier at følge dem, som ikke har
+                    Ben og disse blankpillede Skaller et Udtryk, han kjendte fra Livet – dette <pb n="317"/>afskrabede Udtryk, der pleier at følge dem, som ikke har
                     betalt.</p>
                 <p>Imidlertid lød Pastor Martens's velklingende Stemme udover Kirkegaarden. Han
                     nærmede sig Slutningen af sin Tale. De «sex Fod» gik igjen, ligesom de korte
@@ -5201,8 +5156,7 @@
                 <p>Abram Fylledreng havde taget sig en extra Overhaling idag ianledning af det fine
                     Lig; han tumlede bagefter med den sorte Kasse –; det var den samme, som
                     benyttedes til alle Lig – uden Forskjel.</p>
-                <p>Da Præsten naaede frem til Mariannes Grav, var ogsaa Anders Begmand og nogle <pb
-                        n="320"/>andre west end Folk komne til fra Konsulens Følge.</p>
+                <p>Da Præsten naaede frem til Mariannes Grav, var ogsaa Anders Begmand og nogle <pb n="320"/>andre west end Folk komne til fra Konsulens Følge.</p>
                 <p>Kapellanen tog Hatten af og tørrede sin Pande, medens han saa sig om efter
                     Abraham; de andre blottede sine Hoveder.</p>
                 <p>Endeligt naaede Abram Fylledreng frem, og de trende Skuffer Jord faldt hurtigt og
@@ -5213,8 +5167,7 @@
 
             </div>
             <div n="24" type="chapter" xml:id="NOR0001024">
-                <head><ref target="contents_24" type="contents" xml:id="chapter_24"
-                    >XXIV.</ref></head>
+                <head>XXIV.</head>
                 <p><pb n="321"/>Unge-Konsulens Død medførte ikke store Forandringer hverken i
                     Husvæsenet eller i Forretningen. Det hele var i en saa solid og regelret Gang,
                     at det vedblev at gaa som en god Maskine. Men den nye Maskinmester fik travelt;
@@ -5295,8 +5248,7 @@
                     med aristokratiske Kundskaber opover, og med den aristokratiske Uvidenhed
                     nedover. Deres Far var en voxen Mand, da Bevægelsen naaede os; han havde
                     allerede en fast Livsanskuelse, da det nye strømmede ind paa ham; – deraf den
-                    lange, misfornøiede Kamp. Men vi – en Generation yngre – naar vi <pb n="326"
-                    />træder ind i Livet med de gamle Sikkerheder kun halvveis fæstnede i vore
+                    lange, misfornøiede Kamp. Men vi – en Generation yngre – naar vi <pb n="326"/>træder ind i Livet med de gamle Sikkerheder kun halvveis fæstnede i vore
                     Hoveder fra Skolen, saa vakler det hele; Tvivl, Usikkerhed paa alle Kanter –
                     snart i kaad Jubel snart alvorligt bekymret. Hvorhen vi flytter vor Fod, svigter
                     Jordbunden, og ville vi sætte os ned, trækker en usynlig Haand Stolen under os.
@@ -5465,8 +5417,7 @@
 
             </div>
             <div n="25" type="chapter" xml:id="NOR0001025">
-                <head><ref target="contents_25" type="contents" xml:id="chapter_25"
-                    >XXV.</ref></head>
+                <head>XXV.</head>
                 <p><pb n="337"/>Saaledes forløb sex Aar. Provsten Sparre var ganske rigtig bleven
                     Biskop. Hans Forgjænger i Embedet havde været en altfor myndig og stræng Herre;
                     derfor var der stundom lidt Mudder i Leiren.</p>
@@ -5556,8 +5507,7 @@
                     ikke bærer Nag til mig, fordi jeg var saaledes mod Dem, som jeg var. Men mere
                     ved jeg heller ikke; og er der ikke mere at vide, saa ville vi mødes som gode
                     Venner – haaber jeg. Skulde der være mere, saa faar De skrive til mig.</p>
-                <p>Se saa – nu staar det der! – lad os nu forstaa hinanden og vær ærlig og aaben <pb
-                        n="343"/>mod mig. En Ting kan De trygt stole paa, at jeg iethvertfald er
+                <p>Se saa – nu staar det der! – lad os nu forstaa hinanden og vær ærlig og aaben <pb n="343"/>mod mig. En Ting kan De trygt stole paa, at jeg iethvertfald er
                     Deres meget gode Ven Rachel Garman.</p>
                 <p>Da Jacob Worse havde læst dette Brev, sprang han op, greb Hat og Paraply og for
                     ud i det ydre Kontor.</p>
@@ -5696,14 +5646,12 @@
                         ud,</l><l>Kunde til mig du dit Hjerte henbøie,</l><l>Sig vil du være en
                         Skjærslibers Brud?»</l></quote>
                 <p>Og Madam Worse slog Takt med sit Strikketøi, idet hun istemte Omkvædet:</p>
-                <quote><l rend="indent_1">«Snurr, surr,</l><l rend="indent_1">Lystig og fro</l><l
-                        rend="indent_1">Vil jeg i Ro</l><l>Hjulet paa Baaren med Foden
+                <quote><l rend="indent_1">«Snurr, surr,</l><l rend="indent_1">Lystig og fro</l><l rend="indent_1">Vil jeg i Ro</l><l>Hjulet paa Baaren med Foden
                     omsno!»</l></quote>
 
             </div>
             <div n="26" type="chapter" xml:id="NOR0001026">
-                <head><ref target="contents_26" type="contents" xml:id="chapter_26"
-                    >XXVI.</ref></head>
+                <head>XXVI.</head>
                 <p><pb n="352"/>I den klare Sommersol strakte den gulhvide Sand sig nordover med
                     grønne Dotter af Marehalm saa langt Øiet kunde naa. Kystlinien bøiede sig i Næs
                     og Bugter, hist og her en Klynge Baade, Maager og Ringgjæs havde travelt i
@@ -5765,8 +5713,7 @@
                     Ansigt til Ansigt med Havet skammede hun sig ved at komme saaledes tilbage, –
                     hun ønskede, at hun laa derude i det kjølige Dyb og kjendte friske, rene Bølger
                     skylle hen over sig.</p>
-                <p>Men da Vognen naaede op paa den sidste Bakke, og Bratvoldsgaardene og <pb n="356"
-                    />Fyrhuset laa foran hende, da slog hun begge Hænderne for Ansigtet og
+                <p>Men da Vognen naaede op paa den sidste Bakke, og Bratvoldsgaardene og <pb n="356"/>Fyrhuset laa foran hende, da slog hun begge Hænderne for Ansigtet og
                     stønnede.</p>
                 <p>Hendes Mand lagde vist ikke Mærke til det; thi han saa mest indover mod
                     Landsiden; han kjendte sig ikke endnu stærk nok til at se paa Bølgerne, som

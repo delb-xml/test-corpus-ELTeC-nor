@@ -1,33 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0009" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0009" xml:lang="nb">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kommandørens døtre ELTeC-utgaven</title>
-                <author>Lie, Jonas Lauritz (1833-1908)<idno type="viaf"
-                        >https://viaf.org/viaf/59124011</idno><idno type="wiki"
-                        >https://www.wikidata.org/wiki/Q469681</idno></author>
+                <author ref="viaf:https://viaf.org/viaf/59124011">Lie, Jonas Lauritz  (1833-1908)</author>
                 <respStmt>
                     <resp>ELTeC encoding</resp>
                     <name>Michael Preminger</name>
                 </respStmt>
             </titleStmt>
-            <extent><measure unit="words">57339</measure><measure unit="pages"
-                >178</measure></extent>
-            <publicationStmt>
-                <p>Incorporated into the ELTeC<date>2018-11-05</date></p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl><ref target="Bokselskapet">Utgave 1920 (Samlede Digterverker v. P.
-                        Bergh)</ref><ref target="wiki">some ref</ref>
-                    <relatedItem type="copyText">
-                        <bibl><author>J. L. Lie</author><title>bokselskap.no 2011 Jonas Lie:
+            <extent><measure unit="words">57339</measure><measure unit="pages">178</measure></extent>
+            <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-10-25"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC2018-11-05--></publicationStmt>
+            <sourceDesc><bibl type="unspecified">
+                    </bibl><bibl type="unspecified"><author>J. L. Lie</author><title>bokselskap.no 2011 Jonas Lie:
                                 Kommandørens
                                 Døttre</title><pubPlace>Christiania</pubPlace><publisher>Johan
-                                Dahl</publisher><date>1886</date><idno type="wiki"
-                                >https://www.wikidata.org/wiki/Q4568900</idno></bibl>
-                    </relatedItem></bibl>
-            </sourceDesc>
+                                Dahl</publisher><date>1886</date><idno type="wiki">https://www.wikidata.org/wiki/Q4568900</idno></bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-0">
             <p n="eltec-0"/>
@@ -43,7 +36,7 @@
                 <e:timeSlot key="T3"/>
             </textDesc>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2019-10-25">Checked by releaseChecker script</change>
             <change when="2011-11-17" xml:id="ENW">Kodet om filen til bokselskap-xml.
                 Kodekontroll.</change>
         </revisionDesc>
@@ -52,7 +45,7 @@
 
         <body>
             <div n="1" type="chapter" xml:id="NOR0009001">
-                <head><ref target="contents_1" type="contents" xml:id="chapter_1">I.</ref></head>
+                <head>I.</head>
                 <p>En Tjenestemand beredte sig i den blege Solnedgang til at affire Flaget ved
                     Marine-Etablissementets Vold.</p>
                 <p>Indenfor paa Grønsværet strakte to kobberirrede, af Regnvand halvopfyldte Mørsere
@@ -345,7 +338,7 @@
                     Invitationskortet til ham imorgen ved Bordet, Du Karsten!»</p>
             </div>
             <div n="2" type="chapter" xml:id="NOR0009002">
-                <head><ref target="contents_2" type="contents" xml:id="chapter_2">II.</ref></head>
+                <head>II.</head>
                 <p>Rul rul rul rul, – rul rul rul rul, – rul rul rul rul, rul rul . . . gik det paa
                     Pianoet derinde i Stuen.</p>
                 <p>«Tror Du ikke, vi kunde faa Lov til at gaa ned paa Badehuset og bade idag,
@@ -781,7 +774,7 @@
                     en halv Time,» bad Marthe.</p>
             </div>
             <div n="3" type="chapter" xml:id="NOR0009003">
-                <head><ref target="contents_3" type="contents" xml:id="chapter_3">III.</ref></head>
+                <head>III.</head>
                 <p>Gik der nogen Sjømand paa hele Kysten og længtes efter Isløsningen, saa var det
                     gamle Kommandøren. Han syntes, han gjorde rent Vintertogt med alle de sene
                     Hundevagter i Baller og Selskaber efter Jul. Han betvilede ikke et Øieblik, at
@@ -1199,7 +1192,7 @@
                     Fornemmelse af, at dette var græsselig nær næsten et virkeligt Frieri.</p>
             </div>
             <div n="4" type="chapter" xml:id="NOR0009004">
-                <head><ref target="contents_4" type="contents" xml:id="chapter_4">IV.</ref></head>
+                <head>IV.</head>
                 <p>Den næste Formiddag ved Ellevetiden spankulerede Karsten op og ned i Stuen.</p>
                 <p>Han saa grætten og uudsovet ud; der havde jo været en ganske varm Ekstrasession
                     bagefter i Nat med Kammeraterne, saa Klokken blev imod fem, før han kom tilkøis.
@@ -1450,7 +1443,7 @@
                 <p>Men, – hun inviterede ham til at komme igjen – –</p>
             </div>
             <div n="5" type="chapter" xml:id="NOR0009005">
-                <head><ref target="contents_5" type="contents" xml:id="chapter_5">V.</ref></head>
+                <head>V.</head>
                 <p>De havde kjøbt Silkebaand og Hansker, Cecilie Witt og Laura Fock, og kom ud fra
                     Galanterihandler Printz. De to Veninder bøiede i rask Fart om Hjørnet med
                     Ansigterne mod Nordensnoen, som feiede opover Gaden.</p>
@@ -1848,7 +1841,7 @@
                     hvorfor.</p>
             </div>
             <div n="6" type="chapter" xml:id="NOR0009006">
-                <head><ref target="contents_6" type="contents" xml:id="chapter_6">VI.</ref></head>
+                <head>VI.</head>
                 <p>Med de lysere Aftener udover Marts var Ballerne forbi. Selskabeligheden formede
                     sig nu mere som Smaasammenkomster her og der om i Søofficerskredsene.</p>
                 <p>Det var dette Vinterselskabelighedens Vaarbrud, der under almindelig Uro i Blodet
@@ -2077,7 +2070,7 @@
                     Gardinet mod Morgenlyset atter ganske opgjort og klar gik tilsengs.</p>
             </div>
             <div n="7" type="chapter" xml:id="NOR0009007">
-                <head><ref target="contents_7" type="contents" xml:id="chapter_7">VII.</ref></head>
+                <head>VII.</head>
                 <p>Inde hos Kommandørinden var al Sind og Tanke fortiden optat af Karsten, som i
                     næste Uge skulde overtage sin Post.</p>
                 <p>Kommandøren holdt sig jo helst længst mulig undaf; Sønnens Beslutning stod
@@ -2291,7 +2284,7 @@
                 <p>Med dette var hun kommet over en virkelig Bekymring, som havde tynget hende.</p>
             </div>
             <div n="8" type="chapter" xml:id="NOR0009008">
-                <head><ref target="contents_8" type="contents" xml:id="chapter_8">VIII.</ref></head>
+                <head>VIII.</head>
                 <p>Vaaren lakkede fremover med alle de nære Forandringer i Luften.</p>
                 <p>Marthe tællede i sin urolige Beklemthed kun et Par Uger, til Jan gik til Amerika,
                     og ude paa Havnen laa Korvetten snart færdig til at faa Kommandoen heist; med
@@ -2524,7 +2517,7 @@
                     Stuen.</p>
             </div>
             <div n="9" type="chapter" xml:id="NOR0009009">
-                <head><ref target="contents_9" type="contents" xml:id="chapter_9">IX.</ref></head>
+                <head>IX.</head>
                 <p>Der var kommet et vist nynnende Liv over Cecilie, – noget fartfuldt elastisk i
                     Gangen, noget af det Skjær, et gjemt Smil laaner Blikket. Hun vidste, der var
                     kun otte Dage, til Fasting skulde ud paa Togtet med Korvetten, der nu laa helt
@@ -2704,7 +2697,7 @@
                     .</p>
             </div>
             <div n="10" type="chapter" xml:id="NOR0009010">
-                <head><ref target="contents_10" type="contents" xml:id="chapter_10">X.</ref></head>
+                <head>X.</head>
                 <p>Klokken to tre Nat til Lørdag rumsteredes der varlig i Trapperne med at bringe
                     ned Jans Skibskiste, saa de ikke kom til at vække Kommandøren og Fruen.</p>
                 <p>Han havde taget Afsked om Aftenen og takket saa vakkert bevæget for sig.
@@ -2837,7 +2830,7 @@
                     . . .</p>
             </div>
             <div n="11" type="chapter" xml:id="NOR0009011">
-                <head><ref target="contents_11" type="contents" xml:id="chapter_11">XI.</ref></head>
+                <head>XI.</head>
                 <p>Dampbaadsrøgen havde været slem mod Kommandørindens hvide Strudsfjær, den var
                     udskjæmt totalt; – men ellers havde det været en aldeles nydelig Tur, hun havde
                     gjort med Karstens Damper til Hovedstaden . . . Deiligste Veir af Verden, stille
@@ -3212,8 +3205,7 @@
                     hun fik Lyst til at se.</p>
             </div>
             <div n="12" type="chapter" xml:id="NOR0009012">
-                <head><ref target="contents_12" type="contents" xml:id="chapter_12"
-                    >XII.</ref></head>
+                <head>XII.</head>
                 <p>Sladderen har nu engang paataget sig et Slags Overinspektion med Folks
                     Forlovelser. Der er saa forbausende mange interesserte, nogle frydefulde, andre
                     forargede, nogle bekymrede, andre skadefro; de øiner saa inderlig vel, hvordan
@@ -3469,8 +3461,7 @@
                     stritte bag sig.</p>
             </div>
             <div n="13" type="chapter" xml:id="NOR0009013">
-                <head><ref target="contents_13" type="contents" xml:id="chapter_13"
-                    >XIII.</ref></head>
+                <head>XIII.</head>
                 <p>Cecilie havde i Stilhed gaat og grublet i flere Dage; det var intet mindre end en
                     Idé, hun var optaget af.</p>
                 <p>Den var udklækket den Aften, hun kjørte hjem fra Skøiteisen og sad der i Slæden
@@ -3603,8 +3594,7 @@
                     udover Natten med Lyset paa Hovedpuden.</p>
             </div>
             <div n="14" type="chapter" xml:id="NOR0009014">
-                <head><ref target="contents_14" type="contents" xml:id="chapter_14"
-                    >XIV.</ref></head>
+                <head>XIV.</head>
                 <p>Der gik nok et kjedt og slidsomt Aar, før Karsten vandt frem til Maalet for sin
                     foreløbige Ærgjærrighed, at vise sin smukke udprægede Person paa Kommandobrættet
                     som Chef . . .</p>
@@ -3750,7 +3740,7 @@
                     .</p>
             </div>
             <div n="15" type="chapter" xml:id="NOR0009015">
-                <head><ref target="contents_15" type="contents" xml:id="chapter_15">XV.</ref></head>
+                <head>XV.</head>
                 <p>De sidste Gjæster var gaat, og Lysene i Lysekronerne slukkedes i Salen, medens
                     Skjæret faldt desto stærkere fra Sideværelset, hvor Dessertbordet endnu stod med
                     høie Vaser, Levninger af Geléer, Iser og Kager og en Mængde hensatte Glasse paa
@@ -3869,8 +3859,7 @@
                     som havde hun bredet Ligklædet over sin Ungdom og sine Forhaabninger.</p>
             </div>
             <div n="16" type="chapter" xml:id="NOR0009016">
-                <head><ref target="contents_16" type="contents" xml:id="chapter_16"
-                    >XVI.</ref></head>
+                <head>XVI.</head>
                 <p>Det var ikke godt at vide, hvad for Slags Meddelelser, Marthe kunde have havt;
                     men før seks imorges havde hun været ude og spadseret i det ruskede, regnmættede
                     Veir.</p>
@@ -4330,8 +4319,7 @@
                     hvor han var.</p>
             </div>
             <div n="17" type="chapter" xml:id="NOR0009017">
-                <head><ref target="contents_17" type="contents" xml:id="chapter_17"
-                    >XVII.</ref></head>
+                <head>XVII.</head>
                 <p>Cecilie var vant til, at Kadetterne og de unge Herrer vendte sig om og saa efter
                     hende, naar hun gik paa Gaden. Det var en noksaa gammel Hyldning nu, og hun
                     havde begyndt at faa en temmelig tør Bevidsthed om Værdien af det. Det var slaat
@@ -4428,8 +4416,7 @@
                     meget bedre tjent med en net Boardingshousjomfru . . .</p>
             </div>
             <div n="18" type="chapter" xml:id="NOR0009018">
-                <head><ref target="contents_18" type="contents" xml:id="chapter_18"
-                    >XVIII.</ref></head>
+                <head>XVIII.</head>
                 <p>Cecilies Interesse for Fasting var – trods alt, hvad hun selv mente og tænkte i
                     denne Sommer, – ikke uddød. Hvert hans Skridt, hvad han gjorde, og hvad der
                     taltes om ham, bragte Strenge til at dirre i hende.</p>
@@ -4660,8 +4647,7 @@
                     KristiansfeldterTysk.»</p>
             </div>
             <div n="19" type="chapter" xml:id="NOR0009019">
-                <head><ref target="contents_19" type="contents" xml:id="chapter_19"
-                    >XIX.</ref></head>
+                <head>XIX.</head>
                 <p>Det havde været travlt med Opgjør, Udbetalinger og Lønninger paa Værftschefens
                     Kontor hele Formiddagen. Sølvmønt i forseglede Poser, i Tutter og blanke
                     eftertællede Stabler var udleveret til de forskjellige, og alt lykkelig og vel
@@ -4858,7 +4844,7 @@
                     ikke set andet end godt af dem . . .»</p>
             </div>
             <div n="20" type="chapter" xml:id="NOR0009020">
-                <head><ref target="contents_20" type="contents" xml:id="chapter_20">XX.</ref></head>
+                <head>XX.</head>
                 <p>Henved et halvt Snes Aar var gaat hen med sine store Forandringer.
                     Marine-Etablissementet var degraderet i Betydning. Der laa et Strøg af det
                     forladtes Vemod i selve Lufttonen over alle disse offentlige Værksteder,
@@ -5076,8 +5062,7 @@
                     Nu var der aabnet en Sprække ialfald til Lys og Fortrolighed.</p>
             </div>
             <div n="21" type="chapter" xml:id="NOR0009021">
-                <head><ref target="contents_21" type="contents" xml:id="chapter_21"
-                    >XXI.</ref></head>
+                <head>XXI.</head>
                 <p>Cecilie holdt paa at faa en Mani for at pudse og polere. Hun gned Bitterheden og
                     sin Kraft ind i det gamle Mahognimøblement. Stolrygge, Bordskiver og
                     Chiffonierer skinnede saa at sige af hendes Forargelser.</p>

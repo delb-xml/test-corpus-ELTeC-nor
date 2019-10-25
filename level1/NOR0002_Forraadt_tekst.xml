@@ -1,34 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
-<TEI xml:id="NOR0002" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader >
+<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0002" xml:lang="nb">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Forraadt ELTeC-utgaven</title>
-                <author>Skram, Amalie (1846-1905)<idno type="viaf"
-                        >https://viaf.org/viaf/64021492</idno><idno type="wiki"
-                        >https://www.wikidata.org/wiki/Q291676</idno></author>
+                <author ref="viaf:https://viaf.org/viaf/64021492">Skram, Amalie  (1846-1905)</author>
                 <respStmt>
                     <resp>ELTeC encoding</resp>
                     <name>Michael Preminger</name>
                 </respStmt>
             </titleStmt>
-            <extent><measure unit="words">34885</measure><measure unit="pages"
-                >159</measure></extent>
-            <publicationStmt>
-                <p>Incorporated into the ELTeC<date>2018-10-21</date></p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl><ref target="http://www.bokselskap.no/boker/forraadt/tittelside">Teksten i
+            <extent><measure unit="words">34885</measure><measure unit="pages">159</measure></extent>
+            <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-10-25"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC2018-10-21--></publicationStmt>
+            <sourceDesc><bibl type="unspecified"><ref target="http://www.bokselskap.no/boker/forraadt/tittelside">Teksten i
                         bokselskap.no er basert p&amp;#x00E5; skannet og ocr-lest txt-fil mottatt
-                        fra NB/bokhylla.no.</ref><ref target="wiki">some ref</ref>
-                    <relatedItem type="copyText">
-                        <bibl><author>A. Skram</author><title>Forraadt
+                        fra NB/bokhylla.no.</ref>
+                    </bibl><bibl type="unspecified"><author>A. Skram</author><title>Forraadt
                                 ELTeC-utgaven</title><pubPlace>Kjøbenhavn</pubPlace><publisher>I.H.
-                                Schubotes Boghandel</publisher><date>1892</date><idno type="wiki"
-                                >https://www.wikidata.org/wiki/Q17157170</idno></bibl>
-                    </relatedItem></bibl>
-            </sourceDesc>
+                                Schubotes Boghandel</publisher><date>1892</date><idno type="wiki">https://www.wikidata.org/wiki/Q17157170</idno></bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-0">
             <p n="eltec-0"/>
@@ -44,20 +37,18 @@
                  <e:timeSlot key="T3"/>
             </textDesc>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><change when="2019-10-25">Checked by releaseChecker script</change>
             <change when="2011-03-17">Ført inn Ingvilds korrekturresultater.
                 Kodekontroll.</change>
-            <change when="2011-01-14" >Kodet om filen til
+            <change when="2011-01-14">Kodet om filen til
                 bokselskap-xml.</change>
         </revisionDesc>
     </teiHeader>
     <text type="novel" xml:id="BS_Skram_Forraadt_tekst">
-        <front>
-
-        </front>
+        
         <body>
             <div n="1" type="chapter" xml:id="NOR0002001">
-                <head><ref target="contents_1" type="contents" xml:id="chapter_1">I.</ref></head>
+                <head>I.</head>
                 <p>«Naa Riber, er Du allerede færdig?» spurgte Ingstad sin Svigersøn, den store,
                     brudgomsklædte Kaptejn Riber, der med sit blonde Helskæg, sine godmodige, lidt
                     skjæve Øjne og den brede, gulhvide Skaldepande, nærmest ligned en Russer.</p>
@@ -336,7 +327,7 @@
                 <p>«Sig saa til Riber, at jeg er færdig,» sa Ory langsomt og dumpt.</p>
             </div>
             <div n="2" type="chapter" xml:id="NOR0002002">
-                <head><ref target="contents_2" type="contents" xml:id="chapter_2">II.</ref></head>
+                <head>II.</head>
                 <p>Kort efter kjørte Ory afsted med sin Brudgom, som sad lidt fremoverbøjet med
                     opknappet Overfrakke og Hatten i Nakken.</p>
                 <p>Ory trykked sig tilbage i Vognhjørnet og holdt Benene tæt ind til Sædet. Med
@@ -604,7 +595,7 @@
                     af og la sig. Et Øjeblik efter var hun tæt omslynget af Ribers stærke Arme.</p>
             </div>
             <div n="3" type="chapter" xml:id="NOR0002003">
-                <head><ref target="contents_3" type="contents" xml:id="chapter_3">III.</ref></head>
+                <head>III.</head>
                 <p>Ar'n't you hungry, Mrs. Reiber?</p>
                 <p>Ory vendte sig om fra Vinduet, hvor hun i Timevis havde siddet og sløvt stirret
                     ud paa den taagegraa, larmende Vrimmel i Cheapside street, og svarte: «No, thank
@@ -931,7 +922,7 @@
                     fra?»</p>
             </div>
             <div n="4" type="chapter" xml:id="NOR0002004">
-                <head><ref target="contents_4" type="contents" xml:id="chapter_4">IV.</ref></head>
+                <head>IV.</head>
                 <p>Ory laa vaagen i den høje, brede Himmelseng. Hun havde saa længe havt Hænderne
                     stukket ind under Nakken, at det gjorde ondt i Armhulerne og værked for Brystet.
                     Alligevel tænkte hun ikke paa at forandre Stilling; hun var saa fordybet i
@@ -1122,7 +1113,7 @@
                     gaa i Bad mindst to Ganger om Dagen. Dette Kulstøvet trænger ind overalt.»</p>
             </div>
             <div n="5" type="chapter" xml:id="NOR0002005">
-                <head><ref target="contents_5" type="contents" xml:id="chapter_5">V.</ref></head>
+                <head>V.</head>
                 <p>Der var gaat en Uge, og i den Tid havde Riber flere Ganger gjort sig tidlig
                     færdig med sine Forretninger og var tat ud med Ory til nogle af Londons
                     Seværdigheder, hvorefter de saa havde endt Aftenen i et eller andet Teater. Hver
@@ -1432,7 +1423,7 @@
                     Øjeblik fik fugtige Øjne.</p>
             </div>
             <div n="6" type="chapter" xml:id="NOR0002006">
-                <head><ref target="contents_6" type="contents" xml:id="chapter_6">VI.</ref></head>
+                <head>VI.</head>
                 <p>Da de kom hjem, syntes Ory, det var for tidlig at gaa i Seng, og vilde sidde lidt
                     i deres Stue nedenunder. Riber tændte Gassen, la Hat og Frakke midt paa Bordet
                     og hjalp Ory Tøjet af. Saa satte han sig paa en Stol ved Døren og faldt i
@@ -1735,7 +1726,7 @@
                     paa Sjøen og har fint Vejr en Dag. Imorgen skal vi jo sejle.»</p>
             </div>
             <div n="7" type="chapter" xml:id="NOR0002007">
-                <head><ref target="contents_7" type="contents" xml:id="chapter_7">VII.</ref></head>
+                <head>VII.</head>
                 <p>Tøjet var sendt ombord, og Ory og Riber havde tat Afsked med Værtinden, hvorpaa
                     de sammen var gaat ud for at kjøbe nogle Smaating inden Afrejsen.</p>
                 <p>«Var det saa mere?» spurgte Riber, som havde Pakker i Hænderne. De kom ud fra en
@@ -2009,7 +2000,7 @@
                 <p>«Er De gal! Hal dem bare nedover til Gravesend det forteste I kan.</p>
             </div>
             <div n="8" type="chapter" xml:id="NOR0002008">
-                <head><ref target="contents_8" type="contents" xml:id="chapter_8">VIII.</ref></head>
+                <head>VIII.</head>
                 <p>Ory steg ned ad Trappen, der i en Krumning sprang frem i den skumle Forkahyt, som
                     brugtes til Spiserum. I Midten var et aflangt voksdugsklædt Bord og paa begge
                     Sider Sofabænke, hvis Rygstød vendte forskjellig Vej. Tilvenstre stod Døren
@@ -2469,7 +2460,7 @@
                     finde.»</p>
             </div>
             <div n="9" type="chapter" xml:id="NOR0002009">
-                <head><ref target="contents_9" type="contents" xml:id="chapter_9">IX.</ref></head>
+                <head>IX.</head>
                 <p>Det blæste en forrygende Storm af Sydvest. Riber stod agterud paa det svajende
                     Dæk og holdt sig fast i Kanten af Kappen, mens han af og til plired op i den
                     sorte, med skiddengule Flager isprængte Luft. Hundevagten, som nylig var kommen
@@ -2672,7 +2663,7 @@
                     tilbage.</p>
             </div>
             <div n="10" type="chapter" xml:id="NOR0002010">
-                <head><ref target="contents_10" type="contents" xml:id="chapter_10">X.</ref></head>
+                <head>X.</head>
                 <p>Ved Kappen stod Styrmanden og keg gjennem Sekstanten op mod den glødende Solskive
                     for at ta Middagshøjden. Vinden var agterlig, og Skuden, som havde alle Sejl
                     til, løb 8 Mil.</p>
@@ -2799,7 +2790,7 @@
                     Kaffetaaren, Gut!» Styrmændene gik ind i sit Kammer og stopte sine Snadder.</p>
             </div>
             <div n="11" type="chapter" xml:id="NOR0002011">
-                <head><ref target="contents_11" type="contents" xml:id="chapter_11">XI.</ref></head>
+                <head>XI.</head>
                 <p>Inde i Salonen sad Riber i Sofahjørnet med en lang, utændt Pibe i Haanden. Han
                     saa frem for sig med et træt Blik. Af og til sukked han tungt og flytted sig i
                     Sædet, stille og forsigtig, som var han bange for at gjøre Støj. Udenfor
@@ -3208,8 +3199,7 @@
                 <p>«Var hun ogsaa en nydelig ung Dame?»</p>
                 <p>Riber rejste sig op og betragted Ory med et fortvilet Blik. Saa la han Hodet bag
                     over og saa op i den tindrende Stjernehimmel.»</p>
-                <p>«Kan Du nu ikke fortælle mig det,» bad Ory. «Bare denne ene, ene Gangen.<note
-                        type="footnote">Manglende sluttanførselstegn.</note></p>
+                <p>«Kan Du nu ikke fortælle mig det,» bad Ory. «Bare denne ene, ene Gangen.</p>
                 <p>«Aldrig har jeg vidst, at et Barn kunde være en saa grusom Bøddel,» sa Riber med
                     en stille Hoderysten. «Ja for et Barn er Du, og det er din eneste Undskyldning.»
                     Han vendte sig og forlod hende.</p>
@@ -3217,8 +3207,7 @@
                     siddende i flere Timer.</p>
             </div>
             <div n="12" type="chapter" xml:id="NOR0002012">
-                <head><ref target="contents_12" type="contents" xml:id="chapter_12"
-                    >XII.</ref></head>
+                <head>XII.</head>
                 <p>I elleve Dager havde «Orion» ligget for Vindstille i Floridabugtens døde Vande.
                     Luften var kvælende tung, og Solvarmen saa glødende, at Begen smelted i
                     Dæksnaterne. Folkene var brunstegte; de gik med bare Fødder paa det brændende

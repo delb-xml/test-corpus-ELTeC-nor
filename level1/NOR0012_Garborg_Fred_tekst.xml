@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0012" xml:lang="nn" xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader><fileDesc><titleStmt><title>Fred ELTeC-utgaven</title><author>Garborg, Arne (1851-1924)<idno type="viaf">https://viaf.org/viaf/89613088</idno><idno type="wiki">https://www.wikidata.org/wiki/Q467497</idno></author><respStmt><resp>ELTeC encoding</resp><name>Michael Preminger</name></respStmt></titleStmt><extent><measure unit="words">84965</measure><measure unit="pages">317</measure></extent><publicationStmt><p>Incorporated into the ELTeC<date>2018-11-18</date></p></publicationStmt><sourceDesc><bibl><ref target="bokselskap.no">Teksten i bokselskap.no f&amp;#x00F8;lger 2. utgave, 1905 (Kristiania, Aschehoug). Digitaliseringen er basert p&amp;#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no).</ref><ref target="wiki">some ref</ref><relatedItem type="copyText"><bibl><author>A. Garborg</author><title>bokselskap.no, 2015 Arne Garborg: Fred
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0012" xml:lang="nn">
+<teiHeader><fileDesc><titleStmt><title>Fred ELTeC-utgaven</title><author ref="viaf:https://viaf.org/viaf/89613088">Garborg, Arne  (1851-1924)</author><respStmt><resp>ELTeC encoding</resp><name>Michael Preminger</name></respStmt></titleStmt><extent><measure unit="words">84965</measure><measure unit="pages">317</measure></extent><publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-10-25"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC2018-11-18--></publicationStmt><sourceDesc><bibl type="unspecified"/><bibl type="unspecified"><author>A. Garborg</author><title>bokselskap.no, 2015 Arne Garborg: Fred
 Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Aschehoug). Digitaliseringen er basert på fil mottatt fra
                     Nasjonalbiblioteket (nb.no). ISBN: 978-82-8319-258-2 (digital,
-                    bokselskap.no), 978-82-8319-259-9 (epub), 978-82-8319-260-5 (mobi) </title><pubPlace>Bergen</pubPlace><publisher>Mons Litlerè</publisher><date>1892</date><idno type="wiki">https://www.wikidata.org/wiki/Q14434353</idno></bibl></relatedItem></bibl></sourceDesc></fileDesc><encodingDesc n="eltec-1"><p n="eltec-0"/></encodingDesc><profileDesc xmlns:e="http://distantreading.net/eltec/ns"><langUsage><language ident="nn" usage="100"/></langUsage><textDesc><e:authorGender key="M"/><e:size key="medium"/><e:canonicity key="high"/><e:timeSlot key="T3"/></textDesc></profileDesc><revisionDesc>
+                    bokselskap.no), 978-82-8319-259-9 (epub), 978-82-8319-260-5 (mobi) </title><pubPlace>Bergen</pubPlace><publisher>Mons Litlerè</publisher><date>1892</date><idno type="wiki">https://www.wikidata.org/wiki/Q14434353</idno></bibl></sourceDesc></fileDesc><encodingDesc n="eltec-1"><p n="eltec-0"/></encodingDesc><profileDesc xmlns:e="http://distantreading.net/eltec/ns"><langUsage><language ident="nn" usage="100"/></langUsage><textDesc><e:authorGender key="M"/><e:size key="medium"/><e:canonicity key="high"/><e:timeSlot key="T3"/></textDesc></profileDesc><revisionDesc><change when="2019-10-25">Checked by releaseChecker script</change>
 <change when="2015-09-01">Entiteter og validering.</change>
 <change when="2015-08-31">Lagt inn korrekturrettelser. Teksten på den defekte
                 siden (268) er sammenlignet med Skriftir i samling, 1944. Kodekontroll.</change>
@@ -182,8 +186,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
 <div type="chapter"><head type="main">III.</head><p>Ljos var innsette paa dei lange Bordi i Bryllaupsstogo; for det var alt
                     Kveld.</p><p>Ved den nedre Bordenden sat ein Flokk eldre Mennar med Kritpipur og Ølkrus i
                     koselegt Drøs; lenger uppe sat eit anna Lag og spìla Kort; men uti
-                        Bui<note type="footnote">Forfatternote: Bui:
-                        Bestestova.</note> gjekk Dansen med Feleskratt og Rop og Braak og Staak, so
+                        Bui gjekk Dansen med Feleskratt og Rop og Braak og Staak, so
                     det song gjenom Huse. Helge Haave heldt Bryllaup for yngste Dotter si; og so
                     laut det vera eit Lag, som kunde baade høyrast og spyrjast.</p><p>Øle var sterkt og godt, og det fløymde med Brennevin. Nils Ramstad spìla,
                     og alt var paa si Høgd. Heile Grannelage var bedi, og Skyldfolk og Kjenningar;
@@ -344,8 +347,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     fyrr det var for seint; Gud! riv meg kje burt midt i mine Synder ...</p><p>Han berga seg inn Bakdøri, kveikte Ljos og skunda seg i Seng. Daa ho Anna kom
                     heim, laag han og sov, bleik og sveitt, med «De Bedendes aandelige
                     Kjæde» millom Hendane.</p></div>
-<div type="chapter"><head type="main">[IV.]</head><note type="footnote">IV.] rettet fra: VI.
-                    (feilnummerering)</note><p>Nei; hadde Djevelen fysst fengi Tak, so tarv du kje tru, han slepte! – det
+<div type="chapter"><head type="main">[IV.]</head><p>Nei; hadde Djevelen fysst fengi Tak, so tarv du kje tru, han slepte! – det
                     kunde kje verte noko av i Dag heller.</p><p>Det var «Graudadagen». Bryllaupsfolke skulde «paa
                     Garden»; so laut Enok au taka imot. No, daa han hadde tenkt aa halde seg
                     fraa Syndi, kom Syndi til honom. Og i Dag vart det verre; for i Dag skulde han
@@ -542,8 +544,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     likevel. Um han no med ein Gong stod der i Kvernhusdøri ....</p><p><pb n="43"/>Enok stengde; so kveikte han Ljos i Lykti og freista aa gjeva seg Gud
                     i Vald. «Aa, berre du vilda vera med meg! – so var det nok ingin
                     Faare.»</p><p>Det var eit stort Kvernhus, skift i tvo med ein Vegg; i det indre Rome var
-                        Tussa,<note type="footnote">Forfatternote: Tussa:
-                        Turkegreida.</note> i det ytre Kverni. Enok heldt seg i det indre. Kvar Gong
+                        Tussa, i det ytre Kverni. Enok heldt seg i det indre. Kvar Gong
                     han skulde ut aat Kverni, i det kalde mjølkvite Rome med dei rare Skuggane naar
                     Ljose kom, – var det so det kulsa i han. Tenk, um det sat ein der no paa
                     Kanten av Mjølkista!</p><p>Utanfor gjekk det. Han høyrde tydeleg at det gjekk. Kven kunde det vera? Han
@@ -656,13 +657,11 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Klokkaren fyri paa sin blakke Hest. Den gnelle Tenoren hans blanda seg skjerande
                     i Vinden, som bar Gravsalmetonane sundrìvne og sorgtunge yvi Myr og
                     Heiar.</p><p>Og det gav seg til aa stridregne. –</p><p>– Det var same Kvelden.</p><p>Vinden fossa tungt um Nòvine, i stigande og fallande Sjoing som Sjøen um
-                    ein Skipsbaug. Og det dunka og braka i Veggir og Raust.</p><p>«Ja no er det nok Vinteren som bryt inn,» meinte ho Anna.</p><p>Dei var innkomne or Fjose og hadde silt og stelt; no sat dei ved Kòla<note type="footnote">Forfatternote: Kòla:
-                        Tranlampe.</note> og spann, baade Kona og Gjenta. Men Kòla blakra og
+                    ein Skipsbaug. Og det dunka og braka i Veggir og Raust.</p><p>«Ja no er det nok Vinteren som bryt inn,» meinte ho Anna.</p><p>Dei var innkomne or Fjose og hadde silt og stelt; no sat dei ved Kòla og spann, baade Kona og Gjenta. Men Kòla blakra og
                     blekkte som ho kunde gaa ut.</p><p>«I Kveld er det godt aa vera paa Landjordi,» sa ho Marta.</p><p><pb n="53"/>«Ja det vilde kje vera fyse aa ha nokon paa Sjøen i
                     Kveld.»</p><p>Ho Serina, eit ljost, vent Gjentebarn paa aatte Aar, sat paa ein Skammel attmed
                     Mor si og kara; Anna og Rakel, dei tvo minste, laag paa Golve og krabba med sine
-                    rolege Barnespel. Men han Gunnar sat tett innunder Kòla og smidde<note type="footnote">Forfatternote:Smida: gjera
-                        Smedarbeid; arbeide med Kniv.</note> paa noko som skulde verte
+                    rolege Barnespel. Men han Gunnar sat tett innunder Kòla og smidde paa noko som skulde verte
                     Karjolsæte.</p><p>«Hyss, der kjem han Far,» sa han.</p><p>«Han gjer visst det,» svara Anna letta. «Det var kje
                     fortidleg. Du fær gaa ut og sjaa um Grauten no.»</p><p>«Eg fær vel det,» sa Marta.</p><p>«Og so segjer du meg til, naar Eplegryta er ferdig.»</p><p>«Ja.» Marta sette Rokken fraa seg og rusla aat Kjøken.</p><p>Smaagjentune stiltra seg etter. Dei var som rædde Far sin i seinare Tid. Stakkars
                     Enok. Gud gjev han hadde fengi snakka med Presten i Dag. Skulde det halde paa
@@ -680,9 +679,8 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     drog han Dyna yvi Hovude; men ho høyrde at han ynka seg og sukka svært tungt. Ho
                     vaaga seg burt og spurde, um det var noko; spurde ein Gong til, heller høgt.
                     – «Ikkje paa Lìkamen,» mumla det under Dyna. Ho
-                    sette seg att; det vart stillare med han.</p><p>Marta kom med Bòd at Epli<note type="footnote">Forfatternote: Eple (Jordeple): Potetur</note> var ferdige; og Anna
-                    maatte aat Kjøken. Gunnar tok ho med; han var so glup til aa flysja.<note type="footnote">Forfatternote: Flysja:
-                        «skrælle».</note></p><p><pb n="55"/>– Men Enok laag og vreid seg under Dyna og hadde vondt i
+                    sette seg att; det vart stillare med han.</p><p>Marta kom med Bòd at Epli var ferdige; og Anna
+                    maatte aat Kjøken. Gunnar tok ho med; han var so glup til aa flysja.</p><p><pb n="55"/>– Men Enok laag og vreid seg under Dyna og hadde vondt i
                     Sjæli.</p><p>Han hadde tala med Presten, og det hadde hjelpt for ei Stund. Men paa Heimvegen
                     hadde det vorti verre att. «Han skyldig er i Jesu Mord; hans Blod er paa
                     hans Hoved ...» Der var noko med den Syndi til Dauden, som dei ikkje
@@ -798,16 +796,14 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     anna no enn aa finne ut kva han Far der uppe helst kunde vilja.</p><p>Han stod upp um Morgonen Klokka fem; me skulde kje leta oss og kjæle for Kjøte.
                     Gunnar au maatte upp, med alt det han grét og ille lét, og endaa
                     Mor hans bad for han; inga Avgudsdyrking no; og inga Kjæling og Bløyting!
-                    – Men Serina hadde fengi Kregda,<note type="footnote">Forfatternote: Kregda: Krilla (Meslinger).</note> so ho slapp;
+                    – Men Serina hadde fengi Kregda, so ho slapp;
                     alltid skulde det gange so godt for henne. So vart Dagen vigd med Song og Bøn.
                     Drengen og Gjenta laut og vera med; Enok var Husfar og andsvarleg for deim alle.
                     Men han fekk dei kje til aa leggje seg paa Kne. <pb n="64"/>Ho Anna slapp au; ho
                     var so langt paa Vegen med det femte. Men Gunnar maatte til, endaa han vreid seg
                     stygt. So las Enok Bøni av den «aandelige Kjæde.»</p><p>Etter Bøni fekk dei seg Mat. Og ved Matborde skulde det vera stilt; me skulde
                     hava Vyrdnad for Gud og Gaavune hans. Og me skulde tenkje paa, at Gud sjølv var
-                    tilstades, so me ikkje vanhelga Maaltidi hans med Tøv og Tattl.<note type="footnote">Forfatternote: Tattl: Tullesnakk,
-                        «Vrøvl».</note> Fyri og etter Maten Bøn og eit Salmevers.</p><p>So gjekk Enok til Arbeide sitt full av Annhug<note type="footnote">Forfatternote:
-                            Annhug: «Iver».</note> og
+                    tilstades, so me ikkje vanhelga Maaltidi hans med Tøv og Tattl. Fyri og etter Maten Bøn og eit Salmevers.</p><p>So gjekk Enok til Arbeide sitt full av Annhug og
                     Glede.</p><p>Arbeide hadde vorti som nytt for han no. Det var kje lenger Trældom og Slit og
                     Sut for Mammon; det var Gudsteneste.</p><p>For Livsens Naudturft vilde Herren syte. Ikkje for den Skuld arbeidde me. Me
                     arbeidde fordi Gud vilde at me skulde arbeide.</p><p>Ein herleg Tanke var dette: at me i sjølve vaart Kvardagsstræv kunde dyrke Gud.
@@ -1140,8 +1136,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Timane.</p><p><pb n="90"/>Og naar det leid til Kvelden og Skulen slutta, og Skulemeistaren
                     sette seg til millom Husens Folk og rødde med deim, so kunde det vera ikkje
                     mindre gildt. Mykje kunde ein faa Greide paa som ein aldri hadde visst; og um
-                    dei kom til aa skjemte og læ, so vart det daa aldri noko Heigraskap.<note type="footnote">Forfatternote: He(i)graskap:
-                        Uvitingskap.</note> Dei hadde vorti so kjende med han Tarald Aksdal, at det
+                    dei kom til aa skjemte og læ, so vart det daa aldri noko Heigraskap. Dei hadde vorti so kjende med han Tarald Aksdal, at det
                     var mest som han skulde høyre Huse til; og det vart Sorg baade paa store og
                     smaae her i Haust, daa det vart til det at han skulde gjeva upp Skulen.</p><p>No skulde dei hava denne unge Son hans Torkjell Tualand, han Tønes; so det kunde
                     vel spyrjast, um det vart fullt so gildt. Dei kjende kje denne Guten; han hadde
@@ -1163,11 +1158,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Boki.</p><p>Mor hans laut læ. «So hev daa Skinnbrøkane vori gode for einkvart,»
                     sa ho.</p><p>– Men noko leidt skulde det koma her og. Det var reint som det var
                     utgjort.</p><p>Det var nokre Dagar etter at «Jesusbarne» fraa Heialand var komi,
-                    – ein litin myrkleitt Gjentunge som heitte Jorina.<note type="footnote">Forfatternote: Jorina, Serina, Maria osfr., i det
-                        heile alle tristavde Ord, vert ut-tala med tvo tunge Stavingar og ei lett
-                        (– – ᴗ), ikkje Jorina, Maria osfr. Tonefalle for
-                        «Anna», «Marta» osfr. er: – –;
-                        ikkje – ᴗ.</note> Dei sat kring Kòla ein Kveld; Enok
+                    – ein litin myrkleitt Gjentunge som heitte Jorina. Dei sat kring Kòla ein Kveld; Enok
                     banda Byttur, Anna og <pb n="92"/>Marta spann, Gunnar og Serina sat og las, og
                     Jorina karda.</p><p>Med ein Gong spruta ho Marta i og lo. Det munde vera so løgi det ho tenkte paa,
                     at ho kunde kje halde seg lenger.</p><p>«Eg kann kje anna, eg maa læ», orsaka ho seg; so fortalde ho:</p><p>Ho hadde stadi utmed Brunnen i Dag, og der hadde ho set denne halvgalne Student
@@ -1454,7 +1445,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     i–reh! i–reh! Tiu! tiu! slog Raudstelken. Erla hoppa og smaakvitra
                     rundt ikring; Steindilpa sat og skvatra og nikka paa eit Steingjerde. Lufti var
                     full av Piping og Klang. Men yvi alt svimra Lerkejubelen.</p><p>Og snart var Jorina inne i ei Sogu att. «Ho Mor fortalde ein Gong noko som
-                    ho hadde høyrt av han gamle Vidkunn i Ramstad-Træe.<note type="footnote">Forfatternote: Træe: Trø.</note> Det kom eit stort
+                    ho hadde høyrt av han gamle Vidkunn i Ramstad-Træe. Det kom eit stort
                     Fantefylgje dit ein Gong; i det Fylgje var der ei gamal Kjering; ei utgamal ei,
                     so skrukki og gul som Hodn. Denne Kjeringi sat paa ein Stol i ei Kraa og sukka
                     so tungt; «aa ja – ja», sa ho; «aa ja –
@@ -1476,13 +1467,12 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     sjaa, det var han Tomas, Fante-Tomas, Hovdingen for Fylgje. Han sat og hamra paa
                     eit Blekkspand, so Dusken dansa i Toppluva hans.</p><p><pb n="117"/>Dei andre tok det i Mak. Ho Gunhild, Kjeringi, sat paa ein Skammel
                     midt imot Tomas og røykte paa ei Kritpipe; jamsides henne, paa Marki, sat eit
-                    yngre fregnutt Kvinnfolk med eit Spøt.<note type="footnote">Forfatternote: Spøt: Bunding.</note> Store svarte Olaves Didriksen,
+                    yngre fregnutt Kvinnfolk med eit Spøt. Store svarte Olaves Didriksen,
                     Bror hennar Gunhild, laag so lang han var burtetter Vollen og lèta seg; ein
-                    Flokk Ungar flaug rundt og gjorde gildt,<note type="footnote">Forfatternote: Gjera gildt: leike.</note> ylande av Glede som smaae
+                    Flokk Ungar flaug rundt og gjorde gildt, ylande av Glede som smaae
                     Vargar.</p><p>Tomas var Kam-makar og Blekksmed og kunde binde Vevskeîir og gjera
                     Fiskekrokar; og han tente so mykje med Arbeide sitt, at med det til som Kjeringi
-                    og dei andre tagg ihop, kunde Flokken klara seg utan Spaning.<note type="footnote">Forfatternote: Spaning (Tatermaal):
-                        Steling (= Spaneba)</note></p><p>Og det var det beste i fleire Maatar, meinte Tomas. For det fysste var
+                    og dei andre tagg ihop, kunde Flokken klara seg utan Spaning.</p><p>Og det var det beste i fleire Maatar, meinte Tomas. For det fysste var
                     Lensmennane svært gløgge i denne Tid, so det var vandt aa sleppe ifraa eit
                     Spaneba med det gode; og for det andre var Tomas ein boklærd og klok Mann som
                     ikkje vilde ha noko Tjuveord paa seg. Det skulde ingin segja at Tomas Fredriksen
@@ -1492,9 +1482,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     «Far din er Fant», so skulde han kunne upplyfte <pb n="118"/>sitt
                     Hovud og svara med Sannings Ord og Resón: «men Far min er
                     ærleg.»</p><p>Tomas var ein merkeleg Fant.</p><p>Han hadde lesi alle gode gamle Lærdomsbøkar, Sakso Grammatikkus, Olger Danske,
-                    Karl Magnus og andre, og so Bibelen, Lars Linderoth og Knud Spødervoll.<note type="footnote">Forfatternote: Knud Spödervoll: Ein
-                        Bonde paa Vestlande som høyrde til dei sterkt-truande
-                        og skreiv Bøkar til Forsvar for denne Sekti.</note> Han var konfirmera med
+                    Karl Magnus og andre, og so Bibelen, Lars Linderoth og Knud Spødervoll. Han var konfirmera med
                     god Kristendomskunskap paa Tukthuse i Kristianssand; dei hadde tenkt paa aa
                     døype han au, men ikkje vaaga det, daa det var rimelegt at han var barnedøypt
                     ein Stad uppi Sætesdalen. Paa Tukthuse var det han fekk Sans for aa lesa og
@@ -1555,9 +1543,8 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Lærdomen. <pb n="122"/>Og um han vart leid mot Guten, so var nok ikkje Carolus
                     den som lét seg flaa! Det kunde vera mangt aa pumpe hjaa han Enok,
                     lét Gunhild; «veit du kje, din Trave, at der er
-                        Smaa-Rakli'er<note type="footnote">Forfatternote: Rakli: Gjente.</note> der? – det kann bli Blavi<note type="footnote">Forfatternote: Blavi:
-                        Bryllaup.</note> og Lokki<note type="footnote">Forfatternote: Lokki: Barnseng.</note> det, Far! F. slipe meg, hev
-                    kje so gali hendt fyrr! – slik ein kvant<note type="footnote">Forfatternote: kvant: ven; framifraa.</note> og
+                        Smaa-Rakli'er der? – det kann bli Blavi og Lokki det, Far! F. slipe meg, hev
+                    kje so gali hendt fyrr! – slik ein kvant og
                     væl-likandes ein som Carolus er. Naar Mormor di fekk ein Gardmannsson fraa
                     Vardal, so kann liksosnart Son din faa ei Gardmannsdotter fraa Haave,
                     Far!» Fante-Tomas maatte læ og prise dei djupe Innsiktir hjaa Kjeringi
@@ -1669,15 +1656,10 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     skreik seg upp, so ein helst vilde halde seg for Øyro. Dei smaae Augo <pb n="131"/>glyrde og stakk. Um Munnen laag Fantedrage heile Tidi: ein laus,
                     løynsk Smil, noko-so-nær ned-duld; Tala slutta med nokre Ord i Fantemaal, som
                     kom i same strenge, manande Tonelag som alt det andre: «og so vonar eg
-                    til Gud, Carolus, at du vil ascha ein horta<note type="footnote">Forfatternote:
-                            horta: ægte.</note> Romanisæl<note type="footnote">Forfatternote: Romanisæl kallar
-                        Tateren seg sjølv.</note> og ikkje lata Buroen<note type="footnote">Forfatternote: Buro: Bonde.</note> stultra<note type="footnote">Forfatternote: Stultra: narre.</note>
-                        dero<note type="footnote">Forfatternote: Dero: du,
-                        deg.</note> eller bokka<note type="footnote">Forfatternote: Bokka: svelte.</note> dero eller dabba<note type="footnote">Forfatternote: Dabba: slaa.</note>
-                    dero; men kammar<note type="footnote">Forfatternote: Kamma: hava.</note> dero kje latjot,<note type="footnote">Forfatternote: Latjot: godt.</note> so naschar<note type="footnote">Forfatternote: Nascha: røme.</note>
-                    dero og avar<note type="footnote">Forfatternote: Ava:
-                        koma.</note> til Daden<note type="footnote">Forfatternote: Dad: Far.</note> deros og Deia<note type="footnote">Forfatternote:
-                            Deia: Mor.</note> deros i Jessu Kristi Namn. Og
+                    til Gud, Carolus, at du vil ascha ein horta Romanisæl og ikkje lata Buroen stultra
+                        dero eller bokka dero eller dabba
+                    dero; men kammar dero kje latjot, so naschar
+                    dero og avar til Daden deros og Deia deros i Jessu Kristi Namn. Og
                     so maa du liva vel daa.»</p><p>Det var stridt aa halde ut. Men ein Ting sagde Tomas, som Enok lagde Merke
                     til.</p><p>«Kanskje kunde det heppast so vel,» sa Tomas, «at eg og
                     kunde koma ut av Umstripparlive paa mine gamle Dagar. Lengi hev det vore min
@@ -1730,8 +1712,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     at han fekk Skjenn; neidaa. Og Ris – haa. Fanteguten Ris! Nei, berre eit
                     Par søte Ord i denne Bløytetonen –: «det var daa leidt, at du
                     ikkje vart ferdig, Carolus, du, som er slik ein glup Kar. Han Gunnar fær hjelpa
-                    deg litegrand daa.» Ja tenk-kje<note type="footnote">Forfatternote: tenk-ikkje: «naturligvis»; kvifor
-                        ikkje.</note>
+                    deg litegrand daa.» Ja tenk-kje
 <pb n="135"/>han Gunnar! Han Gunnar var god til alt. Ikkje turvte Fanten gaa i
                     Skinnbrók heller. –</p><p>Ungen gjekk og arga seg som ein vaksin; den einaste han fann rimeleg var ho Mor.
                     Ho heldt litegrand med han stundom. Og hjelpte han naar ho saag seg Raad. Noko
@@ -1744,14 +1725,12 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     han hev teke ei Kringla!» Men ho Mor berre hyssa paa han; ja ho var mest
                     vond. «Du er so forhatig paa han Carolus, du, men Carolus hev vori glup i
                     Dag. Berre gakk inn til han du; so skal du og faa Kringla.» Kviskrande
-                    lagde ho til: «og so skal du vera snild med han Carolus.» <pb n="136"/>Gunnar stod som torefortenkt.<note type="footnote">Forfatternote:
-                            torefortenkt: naamen av Forundring.</note> Dette
+                    lagde ho til: «og so skal du vera snild med han Carolus.» <pb n="136"/>Gunnar stod som torefortenkt. Dette
                     kunde han ikkje skỳna. Skjemd og forundra drog han seg uti Matbui att;
-                    – «no, kva fekk du for Besingi<note type="footnote">Forfatternote:
-                            Besing: Fisling.</note> di?» spurde
+                    – «no, kva fekk du for Besingi di?» spurde
                     Carolus.</p><p>Etterpaa vart Ungeflokken styrd aat Løo; dei skulde faa leike seg i Dag, daa her
                     var «fritt». Dette var Gunnar so glad for, at han tok alt for
-                    godt.</p><p>Og det viste seg i Dag, at Carolus kunde vera løgin.<note type="footnote">Forfatternote: løgin: morosam.</note> Skulde aldri
+                    godt.</p><p>Og det viste seg i Dag, at Carolus kunde vera løgin. Skulde aldri
                     ha set so rart som han kunde skapa seg til. Han var «vill Mann» og
                     fekk deim til aa læ mest meir enn dei hadde godt av. Sidan fortalde han Eventyr
                     for deim; og Sogune hans var mykje gildare enn Jorina sine. Tvo Eventyr fortalde
@@ -1776,7 +1755,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     um det som gjeng for seg her i Huse naar han er burte?» Daa saag ho Mor
                     stygt paa Carolus. Og det kvakk i Gunnar; no skyna han alt. «Det fær gaa
                     for denne Gongen,» sagde ho Mor og gjekk fraa deim.</p><p>– Men Gunnar gjorde seg Godvenir med Fanten so fort som han kunde.</p></div>
-<div type="chapter"><head type="main">XIII.</head><p>Lufti bleikna og Aakeren skjerna.<note type="footnote">Forfatternote: skjerna (um Aaker): verte skjer (mogin).</note>
+<div type="chapter"><head type="main">XIII.</head><p>Lufti bleikna og Aakeren skjerna.
                     Eplekaale misste sine vene blaaskjengjute eller rjomegule Blomar og sette
                     Topp-Eple. Viba tagna, flokka seg og vart burte. Paa bleike avslegne Engir heldt
                     Staren sine Stor-møte med eit Skravl og eit Kvirl, so det høyrdest langan Veg.
@@ -2095,7 +2074,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Jamaldringar; og um me kunde forsvara aa lata henne Jorina gaa med so lite Skule
                     ...</p><p>Det meinte ho skulde hjelpe, og det hjelpte. Dagen etter sat Borni hans Enok paa
                     Skulebenken; dei hans Per der nord var au med.</p><p>Glad var Gunnar. No fekk han gange sundagsklædd! Og so var det Fristundine. Daa
-                    tumla han seg reint villt. Fangtokst<note type="footnote">Forfatternote: Fang-takast: brjotast.</note> og slogst og ylte i
+                    tumla han seg reint villt. Fangtokst og slogst og ylte i
                     høgan Sky, og fann paa alle Slags Fantestykkje. Serleg leid var han med henne
                     Olina hans Per; lugga og slog henne; kneip henne i Armane og stakk henne med
                     Naalir; stundom kasta han henne i Bakken og drog henne rundt etter Føtane; ho
@@ -2115,8 +2094,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     vart Olsen vond. Eller han sukka og vart hugtung. «Man tænke sig, her
                     staar jeg, Norges største Digter; – og i hvilke Omgivelser! Ah, quelle vie, quelle vie, ah! voici un
                     malheureux!» – og anna Javl, som skulde vera Franskt,
-                    lét han um.<note type="footnote">Forfatternote: laate
-                            um: «lade sig forlyde med».</note></p><p><pb n="164"/>Daa Laurdagen kom, slutta han Klokka tolv og strauk paa Bygdi.</p><p>Han kom kje heim fyrr dei hadde eti til Kvelds. Og daa var han svært
+                    lét han um.</p><p><pb n="164"/>Daa Laurdagen kom, slutta han Klokka tolv og strauk paa Bygdi.</p><p>Han kom kje heim fyrr dei hadde eti til Kvelds. Og daa var han svært
                     høgtidsam.</p><p>«Tak, ikke Mad.» Stakkar; i Kveld tala han Bymaal.</p><p>Han gjekk paa Golve med svingande Faktir og store Stìg, og kremta og
                     kremta som han vilde segja noko. So lagde han Armane yvir Bringa og stellte seg
                     upp. «Høistærede Enok Haave. Har jeg nogensinde fortalt dig om min
@@ -2156,10 +2134,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     noget som mishagede mig; og saa gav jeg mig til at angribe Goethe. –
                     Goethe er en afdød Kollega af mig, en af de største Digtere, som nogensinde har
                     existeret. – Det første Vers vil enhver erkjende Urigtigheden af
-                    –:</p><quote><l>«Er sass ja ganz wie blind und taub</l><l>in vielen, langen Jahren ...»</l><note type="footnote">Forfatternote: Av «Olsens» Forteljing i Kap.
-                        XV er Stykke fraa «Omsider begyndte det at gaa rundt» til og
-                        med det tyske Verse laant fraa eit (forbòdi) lite Skrift av ein eldre
-                        Forfattar.</note></quote><p><pb n="167"/>«Ah, c'est vrai; du forstaar
+                    –:</p><quote><l>«Er sass ja ganz wie blind und taub</l><l>in vielen, langen Jahren ...»</l></quote><p><pb n="167"/>«Ah, c'est vrai; du forstaar
                     ikke Tysk. Ah, l'imbecile ... Men nu skal du høre
                     noget, jeg digtede paa Norsk; det var til Henrik Wergeland, hvem jeg angreb for
                     hans Usædelighed, – og det med Rette.</p><quote><l>'Hvor længe, Henrik – –'»</l></quote><p>«Hm,» kremta Enok; «du fær gaa burt etter Salmebøkane,
@@ -2182,8 +2157,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     bedste Medicin er den bedste Religion; derfor skal I synge Sange til Evans Pris,
                     ligesom den salig Guds Mand Presten Zetlitz; men vorder ikke siddende her i
                     disse mørke Huler og grubler over eders saakaldte Synder; he-he, Synder! som om
-                    en Bauer<note type="footnote">Forfatternote: Bauer
-                        (tysk): Bonde.</note> kunde synde! Jeg synes jeg ser Vorherre sidde og tælle
+                    en Bauer kunde synde! Jeg synes jeg ser Vorherre sidde og tælle
                     ihop de Smaadumhederne og Smaaraahederne, som falder af efter dere, og som dere
                     smykker med det høitravende Navn «Synd»; ha-ha; Synd! I har Fanden
                     ta mig ikke saa megen Sjæl, ikke saa megen – –»</p><p>«No kann det vera nok!» sette Enok i. «Jau no kom nok
@@ -2192,8 +2166,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Jeg!» – Olsen strama seg upp og vart stiv som ein Stake. So tok
                         <pb n="169"/>han Hatten og Staven og skreid ut.
                     «L'imbecile!» ropa han i Døri.</p><p>Dei saag kje meir til han. Men Morgonen etter kom det Bod fraa han Per der nord
-                    etter Panken hans og ein Ort<note type="footnote">Forfatternote: 1 Ort 6 Skill.
-                        = 1 Kr.</note> og seks, som han skulde hava av Enok for otte Dagar
+                    etter Panken hans og ein Ort og seks, som han skulde hava av Enok for otte Dagar
                     Skule.</p><p>– Det sat som ein Agg i Enok etter dette.</p><p>Han hadde synda. Vantruin og ulydig hadde han vori. Guds Vilje hadde han visst:
                     at han skulde vera Lærar sjølv i Huse sitt; og Hjelp til dette skulde han faa;
                     det hadde Gud lova han tydeleg. Men so hadde han vorti utòlig. Det gjekk
@@ -2307,7 +2280,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     ihop? – Gjekk kje denne Olsen au og drøymde um, at han hadde
                     «kjent Gud i seg» og høyrt Vitnemaal i sitt Hjarta?</p><p>Det kom yvi han stundom, so han vart kald og sveitt, og kjende Folningar og
                     Visningar gjenom heile Kroppen.</p><p>Han kom inn ein Kveld i Skùmingi; Vesle-Paulus skreik, og Serina sat og
-                    vogga og sulla for han.</p><quote><l>«Paa Daarafjedl'e,<note type="footnote">Forfatternote: Daarafjedl'e er vel Dovrefjell.</note></l><l>paa Daarafjedl'e,</l><l>der dansa baade Gjeide og Saue.</l><l>Fyre gaar den, so i Pibaa blæs'e,</l><l>ittepaa kjem Kùssen<note type="footnote">Forfatternote: Kùsse; litin Kalv.</note> den
+                    vogga og sulla for han.</p><quote><l>«Paa Daarafjedl'e,</l><l>paa Daarafjedl'e,</l><l>der dansa baade Gjeide og Saue.</l><l>Fyre gaar den, so i Pibaa blæs'e,</l><l>ittepaa kjem Kùssen den
                         raue.»</l></quote><p><pb n="179"/>«Kva er det for noko gamalt Tøv du sìt og gnaalar
                     paa,» sa Enok; «kann du kje likso godt syngja noko som er vent?
                     – Kanskje tagnar han Paulus au heller daa. – Syng den som han
@@ -2426,8 +2399,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Straffedomar og Guds Vreide. Her gjekk Kvinnfolki og fiffa med Silkeplògg
                     og Orliangskjolar, og Karane med nymotens Hattar og Klokkekjedur av Sylv; og
                     rundt um paa Gardane sette Folk upp store gilde Hus og maala dei kvite so dei
-                    skein yvi Land, og køyrde med Karjolar og Skeisur<note type="footnote">Forfatternote: Skjeise (Chaise): finare
-                        Stolkjerre.</note> som smaae Storkarar. Og den eine etter den andre raadde
+                    skein yvi Land, og køyrde med Karjolar og Skeisur som smaae Storkarar. Og den eine etter den andre raadde
                     seg til av desse nye Plogane som Møller paa Myre hadde ført inn; liksom det
                     ikkje var Guds Signing, det galdt um, men gilde Greidur; ja der var dei som fekk
                     seg Hakkmaskinar og Treskjemaskinar. Det kunde koma den Dagen daa dei fekk
@@ -2517,7 +2489,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Betydning som Far, for aa sjaa um Son sin, læt han um.</p><p>– Men i Grunnen var det den nye Læraren, han vilde freiste seg med. Det
                     skulde vera ein klok Kar, hadde han høyrt, utlærd paa denne nye Lærarskulen; og
                     Tomas hadde kje godt av seg, fyrr han fekk visentere han litegrand. Det skulde
-                    vera Beng'en<note type="footnote">Forfatternote: Beng (Fantemaal): Djevelen.</note> til Spikk, um denne unge Spiren
+                    vera Beng'en til Spikk, um denne unge Spiren
                     her skulde kunne klara seg mot han Fante-Tomas.</p><p>Lengi sat Skulemeistaren og vilde kje høyre <pb n="196"/>etter. Men Tomas gav seg
                     ikkje. Han lédka og krøkte til han fekk Tak. Skulemeistaren lagde Boki
                     fraa seg.</p><p>Daa tok Tomas ei av sine vandaste Aspektir. Ikkje ein Gong Presten Meier hadde
@@ -2753,16 +2725,14 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Tetten uti Have er inginting; berre Taake.</p><p>Den siste lette Skoddestrima stig fraa Sève i Heialandsvatne og blaanar burt i
                     Luft. Det er morgonfriskt og svalt; men Soli tek til aa verme. Yvi Myrane tumlar
                     Vibeflokkar kvitglimande i Soli med sine eldfulle Kvinneskrik. Lerka stig og
-                    stig til ho kjem mest burt; so heng ho der uppe og syng og svingar.</p><p>Bùje<note type="footnote">Forfatternote: Bùj: Buskap.</note> vert utslept. Like eins Smalen,<note type="footnote">Forfatternote: Smale (Kollektiv):
-                        Saueflokk.</note> som <pb n="215"/>Enok ikkje hev sent aat Heiî i
+                    stig til ho kjem mest burt; so heng ho der uppe og syng og svingar.</p><p>Bùje vert utslept. Like eins Smalen, som <pb n="215"/>Enok ikkje hev sent aat Heiî i
                     Aar, av di dei tvo minste Gjentungane no er so store at dei kann gjæte.
                     Hoppande, bæktande, rautande dansar Fenaden i Veg ut Aarvollvegen aat Marki.
                     Kyr, Kalvar, Sauir og Lomb um kvarandre leikar og smaastangast, bykser og
                     spring; Kalvane er etter Sauine og skræmer deim; unge Kvigur leikar Elskhug;
                     Bjøllur singlar og syng; alt er Sumar og Glede.</p><p>Carolus er Gjætar um Sundagen; han fylgjer Fenaden slengjeleg og lang. Han hev
                     ein Randlestav i Handi og hoppar og tverkastar seg liksom Kalvane. So freistar
-                    han aa syngje:</p><quote><l>«Aa kjæra mina Kjavoar,<note type="footnote">Forfatternote: Kjavo (Fantemaal): Barn.</note></l><l>aa kjærar<note type="footnote">Forfatternote: Kjæra:
-                            trættast; slaast.</note> inte saa –!»</l></quote><p rend="noIndent">men det brest for han; han er kje færdig med Maalskiftingi.</p><p>Langt ute i Vest skin det bleike Have. Brune og kvite Segl lyser der ute i
+                    han aa syngje:</p><quote><l>«Aa kjæra mina Kjavoar,</l><l>aa kjærar inte saa –!»</l></quote><p rend="noIndent">men det brest for han; han er kje færdig med Maalskiftingi.</p><p>Langt ute i Vest skin det bleike Have. Brune og kvite Segl lyser der ute i
                     Morgonbrisen; ytst i Synsrandi ligg den svarte Røykstrima etter eit Eimskip.
                     Carolus hoppar høgt. Kven veit; næste Sundag kann eg vera der ute!</p><p>Han hev kje anna paa seg enn ei Brok, ei blaastriput Bomullskjorte og ei lita
                     flat Luve. Men han kunde ha Hug til aa kaste alt og hoppe nakin um millom Kalvar
@@ -2814,7 +2784,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Himilen gidrar og didrar som ei fin, skjelvande Bylgjing.</p><p>Aah! so godt og varmt. Soli bakar hans unge Kropp, og ljuve Luftdrag lumrar um
                     Øyro hans. Alt er stilt. Fuglane hev søkt Reire. Det blømande Lynge angar.
                     Carolus sig av i Draum.</p><p>– – Paa slike Dagar er Fantelive søtt, naar dei ligg burtetter
-                    Heiane og lètar seg i Soli. Eit Grand paa Flaska og ein Kortstokk. Tjeia<note type="footnote">Forfatternote: Tjeia (Fantemaal): Gjente.</note> ligg i
+                    Heiane og lètar seg i Soli. Eit Grand paa Flaska og ein Kortstokk. Tjeia ligg i
                     Solbakken spak og lat. – – Ja Buro vil eg kje vera lenger!</p><p>– Aa du Mor, du Mor, som tenkte at Buro-Tjeia kunde vera noko for
                     Fanteguten! – Ho er rædd meg, ho Serina, etter den Dagen i Løo, daa eg
                     vilde taka henne um Halsen. Ei ven Gjente vert det; mjaa og mjuk; blaae Augo; og
@@ -2835,7 +2805,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Stad. Med ein Gong er Far hans burte. Inginting aa sjaa. Kvorvin som ei Syn i
                     den gidrande Solflaumen. Carolus held Handi yvi Augo og stirer; kann enno ikkje
                     skỳna at han berre hev drøymt.</p><p>– «Ja-ja Far; eg skal koma i Nott. Tarv kje ræddast naar det bankar
-                    paa Vindaugo; <pb n="221"/>d'er kje Moskroen,<note type="footnote">Forfatternote: Moskro: Lensmann.</note> hæ-hæ ...
+                    paa Vindaugo; <pb n="221"/>d'er kje Moskroen, hæ-hæ ...
                     Sattans Smalen! Hæs! Hæs!! – Men Skit. Det er siste Dagen. Lat han ganga
                     aat Engi so mykje han vil. I Morgo Kveld er eg i Byn; og so ut yvi Have det
                     blaae. Hurra boy san!» –</p></div>
@@ -2861,7 +2831,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     slik Slag. Fortapt var han i baae Tilfelle.</p><p>Kor dei vilde læ aat Enok Haave no, alle Verdensborni. «Det fekk han for
                     Fantevase sitt!» Alle Motstandarane han hadde havt, baade i og utanfor
                     Fatigkommissjonen, daa han <pb n="224"/>stræva med aa hjelpe Fante-Tomas til
-                    Hus, – aa kor fellt<note type="footnote">Forfatternote: fellt: «tilpas.»</note> dei vilde tykkje dette var
+                    Hus, – aa kor fellt dei vilde tykkje dette var
                     aat han. «No kan hann hava det so godt. Kvi skulde han dra innpaa oss alt
                     dette Herke?» Og Presten vilde sjaa paa han: «du har vel ikke
                     behandlet ham ret, min kjære Enok;» men Lars Danielsen og hans Venir
@@ -2913,7 +2883,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     vori gjort av Kjærleik. I dei løyndaste Kræane av Hjarta sitt hadde han gjort
                     det til aa faa Løn. Han hadde i Løyndom tenkt, at Gud vilde
                     «signe» han paa andre Kantar, naar han «ofra» til
-                    Fatigfolk; men «Signing» var berre eit venare Ord for Løn.</p><p>Han slepte Arbeide or Hendane og vart standande som naamin.<note type="footnote">Forfatternote: naamin: lammet.</note> Kor stod det
+                    Fatigfolk; men «Signing» var berre eit venare Ord for Løn.</p><p>Han slepte Arbeide or Hendane og vart standande som naamin. Kor stod det
                     til med han? Var han Guds Barn? I slikt Myrkr, i slikt kjøtelegt Sinn hadde han
                     livt og endaa totst vera i Naaden; skulde det verkeleg vera Tøv og Draum og
                     Ørske alt ihop.</p><p><pb n="228"/>Rædd og uroleg gav han seg til aa granske sitt Liv, og fann snart
@@ -3151,8 +3121,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     rullande Kjevle yvi det breide Bakstebordi.</p><p>Enok stod i Kjeldaren og knadde. So kom det Bòd fraa Uppstad, at ho
                     Legde-Guri vilde tala med han. Ho laag i Banen, vart det sagt, og livde
                     kannhende ikkje til Kvelden.</p><p>Gunnar laut aat Knadtròge; Enok tok paa seg og gjekk.</p><p>– Guri laag svært klen. Det aaleitte henne aa røda; stundom var ho i
-                        Herota.<note type="footnote">Forfatternote: Herote:
-                        Ørske; Sanseløyse.</note></p><p>Enok sette seg 'med Omnkraabenken der ho laag, og tala Gudord med henne;
+                        Herota.</p><p>Enok sette seg 'med Omnkraabenken der ho laag, og tala Gudord med henne;
                     vart verande der heile Nons-ykti. Folke paa Uppstad slagta den Dagen, so dei
                     hadde kje Stundir til aa vera inne.</p><p>Den gamle laage Stogo var myrk i slikt tungt Vêr. Ei Lugt var der so sur
                     og vond, at der lite var inne verande. I Veggjom taut <pb n="247"/>Sunnanvinden
@@ -3208,7 +3177,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Anskuelse, at Syndi mot den heilage Ande var det same som Syndi mot Naturen,
                     1ste Mosebok 38te Kapitel fraa det 8de til det 10de ... Men det store brestande
                     Auga pinte Enok, so han kunde kje fylgje med.</p></div>
-<div type="chapter"><head type="main">XXIV.</head><p>Gunnar var framsloppin.<note type="footnote">Forfatternote: framsloppin: konfirmera.</note></p><p>Og no skulde Dægeren taka baade Forklaring og altihop – han var vaksen Kar
+<div type="chapter"><head type="main">XXIV.</head><p>Gunnar var framsloppin.</p><p>Og no skulde Dægeren taka baade Forklaring og altihop – han var vaksen Kar
                     no og vilde lære seg til aa banne –; for jagu var han so leid av all
                     denne Gudelegheiti og alle desse Bøkane, at det var reint so det lukta for han.
                     (Naar han vart gamall, kunde han tenkje paa dei Ting.)</p><p>Og no kom det snart Brev fraa han Carolus. Og naar Breve kom, so var det berre aa
@@ -3222,7 +3191,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Dyffelspjekkerten var heller slitin, og Segldugsbroki ikkje so lite bøtt; og det
                     var komi noko framandt og liksom utanlandskt yvi han. Og slik ein Sving han
                     hadde fengi paa Maale sitt! Han sagde baade «har» og
-                        «jog»;<note type="footnote">Forfatternote: Jog: jau.</note> og «mangen» for mange og
+                        «jog»; og «mangen» for mange og
                     «bangen» for rædd og mykje anna fint; Gunnar vart reint bljug av
                     det stakkars simple Bygdemaale sitt.</p><p>Ringar hadde han i Øyro paa Sjømanns Vis, og paa Handi ovanum Tùmen var
                     eit Anker og eit Hjarta innprikka med blaatt; under stod Bokstavane C. M .T.;
@@ -3261,8 +3230,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     no; <pb n="256"/>fór aat med Faktir og Aatferdir mest som han var
                     halvgalin; kva det skulde svara fyri, kunde kje Gunnar forstaa; han vart baade
                     rædd og sinna av det.</p><p>Det hjelpte noko at Far hans var meir burte no enn fyrr; og so var han Torkjell
-                    Tualand her mest jamt; han var Dreng haalvestundo.<note type="footnote">Forfatternote: Haalvestundo: halve Tidi (skiftevis;
-                        t. D. ei Viku um Gongen).</note> Ei Hjelp var det au at han var kje so
+                    Tualand her mest jamt; han var Dreng haalvestundo. Ei Hjelp var det au at han var kje so
                     streng um Sundagane heller som fyrr, han Far; Gunnar fekk mest raade seg sjølv
                     Kveldyktine.</p><p>Daa lurde han seg gjerne ut. Vaaga seg stundom paa Garden millom hin Ungdomen;
                     vilde kje gange her som Heimføding lenger. Men det var kje so morosamt paa
@@ -3547,8 +3515,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     der tom og kald og full av sorgsame Minne. Slog so Fylgje med Carolus, som
                     rimelegt var. «Ja Verden er innful,» sa han Fante-Tomas.</p><p>Det gjekk elles godt, so lengi ho Finne-Barbro lìvde. Ho kunde i mange
                     Maatar vera som ei Kone for Tomas, ho. Og so hadde ho slikt eit flytendes
-                    Talent, at ho kunde føde heile Flokken. Iser forstod ho seg paa Summing.<note type="footnote">Forfatternote: Summing:
-                        Trolling.</note> Naar dei var paa avbakslege Stadir inn-i Fjordane eller
+                    Talent, at ho kunde føde heile Flokken. Iser forstod ho seg paa Summing. Naar dei var paa avbakslege Stadir inn-i Fjordane eller
                     tilfjells, kunde ho stundom tena baade Mat og Skjelingar med aa lesa yvi eit
                     Barn eller gjera aat for ei Ku; mang ein god Kjøtknok og mangt eit godt gamalt
                     Plagg fekk ho au for aa spaa i Kort, eller naar ho viste giftegalne Gjentur dei
@@ -3611,9 +3578,8 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     for Naglabìt og Svolt; og han Litle-Tomas, som Katrine gjekk med i
                     Ryggbande sitt, vilde stundom mest blaane burt for deim; dei laut ender og daa
                     leggje seg ned med Ungen imillom seg og tine han upp med sin eigin Varme. Det
-                    saag raadlaust ut aa klara Vinteren; og ho Katrine tok til aa undrast <pb n="284"/>paa, kva Beng'en<note type="footnote">Forfatternote: Beng: Djevel.</note> ein skulde hava tvo lange
-                        Morsar<note type="footnote">Forfatternote: Mors:
-                        Mannfolk.</note> gangande her etter, naar dei ikkje kunde finne paa Raad! Ho
+                    saag raadlaust ut aa klara Vinteren; og ho Katrine tok til aa undrast <pb n="284"/>paa, kva Beng'en ein skulde hava tvo lange
+                        Morsar gangande her etter, naar dei ikkje kunde finne paa Raad! Ho
                     Else, som med sine tolv Aar var nokso rask paa Munnen alt, gnaala med paa sin
                     Maate. Dei tvo Morsane skỳna godt kva Kvinnfolki meinte, og dei glytte
                     til kvarandre fraa Sida med utrygge, granskande Augnekast.</p><p>Noko med det verste var, at det var Slutt med Tòbakkje.</p><p>Dei hadde kaupt seg ein Rull i Stavanger; men den maatte Olaves Didriksen ha
@@ -3669,7 +3635,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Tonelag, «at <emph>um</emph> det skulde passera meg noko sodant no, so
                     vilde eg endaa vera ein betre Mann enn baade Olaves Didriksen og vaare andre
                     Bekjendterar.»</p><p>Carolus Magnus sette i med ein høg, laus Laatt, – ein glad Laatt. So sagde
-                    han: «Du hev kje stort att for ditt ustraffelege Levnet, <pb n="288"/>Far! Dei hev betre Dagar dei som er paa Pagoen,<note type="footnote">Forfatternote: Pago: Tukthus.</note> enn me
+                    han: «Du hev kje stort att for ditt ustraffelege Levnet, <pb n="288"/>Far! Dei hev betre Dagar dei som er paa Pagoen, enn me
                     hev.»</p><p>No lo Gamle-Tomas og; – ein glad Laatt. Og dei glytte til kvarandre fraa
                     Sida med Augo som forstod kvarandre.</p><p>«Du maa kje tala so lettsindigt, Carolus,» formana den gamle;
                     «det er sørgjelege og djupe Ting dette, og Herrens Raadslagningar og
@@ -3683,8 +3649,8 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     eg kann kje gaa lenger og sjaa paa at ho Katrine skal ha det soleis; og det
                     verste er, at ho snart skal ha smaatt att.»</p><p>Han var aalvorsam.</p><p>Um ei Stund sat Tomas og Carolus og Katrine saman paa Vegkanten og heldt Husraad;
                         <pb n="289"/>og der vart daa heile Saki avtala og avgjord. Det maatte bli ei
-                    Raad no; og den einaste Raadi var <emph>Spaneba</emph>.<note type="footnote">Forfatternote: Spaneba: Stuld.</note></p><p>Og det vart Glede i Flokken, og Godlag og Blidlaat; Katrine klappa med kjælne
-                    Augo Carolus paa Kinne og sagde: «du er Rakloen<note type="footnote">Forfatternote: Raklo: Gut.</note> min alltid,
+                    Raad no; og den einaste Raadi var <emph>Spaneba</emph>.</p><p>Og det vart Glede i Flokken, og Godlag og Blidlaat; Katrine klappa med kjælne
+                    Augo Carolus paa Kinne og sagde: «du er Rakloen min alltid,
                     du!» – Det var som dei endeleg saag Land. «No ikke noget
                     Kryberi!» knota Carolus; «berre gaa paa med mandelegt Mod;
                     Gjerningen er beslutta!» –</p><p>– Ut paa Ettermiddagen skildest Katrine fraa Mennane med alle gode Ynskje;
@@ -3702,8 +3668,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     sin at alt var stilt, og kraup inn.</p><p>Døri millom Kammerse og Bui stod uppe. Han stana og lydde etter, um det skulde
                     liggje nokon i Buasengi. Nei. Rolegt allstad. Inn bar det.</p><p>Hjarta hans banka litegrand; elles var han med godt Mod. Snarare glad. Kjende seg
                     Eigar av alt som her var; um Natti var det Fanten som var Herre. Hadde han
-                        Tjuroen?<note type="footnote">Forfatternote: Tjuro:
-                        Kniv.</note> Javel. Stilt og smaatt stìga han seg fram, eit halvt Fet
+                        Tjuroen? Javel. Stilt og smaatt stìga han seg fram, eit halvt Fet
                     um Senn, med den eine Handi framfyri seg, um der skulde vera eitkvart i Vegen;
                     snart stod han ved Skatole hennar Anna.</p><p>– Læst? Nei. Alt uppe. Snilde Folk her i Huse. Leit paa Gud meir enn paa
                     eit Laas. Dei skulde berre vìta, kva for Gjestir <pb n="291"/>dei no
@@ -3725,17 +3690,14 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     sitt! Gamlen talde for 'n. Men det nytta kje stort; so sette han til
                     Sprangs. Daa dei var komne langt nok burt fraa Husi, skifte dei Klæde.</p><p>Carolus var som galin heile Tidi. Slengde paa Skjemt Far sin i Marki; lo, hoppa,
                     bar seg; spela Lensmannen, som kom og vilde setja deim; tok so denne uppdikta
-                    Lensmannen og skamslog han:</p><quote><l>«Ja dero<note type="footnote">Forfatternote: dero: du.</note> skal le<note type="footnote">Forfatternote:
-                                le: faa.</note> Isingar<note type="footnote">Forfatternote: Ising: eig. Klædning.</note> gule
-                        og blaa,</l><l>naar Tjuroen<note type="footnote">Forfatternote: Tjuro: Kniv.</note> og Tjaknia<note type="footnote">Forfatternote:
-                                Tjakni: Svipe (Slagsmaalsvaapen).</note>
+                    Lensmannen og skamslog han:</p><quote><l>«Ja dero skal le Isingar gule
+                        og blaa,</l><l>naar Tjuroen og Tjaknia
                         byrjar aa gaa» ...</l></quote><p>Gamlen banna og gav vondt, men maatte til Slutt berre gjeva seg i Vegen. Det bar
                     uppetter.</p><p>Snart var dei ved Brekkestampa. Her kunde ein gange «inn og kjøpa Ty til
                     nye Klæde!» «Er ein fysst ute so skal ein ta for seg!»
                     Carolus tok ut Glase og smaug inn, ledug som ein Orm. «Ha, ha!
-                        Moskroen<note type="footnote">Forfatternote: Moskro:
-                        Lensmann.</note> søv, og Buroen<note type="footnote">Forfatternote: Buro: Bonde.</note> søv, og Hundane søv;
-                        Romanisælen<note type="footnote">Forfatternote: Romanisæl: Tater.</note> er Herre paa Tufti.» Han rette ut
+                        Moskroen søv, og Buroen søv, og Hundane søv;
+                        Romanisælen er Herre paa Tufti.» Han rette ut
                     gjenom Vindaugsgluggen Vev etter Vev; daa <pb n="293"/>han kom med den fjorde
                     meinte Tomas det kunde vera nok; dei vann kje meir, sagde han. Men Carolus dreiv
                     paa. Han lo som ein Fossekall der inne i det myrke Stampehuse: «er ein
@@ -3750,7 +3712,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     haa!» Gamlen pusta og fræste, sputta og banna, sanka Vevine og seg sjølv
                     upp av Vatne og vassa i Veg; «slipe meg, skal du kje faa det att ein
                     Gong, din Utangje du er!» Carolus lo so han stod tvikrokut.</p><p>Endeleg tok han si eigi Byrd og labba etter, sullande og fornøgd. Det var Synd
-                    for han Far, dette; men – haa, haa, haa, haa! –</p><quote><l>«Aa kjæra mine Tjavoar,</l><l>aa kjærar inte saa!</l><l>Aa kjæra mine Tjavoar,</l><l>aa kjærar inte saa!</l><l><pb n="294"/>For elles kann I ava<note type="footnote">Forfatternote: ava: koma.</note> paa Pagoen</l><l>i alle eders Aar.»</l></quote><p>Gamlen rusla fyri og skugra og skalv. Og banna av Hjarta denne Helvites
+                    for han Far, dette; men – haa, haa, haa, haa! –</p><quote><l>«Aa kjæra mine Tjavoar,</l><l>aa kjærar inte saa!</l><l>Aa kjæra mine Tjavoar,</l><l>aa kjærar inte saa!</l><l><pb n="294"/>For elles kann I ava paa Pagoen</l><l>i alle eders Aar.»</l></quote><p>Gamlen rusla fyri og skugra og skalv. Og banna av Hjarta denne Helvites
                     Guteslarken, som vilde ha Helsa av han. Snart kjende han at Klædi hans stivna
                     paa Kroppen; det var Frosten som tok til aa kvessast no. Vevine paa Aksli hans
                     vart til Is, og det fraus Joklar paa Stakkane hennar Anna Haave som han gjekk
@@ -3759,7 +3721,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     «hæ, hæ», skok han seg, «Dyden er skrøpeleg, sa Fanden;
                     dansa i Glasbukser!» –</p><p>– Det vart ei hard Gonge gjenom graae Heiar og nakne Fjelldalar paa smal
                     Kost og i veksande Snø, til dess dei um halvanna Jamndøger raaka Folke sitt i
-                    Vaadal, mest halvdaude.</p><p>Der skifte dei Spane<note type="footnote">Forfatternote: Span: Stuld, det stolne.</note> imillom seg og skildest. Det som
+                    Vaadal, mest halvdaude.</p><p>Der skifte dei Spane imillom seg og skildest. Det som
                     var av Sylv og Gull tok Olaves Didriksen og sette beinast til Byn med; han
                     kjende ein Mann der som kaupte slikt; Tridjeparten av Pengane skulde han hava
                     for Brye og Faaren. Han sagde Carolus kva ein skulde gjera, naar ein vart fakka:
@@ -3769,8 +3731,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Morgonen etter, daa dei skulde i Vegen att, kjem Sonen i Huse stupande inn
                     –: «tvo Lensmennar med tolv Mann stend utanfyri og vil snakka med
                     Fanten! dei hev Børsur!»</p><p>Carolus og Katrine skifte Lìtir og saag paa kvarandre.</p><p>«Stillingen er klar», knota Carolus.</p><p>«Dei er der alt», svara Katrine paa Fantemaal. «Kann du
-                    sleppa ifraa dei, trur du?»</p><p>«Det vil vera meg ei smal Sak, Tjeia<note type="footnote">Forfatternote:
-                            Tjeia: Gjente.</note> mi!»</p><p>«Og vert du fakka, so nektar du.»</p><p>«Det nyttar Fa'n aa nekta; disse Klædi me gjeng i ...»</p><p>«Til Helvites. Sjaa og kom deg avstad!»</p><p>Carolus snudde seg til Kona i Huse, som stod der so kvit som Krit og berre skalv:
+                    sleppa ifraa dei, trur du?»</p><p>«Det vil vera meg ei smal Sak, Tjeia mi!»</p><p>«Og vert du fakka, so nektar du.»</p><p>«Det nyttar Fa'n aa nekta; disse Klædi me gjeng i ...»</p><p>«Til Helvites. Sjaa og kom deg avstad!»</p><p>Carolus snudde seg til Kona i Huse, som stod der so kvit som Krit og berre skalv:
                     «Gakk ut, mi snilde Kona, og seg til Lensmannen, at det, han leitar
                     etter, stend innanfor Gangdøri. Og so skal du segja at Kona mi her, ho er
                     utanfor alt; ho veit inginting. Gløym ikkje det, snilde Kona mi!»</p><p><pb n="296"/>Kona drog seg ut.</p><p>Carolus spende Knivbelte um seg og gjekk etter. Daa han kom ut i den ytre Døri,
@@ -3809,12 +3770,8 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     grand leid naar ho var full; men elles var ho den beste han visste.</p><p>Han maatte faa sagt henne sine Tankar og si Sorg. Og daa der inga onnor Raad var
                     no til aa koma i Ramport med henne, so fekk han freiste aa syngje.</p><p><pb n="299"/>Han sette i med høgt Maal, so Vaktmennane kvakk. Det gjekk paa den
                     gamle Tater-Stevtonen, – ein underleg Lund, vedkjømeleg og einslungin som
-                    Vinden, naar han tutar i ein Skorstein.</p><quote><l>«Aa heia<note type="footnote">Forfatternote: Heia: høyr.</note> meg, du Tjeia<note type="footnote">Forfatternote: Tjeia: Gjente.</note> mi,</l><l>haa miro<note type="footnote">Forfatternote: miro:
-                            eg.</note> sangrar<note type="footnote">Forfatternote: sangra: syngje.</note> deg!</l><l>Aa heia meg, du Tjeia mi,</l><l>haa miro sangrar deg!</l><l>Aa miro asjar<note type="footnote">Forfatternote: asja: vera.</note> raavefull<note type="footnote">Forfatternote:
-                                raavefull: sorgfull, ottesam.</note>
-                        –</l><l>sa heiar du det, haa eg sangrar!»</l></quote><p>Um ei Stund svara det fraa Siderome; det var ho Katrine, som song:</p><quote><l>«Aa asja inkje raavefull,</l><l>min Raklo,<note type="footnote">Forfatternote: Raklo:
-                            Gut.</note> for meg!</l><l>Aa asja inkje raavefull,</l><l>min Raklo, for meg!</l><l>For miro kammar latjot<note type="footnote">Forfatternote: kammar latjot: hev det godt.</note> –</l><l>aa heiar du det, haa eg sangrar!»</l></quote><p>So sa han henne si Sorg:</p><quote><l>«Aa heia meg, du Tjeia mi,</l><l>haa miro sangrar deg!</l><l>Aa heia meg, du Tjeia mi,</l><l>haa miro sangrar deg!</l><l>Du ler<note type="footnote">Forfatternote: ler:
-                            faar.</note> deg vel ein Mors<note type="footnote">Forfatternote: Mors: Mann.</note> igjen,</l><l>mens miro asjar kei<note type="footnote">Forfatternote: kei: her</note> –</l><l>kann eg pattja!»</l></quote><p><pb n="300"/>Det svara fraa Siderome med mjukt Maal:</p><quote><l>«Aa dero<note type="footnote">Forfatternote: dero: du.</note> maa kje pattja,<note type="footnote">Forfatternote: pattja: tru.</note></l><l>at miro fakkar<note type="footnote">Forfatternote: fakka: gjera.</note> so!</l><l>Aa dero maa kje pattja,</l><l>at miro fakkar so!</l><l>For miro kammar Latjoheit<note type="footnote">Forfatternote: Latjoheit: Godhug, Kjærleik.</note> –</l><l>aa heiar du det, haa eg sangrar!»</l></quote><p>– Dei song endaa ei Stund til kvarandre um Kjærleik og Truskap og
+                    Vinden, naar han tutar i ein Skorstein.</p><quote><l>«Aa heia meg, du Tjeia mi,</l><l>haa miro sangrar deg!</l><l>Aa heia meg, du Tjeia mi,</l><l>haa miro sangrar deg!</l><l>Aa miro asjar raavefull
+                        –</l><l>sa heiar du det, haa eg sangrar!»</l></quote><p>Um ei Stund svara det fraa Siderome; det var ho Katrine, som song:</p><quote><l>«Aa asja inkje raavefull,</l><l>min Raklo, for meg!</l><l>Aa asja inkje raavefull,</l><l>min Raklo, for meg!</l><l>For miro kammar latjot –</l><l>aa heiar du det, haa eg sangrar!»</l></quote><p>So sa han henne si Sorg:</p><quote><l>«Aa heia meg, du Tjeia mi,</l><l>haa miro sangrar deg!</l><l>Aa heia meg, du Tjeia mi,</l><l>haa miro sangrar deg!</l><l>Du ler deg vel ein Mors igjen,</l><l>mens miro asjar kei –</l><l>kann eg pattja!»</l></quote><p><pb n="300"/>Det svara fraa Siderome med mjukt Maal:</p><quote><l>«Aa dero maa kje pattja,</l><l>at miro fakkar so!</l><l>Aa dero maa kje pattja,</l><l>at miro fakkar so!</l><l>For miro kammar Latjoheit –</l><l>aa heiar du det, haa eg sangrar!»</l></quote><p>– Dei song endaa ei Stund til kvarandre um Kjærleik og Truskap og
                     Tòlmod i gode og vonde Dagar; men so kom Lensmannen og sagde dei maatte
                     forhalde seg rolege.</p></div>
 <div type="chapter"><head type="main">XXVII.</head><p>Vaabøni, Vaabøni ...</p><p>Slag i Slag, Slag i Slag. Lém etter Lém; Bein etter Bein; han
@@ -3829,9 +3786,8 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Avgudane dine er tess!» Herren lo aat han, og den som er i det høge
                     spotta han; smikk ... smikk ...</p><p><pb n="302"/>Alt saag Enok no; so Helvites, Helvites klaart. Han hadde elska
                     Verdi; elska og dyrka Verdi; all Tid, all Tid. Gud hadde sagt: du skal selja alt
-                    ditt og gjeva det til dei fatige; men Enok hadde meint Nei. Vandare<note type="footnote">Forfatternote: (ikkje)vandare i: slik
-                        Slag; like godt.</note> i kva Gud sagde; Enok hadde meint sitt, han.
-                    Forherda seg hadde han; forherda seg som Farao. Snakka seg i Logn<note type="footnote">Forfatternote: Logn: Ro.</note> med
+                    ditt og gjeva det til dei fatige; men Enok hadde meint Nei. Vandare i kva Gud sagde; Enok hadde meint sitt, han.
+                    Forherda seg hadde han; forherda seg som Farao. Snakka seg i Logn med
                     Prestetøv; kjent Anden vitne i Hjarta sitt, men gjort seg tjukkøyrd og dauv;
                     synda med Vilje, synda med Vilje; «Synden til Døden» heitte det i
                     Guds Ord ... Hah! – prøvt aa kaupe seg fri med Smaa-Offer, med
@@ -3860,8 +3816,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Slutten; der stod: «Men eg kann aldri fulltakka» o. s. fr.;
                     «han Far og eg hev for vaar store Angers og ærlege Tilstandings <pb n="304"/>Skuld fengi Tukthuse umbytt med Botsfengsel; og det lovar eg høgt
                     og dyrt baade for Gud og Dykk, at naar eg kjem ut derifraa, so skal eit nytt Liv
-                    byrja ...» «Skit!» sagde Enok; «Skit» ...</p><p>Fredlaus hasta han fraa Stad til Stad, utan Bidlund<note type="footnote">Forfatternote: Bidlund: Tòlmod;
-                        «Udholdenhed».</note> til aa arbeide, utan Ro til aa kvile.
+                    byrja ...» «Skit!» sagde Enok; «Skit» ...</p><p>Fredlaus hasta han fraa Stad til Stad, utan Bidlund til aa arbeide, utan Ro til aa kvile.
                     Att og fram, att og fram; best som han var i Kjeldaren høyrde dei han paa Lofte,
                     og best som han gjekk i Dørom og sveiv, var han inginstad aa finne. Han gløymde
                     kva han gjekk etter og kvar han vilde av; tok i eit Arbeid og lagde det fraa seg
@@ -3946,8 +3901,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     være dig naadig! Herren løfte sit Aasyn over dig og give dig Fred!»</p><p>Tomt og tankelaust, berre liksom til aa bli ferdig, lova Enok aa «bia
                     etter Herren» endaa ei Tid; og med dette laut Lars gange. –</p><p>– Endaa ein Gong kom Vaaren. Ein sur, blaasande, seig Vaar, som aldri
                     vilde bli Sùmar. Nordvesten taut Dag og Natt; det fraus um Pintsenatti og
-                    snødde Jonsokkveld; skulde Ljose ikkje vinne paa Myrkre denne Gongen?</p><p>Enok gjekk og tutla og vavra og var mest som burte. Underleg haalaus<note type="footnote">Forfatternote: haalaus: slø;
-                        ørskin.</note> og viljelaus vart han; det var Dagar, daa ho Anna laut segja
+                    snødde Jonsokkveld; skulde Ljose ikkje vinne paa Myrkre denne Gongen?</p><p>Enok gjekk og tutla og vavra og var mest som burte. Underleg haalaus og viljelaus vart han; det var Dagar, daa ho Anna laut segja
                     han fyri kva han skulde gjera, mest som han <pb n="310"/>skulde vera eit Barn.
                     Jamt gnaala han um at han vilde døy. Det same kven som tok han, berre han slapp
                     burt. «So kom han Gunnar heim, og so fekk dé det godt
@@ -4024,7 +3978,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     hasta han i Veg:</p><quote><l>«Thi ynkelig jeg trænges</l><l>af Drøvelse og Elend.</l><l>At vandre er-jeg-rede!</l><l>fra Verden-med-en-Fart!!</l><l>Til – – – –;</l><l>kom, –, kom nu snart!»</l></quote><p>«Himmeriges Glæde» og «Jesus» sprang han yvi. Det var
                     skræmelegt aa sitja aa høyre paa.</p><p>Sidan laut dei syngje aaleine for det meste.</p><p>Kvitare og kvitare skein Soli; gladare og gladare spela Solflekken seg. Dansa paa
                     Veggir og Golv; lyste paa Stakken hennar Anna; leika i det sveitte Haare hans
-                    Enok; skvatt so uppi Róte,<note type="footnote">Forfatternote: Rót: Loftgolve yvi Stogurome.</note> der
+                    Enok; skvatt so uppi Róte, der
                     Flugur i tusundtal krauma og kraup. Skuggen av den gamle Raunen som svinga der
                     ute i Sumarvinden, vogga seg <pb n="318"/>paa Veggen ved Klokkehuse og paa det
                     brune gamle Sengje-Umhenge; alt var Sol og Sùmar. Og endaa var det som
@@ -4080,8 +4034,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Borni. Tenk um han Gunnar kom heim, og vart glad i Far sin att, som han var daa
                     han var litin! Slike Tankar kunde faa Enok paa Graaten mest.</p><p>– Noko fælt leidt hende. Dei laut byte Gjente midt i Aare; ho Maren, det
                     Slarvetinge, hadde vorti med Barn. Den Ukjura han Helmik Heialand skulde vera
-                    Skuldi; han slepte seg nok reint yvi,<note type="footnote">Forfatternote: sleppe seg yvi: gjeva seg upp;
-                        «forfalde.»</note> det Menneskje no. «Vaabøni!
+                    Skuldi; han slepte seg nok reint yvi, det Menneskje no. «Vaabøni!
                     Vaabøni!» braaka han Enok; «for mi Skuld kastar Gud Vanære yvi
                     heile mitt Hus. Kvi Fenden gjeng eg her? kvi gjer eg kje Ende paa meg, so Guds
                     Vreide kunde venda seg!»</p><p>Det sveiv rundt i Hovude hans, sleit og vreid, til det verkte og glødde under
@@ -4111,8 +4064,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Steinar.</p><p>Enok laag i Lynge og grét. «Du hev frelst meg! Store Gud, du hev
                     frelst meg! og høyrt mi Bøn! Store, kjære Herre Gud, du hev høyrt mi Bøn og
                     frelst meg!»</p></div>
-<div type="chapter"><head type="main">[XXIX.]</head><note type="footnote">XXIX.] rettet fra: XIX.
-                    (feilnummerering)</note><p>Han gjekk heim; sov roleg um Natti og vakna um Morgonen med klaart Hovud.</p><p>Han torde kje tru paa det; gjekk heile Dagen og undrast og ræddast; det kom vel
+<div type="chapter"><head type="main">[XXIX.]</head><p>Han gjekk heim; sov roleg um Natti og vakna um Morgonen med klaart Hovud.</p><p>Han torde kje tru paa det; gjekk heile Dagen og undrast og ræddast; det kom vel
                     snart; det kom vel snart ... Men han fekk Fred heile Dagen. Um Kvelden bad han
                     ei hjarteleg Bøn.</p><p>«Kjære Frelsar,» sa han stilt, «du hev vori god med meg i
                     Dag og lati meg endaa ein Gong faa sjaa di milde Aasyn. Og kjenna di sterke
@@ -4165,7 +4117,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     hadde <pb n="329"/>han mest reint mist, og han var tutlin og tøvin i det heile.
                     Sat og rødde um Mor hans Enok; ho hadde au havt det med slike Gruvle-Ridir,
                     sagde han; «so du skal kje bry deg, Enok; du skal kje bry deg ...»
-                    Men ingin kunde skỳna kva Trøyst Enok<note type="footnote">Enok] rettet fra: Envk</note> skulde hava av det at Mor
+                    Men ingin kunde skỳna kva Trøyst Enok skulde hava av det at Mor
                     hans au hadde havt Gruvle-Ridir. «No vilde eg berre ynskja, eg hadde di
                     Tru!» ropa Enok inn i Øyra paa Gamlen; – «jagu ja,
                     san!» nikka denne; hadde vel kje høyrt det.</p><p>Tilslutt kom Kjistina Ramstad, ho som dei sagde Enok skulde ha tenkt paa ein
@@ -4197,11 +4149,10 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     det; hva? Gaa til Presten og faa dig noe Trøst, saa –.»</p><p>Enok kjende seg uhugleg; Doktaren lukta Brennevin. Og so denne Banningi til
                     annakvart Ord.</p><p>«Det verste er, at eg fær kje sova», sa han. «Eg hev slik ei
                     Uro i mitt Samvit, slik ein Angest og slik –»; med ein Gong skreik
-                    han upp: «eg er i Helvite!» –</p><p>«Hyss da Mand; – skulde der være noget i Veien med mens?<note type="footnote">Forfatternote: mens: Sjæl; Sinn.</note> – – Hm; ikke
+                    han upp: «eg er i Helvite!» –</p><p>«Hyss da Mand; – skulde der være noget i Veien med mens? – – Hm; ikke
                     noe særligt vist ... Hm. Det er vel bare denne Gudeligheta igjen. Du gaar vel
                     paa disse Opbyggelserne og tyller dig fuld af Svovelsnakk, kan jeg tro. He-he;
-                        Pecus.<note type="footnote">Forfatternote: pecus:
-                        Fe.</note> Som sagt, min Mand, er der noget i Veien med
+                        Pecus. Som sagt, min Mand, er der noget i Veien med
                     «Samvite», saa faar du gaa til Presten; jeg har ikke noe med de
                     Ting. Men et Sovemiddel kan du faa. Hør du smaa der; fins der Pen og Blæk i
                     Huse?»</p><p>Ei av Smaagjentune sprang aat Bui og skulde finne.</p><p>Doktaren stod med Ryggen til Enok og stelte med eitkvart; fann fram Papir; drog

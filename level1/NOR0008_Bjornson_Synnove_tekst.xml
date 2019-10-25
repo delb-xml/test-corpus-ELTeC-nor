@@ -1,39 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0008" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0008" xml:lang="nb">
         <teiHeader>
                 <fileDesc>
                         <titleStmt>
                                 <title>Synnøve Solbakken ELTeC-utgaven</title>
-                                <author>Bjørnson, Bjørnstjerne Matrtinius (1832-1910)<idno
-                                                type="viaf"
-                                                >https://viaf.org/viaf/295290572</idno><idno
-                                                type="wiki"
-                                                >https://www.wikidata.org/wiki/Q46405</idno></author>
+                                <author ref="viaf:https://viaf.org/viaf/295290572">Bjørnson, Bjørnstjerne Matrtinius  (1832-1910)</author>
                                 <respStmt>
                                         <resp>ELTeC encoding</resp>
                                         <name>Michael Preminger</name>
                                 </respStmt>
                         </titleStmt>
-                        <extent><measure unit="words">8939</measure><measure unit="pages"
-                                        >84</measure></extent>
-                        <publicationStmt>
-                                <p>Incorporated into the ELTeC<date>2018-11-02</date></p>
-                        </publicationStmt>
-                        <sourceDesc>
-                                <bibl><ref
-                                                target="Det norske spr&amp;#x00E5;k- og litteraturselskap 2007"
-                                                >Utgave ved Sigurd AA. Aarnes</ref><ref
-                                                target="wiki">some ref</ref>
-                                        <relatedItem type="copyText">
-                                                <bibl><author>B. M. Bjørnson</author><title>Det
+                        <extent><measure unit="words">8939</measure><measure unit="pages">84</measure></extent>
+                        <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-10-25"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC2018-11-02--></publicationStmt>
+                        <sourceDesc><bibl type="unspecified">
+                                        </bibl><bibl type="unspecified"><author>B. M. Bjørnson</author><title>Det
                                                   norske språk- og litteraturselskap 2007.
                                                   Bjørnstjerne Bjørnson: Synnøve Solbakken. Utgave
                                                   ved Sigurd AA.
                                                   Aarnes.</title><pubPlace>Christiania</pubPlace><publisher>Johan
-                                                  Dahl</publisher><date>1857</date><idno type="wiki"
-                                                  >https://www.wikidata.org/wiki/Q4568900</idno></bibl>
-                                        </relatedItem></bibl>
-                        </sourceDesc>
+                                                  Dahl</publisher><date>1857</date><idno type="wiki">https://www.wikidata.org/wiki/Q4568900</idno></bibl></sourceDesc>
                 </fileDesc>
                 <encodingDesc n="eltec-0">
                         <p n="eltec-0"/>
@@ -49,21 +38,20 @@
                                 <e:timeSlot key="T1"/>
                         </textDesc>
                 </profileDesc>
-                <revisionDesc>
+                <revisionDesc><change when="2019-10-25">Checked by releaseChecker script</change>
                         <change when="2010-05-26" xml:id="AAH">Kodet tekstdelen i oxygen.</change>
                         <change when="2010-06-18">Ført inn rettelser etter korrektur.</change>
                 </revisionDesc>
         </teiHeader>
         <text type="novel" xml:id="NSL_Bjornson_Synnove_tekst">
-                <front> </front>
+                
                 <body>
 
 
                         <head><!--<ref type="contents" target="contents_6" xml:id="tekst">-->SYNNØVE
                                 SOLBAKKEN.<!--</ref>--></head>
                         <div n="1" type="chapter" xml:id="NOR0008001">
-                                <head><ref target="contents_1" type="contents" xml:id="chapter_1"
-                                                >1ste Kapitel</ref>.</head>
+                                <head>1ste Kapitel.</head>
                                 <p>I en stor Dal kan der være et til alle Sider fritliggende højt
                                         Sted, som Solen bærer Straaler paa, fra det den gaar op, til
                                         den falder. Og de, som bor tættere under Fjeldene og
@@ -211,8 +199,7 @@
                                         til at læse.» Nu vidste han det med.</p>
                                 <p>En Dag Sæmund havde været i Marken sammen med Aslak, sagde han om
                                         Kvelden til Thorbjørn: «Du skal ikke oftere være sammen med
-                                        Tjenestegutten.» Men Thorbjørn agtede ikke videre <pb n="45"
-                                        /> paa det. Saa lød det en Stund efter: «Dersom du findes
+                                        Tjenestegutten.» Men Thorbjørn agtede ikke videre <pb n="45"/> paa det. Saa lød det en Stund efter: «Dersom du findes
                                         oftere sammen med ham, gaar det dig ikke godt!» Da sneg
                                         Thorbjørn sig efter ham naar Faderen ikke saa det. Denne kom
                                         over dem, der de sad og talte sammen; da fik Thorbjørn Prygl
@@ -285,8 +272,7 @@
                                         «Vi To skal lege Gulddronning i Enge, vi!» Det vilde hun da
                                         gjerne. Og saa sang han, medens Benene skalv under ham:</p>
                                 <quote><l>Vesle Blomme,</l><l>Enge-Blomme</l><l>hør nu lidt paa
-                                                mig!</l><l>Og vil du være Kjæresten min,</l><pb
-                                                n="47"/><l>saa skal du faa en Kaabe fin</l><l>af
+                                                mig!</l><l>Og vil du være Kjæresten min,</l><pb n="47"/><l>saa skal du faa en Kaabe fin</l><l>af
                                                 Fløjel og Guld,</l><l>af Perler fuld.</l><l>Ditteli,
                                                 dutteli, deja, –</l><l>og Solen skinner paa
                                                 Heja!</l></quote>
@@ -353,8 +339,7 @@
                                         anden Gang i Hast. Aslak var meget bleg, men lo dog med det
                                         halve Ansigt over til Thorbjørn, idet han holdt den Side
                                         ganske stram, som vendte mod Sæmund. «Vorherre give os et
-                                        godt Taalmod!» sagde han om lidt, men bøjede i det samme <pb
-                                                n="49"/> Albuen op som forat afbøde et Slag. Sæmund
+                                        godt Taalmod!» sagde han om lidt, men bøjede i det samme <pb n="49"/> Albuen op som forat afbøde et Slag. Sæmund
                                         standsede tvært og skreg med al sin Stemme, idet han satte
                                         Foden i Gulvet, saa Aslak gav sig: «Nævn ikke ham, – du!» –
                                         Ingebjørg rejste sig med Spædbarnet og tog ham mildt i
@@ -426,8 +411,7 @@
                         </div>
 
                         <div n="2" type="chapter" xml:id="NOR0008002">
-                                <head><ref target="contents_2" type="contents" xml:id="chapter_2"
-                                                >2det Kapitel</ref>.</head>
+                                <head>2det Kapitel.</head>
                                 <p>Kirken staar i Bondens Tanke paa et højt Sted og for sig selv,
                                         fredlyst, med Graves Højtid omkring, Messens Livlighed inde.
                                         Den er det eneste Hus i Dalen, hvorpaa han har anvendt
@@ -820,8 +804,7 @@
                         </div>
 
                         <div n="3" type="chapter" xml:id="NOR0008003">
-                                <head><ref target="contents_3" type="contents" xml:id="chapter_3"
-                                                >3die Kapitel</ref>.</head>
+                                <head>3die Kapitel.</head>
                                 <p>Snart blev Mangehaande fortalt i Bygden; men Ingen vidste Noget
                                         med Sikkerhed. Aldrig blev Thorbjørn tiere seet paa
                                         Solbakken, efterat de begge var konfirmeret, og det var
@@ -1051,8 +1034,7 @@
                                         og lagde Haanden over hans Mund, idet hun saa sig tilbage.
                                         Der blev Buskene atter bøjet tilside, og en høj, slank En
                                         traadte blussende rød frem; det var Synnøve.</p>
-                                <p>«God Kveld!» sagde hun. Ingrid saa paa Thorbjørn, som hun <pb
-                                                n="67"/> vilde sige: der kan du se! – Thorbjørn saa
+                                <p>«God Kveld!» sagde hun. Ingrid saa paa Thorbjørn, som hun <pb n="67"/> vilde sige: der kan du se! – Thorbjørn saa
                                         paa Ingrid, som han vilde sige: det skulde du ikke have
                                         gjort. Ingrid saa paa Synnøve. «Jeg faar vel Lov at sætte
                                         mig lidt; jeg har gaaet saa meget idag.» Og hun satte sig;
@@ -1090,8 +1072,7 @@
                                         rigtigt af mig, Synnøve?» «Ja,» hulkede hun. «Men du er ikke
                                         lykkelig ved det?» Hun svarte ikke. «Men du er ikke lykkelig
                                         ved det?» gjentog han. Hun græd nu mere end nogensinde og
-                                        vilde drage sig undaf. «Synnøve» sagde han, og tog <pb
-                                                n="68"/> fastere om hende. Hun lagde sig nu op til
+                                        vilde drage sig undaf. «Synnøve» sagde han, og tog <pb n="68"/> fastere om hende. Hun lagde sig nu op til
                                         ham og græd meget.</p>
                                 <p>«Kom, vi skal tale lidt sammen», sagde han, og han hjalp hende at
                                         sætte sig i Lyngen; selv satte han sig ved Siden. Men hun
@@ -1208,8 +1189,7 @@
                         </div>
 
                         <div n="4" type="chapter" xml:id="NOR0008004">
-                                <head><ref target="contents_4" type="contents" xml:id="chapter_4"
-                                                >4de Kapitel</ref>.</head>
+                                <head>4de Kapitel.</head>
                                 <p>Granlidsæteren laa vakkert til, Bygden kunde oversees derfra,
                                         Solbakken først og fremst med sin mangefarvede Skog omkring,
                                         og dernæst de andre Gaarde, som de laa der i en Ring af
@@ -1550,8 +1530,7 @@
                                         fik hun, og hun fik mere end hun skulde have; thi hun fik et
                                         Barn. Folk sagde, det var med ham; men det sagde ikke han;
                                         thi han var gift, og det sagde heller ikke hun; thi hun var
-                                        stolt, det stakkars Trold. Saa blev det nok en Løgn over <pb
-                                                n="80"/> den Daab, og det var en Skarv til Gut, hun
+                                        stolt, det stakkars Trold. Saa blev det nok en Løgn over <pb n="80"/> den Daab, og det var en Skarv til Gut, hun
                                         havde født, saa det var slig Slag, om han blev døbt i en
                                         Løgn. Men hun fik en Plads under Gaarden, og det likte ikke
                                         Konen der, som ventelig var, og saa tag hun Manden baade Dag
@@ -1588,8 +1567,7 @@
                                         være usagt, men det er sandt, at jeg ved ikke, hvad bedre
                                         han skulde gjøre. Det er en laak, ond Karl, kan I tro; han
                                         liker ikke Folk, endnu mindre at de ere gode mod hverandre,
-                                        og allermindst, at de er gode mod ham selv. Og han vilde <pb
-                                                n="81"/> gjerne, at Andre skulde være slig, som han
+                                        og allermindst, at de er gode mod ham selv. Og han vilde <pb n="81"/> gjerne, at Andre skulde være slig, som han
                                         er selv – skjønt det siger han blot, naar han er fuld. Og da
                                         græder han ogsaa, græder saa det hagler, – over ingen
                                         Verdens Ting; thi hvad var det ogsaa han skulde græde over?
@@ -1610,8 +1588,7 @@
                                         hen til Bruden.</p>
                         </div>
                         <div n="5" type="chapter" xml:id="NOR0008005">
-                                <head><ref target="contents_5" type="contents" xml:id="chapter_5"
-                                                >5te Kapitel</ref>.</head>
+                                <head>5te Kapitel.</head>
                                 <p>Nogle gik ud, Andre søgte at faa Spillemanden ind igjen, at
                                         Dansen kunde begynde; men Spillemanden var sovnet i en Krog
                                         af Gangen, og Enkelte bad for ham, at han maatte faa ligge
@@ -1627,8 +1604,7 @@
                                         mange Folk, men megen Stilhed, og det Hele havde lidet Syn
                                         af et Bryllup. Thorbjørn skulde have sig en ny Sælepind og
                                         gik hen at finde en; i Gaarden var intet høveligt Emne og
-                                        han gik lidt udenfor, kom saa til et Vedskjul, som han <pb
-                                                n="82"/> gik ind i, langsomt og sagte, da
+                                        han gik lidt udenfor, kom saa til et Vedskjul, som han <pb n="82"/> gik ind i, langsomt og sagte, da
                                         Brudgommens Ord fulgte med ham. Han fandt der, hvad han
                                         vilde, men fremdeles uden at vide af det, satte han sig ned
                                         og op til den ene Væg med Kniv og Pinde i Haanden. Da hørte
@@ -1706,8 +1682,7 @@
                                         istand til at tale paa længe; thi han hørte en Stund Intet
                                         og gik.</p>
                                 <p>Den Første, den Bedste Thorbjørn traf i Gaarden spurgte han:
-                                        «Hvad kom der imellem Lars Spillemand og Knud Nordhoug?» <pb
-                                                n="84"/> «Haa? Mellem dem? Jo ‖,» sagde Per Husmand
+                                        «Hvad kom der imellem Lars Spillemand og Knud Nordhoug?» <pb n="84"/> «Haa? Mellem dem? Jo ‖,» sagde Per Husmand
                                         og trak Ansigtet sammen, som vilde han gjemme Noget i
                                         Folderne: «du kan nok spørge om det, for det var lidet nok;
                                         han Knud spurgte bare Lars, om Felen hans gav god Klang i
@@ -2066,8 +2041,7 @@
                                 </div>
                         </div>
                         <div n="6" type="chapter" xml:id="NOR0008006">
-                                <head><ref target="contents_6" type="contents" xml:id="chapter_6"
-                                                >6te Kapitel</ref>.</head>
+                                <head>6te Kapitel.</head>
                                 <p>Synnøve havde faaet vidst om det Dagen efter at Thorbjørn havde
                                         været i Bryllopet. Hans yngre Broder var kommen didop til
                                         Sæteren med Budsending om det, men Ingrid havde havt fat i
@@ -2097,8 +2071,7 @@
                                         mellem hende og Thorbjørn, hvad der gav dem Emne til mangen
                                         Samtale oppi Marken.</p>
                                 <p>Om Eftermiddagen paa den femte Dag efter Ingrids Afhentning,
-                                        syntes det at ligge tyngre over hende end nogensinde. <pb
-                                                n="94"/> Nu var saa lang Tid runden og endnu ingen
+                                        syntes det at ligge tyngre over hende end nogensinde. <pb n="94"/> Nu var saa lang Tid runden og endnu ingen
                                         Tidende. Hun forlod sit Arbejde for at sætte sig og se
                                         udover Bygden, da dette syntes hende et Slags Selskab og hun
                                         nu ikke vilde være alene. Som hun sad der, blev hun træt,
@@ -2254,8 +2227,7 @@
                                         havde silet, lagede Moderen sig til at tage nedover igjen og
                                         Synnøve vilde følge hende paavej. «Aa nej,» sagde Moderen;
                                         «du er kanske træt og vil være ifred,» og saa tog hun da den
-                                        tomme Løb til sig, gav hende Haanden og sagde, idet <pb
-                                                n="98"/> hun saa sikkert paa hende: «Jeg kommer
+                                        tomme Løb til sig, gav hende Haanden og sagde, idet <pb n="98"/> hun saa sikkert paa hende: «Jeg kommer
                                         snart op igjen forat se, hvorledes du har det. – – Hold du
                                         dig til os og tænk ikke paa Andre.»</p>
                                 <p>Men det gjorde hun. Neppe var Moderen kommen af Syne, før hun
@@ -2311,8 +2283,7 @@
                                         Sengekanten, bad hende ligge og gjentog sit Spørgsmaal.</p>
                         </div>
                         <div n="61" type="chapter" xml:id="NOR0008061">
-                                <head><ref target="contents_7" type="contents" xml:id="chapter_7"
-                                                >6te Kapitel</ref>.</head>
+                                <head>6te Kapitel.</head>
                                 <p>«Nu er det bedre,» sagde Ingrid hviskende; «jeg kommer snart op
                                         til dig.» – «Kjære Ingrid, gjem Ingenting for mig; du kan
                                         intet Galt sige mig, som jeg ikke har tænkt mig værre.»
@@ -2437,8 +2408,7 @@
                                         Koret.</l></quote>
                         </div>
                         <div n="7" type="chapter" xml:id="NOR0008007">
-                                <head><ref target="contents_8" type="contents" xml:id="chapter_8"
-                                                >7de Kapitel.</ref></head>
+                                <head>7de Kapitel.</head>
                                 <p>God Tid efter sad Guttorm Solbakken og Konen, Ingrid sammen borti
                                         den store, lyse Stue paa Solbakken og læste for hverandre af
                                         nogle nye Bøger, som de havde faaet fra Byen. De havde været
@@ -2587,8 +2557,7 @@
                                         Haugen, mit Sødskendebarn; du skal lyse for os paa næste
                                         Søndag.»</p>
                                 <p>Her sluttede Moderen. Synnøve havde ingen Opmærksomhed vist i
-                                        Begyndelsen, siden mere og mere, nu hang hun i hvert <pb
-                                                n="107"/> Ord. «Er det ikke Mere?» spurgte hun.
+                                        Begyndelsen, siden mere og mere, nu hang hun i hvert <pb n="107"/> Ord. «Er det ikke Mere?» spurgte hun.
                                         «Nej,» svarte Moderen. Faderen saa til hende, da gled hendes
                                         Blik usikkert til Siden og hun fortsatte efter en liden
                                         Betænkning idet hun drog Fingeren efter Bordpladen: «kanske
@@ -2604,8 +2573,7 @@
                                         rejste sig. Faderen gjorde ligesaa, Synnøve senere.</p>
                         </div>
                         <div n="8" type="chapter" xml:id="NOR0008008">
-                                <head><ref target="contents_9" type="contents" xml:id="chapter_9"
-                                                >8de Kapitel</ref>.</head>
+                                <head>8de Kapitel.</head>
                                 <p>– – – Nogle Uger efter, tidlig en Morgen, lagede hele
                                         Solbakkefolket sig til Kirkefærd; der skulde være
                                         Konfirmation, som indtraf lidt tidligere iaar end sædvanlig,
@@ -2820,8 +2788,7 @@
                                         den og rakte ham den. «Tak,» sagde Thorbjørn, som selv havde
                                         bøjet sig; han saa op; men da Knud atter saa ned, tænkte
                                         Thorbjørn, det er bedst jeg gaar. Og saa gik han.</p>
-                                <p>De Andre gik ogsaa, og da Thorbjørn nu havde sat sig ned og <pb
-                                                n="113"/> en Stund efter vilde se over til
+                                <p>De Andre gik ogsaa, og da Thorbjørn nu havde sat sig ned og <pb n="113"/> en Stund efter vilde se over til
                                         Kvindfolkestolen mødte han Ingebjørgs Ansigt, som smilte
                                         moderligt mod ham og Ingrid Solbakkens, der bestemt havde
                                         ventet paa at han skulde se did over; thi strax han gjorde
@@ -2895,8 +2862,7 @@
                                         han; men herpaa svarte hun heller ikke. – Nej, saalænge vi
                                         gaar, tænkte Thorbjørn, kommer vi aldrig til at snakkes ved;
                                         «jeg tror vi gjør bedst i at vente lidt paa Ingrid,» sagde
-                                        han. «Ja, lad os det,» svarte Synnøve og stod; her <pb
-                                                n="115"/> var der intet Bær at bøje sig nedefter,
+                                        han. «Ja, lad os det,» svarte Synnøve og stod; her <pb n="115"/> var der intet Bær at bøje sig nedefter,
                                         det havde Thorbjørn nok seet; men Synnøve havde faaet fat i
                                         et stort Straa, og nu stod hun og trak Bærene ind paa
                                         Straaet.</p>
@@ -3055,8 +3021,7 @@
                                         Thorbjørn, – han følte Talen ikke burde staa stille. «Aa –
                                         ja», sagde Manden. – – «Men Nordhoug er en god Gaard,» mente
                                         Sæmund. – «Der er for Mange paa den,» svarte Manden; – Konen
-                                        saa atter hen til ham. – «Den Ene staar i Vejen <pb n="119"
-                                        /> for den Anden,» lagde han til.</p>
+                                        saa atter hen til ham. – «Den Ene staar i Vejen <pb n="119"/> for den Anden,» lagde han til.</p>
                                 <p>«Ja, god Lykke paa Rejsen», sagde Sæmund og tog hans Haand;
                                         «Vorherre give dig det, du vil finde!»</p>
                                 <p>Thorbjørn saa sin Skolekammerat stærkt op i Øjet: «jeg vil tale
@@ -3080,8 +3045,7 @@
                                         «Aa, et Stykke endnu.» – – –</p>
                         </div>
                         <div n="9" type="chapter" xml:id="NOR0008009">
-                                <head><ref target="contents_11" type="contents" xml:id="chapter_11"
-                                                >9de Kapitel</ref>.</head>
+                                <head>9de Kapitel.</head>
                                 <p>Guttorm og Ingrid Solbakken havde alt spist, da Synnøve rød og
                                         anpusten traadte ind. «Men kjere Barnet mit hvor har du
                                         været?» spurgte Moderen. «Jeg blev tilbage med Ingrid,»
@@ -3093,8 +3057,7 @@
                                         Synnøve havde sat sig ned forat spise, og Moderen havde sat
                                         sig ligeover for hende sagde hun: «Var der kanske Flere du
                                         talte med?» «Ja, der var Mange,» sagde Synnøve. – «Barnet
-                                        maa da faa tale med Folk,» sagde Guttorm. – «Vist kan <pb
-                                                n="120"/> hun det,» sagde Moderen lidt mildere; «men
+                                        maa da faa tale med Folk,» sagde Guttorm. – «Vist kan <pb n="120"/> hun det,» sagde Moderen lidt mildere; «men
                                         hun burde dog følge sine Forældre.» – Herpaa svartes der
                                         ikke.</p>
                                 <p>«Det var en velsignet Kirkedag,» sagde Moderen; «Ungdommen paa
@@ -3173,8 +3136,7 @@
                                         Flere at dele paa; men endda saa tænker jeg det kan lage
                                         sig. I faar da sige, hvad I synes om dette – hende spørger
                                         jeg sidst, – for jeg tror nok at vide, hvad hun vil.»</p>
-                                <p>Saaledes talte Sæmund. Guttorm sad paa Hug, lagde vexelvis <pb
-                                                n="122"/> den ene Haand over den anden, gjorde flere
+                                <p>Saaledes talte Sæmund. Guttorm sad paa Hug, lagde vexelvis <pb n="122"/> den ene Haand over den anden, gjorde flere
                                         Gange Mine til at løfte paa sig, idet han hvergang drog
                                         Vejret med mere Magt, men kom sig dog ikke til det, før den
                                         fjerde eller femte Gang, saa fik han endelig ret Ryg, strøg
