@@ -1,0 +1,3582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0036" xml:lang="nb">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Mordet paa Maskinbygger Roolfsen ELTeC-utgaven
+    </title>
+    <author ref="https://viaf.org/viaf/32933930 https://www.wikidata.org/wiki/Q1342647">Hansen, Mauritz Christopher  (1794-1842)</author>
+    <respStmt>
+     <resp>
+      ELTeC encoding
+     </resp>
+     <name>
+      Michael Preminger
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     20428
+    </measure>
+    <measure unit="pages">
+     0
+    </measure>
+   </extent>
+   <publicationStmt>
+    <p>
+     Incorporated into the ELTeC
+     <date>
+      2020-11-13
+     </date>
+    </p>
+   </publicationStmt>
+   <sourceDesc><bibl type="unspecified">
+     <ref target="https://www.nb.no/items/dc1059b72f32fbf1246ce604442a6f8e?page=5&amp;searchText=Roolfsen&amp;subSite=">
+      Digitalisert av NB fra originalutgave 1840
+     </ref>
+     
+     
+    </bibl><bibl type="unspecified">
+       <author>
+        M. C. Hansen
+       </author>
+       <title>
+        Digibok
+       </title>
+       <pubPlace>
+        Christiania
+       </pubPlace>
+       <publisher>
+        H. T. Winthers Forlag
+       </publisher>
+       <date>
+        1840
+       </date>
+       <idno type="wiki">
+        https://www.wikidata.org/wiki/Q1342647
+       </idno>
+      </bibl></sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc xmlns:e="http://distantreading.net/eltec/ns">
+   <langUsage>
+    <language ident="nb" usage="100"/>
+   </langUsage>
+   <textDesc>
+    <e:authorGender key="M"/>
+    <e:size key="short"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+    <e:timeSlot key="T1"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+   <change when="0001-01-01"/>
+  </revisionDesc>
+ </teiHeader>
+ <text type="novel" xml:id="nob-950-Hansen_M_C_-Mordet_paa_Maskinbygger_Roolfsen_Kriminalanek_xml_text">
+  <body>
+   <p>
+    0.9504056920629032
+   </p>
+   <p>
+    <ref target="http://urn.nb.no/URN:NBN:no-nb_digibok_2011032410002">
+     http://urn.nb.no/URN:NBN:no-nb_digibok_2011032410002
+    </ref>
+   </p>
+   <p>
+    Mordet paa Maskinbygger Roolfsen (Kriminalanekdot fra Kongsberg) : en
+original Fortælling
+   </p>
+   <p>
+    Hansen, M.C.
+   </p>
+   <p>
+    1840
+   </p>
+   <p>
+    nob
+   </p>
+   <p>
+    Mordet
+   </p>
+   <p>
+    paa
+   </p>
+   <p>
+    Mafkinbygger Roolfsen.
+   </p>
+   <p>
+    (Kriminalanekdot fra Kongsberg).
+   </p>
+   <p>
+    En
+   </p>
+   <p>
+    original Fortoelling
+   </p>
+   <p>
+    af
+   </p>
+   <p>
+    M. C. Hansen.
+   </p>
+   <p>
+    (Zcerflildt aftrykt af Maanedsflriftet,,Norste
+Lceseftugter.")
+   </p>
+   <p>
+    Ghristiania.
+   </p>
+   <p>
+    Paa H. T. Winthers Forlag. Trykt i Forlceggerens Offmn.
+   </p>
+   <p>
+    1840.
+   </p>
+   <p>
+    Vox populi, vox Dei*)! — var et af Oberberghauptmandens
+Gndlingsudtrykke, —vel at moerke, naar Udtrykket lod sig anvende i Gunst
+af hans Mening om en og anden Person / et og andet Foretagende. Han var
+ellers bekjendt for lidet at bekymre sig om vox popuii. En Aften, den
+nemlig, hvormed vi aabne Scenen i ncervoerende Beretning/ udsagde han
+Ordene med mere end almindeligt Eftertryk, idet han reiste sig af sin
+stoppede Loenestol og svingende sin sslvmdlagte Bjergstav, skred op og
+ned ad det tavlede Gulv. Assessor og Oberbergamtsstriver Johannes Barth/
+en Mand af Sindighed og Kraft, blev siddende ved Bordet med et Hefte
+Akter foran sig og holdt Haanden for Panden.
+   </p>
+   <p>
+    ~Men hvad siger I da? Assessor!" udraabte Oberberghauptmanden
+heftig og Mede sig foran Bordet. ~I maa da vel have en Mening."
+   </p>
+   <p>
+    *) Folkets Stemme er Guds Stemme.
+   </p>
+   <p>
+    (D
+   </p>
+   <p>
+    leg bekymrer mig, Gud forlade mig, hverken om vox eller vox Dei, Hr.
+Etatsraad, men om vox no8tr»; «ciiicet Ikenil6iB; og paa saadanne
+Indisia, som de her forhaandenvcerende, kan ieg Gud hjcelpe mig ikke
+stemme for noget Menneskes Dod. Om ieg mdogsaa var inoraUwr overbevist
+om Ugierningen, det ieg dog ingenlunoe er "
+   </p>
+   <p>
+    ~Har I ladet jer bestikke!" fnysede Oberberghauptmanden, som
+ikke kunde styre sit Sind, idet han for ind paa Manden med Stokkens
+Vraad.
+   </p>
+   <p>
+    ~Vend Pilen om, Hr. Etatsraad" sagde Assessoren kold, i det han
+med Haanden skjsd Stokken tilside/ ~Stokken vilde jeg sige," lagde
+han til med et ironisk Smil.
+   </p>
+   <p>
+    Oberberghauptmanden svcrlgede Pillen og satte Staven hen i en Krog
+men vedblev at gaa op og ned.
+   </p>
+   <p>
+    ~I er en oerlig Mand og en lcerd Mand, jeg ved det nok og har ikke
+mankeret at anbefale jer paa hsiere Steder, endskjsnt I fsrer et Sprog
+"
+   </p>
+   <p>
+    ~Som den ene Embedsmand kan og bor fore til den andm, Hr. Etatsraad;
+da ieg blev bestaltet Oberbergkasserer og Revisor, samt, hvad her er
+Hovedsagen, Bvfoged og Politimester, blev ieg ingen Privatmands Tjener.
+Forresten er jeg Etatsraaden for hans gode Mening om mig, hoist
+forbunden. Men, at komme til Sågen, —Hoker Herman Haitlers Sledskhed,
+Bibelsprog og fordcegtige Velstand, hans Kones uhyggelige, indstuttede
+Vcesen og Sonnens Brutalitet, hvilket Alt ieg som Beboer af Stedet meget
+vel kiender til, — Alt dette er med eders Tilladelse Intet at bygge
+saadan graverende Mistanke paa."
+   </p>
+   <p>
+    ~Hvem Fanden har sagt, at I skal bygge derpaa? Slige
+   </p>
+   <p>
+    4
+   </p>
+   <p>
+    lagttagelser skulle alene stjccrpe vor Opmcerksomhed paa
+Indisierne."
+   </p>
+   <p>
+    ~Meget vel; har ogsaa vceret Tilfcrldet. Ogsaa har man, synes mig,
+tilstrcekkelig taget Notise af Angjeldendes bekjendte Karakteristik. Men
+her spsrges ester Kjendsgjerninger. — Maskinbygger Roolfsen, en stcerk,
+sund Mand i sine bedste Aar, trceder ind i to enlige, aldrende Folks
+Bollg og taqer sit Aftensbrsd i deres for Alle aaben staaende
+Skjcenkestue. Han bliver siddende i god Forstaaelse med Vcerten, som
+oplyst er, da de Dvrige gaa bort. Nceste Dag savnes han og er siden,
+uagtet al Eftersporgsel, ikke bleven funden. Den nsiagtigste Underwgelse
+er foretagen i Haitlers Hus; men hverken Spor as Vold eller noget
+Roolfsen tilhsrende Klcedningsstykke besindes. Manden og bans Hustru
+erklcere uden Forvirring, at Roolfsen paa Slaget Elleve forlod Huset
+aldeles som soedvanligt og med Tilfoiende, at han vilde fslge deres
+Pleiedatter hjem fra Etatsraadens, hvor hun sad i Slagtning. Nu vel, —
+kan da de to Gamle sioedes til Regnskab for hans Forsvindm? I Sandhed,
+det var en vanskelig Opgave for en Voert, om han skulde fslge alle sine
+Gjcester hjem."
+   </p>
+   <p>
+    ~Denne Deduksjon passer meget bedre i en Desensors end i Dommerens
+Mund, min gode Assessor. leg er desvoerre ikke synderlig lovkyndig; men
+jeg vil dog tjene eder med at gjentage afAkten nogle soer vigtige
+Omstcendigheder. Haitler har skaltet og valtet med de Skillinger, hans
+Broder efterlod sin umyndige Datter, imod hvem hverken han eller hans
+Kone har vist meget Godt, men som de tvertimod have behandlet mere som
+et Lcegdslem, end som en velhavende
+   </p>
+   <p>
+    Myndling. Da Hattemagersvenden Kjeld, deres liderlige og brutale Son/
+kom hjem fra sine Vandringer og vilde nedscrtte sig her, sik Piben en
+anden Lyd. Knoegten blev forlibt i den smukke Frcende, og Forceldrene
+fandt, at det siemme Formynderregnstab blev lettest og fordeelagtigst
+opgjort, naar han sik hende og dermed ogsaa hendes Hus, som de nu i ti
+Aar have beboet. Da blev der paa engang dceget for Kanne, da blev hun
+anbefalet til mit og ssere Huse for at loere lidt Folkestik og komme ud
+af Skjcenkestuen. Maaneder gaa hen; Pigen blomstrer frem, yndet og agtet
+af Enhver; de forhen saa stemme Pleieforeldre berre hende paa Hoenderne,
+og haabe bestandig, at hun vil lade sig sige, det er, crgte det
+liderlige Ssskendebarn. Men hun kan ikke bekvemme sig dertil, og det
+mangler ikke paa, at Alle/ som vil hende vel, bestyrke hende i hendes
+Afsty for Personen. Nu kommer vor vakre, dygtige Roolfsen med sin
+Randsel paa Ryggen. Han blev snart kjendt som en flink og brugbar Karl
+og sik Anscettelse paa gode Vilkaar. Roolfsen frier in optima torina til
+Pigen, og hun giver ham sit Ord» De Gamle krympe sig/ og
+Hattemagersvenden truer med Stok og Sten. Herman Haitler er saa
+uforstammet at soge Hjoelp hos Oberberghauptmanden for at faae sin Plan
+dreven igjennem. Da kommer denne med et passende: «ia volo, «ic judeo!
+og erklcerer Forlovelsen imellem Roolfsen og Karine for ratisiceret. Der
+hjalp da ingen Modstand; Svigerssnnen maatte antages, og det stede med
+bitterssde, Miner. Et Aar gik hen. Han kom, som Intet var i Veien,
+tilHaitlers, og blev, da de aldrig bade ham ind til sig, siddende med de
+andre Gjcester i Skjomkestuen, hvorhan dog af og til kunde tale med sin
+Kjcereste, som ikke
+   </p>
+   <p>
+    laengere havde det godt. Endelig toenker Roolfsen paa at gifte sig,
+da hans Stilling bliver bedre og bedre. Men han fordrer Afstaaelsen af
+det Karine tilhsrende Hus og Regnskab for Arven, som —det hviler paa den
+afdsde Skifteforvalter —aldrig var assordret Ha itler. Afvigte Host
+strammedes Knuden; der forefaldt daglige Skjcenderier imellem Roolfsen
+og Familien Haitler. I Fylderie havde Kjeld mere end engang svoret ham
+Doden. Ogsaa af den Gamles Mund faldt ofte Udladelser, som siden bleve
+mcerkeligere. Endelig kom den Aften&gt; hvorom I nys udlod eder paa en
+Defensors Vis, uden s ringeste Maade at omtale den paafaldende Venlighed
+hos Mor Haitler, der indbsd Roolfsen paa Pslse, da de Andre vilde bryde
+op, og uden at noevne med hvilken Trusel Hattemagersvenden forlod Huset
+med sit Gevcer."
+   </p>
+   <p>
+    Denne lange Replik fremferte Oberberghauptmanden ingenlunde liar
+coeur. Han havde sat sig og draget Akterne hen til sig, af hvilke han
+tog sin udtogsmcessige Fremstilling.
+   </p>
+   <p>
+    ,/leg formoder, det er til eders egen Bestyrkelse, I holder denne
+Rekapitulasion," sagde Assessoren spydig; ~eller troer I maaste,
+jeg ikke har loest Akten? Den Mistanke, der straks faldt paa Haitler og
+hans Hustru var i mine Tanker saa svagt begrundet, at den retslige
+Underssgelse hos dem med Nsd og Neppe lod sig forsvare paa ethvert andet
+Sted, end i et Autokrati, som vort."
+   </p>
+   <p>
+    ~Autokrati? Skal jeg vcere ment med denne Sigtelse?"
+   </p>
+   <p>
+    ~Hvorvel jeg kunde undgaa at svare Andet end at Danmark er en Suveram
+eller Autokrat undergivet — Konam er Lovens Ende, — vil seg dog staa
+Visiret op og spor-
+   </p>
+   <p>
+    7
+   </p>
+   <p>
+    ge, i hvilken Mund det nylig Horte: »ic voio, sic iudeo, kan passe,
+uden i en Despots."
+   </p>
+   <p>
+    Oberberghauptmanden blev snehvid i Ansigtet og sprang op. ~Ha! jeg
+kunde nok af dette uforffammede Menneste forledes til at onske, at jeg
+engang var Autokrat! Eders Grovhed er grcendselos, Barth; I stoler paa,
+at vi ere paa Tomands-Haand."
+   </p>
+   <p>
+    ~Svare kunde jeg omtrent med vor Herres og Frelsers Drd: ~,,leq haver
+Intet sagt i Lsndom; sporger dem, som haver hsrt mig — ;"" dog
+lad mig ikke tåge Guds Ord vespottelig. Sandt er det imidlertid/ at jeg
+ikke siger Andet inden disse Vcrgge, end det/ jeg kan forsvare for
+Verden at sige. Men stal jeg endelig fortoelle Noget, som alene kan
+siges vaa Tomandshaand, saa hvisker jeg eder nu det Ord til, at det ikke
+er Retfcerdsfslelse, som driver eder udi denne Sag, men en lumpen
+Begjoerlighed. I vil vinde Jomfru Haitlers Wre med dette Patronskab.
+Amen!"
+   </p>
+   <p>
+    ~Logner! TEreskjoender! Bagtaler! Bagvasker! "
+   </p>
+   <p>
+    ~Tal Fransk Kjoere," sagde Assessoren flegmatisk/ idet Doren
+aabnede sig og en snoret Tjener traadte ind; ~tal Fransk, ellers kommer
+I til at bode for jeres Mund."
+   </p>
+   <p>
+    Denne pustrlige Vending bragle Etatsraaden til at studse et Dieblik;
+og dette Dieblik var tilstrcekkeligt til at gjengive ham den monarkiske
+Vcerdighed/ som han usurperede i alle sine Underordnedes Noervoerelse.
+At derfrå maa undtages Assessor Barth/ have vi i det Foregaaende seet;
+men det kom naturligviis deraf, at Assessoren, som han selv udtrykte
+sig, siet ikke forstod sig paa Oberderghauptmandsvoerdigheden? For nu
+paa nogen Maade at redde denne i Andres Ncervoerelse, hvor ?lssessoren
+var tilstede, spillede Etatsraaden
+   </p>
+   <p>
+    8
+   </p>
+   <p>
+    Beundrer af den Loerdom og de Talenter/ hvorved Barth uncrgtelig var
+Kongsbergs Koryfce. Sieniets Rang havde jo Konger og Paver erkjendt;
+hvorfor skulde da ikke Oberberghauptmanden erkjende Johannes helst da
+Assessorens Vedstefader for halvtredsindstyve Aar siden havde siddet paa
+samme ophoiede Soede, om han end ikke var bleven benaadet med den da saa
+anseelige Etatsraadskarakter men blot bencevntes Oberbergmester.
+   </p>
+   <p>
+    Det var ved Assessorens: ~Tal Fransk!" vi bleve staaende.
+Tjeneren anmeldte Vergmester Weickort og Obereinfahrer Schw abe. ~De
+kunne vente i Forvoerelset. Giv eder kun Tid, min kjcere Assessor; I
+veed, jeg horer saa gjerne paa eders sindrige Tale."
+   </p>
+   <p>
+    ~Mig synes, Afbrydelsen var hel beleilig, Hr. Etatsraad. Dersom det I
+saa tillader, saa vil jeg ved Udgangen avertere de Ventende om
+"
+   </p>
+   <p>
+    ~Gud bevares, lad mig fslge eder til Doren!"
+   </p>
+   <p>
+    Assessor Barth vandrede langsomt henover Torvet og ned igjennem
+Bussedalen, der dengang ikkun var bebygget paa den venstre Side. Han
+stansede af og til, tog sit sslvknappede Spanffror under Armen og
+hentedeDaasen op af den store Tastelomme. Det var tydeligt at ste, at
+den gode Mand havde noget hsist Vigtigt at toenke paa. Han gik endelig
+op over Bakken til Haug ene og vendte sig imod et hoitliggende gulmalet
+Hus paa to Stokvcrrk, over hvis spraglede Dor hcengte et Vcertshusskilt.
+Assessoren fslede en vis Ulyst til at troede indenfor; men rystende paa
+Hove-
+   </p>
+   <p>
+    det over sin egen Tvivlraadighed, lagde han Haand paa Klinken og stod
+i Hoker Haitlers Skjcenkestue.
+   </p>
+   <p>
+    ~Herren velsigne Dig, du Retfoerdigheds Bolig! leremias 31te"
+sagde Herman Haitler med pibende Stemme, idet han strsg Huen af det
+hvidlokkede Hoved og med et hsfligt Smil rokkede den Indtrcedende
+imsde.
+   </p>
+   <p>
+    ~Harl endnu Noget igjen af lulesllet, Haitler? leg kunde have Lyst
+til et Glas."
+   </p>
+   <p>
+    ~Samler Raad! Esalas 16de. leg ffal straks vcere her tilbage; sid dog
+ned paa Stolen, som en rigtig Dommer! Salmen 9de. Mor!" han ståk
+Hovedet igjennem Kammerdoren; ~kom herud! Du vil med Dine Dine st Din
+Lyst, Salmen 91de."
+   </p>
+   <p>
+    ~Hvad staar paa?" lsd en Stemme, som fuldkommen havde en
+Mandsstemmes Dydde, men dog tilhorte Haitlers
+Mgtemage/KirstiPovelsdatter. En hsi, forover bsiet, gammel Kvinde
+aabnede overlang Doren og traadte ud med en mork Mine. Hun stod allerede
+midt paa Gulvet uden at blive Barth var, da hendes spsrgende Blik var
+rettet imod Manden. Men da Assessoren henvendte sin Hilsen til hende,
+blev hun med Et som lynsiagen og stod uden Vevoegelse med Haanden for
+Panden. ~Skam Dig, at Du ikke takker/ naar man hilser Dig! Syrak
+41de" sagde Haitler. ~Tag det ikke ilde op; hun ssr og horer saa
+ilde, hsigunstige Hr. Assessor; tilmed er hun kun lidet forstandig.
+Klogffab, staar der i Visdommens Bog, er det rette graa Håar iblandt
+Menneffene. Men nu lader jeg eder alene hos hende, som strevet staar,
+imedens jeg opfylder min Skyldighed."
+   </p>
+   <p>
+    10
+   </p>
+   <p>
+    Med en gammel Vcertshusholders geskjceftige Fwrdighed, siog Fatter
+Kjcelderlemmen op og smuttede ned igiennem Gulvet.
+   </p>
+   <p>
+    ~Hvordan staar det til her i Huset, Mor Haitler?" sagde Byfogden
+hurtig og greb medlidende den alvorllge Kvindes Haand.
+   </p>
+   <p>
+    ~I har lettere for at sporge, end jeg for at svare, Hr. Barth. Gid
+mine Dine vare lukkede! Modgang har jeg kjendt fra Barns Ben, og for de
+letfcerdige Glcedens Aar, da jeg glemte min Gud, trode jeg i min
+Daarlighed, at Herren 'havde tugtet mig med at tåge min Rost fra mia.
+Nei, nei! ber var mig andre Skaaler tilstikkede. Men denne forsmoedelige
+Vinter!"
+   </p>
+   <p>
+    ~Ak Kirsti, Kirsti! vidste Du, hvor Din Sorg gaacr mig til Hjerte!
+Jeg hvor uffyldig Du er! Men endnu engang — ved Du Herman fri, saa spar
+ikke Din Stedfsn. I blive alle ulykkelige, og jeg kan ikke hjcelpe jer.
+Her er jeg ikke som Dvrighedsperson, men som Din gamle Ven og som
+Retfoerdighedens Ven. Gid Du vilde ogsaa i det vcerste Fald fortro Dig
+til mig."
+   </p>
+   <p>
+    ~Havde jeg Noget at fortro eder, som det, I venter og frygter, saa
+burde I ikke hsre det; men saa sandt, som jeg selv er fri fra Blodskyld,
+Hr. Barth, saa ved jeg Intet at betro cder om de Andre, uden det, jeg
+har udsagt i Retten."
+   </p>
+   <p>
+    ~Standhaftige Kvinde! Din Taushed dsmmer dem nersten, men maaske er
+det bedre for mig, at du tier —
+   </p>
+   <p>
+    ~Pustende kom den gamle Haitler op af Kjoeldercn med et fyldt Glas af
+en uhyre Swrrelse. Han snappedc en
+   </p>
+   <p>
+    11
+   </p>
+   <p>
+    Tintallerken og satte det paa samme hen for sin Gjcest med en
+oerbsdig Boining.
+   </p>
+   <p>
+    ~Se ikke Drikken an, at den er saa rod! Ordsprogene 31te. lulesllet,
+Hr. Assessor, er sluppet op; men Vin kvceger Menneskets Liv, naar den
+nydes med Maade, Jesu Syrak, 31te."
+   </p>
+   <p>
+    ~Ei, ei, Haitler, seg bestilte Dl/ og I trakterer med eders gamle
+Rinskviin. For Gud om jeg har saamange Skillinger hos mig. Nu vel, saa
+skriv mig paa den sorte Tavle."
+   </p>
+   <p>
+    ~Gunst er bedre end Guld og Sslv, Ordsprogene 22de. leg har intet
+Kridt at skrive med idag. En Gave i Skjsdet stiller den heftige Vrede,
+Ordsprogene 21de."
+   </p>
+   <p>
+    «Er I ga! Mand!" raabte Assessoren opbragt og stsdte til Glasset
+idet han reiste sig. Samtalen med Oberberghauptmanden faldt ham ind og
+gjorde ham endnu mere smsindlig.
+   </p>
+   <p>
+    ~Herre vcer mig naadig! ti jeg er svag, Salomon 6te. leg mente intet
+Ondt i mit Hjerte; derfor lad Dig min Munds Tale behage, Salmen
+16de."
+   </p>
+   <p>
+    ~Hvor kan I dog lcegge hans Ord saa ilde ud, Hr. Varth?" sagde
+Kirsti beroligende, idet hun tog Glasset i Haanden.
+   </p>
+   <p>
+    ~Naa naa, saa giv hid, Mor Haitler; men han er en Nar med sine
+Ordsprog," sagde Assessoren og nippede til Vinen.
+   </p>
+   <p>
+    ~la, ja, Narrens Tale trykker som en Vyrde paa Veien, Jesu Syrak
+21de. Hjob taler med Uforstandighed; men hvor der er en forstandig
+Dvrighed, der gaacr det ordentligt til, Jesu Syrak 10de."
+   </p>
+   <p>
+    ~I gjor baade Syrak og David til Sladderhanke
+   </p>
+   <p>
+    12
+   </p>
+   <p>
+    og Narre, saa som I bruge dem, Menneske. Men sig mig engang, hvor er
+eders Son, Hattemageren? leg har sendt Bud ester ham idag; men han har
+ikke indfundet sig."
+   </p>
+   <p>
+    ~Hvo der kommer til eder og ikke bringer den rette Lcere med, ham
+tager vi ikke i Huset og hilser ham ikke; ti hvo ham hilser, gjor sig
+delagtig i hans Gjerninger, andet Johannes Brev. Til os kommer Kjeld
+ikke synderlig, hoigunstige Hr. Assessor."
+   </p>
+   <p>
+    ~Saa! Det var ellers underlige Ord, I der brugte om eders Ssn Ha
+itler, soer under de itzige Omstoendigheder."
+   </p>
+   <p>
+    ~ludas Synder ere skrevne med Jerngriffel, leremias 19de. I jo selv
+Hr. Barth, at han er en uordentlig Ungdom."
+   </p>
+   <p>
+    z,la Snak! Det har han lcenge vseret. Derfor lukker I ham vel ikke
+Huset."
+   </p>
+   <p>
+    ~Han er altid velkommen, naar han kommer cedru hid, Hr. Varth,"
+sagde Kirsti; ~men vort Selstad er ikke muntert nok for ham. Dog tror
+jeg vist, han her indom i Msrkningen. Da skal jeg skikke ham til
+eder."
+   </p>
+   <p>
+    ~Da kunde jeg maaske sikkrest troesse ham her; for jeg er bange, han
+ingen Lyst har til at gaa til mig. Maa jeg stette mig inde i Mors Stue
+saaloenge?"
+   </p>
+   <p>
+    ~Derfor glceder mit Hjerte sig og min A3re fryder sig, Salmen 46de.
+Dersom jeg haver sundet Naade for dine Dine, da gak ikke din Tjener
+forbi, fsrste Mosebog 18de."
+   </p>
+   <p>
+    Assessoren rystede med et fortroedent Smil paa Hovedet og gik ind i
+Sidevcerelset, som Kirsti aabnede ham. Den bibelsprcengte Voert rokkede
+bagefter med Vinglasset.
+   </p>
+   <p>
+    Ingen skulde lcttelig tro, at den blege, magre, morke Kirsti Haitler
+med det matte Vlik og den usikkre Hold-
+   </p>
+   <p>
+    13
+   </p>
+   <p>
+    ning, i sin Tid havde voeret en udmoerket Skjsnhed. At hun havde tabt
+sin Stemme, erfarede Loeseren tilfeldigvis. Men med Skjonheden og
+Stemmens Velklang havde hun ikke tabt den hsie, oedle Tamkemaade, der
+bar hende over det stormende Livshav med Blikket vendt imod en bedre
+Verden. Hun havde i sin forste Fremblomstren vundet den unge
+Kontorbetjent Ba rths Kjcerllghed og elskede ham igjen. Forholdene
+hindrede ham i for det Fsrste at vedkjende sig fin Elskede, og hun fandt
+sig med Taalmodighed deri og delte med ham den hemmelige Kjcerligheds
+stjaalne Gloeder. Men da han efter nogle Aars Ophold i Udlandet var
+kommen tilbage og i en agtet Stilling blev msdt fra alle Kanter med
+Udmcerkelse, trak Kirsti Povelsdatter sig tilbage fra ham. Den
+Alvorlighed, hvormed han paastod, at deres Forbindelse skulde erklceres
+for Verden, manglede, — det fslte hun vel, hin Kjoerlighedens inderlige
+Fylde, hvormed han som VngUng havde tilsvoret hende, at hun var hans
+Hjertes Alt. Hun erkjendte, at kun den retstafne Mands Pligtfolelse nu
+bestemte ham til at forbinde sig med en Pige, der var langt under hans
+Stand og Dannelse. I nogen Tid kjoempede hun en svoer Kamp med sig selv;
+men jo mne hun iagttog Barths Forhold til den hende fremmede store
+Verden, hvori han dengang med Livsgloede dellog, desto mere blev hun
+overtydet om, at hun ikke kunde trcede op ved hans Side, uden at node
+kam til at forsage sine Liges Omgang. Hans svage Modgrunde, hans
+Forsikkring, at hun altid vilde agtes og vurdercs af dem, hvis Mening
+var ham vigtig/ og at han kun lidt skjsttede om den svrige Dom, —
+bestyrkede Pigen i hendes Bestutning. Havde han med Mod og Gloede
+forsikkret hende.
+   </p>
+   <p>
+    14
+   </p>
+   <p>
+    at han vilde gjere hende gjceldende i den Kreds, hvortil han Horte, —
+at hendes Aand og Hjerte snart vilde hcevde hende Pladsen, at hun let
+maatte kunne tilegne sig Kongsbergerindernes dengang temmelig tarvelige
+Verdensdannelse: — da havde hun maaske ikke med et ssnderknust Hjerte
+frasagt sig sine sode Ungdomsdromme og sine uomtvistelige
+Rettigheder.
+   </p>
+   <p>
+    Men Barth kunde ikke tilhykle sig det Mod, der manglede ham, og, da
+han dog vedblev at paastaa, at deres Forbindelse stulde fornyes, greb
+hun med kjoek Haand i sin Skjcebnes Traad, og antog Enkemanden Haitlers
+A3gtestabsforstag. Assessoren var kaldt til Kiobenhavn i en Kommission
+og havde ladet sig berolige ved hendes Lsfte, at tåge en Bestemmelse
+inden han kom tilbage. Da han atter betraadte Bjergstaden fandt ban
+Kirsti gift. Dybt folle han den cedle Kvindes Dffer, og han beviste det
+dermed, at han, saalcenge hun levede, ikke indgik nogen oegtestabelig
+Forbindelft. Fsrst i sit Livs Aften Mede han sig; dog — dette horer ikke
+til vor Fortslling.
+   </p>
+   <p>
+    Var der Misforhold imellem Assessor Barths og Kirsti Povelsoatters
+Kulturtrin, da fandt udentvivl et langt storre og voesentligere Sted
+imellem hendes ogHerman Haitlers Karakter. Denne naragtige Person, som
+anvendte sin enorme Hukommelse paa den tankeloft Opsamlen af
+Bibelsteder, var bekjendt for sin egennyttige Ncerighed og et ukjoerligt
+Sindelag imod sme Medmennefker. Derhos var han ligesaa indbildst af sin
+Lcerdom, som krybende imod sine Overmamd. Nogen Formue havde han Minget
+sammen; men med Abekjcerlighed satte han Alt til paa Sonnen, den vidt
+omsvoermende, ustadige Kj e ld. Fsrst, da det var
+   </p>
+   <p>
+    15
+   </p>
+   <p>
+    for sent, tog han sig for at straffe og irettesette Dagdriveren.
+Imidlertid havde Ingen ventet sig, at Haitler skulde begaa nogen
+egentlig Ugjerning/ hvortil han syntes, hverken at vcere slem nok eller
+dristig nok. Men da fsrst Mistankens Frs faldt, stiod det hastigt i
+Veiret. Gamle Anekdoter fra Hermanns Barndom bleve fremtagne og paanyt
+ana» lyserede, og man begyndte at mumle om stere Tilfcelder/ hvor hans
+Kammerater pludselig vare forulykkede i Ncerheden af ham, efterat en
+Tvist var opkommen, eller en Handel indgaaen. Her var saamegen Grund for
+Haitler og hans Son til at snske Roolfsen af Veien. Den stakkels Kone
+blev naturligvis saameget mindre undtagen fra Delagtighed i Gjerningen,
+som hun altid havde vceret en Torn i Diet paa Naboer og Gjenboer;
+hvorfor? — Hendes gamle Tilbeder kaldte hende selv, som vi have hsrt,
+uhyggelig og mdsluttet; hendes Vegreber om, hvad hun skyldte sin Mand,
+bragte hende ogsaa til at synes emg med ham i mange Ting, hvori hun
+langtfra ikke billigede hans Handlemaade; endelig var hendes Stilling,
+som Stedmoder til den vilde Kjeld og som Pleiemoder til Kar inc altid
+Anledning for Bagtalelse til at kalde hende nu übillig, nu hadsk, nu
+egennyttig.
+   </p>
+   <p>
+    ~Gud vcere mig naadig! ti Menneskene ville skrcekke mig! Salmenls6.
+Du Mor! kan du sige mig, hvad denne Leviathan, Hjob 3die og Esaias 27de,
+vil her? Vi forventede Fred, men der blev intet Godt, og Lcegedom, men
+se, her er Fordcervelse, leremias 14de."
+   </p>
+   <p>
+    ~Det er ilde fat, naar Nogen maa frygte Dvrigheden," sukkede
+Kirsti hen for sig.
+   </p>
+   <p>
+    ~End Du Kirsti? Mon Du er saa sikker; Men,
+   </p>
+   <p>
+    16
+   </p>
+   <p>
+    siger jeg dig," vig lkke derfrå, hverken tll Hslre eller Ven&lt;
+stre, losva Iste. Jeg ved nok hvad jeg ved.
+   </p>
+   <p>
+    ~Forfoerdeligt! hvad ved du da? Mand! jeg tror du arbeider paa at
+berove mig Forstanden. Ved du Noget, og det ikke er om dig selv, saa er
+det jo om din Ssn. Men naar har jeg spurgt jer? Derfor lad mig med
+Fred."
+   </p>
+   <p>
+    ~Og mon du ikke har sagt til min Ssn, som Abisal til David, Samuels
+Bog 26de Kapitel?"
+   </p>
+   <p>
+    ~Hvad sagde da Abisai?"
+   </p>
+   <p>
+    ~Bi lidt, saa vil jeg loese det for dig. Hsr kun: Bbc Vers. Da sagde
+Abisai til David: Gud har idag overgivet Din Fiende i din Haand. Saa vil
+jeg nu stikke ham med Spydet og ned i lorden engang, at jeg ei behsver
+at gjsre det anden Gang."
+   </p>
+   <p>
+    ~O, at en Engel vilde oplyse mig, om Du taler af dm taabeligste og
+stammeligste Indbildning eller af den sorteste Ondskab!"
+   </p>
+   <p>
+    «Herren oplyse os Alle, Kirsti. Men jeg forstaar dig ikke, og du vil
+ikke forståa mig. Kun det Ene v6d jeg, at jeg med Sorg gaar i Graven til
+min Ssn, som skrevet staar. Men jeg er som en Dsv og vil ikke hsre, og
+som en Stum og vil ikke oplade min Mund, Salmen 38te."
+   </p>
+   <p>
+    I dette Dieblik foer Dsren op og tre, fire Bergmoenv traadte ind og
+stcengte sine Bylter under en lang Boenk, som de derefter toge i
+Besiddelse.
+   </p>
+   <p>
+    «Herrens Dag er nu Msrkhed og ikke Lys, Amos ste. Jeg skal derfor
+tcrnde eder Lys og efter Mathcei Evangelium scette det i min
+Lysestage." Det var ogsaa blevet saa morkt, at Lns hsiligen
+behsvedes. Imedens TEgteparrtt
+   </p>
+   <p>
+    17
+   </p>
+   <p>
+    delte sig imellem at opvarte de inden faa Minutter opvarmede og
+snaksomme Biergfolk, og den fornemmere Gjcest i Kammeret, aabnedes Doren
+langsomt; Hattemagersvenden kom ind og gik uden at vcerdige de fire
+lystige Gicester et Blik, og nikkende kort til sine Forceldre, hen over
+Stum imod Kammeret.
+   </p>
+   <p>
+    ~Bi lidt Kjeld; jeg har et Ord at sige dig, forend du gaar ind; hsr
+min Son og voer vis; Ordsprogene 23de, kom ud i Kjskkenet, Ezekiel 46de,
+Kokkenes Hus, hvor Husets Tienere stal koge Folkets
+Slagtosser."
+   </p>
+   <p>
+    ~leg vil helst tale med eder Begge," sagde det unge Menneske
+meget alvorlig og lagde sin Hat paa Disken.
+   </p>
+   <p>
+    ~Vil du tale med en af os fsrst?" sagde Mor Haitler; ~du ser, at
+her er Folk i Stuen." Hun berorte opfordrende hans Arm og vilde gaa
+ud.
+   </p>
+   <p>
+    Mei, nei'," raabte han hoit; ~jeg har lcenge nok forsogt at tale
+med En af Gangen; nu maa det engang komme til Forklaring. leg har ogsaa
+et Ord at tale med, maa I tro. —" Inden denne Opfordring blev
+besvaret, sprang Doren op fra Kammret, og Assessor Barth stod vinkende
+paa Tcerffelen, ustet af de fire Bjergarbeidere. Kjeld Haitler for
+synlig sammen ved at st Magistratspersonen; men han greb sig an,
+hviskede: ~siden" til Foroeldrene, og gik med usikkre Fjed ind i
+Sidevoerelset.
+   </p>
+   <p>
+    Referenten af denne Begivenhed henvendte sig, imedens han studerede
+den gamle firevne Bog, hvori han har sundet den optegnet, til en duelig
+Jurist med sine adstillige Tvivl og Sporgsmaale. Det forekom os
+underligt med Sagens lunkne og vaklende Behandling, — at de Angiceldende
+befandt sig paa fri Fod, — at Byfogden kunde og vilde blan-
+   </p>
+   <p>
+    18
+   </p>
+   <p>
+    de fig privat i Sågen som en Slags Politibetjent, og at han efter et
+ulovmoessigt Forhsr paa Tomandshaand kunde lade Kje Id arrestere,
+hvilket var Tilfoeldet samme Aften. Men vi sik ingen anden Forklaring,
+end at Jurisdiksjonen i Bjergstaden var i forrige Tider et underligt
+Mistmast, der mestendels rettede sig efter den alvceldige
+Oberberghauptmands Godtbesindende, — at en vis uskyldig patriarkalss
+Fortrolighed dannede den underligste Kontrast til det absoluteste
+Despoti, og at endelig Muligheden til for et enkelt Tidsrum at danne sig
+et bestemt Vegreb om Retspleien, var saa betinget, at der hsrte mere Tid
+end vi have tilovers, for igjennem Sslvvcerkets Arkiv at arbeide sig
+frem imod dette i Grunden lidet lsnnende Maal. Det bliver os der? for
+intet Andet tilovers, end med Trofkab at referere det Loeste; og vi maa
+forresten anvise den dermed utilfredse Loeser vore Kilder og Arkivet,
+hvortil Vcerkets humane Direksion vistnok lader kam den Adgang, der har
+voeret os tilbuden.
+   </p>
+   <p>
+    AZgteparret befandt sig ien übehagelig Spcending, og Haitler maatte
+gribe sig an for at tilse sine stedse tilstrsmmende Gjcester, der bleve
+mere og mere oprsmte. Assessoren havde leveret en Billiet ud i Stuen med
+Forlangende, at den straks maatte bessrges. Haitlers Tjenestepige lob
+afsted med den, og kort derpaa indfandt Vagtmesteren sig med to
+Politibetjente.
+   </p>
+   <p>
+    «I Bjerge! falder over mig! Hug mig o Jord i dine Indvolde! Hvad
+ville I mig, Forfoerdelsens Ssnner, og Udsendinger fra Morkel? Herren
+kiender de Frommes Dage.
+   </p>
+   <p>
+    19
+   </p>
+   <p>
+    «Halt Maul, Herman, med al den Snak og Galstab, og for os ind til
+Assessor Barth, der haver forlangt os/" sagde Vagtmesteren i en raa
+Tone.
+   </p>
+   <p>
+    ~Her bliver vel ikke lcrnge Voertshus," mente En afdem paa
+Bcenken, idet han nysgjerrig noermede sig Vaglen. Da traadte Barth ud og
+pegede rolig paa Kield, der uden at moele et Ord fremrakte sine Hcender
+til Vagtmesteren. Da han var lcenket, trykkede Assessoren Hatten dpbt
+ned over Ansigtet og ilede hurtig afsted uden at kaste et Blik paa den
+forhcerdede Haitler og hans ulykkelige Hustru.
+   </p>
+   <p>
+    Neppe var den hoie Dvrighedsperson ude af Doren, for Vagtmester
+Skradder reiste sin robuste Krop i Veiret og bod med et voeldigt Brsl de
+uvedkommende Personer at betale sin Fortæring og pakke sig. Derefter
+henvendte han sig med en nedladende Tale til den gamle Mand, der stod
+uden Fatning. ~Sey getrost Alter! hol mir den Deuvel! Pots Saperment!
+Wir sollen alle vor ein Domstul stcrdiges. Aber gib uns nu Etwas zu
+trinken fur zu opmannen unser Muth. Vcer trsftig, Madam, og lad Verden
+gaae sin stjoeve Gang; sid I ned paa Boenken, Kjeld eller gaa til
+Disken. leg har nu opfyldt min svcere Pligt og kan lukke Dinene til,
+mens I kysser eders Forceldre og drikker en Snaps. Politibetjente! Tager
+Plads og lader det unge Menneske Frihed til at tåge Afffed med Sine. Die
+Menschiichkeit ist mein Wahlspruk."
+   </p>
+   <p>
+    ~Hast du Etwas gebsrt, so lah es mit dir sterben! Syrak im
+Neunzehnten," sagde Haitler sagte, i det Vagtmesterens Kaudewelff
+ved et Slags Sympati bragte ham tilat tale Tysk, medens han med
+skjcelvende Haand fyldte endel Glasse.
+   </p>
+   <p>
+    &lt;,I bar blandet Kortene, Mor; I har spilt ud Far; jeg
+   </p>
+   <p>
+    20
+   </p>
+   <p>
+    soetter Beten; men stol paa, at jeg stal stette den alene. Dm Lur,
+jeg vilde havt i Aften, den tog Barth fra mig. Nu vel, det skeet er, er
+skeet for min Skyld, saa ilde det ogsaa er. En Ting vil jeg sige jer:
+sov rolig for min Tunge; den kan rives ud, men den stal ikke
+staddre."
+   </p>
+   <p>
+    z,Du er en god Son og gjor nu Meget godt igjen!" sagde Kirsti og
+klappede Kj eld paa Hovedet; ~men det maa du dog tåge med herfrå min
+Gut, at jeg svcerger Dig til, jeg er saa lykkelig ikke at forstaae
+Dig,"
+   </p>
+   <p>
+    ~IkkeN" svarede Kjeld med en uhyre Indignasion.
+   </p>
+   <p>
+    »la," lagde den gamle Herman til, ~jeg endnu mindre. Som strevet
+staar: I lagde Raad op i eders Paulun; jeg stod udenfor, og tog ikke
+vare derpaa."
+   </p>
+   <p>
+    ~Det er haardt!" udbrod Kjeld medharmfuldeTaarer. ~Dog, I frygte
+for min mennestelige Svaghed. Lad saa voere. Gaar jeg uden Tak til
+Retterstedet, I takke mig dog i eders Hjerter." Og derpaa lcenede
+han sig med barnlig Dmhed op til Forceldrene og saa i dette Dieblik med
+sine lcenkebundne Arme ud som en hellig Sandhedens Martyr.
+   </p>
+   <p>
+    Nogle Dage senere sad Overberghauptmanden i sit private Kontor; der
+var indenfor den store Sal, hvori han modtog Bessg og Meldinger, og
+hvori vi ved Begyndelsen af denne Beretning fremstillede ham i hin
+heftige Samtale med Oberbergamtsstriver Barth. Her i det lille dunkle
+Kabinet maatte Ingen forstyrre ham. Selv det vigtigste Budstab maatte
+oppebie hans Udtrcebelse af Privatkontoret. Kun faa af hans Omgivelser
+node ved enkelte Leiligheder, det
+   </p>
+   <p>
+    21
+   </p>
+   <p>
+    Fortrin, at troede der mb med ham for at diskuttere en eller anden
+vigtig Gjenstand: dog fortalte Rygter, at fiere af Bergmcendenes Koner
+og Dsttre vidste, hvorledes Vcerelstt saa ud.
+   </p>
+   <p>
+    I sit private Kontor altsaa, fad Oberberghauptmanden og brcekkede
+Kaffebrod op i sin Morgenkaffe. Faa Skridt borte stod ved den luevarme
+Kakkelovn en liden spinkel, bevcegelig, altid bukkende Figur, nemlig
+Gesvorner Diegels. Han varnetopenaf de Faa, der nsd den omtalte
+Udmcerkelse.
+   </p>
+   <p>
+    «Jo Diegels/ det er dog et Fandens Menneske, den Barth. I skulde hsrt
+ham for nogle Dage siden her inde hos mig, hvor han fsr frem som
+Defensor for dette Dglerede. leg maatte alvorlig erindre ham, hvem jeg
+var, og hvem han var, saaledes tog han til Gjenmcrle."
+   </p>
+   <p>
+    ~Forstrcekkeligt, velbaarne Hr. Etatsraad! —Ia jeg kunde straks
+begribe, at det var velbaarne Hr. Etatsraad,
+   </p>
+   <p>
+    som sik Dmene op paa ham. Nu st-r man dog, han giver efter for hsiere
+Indsigter og tager Sågen fat med behsrigt Alvor. Ti det forstaar sig,
+denne Dglerede maa oprykkes med Roden "
+   </p>
+   <p>
+    ~Aa hold sin Mund, og vcev ikke saa! Hvad er det for en forbandet
+Snak! Mener Han, jeg har raadet til en saadan Daarffab?"
+   </p>
+   <p>
+    ~Bevares vel, velbaarne Hr. Etatsraad!" stammede Gesvorneren
+forskroekket. ~Det kunde aldrig falde mig md—" ~Naa hvad faldt jer
+da ind Kan I ikke begribe, at Kjeld er ganske udenfor den hele Rore, og
+at det er de Gamle som Assessoren vil have Skylden fralagt.
+&lt;)uVramu«, udi e«t mclieticium, staar der i Talen pro li,o«cio
+Hvorledes B a rth har daaret sig ad med den forfaldne K j eld,
+   </p>
+   <p>
+    22
+   </p>
+   <p>
+    at han har faaet Stakkelen til at vceve Noget hen i Veir og Vind, der
+ser ud som en Selvangivelse, det stjsnner jeg ikke. Men det jammerlige
+Resultat as Forhsret igaar viser noksom, at han, lad ham lcenge nok
+vcere Medvider, dog ikke er Hovedmand, og at man ved at holde sig til
+hans Forklaringer om, hvad han drsmte og trode og saa og gjorde i sin
+beskjcenkede Tilstand, bare lokkes ud fra den rette Punkt.
+   </p>
+   <p>
+    ~Ia det er det, jeg synes velbaarne Hr. Etatsraad, at Assessor Barth
+altid gaar udenfor Punkten; jeg har aldrig syntes om hans Fremgangsmaade
+ved saadanne Leiligheder."
+   </p>
+   <p>
+    ~Herregud, hvem spsrger ester, hvad I synes om! — Sig mig engang, for
+at I kan synes at mene Noget, hvem tror I, det er, der har slaaet
+Maskinmesteren ihjel?"
+   </p>
+   <p>
+    ~Ak du levende Guds Ssn, velbaarne Hr. Eratsraad! hvor kan jeg have
+nogen Mening derom! Jeg mener, hvem I selv sinder for godt, ja det vil
+da sige—at, vilde jeg sige velbaarne Hr. Etatsraad, — ved det
+bedst."
+   </p>
+   <p>
+    ~Hvad Fanden er det igjen for Pslsesnak Gesvorner! Vil I dutte mig
+paa at vcere vidende om Misgjerningen?"
+   </p>
+   <p>
+    ~Aa Gud bevares, Gud bevares, men jeg mente bare, at-"
+   </p>
+   <p>
+    ~Vel vel, min gode Diegels, Ibehsver ikke at mene; det stal vcere mig
+Nok, at I horer."
+   </p>
+   <p>
+    ~Ak, velbaarne Hr. Etatsraad! Gjerne og noiagtigen,&lt;, svarede
+Gesvorneren med lettet Hv og bsiede sig forover med en Mine/ som om han
+vilde hsre Grcesstt gro.
+   </p>
+   <p>
+    ~Det Eventyr, Kjeld kommer med, at han beruset og uden Samling msdte
+Roolfsen om Aftenen ved Stranden o. s. v., det har han opspundet for at
+befri sine Forceldre for Mistanke, da han derimod er vis paa at han
+tilsidst ikke
+   </p>
+   <p>
+    23
+   </p>
+   <p>
+    kan dsmmeS efter denne Sniksnak. Men Kield Ha it le r lager
+feil."
+   </p>
+   <p>
+    ~Ia upaatvivlelig, Hr. Etatsraad; han maa jo endelig dsmmes efter sin
+Sniksnak."
+   </p>
+   <p>
+    ~Nu igjen! — Kan I da ikke gjemme paa eders Dum« hed og hore mig ud!
+Kjeld tager feil, siger jeg. Hans Vrsvl bringer ham i Ulykke; men fsrst
+hans Forceldre; ti han har ikke efter hvad jeg kan skjsnne, gjort Andet,
+end praktiserer Liget bort. Ser I, Gesvorner! Jeg har et mennesteligt
+Hjerte —"
+   </p>
+   <p>
+    »Nel, velbaarne Hr. Etatsraad, tillad mig i Devosion at modsige: I
+liaver intet mennejkeligt ——"
+   </p>
+   <p>
+    ~Hvad? hvad?"
+   </p>
+   <p>
+    ~Men et gudeligt, et guddommeligt Hjerte."
+   </p>
+   <p>
+    ~Servitor, Servitsr! jeg lader mig noie med det menneskelige. Rent ud
+sagt, jeg har hjertelig ondt af det forvildede unge Menneske, og jeg
+vilde give disse ti Dukater til (de ligge i Vinduet), at En gav ham det
+Raad at smsre Haser. Jeg har saamen endog toenkt mig i hans Sted,
+hvorledes han kunde bruge et Pas, som (ja det ligger ogsaa i Vinduet).
+Tror I ikke, den stakkels Djcevel kunde reddes paa den Maade, da han
+visselig er uskyldig? Da sik Retten sin ordentlige Gang, og man kom lige
+til Sågen mod de Skyldige."
+   </p>
+   <p>
+    Hvorledes dette ~Ligetil" skulde befordres, forstod Gesvorneren
+ligesaalidt som vi forståa det; men uden Vanskelighed begreb den tro
+Tjener, atOvelberghauptmanden betrode ham det hemmelige Hverv at skaffe
+Kjeld ud af Arresten og over alle Grcendser. Diegels var med al sin
+enfoldige lattenmed en slu Person i alle Intriger af den lavere
+Slags,
+   </p>
+   <p>
+    24
+   </p>
+   <p>
+    og som ståk ganske rolig og uden at sige et Ord Dukaterne og Passet
+til sig, medens Etatsraaden vendte sig bort og ivrig ssgte iblandt
+smePapirer. Neppe var den stiltiende Akkord indgaaet, fsrend Gesvorneren
+med Hatten i Haand i al Mmyghed forespurgtesig ~om der ellers var
+Noget" —hvor- Overbergbauptmanden afstedigede ham med et naadigt
+Nik.
+   </p>
+   <p>
+    Da Diegels var kommen udenfor, veiede han Guldet i Haanden og
+betragtede betcrnkeliq det falske Pas. Derpaa styndte han sig hjem til
+sin tarvelige Bolig for i Rolighed at udgrunde, — ikke, hvad der kunde
+bestemme hans hoieOverhoved til en saa besynderlig Beslutning — nei
+langtfra! Diegels bekymrede sig aldrig om sammes Motiver — men hvorledes
+han stulde udfore en Forretning, der aldeles maatte fremmes paa hans
+eget Ansvar.
+   </p>
+   <p>
+    I Dagligstuen sad hans kjcere Halvdel i en ikke altfor indtagende
+Morgendragt, beskjoeftiget med at reparere — et gammelt Slagbord. Denne
+besynderlige Syssel udfsrte hun ved Hjcrlp as et Par store Spiger, som
+hun med kraftige Slag drev ind i Egeplankecne. Madame Diegels syntes i
+al sin Tid at have havt Hammer og Vindebor Z Haanden, saa behcendig og
+djcrrvr bar hun sig ad. Naturen havde ogsaa udstyret hende med dygtige
+Kroefter og med en drabelig Voekst. Skjsn var hun sandelig ikke, og ikke
+heller meget elffvoerdig; men en fin til Intriger oplagt Sands
+udmcerkede hende oa. gjorde hende voerdig en mere glimrende Lod, end den
+at spille Kabaler i en Kreds af Kongsbergs halvfornemme Verden. Hun var
+afskyet og frygtet. Imidlertid levede hun ret vel med sin Mand, hvem hun
+i deres unge Dage havde frelst fra en siem Forfelgelse i en tysk
+   </p>
+   <p>
+    25
+   </p>
+   <p>
+    Bjergstad, og som hun siden heltemcessig havde fulgt til det hoie
+Norden. Godmodig lod hun ham for det Meste braute af sine Meriter, og
+kun naar Mangelen var altfor stem i Huset, maatte han hore hendes: ~Viel
+Geschrei und wenig Wolle."
+   </p>
+   <p>
+    Gesvorneren fatte sig tankefuld ned i en gammel Loeneftol, og brsd
+sig ikke om Konens stsiende Beskiceftigelse, hvilken hun vedblev/ indtil
+Bordet hang sammen, da hun med et vidt Favntag bar det hen paa dets
+Plads, fatte sig op paa Skiven, som for at prove det/ og saa en Stund
+paa den spekulative Gemal.
+   </p>
+   <p>
+    ~Hvad er Dig Frants?" spurgte Madame Diegels endelig med sin
+noget jodisk-tyffe Aksent; ~er Dig ikke vel? Du ser mig gans trube
+ut."
+   </p>
+   <p>
+    ~Det er Intet," svarede Huskerren og satte en Mine op, der
+skulde efterligne Oberberghauptmandens, ~vi —jeg og Etatsraaden — haver
+saa mange Fortraedeligheder, at En nok kan blive kruset i Hovedet. Og
+Alting lceqger den gode Herre paa mine Skuldre. Men jeg har ogsaa sagt
+ham det. Jeg har sagt ham, at vil han, jeg skal tcrnke og arbeide for
+ham, saa skal han ogsaa skjsnne paa det."
+   </p>
+   <p>
+    ~Du er altid vceret en Storsprcekker, Frants; lad dog af at gjore
+stor. Forstod Du, Noget tilgrunde/ saa var Du nu ingen Prakker ikke. Vat
+har Du af al Din Fukssvantseri? Fik Du vel engang den Forffud, jeg bad
+Dig om at soge, dermed vi Skatterne betale kunne? Jeg vil sige Dig,
+denne Eftermiddag lader jeg min beste Dyne paa Auksjonen scette ved
+Wolert, om at vi fra den evige Rykken kan fri blive. Du staffer jo
+Intet."
+   </p>
+   <p>
+    ~Hvad er det for Optoier!" raabte Gesvorneren vred;
+   </p>
+   <p>
+    26
+   </p>
+   <p>
+    ~vil Du soelge os Dynen af Sengen! Lad det vcere siger ieg Dig, og
+snak ikke om Forffud; for det indlader ieg mig ikke paa at forlange. Det
+nedscrtter en Mands Renome. Hvormeget behsver Du?"
+   </p>
+   <p>
+    ~Har Etatsraaden trakteret Dig med Fruhstuk idag, eller har Du ladet
+Dig regalire hos Haitlers? Nu doch, saa staf mig herved en ti til tolv
+Daler, og jeg stal bersmme Din Dygtighed."
+   </p>
+   <p>
+    ~Se da til at faa disse fem Dukater veksiede hos Oberbergkassereren.
+En anden Gang kan Du faa Mere," sagde Gesvorneren med manieret
+Nongsielangse og leverede sin Kone det Halve af de endnu langtfra
+fortjente Penge.
+   </p>
+   <p>
+    ~Ischrail! Jesus vil jeg sige! Gold, Gold! saa gul, saa gul! og ikke
+beschnitten! schon, schon! Wie die Sonne schsn! Vist jo ein wahres
+Diegelchen! Vist ein Zauberer! Ach du boser Vogel! hast mehrere; hor
+ichs doch klirren! Nur herraus damit! Susies, goldnes
+Mannlein!"
+   </p>
+   <p>
+    ~Stille! i Djcevels Skind og Ven! leg tror du er besat! Hor det siger
+jeg dig, Kone, at det er sidste som forste Gang, jeg viser dig en Dukat,
+dersom du ikke kan st Guld, uden at Moses og Aron farer i dig. Du skal
+gaa hen til Kassereren og sige ham, at det er dine Sparepenge, horer du?
+At jeg stet ikke maa vide af, at du soelger dem, horer du? Ellers.
+"
+   </p>
+   <p>
+    ~AH ja wohl! Bliv ikke bose, lille Dieg el! Skal gjore Alt, som du
+vil det. Vcer übesorget. Men sig mig nu oprigtig, hvormed har du saa
+megen Penge fortjent?"
+   </p>
+   <p>
+    ~Ved mine &gt;»ona oMcia, og dermed Basta! -» Men hor et Ord, lille
+Rachel!
+   </p>
+   <p>
+    «Herre! jeg horer."
+   </p>
+   <p>
+    27
+   </p>
+   <p>
+    ~Vil Du gjsre mig til Wohlgefall, saa lad mig faa en Ret Fisk eller
+Kjsd og et Glas Puntz i Aften. leg har isinde at gjsre mig tilgode paa
+mit svoere Arbeide, og vil have et Par gode Venner hos mig. Der har du
+endnu en Dukat til Udgifterne."
+   </p>
+   <p>
+    ~Ei du Spasmakker! Har du derom nsdig mange Ord at forvende? Skal
+have Fjeldsrret mit Gulerotter og Persilliesmsr dazu, og en Fad
+Medisterpslse til. Er du nu fornsiet med litten Rachel din?"
+   </p>
+   <p>
+    ~Fortoeffeligt? leg vil da bede Wolert og Gesvorner Aslaksen og --
+lad mig se -&gt; aa ja, hvorfor ikke? — Vagtmester Skrådd er."
+   </p>
+   <p>
+    ~Skradder! ei pfui? Vat stal den Storsprcekker med honorable
+Embedsmcenner?"
+   </p>
+   <p>
+    /,Ia " skal sige dig, — det er fordi, — du jeg var hos ham i
+Hsst, og desuden — kort sagt/ jeg tager ham med!
+   </p>
+   <p>
+    ~Efter dit Behag, Frantsen min, gans efter dit Behag. Alt skal parat
+staa til du kommer hjem i Aften."
+   </p>
+   <p>
+    ~Vel, vel! Er min Niste indpakket?"
+   </p>
+   <p>
+    ~Ligger schon paa Rykken Per Midnachts, Han staar i Kjskkenet derute
+og bier, om der er noget Mere."
+   </p>
+   <p>
+    ~Vist ikke, lad ham traske afsted forut»; eller bi, nu er jeg
+fcerdig. Kittelen har jeg hcengende i Zechenhaus; kom med min Stav og
+Hat! Se saa, auf Wiedersehen, Mutter!"
+   </p>
+   <p>
+    ~Glukauf! min aberliebstes Diegelchen.
+   </p>
+   <p>
+    ~Sonderbar, sonderbar, sonder, sond!" Madame Diegels kunde midt
+i sin Henrykkelse over de smaa, sode, gule Skabninger ikke sinde Fred i
+sit Sind for den urolige Nis-
+   </p>
+   <p>
+    28
+   </p>
+   <p>
+    st, Nysgjerrigheden. At ingen Anden end Overberghauptmanden, til hvem
+han havde vceret kaldet samme Morgen, kunde have givet ham Dukatrullen,
+var hende fuldkommen vist, og laa ogsaa i hans pralende Ord, — dem hun i
+og for sig just ikke lagde stor Voegt paa. Men hvad Vigtigt havde da den
+Stakkels Diegels udrettet? — Ogsaa undrede hun sig over hans
+uscedvanlige Lyst til Selstad og fremforAlt over, at Vagtmesteren skulde
+voere iblandt Gjoesterne. Naar der var nogen Udssgt til at forfslge et
+Spor ester en nok saa übetydelig Hemmelighed, pleiede Madame Rachell
+ikke at opgive det; men her tabte det sig med Gesvornerens egneFodspor.
+Dog—bi! Han ståk et Papir ind i Skuffen paa Venstre i Arkiv stabel.
+Noglen stod rigtig nok ikke i; men Mutters Dragkistensgle lukkede op.
+~Et Pas? For hvem? for Stiger Ole Has sle? den er ja dsd og begraven
+'gaar, blev syg for otte Dage, eben som han skulde reise til Harzen, og
+hvad vil Diegels med den Pas? Dog ikke rsmme fra mig? Hat kein Gefahr,
+kein Gefahr. Passet har han hos Etatsraaden genommen men warum? in hvad
+Absigt, genommen oder bekommen? Og Dukaterne med den samme Gang? Og
+Geheimnisen, at jeg maa leugne for Kassiren, dem ere sine Dukater? Og
+denne Selffabeligheo, og denne Vagtmester? Geduld, Geduld, R achel! Wenn
+die Rotte kommt, sowirds sich wohl erspahen l^ssen.
+   </p>
+   <p>
+    ~Dengang havde han maaste Ret, desvoerre!" sagde Assessor Barth
+ved sig selv; ~og ihvor urene de Brilleglas
+   </p>
+   <p>
+    29
+   </p>
+   <p>
+    end maa vcere, hvormed han har feet, saa har han bog nok feet rigtig.
+leg havde ikke troet det om Kje lo; men det forstaar sig,
+Fyldegalskaben! — Og mon ikke den Gamle endda har stsbt Haglene? Hans
+Sleskked kan ieg tiltro Alt; og af Kirstis Tilbageholdenhed maa ieg jo
+ogsaa frygte Alt. — Kom ind!"
+   </p>
+   <p>
+    ~2Erbsdige Tjener/ min kjerre Hr. Assessor!"
+   </p>
+   <p>
+    «Velkommen til Biergstaden Hr. Schmelck! Hvad forer eder fra det
+landlige Arkadien?"
+   </p>
+   <p>
+    ~Aa mange Smaaoerinder blive tilsidst til et stort, Hr. Assessor. Men
+det, som gisr, at ieg nu uleiliger eder med mit Vessg, er rigtig Dnstet
+om at bringe en bestemt og sandfoerdig Efterretning hiem til mine
+Bygdefolk om Sågen vedrsrende den forsvundne Maskinmester."
+   </p>
+   <p>
+    ~Saa gjcerne, ieg vilde opfylde eders Dnske, kan jeg dog neppe
+fortcelle noget Andet, end det, I har hsrt af enhver Mund paa Kongsberg.
+Men lad mig se! Endnu er der en Time til Middag, og eders
+Velcervcerdighed negter mig vel ikke den Fornsielse at fremsoette lidt
+Frokost paa Ungkarlsvis." Prcestemanden antog Forsiaget, og da den
+kloge Assessor af gode Grunde heller vilde hore Alles selv Fierntboendes
+Gisninger, end fortcelle, hvad der for Tiden alene vedkom Rettens
+Bestaltede, fik han den snaksomme Gudsmand paa Glid. Uden at giengive
+Hr. Schmelcks Ord, referere vi den mest gicengse Fremstilling af
+Ugierningens formentlige Udfsrelse.
+   </p>
+   <p>
+    ~Roolfjen var kommen ind til Haitlers henimod Aften og vilde straks
+gaa, da han Horte, at Ka ri ne endnu var hos Dberberghauptmandens i
+Slagtning, da han hsrte.
+   </p>
+   <p>
+    30
+   </p>
+   <p>
+    at hun ventedes hjem om Aftenen, sagde han, at han maaste vilde folge
+hende hiem.
+   </p>
+   <p>
+    Xi r st i, havde som de Tilstedeyoerende tydelig saa, givet sin Mand
+et Vink og hvisket sammen med kam i en Krog af Smen. Derpaa bad Ha it le
+r ham bie og tåge et Stykke Mellemmad og en Dram, hvilket straks ester
+tilligemed Dl blev fremsat paa Disken i Skjcenkestuen og fortceret i
+Fellesstab af Herman og Roolfsen. Den Sidste syntes fortroeden og mork i
+Hv, imedens begge Mgtefolk imod al Soedvane vare ret forekommende imod
+ham; ba Kirsti tilsidst forestog ham at siaa sig ned hos dem og spist
+Polse tilaften.
+   </p>
+   <p>
+    &lt;,Saa kunne vi kanste enes baade om det Ene og det Andet,"
+lagde Haitler til, ~Kom her ind i Kammeret I Roolfsen; kanske Mor
+spcenderer lidt Varmt paa os." Nsdig, som det lod, fandt Roolfsen
+sig i at blive, og han snakkede mere med de Fremmede i Skjaenkestuen,
+end med Husets Folk. Kirsti holdt paa at doekke Bordet i Kammeret, da
+Kjeld kom farende ind med en liden Perial. Vekselvis havde Moder og
+Fader ham henne i Krogen og hvistede til ham, hvorpaa han rolig gik ind
+til Roolfsen som stod i Dsren og bsd ham Haanden. Herman lukkede
+Gitterdoren over Disken, og bad sine Gjcester ringe paa Bordklokken,
+naar de vilde Noget, da han og hans Kone havde Lyst til al spise med
+Roolfsen og deres Ssn. Tilfoeldige Omstoendigheder foranledigede fiere
+af de i Skjcenkestuen forsamlede Folk til at traktere en Omgang som det
+hedder, og saaledes bleve de siddende til henved Elleve. Det gik af og
+til endnu mere hsirsstet til i det lille Kammer end i den store
+Skicenkestue; ister lod Xi eld sin Stemme hsre.
+   </p>
+   <p>
+    31
+   </p>
+   <p>
+    Paa engang kom han ud, betydelig besticrnket og sagde i Doren nogle
+truende Ord til Roolfsen. Faderen gik tyssende og vinkende ester. Nu tog
+Kjeld et Gevcer, som hang under Loftsbjoelken, og satte sin Hat paa.
+   </p>
+   <p>
+    ~Du fordaerver Altsammen," hviskede Herman. ~leg og Mor gjor ham
+med nogle Draaber i et Elas ganske tam. Siden kan du komme til os, naar
+de ere borte."
+   </p>
+   <p>
+    ~Ia" mente Kjeld ~jeg behsver ingen Krogvei; jeg gjsr kort
+Proces, naar det saa stal virre. Godnat, Far, godnat!"
+   </p>
+   <p>
+    ~Kan du da ikke faa ham til at bie!" raabte den hcese Kirsti fra
+Kammerdoren. ~Saa skynd dig ind til Roolfsen, ellers render han os af
+Hamderne. Gaa ind, gaa mdl"
+   </p>
+   <p>
+    Haitler nikkede forffrcekket og ffyndte sig ind i Kammeret, imedens
+Konen aabnede Udgangsdoren og blev staaende i Forstuen, samtalende med
+Kjeld.
+   </p>
+   <p>
+    ,/la, ja! Gjsr I det, som I vil; trcenges det til, saa er jeg ikke
+langt unna, ved I;" sagde han hsit, at En, der just aabnede Dsren,
+Horte det. Derimot» kunde man ikke hore, hvad Moderen sagde. Da hun var
+kommen ind, erindrede hun Gjcesterne om, at det var Sengetid, og sik dem
+Alle afsted.
+   </p>
+   <p>
+    Om denne forste Akt af Stykket erkloerede Assessor Barth, at
+Replikkerne just ikkesyntes synderlig oegte; men at han forresten fandt
+Senen rigtig beskreven. Derefter betraadtes Gisningernes Territorium
+hvorpaa dog af og ti faldt et svagt Lys fra den faktiske Verden. Kun ved
+dette ville vi her dvcele.
+   </p>
+   <p>
+    Et doempet Skrig var blevet hort paa en brat opfyldt
+   </p>
+   <p>
+    32
+   </p>
+   <p>
+    Lskke bagom Huset; dernoest hsrteS Hundeglam, Slag, som af en tung
+Kolle, og et Skud; — hvorefter Alt var stille. Ncemaanens sparsomme
+Skimmer viftede over den vaade Novembermark.
+   </p>
+   <p>
+    ~Saaledes omtrent have ogsaa Vidnerne erkloeret, Hr. Schmelk; og den
+almindelige Formodning, men som jeg ikke kunde dele, var den, at Mordet
+skulde voere begaaet af Haitler, efterat Konen havde givet Roolfsen en
+beds« vende Drik, hvorpaa den indkaldte Kjeld skulde bragtLiget bort og
+anfaldt af Roolfsens Hund, have skudt den. At Hunden er skudt, derfor
+har vi Syn for Sågen. Men den ovrige Historie maatte man efter alle
+Underssgelser antaqe for en Fiksjon af Naboernes Fantasi, — indtil
+forleden Dag, da Kjeld uventet fremstod med en forvirret Bekjendelse.
+Han fortoeller, at han i en oprort Stemning og meget beruset havde gjort
+en Vandring over Markerne ved Skytterbanen, bvor der de foregaaende Dage
+havde vist sig Rcrvespor. Han vilde igjen gaa ind til sine Forcrldre og
+hcenge Gevoeret op. Da blev han Roolfsen var, som langsom kom gaaende
+nnd sin Hund. Roolfsen pussede Hunden paa ham; den for ham i Venene, og
+han nedlagde den paa Stedet. Forbittret kom Roolfsen farende ind paa ham
+med en Knortelkjoep. De brsdes om Kjceppen; Kjeld sik den fat og flog om
+sig, hvorved Metalskoen tsrnede imod Roo lfsens Tinding, og han blev
+liggende dsd paa Stedet. Forcrldrene vidste Intet derom, paastaar han,
+og vare i Be« greb med at lcegge sig, da han forstyrre! traadte ind. Han
+fatte Gevoeret fra sig og ilede uden Forklaring afsted. Sand" os,«s
+k,-,n piaet on trak det afsted over Sandbakkerne
+   </p>
+   <p>
+    33
+   </p>
+   <p>
+    til Laugen. Nu slcengte han det i Fossestyrtningen og blev selv
+liqgende i nogen Tid uden Bevidsthed. Om Morgenen laa han i sin Seng
+shan bebor en Hytte toet ved Elven), og det hele forekom ham at have
+vceret en Drom. Saaledes forekom den ham endnu i lang Tid, og han havde
+derfor negtet frimodig Alt i Forhsrerne, fordi han ikke trode at skylde
+Retten Oplysning om sine Dromme. Men, som sagt, forleden Dag blev ham
+Alt tydeligt."
+   </p>
+   <p>
+    ~Saa har man det jo, Hr. Assessor'. Egen Bekjendelse, ikke sandt, den
+staar tiltroende?"
+   </p>
+   <p>
+    ~Ikke i alle Tilfcelde. Her ere saa mange Usandsynligheder, hvormed
+jeg ikke nu vil trcette eder; og Menneskets Tilstand er saa langt fra et
+sundt tcenkende Mennestes, at ieg har al Grund til at antage, at han har
+drsmt og drsmmer endnu."
+   </p>
+   <p>
+    «Man havde, hedder det, sundet Spor til Vold i Haitlers
+Bagvcerelse."
+   </p>
+   <p>
+    ~Det er Snak, og ikke mindre, at Roolfsens Hat skulde voere sistet op
+af Elven nedenfor Gomsrud."
+   </p>
+   <p>
+    Men Hr. Assessor? Hvorledes er det med Roolf» fens ulykkelige
+Kjcerestei"
+   </p>
+   <p>
+    «Den Stakkel! Med hende ser det ilde ud. Hun var syg samme Aften, da
+Roolfsen forsvandt, og Etatsraadinden beholdt hende hos sig i flere
+Dage. Siden er hun fsrt ud til et Par Husmandsfolk paa en af deres
+Eiendomme, og maa holdes under Bevogtning, da hun undertiden er aldeles
+fra sig selv."
+   </p>
+   <p>
+    ~Det skal have vceret en fortoesselig Pige."
+   </p>
+   <p>
+    «Aa ja saamen; en smuk, livlig og flink Pige; men forresten var der
+Et og Andet at sige paa hendes Soe-
+   </p>
+   <p>
+    34
+   </p>
+   <p>
+    pellgheb. leg trbr, Rygtet om Kirstis Strcenghed lmod hende er saare
+ufortjent. Denne Straenghed var en retskaffen Moders imod et ofte
+seilende Barn."
+   </p>
+   <p>
+    Haitler sidder jo arresteret?"
+   </p>
+   <p>
+    ~Naturligvis. Og jeg kan ikke tro Andet, end at dtt uhyggelige Slor
+med det Forste bliver asioftet.
+   </p>
+   <p>
+    Klokken ringede Tolv, den Tids Spisetime for Hoie og Lave, og
+Preesten, der var buden til Middags hos Etatsraa» den, tomte sit andet
+Glas Morgenvin og anoefalede sig. Da han var gaaen, tog atter Assessoren
+Sagens Papi» rer for sig og rystede paa Hovedet: ~At Kjeld vrsvler om
+Dromt og Oplevet, og skjuler en anden Forklaring, er nu kun altfor vist.
+Den arme, uskyldig indviklede Kirstil leg maa tro, at Herman er
+Morderen, maaske i Forsiaaelse med Sonnen, der i ethvert Fald kar bragt
+Liget bort. For Kirsti kunde Udaaden ikke skjules; hun blev altsaa den
+tvungne Medvider. Det er umuligt Andet, end at Kjeld fanges j sin
+Modsigelse."
+   </p>
+   <p>
+    Det gik lystigt til hos Gesvorner Diegels. Lcenge ester de to andre
+Gjaesters Ankomst indfandt Vagtmesteren sig. Han var i et sterdeles
+fortrcedent Humor, og maatte have adskillige Glas hed Punsj tillivs,
+fsrend han sik Tun« gen paa Gang.
+   </p>
+   <p>
+    ~Pots Saperment! Nu er det fornsiellgt at vcer« Vagtmester! Hr.
+Etatsraaden vil i Naade voere Obervagt-
+   </p>
+   <p>
+    35
+   </p>
+   <p>
+    meister og tåge sig af Alting. Hol mir den Deuvel, kan jeg holde det
+ud? Det er et Indbegreb i mit svcere Kald og med det Samme i min
+Asre."
+   </p>
+   <p>
+    ~Naa da Vagtmester! Vil han lette dig dm Byrde? Det maa jo vcere dig
+bekvemt og oerefuldt!" sagde Auksjonsforvalter Wolert spogende.
+~Men lad os hsre, hvori det bestaar."
+   </p>
+   <p>
+    ~Pots Tausend! Nun will ich erzahlen, wir der versiuchtige "
+   </p>
+   <p>
+    ~Hys, hys!" lode fiere Stemmer, og Vagtmesieren saa sig en Smule
+oengsttig om."
+   </p>
+   <p>
+    ~Naa naa, wir sind ja guten Freunden alle zusammen! Jeg er lidt
+forhizt i Dig, so was kan jo opbringe en drav Mand og tro Statens
+Tiener. Kommer mig ikke med Pligten ogsaa Wren til i min vigtige Stand,
+som den der bevarer al Ondskab, al Fordrydelse og al Mistanke i Staden?
+Pots Saperment! En Vagtmester er, so zu sågen, ligesaavel Mester, som en
+Bergmester, Borgermester, og — og Mester. -"
+   </p>
+   <p>
+    ~Mester-Mand! ja det forstaar sig, brolede Wolert og lo af alle
+Krcefter.
+   </p>
+   <p>
+    ~Vagtmesteren kan du scette sammen med Mestermanden; jeg skal bede
+om, at Bergmestere og Borgermestere maa blive fra Kompaniet," lagde
+Gesvorner Aslaksen leende til.
+   </p>
+   <p>
+    ~Tcrnker du at blive Bergmester med det Forste?" spurgte
+Diegels, saasom Du tager Partiet.
+   </p>
+   <p>
+    ~Dertil haver han, hol mir den Deuvel, en farlig Formand i eder, Hr.
+Voert; og derfor ville vi fsrst drikke eder en Bergmester-Skaal, saa at
+Råden siden kan komme til Aslaksen."
+   </p>
+   <p>
+    36
+   </p>
+   <p>
+    ~Oblisieret, Hr. Vagtmester! Enhver Leilighed til at tsmme Glasset er
+Vcerten til Wolgefall; men hvorfor stal stal jeg gaa min Ven Aslaksen i
+ForkjsbeN"
+   </p>
+   <p>
+    ~Hvorfor! Ei Pots Tausend! Dertil har jeg en god Spaamand med! Og vel
+var det, at jeg kom til at mindes mit Erinde: Etatsraadm har befalet mig
+at hilse eder fra ham lasten,"
+   </p>
+   <p>
+    ~Hilse ham?"
+   </p>
+   <p>
+    ~Hilse eder?"
+   </p>
+   <p>
+    «Hilse dig fra Etatsraaden?"
+   </p>
+   <p>
+    »Hilse dig fra, Etatsraaden?" udbrod ogsaa den hidtil tause
+Vcertinde og flog Hoenderne sammen.
+   </p>
+   <p>
+    ~Hilse mig. fra Etatsraaben? Au, au!" fukkede Die» gels og for
+med den ene Haand i Vestelommen, medens hans Blik uvilkaarlig streifede
+Arkivstabet. Madame Rachel iagttog ham skarpt og tvivlede nu ikke om at
+komme paa Spor ester Hemmeligheden. Den Dialog, der fremdeles forles,
+fuld af plumpt Spsg og falske Vittlgheder, vilde det lidet lsnne at
+nedskrive. og vi fortoelle heller pragmatisk, atOberberghauptmanden med
+en strceng Embedsmine havde tilbragt siere Timer med at inspisere
+Arresterne, at han havde sundet Alting mangelfuldt og omftyttet fiere
+Fanger. Iscer cergrede Vagtmesteren sig over, at den forfulgte
+Manddraber Kjeld Haitler var siyttet ind i et Kammer lige indenfor hans
+egen Stue. Aarsagen skulde vcere, at Skr adder ret kunde have det
+farlige Menneske i Kikkerten.
+   </p>
+   <p>
+    //Men hvad kan det skade Eder," sagde GesvornerDiegels
+opmoerksom. ~Er det da ikke Laas og Lukke paa Doren fra eders Vcerelse
+til Arresten?"
+   </p>
+   <p>
+    ~Behute mich Gott! en stor lernskudde, som vel zl-
+   </p>
+   <p>
+    37
+   </p>
+   <p>
+    ver mig Indgang, men holder ham i sin Vaas. Aber doch det er et
+uhyggeligt Nabostad. Nu kan jeg ikke gaa ud i mit Gaardsrum uden at
+stikke min Kammernogle i Haanden, indtil jeg kan faa anbragt en
+Hoengelaas for Arresten. Tl tcenk, om Nogen gik ind og siog mig Skaaden
+for Doren?"
+   </p>
+   <p>
+    ~Naa naa, da glemmer du vist ikke Nsglen, min fot» sigtige
+Ven."
+   </p>
+   <p>
+    «,Pots Tausend! Nei den ligger her velbevaret," sagde
+Vagtmesteren og fiog med vigtig Mine paa sin Kjolelomme."
+   </p>
+   <p>
+    Som galvaniseret sprang Diegels op og gjorde en komisk Rundar omkring
+Vagtmesterens Plads, hvorefter han hovedrystende fatte sig ligeover for
+ham. — En rask Bestutning gjennemstsi Rachels klsgtige Hoved, og da hun
+atter havde forsynet Herrernes Glasse, gik hun ind i Sidekammeret med et
+Vink til Gemalen at folge.
+   </p>
+   <p>
+    ~Hvad godt, lille Rachel?" sagde han med paatagen Munterhed; ti
+en svoer Byrde trykkede Heltens Sjel.
+   </p>
+   <p>
+    ~Sey aufrichtig/ Frantz! Dich druckt M Geheimnisi; nur hervor
+damit."
+   </p>
+   <p>
+    ~leg? hvad er det for et Indfald?" ,/Ich karm dir Alles
+haarklein erzahlen." — Oy virke-
+   </p>
+   <p>
+    lig manglede kun Lidet i, at hun vidste ligesaa god Bested, som han
+selv, om den farlige Ekspedision. Man kan ikke let tcenke sig
+Gesvornerens Forfcerdelse. Han udbrsd i et Slags Tyst/ omtrent som
+Vagtmesterens, og fiog Hoenderne over Hovedet.
+   </p>
+   <p>
+    ~Verraadet, verraadet! Kone! Giv mig mine Dukater igjen! Endnu er
+Intet bedrevet!"
+   </p>
+   <p>
+    ein Narr, Vogelchen! Oif mig noch en Par Du-
+   </p>
+   <p>
+    38
+   </p>
+   <p>
+    katen, og jeg tager det Hele op mig! Horer du, zwei Dukaten, og
+Passet, og saa fort ind og skjcenk og drik og fang en Sang an! Ich werde
+nicht vermitzt werden, du aber musi bei deinen Gasten ausharren. Keim
+Bedenkenl Ind met digl"
+   </p>
+   <p>
+    Da omfavnede den lille Mand med Heftighed sin mand» hastige
+A3gtefcelle og pressede et aromatisk Punsiekys paa hendes store Mund.
+Doren, sprang, op, og med en hoi Skoggerlatter betragtede
+Aukssonssorvalteren den stjsnne Sene. «Det et Fanden hakke mig et
+kjcerligt TEgtepar! o. s. v. Kort sagt, man gik leende ind, Mutter
+fyrede i Kakkelovnen, Fatter i Glassene, og Vagtmesteren var straks
+foerdig til at fslge Vcertens Eksempel og Forslag, at trcekke Kjolen af
+for at vcere ledige.
+   </p>
+   <p>
+    Regnen piskede paa, Vmduerne og strommede i Gaderne, da Madame
+Diegels, ifsrt en gammel Kalmuks Mandsfrak og en Klcedeshue, r store
+Stsvler trastede afsted, forsy» net med Vagtmesterens Nsgle til Gadedsr
+og Dagligstue.
+   </p>
+   <p>
+    I samme Time sad Kjeld Haitler med Haand unde» Kind ved den
+svagtbrcendende Lampe og stavede atter og atter paa en forkrollet
+Billiet, som fandtes paa hans Bord. Den lod saaledes:
+   </p>
+   <p>
+    ~Min gode Kjeld! Du har bragt Dig selv i Ulykken for at spare os Dine
+Forceldre; og derfor vil Du hoste en god Sons Lon. Men En, der forstaar
+det bedre, end Du, lader Dig ved mig vide, at Du ikke paa anden Maade
+kan forhindre en ulykkelig Opdagelse, end ved at flygte herfrå, hvorved
+Du trcrkker al Opmcerksomhed fra de Tilbageblivende. Den hele Verden
+staar Dig aaben, naar Du fsrst er ude af Arresten, og dertil vil blive
+Raad, da jeg har vidst
+   </p>
+   <p>
+    39
+   </p>
+   <p>
+    at sorskasse Dig et Pas, som stal levereS Dig af en Person med hvem
+Du forresten ei mere indlader Dig om Noget. Du maa fiygte ved Nattetide.
+Gaa straks hen til Assessor B . . . .s Hus, ssyd sagte op Lemmen til
+Kjcrldervinduet paa den nordre Side as Huset. I Gitteret er bundel en
+liden Skindpose med Smaapenge og Dalersedler. Tal hverken til ham eller
+til Dine Forceldre. Lad Ingenting opholde Dig men gaa trostig igiennem
+Bygderne til Skien og tag bort med det fsrste seilbare Fartsi. Din Moder
+beder Gud bevare Dig. Passet passer paa Dig, saasnart Du antager det
+paalydende Navn."
+   </p>
+   <p>
+    Mor, Mor! Msaa har jeg ikke gjort Dig Uret! Men det kommer ikke mig
+til at demme. Det er rigtig hendes Haand, og hvem ellers vilde tcenke
+paa at frelse mig? Frelse mig! hm! la. Altsaa har hendes gamle Ven
+Assessoren udfundet dette. Hvem eUers? Men der stal Meget til at det
+gaacr godt. Eller kanffe de har Vagtmesteren med sig. Ia jeg skal da
+gaa, saasnart Doren aabnes mig; her har jeg ikke meget Lystigt at vente
+paa." I disse og lignende Tanker blev den unge Haitler afbrudt ved
+den ydre Dors Aabning. Han lyttede forventningsfull». Det lod, som om
+Nogen famlede sig frem i Morket. Nu raslede det ved hans Dor; Slaaen
+blev efter nogen Famlen ffudt fra, — og Frelsens Dieblik var der.
+   </p>
+   <p>
+    ~Aftensmaten er servert, mine Herrer; vcer saa god at gaa ind i
+Kammerset," sagde Madame Diegels i en Tone, som om hun nylig var
+kommen fra sit Kjokken. Diegels
+   </p>
+   <p>
+    40
+   </p>
+   <p>
+    skjalv af Angest og Glade. ~Maa jeg hjcrlpe eder Rokken? paa forst;
+for deiinde er ikke saa varmt," vedblev hun og gav sig hurtig
+ifcrrd med Vagtmesterens Kiole. Han reiste sig ikke uden nogen
+Anstrengelse og lod sig med mange Undstyldninger hjcrlpe Kiolen paa.
+   </p>
+   <p>
+    Vi have ikke isinde at opholde os lcrnge i det fugtige Selffab, hvis
+Vcert nu for Alvor lod sig Mosten smage. Efter nogle Timers vilde Stolen
+tog man Affked, og Vagtmesteren, der var kommen sig ved det forsvarlige
+Maaltid, blev fulgt af de to andre Herrer til sin Port og aabnede den
+veltilmode. Da han af den ssvnige Politivagt havde erfaret, at Alt var i
+Orden, lukkede han forsigtig sin Stuedor i efter sig og lagde sig halv
+afklcedt til at snorke.
+   </p>
+   <p>
+    Dersom Vagtmesterens Opvaagnen var ledsaget med lldebefindende efter
+den hensvirede Nat, blev han just ikke opmuntret ved den Erfaring, han
+faa Dieblikke derefter nodvendig maatte gjere. Manden brolede som en
+Love og havde Lyst til paa Lsvevis at sonderrive sin gamle dove
+Tjenestedreng og Politivagten. Rasende for han om og flog paa Arrestens
+Gulv og Vcegge, som om Fangen kunde vcere kroden ind i Sprcekkerne, —
+eller han brod paa de übevcegelige lernstoenger eller lob om som en
+Besat i Gaarden, i Stuer, Kjceldere, paa Lofter og Gange. Tilsidst gav
+den arme Mand sig til at grcede og sank ned paa en Voenk. Man havde
+imidlertid bebudet alle Vedkommende den utrolige Begivenhed, at Kjeld
+Haitler, formodentlig ved Fandens Hjcelp, var spaseret ud iqiennem
+Vceggen. Den hele Stads B6n og Tunger kom i den stcerkeste Bevcegelse,
+og den ene Gisning blev aflost af den anden. Ba rth gik Vagtmesteren
+stcerkt paa Klingen, og paastod Forhsr over ham. Han var maaske desto
+stroen-
+   </p>
+   <p>
+    41
+   </p>
+   <p>
+    gere i sin Paastand mod den stjsdeslsse Arreftforvarer, di han
+bebreidede sig selv, at han fslede en saa stor Tilfredshed med at Kield
+var undsluppen. Vist er det, atSkr adder vilde vcrret forloren, hvis han
+havde havt det Ringeste paa sin Samvittighed. Men den meste
+Omstoendighed under hans Sviren hos Diegels, der kunde vakt den arme
+Mands Mistanke, den, at han havde lagt Kjolen fra sig, var aldeles
+udgleden af hans Erindring. Vi fortcenke noesien ikke Manden i/ at han
+under de forhaandenvcerende Omstcendigheder skjod Skylden van Djoevelen,
+og trsstede fig med, at Kield ikke egentlig var udfsrt af Fcengstet men
+snarere nedfsrt til det hede Helvede selv.
+   </p>
+   <p>
+    Imidlertid var denne Forklaring ikke Dvrigheden saa
+tilfredsstillende, som den storre Del af Publikum, ogdetvarkun ved
+Vanskelighed og paa Grund af forhen udvist Nidkjcerhed, at Vagtmesteren
+siap derfrå med en arbitrcer Pengestraf og beholdt sin Post. Der skulde
+ogsaa Noget til, kan Loeseren tro, for at formilde den nidkjcrre
+Oberberghauptmand! Han holot et stemt Hus og tog sig Sågen saameget
+ncrrmere, som han just havde advaret Vagtmesteren, skjcerpet alle
+Forssgtighedsregler, og selv udseet det Rum til Kje Id Haitlers Arrest,
+som burde vcere det bedst og sikkrest forvarede i hele Huset. Imidlertid
+— som det pleier at gaa med de Folk, der stsie heftigst, Etatsraadens
+Forbittrelse lagde sig ret snart og han syntes efter et Par Dages Forlsb
+under et vigtig Foretagende i Hytten, som han vcerdigede sin personlige
+Ledning/ aldeles at have glemt Flygtningen og den hele Aksion imod ham,
+indtil Assessoren indfandt sig med Spsrgsmaal om, hvorvidt der var gjort
+Anstalter til Personens EfterlySning og Eftersogelse.
+   </p>
+   <p>
+    42
+   </p>
+   <p>
+    Begge Dele stede endelig, men uden Virkning. Ved sin Flugt syntes
+Kjeld virkelig, som Moderen havde strevet, at trcekke al Opmcerksomhed
+fra de Tilbageblivende. Desmindre gik Etatsraadens Ord i Opfyldelse, da
+han forsikkrede sin hemmelige Agent om, at Retten forst da vilde faa sin
+ordentiige Gang, saa at man kom ligetil Sågen mod de Skyldige.
+Tvertimod, det lod, som Kirkens Forso» ningsteori kunde anvendes ligesaa
+beqvemt paa dette Retstilfcelde, og man talte ikke mere om de forhen saa
+mistamkte Foroeldres Delagtighed i Mordet. Hvad nu disse angaar, da
+maatte vel Kirsti i sit Hjerte glcede sig over, at hendes stakkels
+Stedson var undstuppen og med det Samme havde befriet Forceldrene fra
+den truende Retfcerdighed; men hun var saa forsigtig i sin hele
+Opfsrsel, at Ingen kunte iagttage nogen Forandring hos den til enhver
+Tid indstuttede og alvorlige Kone. Langt, langt anderledes viste gamle
+Herman sig. En ny Livlighed herffede i hans hele Vcesen, hans Stemme var
+vel ligesaa pibende som fsr, men langt klarere, og Bibelsprogene stode
+ham raskere fra Munden.
+   </p>
+   <p>
+    Nogle Maaneder glede hen; og deres Uger og Dage bare vistnok snart
+ssde, snart bittre Frugter for de Personer hvormed vi have havt
+Leilighed til at gjsre Lceserne nogenledes bekjendte. Men da Intet
+imidlertid, saavidt vi have erfarer, i den Tid forefaldt/ der kunde
+vedkomme vor Kriminalanekdot/ fceste vi ester en Sommers Forlsb i
+Hsstens Barfrost paanyt vor Traad.
+   </p>
+   <p>
+    En Men temmelig sent holdt en uanselig Reisekjcrrre udenfor
+Materialforvalter Dunals Hus. Han modtog som en Bifortjeneste de
+Reisende og havde temmelig god
+   </p>
+   <p>
+    43
+   </p>
+   <p>
+    Sogning, da hans Herbergerhus var om ikke godt, dog det bedste og
+anstcendigste paa Stedet. Tilfceldigvis var hverken han eller hans Kone
+hjemme; og af den Indretning var just ikke Kongsbergs da voerende fsrste
+Hotel, at en Hushovmester modtog Reisende i Vcertens Sted. Den gode
+Herre i Kjcerren maatle sinde sig i kort Besked og udbad sig kun for
+gode Ord og Betaling en Veiviser til et Sted, hvor man modtog
+Reisende.
+   </p>
+   <p>
+    yDet blier bedst, du fslger ham t!l 'en Herman; dem har jo e taali
+Stue te Gaaren."
+   </p>
+   <p>
+    ~Vel, vel, spring op i Kjcerren, min Gut, og tag Tsmmen."
+   </p>
+   <p>
+    Snart var stakket Vei kiort, og den Reisende holdt udenfor, medens
+Drengen fortalte den udtroedende Ha it le r, at en Dunals var borte, og
+dennane Mannen sku ha Hus tekvels."
+   </p>
+   <p>
+    ~Hm, hm! De havde da intet Rum i Herberget, Lukas 2det. Men velan min
+Herre, stig ned af dit Asen! Se her er Herberge endnu denne Dag, som
+strevet staar."
+   </p>
+   <p>
+    ~leg takker eder, min gode Mand. Har I et Kammer med Seng og lidt
+Aftensmad til mig? Ti jeg haver Vederkvcegelse Behov, og har reist den
+hele Dag i dette stemme Fore. Veien hertil kan ret soette Ens
+Taalmodighed paa Prove,"
+   </p>
+   <p>
+    ~En Taalmodig er bedre end en Stcerk, Ordsprogene, 16de. Men gak ind,
+min Herre, til din Tjener. De Herlige skulde ikke lide Hunger, Esaias
+ste."
+   </p>
+   <p>
+    Ganske forbauset over den siterende V«rt, betraadte Manden hans
+Tcrrstel, efterat han med en uendelig Om stcendighed havde afffediget
+Viserdrengen, samlet sit Toi, og
+   </p>
+   <p>
+    44
+   </p>
+   <p>
+    med mange Formamnger overgivet Hesten til en Karl, der paatog sig at
+kjsre den ind i Gaarden og scette den ind.
+   </p>
+   <p>
+    «Har du Kvoeg, saa pas det! Jesu Syrak, 7de," raabte Haitler
+efter Karlen, der greb Tsmmerne, — og fortsatte, idet dan vendte sig til
+sin übekiendte Gjcest: ~Den Rctfoerdige forbanner sig over sit Kvoeg,
+Ordsprogene 12tel Men tillad mig nu at troekke eders Kappe af og hvil
+lidt, Markus 6te."
+   </p>
+   <p>
+    ~Maa ieg spsrge, kos hvem jeg finder denne gode Modtagelft iaften?
+Eders Tale har allerede loert mig at kjende en ivrig
+Bibellceser."
+   </p>
+   <p>
+    ~Hoeng Budene om Din Hals, Ordsprogene 3die. Men kald mig ikke ivrig;
+ti hvo som vil loere Skrifterne, kan ikke passe andet Arbeide, Jesu
+Syrak, 38ts/ og hvo som ikke vil arbeide, den oede ikke heller, som
+skrevet staar."
+   </p>
+   <p>
+    Kirsti traadte ud fra Kammeret og fik under mange Skriftsprog at
+vide, at den fremmede Herre onjkede ihast lidt Aftensmad, og at derpaa
+Sengen stulde redes ham i Bagstuen i Gaarden.
+   </p>
+   <p>
+    har netop kogt et Par Asg til Aftens til min Mand og sat dem derinde
+paa Bordet. Vil I tåge tiltakke dermed?"
+   </p>
+   <p>
+    ~Mange Tak, med megen Fornsielse; vil I ikke spise med, min gode
+Voert; saa koger Moderen vel ogsaa nogle flere, om fornsdiges."
+   </p>
+   <p>
+    «Naar Du sidder og oeder med en Herre, saa mcrrk, hvem Du har for
+Dig, Ordfprogene 23de. Maa jeg derfor sporge om eders Navn, at ieg kan
+sige, som strevet staar i anden Mosebogs 33te. leg kjender Dig ved
+Navn."
+   </p>
+   <p>
+    Mit Navn er Schmelck; jeg er nylig forflyttet til
+   </p>
+   <p>
+    45
+   </p>
+   <p>
+    Sandssvcerd Sognekald og anstr derfor nu Kongsberg for mit Nabolag.
+Forresten har jeg ogsaa forhen nogle Gange vceret her paa Stedet, da ieg
+bode "
+   </p>
+   <p>
+    ~En Lcerer i Guds Ord? Esra 7de. Loer mig, jeg vil tie, lobs
+6te."
+   </p>
+   <p>
+    Med Tilladelse, jeg scetter mig og tager for mig af de kjaere
+Gudsgaver," sagde Proesten og skyndte sig at tåge Plads ved det
+dugede Bord i Kammeret.
+   </p>
+   <p>
+    «Lad Munden smage Spisen, lob 12te."
+   </p>
+   <p>
+    «Ei ei, min gode Mand; ler ogsaa altfor stoerk i at sitere. Lad mig
+se, kan I ogsaa svare mig med et Bibelsprog som handler om Brcendevin,
+imedens I iskjomker mig en Udm Snaps Rum?"
+   </p>
+   <p>
+    Haitler studsede etDieblik; men idet han preesenterede det Forlangte,
+sagde han alvorlig: ~Straf mig ikke for dine Bramdeoffere; ti de staa
+altid beredte, staar der i Salmen den halvtredsindstyvende."
+   </p>
+   <p>
+    ~Ia paa den Maade. Dog jeg maa tilstaa, I kar en forfcerdelig
+Hukommelse. Men endnu har jeg jo ikke faaet at vide, hvad min gode Voert
+hedder."
+   </p>
+   <p>
+    Det var som af Skjcebnen bestemt, at hans Veloervcerdighed skulde
+forblive i Uvished om sin Vcerts Navn. Ti neppe vare ham Ordene af
+Munden, fsrend et vildt Raab lsd i Skjcenkestuen, hvor kort efter
+Proestens Ankomst ad- Mige Gjcester vare indtraadte. Haitler sprang
+afsted, og Smelck fulgte ham i den aabne Dor. Den trcette Reisende fandt
+imidlertid intet Kald til at moegle eller blot tilhsre et ganste simpelt
+Kjcevleri imellem etPar Arbeidsmcend, og da Kirsti just traadte frem med
+et Lys i Haanden, gav han hende et Vink, at han vilde have sit Voerelse
+anvist. Hun
+   </p>
+   <p>
+    46
+   </p>
+   <p>
+    fulgte ham over Gaarden og forlod ham med et venligt:
+«Godnat."
+   </p>
+   <p>
+    ~Et tarveligt Losji," sagde Prcesten ved sig selv, idet han
+belyste Lokalet; ~men Lagenerne ere rene og Stum er varm." Han
+begyndte at klcrde sig af, ombyttede Parykken med en hvid Nathue, og
+sogte en Spiger til sin Paryk. Ved at ncrrme sig Vinduer, fandt han til
+sin Forundring lernsprinkler i det eneste lille Vindue. ~Fy for en
+Ulykke, hvor dette ligner et Famgsel!" sagde Smelck der let lod sig
+affisere af Wngstelse. Det er et uhvggeligt Lofii."
+   </p>
+   <p>
+    Ha it ler traadte ind med et rygende Glas Grog.
+   </p>
+   <p>
+    ~Lader os cede og drikke; ti imorgen ere vi dsde, fsrste Korintherne
+15de."
+   </p>
+   <p>
+    ~Gud bevares! Hvad er det for en Snak, min Mand!"
+   </p>
+   <p>
+    «Ei, ei, Deres Velcervoerdighed, et muntert Hjerte gjor Livet
+lysteligt, hedder det i Ordsprogene. Drik og voer vel tilmode! Hvor der
+er Sorg, der kommer Drsmme, Salos mons Proediker i det ste^"
+   </p>
+   <p>
+    ~Tak/ Tak, min Ven; nu stal jeg ikke nyde Noget, men sig mig kun til
+Godnat eders Navn!"
+   </p>
+   <p>
+    ~Mit Navn?" spurgte Haitler forundret; ~giv dig ikke i den
+Fremmedes Vold, hedder det, eller hvormed sigler Du ham for Dommeren
+dersom han gjor Dig Ve? I er da fremmed i Israel, Herre, efterdi I ikke
+ved, at eders Tjener, som staar for eders Aasyn, er Herman
+Haitler."
+   </p>
+   <p>
+    «Hvad for Noget! Haitler?" stammede Proesten med Sjeleangest
+~leg har visselig hsrt tale om eder, og det kunde ikke falde mig ind, at
+at jeg var i eders Hus. Men det maa jeg sige eder, at jeg endelig stal
+tale med Assessor Barth i denne Aften; han er min gode Ven og vil
+   </p>
+   <p>
+    47
+   </p>
+   <p>
+    vist opsoge nng, og kort, Hr. Haitler, jeg maa hen til ham."
+   </p>
+   <p>
+    ~Vcer ikke hastig med din Mund og lad ikke dit Hjerte ile, Salomons
+Proedikener ste. Herren gjor nu Msrke, at det bliver Nat, Salmen 104.
+Nei nei, veloervcerdige Hr. Schmelck. Den trcette Hyrde treenger til
+Hvile, hedder det, og hans Hund skal vaage. Lcrg dig, saa vil du sove
+ssdt. Ordsproaet 3die. Imorgen, naar det hedder, Natten er forsvunden;
+Dagen er kommen, Romerne 13de, — da stal jegvisseligen opfylde eders
+Forlangende, og fsre eder for den Israels Dommer. Men gaa ikke irette
+med Dommeren, Jesu Syrak Bde; hvo vilde formene ham Nattessvn?"
+   </p>
+   <p>
+    Den ellers saa overmaade hofiige Haitler havde siet ikke isinde at
+fsie sin Gjcest i hans urimelige Forlangende, saa sent paa Aften at
+forstyrre Assessor B art h, en Mand, for hvem Haitler altid folede en
+vis Sky. Prwstens besynderlige Paastaalighed udledede Gjcestgiveren i
+sin Troskyldighed af, at han kunde have drukket formeget paa Reisen, og
+det forekom ham klogest at afstjcere Samtalen med Et. .
+   </p>
+   <p>
+    «Altsaa god Nat, Deres Velcervcerdighed! Der stal lcegges i Ovnen, ti
+hvo kan nu staa for hans Kulde? Salmen 147 de; alt i betimelig Tid
+imorgen, Gud bevare os ellers Livet! Jeg kan ikke give eder Nsglen til
+dette Davids Hus paa eders Skulder, som det hedder hos Esaias i det
+22de. Ti Laasen er brukket; men jeg lukker Doren udenfra med en Skaade,
+saaledes, som strevet staar: han gjsr dine Portes Stcenger stcerke,
+Salmen 147 de."
+   </p>
+   <p>
+    ~Nei saa min Gud og Herre om jeg lader mig indspcer-
+   </p>
+   <p>
+    48
+   </p>
+   <p>
+    »e!" streg den forfaerbede Prcestemand&gt; der laenge havbe hs«t
+med Uro paa Bibelsprogene og nu tog Stuen i tre Spring. Men han maatte
+have taget den i to; ti Haitler havde gjort sin Reverents, var smultet
+ud og stog med et geval' tigt Tryk en udentvivl masiv Skaade for Doren.
+Schmelck svedede koldt. Alt overtydede ham om, at Morderen Haitler havde
+faaet ham i sin blodige Hule som et redningslost Offer. Hvad skulde han
+gjore? Raabe om Hjoelp? Hvo vilde HSre ham, uden Banditten med sine
+Hjoelperek Dm arme Prcestemand! Han var rent ude af det, ogprovede snart
+paa at lsfte Doren af Hoengslerne, snart paa at rykke Vinduesgitteret
+ud. Med Et faar Manden Die paci Feierdsren i Der var et Tilflugtsted, og
+maaffs lod det sig gjsre, at kravle op igjennem Skorstenen, og koMmen ub
+paa Taget. Bestuttet ti! at prove Alt, fsrend han hengav sig til
+Morderen, tog Schmelck Lyset og ståk det lnd igjennem Feieraabningen for
+at bese Leilig» heden. Uheldige Forssg! Lyset tzlceste ud. At det kunde
+toendes igjen vev den endnu ikke udbrcendte Ved i Ovnen, faldt ikke
+Velcervcrrdigheden ind; derimod modnede Morkets Rcedsler hans Bestutning
+at fiygte jo for jo heller. Straks ester sin Indtroedelse havde han
+afkastet Kjole og Vest, og i Skyndingen faldt det ham ikke ind at tåge
+disse temmelig nodvendige Klcrdningsstykker paa igjetu I sit tynde
+Antroek krob Manden med stsrste Anstrcengelse op igjennem den trange
+Skorsten og ved Hjcelp af de udspringende Stene lykkelkg op til den
+halve Hoide af Skorstenen. Men uf! her modte ham den kvcelende og varme
+Rog fra Kakkelovns» roret, der afskar Manden enkver Fortvivlet
+   </p>
+   <p>
+    49
+   </p>
+   <p>
+    krob han ned igjen med klapprende Tcender og blev staaenc de i sit
+uhyggelige Rum, indtil han var segnefcerdig. ~Dette gaar ikke an! leg
+soetter Livet til af Kulde, og naar de komme ind, sinde de mig
+alligevel." Snart optog den milde Stuevarme de forfrosne Lemmer.
+Med alle Krcefters Anvendelse stcebede han Sengen fra dens Plads og —
+som han mente —hen for Dsren. Hvo kan undre sig over, at Stuen var loden
+omkring for den forskroekkede og med sine Forstandsninger ivrig
+sysselfatte Mand? Han trak og trak snart i det ene, snart i det andet
+Hisrne af den tunge Topseng, og sik den tilsidst op til den samme Vceg,
+hvor den havde sin i mange Aar hoevdede Plads. Beroliget nogenledes,
+spadserede Hr. Schmelck op i Sengen efterat have stilt sig ved sine
+Stsvler, og fandt snart i Ssvnens Favn uagtet al sin Frygt, en
+vederqvcegende Hvile.
+   </p>
+   <p>
+    Morgenen kom, og Pigen indfandt sig for at loegge i Kakkelovnen; men
+hendes Indtrcrdelse forstyrrede ingenlunde Prcestens Slummer. Forst
+langt paa Dagen siog han Dinene op og saa sig forbauset om, idet han
+lidt efter lidt gjenkaldte sig Aftenens skrcekkelige Tildragelse. At det
+broendte lystigt i Ovnen, forundrede ham, og endnu mere, at han laa i
+Sengen langt fra den farliqe Dor. Endnu havde han ikke faaet Armene op
+over Dynen, da Stemmer lode sig hsre udenfor, og der bankedes paa.
+Forskroekket sprang Manden op, greb en Stol i begge Arme og stillede sig
+midt paa Gulvet, bestemt til at forsvare sig til det yderste.
+   </p>
+   <p>
+    ~Om Forladelse!" sagde den indtrcedende Assessor V arth hvem
+Vcerten fulgte i Hcelene med Frokosten; «jeg ved ikke om I sagde: kom
+ind."
+   </p>
+   <p>
+    «Himlen sender eder til min Frelse!" streg Proesten, ka«
+   </p>
+   <p>
+    50
+   </p>
+   <p>
+    stede Stolen og f6r i Armene paa den forbausede Dommer, der med et
+Forstroekkelsesudbrud rev sig lss af hans Favntag.
+   </p>
+   <p>
+    nGud vcere mig naadig, Hr. Pastor, hvad gaar der af eder? hvorledes
+ser I ud?"
+   </p>
+   <p>
+    ~Alle Mennefker ere Jord og Aste, Jesu Syrak 17de. Nu er hans
+Skikkelse msrk af Svcerte, siger Apostelen. Herre, giv mig Forstand og
+tag dette fra mig!"
+   </p>
+   <p>
+    ~Men min cerede Ven, hvad stal dog dette betyde? Hvor i al Verden har
+I voeret henne?"
+   </p>
+   <p>
+    Nu fsrst opdagede hans Velcervcerdighed, at han saa ub som en
+Skorstensfeier. Et Blik i det skråa Speil paa Vcrggen leverede ham
+Villedet af hans svcertede Ansigt og sodede Håar og Hue.
+   </p>
+   <p>
+    edes har man tilredt mig i denne Mordergrube," raabte han og
+strakte sine kulsorte Hcender og Arme imod Assessoren, der atter veg
+tilbage med Angest for sin fine Kjole.
+   </p>
+   <p>
+    ~Gaa, gaa, forhoerdede Menneske!" raabte han til Ha itler; ~lad
+mig alene med Retfoerdighedens Tjener!" Med et saare misfornsiet
+Blik paa sine gyselig tilsmurte Sengekloeder gik Vcerten ud og pegede i
+Forbigaaende hovedrystende paa sin Pande.
+   </p>
+   <p>
+    ~Kicere Der er Vand og Soebe. I maa fan» delig fsrst og fremst
+tvoette eder vel og ryste Soden af eders Linned og Klcever."
+   </p>
+   <p>
+    Schmelck, somnuvar befriet fra sin Dsdsangest, ef« terkom det
+forstandige Raad, trak derefter Kjolen paa og begyndte ikke uden mange
+Indbildningskraftens Fordreielser
+   </p>
+   <p>
+    51
+   </p>
+   <p>
+    «t berette, hvad han havde udstaaet siden han kom i Mo»&lt;
+dergruben. Barth paatog sig at forsvare Vcertens Uffyldighed og bragle
+det dertil, at Schmelck med Skamfuldhed erkiendte sin barnagtige Frygt
+og deraf folgende Handlemaade»
+   </p>
+   <p>
+    «Mm I maa og vil visseligen have mig noget undstyldt min cedle Ven,
+naar jeg har udfat fra hverandre Aarsagen til mit Komme her til Staden,
+hvor jeg netop har indfundet mig for at tale med eder og betro eder en
+Sag af ssrgelig Vigtigked."
+   </p>
+   <p>
+    Assessoren fatte sig fuld af Forventning og trak Prcesten ned paa en
+Stol ved Siden.
+   </p>
+   <p>
+    ~Afvigte Onsdag" begyndte denne; ~blev jeg hentet til en Syg,
+som var min Trsst begierende, nemlig den l lang Tid sindssvage Pige,
+Katine Knudsdatter Haitler."
+   </p>
+   <p>
+    ~Hvorledes? Jeg er lutter Dre! Kjendte hun Sammenhcengen? Hun lever
+dog mdnu?"
+   </p>
+   <p>
+    ~Nei, hun er hensoven, jeg haaber salig; men Hemmeligheden har hun
+nedlagt i min Haand."
+   </p>
+   <p>
+    ~Himmelste Retfcerdighed! Havde Kjeld Medskyldige?"
+   </p>
+   <p>
+    Navn vilde hun ikke opgive; en svcer Ed bandt den Dsendes Lceber. Men
+det kan ikke blive tvivlsomt, hDem han er, den ulykkelige Forbryder. Hsr
+altsaa! Karine turde, som hun udtrykte sig, ikke do, fsrend hun havde
+ssrget for, at den sidste Pligt imod hendes myrdede Brudgom blev
+efterkommet. Hans Aand havde i mange Maaneder hver Nat bessgt hende og
+forlangt, at hun skulde lade Legemet degrave i kristen Jord.
+Mennestefrygt/ Frygt for Mordernes Hevn, havde lukket hendes Mund,
+indtil
+   </p>
+   <p>
+    52
+   </p>
+   <p>
+    den Stund, da Dodstimen befriede hende fra dette usle Hensyn og
+medforte den storre Frygt. Hans Legeme "
+   </p>
+   <p>
+    hvor? I Herrens Navn, Hr. Pastor?"
+   </p>
+   <p>
+    ~Hans Legeme sindes her i Gaarden. Det er nedstcengt i en Brond i
+Fjostt, og denne er derefter opfyldt med Kalk vg Grus. Hun har paa det
+Nsieste beskrevet mig dens Plads, saaledes, at jeg troster mig til at
+pege paa Stedet. Mere har hun ikke bckjendt; mm det er Nok til at bevise
+Misgjermngen."
+   </p>
+   <p>
+    ~Upaatvivlelig! Vil I altfaa nu i Stilhed fslge mig til Fcehuset og
+give mig Anvisning. Der skal straks ste Eftergravning. Ak Kirsti,
+Kirsti! stal Du endnu tomme flere beste Skaale!" sukkede Varth ved
+sig selv men sprang derpaa til Doren og rev den Stol tilssde, hvormed
+den i Mangel as Laas var trykket til Karmen. Sikker i sin Sag gik den nu
+meget modige Sjelehyrde foran. Fjoset var let sundet; men ikke saa fort
+gik det med at paavise den tilkastede Brond.
+   </p>
+   <p>
+    ~Hun var jo vanvittig, Proest; og maa have havt en fiks Ide om en
+saadan Brond; den hele Begivenhed, hvortil hun jo ikke var Vidne, har
+gcstaltet sig saaledes i den forrykte Hjerne."
+   </p>
+   <p>
+    ~Vist ikke! Hun havde jo Aabenbarelse as den Dode."
+   </p>
+   <p>
+    ~Ia det kan jo vcere muliqt, men kan ogsaa vcere pur Indbildning. H«r
+sindes jo ikke Spor til en Brond; neppe Mulighed for en saadan paa et
+saa snevert Rum."
+   </p>
+   <p>
+    ~Gulvet kan vcere senere lagt, Hr. Assessor. Karine erklcerede, at
+det var Stengulv."
+   </p>
+   <p>
+    ~Stengulv! Hvad for Noget? Bi bi! Der farer mig en Mistanke igjennem
+Sjelen. Stengulv, siger I?"
+   </p>
+   <p>
+    53
+   </p>
+   <p>
+    ~lavist, javist!" svarede Prcrsten, i det han med frugttsles
+Msie vilde lofte de faste Planker op.
+   </p>
+   <p>
+    ~Scille, stille! Ikke et Ord om eders Hemmelighed! Det er mit Kald at
+faa den oplyst. leg beder, jeg bsnfalder eder om den fuldkomneste
+Taushed. Kom og lad os gaa hjem til mit og tåge Frokost. Kjoere, vis nu
+en fornuftig Opforsel imod Folkene her! Nu tsr jeg paa min Asre og
+Samvittighed forsikkre, at de ere ligesaa uskyldige i dette Mord, som I
+og jeg."
+   </p>
+   <p>
+    ~Er det eders Alvor? Hvem da og hvor?"
+   </p>
+   <p>
+    ~Det vil give sig. Se nu til, at I betager Vcrrten og hans Kone den
+Mening, de maa have fattet om eders be» synderlige Forhold igaar og
+idag."
+   </p>
+   <p>
+    Schmelck fslte fuldkommen Nodvendlgheden af at rette, saavidt det
+bagefter lod sig gjore, paa sine fornoermelige Udladelser, og at give
+Bessget i Skorstenspiben Navn «f Ssvngjcengeri.
+   </p>
+   <p>
+    «Er Etatsraaden hiemme?" fpurgte Assessor Barth, som var ifsrt
+sin Embedsdragt og ledsagedes af en Politibetjent og et Par Arbeidsmcend
+med Redskaber."
+   </p>
+   <p>
+    staar til Tjeneste? min gode Hr. Assessor!" spurgte den i
+Slobrok og Tofler udtroedende Oberbergkauptmand. &lt;,Vcer dog saa god
+at trine indensor." ~Hvad stulle disse Folk?"
+   </p>
+   <p>
+    felge med mig, Hr. Etatsraad. En Anmeldelse er mdloben til Politiet,
+hvorefter man, som I udentvivl vit
+   </p>
+   <p>
+    54
+   </p>
+   <p>
+    billige, maa üben Forhaling anstille en Underssgelse, den jeg nu med
+eders Tilladelse agter at foretage."
+   </p>
+   <p>
+    ~Hvor Kjcere!" spurgre Oderberghauptmanden nysgjerrig.
+   </p>
+   <p>
+    ~Her i Gaarden, Hr. Etatsraad! Behager I forst at loese denne af
+Sogneproesten til Sandsvcerd, Hr Schmelck, undertegnede Veretning? Men
+jeg beder om Forladelse, at jeg opholder Etatsraaden herude. Hvis I saa
+synes, kunne vi trcede ind."
+   </p>
+   <p>
+    Dette Forslag blev ikke hsrt af Vedkommende; ti han havdeved det
+fsrste Blik i Papiret opdaget Nok til at glemme, at han var i en tynd
+Morgendragt. Barth betragtede med Forstroekkelse Mandens pludselige
+Blegnen og vakklende Holdning. I en Afstand stode de Tilstedevcerende
+stirrende paa de hoie Herrers alvorlige Minespil.
+   </p>
+   <p>
+    z,I har ikke godt af at staa herude leengere!" sagde Assessoren
+med en dyd Stemme, der vcekkede Dberberghauptmanden af hans Bedovelse.
+~Maa ftg folge eder ind i Stuen. Vier berude, Godtfolk, jeg kommer
+straks tilbage."
+   </p>
+   <p>
+    Den Ene saa paa den Anden; Ingen vidste naturlig' vis, bvad der
+skulde foretages. Efter et Kvarters Forlsb vare begge Herrer igjen i
+Gaarden.
+   </p>
+   <p>
+    ~Under disse Omstoendigheder er jeg enig med eder, min gode Assessor,
+at man maa anstille en Eftergravning. Oberberghauptmandens Bolig er den
+sidste, hvorpaa noget Fordcegtigt maa hvile. Uagtet jeg ingen Grund har
+ti! at tro, at Nogen har kunnet udsve denne Misgjerning her eller
+snarere / uaqtet det er hartad en Umulighed — I stulle vide det Folk!
+Den gale Kar inc Haitler har
+   </p>
+   <p>
+    55
+   </p>
+   <p>
+    sundet paa, at den Person, som det bortwbne Skarn, Kield Haiti er
+bragle af Dage, stal verre her begraven."
+   </p>
+   <p>
+    Med en saare paatagen Kauteur fremsagde Etatsraaden disse Ord og
+vinkede nedladende til Assessoren, idet han undskyldte sin Bortgang og
+derpaa med ustsd Gang vakklede ind i sine Voerelser.
+   </p>
+   <p>
+    ~Lcenge stod Ba rth stille og hceftede sit Blik tungt paa lorden.
+Hans Bryst var sammensnsret. Han havde vel aldrig enten agtet eller
+eljket sin Sjef; men at st den stolte Mand staa for sig som en moralsk
+overbevist Forbryder! — det hele Vcev af Bedrageri, hvorved den
+hsitbetrode Vestyrer maatte have indvikklet aldeles uskyldige Menneffer
+i et Natt, som han selv saalcenge havde staaetudenfor! — Mandens Hustru
+og Familie! — og at den tunge Embedspligt netop ffulde udfores af hans
+mangeaarige Modstander! —
+   </p>
+   <p>
+    ~Velanl fslger mig! Her er Stedet!" — I det rummelige Fcehus
+stode Kreature i alle Baase. Forgjawes speidede Assessoren efter den
+Brsnd, som han meget vel erindrede at have vceret anbragt i Stengulvet.
+Der syntes in» tetsteds nogen Plads for en saadan.
+   </p>
+   <p>
+    &lt;,Har ingen Forandring, ingen Afdeling sundet Sted her i den
+senere Tid?" spurgte han endelig. Man viste ham en Baas, der ved
+Troeets hvidere Udseende gav sig tilkjende som senere opsat. ~Ifjor
+Vinter/ hedte det, ~havde Oberberghauptmanden anbragt den efter den
+naadige Frues Dnste til Kalvebinge."
+   </p>
+   <p>
+    ~Er der eller var der ikke en Brsnd under det Sted?"
+   </p>
+   <p>
+    ~Io Kors! Men den har vceret tilkastet i Aar og Dag. Vandet duede
+ikke, for den var, som I kan se, lige M ved Msgkjelderen her under
+Guwet."
+   </p>
+   <p>
+    56
+   </p>
+   <p>
+    ~Ia den havde ikke vcrret brugt i mange Aar, ligesiden Kjcelderen
+blev fiyttet ind. Fsr blev Mogen kastet udenfor."
+   </p>
+   <p>
+    z,Men det var den forrkge Oberberghauptmand, som "
+   </p>
+   <p>
+    ~Nok nok om gamle Historier. Altsaa blev Brsnden kastet til
+ifjor?""
+   </p>
+   <p>
+    ~Ia Hr. Barth. leg mindes det grant. Det var endda i November. Fyr om
+Morgenen tidlig, som vi havde havt Slagtning Dagen fsr, kom Etatsraaden
+ud og stod lidt i Fjssdsren og kaldte saa paa mig og sagde, at Lemmen
+var usikker over den gamle Vrsnd. Det var bedst, at den blev tilkastet.
+Saa lod han mig og Erik begynde at trille Kalkgrus ned i den. Det susede
+og rog, som af en Kjedel. Siden fpldte vi den med store Dynge, som laa
+hag "
+   </p>
+   <p>
+    ~Kast Dyrene ud, og bryd Baasen ned!"
+   </p>
+   <p>
+    Assessoren maatte gjentage sin Befaling, fsrend de forbausede Folk
+bestemte sig til dette Hcervcerk. Nu fsrst bragle de Etatsraadens kun
+halv forstaaede Tale i Forbindelse med det befalede Arbeide, og under en
+meget livlig Snakken om Muligt og Troligt, om Aabenbarelser og om hvad
+ved jeg Alt! —tog Gravningen sin Begyndelse. Den blev naturligvis
+besvcerligere/ jo loengere man kom ned i det trange Hul; men da
+Assessoren, som ncesten ikke veg fra Stedet, lod de Arbeidende joevnlig
+ombytte/ fandt man Bunden eft ter nogle Timers Forlsb.
+   </p>
+   <p>
+    ~Bunden? Umuligt! Den er falsk; bryd den op!" — Nek, efter den
+nsiagtigste Undersogelse befandtes umiddelbar under Bundplankerne et
+solid Jordlag, hvori det vilde vcere taabeligt at rode sig ned. Dm
+opkastede Dynge blev atter
+   </p>
+   <p>
+    57
+   </p>
+   <p>
+    siagen ud fra hinanden, og enhver mistcenkelig Konglomerasjon blev
+analyseret. Endnu var der noget Dagslys tilbage, da Assessoren
+demitterede Politibetjentene og Arbeiderne — og noget forlegen begav sig
+ind i Huset.
+   </p>
+   <p>
+    Tjeneren stog Dsren op ti Etatsraadindens Kabinet, og imod sin Vilje
+maatte Assessoren trcede derind. Hendes Naade var en midaldrene Kone af
+en temmelig almindeligt Udvortes, hvilket hun dog ssgte at hceve ved en
+air noble, en imponerende Gang og et elegant Antroek. Isvrigt var hun en
+forstandig Kone og meget godmodig, naar hun ikke netop fslte sig eller
+sin Gemal forncermet. Dette var dennegang i hoi Grad Tilfceldet.
+Etatsraaden havde givet sin Sjeleangest Form af hoi Indignasion over
+Assessorens uforskammede Egenmcrgtighed, efter en taabelig Angivelse at
+vende op og ned paa en Oberberghauvtmands Stald, uden i Forveien at have
+gjort en underdanig Forespsrgsel.
+   </p>
+   <p>
+    adominadlk&gt;, mon mari&gt;" havde Matronen sagt; ~rnaiB un tel
+insolent, 6e «'avi&lt; «er "
+   </p>
+   <p>
+    ~Han ved megetvel, min Bedste, at jeg ikke kunde bruge min Mvndighed
+her, uden at give ham og Hans Anledning til krcenkende Snak. Men scet,
+at han sinder det dsde Legeme —!"
+   </p>
+   <p>
+    ~?6 von« un en cela vouz re»
+   </p>
+   <p>
+    ~Nei vist! nei vist! Men det var dog HM fatalt."
+   </p>
+   <p>
+    Hendes Naade fandt det maaske ligesaa fatalt; men bekymret over den
+kjoere Mands angrebne Udseende, fremsogte hun Alt for at berolige ham,
+skjcendte baade paa Franst og Norsk over den impertinente Assessor men
+forsikkrede til&gt;
+   </p>
+   <p>
+    58
+   </p>
+   <p>
+    lige, at en Mand af Oberberghauptmandens Voerdighed burde ikke engang
+bemcerke den indiskrete Underordnedes udentvivl forsoetlige Mangel paa
+Dekorum."
+   </p>
+   <p>
+    «leg giver Dekorum Fanden; var det ikke Andet!" tankte
+Etatsraaden ved sig selv; men han vogtede sig for at sige Noget, kyssede
+sin Wgtemages hvide Haand og fulgte hendes Raad at tåge sig et kjslende
+Pulver og lovede at loegge sig lidt paa Sengen. Dog lod han det blive
+ved at tåge Plads i sin hoiryggede Lcenestol i det forhen omtalte
+Privatkontor. Herfrå kunde han kaste et Blik ud i Gaarden uden at blive
+seet, og iagttage enhver Bevcrgelse iblandt de om Stalddsren
+sammenttcengte Menneffer. Timerne krsbe; Ingen uden Etatsraadinden
+afbrod hans pinlige Ensomhed, idet hun snart spurgte til hans
+Besindende, snart bragte ham nogen Forfriskning.
+   </p>
+   <p>
+    ~leg cergrer mig virkelig i Grunden over Ingenting, min Vedste, og
+scetter Dig i Uro over mig. Dersom seg havde Gesvornerner Diegels ved
+Haanden, skulde seg scrtte mig til at arbeide. Ti jeg har ikke Lyst til
+at gaa ud, fsrend vi faa st Resultatet af Gravningen."
+   </p>
+   <p>
+    ~Etatsraadinden blev tilfreds ved at erfare/ at den kjoere Mand vilde
+adsprede sig, og sendte straks Bud efter Diegels.
+   </p>
+   <p>
+    Det vc»r loenge, siden Diegels havde havt den ?Ere! Siden den
+Morgenstund, da han forlod dette samme private Kontor med et ydmngt: ~Om
+der ellers var Noget," .havde Oberberghauptmanden neppe voerdiget
+ham et Nik eller et Ord; — huilket krcenkede den tro Tiener. Desto mere
+gloedede han sig ved Ordren at indsinde sig; han klede Gaderne ned og
+gav sig neppe Tid ril at tåge Hatten af, naar man
+   </p>
+   <p>
+    59
+   </p>
+   <p>
+    hilsede ham. Pustende stod han i Etatsraadens Sanktuarium og dreiede
+Hatten imellem Hcenderne.
+   </p>
+   <p>
+    ~Kom I ind fra Gaden eller igjennem Gaarden?"
+   </p>
+   <p>
+    ~Fra Gaden, velbaarne Hr. Etatsraad."
+   </p>
+   <p>
+    ~Hm! Gjsr jer engang et Erinde der ud Eller nei bi kun! I ved vel,
+hvad der staar paa?"
+   </p>
+   <p>
+    nei! leg forsikkrer i dybeste—"
+   </p>
+   <p>
+    ~Naa for Fanden! Der behsves ingen vidtlsftige Forsikkringer. Se bare
+til Vinduet."
+   </p>
+   <p>
+    ~Ei, ei! Hvad lader hsigunstige Hr. Etatsraad der
+foranstalte?"
+   </p>
+   <p>
+    «leg? slet Intet. Men Politiet er kommen paa Spor efter, hvor den
+bortrsmte Moroer Kjeld Haitler, har nedgravet N oolfsens Lig."
+   </p>
+   <p>
+    ~Ha, ha, ha! Etatsraaden behager at spoge. Vare Alle saa uskyldige i
+Mordet, som den Stakkels Kjeld, saa havde de en blodere Hovedpude
+—"
+   </p>
+   <p>
+    ~Hvad Dicevelen er det for et Rsrsammen, det Menneske kommer
+med!" streg Oberberghauptmanden arrig, og f6r med Hovedet op af
+Puden. Han betvang imidlertid sit Humor og lagde rolig til: Kan I
+sremdeles holde for, at Kjeld er uskyldig?"
+   </p>
+   <p>
+    ~Ak du levende Guds Ssn! javist/ velbaarne Hr. Etatsraad ! Han har
+ikke, efter hvad jeg kan skjsnne, gjort Andet, end praktiserer Liget
+bort. Rent ud sagt, jeg har hjertelig ondt af det forvildede unge
+Menneske "
+   </p>
+   <p>
+    Det er ikke sagt, at den cerede Lcesers Hukommelse finder disse Ord
+igjen i den Samtale, der sidst forefaldt mellem Etatsraaden og hans
+Klient paa selvsamme Sted; men vist er det, at hans Velbaarenhed
+mindedes den fuldkommen
+   </p>
+   <p>
+    60
+   </p>
+   <p>
+    og maatte samle alle Levninger af sin Taalmodighed for at faa
+Gesvornerm indprcrket, at Kl eld absolut var Morderen, og at han ester
+al Sandsynlighed havde forfulgt Roolfsett ind i Oberberghauptmandens
+Gaarsdsrum, og anseet et saa umistcrnkeligt Sted for det bedste til at
+skjule Udaaden. — Uagtet sin taabelige EftersnakkenvarDtegels siv nok,
+og paatog sig uden egentlig Aftale, at give Opinionen den Retning, som
+var Etatsraaden til Behag!
+   </p>
+   <p>
+    ,/leg har tilfeldigvis en forrusten Toeljekniv, der har tilhsrt Kjeld
+og hvorpaa er indflaaet et k. I.HR. Dersom den fandtes ved
+Liget?"
+   </p>
+   <p>
+    ~I duer vist ikke til Taffenspiller, Gesvorner. Men det var et
+uskyldige lidet Fis, naar det kunde bringe Sandheden frem —"
+   </p>
+   <p>
+    ~Natmligvis; det er om Sandheden at gjsre, Hr. Etatsraad; og naar den
+ikke kan indsees paa en sandfcrrdig Maade, saa maa man bruge en uskyldig
+Logn "
+   </p>
+   <p>
+    ~Aa han er en Sladderhank! leg forstaar i Grunden ikke, hvad I vil
+med den Kniv, som I engang skal have seet hos Ha it le r. Findes den
+dernede saa —ja ja, det vil jo vise sig. Men gaa nu, min gode Gesvorner.
+Det er sandt, jeg glemte noesten, hvad jeg vilde sagt jer; I bliver med
+det Fsrste indstillet til et Grasiale. Gaa hjem og fortoel eders R achel
+det i al Hemmelighed. Kommer I siden igjen, saa gaa igjennem
+Gaarden." Med mange Komplimenter bortfjernede Spidsbnben sig fra
+sin ucedle Prinsipal, som ester andre ophsiede Personers Eksempel med
+dyb Foragt saa ester sit Vcerktsi. Oberberghauptmanden sik en Visit af
+sin Kone der bekvmret spurgte til hans Besindende.
+   </p>
+   <p>
+    - ~Tak min Bedste, nu er det ret vel. leg har ordentlig Appetit. Hvad
+serverer du med til Middag?"
+   </p>
+   <p>
+    61
+   </p>
+   <p>
+    ts mieux: Vi har en 2 12 og fyldt Kaalhoved, en vouL?"
+   </p>
+   <p>
+    ~Meget vel; men — jeg gider ikke havt Bud efter Assessoren / og dog,
+— han gaar derude og driver. Ved du hvad, lille Kone! Giv mig min Mad
+hermd, og saa kalder du ham til dit Taffel. e&gt;n 6it&lt;?»—
+vous?"
+   </p>
+   <p>
+    ~Ot&gt;ia Nt? cc peut P 25, mon inlili. Jeg spiser alene med
+lomfruen. Du er ikke vel, og lader dig undskylde. Han maa tåge det som
+en 6?jk&gt;unt&gt;r 6inawire. Jeg lader dcekke i det rsde Kabinet; det
+stal blive meget anstcendigt."
+   </p>
+   <p>
+    ~Aldeles som du behager. Men lad mig faa min Mad Klokken
+Tolv."
+   </p>
+   <p>
+    Assessoren, som kunde vide, at man vilde bede ham tilbords, lod sig
+forud indbyde til sin Fetter og Ven, Apotekeren, der boede i Ncerheden,
+og betrode for nogle Minutter Opsynet til et Par Politibetjente.
+Gesvorneren stod stadig ved Arbeidet med Haanden indenfor Vesten og
+konverserede. Han havde klogelig beregnet, at Liget, naar det blev
+sundet og optrukket, vide tiltrcekke sig Alles udelteOpmcrrksomhed, og
+at han da let kunde stippe den omhyggelig l&lt;?r-krustede Kniv i
+Brsnden. Dog, der dlev ingen Leilighed til at anvende Behcendighed. Ti,
+som vi have berettet, ud paa Eftermiddagen var den hele Undersogelse
+forbi, og den samme Barth, der med hemmelig Roedsel havde seet
+Opdagelsen imsde, gik nu ganske stuksret op ad Trapperne for at afgive
+sin Beretning. Tieneren rev Doren op til Etatsraadsindens Kabinet, og
+Assessoren maatte trcede ind.
+   </p>
+   <p>
+    Han hilste med en dyd Reverents og spurgte efter Etatsraadens
+Befindende. Med et harmfuldt Haanblik svarede
+   </p>
+   <p>
+    62
+   </p>
+   <p>
+    Dåmen idet hun langsomt reiste sig: ,Monßienr votrs tacli6 n'est
+re&gt;ni^lie! II se sxtleineineut
+   </p>
+   <p>
+    ~,Det gloeder mig, eders Naade; Hr. Etatsraaden var virkelig ikke vel
+imorges. Maaske det lod sig gjsre, at saa ham itale?"
+   </p>
+   <p>
+    ~For atter at fornaerme eders Foresatte?"
+   </p>
+   <p>
+    ~Fornoerme, nacdige Frue! Ifslge mir Kald har jeg anstillet den
+Underssgelse, som paalaa mig. Det gjorde mig ondt/ at Hr. Etatsraaden
+ikke straks fandt den nodvendig; men —
+   </p>
+   <p>
+    Buz)tk&gt;rluZ6s 6e cots! — aprt&gt;s, Monzieur? — I har jo vundet en
+hel Del Sand og Graasten i Dagen. Naturligvis, hvo kunde vente Andet?
+Imidlertid har Hr. Bergamtskriveren havt en skjsn Anledning til at
+usurpere en Myndighed, som skulde imponere Psbelen, kan jeg tro.
+   </p>
+   <p>
+    I gjor mig sandelig Uret, naadige Frue. Jeg har aldrig tcenkt paa at
+usurpere en Myndighed, der ei tilkommer mig. Vistnok kunde jeg fsrst
+have meldt Etatsraaden mit Komme; men jeg frygtede/ oprigtig talt, at
+det vilde givet Anledning til mere paafaldende Optrin.
+Oberberghauptmanden kunde, — det var jo toenkelig -- have troet at burde
+negte Underssgelsen, — og da —"
+   </p>
+   <p>
+    rsvt&gt;non3 Ia clkB3UB ; )e V0l!8 Kun et Ord ved denne ved, jeg
+melerer mig ikke i uvedkommende Affoerer; allecmindst har jeg Dre for
+ckruni. ; alligevel —i&lt;' 6c&gt;iB vons liiiii» kjender jeg saameget
+til eders hemmelige Andel i de Historier, man her tangerer, at
+"
+   </p>
+   <p>
+    Madame?"
+   </p>
+   <p>
+    »
+   </p>
+   <p>
+    63
+   </p>
+   <p>
+    »At jeg forundrer mig over den Frcrkheb, hvormed I vcelger netop
+deriblandt, for at sinde Leilighed til at insulteri min Mand."
+   </p>
+   <p>
+    ~Eders Beskyldning saarer mig; jeg har aldrig villel insultere; men
+for Himlens Skyld &gt; naadige Frue! hvad forstaar I ved hemmelig Andel,
+og i hvilke Historier?"
+   </p>
+   <p>
+    Etatsraadinden gjorde et Trin tilbage; hendes Bryst bevoegede sig
+steerkt; hun bekjoempede en heftig Tilskyndelse til at straffe Mandens
+kjcrkke Blik og Tone med et Ord som, —- som den stolte Kone havde Kraft
+til at holde tilbage.
+   </p>
+   <p>
+    «Jeg overlader eder selv at lose Gaaden/ hvis den er en Gaade; det
+jeg dog saare betvivler. Men vogt eder, Assessor; jeg er stcrrk nok til
+at tie, men maaste for svag til ei at gjengjoelde Ondt med Ondt. Vogt
+eder for oftere at forncerme os. Iknes z,our 6it! —I vilde tale med mitt
+Mand; jeg gaar just ind til ham. Behag at sidde ned; der stal straks
+komme Bud, om han kan have den Fornoielse at modtage eders
+Bessg."
+   </p>
+   <p>
+    ~Hjcelpe mig Gud, om jeg kan forståa, hvad den gode Frue vil sige med
+alt dette!" raabte Assessoren og pussede de langtandede Vokslys.
+Etatsraadens knirkende Stsvler forkyndte hans Ankomst, og Barth
+bestuttede at holde Dine og Dren aabne.
+   </p>
+   <p>
+    Hidindtil have vi i det Mindste holbt os indenfor Vjergstadens
+Grcendser, om vi ogsaa have maattet umage Lceseren temmelig omkring i
+samme. Nu fordrer Fortcrllingens Gang, at vi for nogle Meblikke stytte
+Senen til Norges Hovedstad
+   </p>
+   <p>
+    64
+   </p>
+   <p>
+    og navnligen tit Visestatholderens Volig. I den stcrrkt op&lt; lyste
+Portal paradere to skjceggede Skildvagter. Lcrngere inds ved Foden af
+den brede Trappe staar en sslvgaloneret Lsber med sin lange Stok. I
+Koridoren ere tyende Heidukker plantede ved en stor Egedor, der forer
+ind til Selskabssalen; og fra denne toner en majestattjsk Mennet fra det
+stcerkt besatte Spillekor. Snorede Tjenere lode frem og tilbage i
+forskjellige Kostymer, og boere tungt beloessede Vakker ind igjennem
+Sidedorene. Det er allerede langt paa Aften, og Vognene have forlcengst
+ophort at rulle frem. Dog endnu en Voatyre! Det er en bred og masiv
+Sloede, hvis for« gyldte Snabel bsier sig som en Svanehals ncesten i
+Hoide med den store, fede danske Hest, der trcekker den ind i Portalen.
+Den tigerplettede Feld slaaes tilbage af en stadselig Tiener, og med
+Voerdighed trceder en tilslorct Dame i en vid foldet Silkekaabe ud og
+strider taus forbi Lsberen, der cerbodig saluterer med sin Stav.
+Hushofmesteren synes at have ventet Dåmen og aabner, saasnart hun har
+ncevnt sit Navn, Doren til et lidet, svagt oplyst, meget elegant
+Budoiar.
+   </p>
+   <p>
+    ~Vefaler Deres Naade at tåge Plads; hendes hoigrevee Nge Naade vil
+paa Dieblikket indsinde sig. Maaste I behager, at en Kammerjomfru
+--"
+   </p>
+   <p>
+    ~Meget forbunden; det er ikke fornsdent. Voer saa god at beordre min
+Kusk at holde sig foerdig, til jeg kommer tilbage," Hushofmesteren
+bukkede og forlod Dåmen, der siog Sloret op og kastede Kaaben tilbage
+over Skulderne. Efter nogle Minutters Forlsb aabnedes en Tapetdsr, og en
+rank, skisn Kvinde traadte ind med svcevende Fjed. Hendes Ho«
+   </p>
+   <p>
+    65
+   </p>
+   <p>
+    ved, Hals og Arme vare oversaacde med Vrillianter; Strudsfiedre
+vaiede fra den guldvirkede Turban / og Atlaskjortelen stivntde af
+Broderi og Guld.
+   </p>
+   <p>
+    ~Mathildis, min kjcere Mathildis! Vcer mig tusinde Gange
+velkommen!" raabte den oedle Grevinde og omfavnede den Ankomne.
+~Tilgiv mig, min Dyrebare, at jeg Me straks kom til dig efter din
+Billiet. Men Geburtsdagen med alle dens Plager! Jeg maatte modtage Kur
+og udholdt alle de besvcrrlige Seremomer, som — du ved det nok — aldrig
+have vceret mig behagelige. Fsrst nu ere Etikettens Baand lssnede, og
+jeg horer ganske dig og din Sorg til. Du arme Kone! —
+   </p>
+   <p>
+    ~&lt;)ue voiiB steg donue, ?/la6ame! HlaiZ i'ai tort Hs mo presenter
+avec ines «oinz H2NB I'ecla,t 6,6 votre doMeur."
+   </p>
+   <p>
+    ~M athildis! Fortjener jeg denne Kulde? Min egen, kjcere Mathildis!
+Er det Sorgen eller Vinterkulden, som stivner dit Hjerte! Hv, tal dog
+ikke fransk, det hsrer hjemme derinde i Sålene. Udos mig dit Hjerte! Kan
+jeg end ikke hjcelpe, jeg kan dog grcede med dig. Men hvad har du at
+frygte? Den onde Assessor kan ikke skade din Mand. Saasnart jeg modtog
+dit Brev, forestillede jeg Greven den hele Sag, og han beordrede straks,
+at en Kommission skulde nedscettes. Kommissoriet bliver udfcerdiget i
+denne Aften. Assessoren paalcegges at fremkomme med sine Veskyldninger
+for Kommissionen; og den bestaar af de forstandigste og retskafneste
+Adelsmcend. Din Mand vil erholde en ekklatant Satisfaksion."
+   </p>
+   <p>
+    Med et indsmigrende Smil kyssede Grevinden den be-
+   </p>
+   <p>
+    66
+   </p>
+   <p>
+    drovede Vminde og strsg hendes Kaabe ned paa Otto. månen.
+   </p>
+   <p>
+    ~Min naadige Tante! — Is n'os 6 ziaz vov» sneisa-
+   </p>
+   <p>
+    ~Vu igjen FranD! Som du vil. kjcere Mathildis; kun lad Seremonielle!
+fare."
+   </p>
+   <p>
+    z,leg vil sige eder Alt i faa Ord. I vil erindre afmit lange Brev, at
+den arresterede Haitler siygtedeafArresten i Vegyndelsen af Foraaret.
+Samme Dag kom en Brsdkone, som har Adgang i mit Hus, til mig med et
+Papir, som hun havde sundet udenfor Assessor V arth s Vinduer. Hun havde
+stavet sig til nogle Ord og spurgte mig i Fortrolighed, om det kunde
+give Oplysning om Flygtningen, da hun i saa Fald vilde levere det til
+Politiet. Det var et Brev, stilet fra den Fangnes Moder og til ham. Det
+indeholdt en Opmuntring til at flygte og Lsfte om Pas og Penge ved en
+Fortrolig. Assessor Barth var paapegt som den, der vilde hjcelpe ham til
+Flugten. Dette forekom mig saameget mere sandsynligt, som der har vceret
+gamle Liaisons imellem den virkelig agtvcerdige Kone og Assessoren.
+Handlmgen forekom mig iscer fra Moderens Side hsist undstyldelig, og jeg
+kunde ikke bcere over min Samvittighed at befordre mine Medmenneskers
+Fortrced. Jeg fortalte Vrsdkonen, hvad der forst faldt mig ind, gav
+hende en Drikkeskilling og tog Brevet til mig. Imidlertid havde jeg en
+Slags Sky for at tilintetgjsre et Papir, som jeg kunde kaldes til
+Regnskab for og gjemte det uheldigvis i en Lonfluffe."
+   </p>
+   <p>
+    Etatsraadinden holdt moe, heftig angreben. Grevindei^
+   </p>
+   <p>
+    67
+   </p>
+   <p>
+    hentede hurtig Vandkarafien og talte med stjcelvende Haand Draaber i
+en Ske.
+   </p>
+   <p>
+    ~Maa jeg lsse dit Korset op, min Bedste?"
+   </p>
+   <p>
+    ~Nei, nei, naadige Tante! Nu er jeg bedre! O, ler saa
+englegod!"
+   </p>
+   <p>
+    ~Et Glas Vin vil styrke dig. Faar jeg Lov ?"
+   </p>
+   <p>
+    ~Tak, dette er bedre!" Etatsraadinden satte Vandglasset til
+Lceberne. ~Hvor var det/ jeg standsede? Maaske ved Sessjonm. Vor
+Antagonist havde indsamlet Efterretninger fra alle Kanter, og min Mand
+maatte finde sig i at besvare d&lt; mest krcenkende Spsrgsmaale. Den
+egentlige Sammenhceng dermed vidste jeg ikke. Men da jeg Horte, at man
+vilde beskylde ham for Delagtighed iHaitlers Flugt, fik jeg en
+ulykkelige Ids ved Brevet at demaskere Assessoren. Jeg slog en Kuvert om
+det, fortalte i faa Ord, hvorledes det var kommet mig ihcende, og sendte
+det hen i Retten, hvor min Mand befandt sig."
+   </p>
+   <p>
+    ~En rast Veslutning min Mathildis. Men videre."
+   </p>
+   <p>
+    ~Forestil eder Fslgerne/ naar jeg siger, at Moderen aldeles fragik
+Brevet, at Haandskriften fandtes efterlignet, og at der paa Baqsiden
+stod en saakaldt Penneprsve, et d. s., saaledes, som min Mand skriver
+dette Trcek!"
+   </p>
+   <p>
+    ~7uBte ciel! Hvad siger du? Skulde det vcere muligt! — Erklcerer han
+virkelig at have skrevet Brevet?"
+   </p>
+   <p>
+    ~Det gjsr han ikke. Men jeg frygter " man taler om inHicia, og
+han er ganske forandret. Hans Vttringer af Uvillie imod mig dog nei!
+nei! Det var kun i det fsrste Dieblik! — O, Gud Ser a fine! Jeg er
+grcensews ulykkelig, dersom jeg, just jeg skulde -- -^"
+   </p>
+   <p>
+    ,/Fat dig, Mathildis! Ulykken maa forekommes."
+   </p>
+   <p>
+    68
+   </p>
+   <p>
+    ~Det vcere, som det vil, en Mand som Oberberghauptmanden maa
+suteneres."
+   </p>
+   <p>
+    Vcerrolig! min ssde, bedste Veninde! I dette Dieblik er
+Visestatholderen i sit Kabinet med Generallsitnanten og Biskoppen, der
+ere de udncevnte Kommisscerer. leg vil kalde Ham ud."
+   </p>
+   <p>
+    ~O min Gud! I kan gjsre ondt vcerre! Dog ieg har jo intet Valg.
+Naadige, kjcere Tante!"
+   </p>
+   <p>
+    ~Bliv rolig hermde. leg vil sende dig min gamle W e lise l. Hun stal
+bringe Forfriskninger; du maa endelig nyde Noget."
+   </p>
+   <p>
+    ~O du gode Sjel! — I glemmer eders Ejcester for min Ekyld?
+—"
+   </p>
+   <p>
+    ~Snak aldrig om det. De danse og spille, revoir, du arme lidende
+Mathildis! Scet dit Haab til Himlen; jeg kan jo Intet love uden min
+bedste, bedste Vilje."
+   </p>
+   <p>
+    Med vingede Skridt ilede den deltagende Grevinde igjennem Gangen
+forbi Tjenerne og standstde med bankende Bryst ved Indgangsdsren til
+Visestatholderens Audientsgemak. En Underossisier saluterede med
+Korsgevceret.
+   </p>
+   <p>
+    ~De ere altsaa endnu derinde."
+   </p>
+   <p>
+    ~Ia eders Naade!"—
+   </p>
+   <p>
+    I Forgemakket sad en ung vakker Pasje i sin Baldragt med ssvnig og
+sorgmodig Mine. Han sprang op og bukkede dybt. Men idet han samlede sig
+sammen, traadte han oerbsdig hen for Doren til det indre Vcerelst. .
+   </p>
+   <p>
+    ~Eders hsigrevelige Naade! Hans Eksellentse har befalet "
+   </p>
+   <p>
+    mon clier Osten; is «, wnt." Og med boevende Haand trykkede hun
+paa Laasen.
+   </p>
+   <p>
+    Om et gronkloedt Vord sad Visestatholderen i Galla-
+   </p>
+   <p>
+    69
+   </p>
+   <p>
+    hragt, ved hans Hslre en hvid Ridder i Generalsuniform og ved han
+Venstre Biskoppen af Kristianiastift i sin Flsiels Ornat, midt for
+Bordet en ung Mand i sort Baldragt med Pennen i Haanden.
+   </p>
+   <p>
+    ~Hvad er dette?" raabte Eksellentsen uvillig og skjod Skjcermen
+op over det graalokkede Hoved. De svrige Herser reiste sig med forlegen
+Mine.
+   </p>
+   <p>
+    ~?ar6onne2 —&gt; jeg ved nok, kjcere Greve! — Eders Vwrelse er
+helligt!"
+   </p>
+   <p>
+    «Ei min dyrebare! Det hele Hus horer eder til. Rigtignok Nu, det
+siger Intet; vi ere fcerdige. Det er mig, der stal gjore Undskyldninger
+for Vcrrtinden og mine Gjcrster over den lange Afbrydelse. Tillad os
+blot et Dieblik, kjaere Grevinde! En Pen, Hr. Sekretcrr! Saaledes! Nu
+eders Navne, mes3ionr3!"
+   </p>
+   <p>
+    Visestatholderen traadte med venlig Artighed imod sin 2Egtef&lt;elle
+og bod hende sin Arm. Men med et greb han hende bekymret om Livet; Hieu
+Zelapiiine! &lt;)u '2^62
+   </p>
+   <p>
+    ~0 yu6 non! — I ville dog vel ikke sorlade os i Aften mine
+Herrer?"
+   </p>
+   <p>
+    «Kongens Tjeneste, Naadigste!" sagde Generallsitnanten og trak
+med et submi Smil paa Skuldrene.
+   </p>
+   <p>
+    «Hestene ere bestilte, eders hoigrevelige Naade," lagde
+Viskoppen til; ~Kommissjonen skal aabne sine Forretmnger imorgen
+Formiddag."
+   </p>
+   <p>
+    «I horer selv, min bedste Grevinde. Dersom jeg turde tale som Vcert
+"
+   </p>
+   <p>
+    «Mine Herrer! I Dronningens Navn befaler jeg, henhes sorste Frue, at
+I blive. I ere tilsagte at bivcere Van-
+   </p>
+   <p>
+    70
+   </p>
+   <p>
+    ketten paa hendes Maiestcets hole Fodselsfest, og den indtroeder
+egentlig fsrst med Slaget Tolv. Naar hendes kongelige Majestoets
+dyrebare Sundhed bliver udbragt, venter jeg, at Rigets fsrste
+Dignitcerer stode sine Glasse sammen med mit."
+   </p>
+   <p>
+    Overraskede stode de tre Herrer et Meblik. De to Gjcesters Blik ssgte
+Grevens, der mildt bebreidende saa paa den skjenne Qvinde, hvis Bleghed
+havde givet Plads for en yndig Rsdme...
+   </p>
+   <p>
+    ~BL6uctr;ce!" hviskede den forelskede Gemal. Grevinden rakte
+sine Hcender ud imod Kommissoererne, der paa engang forte dem til sine
+Lceber. Nu gav hun Greven sin Arm, og man forlod Salen. Den unge
+Sekretcer blev staaende med henrykte Dine og stirrede paa den Plet, hvor
+den yndigste af alle Fruer havde uddelt sine Befalinger, og fsrst den
+indtrcedende Pa&lt;jes muntre: ~Kom da, kom! Lad os hente det Forssmte
+ind, Filip!" rev ham ud af hans Drsmme. Men paa Veien til Balsalen
+hviskede Grevinden sin Mand et Par Ord i Dret, hvorover han trak
+Diebrynene sammen og rykkede med Hovedet. ~Al den Skaansel, der kan
+beståa med vor 2Ere lover jeg dig, Serafine; mere vil du ikke
+fordre!" sagde han endelig, da hun bsnlig holdt ham tilbage ved
+Indgangen til de festlige Haller.
+   </p>
+   <p>
+    Neppe havde hun i nogle Mieblikke vist sig iblandt Gjoesicrne og
+omstroet forbindtlige Artigheder, fsrend hun forsvandt for at folge sit
+Hjertes cedle Kald. Med et mindedes hun, at hun havde glemt at sende sin
+gamle Dame H'lionneur ind til den arme Lidende. ~Hurtig! en Kollasion
+paa to Kuverts ind i mit Budoar!" hviskede hun til
+   </p>
+   <p>
+    71
+   </p>
+   <p>
+    Icegeren og ilede nu med aabne Arme til den cengstelig Ventende.
+   </p>
+   <p>
+    En Time efter Midnat kjerte Kommisscerernes Sloeder frem.
+Visestatholderen onskede dem en lykkelig Reise og fulgte dem udenfor
+Salsdsren. Et taknemmeligt Blik modte ham/ da han atter traadte ind.
+   </p>
+   <p>
+    yHvad Vistsiatholderen paalagde eller anmodede Kommissionen om, kunne
+vi ikke sige. Men da han vistnok hverken vilde eller kunde forlange
+noget Mere, end det, han havde lovet sin Hustru, lod det sig neppe forud
+afgjsre, hvad Vcesentligt Etatsraadinden havde udrettet gjennem sin
+elskvcerdige Tante. En langt virksommere Hjoelp havde det milde Forsyn
+imidlertid sendt Oberberghauptmanden; og derover skulle vi senere
+forklare os.
+   </p>
+   <p>
+    Assessor Barth var en altfor veltamkende Mand til at ville forfslge
+noget Menneske af Had eller Hcevnelyst. Hverken den yderst kroenkende
+Maade, hvorpaa Etatsraadinden havde behandlet ham eller den insolente
+Grovhed han slden blev oversst med af Oberberghauptmanden, havde nogen
+Indflydelse paa hans videre Fremgangsmaade i den alt mere og mere famsse
+Affoere. Men hans strcengeste Embedspligt nsdte ham til ikke at
+bortvende sin Opmcerksomhed fra de mange mistoenkelige Omstoendlgheder,
+der havde forenet sig. Et Par Forhsr, som han lod afholde over de gamle
+Husmandsfolk, der havde havt den sindssvage Ka rine hos fig, gave vel
+liden Oplysning men enkelte Glimt/ som i det Wngeste lysnede for den
+engang vakte Mistanke. Den
+   </p>
+   <p>
+    72
+   </p>
+   <p>
+    yderste Delikatesse imod Sslvva&gt;rkets fsrste Embebsmand blev
+anvendt; de Oplysninger, der ceskedes af ham, vare endnu affattede i
+Udtrykke, som om man kvoestionerede et Sågen selv uvedkommende Vidne;
+endnu —fordredes disse Oplysninger alene skriftlig, endnu -^—men hvad
+kunde al denne Skaansel hjcelpe? Stoffet var allerede kommet imellem
+Famas Tcender, og Etatsraadens Modlsshed afstak altformeget imod hans
+vanlige Overmod. Den Harme, hvormed Frum tog hans Parti/ vakte intet
+andet Indtryk end Medlidenhed med hendes Blindhed.
+   </p>
+   <p>
+    ~Men kan Du da ikke eksipere Forum; c'e«t le mor,
+   </p>
+   <p>
+    ~Min Bedste, det gaar ikke an fra min Side. Den lumske Karl ved meget
+vel, hvorledes han skal bcere sig ad for at krcenke mig tildsde. Min
+Dommer kan han ikke blive; men som Politimester kan han ceske mit
+Vidnesbyrd. Der er jo ingen Sag anlagt; og det Hele synes ikke stilet
+imod mig."
+   </p>
+   <p>
+    par exsmple! tourneronz lacliose! vou3 et&lt;?s le superieur. II laut
+lairs une au cler &lt;1e nommer uns comini«Bion, clcmt gerex vorls-
+—meine 1&lt;»
+   </p>
+   <p>
+    ~&lt;l!el2 parait laisouabie. Men nei! Det gaar ikke an fra min Side
+at gjsre Indstillinq herom. Nu ikke. Det var at give min Fiende nye
+Vaaben!"
+   </p>
+   <p>
+    Det var ellers ikke Etatsraadens Vis at betro nogen Forretningssag
+til sin Kone, hvad enten den angik ham selv eller hans Embede; og hun
+afholdt sig altid fra enhver Indblanden deri. Men her var det
+anderledes. Den kroenkende Underssgelse var foretagen lige under hendes
+Dine, og
+   </p>
+   <p>
+    73
+   </p>
+   <p>
+    hun havde fra forst af seet og deltaget i det Indtryk, den havde
+giort paa ham. Dertil kom maaske ogsaa, at Manden i sin nedtrykte
+Stemning mere end for paaskjonnede sin brave oa. kjoerlige Hustru. Den
+anfsrte Samtale endtes med, at Etatsraadinden sik detHverv straks at
+skrive til sin Vestcegtede, Visestatholderens Gemalinde, og anmode om en
+undersogende Kommissjon.
+   </p>
+   <p>
+    Denne Kommissjon var da nu samlet. De hoie Herrer lukkede sig straks
+inde med Assessor Barth, som foredrog dem Alt, hvad der var skrevet,
+sagt og foretaget i den hele Sag. Hvis de forud havde nceret nogen
+Mistvivl til Asstssorens Upartiskhed, da forsvandt den lettelig og gav
+Plads for Agtelse og Tillit». Enten han maatte ansees for Trediemand i
+Kommissjonen eller han var dens antagne Referent, er os übekjendt; men i
+ethvert Fald var han Sjelen i det Hele. Saaledes var det venteligt, at
+man vilde gaa frem aldeles i samme Retning, som for; og Mange spaade for
+Etatsraaden lioet godt af den forandrede Retsbencevnelse. Forst efter et
+Par Dages Forlsb blcv en Del Personer/ som forhen havde afiagt sit
+Vidnesbyrd/ opkaldte for Kommissjonen; men endnu spurgtes ikke efter
+Oberberghauplmanden. Diensynlig vilde man undgaa det Dmsindtlige i at
+behandle en saa hoi Embedsmand som rens, forinden det havde vist sig, at
+han ingen Fordring mere kunde gjere vaa noget Hensyn. At under disse
+Omstcendigheder ingen Visit blev afiagt hos ham af de fremmede Herrcr,
+fmder man let begribcligt; og dog forekom en saa uhort Afvigelse fra al
+Tidens Brug de gode Kongsbergere at vcere det sikkreste Omen, der
+varslede Etatsraadens Fald. Mange, mange imodesaa Dette med Lcengsel og
+Glcede/ de Fleste
+   </p>
+   <p>
+    74
+   </p>
+   <p>
+    med kold Nysgjerrighed; dog — saa gaacr det vel altid—; men at fast
+Ingen i den hele Stad og ved det hele Vcerk cengstedes ved og sorgede
+over hans Skicebne, det kaster en uhyggelig Skygge over hans Portratt.
+Hvad Etatsraaden selv angaar, da havde han i de sidste Dage atter vundet
+sin scedvanlige Holding, sin raske, bydende Stemme og sitstoerke
+Gebcerdesprog. Han bessgte Hytten, Vcerkstederne og Gruberne. Nogle gave
+hendes Naades Fravcerelfe Del i denne Forandring, Andre med noget
+rimeligerr Grund den Kommission, der havde aflsst en, ringere Domstol.
+En tredie Grund kunde Publikum ikke sinde.
+   </p>
+   <p>
+    Endelig kom den hoflige Anmodning fra Kommlssionen, til
+Oberberghauptmanden, at han vilde bivcere dens Forsamling den folgende
+Dag. Etatsraaden kom paa engang i Aande og satte i et Dieblik
+—Husjomfru, Kogekone og Tyendet i Bevoegelse. Den fede Kalv blev
+stagtet, Ekspres til Fisteren i Drammen, Stadsvcerelserne pudsede. I
+nogle Timer syntes Etatsraaden ingen anden Tanke at noere, end dem, der
+maa beskjoeftige en Husherce, som i sin Frues Fravcerclse skal ordne Alt
+til et Gjcestebud. Nu var man rigtignok saa vel vant i
+Oberberghauptmandens splendide Hus, til at give en Din 6, at kun det
+fsrste Stod behovedes for nt udbrede en regelmcessig fordelt Virksomhed
+fra den gamle Rik ard af, som forrettede en Hushofmesters Vises, og til
+dm yngste Viserdreng; og da Etatsraaden havde holdt Raad med Ri ka rd og
+lomfruen/ kunde han med Rolighed trcekke sig tilbage i sit
+Studerekammer.
+   </p>
+   <p>
+    ~Nu vil jeg ikke forstyrres. Det var vel, I kom Hr. Bergmester. Behag
+at afgisre alle lobende Forretmnger idag. leg er ikke visibel for
+Nogen."
+   </p>
+   <p>
+    75
+   </p>
+   <p>
+    Med meget alvorlige Ansigter sådde de to Kommisscerer, Assessoren og
+en Skriver i Oberbergcimtsrettens store, triste Sal. Ved Vordets ene
+Ende stod en Loenestol for den Indkaldte. Ingen Uvedkommende var
+tilstcede. Med afmailte Skridt traadte Oberberghauptmanden Ind og hilste
+med et dybt Buk. Han syntes overrasket ved den Hsstighed, der blev ham
+vist, idet Enhver reiste sig fra Stolen, og Generalloitnanten kom ham
+imode.
+   </p>
+   <p>
+    Etatsraaden havde ifsrt sig en sirlig Bergmandsdragt men uden de
+Brydelser, der ellers betegnede hans Vcerdighed. Han satte sig et
+Dieblik paa Anmodning, men stod straks igjen op og yttrede sit Dnste om
+at maatte begynde Forhandlingen med nogle Ord: uagtet han vel vidste,
+sagde han, at det stred imod Formerne.
+   </p>
+   <p>
+    ~Vort Kommissorium paalcegger os ingen Former, min Hr. Etatsraad, og
+I vil maaske lette os Arbeidet ved at veilede os i vor
+Fremgangsmaade," sagde Generalen forekommende.
+   </p>
+   <p>
+    «Mine hsie Hirrer Kommissarier!" begyndte Oberberghauplmanden
+med fast Stemme: ~Forsynet har idag givet ikke blot mig men, tillad mig
+min Vttring, ogsaa eder en alvorlig Erindring om de menneffeligeTings
+Ustadighed. I eders ophoicde Stilling, ogsaa i den oerefulde Post,
+hvorpaa min Konges Naade har sat mig, er det vanskeligt altid at erindre
+denne Sandhed. ~leg, ieg er Herren! Stsv er du!" lyder det for min
+Sjels Dre, og seg bsier mig ydmyg for den Gud, der kan opbsie og
+nedstsde, i det jeg med Taknemmelighed erkjender hans Mistund under den
+korte Prsve, han bar behaget at paalcrgge mig skrsbelige Menneske. Det
+er for ham, jeg ydmygcr mig i denne Stund, ikke for mine
+   </p>
+   <p>
+    76
+   </p>
+   <p>
+    Mdmennester, og medens jeg kysser hans faderlkge Haand, der har
+villel straffe men ikke styrte mig, er jeg ikke llge villig til at
+undskylde det Vcerktsi, hvis Ondskab den Almoegtige betjente sig as til
+min Veloerelse. Dog, det er paatide, at jeg skrider til Sågen. Af de mig
+forhen forelagte Spsrgsmaale, hvis Besvarelse jeg selv erkiender at
+voere meget ufuldstcendig, er det mig klart, hvad man formoder, at jeg
+skal tilstaa. Jeg er mistcenkt sor at have befordret Haitlers Flugt i
+den Hensigt at lade ham bcere en storre Mistanke med sig ud i den vide
+Verden, efterat jeg fsrst ved at indvirke paa Opinionen skulde have
+bragt Opmcerksomheden over paa ham. Det Urimelige i denne Mistanke har
+jeg, saa godt jeg kunde, ssgt at fremscette; men det er i dette som i
+mange Tilfcelde en vanskelig Sag at godtgjere at Noget ikke er.
+Fremdeles har det behaget Politimesteren at voekke en Formodning om, at
+jeg skulde have staaet i et utilladeligt Forhold til den afosde Pige,
+KarineHaitler, og derved voere bleven bevceget til at forfolge hendes
+Kjcereste. Beviset mangler, hvis ikke den loseste Kjcerlingstadder skal
+udsiette de notoriske Tegn paa, at jeg stedse har begunstiget Roolfsen,
+i hvem jeg fandt en drav og brugbar Arbeider i Sslvvcerkets Tjeneste. En
+i loengere Tid tungsindig og nersten afsindig Piges Drsmmerier, meddelte
+og fremforte ved en uden Tvivl lettroende Geistlig, bevoeger Politiet
+til at grave i en Vrond i mit Hus ester et Lig, som aldeles ikke sindes
+der; og nu vedbliver man at fordre mig til Negnskab, hvorfor jeg har
+tilkastet Brsnden. At den sammenswdende Tidspunkt for et Dieblik kunde
+vakt Forundring, hvis det efterssgte Lig var sundet, erkjender jeg
+villig. Men selv da maatte Forundringen tabe sig, ester de Oplysninger
+jeg
+   </p>
+   <p>
+    har meddelt, om Aarsagen til, at det lcenge paatcenkte
+Nsdvenbighedsvcerk just stede dengang. Alt dette, mine hoie Herrer,
+banner en Spirallinie, i hvis inderste Boining man venter at sinde mig
+med Morderdolken i den Haand, der hidtil aabenlyst og cerligt har fort
+til Kongens Mre og Landets Vel den agtvcerdige Hakkel. Jeger for
+gammelßergmand til at frygte for Msrket i Sjakt og Gesenk og i den
+ensom- Me Ort. Der bruger jeg Sandhedens Fakkel. Eisen og Schlagel ved
+jeg ret vel at haandtere og har tit vidst dermed at udslaa den rene
+Sten; men aldrig satte den Blodpletter. Nu vil jeg blive staaende her i
+de kunstigsnoede Ganges Middelpunkt; jeg vil selv udfordre den
+Beskyldning, I have giemt i eders Hjerter. Er jeg Morder eller ikke? Er
+jeg Maskinbygger Roolfsens Banemand? Det er Sågen. Om denne Punkt dreier
+sig Alt. Nu tcender jeg Fakkelen og troeder med rolig Bevidsthed op,
+ikke vindende mig frem igjennem de krumme Gange, som hverken mit eller
+eders Die formaar at bespeide; nei lige op gaar min Furth, lige op i
+Dagen stal jeg stige, og der tager jeg Huen af for Verdens store
+Bergmester med et hoit og seirende Gluckauf l"
+   </p>
+   <p>
+    Da Oberbergbauptmanden havde endt disse Ord, bukkede han for Herrerne
+og fremlagde taus et Brev, som blev overleveret Sekretceren til
+Oploesning. Det var strevet i det svenske Sprog og lsd saaledes.
+   </p>
+   <p>
+    ~Fra Magistraten i Fahlun til Etatsraad, Oberbergbauptmand m. m. Ved
+foretagen Registrasion i Boet efter afgangne Gjcestgiver og Postaabner
+Ha lin, kar man sundet indlagte forseglede Skrivelse med velbaarne
+Herres Adresse. Idet Magistraten fremsender samme, maa den saavel paa
+egne Vegne som isoerdeleshed efter den ncervcerende Postaabners'
+   </p>
+   <p>
+    78
+   </p>
+   <p>
+    Vegjering / paa Grund saavel af Vrevets mishandlede Udseende som af
+dets uforsvarlige Forsinkelse, meddele folgende Beretning.
+Brevskriveren, der er os opgiven at verre en Maskinmester Ro olfsen,
+opholdt sig hos den afdode Gjcejtgiver afvigte Foracir paa sin Reise til
+Tyskland, hvortil han begav sig i Bergraad v. Nessels Folge. Han skal
+Aftenen for sin Afreise have leveret Skrivelsen til Voerten, som lovede
+at kartere og afsende den. Den Afdode, der var en stsv og drikfceldig
+gammel Mand, har da forglemt samme. Dette Brev blev nemlig ved den nylig
+stedfundne Forretning sundet under hans Seng og i ncervcerende
+fordcervede Forfatning; hvilket saaledes ikke kan tilfkrives enten
+nuvoerende Postaabner Person eller nogen anden nulevende Person.
+   </p>
+   <p>
+    Stiltiende fremrakte Etatsraaden Attest angaaende Brevet fra
+Kongsbergs Postmester. Det saaes at voere ankommet for et Par Dage
+siden. Sekretoeren udfoldede derefter det tilsmuskede Papir, hvis
+Udseende viste, at det havde voeret giennemvaadt og ligget i Feieskarn.
+Brevet var undertegnet Roolfsen og skrevet i meget maadeligt Tylk og med
+fast ulceselige Kragetoeer. Det lod i Oversoettelse saaledes.
+   </p>
+   <p>
+    ~Da ftg nu, kjed af mit Ophold i Norge, efter hvad jeg har udstaaet
+paa Kongsberg og har begivet mig uden Afsked fra min Tjeneste, og med
+min Velynder Hr. Bergraad Nessels Tilladelse fslger ham til det
+Dsterrigske, med min ydmyge Begjlering; at velbaarne Hr Etatsraad og
+Oberberghauptmanden dog vil give mig en Afsked fra min Tjeneste, som
+bedes om at maatte sendes til Direktoren over Fahluns Kobbervoerk, som
+har lovet at tilsende mig den til Freiberg, som skal blive mit
+Opholdssted i et Par Maaneder,
+   </p>
+   <p>
+    79
+   </p>
+   <p>
+    som er Alt hvad jeg onsker, og tillige velbaarne Hr. Etatsraad og
+Dberberghauptmand alt Godt, som jeg af et kristeligt Sind tilgiver min
+forrige Kicereste, som jeg beder hilst og til med de gamle Haitlers ja
+endog min Uven, som jeg ogsaa tilgiver Kjeld og forbliver Hr.
+Etatsraadens og Oberberghauptmandens bevaagne og underdanige Forbeder,
+M. Roolfsen."
+   </p>
+   <p>
+    Biskoppen tog sin Floiens Kallot imellem Hcenderne og vendte sit Blik
+med uhyklet Fromhed imod Himlen. Barth rakte sin Haand ud imod
+Oberberghauptmanden og sagde heftig: ~Tilgiv mig! og modtag min crrlige
+Forsikkring, at denne Stund er den gladeste i mit Liv."
+   </p>
+   <p>
+    ~Kun Formaliteten, min dyrebare Hr. Etatsraad, forbyder mig at
+forlade mit Seede for at omfavne eder!" sagde Generalen med
+Rorelse. Tor jeg nu bede eder paa nogle Dieblikke at forlade Salen; vi
+ville udentvivl snart modtåge eder med eders Stands skjsnne
+Lssen."
+   </p>
+   <p>
+    Etatsraaden bsiede sig med Selvfslelse og forlod Vcerelset. Han havde
+vceret svag nok til ikke at mootage den cerlige Assessors Haandtag.
+   </p>
+   <p>
+    Ucigtet Ingen fandt Grund til Mistanke, fordrede dog Dommernes
+Samvittighedsfuldhed en ncrrmere Underssgelse af Brevene, og Assessoren
+sammenholdt Roolfsens med et Par Optegnelser, som fandtes ester ham
+imellem Aktsiykkerne. Nu var Intet tilbage at snske, og Sessjonen
+hcevedes, efter at Protocollen var stuttet og underskrevet. Barth udbad
+sig kun at Kommissjonen vilde scette sit Navn under Roolfsens Brev og
+derpaa udlaane ham det paa nogle Timer, dereftcr indkaldtes igjen
+Etatsraaden; og nu syntes Oberbergamtsrcttens Lokale forvandlet til
+et
+   </p>
+   <p>
+    80
+   </p>
+   <p>
+    muntert Selstabsvcerelse, hvorfra man imidlertid snart ilede Arm i
+Arm for at deltage iet glcrdeligt Festmaaltid. Men midt ide forbindtlige
+Lyksnskninger, hvori de hsie Herrer anbragte Forsikkrmger om, at de
+aldrig, ligesaalidt som hans Eksellentse Visestatholderen, havde tvivlet
+paa dette Udfald, formsrkedes Assessorens Blik.
+   </p>
+   <p>
+    Oberberghauptmanden havde vendt sig til ham og hemmelig tilkastet ham
+en vild Trusel: ~Snart kommer Råden til eder at gjere mig
+Regnstab!"
+   </p>
+   <p>
+    Barth undskyldte sig fra Middagen og skiltes forstemt fra de Dvrige.
+Hans sidste Forhold ved denne Leilighed mishagede hoilig de to Fremmede,
+og Formodningen om, at han af Had og maaske Hevnelyst, havde paafort den
+uskyldige Mand al denne Krcenkelse var igjen opvakt og blev udtalt i
+forblommede Ord.
+   </p>
+   <p>
+    Barth vandrede med langsomme Trin nedad Gadm, trak ofte
+Spaserestokken under Armen, og fremtog Daasen.
+   </p>
+   <p>
+    ~Hans Trusel bsr jeg smile ad, for alt det, den kan bringe; men som
+Menneske gjsr det mig ondt, at han miskjender mig. Endnu kan der dog nok
+vcere en Hage ved Sågen, min strenge Hr. Etatsraad! la, ja, vi ville se.
+Til mit Selvforsvar skal jeg dog spcerre Dinene op saa vidt som jeg kan.
+Maaffe holder jeg ham Svcerdet i Skeden.
+   </p>
+   <p>
+    ~Nu hvad Nyt fra Kommisjonen min kjoere Barth?" sagde Apoteker
+Lepin, da Assessoren hilsende indtraadte i Apoteket.
+   </p>
+   <p>
+    «Vel min gamle Lepin, meget vel! Imellem os sagt feiedes der med en
+loselig Kost, eller hvad jeg skal sige."
+   </p>
+   <p>
+    81
+   </p>
+   <p>
+    «Kommissoerirnt havde vet Frisinbelstn forud t tom« nien,
+du."
+   </p>
+   <p>
+    ~Nel Bror, di fortjene al Agtelse; sande TCresmcend, det maa du tro.
+MeN at man heller vil spare end forderve, — det er baade menneskeligt og
+kristeligt og adeligt, Johannes. De Fornemme stulle spas res."
+   </p>
+   <p>
+    ~Hvorfor er du saa slem idag, Gamle? leg for Mitt Del gav min Stemme
+netop som de to ksie Herrer; og ieg «r hverken Adelsmand eller
+Adelsmands Klient."
+   </p>
+   <p>
+    ~Det ved jeg meget vel, og jeg kan neppe tro, ilt bu taler alvorlig.
+Skulde du ville spare en Forbrydec paa en Andens, var det end kun hans
+Rvgtes Vekostnina? Om Forladelse Johannes; jeg siger nu altid min Mening
+rent ud."
+   </p>
+   <p>
+    ~Og derfor har jeg altid holdt faa meget afdlg, du gamle
+Nsddeknoekker, ligefra vi sådde i Skolen sammen og tll berme Dag.
+Apropos! Skal du til Etatsraadens til Middag?"
+   </p>
+   <p>
+    «Primer du? Gioes i Tranedans! Nei min Far."
+   </p>
+   <p>
+    ~Naa saa giv mig en Ske Suppe med dig."
+   </p>
+   <p>
+    ~Hvad for Noget? spifer du ikke hos Etatsraaden?"
+   </p>
+   <p>
+    «Nei, jeg undskyldte mig. Men for at begynde, hvot du stap; du
+resonnerer som saa: Roolfsen er droebt, altsaa af Nogen, denne Nogen maa
+sindes i et temmelig indstrcenket Antal Persomr."
+   </p>
+   <p>
+    ~Du deduserer saa omstoendelig, Johannes. Mis' tanken bsr du sige,
+var imellem Haitler ogOberderghauptmanden. Nu have I taget den ene bort,
+altsaa have I gjort den Anden til Morder; I have borttaget den Skyl-
+   </p>
+   <p>
+    82
+   </p>
+   <p>
+    Hige Hg nei men for b.ey mUkersde Satan,
+   </p>
+   <p>
+    BartH! dersom du ikke lcegger dig al Vrode fra h^r,ftr den gamle
+Noddeknwkker/ saa river jeg dig ud af mit Mrte og grwder mine su« Dine
+ud."
+   </p>
+   <p>
+    ~Raa, naa Lepin! Jeg stal nok beholde Madsen i dit Hjerte. Raar jeg
+nu siger dig, at Etatsraaden ikke er, ikke kan vcere Roolfsens Moroer,
+og dot af den naa gjet nu?"
+   </p>
+   <p>
+    ~leg forstaar mig ikke paa Gjettevcerk. Har du da lsbet om med bundne
+Dine hidtil, du kloge og lcrrde Johannes?"
+   </p>
+   <p>
+    ~Hm ja! det synes saa. Men M forsvarer i lcengste Lag mine gode,
+sunde Dine. Saameget er vist, at Roolfse n maa voere opstanden, hvis den
+Anden har staaet ham ihjel. For han lever ganske tydelig eller levede
+idetmindste for ti Maaneder siden."
+   </p>
+   <p>
+    Medens Apotekeren ester nogle Udraab og mange Geberder har stukket
+Skrivelsen fra Roolfsen tcet op i de svage Dine og begynder at stave,
+ville vi alene i Forbigaa-sNde underrette Lceseren om, at denne gamle
+yderst elskverdige men ogsaa hsist egne og puserlige Apotheker var
+Warths Fcetter og hans eneste ret Fortrolige i Verden. Denne
+Fortrolighed gik, som i ncervcerende Tilfoelde/ ncer nok ind paa
+Embedsterritoriet. Assessoren var ligesaa vant til at fortro sig til
+Lepin, som denne til at modtage og giengjelde hans Fortroligked. Og
+ingensinde havde Nogen af dem Anledning til at fortryde sin Tillid. Med
+spoendt Opmoerksomked hsrte Apotekeren lange juridiske Demonstrasio»nr
+og afbryd dem kun for at faa bedre Lys i Et og Andtt
+   </p>
+   <p>
+    83
+   </p>
+   <p>
+    «Uer for at gjsre en dristig Indvending. Men til Gjengjeld Horte
+Assessoren, der engang havde lcrrt lidt Kemi, med megen Interesse paa
+Lepins kemiffe Forelcesninger over Soebe, Garvestoffer, Farverier,
+Blcekkomposisioner, Laksorter m. m. Det var en vis baade Hjertets og
+Banens Harmoni imellem disse to enlige Voesener, uagtet de i Dannelse og
+Udscende havde saare Lidet tilfoelles.
+   </p>
+   <p>
+    «Ja," sagde Apotekeren endelig, ~Skriften er rigtignok saa foel,
+at man kunde antage, den var skreven af en halvdsd Mand; men dsd kan han
+vistnok ikke have vcrret. Er man bare vis paa om Forladelft/ jeg snakker
+saa dristigt, at ikke Vedkommende har eksperimenteret igjen, ligesom da
+han efterstrev Kirsti H aitlers Klo?"
+   </p>
+   <p>
+    ~Ia om Brevets AZgthed kan ingen Tvivl verre. Magi- kom ind i
+Apoteket og afbrsd Samtalen, der igjen fortsattes ved Spisebordet.
+   </p>
+   <p>
+    ~Aa lad mig engang hore den Resept igjen, Lepin!"
+   </p>
+   <p>
+    ~Kald den ikke Resept; jeg siger bare, at Hovedbestanddelene ere
+svovelsurt lernoksydul, Galoeblesyre, Gummi. Med Hensyn til de to fsrste
+Bestanddele af Blcekket maa Midlet til at gjsre det usynligt vcrlges.
+Surt oksalsurt Kali vil jeg antage."
+   </p>
+   <p>
+    ~Har du da noget Reagens, som igjen bringer Skriften frem?"
+   </p>
+   <p>
+    ~Reagensia nok, Johannes, saasom kulsurt Kali, svovelsurt Natron,
+Ammoniak o. s. v. Men det kommer an paa, tworledes jeg har anvendt min
+Oksalsyre. Har den vceret saa fortyndet, at Bloekkets lerndele ere
+udbredte over hele Papiret, saa staar det ikke i nogm Kemikers Magt at
+udfindc anbct, end at der engang har vceret Skrift paa Pa-
+   </p>
+   <p>
+    84
+   </p>
+   <p>
+    piret. Men har jeg med mit Salt dcstroet det, kun lidet befugtet,
+fordi jeg- for Eksempel ikke vilde fordcerve Skriften paa den anden
+Side, saa stal jeg restituere det Udvistede med de omtalte Midler, eller
+bi nu! jeg vcelger Svovelvandstof Svovelanemonium. Da skal den blive saa
+sort og lceselig, at du har din Lyst deraf. Men det er sandt, —
+hvorledes kom du ind paa denne Materie?"
+   </p>
+   <p>
+    ~Io," sagde Assessoren ~nu kan jeg sige dig det. For uagtet al
+den Undervisning, du i mange Aar har givet mig i Kemiens Hemmeligheder,
+var jeg dog bange for, at jeg gjorde mig latterlig ved at yttre en
+Mistanke, som du ret nu stal faa at vide, og endnu mere et Spsrgsmaal om
+-—"
+   </p>
+   <p>
+    ~Kjoere Broder, kom dog fsrst med Mistanken! Du har gjort mig ganste
+nysgjerrig." Assessoren tog Roolfsens Brev op igjen af Kjolelommen.
+~Fandt du ligesaaliot som Kommisscrrerne noaet Paafaldende deri at dette
+synderlige Brev tager sin Begyndelse paa den indre Side af Halvarket? At
+den fsrste Side er aldeles — jea havde ncer sagt ren? —übeskreven vilde
+jeg sige." ~Hvor Pokker kan nogen sinde en enkelt Besynderlighed ud
+af dette besynderlige Smsrsammen af en uvidende Bergmand? Men lad mig
+se! Hillestam! Nu fatter jeg Din sublime Id&lt;s. Den forste Side er
+udvistet, og aha! jeg har det lille Bror! Du vilde, det er Nummer to,
+det er Spsrgsmaalet mener jeg, — du vilde prsve at restituere
+Skriften?" ~ke&gt;ni acu tetigißti! Restituer mig Skriften, et M3g.
+nu« milii erjz !" ~Au, au! den Latin staar ikke i Farmakopeen; den
+forstaar jeg ikke. Hm, hm! Det er saamen meget antageligt, at der har
+vceret skrevet Noget her nedefter. Men hvem skulde da ?" ~Det vil
+vise sig Lepin. Lad os nu gaa ud i Apoteket; der stal du gjore dine
+artisisiale Eksperimenter. ~Med stsrste Fornsielse; men lad os tsmme
+vort Glas." Med mange Omstcrndigkeder og under en fortlobende twist
+lcrrerig Udvikling af Kemiens Prinsiper, henfsrte paa det
+forhaandenvcerende Tilfcelde, anvendte den kyndige Apoteker med et
+saadant Held sin oksalsure Kali eller hvad det nu var, at den hele
+fsrste Side af Brevet fremstod fuldt bestreven og det fast ligesaa
+lceselig som de to indre Sider.
+   </p>
+   <p>
+    85
+   </p>
+   <p>
+    Assesforens Ansigt udttykte ved et st&lt;erkt MinesM Hans Siels
+Svoendng. Beundring over Vennens Kunst, Forundring over selve Miraklet.
+— fsiede sig til den mest levende Forventning.
+   </p>
+   <p>
+    ~Tag mine Briller Johannes» de ere fkarpere, loes nu. Men lad os gaa
+ind igjen; der kommer min Dreng." Endelig var Brevets Gaade lost.
+Her er det i ordnet Ovecscettclle. ~VelbaarneHr. Etatsraad og
+Oberberghauptmand m. m. Da I vistnok vil blive meget forundret ved at
+modtage disse Linicr, som vil vcere eders Samvittighed til stor
+Lettelse, vil jeg haabe. Ligesaa tilsiger min Oamvittighed tilligemed
+Hr-Bergsraad Nessel mig, at jeg bor nu ved disse Linier bevise eder, at
+den gode Gud frelste mig af Morderbulen, og I havde tiltenkt mig en
+sikker Begravelse, men Gud vilde det anderledes. Dog vil ieg ikke kalde
+eder M Morder, da mit Fald i Stalden ved eders Haandgemceng tildrog mig
+en Kontribusion i Hovedet, som I trode, at jeg var bod. Men nogle Slag,
+jeg hnvde modtaget af en bestjcrnket Uven, som var Kield Haitler, gjorde
+sagtens det Meste til min Bcsvimelse, hvoraf jeg kom mig ved at tastes
+ned paa den frosne Jord igiennem Lugen i Gulvet. ZDg vil jeg herved
+betro veldaarne Hr. Etatsraad og Dberriergbauptmand at ved det, jeg&gt;
+gik just hemmelig den Vei fraWelocren op for at erfare det, jeg dog ikke
+havde ventet til min store Sorg, som elskede bende af et oprigtigt
+Hjerte, hvorved Lemmen af mig blev opkastet, hvorigsennem jeg beholdt
+mit Liv og Lemmer uskadt, da jeg vel kan vide, at I udi eders svare
+Forskrekke!se trode at kaste det Dsde ned i Brsnden der toet ved,
+hvilket jeg da ogsaa havde den Fornsielse at hsre eder troste min
+forlorne Kjoereste med, medens jeg laa stille der nede og Horte hvert
+Ord. Dervaa reiste jeg mig med Msie og rystede Stsvet af mine Fodsaalcr/
+som Skriften loerer. Men jeg var vakklende i Hv, da ieg som et
+efterstroebt og bedrager Menneske ikke vidste, hvorben jeg skulde vende
+mig. Da kom jeg til at gaa bag en Vogn, som gik bag efter Vergraaden,
+hvilken ei forsmaade mig i min svare Harm, med hvem jeg da nu ncest
+efter Gud Herrens forunderlige Tilstikkelse besinder mig i hans Selskad.
+Og dette maatte jeg da lade eder vide, velbaarne Hr. Etatsraad og
+Oberbergbauptmand, hvem jeg testamenterer ril de Fattige de faa
+efterliggende Ting tilligemed min resterende, som er halvfn-nte
+BcrHmaaned."
+   </p>
+   <p>
+    Min Anelse!" sagde Assessoren. ~Morder ckunde han da ikke
+kaldes, om ogsaa Udfaldet havde voeret anderledes, kjerre Johannes. Det
+glceder mig. Nu -» hsr! —Du vil dog vel ikke med dette Papir?
+   </p>
+   <p>
+    ~Hvad jeg vil dermed, stal Du ikke lcenge blive i Tvivl om. Denne
+Skrivelse stal tjene mig til Selvforsvar, min Broder. Han truede mig, og
+fijont jeg ikke direkte kan have Noget at befrygte, har han dog lange
+Arme nok for at tilfoie mig Sjikaner. Nu kan jeg bsie ham —" ~Vogt
+Dig for en ydmyget Fiendes Forsoning, hedder det et Sied/ jeg ved ikke
+hvor. Et vil jeg i alt Fald tilraade Dig: gjem paa Brevet, hold i
+Flippen, mens han l&lt;eser det." ~Der qisr Du mig opmoerksom paa
+en Ting, som ieg havde overseet, Lepin! — Dette Brev horer som Bilag til
+Kommissjonens Protokol, og maa tilbageleveres. Kan Du atter denne Side
+bort?" ~Hvorfor ikke? Men betcenk Dig fsrst. Se til at gjsre den
+bedste Vrug deraf. Du maa endelig beholde det. Dermed holder Du ham
+Svoerdet i Skeden." ~Hm! Den Talemaade faldt mig just ind paa Veien
+til Dig. Naa Gud signe Dig, gamle Nsddeknoekker! Idag har Du gjort Dit
+Mesterstykke. leg stal aldrig ophore at beundre Din stolte Videnstao,
+som gjor Sort til Hvidt og Hvidt til Sort." ~Ei, ei! Det er jo
+ellers Din Videnskab, Bror! Ia nu vil jeg ikke holde paa Dig. Du maa
+straks indfinde Dig til Deserten; vil Du ikke det?" ~Naturligvis;
+jeg medbringer et Bidrag til den. Kanske Du s/r mig endnu i Aften."
+Det var gaaet muntert til ved Etatsraadens Bord hvorom sådde Byens
+fleste Honorasjores. Man var virkelig i Begreb med at servere Deserten,
+da en Tjener udkaldte Etatsraaden. Dennes gode Lune veg pludselig
+tilbage ved Synet as Barth. ~Dersom I kommer, som min Gjcest, saa voer
+velkommen, eders Kuvert er übesat. Skulde det gjcelde Forretninaer —-
+saa beder jeg mig for idag undstvldt." Men Assessoren lod sig ikke
+saaledes bortvise, og Etatsraaden maatte finde sig i at trcrde ind i sit
+Kontor med ham. — Man havde ved det muntre Selstabsbord maaste endnu
+ikke savnet Voerten, da han med Assessoren ved sin Haand indtraadte og
+prcesenterede sin Ven med en Strom af Artigheder og Be«
+   </p>
+   <p>
+    87
+   </p>
+   <p>
+    rommelser, der vistnok for en Del jkvldte Vinaanden sin Oprindelse,
+men som dog udentvivl ogsaa udtraad fra Mandens Hjerte. Barth maatte
+tåge den tomme Plads og deltage i Efterbordet, som nu forloengedcs paa
+Timer. Om Aftenen kom Etatsraadinden kjem. Visestatholderens og hans
+Gemalindes Godbed og Venstab havde ikke formaaet at bolde hende tilbage
+indtil Kommissariernes Tilbagekomst. Saasnart hun folte sig stoerk nok
+til at foretage Tilbageturen paa det stemme Fsre, rev hun sig ud
+afGrevindens Arme. Paa Hsiden af Aasen, ved hvis Fod Biergstaden
+ligger,, lod hun cengstlig holde. Lysene tindrede rundt om i den hele
+Dal, og oplivede det i Aftenens Msrke hensvindende Vinterlandskab.
+Etatsraadindens loengselfulde Blik var henvendt paa en Punkt, paa den
+lysende Punkt, hvor hendes Hjem laa. Ak, Lysstraalerne, som naade hendes
+Die, kom vel derfrå, men de kunde Intet sige om, hvad de der havde
+forladt. En stormende gammel Kone krsb ved sin Stok ovad Bakken og
+traadte hostende hen til Slceden. ~Et Par Skilling i Guds Navn, Frue!
+Derfor stal I faa en god Hilsen hjemmefra?" ~Hvad mener da dermed
+Lena?" sagde Etatsraadinden og rakte hende Smaamont, ikke glad
+vedat gjense den Kone fra hvem hun i sin Tid havde modtaget det
+mistcrnkelige Brev til Kjeld Haitler. ~leg mener, at I sinder stor
+Lystighed og Gloede hjemme. De to Store fra Kongen og alle Byens
+Storfolk er i Gjcrstebud hos Etatsraaden. Men I bar vel msdt Ssnnen min,
+som han sendte Ekspres til jer." Etatsraadinden sad stum og stiv i
+Slceden. Enhver Blodsdraabe i hendes Aarer syntes at bolge sig tilbage,
+og hendes Bryst truede med at springe. ~Kjsr, kjsr!" var alt det,
+hun formaaede at sige; og den gamle tro Tjener, der meget vel fattede
+Betndningen afVrsdkonens Hilsen, og ikke mindre vel forstod, hvad der
+foregik i den trofaste AZgtemaqes Indre, var ikke sen til at opfylde
+Befalingen og gjorde Veien kort. Hvilket lykkeligt Gjensyn.
+   </p>
+   <p>
+    M. C. Hansen.
+   </p>
+   <p>
+    88
+   </p>
+   <p/>
+   <p>
+    -^
+   </p>
+   <p>
+    '.^
+   </p>
+   <p>
+    "^
+   </p>
+   <p/>
+  </body>
+ </text>
+</TEI>
