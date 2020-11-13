@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0013" xml:lang="nn">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0013" xml:lang="nn" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Mannfolk ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/89613088 https://www.wikidata.org/wiki/Q467497">Garborg, Arne  (1851-1924)</author>
+    <author>
+     Garborg, Arne (1851-1924)
+     <idno type="viaf">
+      https://viaf.org/viaf/89613088
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q467497
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,11 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
-     
-     
-     
-    </bibl><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
+     <ref target="bokselskap.no">
+      Teksten i bokselskap.no er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Dokpros tekst er hentet fra Skriftir i samling, b. 1, Aschehoug, Kristiania, 1921.
+     </ref>
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         A. Garborg
        </author>
@@ -61,7 +70,10 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q14434353
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -73,11 +85,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2012-03-15" xml:id="ENW">
     Kodet om teksten til TEI P5. Kodekontroll.
    </change>
@@ -85,11 +97,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
  </teiHeader>
  <text type="novel" xml:id="BS_Garborg_Mannfolk_tekst_xml_text">
   <body>
-   <div type="chapter" xml:id="1">
+   <div n="1" type="chapter" xml:id="NOR0013001">
     <head>
-     
+     <ref target="contents_1" type="contents" xml:id="chapter_1">
       I.
-     
+     </ref>
     </head>
     <p>
      Festsalen i Kristiania Arbeidersamfund var i sin beste Stas, med Barkransar og Flagg rundt alle Veggir og mykje Ljos. Det var Haustgilde.
@@ -364,11 +376,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Bjølsvik vart kald att. Og Harm og Hat lagde seg yvi hans bleike Aasyn.
     </p>
    </div>
-   <div type="chapter" xml:id="2">
+   <div n="2" type="chapter" xml:id="NOR0013002">
     <head>
-     
+     <ref target="contents_2" type="contents" xml:id="chapter_2">
       II.
-     
+     </ref>
     </head>
     <p>
      Ja; ung Dagmar dansa med Laurits Kruse.
@@ -381,7 +393,9 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
     </p>
     <p>
      Frøken Dagmar gjorde det ho kunde til aa faa Liv i Guten. Ho fann paa det eine og ho fann paa det andre; freista sistpaa med Politik. For um den skulde daa alle kunna tala. Men kva det var eller ikkje var: ho kom ingin Veg med han. Han svara ikkje eitt til tusund; og um han sagde noko, høyrde ho godt at han ikkje var med. Han var visst svært bljug. Eller det maatte vera noko serskilt i i
-     
+     <note type="footnote">
+      (sic)
+     </note>
      Vegen. Ender og daa smilte han; og ho lagde Merke til dei straalande kvite Tannradine. Men um han smilte av di han lika det ho sagde eller av di han fann det underlegt, det vilde ikkje vera godt aa segja.
     </p>
     <p>
@@ -564,11 +578,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      «Godnatt.» Han sat etter og beit seg i Lippa og grein skamfullt til seg sjølv …
     </p>
    </div>
-   <div type="chapter" xml:id="3">
+   <div n="3" type="chapter" xml:id="NOR0013003">
     <head>
-     
+     <ref target="contents_3" type="contents" xml:id="chapter_3">
       III.
-     
+     </ref>
     </head>
     <p>
      Daniel Braut og Hanna Stensrud hadde vori gifte i fem Aar og hadde tvo Gjentungar med ljost Haar, flate Nasar og late Augo.
@@ -722,11 +736,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      ser ut? Er du syk?» sa Frua.
     </p>
    </div>
-   <div type="chapter" xml:id="4">
+   <div n="4" type="chapter" xml:id="NOR0013004">
     <head>
-     
+     <ref target="contents_4" type="contents" xml:id="chapter_4">
       IV.
-     
+     </ref>
     </head>
     <p>
      Det var svært so kaut og kry som han hadde vori i seinare Tid, Laurits Kruse.
@@ -1030,11 +1044,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      «V-v-il?!» sa Laurits; han smilte yvi heile Andlite.
     </p>
    </div>
-   <div type="chapter" xml:id="5">
+   <div n="5" type="chapter" xml:id="NOR0013005">
     <head>
-     
+     <ref target="contents_5" type="contents" xml:id="chapter_5">
       V.
-     
+     </ref>
     </head>
     <p>
      Det saag ut som dei ikkje skulde faa ærleg Vinter det Aare.
@@ -1068,7 +1082,9 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
     </p>
     <p>
      Naar han seint um Kvelden steig inn paa «Bula» si i «Pultosten», og der var kaldt og svart, og raa Luft innsett met
-     
+     <note type="footnote">
+      (sic)
+     </note>
      Tev av Maalarfargar og Tobak, og Lampa var ustelt, og Omnen full av Oske, og Veggen full av dei gamle Bilæti, og Golve fullt av Maalarstolar og Kassur, og Borde fullt av Pipur og Tobak og Flaskekorkar og Mappur og Papir og Rusk av alle Slag, og han sjølv maatte leggje i Omnen, og sjølv reide upp Sengi, som var løynd attum ein høg Skjerm av Karduspapir, og so han ikkje hadde anna aa taka til enn denne daude kalde Boki, so Fanden brodere um han kunde finne ut, at Verdi var som ho skulde vera.
     </p>
     <p>
@@ -1367,11 +1383,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Bjølsvik var glad likevel. Skræddaren fekk vente paa Fuskesætri; no hadde daa Bjølsvik til Livemaate nokre Dagar; dessutan kunde han – og det vilde han pinedØd! – hjelpe Constance med fire-fem Kronur, dersom ho trong um det.
     </p>
    </div>
-   <div type="chapter" xml:id="6">
+   <div n="6" type="chapter" xml:id="NOR0013006">
     <head>
-     
+     <ref target="contents_6" type="contents" xml:id="chapter_6">
       VI.
-     
+     </ref>
     </head>
     <p>
      Fyrste Kvelden Laurits var hjaa Ingeniør Dyring, fekk han lite Bruk for «Kvindens Underkuelse». Dei tala Politik.
@@ -1538,11 +1554,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Han sette seg til med Sofokles; det var etter Timeplanen. Rett som det var skvatt han upp, reint glad; han maatte kunne skaffe Helene Plass hjaa Georg Jonathan!
     </p>
    </div>
-   <div type="chapter" xml:id="7">
+   <div n="7" type="chapter" xml:id="NOR0013007">
     <head>
-     
+     <ref target="contents_7" type="contents" xml:id="chapter_7">
       VII.
-     
+     </ref>
     </head>
     <p>
      Georg Marius Ludvigsen Jonathan var, etter som Peter Tordenskjold visste aa fortelja, komin til Verdi paa den Maaten, at Høkerdotteri Johanne Ludvigsen av Kristianssand ein fin Kveld for treti Aar sidan hadde komi i Vegen for ein engelsk Orlogsmann.
@@ -1869,11 +1885,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Ho høyrde paa han eit Bìl, raud og varm, tungt og tett pustande. So lagde ho seg inn til han og sagde; «det er det samme, Georg. Lad os være Venner.»
     </p>
    </div>
-   <div type="chapter" xml:id="8">
+   <div n="8" type="chapter" xml:id="NOR0013008">
     <head>
-     
+     <ref target="contents_8" type="contents" xml:id="chapter_8">
       VIII.
-     
+     </ref>
     </head>
     <p>
      Endeleg hadde han funni ei Dame. Ei Kvinne som var vìtug og fri.
@@ -2301,11 +2317,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      </l>
     </quote>
    </div>
-   <div type="chapter" xml:id="9">
+   <div n="9" type="chapter" xml:id="NOR0013009">
     <head>
-     
+     <ref target="contents_9" type="contents" xml:id="chapter_9">
       IX.
-     
+     </ref>
     </head>
     <p>
      Sundagskvelden var Helene paa Nisseball.
@@ -2460,11 +2476,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Det vart ei Aatvaring. Ho burde taka seg i Agt. Ho skulde sjaa seg fyri kven ho kom i Lag med. «Det kunde ha gaatt galt for Dem, dette-her. Men De har altsaa Plass hos Kandidat Jonathan?»
     </p>
    </div>
-   <div type="chapter" xml:id="10">
+   <div n="10" type="chapter" xml:id="NOR0013010">
     <head>
-     
+     <ref target="contents_10" type="contents" xml:id="chapter_10">
       X.
-     
+     </ref>
     </head>
     <p>
      Kandidat Braut søkte Prestekall. I eit Te-Lag hjaa Presten Broch fortalde han dette, og lagde til, at han ikkje kjende seg god lenger til aa staa imot Herrens Kall. Hanna sagde det same; Daniel kunde ikkje lenger staa imot Herrens Kall. Daa smilte Laurits so løynskt med seg sjølv, at det var godt Presten ikkje saag det.
@@ -2737,11 +2753,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      være den rette;» sagde ho; og so trøysta ho seg med, at kannhende vart ho ikkje den sist gifte likevel av «Trekløveret».
     </p>
    </div>
-   <div type="chapter" xml:id="11">
+   <div n="11" type="chapter" xml:id="NOR0013011">
     <head>
-     
+     <ref target="contents_11" type="contents" xml:id="chapter_11">
       XI.
-     
+     </ref>
     </head>
     <p>
      Det var folksamt den Kvelden i Restaurationen i Studentersamfunde.
@@ -3152,11 +3168,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Gram fekk ein Tanke; «Varulvar», sagde han. Det var ein god Idé. Ein kunde skrive ei Bok um det. Varulvar. Hm. Vene Gutar um Dagen, Varulvar um Natti …
     </p>
    </div>
-   <div type="chapter" xml:id="12">
+   <div n="12" type="chapter" xml:id="NOR0013012">
     <head>
-     
+     <ref target="contents_12" type="contents" xml:id="chapter_12">
       XII.
-     
+     </ref>
     </head>
     <p>
      Helene flutte ein Dag i Slutten av Mai.
@@ -3389,11 +3405,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Yvi Byen laag ei stygg brungraa Skodde og velte og vreid seg som Gòv ifraa Helvìte.
     </p>
    </div>
-   <div type="chapter" xml:id="13">
+   <div n="13" type="chapter" xml:id="NOR0013013">
     <head>
-     
+     <ref target="contents_13" type="contents" xml:id="chapter_13">
       XIII.
-     
+     </ref>
     </head>
     <p>
      Paa den øvre Sida av Dalen, i breide, rundkvelvde Bakkar, laag Bygdi med spreidde Smaaflokkar av graae Hus.
@@ -3617,11 +3633,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Ein Morgon gjekk han inn til Presten og sagde upp. Han treivst ikkje her lenger, sagde han. Presten svara ikkje stort; han gjorde upp med Laurits og takka for den Tidi han her hadde vori. «Men hold Dem flittigt til Pastor Broch og til Deres Studier,» slutta han; «der er i denne Tid saa meget, som kan distrahere en ung Mand.»
     </p>
    </div>
-   <div type="chapter" xml:id="14">
+   <div n="14" type="chapter" xml:id="NOR0013014">
     <head>
-     
+     <ref target="contents_14" type="contents" xml:id="chapter_14">
       XIV.
-     
+     </ref>
     </head>
     <p>
      Middagstid kom Laurits til Kristiania.
@@ -3852,11 +3868,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      «Pas dej selv du!» sagde Laurits og gjekk.
     </p>
    </div>
-   <div type="chapter" xml:id="15">
+   <div n="15" type="chapter" xml:id="NOR0013015">
     <head>
-     
+     <ref target="contents_15" type="contents" xml:id="chapter_15">
       XV.
-     
+     </ref>
     </head>
     <p>
      Med seine Stig drog han seg ned gjenom Troppi; han stana ender og Gong.

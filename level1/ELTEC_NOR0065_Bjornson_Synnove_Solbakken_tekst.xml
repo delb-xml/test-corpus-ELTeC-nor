@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0065" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0065" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Synnøve Solbakken ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/295290572 https://www.wikidata.org/wiki/Q46405">Bjørnson, Bjørnstjerne Matrtinius  (1832-1910)</author>
+    <author>
+     Bjørnson, Bjørnstjerne Matrtinius (1832-1910)
+     <idno type="viaf">
+      https://viaf.org/viaf/295290572
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q46405
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,13 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
      <ref target="https://www.bokselskap.no/nsl/NSL_publiseringsliste_20200103.pdf">
       Det norske spr&amp;#x00E5;k- og litteraturselskap 2007. Utgave ved Sigurd AA. Aarnes
      </ref>
-     
-     
-    </bibl><bibl type="unspecified">
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         B. M. Bjørnson
        </author>
@@ -63,7 +70,10 @@
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q2421868
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -75,11 +85,11 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="short"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T1"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2010-05-26" xml:id="AAH">
     Kodet tekstdelen i oxygen.
    </change>
@@ -95,11 +105,11 @@
     SYNNØVE SOLBAKKEN.
     <!--</ref>-->
    </head>
-   <div type="chapter" xml:id="1">
+   <div n="1" type="chapter" xml:id="NOR0065001">
     <head>
-     
+     <ref target="contents_1" type="contents" xml:id="chapter_1">
       1ste Kapitel
-     
+     </ref>
      .
     </head>
     <p>
@@ -273,11 +283,11 @@
      Den næste Prækensøndag sagde Faderen til ham: Idag skal du slippe at gjøre Ugagn hjemme; du skal følge med mig til Kirke.
     </p>
    </div>
-   <div type="chapter" xml:id="2">
+   <div n="2" type="chapter" xml:id="NOR0065002">
     <head>
-     
+     <ref target="contents_2" type="contents" xml:id="chapter_2">
       2det Kapitel
-     
+     </ref>
      .
     </head>
     <p>
@@ -385,11 +395,11 @@
      Katugle skrige og Fossen at kvæde sine gamle, haarde Riim stærkere end nogensinde, – nu, da Alt havde sat sig ned for at høre paa den. Thorbjørn saa over mod Solbakken og gik afsted. Han bøjede af fra de sædvanlige Veje, kom raskt derover og stod snart i den lille Have, som Synnøve ejede, og som laa ligeunder det ene Loftsvindu, netop det, indenfor hvilket hun sov. Han lyttede og spejdede, men Alt var stille. Da saa han sig om i Haven efter Arbejdsredskaber, og fandt ganske rigtig baade Spade og Greb. Der var begyndt paa Opspadningen af et Kvarter; blot en liden Snip var bleven færdig, men i denne var allerede to Blomster sat, formodentlig forat se, hvorledes det tog sig ud. «Hun er bleven træt, Stakkel, og er gaaen fra det,» tænkte han; «her maa en Mand til» tænkte han videre og gav sig ifærd med det, følte slet ingen Lyst til Søvn, ja syntes endog, at han aldrig havde gjort saa let et Arbejde. Han huskede, hvorledes de skulde sættes, huskede ogsaa Præstegaardshaven og passede nu det Ene i det Andet. Natten gik med, men han mærkede det ikke, han hvilte neppe og fik det hele Kvarter opspadet, Blomsterne sat, en og anden omplantet forat faa det endnu smukkere, og alt i Et skottede han op til Loftsvinduet, om dog Nogen skulde bemærke ham. Men hverken der eller andet Steds var der Nogen, ej heller hørte han saameget som en Hund gjø, før Hanen tog paa at gale, vækkede Skogens Fugle, som da en efter en satte sig op at synge «god Morgen.» Medens han stod der og klappede Jorden til omkring huskede han paa Eventyrene, som Aslak havde fortalt, og hvorledes han engang troede, der voxte Trold og Nisser over paa Solbakken. «Jo, her voxer artige Trold og Nisser,» tænkte han, og saa endnu en Gang bort over Blomsterne, om de ogsaa nu stod, som de skulde. Han satte Redskaberne tilrette, trak Trøjen paa, som han havde kastet, saa op til Loftsvinduet, og smilte til, hvad Synnøve nu i Morgenstunden vilde tænke, naar hun saa ud efter de prægtige udenlandske Blomster, hun havde ført til Gaards igaar. Det var bleven dygtig lyst, Fuglene holdt allerede et forfærdeligt Spektakel, hvorfor han hivede sig over Gelænderet og skyndte sig hjem. Saa skulde da Ingen kunne sige, det var ham, som havde været over og plantet Blomster i Synnøve Solbakkens Have.
     </p>
    </div>
-   <div type="chapter" xml:id="3">
+   <div n="3" type="chapter" xml:id="NOR0065003">
     <head>
-     
+     <ref target="contents_3" type="contents" xml:id="chapter_3">
       3die Kapitel
-     
+     </ref>
      .
     </head>
     <p>
@@ -509,11 +519,11 @@
      Hjemme holdt Fader hans paa at bære Korn paa Kværnen – fra Staburet af; thi Bygdens Folk rundt omkring malte paa Granlidkværnen, naar Vandet i deres egne Bække var gaaet op; Granlidelven var aldrig tør. Her var mange Sække at bære, somme ret store og somme overmaade store. Kvindfolkene stod tæt derved og vriede Klæder, som var i Vask. Thorbjørn gik bort til Faderen og tog fat i en Sæk. «Jeg skal kanske hjælpe dig?» – «Aa, jeg gjør det nok selv,» sagde Sæmund, lettede rask en Sæk paa Ryg og drog afsted mod Kværnen. «Her er mange af dem» sagde Thorbjørn, tog fat i to store, satte Ryg imod og greb over Skuldrene med een Haand i hver og støede mod til Siderne med sine Albuer. Midtvejs mødte han Sæmund, som gik tilbage efter flere; Faderen saa hastigt paa ham; men sagde Intet. Da Thorbjørn i sin Tur gik tilbage mod Buret, mødte han Sæmund med to endnu større Sække. Dennegang tog Thorbjørn en liden en og gik med den; da Sæmund mødte ham, saa han paa ham, og længere end forrige Gang. Saa begav det sig, at de siden kom til at staa ved Buret paa een Gang. – «Her er kommen Bud fra Nordhaug», sagde Sæmund; «de vil have dig med til Bryllops paa Søndag». – – Ingrid saa hen til ham fra sit Arbejde, Moderen ligesaa. – «Jasaa», svarte Thorbjørn tørt; men tog dennegang de to største Sække han kunde finde. «Gaar du?» spurgte Sæmund mørk. – «Nej!»
     </p>
    </div>
-   <div type="chapter" xml:id="4">
+   <div n="4" type="chapter" xml:id="NOR0065004">
     <head>
-     
+     <ref target="contents_4" type="contents" xml:id="chapter_4">
       4de Kapitel
-     
+     </ref>
      .
     </head>
     <p>
@@ -688,11 +698,11 @@
      gjerne, at Andre skulde være slig, som han er selv – skjønt det siger han blot, naar han er fuld. Og da græder han ogsaa, græder saa det hagler, – over ingen Verdens Ting; thi hvad var det ogsaa han skulde græde over? Han har ikke stjaalet en Skilling fra Nogen, eller gjort noget af det Gale, som mange Andre gjør, saa han sagte Ingenting har at græde over. Og alligevel saa græder han, og græder saa det hagler, men ved ikke rigtig, hvoraf det kommer. Og skulde I se ham græde, saa tro aldrig paa det, for det er bare naar han er fuld, og da er han ikke ændsendes.» – Her faldt Aslak baglænds ned af Krakken i stærk Graad, men som snart gik over; thi han sovnede. – «Nu er Svinet fuld,» sagde han i Sengen; – «da ligger han altid og tuder sig isøvn». «Dette var stygt,» sagde Kvindfolkene og rejste sig for at komme bort. «Jeg har aldrig hørt ham fortælle andre Slags Historier naar han selv fik raade,» sagde nu en gammel Mand, som rejste sig borte ved Døren. – «Gud ved, hvorfor Folk vil høre paa ham,» sagde han og saa hen til Bruden.
     </p>
    </div>
-   <div type="chapter" xml:id="5">
+   <div n="5" type="chapter" xml:id="NOR0065005">
     <head>
-     
+     <ref target="contents_5" type="contents" xml:id="chapter_5">
       5te Kapitel
-     
+     </ref>
      .
     </head>
     <p>
@@ -795,7 +805,7 @@
     <p>
      Men da Ingrid sagte kom ind igjen til Thorbjørn, laa han med en liden Seddel i den ene Haand, og sagde roligt og langsomt: «den faar du levere Synnøve, næstegang du træffer hende.» Da Ingrid havde læst, hvad der stod paa den, vendte hun sig om og græd; thi paa Seddelen stod:
     </p>
-    <milestone unit="letter"/>
+    <div type="letter">
      <quote>
       «Til velagtede Pige Synnøve Guttormsdatter Solbakken!»
      </quote>
@@ -807,13 +817,13 @@
      <quote>
       Thorbjørn Sæmundsen Granliden.›»
      </quote>
-    
+    </div>
    </div>
-   <div type="chapter" xml:id="6">
+   <div n="6" type="chapter" xml:id="NOR0065006">
     <head>
-     
+     <ref target="contents_6" type="contents" xml:id="chapter_6">
       6te Kapitel
-     
+     </ref>
      .
     </head>
     <p>
@@ -881,11 +891,11 @@
      Ingrid blev meget ræd, da hun vaagnede og saa det var Synnøve, som havde vækket sig. – «Hvorledes har han det!» hviskede Synnøve. Nu mindedes Ingrid Altsammen og vilde tage paa sig forat undgaa at svare strax. Men Synnøve satte sig paa Sengekanten, bad hende ligge og gjentog sit Spørgsmaal.
     </p>
    </div>
-   <div type="chapter" xml:id="61">
+   <div n="61" type="chapter" xml:id="NOR0065061">
     <head>
-     
+     <ref target="contents_7" type="contents" xml:id="chapter_7">
       6te Kapitel
-     
+     </ref>
      .
     </head>
     <p>
@@ -1038,11 +1048,11 @@
      </l>
     </quote>
    </div>
-   <div type="chapter" xml:id="7">
+   <div n="7" type="chapter" xml:id="NOR0065007">
     <head>
-     
+     <ref target="contents_8" type="contents" xml:id="chapter_8">
       7de Kapitel.
-     
+     </ref>
     </head>
     <p>
      God Tid efter sad Guttorm Solbakken og Konen, Ingrid sammen borti den store, lyse Stue paa Solbakken og læste for hverandre af nogle nye Bøger, som de havde faaet fra Byen. De havde været i Kirke om Formiddagen; thi det var en Søndag, – saa havde de gaaet lidt sammen udover Jordet forat se, hvorledes Grøden stod og forat overveje, hvad der skulde lægges igjen eller haves oppe til næste Aar. De havde ruslet fra den ene Atlege og Ager til den anden, og det syntes dem, at Gaarden var gaaet godt frem i deres Tid; «Gud ved, hvorledes den vil skjøttes, naar vi er borte?» havde Ingrid sagt. Da var det, Guttorm havde bedt hende følge med ind, at de kunde læse i de nye Bøger; «thi En gjør bedst i at holde sig fra slige Tanker.»
@@ -1079,11 +1089,11 @@
      Ord. «Er det ikke Mere?» spurgte hun. «Nej,» svarte Moderen. Faderen saa til hende, da gled hendes Blik usikkert til Siden og hun fortsatte efter en liden Betænkning idet hun drog Fingeren efter Bordpladen: «kanske det ogsaa kunde være noget Mere; – – men det er det Samme.» «Er det Mere?» spurgte Synnøve, og vendte sig mod Faderen, som syntes at vide det. «Aa – ja; men det er, som Moder siger; det kan være det Samme.» – «Hvorledes gik det ham?» spurgte Synnøve. «Ja det var netop det,» sagde Faderen og saa hen til Moderen. Denne havde lænet sig bagover mod Væggen og saa paa dem begge. «Blev han ulykkelig?» spurgte Synnøve – «En kan lidet vide derom … ellers tror jeg som sagt vi faar slutte, hvor der skal være Slut,» sagde hun og rejste sig. Faderen gjorde ligesaa, Synnøve senere.
     </p>
    </div>
-   <div type="chapter" xml:id="8">
+   <div n="8" type="chapter" xml:id="NOR0065008">
     <head>
-     
+     <ref target="contents_9" type="contents" xml:id="chapter_9">
       8de Kapitel
-     
+     </ref>
      .
     </head>
     <p>
@@ -1119,7 +1129,7 @@
      en Stund efter vilde se over til Kvindfolkestolen mødte han Ingebjørgs Ansigt, som smilte moderligt mod ham og Ingrid Solbakkens, der bestemt havde ventet paa at han skulde se did over; thi strax han gjorde det, nikkede hun tre Gange til ham, og da han studsede derved, nikkede hun tre Gange til, endnu mildere end før. – Sæmund, Faderen, hviskede ham ind i Øret: «Det tænk te jeg.» De havde hørt Indgangsbønnen, sunget en Psalme og Konfirmanterne stillede sig alt op, før han næste Gang hviskede til ham: «men Knud kan ikke med at være god; lad det bestandig være langt fra Granliden og til Nordhoug.»
     </p>
    </div>
-   <div type="chapter" xml:id="81">
+   <div n="81" type="chapter" xml:id="NOR0065081">
     <p>
      Konfirmationen tog sin Begyndelse, idet Præsten kom frem og Børnene istemte
      Konfirmationspsalmen efter Kingo. At høre dem synge Alle paa een Gang og alene, fortrøstningsfuldt og klingende, plejer gjerne røre Folk, og helst den, som ikke er kommen længer bort, end at han husker sin egen Dag. Naar da dyb Stilhed følger paa, og Præsten, den samme nu i tretten Aar, den samme, som gjerne har havt en eller anden liden god Stund, hvori han har talt til det Bedre hos hver Enkelt af dem, – naar han nu folder Hænderne over Brystet og tager i, er det gjerne ligesaa megen Graad strax som senere hen, – indtil Børnene begynder at græde; men det sker først, naar Præsten taler om Forældrene og vil, at de skal bede til Vorherre for sine Børn. Thorbjørn, som nylig havde lagt for Døden, endnu nyligere troet, at han blev et hilseløst Menneske, græd meget, men især da Børnene aflagde Løftet og Allesammen var saa sikre paa at holde det. Han saa ikke en eneste Gang over til Kvindfolkestolen; men efter endt Tjeneste gik han hen til Ingrid og hviskede Noget til hende, hvorpaa han skyndsomt trængte sig frem og ud, og Somme vilde vide at han var tagen opover Liden og tilskogs istedetfor henad Landevejen; men de var ikke vis paa det. Sæmund ledte efter ham, – begav det dog, da han saa, at Ingrid ogsaa var borte. Han ledte siden efter Solbakkefolket, disse foer rundt paa al Gaarden og spurgte efter
@@ -1202,11 +1212,11 @@
      – – Længe gik Fader og Søn, før de sagde Noget. «Det bæres mig for, at han sent kommer igjen», ytrede endelig Thorbjørn. «Det er vel slig han vil have det,» mente Sæmund, og de gik atter tause videre. «Du gaar nok forbi Hvedeageren», sagde Thorbjørn. – «Vi kan se til den paa Tilbagevejen,» sagde Sæmund, – og de gik længer fremover. Thorbjørn vilde ikke rigtig spørge, hvor dette bar hen; thi de gik forbi Granlidjordet. – «Skal du langt frem?» spurgte han endelig. «Aa, et Stykke endnu.» – – –
     </p>
    </div>
-   <div type="chapter" xml:id="9">
+   <div n="9" type="chapter" xml:id="NOR0065009">
     <head>
-     
+     <ref target="contents_11" type="contents" xml:id="chapter_11">
       9de Kapitel
-     
+     </ref>
      .
     </head>
     <p>

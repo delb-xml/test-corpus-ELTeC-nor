@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0026" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0026" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Streik ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/27879890 https://www.wikidata.org/wiki/Q936269">Sivle, Per  (1857-1904)</author>
+    <author>
+     Sivle, Per (1857-1904)
+     <idno type="viaf">
+      https://viaf.org/viaf/27879890
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q936269
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,11 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
-     
-     
-     
-    </bibl><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
+     <ref target="bokselskap.no">
+      Teksten f&amp;#x00F8;lger Strei (1891) og er basert p&amp;#x00E5; skannet og ocr-lest fil fra Nasjonalbiblioteket/Bokhylla.no. Korrekturlest og tilrettelagt av HIOA-studentene Rita Cicconi, Rolf H&amp;#x00E5;kon Kristiansen og Leif-Arne Svellingen
+     </ref>
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         P. Sivle
        </author>
@@ -61,7 +70,10 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q58903676
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -73,11 +85,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="short"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2013-03-27" xml:id="ENW">
     Lagt inn innholdsfortegnelse og ref-koding. Fjernet harde linjeskift. Sjekket entiteter. Kodekontroll.
    </change>
@@ -90,9 +102,9 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
   <body>
    <div type="chapter">
     <head type="main">
-     
+     <ref target="contents_1" type="contents" xml:id="chapter_1">
       Arbeideren.
-     
+     </ref>
     </head>
     <quote>
      <l>
@@ -267,11 +279,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      </l>
     </quote>
    </div>
-   <div type="chapter" xml:id="1">
+   <div n="1" type="chapter" xml:id="NOR0026001">
     <head type="main">
-     
+     <ref target="contents_2" type="contents" xml:id="chapter_2">
       I.
-     
+     </ref>
     </head>
     <p>
      Fra Øst sænker sig det brede Dalføre jævnt ned mod Fjorden, som gaar ind fra Vest.
@@ -382,11 +394,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      Og saa var der ingen, som nægted Brugseier Oscar Andrésen Plads blandt det langestrandske Samfunds anerkjendte Støtter.
     </p>
    </div>
-   <div type="chapter" xml:id="2">
+   <div n="2" type="chapter" xml:id="NOR0026002">
     <head type="main">
-     
+     <ref target="contents_3" type="contents" xml:id="chapter_3">
       II.
-     
+     </ref>
     </head>
     <p>
      Naar Vintren for Alvor tar fat, og Isen lægger sig over Elven, da stanser Arbeidet paa Sagbrugene, til det atter er Vaar. – Og Arbeiderne gaar hver sin Vei, med den sidste Ugeløn i Lommen.
@@ -487,10 +499,16 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      <l>
       Her kom han paa
       Kassa
-      
+      <note type="footnote">
+       Kassa
+       = Fattigkassen
+      </note>
       , her
       daua
-      
+      <note type="footnote">
+       daua
+       = døde
+      </note>
       han ifjor,
      </l>
      <l>
@@ -745,11 +763,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      Og Per Amundsen reiste sig, satte Hatten paa tre Haar og gik – med stram Holdning, men noget usikre Skridt – over Gulvet og ud. – Døren blev slaat haardt i efter ham.
     </p>
    </div>
-   <div type="chapter" xml:id="3">
+   <div n="3" type="chapter" xml:id="NOR0026003">
     <head type="main">
-     
+     <ref target="contents_4" type="contents" xml:id="chapter_4">
       III.
-     
+     </ref>
     </head>
     <p>
      Restauratør Tallebergs Hus, beliggende omtrent midtveis mellem Langestrands to Broer, var mindst af alt beregnet paa Restaurationstrafik, da den rige Pebersvend, Rektor Preus, lod det bygge – i Tretiaarene. Det var elegant i Rektorens Tid – et af de vakreste Huse i hele Langestrand.
@@ -848,11 +866,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      Haanden blev ikke fundet, og dette var Ole Augustinussen en Kilde til bitter Sorg. – «Det værker saa i venstre Hanna mi,» kunde man høre ham sige; – «jei kjenner saa tydeli, hossen det stikker og river ut i hver eneste Fingertupp. – Aa ja, det er vel kristen Jor, du skriker etter, der du ligger, Stakkar – bare jei kunde saasannt hjælpe dei! Vi sleit mye vondt isammens, vi, og en tru Træl, det var du i dine Dager! – Aa ja ja, – Herregud!»
     </p>
    </div>
-   <div type="chapter" xml:id="4">
+   <div n="4" type="chapter" xml:id="NOR0026004">
     <head type="main">
-     
+     <ref target="contents_5" type="contents" xml:id="chapter_5">
       IV.
-     
+     </ref>
     </head>
     <p>
      Ja saadan en Vinter – med slig en ustyrtelig Snemængde og slig en Kulde! Sneen hobed sig op Lag paa Lag, og Gader og Veie saa ud som Halvtunneller – der atter og atter maatte aabnes; for ret som det var kom Nordenvinden med en Snekave foran sig farende ned gjennem Stangeland-Skaret og lukked dem. Gamle Folk sagde, at slig en Snevinter kunde de ikke mindes.
@@ -1113,11 +1131,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      – Men det er godt, at ikke alt Tøbrud sker paa ên Gang, – saa den ene Flom faar Tid til at passere, før den anden kommer.
     </p>
    </div>
-   <div type="chapter" xml:id="5">
+   <div n="5" type="chapter" xml:id="NOR0026005">
     <head type="main">
-     
+     <ref target="contents_6" type="contents" xml:id="chapter_6">
       V.
-     
+     </ref>
     </head>
     <p>
      «
@@ -1383,11 +1401,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      – – – Men Bagste-Birte hvilte trygt og roligt inde paa Kirkegaarden deroppe i Fonnedal.
     </p>
    </div>
-   <div type="chapter" xml:id="6">
+   <div n="6" type="chapter" xml:id="NOR0026006">
     <head type="main">
-     
+     <ref target="contents_7" type="contents" xml:id="chapter_7">
       VI.
-     
+     </ref>
     </head>
     <p>
      Det var den 23de Mai.
@@ -1592,11 +1610,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      ossaa, skal du se. – Aa ja, Herregud! – det er saa mye, man faar friste her i Verden.»
     </p>
    </div>
-   <div type="chapter" xml:id="7">
+   <div n="7" type="chapter" xml:id="NOR0026007">
     <head type="main">
-     
+     <ref target="contents_8" type="contents" xml:id="chapter_8">
       VII.
-     
+     </ref>
     </head>
     <p>
      «Saa gid da ossaa Fan han innerli – –!»
@@ -1786,11 +1804,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      Drammer i de nærmest følgende Dage.
     </p>
    </div>
-   <div type="chapter" xml:id="8">
+   <div n="8" type="chapter" xml:id="NOR0026008">
     <head type="main">
-     
+     <ref target="contents_9" type="contents" xml:id="chapter_9">
       VIII.
-     
+     </ref>
     </head>
     <p>
      «Brand! – Brand! – Humlevik Bruk brænner!»
@@ -2032,11 +2050,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      – Men ikke en Taare saa man i Ole Augustinussens Øine. Kun var han mere indesluttet og ordknap end nogensinde, – Herregud Kaalrabien holdt endog op med at sige «Herregud».
     </p>
    </div>
-   <div type="chapter" xml:id="9">
+   <div n="9" type="chapter" xml:id="NOR0026009">
     <head type="main">
-     
+     <ref target="contents_10" type="contents" xml:id="chapter_10">
       IX.
-     
+     </ref>
     </head>
     <p>
      Tirsdag.
@@ -2318,11 +2336,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      «Aa ja, Gud ske Tak, at vesle Martine er saa godt gjemt! – jei har mere enn nok med aa berge Maten i Munnen tell Veslebror. Men ham vilde jei naa gjerne faa Lov aa beholle, allikevel.»
     </p>
    </div>
-   <div type="chapter" xml:id="10">
+   <div n="10" type="chapter" xml:id="NOR0026010">
     <head type="main">
-     
+     <ref target="contents_11" type="contents" xml:id="chapter_11">
       X.
-     
+     </ref>
     </head>
     <p>
      Byfogden havde afholdt Brandforhør, baade et og to. Men der var intet fremkommet – Maskinist Kristensens Vidneprov iberegnet –, som gav
@@ -2612,11 +2630,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      Og dermed var Mødet slut.
     </p>
    </div>
-   <div type="chapter" xml:id="11">
+   <div n="11" type="chapter" xml:id="NOR0026011">
     <head type="main">
-     
+     <ref target="contents_12" type="contents" xml:id="chapter_12">
       XI.
-     
+     </ref>
     </head>
     <p>
      Der er noget, som kaldes
@@ -2683,11 +2701,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      hænde, saa utroligt det end høres.
     </p>
    </div>
-   <div type="chapter" xml:id="12">
+   <div n="12" type="chapter" xml:id="NOR0026012">
     <head type="main">
-     
+     <ref target="contents_13" type="contents" xml:id="chapter_13">
       XII.
-     
+     </ref>
     </head>
     <p>
      Allerede i Løbet af Søndagen havde Brugsherrerne faat fuld Besked om, hvad der var forefaldt paa Madam Henriksens Sal.
@@ -2940,11 +2958,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      I Raadstuens Port tog Fuldmægtigen – ved Siden af den netop hjemkomne Politimester – imod Optoget. – Saa blev Fangerne sat ind under Laas og Lukke.
     </p>
    </div>
-   <div type="chapter" xml:id="13">
+   <div n="13" type="chapter" xml:id="NOR0026013">
     <head type="main">
-     
+     <ref target="contents_14" type="contents" xml:id="chapter_14">
       XIII.
-     
+     </ref>
     </head>
     <p>
      Det led fremover mod Kvældingen.
@@ -3162,11 +3180,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      – Og ind paa Broen nogle Hundre Skridt længer oppe svinged i samme Stund to Rækker af blanke, blinkende Bajonetter.
     </p>
    </div>
-   <div type="chapter" xml:id="14">
+   <div n="14" type="chapter" xml:id="NOR0026014">
     <head type="main">
-     
+     <ref target="contents_15" type="contents" xml:id="chapter_15">
       XIV.
-     
+     </ref>
     </head>
     <p>
      Der blev med ét saa paafaldende taust over Torvet. Og i alles Blik stég en ængstelig Raadvildhed spørgende op.
@@ -3363,11 +3381,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      «Syndens Sold er Døden.»
     </p>
    </div>
-   <div type="chapter" xml:id="15">
+   <div n="15" type="chapter" xml:id="NOR0026015">
     <head type="main">
-     
+     <ref target="contents_16" type="contents" xml:id="chapter_16">
       XV.
-     
+     </ref>
     </head>
     <p>
      Hvad var det, Folk stod og glodde paa?
@@ -3420,11 +3438,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      Han saa det for sig som den første Gang paa Langestrands Torv: dette brunrøde Bække-Fár af saadan etpar Fingerspands Længde med de to Bugtninger nedad den støvgraa Puksténs-Grund, – mundende ud i en liden Fordybning, hvori Strømmen havde samlet sig og størknet til en brunsort Blodlever, der syntes ham som Punktumet i et Spørgsmaalstegn.
     </p>
    </div>
-   <div type="chapter" xml:id="16">
+   <div n="16" type="chapter" xml:id="NOR0026016">
     <head type="main">
-     
+     <ref target="contents_17" type="contents" xml:id="chapter_17">
       XVI.
-     
+     </ref>
     </head>
     <p>
      Det var ikke netop af Velvillighed, at Langestrands Politi efter Streiken tildels lod Naade gaa for Ret.
@@ -3488,11 +3506,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      – Omtrent hver eneste Mand af Militæret havde Mærker – tildels noksaa alvorlige – efter den langestrandske Streike-Pukstén.
     </p>
    </div>
-   <div type="chapter" xml:id="17">
+   <div n="17" type="chapter" xml:id="NOR0026017">
     <head type="main">
-     
+     <ref target="contents_18" type="contents" xml:id="chapter_18">
       XVII.
-     
+     </ref>
     </head>
     <p>
      Langestrand holdt igjen paa at lægge sig tilrette i de gamle Folder.
@@ -3535,7 +3553,10 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
     </p>
     <p>
      En Sættedomstol blev beskikket til at tage de langestrandske Streike-Sager under Behandling
-     
+     <note type="footnote">
+      rettet fra:
+      Behandllng
+     </note>
      . Og den malte raskt unna, baade hvad Forhør og Domme angik.
     </p>
     <p>
@@ -3648,11 +3669,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      «Nei,» svarte Torgersen paa sin rolige, noget langsomme Maade; – «for det blir saa allikevel inte med Pukstein i Næverne, at vi Arbeidere vinner os vor Ret.»
     </p>
    </div>
-   <div type="chapter" xml:id="18">
+   <div n="18" type="chapter" xml:id="NOR0026018">
     <head type="main">
-     
+     <ref target="contents_19" type="contents" xml:id="chapter_19">
       XVIII.
-     
+     </ref>
     </head>
     <p>
      Den 1ste September var Oscar Andrésens Fødselsdag. Det var iaar hans seksogfirtiende, og den blev feiret med større Festlighed end nogen af hans tidligere.
@@ -3715,11 +3736,11 @@ Teksten følger Streik (1891) og er basert på skannet og ocr-lest fil fra Nasjo
      Og Champagnen funkled og straaled, da Glassene løftedes og tømtes.
     </p>
    </div>
-   <div type="chapter" xml:id="19">
+   <div n="19" type="chapter" xml:id="NOR0026019">
     <head type="main">
-     
+     <ref target="contents_20" type="contents" xml:id="chapter_20">
       XIX.
-     
+     </ref>
     </head>
     <p>
      Dagen efter Fødselsdagsgildet var Oscar Andrésen nede paa Brandtomten og inspiserte Rydningsarbeidet, som dersteds var i fuld Gang.

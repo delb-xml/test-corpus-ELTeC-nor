@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0023" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0023" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Fra Finmarken (Lajla) ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/10149436 https://www.wikidata.org/wiki/Q2026370">Friis, Jens Andreas  (1821-1896)</author>
+    <author>
+     Friis, Jens Andreas (1821-1896)
+     <idno type="viaf">
+      https://viaf.org/viaf/10149436
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q2026370
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,11 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
-     
-     
-     
-    </bibl><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
+     <ref target="bokselskap.no">
+      Teksten i bokselskap.no f&amp;#x00F8;lger 1. utgave, 1881 (Alb. Cammermeyer, Kristiania). Digitaliseringen er basert p&amp;#x00E5; fil fra Nasjonalbiblioteket (nb.no)
+     </ref>
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         J. A. Friis
        </author>
@@ -62,7 +71,10 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q58897591
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -74,11 +86,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="short"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2015-07-03">
     Lagt inn korrekturrettelser (KR). Entiteter, validering og kodekontroll.
    </change>
@@ -92,11 +104,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
  </teiHeader>
  <text type="novel" xml:id="BS_Friis_Lajla_tekst_xml_text">
   <body>
-   <div type="chapter" xml:id="1">
+   <div n="1" type="chapter" xml:id="NOR0023001">
     <head type="main">
-     
+     <ref target="contents_1" type="contents" xml:id="chapter_1">
       Forord
-     
+     </ref>
     </head>
     <p>
      Enkelte af de her leverede Skildringer have tidligere været trykte i et af vore Dagblade, og man har, saavidt jeg har kunnet erfare, læst dem med Interesse. Dette har givet mig Mod til at udgive dem sammen med en Del nye, der slutte sig til de tidligere trykte.
@@ -106,11 +118,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Forfatteren.
     </p>
    </div>
-   <div type="chapter" xml:id="2">
+   <div n="2" type="chapter" xml:id="NOR0023002">
     <head type="main">
-     
+     <ref target="contents_2" type="contents" xml:id="chapter_2">
       I. Den tomme Vugge
-     
+     </ref>
     </head>
     <p>
      <pb n="1"/>
@@ -363,11 +375,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Kun en Ting havde de ikke lagt Mærke til, nemlig at der løb et svagt Spor af et Par Ski henover Pletten, hvor Vuggen stod, og langs opmed Elven.
     </p>
    </div>
-   <div type="chapter" xml:id="3">
+   <div n="3" type="chapter" xml:id="NOR0023003">
     <head type="main">
-     
+     <ref target="contents_3" type="contents" xml:id="chapter_3">
       II. Jaampa paa Ski efter Ulven
-     
+     </ref>
     </head>
     <p>
      <pb n="15"/>
@@ -554,7 +566,12 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Jaampa var Seirherre. Han trak Pusten dybt nogle Gange, idet han støttede sig paa Skistaven og saa paa sin slagne Fiende. Medynk var der ei Tale om. Tvertimod, i haanende Triumf over at have knækket Ryggen paa sin Dødsfiende, udtømte han sin Vrede i allehaande Skjeldsord, idet han udbrød: «Saa fik jeg da endelig fat i dig, dit arge Trold! du, som har lusket omkring om Natten, men været feig om Dagen, undtagen mod Smaabørn. Der sidder du nu med knækket Ryg og gabende Kjeft, dit stygge Bæst! Tror du, at jeg ynkes over dig? Nei, tvi dig, som bed mig i Ryggen! Men nu skal du ikke bide mere, og heller ikke mere slikke Renblod med din forbandede Tunge! Nu skal Kniven min istedetfor smage Hjerteblodet dit! Det var vel dig, din Tyveknegt, som for en Maaned siden stjal fra mig min bedste Kjøreren? Jo, det var dig, det nytter ikke, at du skuler og nægter det, det var dig, siger jeg, eller din Fa'r eller din Mo'r, eller din Søster, eller din Bro'r, eller en eller anden af din forbandede Slægt!
      <pb n="28"/>
      Nu skal du dø, du skal dø, hører du, din Rakker, din Kjeltring, din Satans Blodhund! Der – der har du Kniven,»
-     
+     <note type="footnote">
+      Kniven,»]
+      rettet fra:
+      Kniven,
+      (manglende anførselstegn)
+     </note>
      og som et Lynglimt farer Knivbladet ind i Ulvens Side. Død ruller den om paa Ryggen.
     </p>
     <p>
@@ -564,11 +581,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      De tog en Benvei tilbage igjen, og ud paa Formiddagen naaede de frem til Teltene. Jaampa udbredte sig ikke videre over Jagten, men hans Mund arbeidede desto ivrigere med Indholdet af en Kjødgryde, som nylig var tagen af Ilden. Kun maatte han fortælle, at det var Ulven, som havde revet Hul i hans Pæsk, da en af Pigerne tog den om Hænde og satte sig til at reparere den. Jouna derimod spiste og snakkede omkap, og af ham fik de da høre de nærmere Detaljer af Jagten.
     </p>
    </div>
-   <div type="chapter" xml:id="4">
+   <div n="4" type="chapter" xml:id="NOR0023004">
     <head type="main">
-     
+     <ref target="contents_4" type="contents" xml:id="chapter_4">
       III. Finnen og Barnet
-     
+     </ref>
     </head>
     <p>
      <pb n="29"/>
@@ -746,11 +763,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Det samme Mærke brugtes i gamle Dage ogsaa som «Bomærke» eller Eiendomsmærke, hvormed enhver Barnet senere hen i Livet tilhørende Ting ogsaa blev mærket. Som voksne brugte Vedkommende det ogsaa som Underskrift, eller aftegnede samme under skriftlige Sager med samme Forpligtelse og Gyldighed, som Navns Underskrift i vore Dage. I Almindelighed pleiede et Barn ikke at faa mere end 1 Ren i Daabsgave af Forældrene, men den rige Laagje skjænkede baade Mellet og Lajla hver sine 10 Simleren, saa der kunde være godt Haab om, at de som voksne vilde blive meget rige, da de desuden jo havde stor Arv i Vente. De i Daaben skjænkede Ren og deres Afkom, hvor talrig end denne bliver, regnes den Dag idag aldrig med i Arveskiftet, men er Barnets særlige Eiendom. I gamle Dage fik Barnet ogsaa ofte Ren i Gave af Fadderne, og den, der først opdagede og paaviste Barnets første Tand skulde altid give det en Ren. Denne kaldtes «Tand-Ren», og Skikken var formodentlig laant af Nordmændene, der, som bekjendt, brugte at skjænke en lignende Gave, der kaldtes «Tannfe».
     </p>
    </div>
-   <div type="chapter" xml:id="5">
+   <div n="5" type="chapter" xml:id="NOR0023005">
     <head type="main">
-     
+     <ref target="contents_5" type="contents" xml:id="chapter_5">
       IV. Kvæner. Rensdyret. Flytning. Kalving
-     
+     </ref>
     </head>
     <p>
      <pb n="39"/>
@@ -963,11 +980,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Nomadelivet har sine Tillokkelser ikke blot for Fjeldfinnen, men jeg tror for alle Adams Børn, hvilketsomhelst Kulturtrin de end indtage.
     </p>
    </div>
-   <div type="chapter" xml:id="6">
+   <div n="6" type="chapter" xml:id="NOR0023006">
     <head type="main">
-     
+     <ref target="contents_6" type="contents" xml:id="chapter_6">
       V. Runne og Ranne
-     
+     </ref>
     </head>
     <p>
      <pb n="58"/>
@@ -1058,11 +1075,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Den levede endnu i flere Aar og tog ofte tand gribeligt ind med i Kampen mod Ulven, og gjorde flere Ture frem og tilbage til Kysten, men aldrig forsøgte den mere paa at svømme over Elven.
     </p>
    </div>
-   <div type="chapter" xml:id="7">
+   <div n="7" type="chapter" xml:id="NOR0023007">
     <head type="main">
-     
+     <ref target="contents_7" type="contents" xml:id="chapter_7">
       VI. Juleaften
-     
+     </ref>
     </head>
     <p>
      <pb n="67"/>
@@ -1425,11 +1442,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      «Ja, ja,» siger Moderen, idet hun atter og atter kysser Barnet, «lad hende da i Guds Navn hedde Lajla.»
     </p>
    </div>
-   <div type="chapter" xml:id="8">
+   <div n="8" type="chapter" xml:id="NOR0023008">
     <head type="main">
-     
+     <ref target="contents_8" type="contents" xml:id="chapter_8">
       VII. Pesten
-     
+     </ref>
     </head>
     <p>
      <pb n="80"/>
@@ -1456,7 +1473,10 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      Efter den almindelige Hilsen mellem Venner, som bestaar i, at man lægger høire Haand paa hinandens venstre Skulder eller halvt omfavner hinanden og stryger Kind mod Kind og Næsetip mod Næsetip,
-     
+     <note type="footnote">
+      Forfatternote:
+      Blandt enkelte vilde Nationer bruger man derfor ikke at sige: giv mig et Kys! men: giv mig din Aande!
+     </note>
      blev den Fremmede indbuden i Teltet, hvor han ønskede: «Fred i Huset!» og fik Sæde ved Arnestedet. Laagje spurgte ham, hvorfra han kom.
     </p>
     <p>
@@ -1656,7 +1676,12 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      «Ja, jeg er Jaampa, min stakkels Lille, nu maa du ikke græde mere, nu skal du kjøre med Jaampa og sidde paa Jaampas Ryg, og være glad og spise god Mad med Jaampa.»
-     
+     <note type="footnote">
+      Jaampa.»]
+      rettet fra:
+      Jaampa.
+      (manglende anførselstegn)
+     </note>
     </p>
     <p>
      «Ja», sagde Barnet, «Lajla spise god Mad med Jaamba.»
@@ -1768,11 +1793,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Den følgende Juleaften var derfor alle muntre og glade i Laagjes Telt. Barnet, som han havde fundet, som han havde reddet og baaret hjem paa sin Barm, var atter hans og skulde blive hans, og han drømte igjen lyse Drømme om dette Barns Fremtid.
     </p>
    </div>
-   <div type="chapter" xml:id="9">
+   <div n="9" type="chapter" xml:id="NOR0023009">
     <head type="main">
-     
+     <ref target="contents_9" type="contents" xml:id="chapter_9">
       VIII. Mellet og Lajla paa Skole
-     
+     </ref>
     </head>
     <p>
      <pb n="95"/>
@@ -2120,11 +2145,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Man fortalte, at Haarde-Hjorth, sidste Gang han holdt Gudstjeneste i Koutokæino Kirke, prædikede paa Finsk, og at den Opmærksomhed, hvormed man hørte paa ham, den Glæde, man ytrede, den Tak efter Tak, han herfor fik af alle og enhver, gjorde, at der sneg sig en nagende Tvivl ind i hans stille Sind. Maaske havde Finnen for en Del havt Ret? Maaske havde hans Arbeide i kristelig Forstand været forfængeligt og forgjæves? Maaske havde han tænkt og stridt altfor udelukkende for det folkelige Maal, istedetfor som Præst først og fremst at arbeide for det, som hører Guds Rige til, og saa overlade det folkelige eller sproglige til, om muligt, at følge efter, men uden Tvang eller voldsomme Forholdsregler, der kun havde avlet Misnøie og Uvidenhed?
     </p>
    </div>
-   <div type="chapter" xml:id="10">
+   <div n="10" type="chapter" xml:id="NOR0023010">
     <head type="main">
-     
+     <ref target="contents_10" type="contents" xml:id="chapter_10">
       IX. Marked i Karasjok
-     
+     </ref>
     </head>
     <p>
      <pb n="116"/>
@@ -2183,7 +2208,12 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      Det vigtigste, som Laagje og hans Kone havde at kjøbe, var Vadmel til et nyt Vintertelt for Mellet og Lajla, som næste Aar skulde have Bryllup.
-     
+     <note type="footnote">
+      Bryllup.]
+      rettet fra:
+      Bryllup
+      (manglende tegnsetting)
+     </note>
      For lang Tid siden var nemlig den Ting op- og afgjort, at disse to skulde gifte sig sammen, og efter Forældrenes Bestemmelse gaar det saa godt som altid. Mellet havde aldrig egentlig friet til Lajla, men det var bleven sagt saa ofte og forudsattes at være en saa afgjort Sag, at han og Lajla engang skulde blive Mand og Kone, at noget Frieri fra hans Side og Ja fra hendes Side heller ikke behøvedes.
     </p>
     <p>
@@ -2196,7 +2226,10 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      Naar nu en Fin kom til sin Borger,
-     
+     <note type="footnote">
+      Forfatternote:
+      fortæller Læstadius i sin Journal.
+     </note>
      skulde han til en Begyndelse altid trakteres med en Velkomstdram, og dersom Finnen syntes, at det varede noget længe, inden denne kom, undsaa han sig ikke i mindste Maade for at forlange den. Derefter skulde han, som Skik og Brug havde været fra gammel Tid,
      <pb n="121"/>
      ogsaa forlods faa i Foræring nogle «Smaagaver», f. Ex. en Syring, en Saks, Synaale eller andet deslige. Saa var det igjen Finnens Tur til Vederlag herfor at lægge op paa Disken
@@ -2778,7 +2811,12 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      «Ja, men du skal kjøre med.»
-     
+     <note type="footnote">
+      med.»]
+      rettet fra:
+      med»
+      (manglende tegnsetting)
+     </note>
     </p>
     <p>
      «Jeg tager «Stormvind» og du tager Jivja.»
@@ -2810,9 +2848,16 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Saa var det forbi med Markedet, med Kjøb og
      <pb n="142"/>
      Salg, med Handel og Vandel, og med Jaampas dobbelte Tilværelse. Enhver skulde drage hjem igjen til sit. Men det er sandt. Vi har jo aldeles glemt at se indom hos Præsten. Han har sandelig havt det ligesaa travelt, som nogen anden paa Markedet, med at lyse til Ægteskab, døbe og brudevie. Netop nu kommer der ind et Par Brudefolk for at forlange Lysning hos ham. Præsten sidder ved et Bord med en Bog foran sig. Se vi nøiere til, saa finde vi, at det er vor Bekjendt Utsjokfinnen og den Sortøiede. Stuen fyldes, og Trængselen bliver saa stor, at nogle klyve op paa Bænkene langs Væggene for at kunne se bedre.
-     
+     <note type="footnote">
+      Forfatternote:
+      Stockfleth Side 105.
+     </note>
      Det er sandsynligt, at Bruden har havt flere Friere og at disse nu ville indfinde sig for at forlange sine forgjæves anvendte Friergaver tilbage igjen; og saaledes forholder det sig ogsaa. Idet Præsten tager Pennen for at indskrive Parrets Navne i Bogen, trænger en ung Fin sig frem lige til Bordet. Uden at
-     
+     <note type="footnote">
+      at]
+      rettet fra:
+      ar
+     </note>
      lade ham komme tilorde, tager Bruden frem et Tørklæde og overrækker ham det. Taus modtager han det og undersøger det, og taus trækker han sig tilbage. Heller ikke Forsamlingen siger noget. Straks efter arbeider en anden sig frem igjennem Mængden og forlanger at faa sin Friergave tilbage. Taus som første Gang overrækker Bruden ham et Tørklæde. Han snur og vender det, undersøger det nøie og siger saa: «Det er ikke mit!» og leverer det tilbage. Brudgommen
      <pb n="143"/>
      leverer Bruden et andet Tørklæde, som hun igjen overrækker sin forhenværende Elsker, der nu, uden at sige noget, trækker sig tilbage. Atter tager Præsten Pennen, da en Stemme henne fra Døren raaber: «Vær saa god at vente lidt, kjære Præst!» Dette er en tredie Beiler, som melder sig og som har givet flere Gaver. Men Bruden har dem i Beredskab og leverer dem tilbage. Dog dermed er denne tredje Beiler ikke ganske tilfreds. Han paaberaaber sig et bestemt Løfte, noget, som de to foregaaende Friere ikke kunde rose sig af, og som en Tilstaaelse af, at han ikke farer med Usandhed, forlanger han, at Bruden skal give ham en Speciedaler. Brudgommen finder, at der kan være noget, som taler for, at Bruden ikke lader ham gaa som den, der har faret med Usandhed; thi «hvad som er sandt, er sandt,» siger han, men da det nu ikke gjælder en Godtgjørelse for Tabet af Bruden, thi da maatte der blive Tale om en ganske anden Sum, men blot om en Tilstaaelse af, at hun virkelig har givet den anden – dog ikke noget bestemt Løfte; thi hun har blot sagt «maaske», – saa synes han, at en halv Specie maatte gjøre akkurat det samme, som en hel Specie. Han tager derfor ogsaa frem en halv Specie og overleverer den til Præsten med Anmodning om, at denne vil levere den til Vedkommende. Dette sker, og dermed er Sagen klaret, og nu er der intet mere i Veien for, at Tillysning kan finde Sted for den fjerde og sidste Beiler.
@@ -2881,7 +2926,12 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      «Det er jo «Stormvind» og «Jivja».»
-     
+     <note type="footnote">
+      «Jivja».»]
+      rettet fra:
+      «Jivja».
+      (manglende anførselstegn)
+     </note>
     </p>
     <p>
      «Ja, det er saa!»
@@ -2927,11 +2977,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      «Saa maa du hilse Lajla og Laagje fra os da og sige Tak for Gaven og minde Lajla om, at det første hun gjør til Sommeren er, at hun kommer og besøger os.»
     </p>
    </div>
-   <div type="chapter" xml:id="11">
+   <div n="11" type="chapter" xml:id="NOR0023011">
     <head type="main">
-     
+     <ref target="contents_11" type="contents" xml:id="chapter_11">
       X. Om Sommeren
-     
+     </ref>
     </head>
     <p>
      <pb n="148"/>
@@ -3137,7 +3187,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      Mellet
-     
+     <note type="footnote">
+      Mellet]
+      rettet fra:
+      «Mellet
+     </note>
      fanger en og trækker den hen til hende, men Inger, som ikke forstaar Tingen rigtigt, faar kun nogle Draaber Mælk af den og mister Koppen paa Marken, da Renen bliver urolig og begynder at spænde.
     </p>
     <p>
@@ -3185,7 +3239,10 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Førend Hjorden blev sluppen tilfjelds igjen skulde der udtages et Dyr til Slagt. Mellet og Jaampa gik omkring og saa sig ud et saadant, men idet Mellet
      <pb n="163"/>
      kaster, og Lassoen hviner igjennem Luften, sprætter der uventet et andet Dyr, en 3 Aars utæmmet Buk, pludselig op og faar Lassoen om Hornene, og nu blev der en vild Dans! Men Mellet ved, hvad han i et saadant Tilfælde har at gjøre. Idet Dyret sprætter til, holder han igjen af al Magt. Uventet og voldsomt rykket i Hornene tumler Renen overende. Det voldsomme Ryk kaster ogsaa Mellet omkuld, men han slipper ikke Lassoen.
-     
+     <note type="footnote">
+      Forfatternote:
+      Stockfleth. Side 60.
+     </note>
      Hurtig som Lynet er Renen igjen paa Benene, steiler høit i Veiret og farer i vildt Raseri frem og tilbage. Lassoen kommer derved snart om Forbenene, snart om Bagbenene, og Dyret gjør de morsomste Kaprioler og Luftspring for at faa Benene fri. Øiet kan neppe følge Hurtigheden af dets Bevægelser. Ligesaa gjerne som Dyret vil løs, ligesaa gjerne vil Mellet blive det kvit, naar han blot kunde faa Lassoen løs, som det mere og mere indvikler sig i. Under Kampen er alt sprunget forskrækket tilside. Ved at vikle Lassoen mere og mere om Armen kommer Mellet stedse Dyret nærmere og nærmere ind paa Livet. Opbragt herover steiler det og søger med Forbenene, der gaa som Trommestikker, at slaa ham til Marken. Stille og lydløst har imidlertid Jaampa søgt at nærme sig Dyret bagfra. Men nu bliver det ogsaa ham var og fordobler sin Heftighed. Omsider lykkes det dog Jaampa at komme ind paa Renen, og raskt og behændigt
      <pb n="164"/>
      favner han den om Livet. Med Bagbenene søger Renen at sparke begge sine Fiender fra sig, men forgjæves. Pludselig bliver Dyret ganske stille og staar med ludet Hoved, medens Øinene lure og løbe om til alle Sider. Paa engang hæver det igjen Hovedet, steiler og slaar med Forbenene, styrter overende og tager begge med sig i Faldet, saa de ligge der alle tre kjæmpende og sprellende. Endelig har Jaampa faaet Lassoen løs. Alle tre springe op igjen, og i vild Galop farer Renen afsted henover Marken, standser et Stykke borte, ser sig om, pruster, men styrter saa atter afsted i endnu vildere Fart og standser ikke, førend den har gjemt sig inde i en tæt Flok af andre Dyr.
@@ -3472,7 +3529,12 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      «Jeg skal være ved Varden paa Gaisafjeldet imorgen Nat Kl. 12, naar Solen staar lavest i Nord. Kjære Lajla, kom did, jeg har saameget at tale med dig om. Du maa komme, vi maa tale sammen, og jeg maa sige dig Farvel før du reiser.»
-     
+     <note type="footnote">
+      reiser.»]
+      rettet fra:
+      reiser.
+      (manglende anførselstegn)
+     </note>
     </p>
     <p>
      Lajla svarede blot med et lille Nik, og hun og Mellet vandrede opover tilfjelds igjen.
@@ -3510,7 +3572,10 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Hun vendte sig bort fra den Kant, hvor hun kunde se ned mod Garnæs, og saa indover Fjeldene, hvor Teltene stode. Pludselig vendte hun sig igjen om. Vreden var borte, Stoltheden knækket, Modet svigtede og Fortvivlelsen kom. Hun kastede sig med Hænderne for Ansigtet ned i Lyngen, hulkede og græd, saart og bittert. Hun vidste ikke, hvor meget Haab hun i Grunden havde næret, førend nu, da den sidste Gnist sluknede, hun vidste ikke, hvor stærkt det Baand var, som havde knyttet hende til ham, førend det nu pludselig blev sønderslidt, saa hendes inderste Hjerte blødte. Halvt bedøvet og badet i Taarer laa hun der, til hendes lille Ledsager atter kom hen og slikkede hende paa Kinden for ligesom at minde hende om, at det var paa Tide at gaa hjem. Hun tog den i sine Arme og kyssede den. «Ak Muste, Muste, han har bedraget mig! Nu maa vi gaa,» og hun tog nogle Skridt, men vendte atter
      <pb n="179"/>
      om, tog en spids Sten og skrev paa en flad Skiferhelle, som stod opreist paa Toppen af Varden:
-     
+     <note type="footnote">
+      Forfatternote:
+      Kapt. Bang. Landmaalerliv. Side 160.
+     </note>
     </p>
     <p>
      Jeg var her, du kom ikke, Farvel!
@@ -3560,11 +3625,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      «Havde jeg truffet hende, vilde jeg have overtalt hende til at komme til os og været her i Vinter og –
     </p>
    </div>
-   <div type="chapter" xml:id="12">
+   <div n="12" type="chapter" xml:id="NOR0023012">
     <head type="main">
-     
+     <ref target="contents_12" type="contents" xml:id="chapter_12">
       XI. Bryllup
-     
+     </ref>
     </head>
     <p>
      <pb n="181"/>
@@ -3998,7 +4063,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      «Hvem hun er? Hun er den smukkeste Pige, jeg
-     
+     <note type="footnote">
+      jeg]
+      rettet fra:
+      eg
+     </note>
      nogensinde har seet.»
     </p>
     <p>
@@ -4070,7 +4139,10 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      Saa kom to Piger og to Gutter og holdt et stort Tørklæde som en Tronhimmel over Brudeparret. Dette Tørklæde kaldes «Pellet»
-     
+     <note type="footnote">
+      Forfatternote:
+      af oldn. Pell, fint Tøi (latin. Palla eller Pallium, Mantel, Forhæng, Nonneslør).
+     </note>
      og tilhører Kirken. For Brugen af samme betales nogle Skilling til Kirkens Kasse. Skikken er særegen for Koutokæino eller bruges ialfald ikke andetsteds i Finmarken. Den er rimeligvis kommen fra Sverig og har vedligeholdt sig i Koutokæino fra den Tid, da dette var et svensk Sogn.
     </p>
     <p>
@@ -4120,7 +4192,12 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      «Vid, Præst,» siger Lind, «at denne Pige ikke er Laagjes Datter og heller ikke skal vies til nogen Fin, men at hun er en Nordmandspige, min Farbroders Datter, og at hun skal være min Hustru for Gud og Mennesker.»
-     
+     <note type="footnote">
+      Mennesker.»]
+      rettet fra:
+      Mennesker.
+      (manglende anførselstegn)
+     </note>
     </p>
     <p>
      «Er det sandt hvad her fortælles,» siger Præsten til Laagje, «er Lajla ikke din Datter?»
@@ -4163,11 +4240,11 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
      Om Bryllupet forresten er lidet at fortælle. Kun kan det berettes, at da Bruden, ledsaget af Inger, om Morgenen næste Dag skulde gaa omkring og traktere Gjæsterne med Kaffe og Dram paa Sengen, som Skik og Brug er i et rigtigt Finnebryllup, var Jaampa ikke at finde inde i Hus. Han havde ganske vist faaet anvist et Værelse, hvor han sammen med Laagje skulde ligge, men det havde ikke varet længe, før han havde fundet det for kvalmt inden lukkede Døre. Saa havde han listet sig stille ud og lagt sig ude paa Marken i sin tykke Renpels, som han trak sig ind i, som en Snegl i sin Skal. Men om Natten kom stærkt Snefald, saaledes at der om Morgenen laa mindst en Alen Sne over alle Marker og over Jaampa ligesaa. Dog dette vækkede ikke ham. Han sov sødelig under dette snehvide Tæppe, som Vorherre bredte over ham, lige til om Morgenen, da Bruden for at finde ham maatte tage Ski paa Benene og gaa omkring og stikke med Skistaven i Sneen, indtil hun etsteds traf paa noget blødt, og op af Sneen reiste sig Jaampa. Saaledes fik ogsaa han Kaffe og Dram paa Sengen.
     </p>
    </div>
-   <div type="chapter" xml:id="13">
+   <div n="13" type="chapter" xml:id="NOR0023013">
     <head type="main">
-     
+     <ref target="contents_13" type="contents" xml:id="chapter_13">
       XII. Jaampas sidste Reise
-     
+     </ref>
     </head>
     <p>
      <pb n="202"/>
@@ -4184,7 +4261,10 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      En Del «Borgere» flyttede derfor op til Finmarken med Familie og nedsatte sig ved Fiskerleierne. Dette Eksempel efterfulgtes snart af flere. Da Fiskerierne stadigt sloge rigeligt til, og det saaledes laa i de opflyttende Borgeres Interesse at faa op til Finmarken flere og flere, dels Tjenere, dels «Udredningsmænd og Udrorsmænd», saa forskreve de ikke blot fra Bergen, men ogsaa fra andre Stæder i Norge, især fra Trondhjem, flere og flere Folk. Følgen af denne Tilstrømning var, at «Finmarkens Søstrande og Øer snart vrimlede af Folk.»
-     
+     <note type="footnote">
+      Forfatternote:
+      Amtmand Hammer.
+     </note>
     </p>
     <p>
      Flere af de Fiskevær, hvor Borgerne nedsatte sig, og Folk strømmede til, fik efterhaanden «Anseelse af smaa Byer, og Borgerne dreve deres Negotia dels ved egne, dels ved fragtede Skibe baade paa Bergen, Trondhjem, Danmark og Holland saavelsom nogle andre udenrigske Stæder,» medens paa den anden Side igjen «baade engelske, hollandske, franske og danske Skibe seilede paa Finmarken og tilførte Indbyggerne Korn m. m. billigere end fra Bergen.» Ved denne direkte Handel med Udlandet synes Befolkningen i Finmarken for et Par Aarhundreder siden
@@ -4343,7 +4423,12 @@ ISBN: 978-82-8319-252-0 (digital, bokselskap.no), 978-82-8319-253-7 (epub), 978-
     </p>
     <p>
      «Desværre, Jaampa,» sagde Lind, «jeg har intet at kjøbe for. Havde jeg nu Penge, skulde jeg nok kjøbe Gaarden. Nu har vi igjen faaet Handelsfrihed, men Garnæs er ikke at faa for mindre end 2000 Spd.»
-     
+     <note type="footnote">
+      Spd.»]
+      rettet fra:
+      Spd.
+      (manglende anførselstegn)
+     </note>
     </p>
     <p>
      «Lajla kan kjøbe den.»

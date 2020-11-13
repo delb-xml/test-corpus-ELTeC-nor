@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0040" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0040" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Min Bedstemoders Fortælling ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/25550020 https://www.wikidata.org/wiki/Q443649">Thoresen, Magdalene  (1819-1903)</author>
+    <author>
+     Thoresen, Magdalene (1819-1903)
+     <idno type="viaf">
+      https://viaf.org/viaf/25550020
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q443649
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,13 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
      <ref target="https://www.bokselskap.no/boker/bedstemoder/tittelside">
       Utgaven følger teksten i antologien Ved Løvfaldstid, 1867 (H. Tønsberg, Christiania), digitaliseringen er basert på fil hentet fra Nasjonalbiblioteket (nb.no)
      </ref>
-     
-     
-    </bibl><bibl type="unspecified">
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         M. Thoresen
        </author>
@@ -66,7 +73,10 @@ bokselskap.no), 978-82-8319-220-9 (epub), 978-82-8319-221-6
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q42191285
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -78,11 +88,11 @@ bokselskap.no), 978-82-8319-220-9 (epub), 978-82-8319-221-6
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+    <e:canonicity key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>

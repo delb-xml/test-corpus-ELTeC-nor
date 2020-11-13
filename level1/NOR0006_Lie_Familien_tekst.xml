@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0006" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0006" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Familien Paa Gilje ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/59124011 https://www.wikidata.org/wiki/Q469681">Lie, Jonas Lauritz  (1833-1908)</author>
+    <author>
+     Lie, Jonas Lauritz (1833-1908)
+     <idno type="viaf">
+      https://viaf.org/viaf/59124011
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q469681
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,11 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
-     
-     
-     
-    </bibl><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
+     <ref target="bokselskap.no">
+      1. utgave, 1883, Samlede Digterverker 1920-1921
+     </ref>
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         J. L. Lie
        </author>
@@ -60,7 +69,10 @@ Jonas Lie: Familien paa Gilje
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q11968448
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -72,11 +84,11 @@ Jonas Lie: Familien paa Gilje
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2011-02-13" xml:id="ENW">
     Kodet om filen til bokselskap-xml. Kodekontroll.
    </change>
@@ -84,11 +96,11 @@ Jonas Lie: Familien paa Gilje
  </teiHeader>
  <text type="novel" xml:id="BS_Lie_Familien_tekst_xml_text">
   <body>
-   <div type="chapter" xml:id="1">
+   <div n="1" type="chapter" xml:id="NOR0006001">
     <head>
-     
+     <ref target="contents_1" type="contents" xml:id="chapter_1">
       I.
-     
+     </ref>
     </head>
     <p>
      Det var en klar, kold Eftermiddag oppe i Fjeldbygden. Luften laa frostblaa med lette Rosentinter over alle de skarpe Kanter, Skar og Toppe, der som en Række gigantiske Sneskavler Taarn i Taarn svimlede op imod Horisonten. Nedenunder klappede Bakker og Lider Bygden til med hvide Vægge, stedse trangere og trangere, nærmere og nærmere, altid mere stængende.
@@ -542,11 +554,11 @@ Jonas Lie: Familien paa Gilje
      Han gik deroppe og klædte sig paa. Ma havde endelig ved Middagstid vovet sig til at vække ham.
     </p>
    </div>
-   <div type="chapter" xml:id="2">
+   <div n="2" type="chapter" xml:id="NOR0006002">
     <head>
-     
+     <ref target="contents_2" type="contents" xml:id="chapter_2">
       II.
-     
+     </ref>
     </head>
     <p>
      Dagen før Lillejuleaften ventede man Stor-Ola og Svarten med Fragtelæsset fra Kristiania, hvor de to Gange om Aaret – ved Sankthans og Jul, – var nede efter Varer til Husets Forsyning.
@@ -738,11 +750,11 @@ Jonas Lie: Familien paa Gilje
      Men, da den saa gik op, og Isen braanede under Solstikket, laa der i den bratte Bakke bag Chefsgaarden en langstrakt Vask paa Bleg saa skinnende hvid, at det saa ud, som om Sneen havde glemt at gaa sin Vei der . . .
     </p>
    </div>
-   <div type="chapter" xml:id="3">
+   <div n="3" type="chapter" xml:id="NOR0006003">
     <head>
-     
+     <ref target="contents_3" type="contents" xml:id="chapter_3">
       III.
-     
+     </ref>
     </head>
     <p>
      Det var blet Høisommer. Fjeldbygden laa disig i Heden, alle Afstande var som svøbte i Røg.
@@ -1362,11 +1374,11 @@ Jonas Lie: Familien paa Gilje
      Han sang, saa det dirrede i Ruderne.
     </p>
    </div>
-   <div type="chapter" xml:id="4">
+   <div n="4" type="chapter" xml:id="NOR0006004">
     <head>
-     
+     <ref target="contents_4" type="contents" xml:id="chapter_4">
       IV.
-     
+     </ref>
     </head>
     <p>
      Aaret havde dreiet sig; – det var efter Jul saa langt fremme som midt i Februar.
@@ -1901,11 +1913,11 @@ Jonas Lie: Familien paa Gilje
      «Kan tro det, din Løgnhals» . . . mumlede Doktoren, idet han smeldte paa Hesten og strøg videre.
     </p>
    </div>
-   <div type="chapter" xml:id="5">
+   <div n="5" type="chapter" xml:id="NOR0006005">
     <head>
-     
+     <ref target="contents_5" type="contents" xml:id="chapter_5">
       V.
-     
+     </ref>
     </head>
     <p>
      Kapteinen var i et forfærdeligt Humør; det drønede i Dørene hele Formiddagen . . .
@@ -2209,11 +2221,11 @@ Jonas Lie: Familien paa Gilje
      Det er forresten kjedeligt om han bliver borte, for med alt sit er han mig mangen Gang en god Krigskammerat mod Tante.»
     </p>
    </div>
-   <div type="chapter" xml:id="6">
+   <div n="6" type="chapter" xml:id="NOR0006006">
     <head>
-     
+     <ref target="contents_6" type="contents" xml:id="chapter_6">
       VI.
-     
+     </ref>
     </head>
     <p>
      Kapteinen havde holdt Laaget paa sin store, gamle Merskumspibe kridtpudset nu i tre Dage uden at ville tage den ned fra Pibestilladset; han havde beskaaret og sat ind nye Mundstykker og holdt Renselsesfest over Resten saavelsom over hele Tobaksbordets Askebeholdning, Petumsgrus og lavaartede Pibekrads. Han havde ladet Klokkeren gjøre sit bedste med at stemme Klaveret og sat to hvidmalede Bænke paa Trappen. Det stadig forsømte Sprinkelværk om Haven skinnede nu her og der med friske hvide Stokke som enkelte nye Tænder, der stikker af mellem en hel Rad af gamle graa. Gangene i Haven maatte feies og strøes, Gaardspladsen blev afsopet, og endelig den Lem sat over Brønden, som stadig skulde have været der i alle de Aar, Børnene var smaa.
@@ -3086,11 +3098,11 @@ Jonas Lie: Familien paa Gilje
      «Nu faar det være nok,» udstødte hun og tog Kurven noget besværet . . . «Det blir ikke videre med Ærterne iaar!» sukkede hun.
     </p>
    </div>
-   <div type="chapter" xml:id="7">
+   <div n="7" type="chapter" xml:id="NOR0006007">
     <head>
-     
+     <ref target="contents_7" type="contents" xml:id="chapter_7">
       VII.
-     
+     </ref>
     </head>
     <p>
      I Kjøkkenet paa Gilje herskede fuld Travelhed med Juleslagtningen . . .
@@ -3372,11 +3384,11 @@ Jonas Lie: Familien paa Gilje
      Han har begyndt at holde en fri Søndagsskole eller Foredrag for hvem, som vil, paa en Sal ude i Storgaden. Det er saadan noget, Du véd, som vækker Opsigt. Og Tante trækker alt paa Skulderen og forudser den Tid, da han vil forsvinde af det gode Selskab, skjønt hun selv altid har været den første til at interessere sig for ham og finde, at han kom med noget nyt. Det er saa inderlig lumpent af hende, synes jeg!» . . .
     </p>
    </div>
-   <div type="chapter" xml:id="8">
+   <div n="8" type="chapter" xml:id="NOR0006008">
     <head>
-     
+     <ref target="contents_8" type="contents" xml:id="chapter_8">
       VIII.
-     
+     </ref>
     </head>
     <p>
      Jørgens Reise maatte gaa for sig, før Slædeføret gik op; thi Førefaldet kunde vare til Sankthans, og at spendere Hestebenene i alt Telebruddet vilde være det rene Vanvid. Skulde han ikke gaa tabt af et helt Aar, maatte han ind itide og forberedes privat til Optagelse paa Skolen.
@@ -3574,11 +3586,11 @@ Jonas Lie: Familien paa Gilje
      «Aah, – der overfalder ingen hende!» brummede Kapteinen kjed . . .
     </p>
    </div>
-   <div type="chapter" xml:id="9">
+   <div n="9" type="chapter" xml:id="NOR0006009">
     <head>
-     
+     <ref target="contents_9" type="contents" xml:id="chapter_9">
       IX.
-     
+     </ref>
     </head>
     <p>
      Kapteinen havde havt et sandt Kjørpaa i Tjenesten lige fra isommer, da han og Løitnanten visiterede Teltboden samt Armatur og Vaaben paa Lægderne. Saa Korpseksercitien og endelig nu sidst Sessionen.
@@ -4074,11 +4086,11 @@ Jonas Lie: Familien paa Gilje
      Jeg for min Part maa sige, jeg véd ikke rigtig; jeg vil det baade nødig og gjerne» . . .
     </p>
    </div>
-   <div type="chapter" xml:id="10">
+   <div n="10" type="chapter" xml:id="NOR0006010">
     <head>
-     
+     <ref target="contents_10" type="contents" xml:id="chapter_10">
       X.
-     
+     </ref>
     </head>
     <p>
      Jo hastigere og stillere Brylluppet kunde gaa for sig, des ønskeligere, – udtalte Fogden. Det havde sin Betydning at komme alskens Udlægninger og Folkesnak i Forkjøbet. Man bøiede sig for et fuldført Faktum.
@@ -4321,11 +4333,11 @@ Jonas Lie: Familien paa Gilje
      Saa klippede hun den ene Side ud, der handlede om Jørgen. Det var dog værdt ved Leilighed at vise Jæger det. . . . Hun vidste retnu ikke i sit Hjertes Enfoldighed, hvad hun skulde tænke . . .
     </p>
    </div>
-   <div type="chapter" xml:id="11">
+   <div n="11" type="chapter" xml:id="NOR0006011">
     <head>
-     
+     <ref target="contents_11" type="contents" xml:id="chapter_11">
       XI.
-     
+     </ref>
     </head>
     <p>
      Alt var hvidt nu lige i Hjertet af Vinteren, hvidt fra Ruderne i Stuen til Haven og Voldene og Liderne, hvidt hvor Øiet gled opefter Fjeldkammene lige mod Himlen, der laa som en halvklar, matfrosset Rude og lukkede for det hele.
@@ -4558,11 +4570,11 @@ Jonas Lie: Familien paa Gilje
      Det var intet Raad for, – han maatte reise ned og selv fortælle Nyheden til Fogden!
     </p>
    </div>
-   <div type="chapter" xml:id="12">
+   <div n="12" type="chapter" xml:id="NOR0006012">
     <head>
-     
+     <ref target="contents_12" type="contents" xml:id="chapter_12">
       XII.
-     
+     </ref>
     </head>
     <p>
      Inger-Johanna skrev i de første Dage af Marts:
@@ -4867,11 +4879,11 @@ Jonas Lie: Familien paa Gilje
      Han fo'r med ét ud. Der maatte skaffes bort endel oppe paa hendes Værelse, saa hun ikke fik se, at der repareredes . . .
     </p>
    </div>
-   <div type="chapter" xml:id="13">
+   <div n="13" type="chapter" xml:id="NOR0006013">
     <head>
-     
+     <ref target="contents_13" type="contents" xml:id="chapter_13">
       XIII.
-     
+     </ref>
     </head>
     <p>
      Kompagnichefsgaarden stod der frisk rødmalet Sommeren udover oppe i Aasbrynet og saa udover Bygden; den var blevet som en hel Pryd.
@@ -5072,11 +5084,11 @@ Jonas Lie: Familien paa Gilje
      En Salve før og en efter Jordpaakastelsen forkyndte Bygden, at her laa Kaptein Peter Wennechen Jæger.
     </p>
    </div>
-   <div type="chapter" xml:id="14">
+   <div n="14" type="chapter" xml:id="NOR0006014">
     <head>
-     
+     <ref target="contents_14" type="contents" xml:id="chapter_14">
       XIV.
-     
+     </ref>
     </head>
     <p>
      Opimod et Snes Aar var gaat, og Trafiken nede paa Landhandler– og Giæstgiverstedet viste en hel anden Tidsmæssighed baade med Bygninger og Varer. Der var ogsaa begyndt at blive en Rute for reisende og Turister om Sommeren op igjennem Dalen.

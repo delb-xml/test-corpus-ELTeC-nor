@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0055" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0055" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Rikka Gan ELTeC-utgaven
     </title>
-    <author ref="59886290 https://www.wikidata.org/wiki/Q2338861">Jølsen, Ragnhild  (1875-1908)</author>
+    <author>
+     Jølsen, Ragnhild (1875-1908)
+     <idno type="viaf">
+      59886290
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q2338861
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,13 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
      <ref target="https://www.bokselskap.no/boker/rikkagan/tittelside">
       Utgaven er basert på Rikka Gan i bind I av Samlede skrifter fra 1923 (NB digital)
      </ref>
-     
-     
-    </bibl><bibl type="unspecified">
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         R. Jølsen
        </author>
@@ -61,7 +68,10 @@
        <idno type="wiki">
         None
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p n="eltec-0"/>
@@ -73,11 +83,11 @@
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>
@@ -95,7 +105,9 @@ Skrifter
     . Aschehoug, Oslo, 1909.
     Teksten er lastet ned
 gratis fra
-    
+    <ref target="www.bokselskap.no">
+     bokselskap.no
+    </ref>
    </p>
    <p>
     Ragnhild Jølsen
@@ -203,15 +215,15 @@ Bestyrer paa sit Gan.
    <p>
     Og denne Bestyrer blev Jon Torsen.
    </p>
-   <div type="unrecognized">
+   <div type="level1" xml:id="i.">
     <head>
-     
+     <ref target="#contents_2" xml:id="chapter_2">
       I.
-     
+     </ref>
     </head>
     <p/>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="i.-1">
     <head>
      I.
     </head>
@@ -355,7 +367,7 @@ Bestyrer paa sit Gan.
   gjentaget efter hende.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="ii.">
     <head>
      II.
     </head>
@@ -453,7 +465,7 @@ Bestyrer paa sit Gan.
   sprukken Klokke.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iii.">
     <head>
      III.
     </head>
@@ -692,7 +704,7 @@ Bestyrer paa sit Gan.
   Jomfru Rikka. Min mindste Klokke.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iv.">
     <head>
      IV.
     </head>
@@ -805,7 +817,7 @@ Bestyrer paa sit Gan.
   Torsen blev liggende tilsengs i en stor Sygdom fra denne Dag.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="v.">
     <head>
      V.
     </head>
@@ -959,7 +971,7 @@ Bestyrer paa sit Gan.
   Mennesker, dem forstod hun alligevel ikke.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="vi.">
     <head>
      VI.
     </head>
@@ -1102,7 +1114,7 @@ Bestyrer paa sit Gan.
   Adelsmands Kobberkar og planted det fuldt af de stærkeste Bregner.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="vii.">
     <head>
      VII.
     </head>
@@ -1313,15 +1325,15 @@ Bestyrer paa sit Gan.
   spildte Lykke paa Jord – ved en Hilsen fra ham, hun elsker.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="ii.-1">
     <head>
-     
+     <ref target="#contents_3" xml:id="chapter_3">
       II.
-     
+     </ref>
     </head>
     <p/>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="i.-2">
     <head>
      I.
     </head>
@@ -1491,7 +1503,7 @@ Bestyrer paa sit Gan.
   kneb Læberne til.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="ii.-2">
     <head>
      II.
     </head>
@@ -1582,7 +1594,7 @@ Bestyrer paa sit Gan.
   da, Inger.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iii.-1">
     <head>
      III.
     </head>
@@ -1728,7 +1740,7 @@ Bestyrer paa sit Gan.
   uhyggelig; men alligevel liker jeg hende.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iv.-1">
     <head>
      IV.
     </head>
@@ -1846,7 +1858,7 @@ Bestyrer paa sit Gan.
      «Først ler de,» sagde hun. «Siden graater de.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="v.-1">
     <head>
      V.
     </head>
@@ -1926,15 +1938,15 @@ Bestyrer paa sit Gan.
      «Riketta, Riketta – hun er som Ilden.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iii.-2">
     <head>
-     
+     <ref target="#contents_4" xml:id="chapter_4">
       III.
-     
+     </ref>
     </head>
     <p/>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="i.-3">
     <head>
      I.
     </head>
@@ -2195,7 +2207,7 @@ Bestyrer paa sit Gan.
      «Først ler de,» sagde hun sagte. «Siden graater de.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="ii.-3">
     <head>
      II.
     </head>
@@ -2312,7 +2324,7 @@ Bestyrer paa sit Gan.
   Vaa.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iii.-3">
     <head>
      III.
     </head>
@@ -2441,7 +2453,7 @@ Bestyrer paa sit Gan.
      Og kort efter sovned Jomfru Rikka og – sov sig Bedringen til.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iv.-2">
     <head>
      IV.
     </head>
@@ -2533,7 +2545,7 @@ Bestyrer paa sit Gan.
   Guds Haands Indgreb i hendes Levnet. – –
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="v.-2">
     <head>
      V.
     </head>
@@ -2665,15 +2677,15 @@ Bestyrer paa sit Gan.
   du i Fred for mig, Klokkedrageren i Ud.» – –
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iv.-3">
     <head>
-     
+     <ref target="#contents_5" xml:id="chapter_5">
       IV.
-     
+     </ref>
     </head>
     <p/>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="i.-4">
     <head>
      I.
     </head>
@@ -2726,7 +2738,7 @@ Bestyrer paa sit Gan.
   Uge for Uge i denne Stormens og Uveirets Tid. –
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="ii.-4">
     <head>
      II.
     </head>
@@ -2882,7 +2894,7 @@ Bestyrer paa sit Gan.
   Trærødder som i Rædsel.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iii.-4">
     <head>
      III.
     </head>
@@ -3026,7 +3038,7 @@ Bestyrer paa sit Gan.
      «Min Gud er i Veiret, Inger.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="iv.-4">
     <head>
      IV.
     </head>
@@ -3278,7 +3290,7 @@ Bestyrer paa sit Gan.
   smældte det stygt du!»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="v.-3">
     <head>
      V.
     </head>
@@ -3430,7 +3442,7 @@ Bestyrer paa sit Gan.
   –
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="vi.-1">
     <head>
      VI.
     </head>
@@ -3641,7 +3653,7 @@ Bestyrer paa sit Gan.
   faaet alt, som hun vilde. – –
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="vii.-1">
     <head>
      VII.
     </head>
@@ -3756,7 +3768,7 @@ Bestyrer paa sit Gan.
   Randen.
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="viii.">
     <head>
      VIII.
     </head>
@@ -3995,7 +4007,7 @@ Bestyrer paa sit Gan.
      Men da rodde de sig ind i et skumsort Mørke. – –
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="ix.">
     <head>
      IX.
     </head>
@@ -4131,7 +4143,7 @@ Bestyrer paa sit Gan.
      Han gjorde hende drukken af Malurt.»
     </p>
    </div>
-   <div type="unrecognized">
+   <div type="level1" xml:id="x.">
     <head>
      X.
     </head>
@@ -4182,7 +4194,7 @@ Bestyrer paa sit Gan.
   stilnet. – – –
     </p>
    </div>
-    <div type="chapter">
+    <div>
    <p>
     Ragnhild Jølsens
     Rikka Gan

@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0027" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0027" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Arbeidsfolk ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/54187212 https://www.wikidata.org/wiki/Q318358">Kielland, Alexander  (1849-1906)</author>
+    <author>
+     Kielland, Alexander (1849-1906)
+     <idno type="viaf">
+      https://viaf.org/viaf/54187212
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q318358
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,11 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
-     
-     
-     
-    </bibl><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
+     <ref target="bokselskap.no">
+      Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på prosjekt Runebergs versjon (http://runeberg.org/skipwors) og er korrekturlest mot faksimiler av 2. opplag i Bokhylla.no.
+     </ref>
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         A. L. Kielland
        </author>
@@ -59,7 +68,10 @@
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q58931082
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -71,11 +83,11 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2015-05-13" xml:id="ENW">
     Rettet noen feil i teksten. Rettet litt i kodingen og la inn entiteter for anf.tegn. Kodekontroll. Validert.
    </change>
@@ -86,7 +98,7 @@
  </teiHeader>
  <text type="novel" xml:id="ELTEC_HIOA_Kielland_Arbeidsfolk_tekst_xml_text">
   <body>
-   <div type="chapter" xml:id="1">
+   <div n="1" type="chapter" xml:id="NOR0027001">
     <head type="main">
      I.
     </head>
@@ -338,7 +350,7 @@
      Imidlertid øgede Heden jævnt udover Formiddagen oppe i Departementet, hvor Gamle Hansen sad alene i de to Værelser og duppede over sin Papirhoug.
     </p>
    </div>
-   <div type="chapter" xml:id="2">
+   <div n="2" type="chapter" xml:id="NOR0027002">
     <head type="main">
      II.
     </head>
@@ -661,7 +673,7 @@
      Der var ingen Utaalmodighed blandt Folket, som ventede; thi alle vidste, at en Thingmiddag er noget, som maa have sin Tid. –
     </p>
    </div>
-   <div type="chapter" xml:id="3">
+   <div n="3" type="chapter" xml:id="NOR0027003">
     <head type="main">
      III.
     </head>
@@ -878,7 +890,9 @@
     </p>
     <p>
      Sorenskriveren var fnysende gal og lod det gaa ud over Venner og Fiender. Gjennem de restende Sager for han som en Vind, og ve den, som
-     
+     <note type="footnote">
+      som] rettet fra: sam
+     </note>
      vilde opholde ham; han hægtede Uhret fra Vesten og lagde det foran sig paa Thingbordet.
     </p>
     <p>
@@ -1031,7 +1045,7 @@
      Den gamle brune saa ud som en vaad Kat, og han mindedes for et fint Fax, hun havde – den gulblakke og hvor trind og glat hun var over Hofterne.
     </p>
    </div>
-   <div type="chapter" xml:id="4">
+   <div n="4" type="chapter" xml:id="NOR0027004">
     <head type="main">
      IV.
     </head>
@@ -1258,7 +1272,7 @@
      Og Njædel, som ellers kunde snorke omkap med det stærkeste Tordenveir, blev forstyrret af Katten, som gik og jamtede i Kjøkkenet eller ovenpaa foran Kristines Kammerdør.
     </p>
    </div>
-   <div type="chapter" xml:id="5">
+   <div n="5" type="chapter" xml:id="NOR0027005">
     <head type="main">
      V.
     </head>
@@ -1497,7 +1511,7 @@
      Lauritz Boldeman Seehus.
     </p>
    </div>
-   <div type="chapter" xml:id="6">
+   <div n="6" type="chapter" xml:id="NOR0027006">
     <head type="main">
      VI.
     </head>
@@ -1755,7 +1769,7 @@
      Saasnart Alfred saa sin Fader træde ind, listede han sig ud i Entréen, fik fat paa sin Frak og forlod Huset.
     </p>
    </div>
-   <div type="chapter" xml:id="7">
+   <div n="7" type="chapter" xml:id="NOR0027007">
     <head type="main">
      VII.
     </head>
@@ -2052,7 +2066,7 @@
      Stemning og lovede hinanden under Taarer, at deres Venskab skulde vare evigt, – ikke engang deres fælles Kjærlighed til Sofie skulde formaa at skille dem. Derfra kom de over paa Barnedaaben, hvorom de disputerede meget heftigt, indtil de skiltes udpaa Morgenen.
     </p>
    </div>
-   <div type="chapter" xml:id="8">
+   <div n="8" type="chapter" xml:id="NOR0027008">
     <head type="main">
      VIII.
     </head>
@@ -2369,7 +2383,7 @@
      Men hvergang Doktoren naaede saa langt i sine Tanker, var det med noget, der lignede Beroligelse, han sagde: Ja – ja! – Det er jo ikke noget at spekulere over; hun bryder sig ikke et Gran om mig. –
     </p>
    </div>
-   <div type="chapter" xml:id="9">
+   <div n="9" type="chapter" xml:id="NOR0027009">
     <head type="main">
      IX.
     </head>
@@ -2687,7 +2701,7 @@
      De spiste da alle sin Middag i Taushed, – en Hverdagsmiddag – treven og uhyggelig.
     </p>
    </div>
-   <div type="chapter" xml:id="10">
+   <div n="10" type="chapter" xml:id="NOR0027010">
     <head type="main">
      X.
     </head>
@@ -3028,7 +3042,7 @@
      Men før de lagde sig til at sove, maatte Statsraaden afgive det Løfte, at saasnart Johan var reist, skulde han tvinge Mo til at sende Kristine bort, saaat hun kunde være ganske afveien og glemt, naar Johan kom tilbage fra Udlandet. –
     </p>
    </div>
-   <div type="chapter" xml:id="11">
+   <div n="11" type="chapter" xml:id="NOR0027011">
     <head type="main">
      XI.
     </head>
@@ -3286,7 +3300,7 @@
      Om Morgenen gav hun Farbror Anders sit ja.
     </p>
    </div>
-   <div type="chapter" xml:id="12">
+   <div n="12" type="chapter" xml:id="NOR0027012">
     <head type="main">
      XII.
     </head>
@@ -3407,7 +3421,9 @@
     </p>
     <p>
      Der Stadtrath Schultze aus Berlin undrede sig meget over dette. At man emigrerede fra Tyskland, kunde han vel forstaa; der havde man Krigstjeneste, Militærregjering, Socialisme, Bismarck og alskens Elendighed. Men her! – i dette skjønne, fredelige
-     
+     <note type="footnote">
+      fredelige] rettet fra: frededelige
+     </note>
      Land med sin bekjendte fri Forfatning – hvad kunde dog her være iveien?
     </p>
     <p>
@@ -3462,7 +3478,7 @@
      Solstraalerne faldt blaat og hemmelighedsfuldt paa det underlige Liv dernede og paa de lyse Sandflekker, som glimtede frem hist og her udover, indtil de tabte sig, og alt gik over i det store, dybe, uendelige Blaa.
     </p>
    </div>
-   <div type="chapter" xml:id="13">
+   <div n="13" type="chapter" xml:id="NOR0027013">
     <head type="main">
      XIII.
     </head>
@@ -3757,7 +3773,7 @@
      Kristine slukkede Lyset og gik hen og aabnede for ham.
     </p>
    </div>
-   <div type="chapter" xml:id="14">
+   <div n="14" type="chapter" xml:id="NOR0027014">
     <head type="main">
      XIV.
     </head>
@@ -4028,7 +4044,7 @@
      «Men Mo!» – raabte Statsraaden, «jeg tror ved Gud, De begynder at blive gammel!»
     </p>
    </div>
-   <div type="chapter" xml:id="15">
+   <div n="15" type="chapter" xml:id="NOR0027015">
     <head type="main">
      XV.
     </head>
@@ -4250,11 +4266,13 @@
      Men Smilet blev liggende over de vansirede Træk og gjorde hende i hans Øine skjøn som i fordums Dage.
     </p>
    </div>
-   <div type="chapter" xml:id="16">
+   <div n="16" type="chapter" xml:id="NOR0027016">
     <head type="main">
      [XVI.]
     </head>
-    
+    <note type="footnote">
+     XVI.] rettet fra: XVII. (feilnummerert i originalen)
+    </note>
     <p>
      <pb n="216"/>
      Det store Postdampskib, som kom fra Kristiania og skulde helt op til Tromsø, gik ud gjennem Flekkefjorden en regntung Stormnat i April.
@@ -4356,7 +4374,7 @@
      Mand; og fra Postmesterens lille, lune Lugar spredtes over Land og Strand en Sværm af Overraskelser, Skuffelser, Vrøvl, Sorg, Ruin og uventet Lykke, medens Dampskibet arbeidede videre og videre nordover, og den søvnige Postmester kom op med en ny Pose ved hvert Stoppested.
     </p>
    </div>
-   <div type="chapter" xml:id="17">
+   <div n="17" type="chapter" xml:id="NOR0027017">
     <head type="main">
      XVII.
     </head>
@@ -4570,7 +4588,7 @@
      I sit stille Sind tænkte Lodsoldermanden, at igrunden var det sletikke saa galt at komme til Kristiania. Først for Kristines Skyld; men dernæst havde han et hemmeligt Haab om, at derinde i Hovedstaden maatte det vel tilslut lykkes ham at faa Tag i den, som stod over alle Lensmænd, Rodemeistere og Kafteiner. Det skulde dog være morsomt at vide, om det gik an i Norges Land og Rige at lade en Vei ligge slig som denne. –
     </p>
    </div>
-   <div type="chapter" xml:id="18">
+   <div n="18" type="chapter" xml:id="NOR0027018">
     <head type="main">
      XVIII.
     </head>
@@ -4855,7 +4873,7 @@
      Dermed gik han sin Vei.
     </p>
    </div>
-   <div type="chapter" xml:id="19">
+   <div n="19" type="chapter" xml:id="NOR0027019">
     <head type="main">
      XIX.
     </head>
@@ -5301,7 +5319,7 @@
      Men det blev enstemmigt vedtaget, at Mortensens Plads skulde kaldes «Wartburg» og at «den monumentale Blækklat» aldrig maatte udslettes eller overtrækkes. Og saa fast klæbede den ved Mortensens Plads – endog længe efterat Mortensen havde ombyttet den med en bedre, at der var al Udsigt til, at baade Blækklatten og Hiorths Vittighed vilde bestaa, saalænge Departementet bestod; – og det vil da igjen sandsynligvis sige: ganske nær indunder Dommedag.
     </p>
    </div>
-   <div type="chapter" xml:id="20">
+   <div n="20" type="chapter" xml:id="NOR0027020">
     <head type="main">
      XX.
     </head>
@@ -5630,7 +5648,7 @@
      I Trappen indhentedes han af Extraskriverne Hiorth &amp; Bennechen, der kom farende ned fra Loftet. De havde «med Livsfare» plantet et stort Flag oppe paa Taget. –
     </p>
    </div>
-   <div type="chapter" xml:id="21">
+   <div n="21" type="chapter" xml:id="NOR0027021">
     <head type="main">
      XXI.
     </head>
@@ -5777,7 +5795,7 @@
      «Kongen kommer –» sagde Opvartningspigen. Hun var muggen, fordi hun maatte blive i Kjælderen og opvarte disse to Bønder istedetfor at løbe og se paa Stadsen.
     </p>
    </div>
-   <div type="chapter" xml:id="22">
+   <div n="22" type="chapter" xml:id="NOR0027022">
     <head type="main">
      XXII.
     </head>
@@ -6015,7 +6033,7 @@
      Og medens de høitidelige en og tyve Skud drønede over Hovedstaden, dampede Udvandrerskibet ud gjennem Fjorden, og den tykke gule Røg fra Kanonerne indhyllede Fæstningen og trykkede sig ned over Hustagene i den graa, regnfulde Morgenstund.
     </p>
    </div>
-   <div type="chapter" xml:id="23">
+   <div n="23" type="chapter" xml:id="NOR0027023">
     <head type="main">
      XXIII.
     </head>
