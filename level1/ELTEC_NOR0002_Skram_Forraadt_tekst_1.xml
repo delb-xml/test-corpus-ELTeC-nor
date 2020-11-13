@@ -1,21 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
-<TEI xml:id="NOR0002" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0002" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Forraadt ELTeC-utgaven
     </title>
-    <author>
-     Skram, Amalie (1846-1905)
-     <idno type="viaf">
-      64021492
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q291676
-     </idno>
-    </author>
+    <author ref="64021492 https://www.wikidata.org/wiki/Q291676">Skram, Amalie  (1846-1905)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -41,16 +36,13 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
+   <sourceDesc><bibl type="unspecified">
      <ref target="https://www.bokselskap.no/boker/forraadt/tittelside">
       Teksten i bokselskap.no følger førsteutgaven fra 1892 og er basert på skannet og ocr-lest fil mottatt fra Nasjonalbiblioteket/Bokhylla.no.
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         A. Skram
        </author>
@@ -70,10 +62,7 @@ Amalie Skram: Forraadt.
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q17157170
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -85,11 +74,11 @@ Amalie Skram: Forraadt.
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2011-03-17">
     Ført inn Ingvilds korrekturresultater. Kodekontroll.
    </change>
@@ -100,11 +89,11 @@ Amalie Skram: Forraadt.
  </teiHeader>
  <text type="novel" xml:id="BS_Skram_Forraadt_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0002001">
+   <div type="chapter" xml:id="1">
     <head>
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       I.
-     </ref>
+     
     </head>
     <p>
      «Naa Riber, er Du allerede færdig?» spurgte Ingstad sin Svigersøn, den store, brudgomsklædte Kaptejn Riber, der med sit blonde Helskæg, sine godmodige, lidt skjæve Øjne og den brede, gulhvide Skaldepande, nærmest ligned en Russer.
@@ -483,11 +472,11 @@ Amalie Skram: Forraadt.
      «Sig saa til Riber, at jeg er færdig,» sa Ory langsomt og dumpt.
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0002002">
+   <div type="chapter" xml:id="2">
     <head>
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       II.
-     </ref>
+     
     </head>
     <p>
      Kort efter kjørte Ory afsted med sin Brudgom, som sad lidt fremoverbøjet med opknappet Overfrakke og Hatten i Nakken.
@@ -855,11 +844,11 @@ Amalie Skram: Forraadt.
      Da de var naat tilbage til Værelset med den gamle Brudeseng, klædte hun sig rolig af og la sig. Et Øjeblik efter var hun tæt omslynget af Ribers stærke Arme.
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0002003">
+   <div type="chapter" xml:id="3">
     <head>
-     <ref target="contents_3" type="contents" xml:id="chapter_3">
+     
       III.
-     </ref>
+     
     </head>
     <p>
      Ar'n't you hungry, Mrs. Reiber?
@@ -1251,11 +1240,11 @@ Amalie Skram: Forraadt.
      fra?»
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0002004">
+   <div type="chapter" xml:id="4">
     <head>
-     <ref target="contents_4" type="contents" xml:id="chapter_4">
+     
       IV.
-     </ref>
+     
     </head>
     <p>
      Ory laa vaagen i den høje, brede Himmelseng. Hun havde saa længe havt Hænderne stukket ind under Nakken, at det gjorde ondt i Armhulerne og værked for Brystet. Alligevel tænkte hun ikke paa at forandre Stilling; hun var saa fordybet i Aftenens Oplevelser, at hun maatte gjennemgaa dem om igjen og om igjen, fra først til sidst. Og under hendes Grublen, der knuged og pinte, bruste Straussvalsen for fuldt Orkester uafladelig igjennem hendes Hjerne og vugged hende afsted, svulmende blødt og hvirvlende vildt paa sine stolte, glædedrukne Bølger.
@@ -1445,11 +1434,11 @@ Amalie Skram: Forraadt.
      «Hør Du, Ory,» sa Riber, da de en Stund efter sad hver paa sin Sengekant med Ryggen mod hinanden og trak Strømperne paa – «her i London kunde man trænge at gaa i Bad mindst to Ganger om Dagen. Dette Kulstøvet trænger ind overalt.»
     </p>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0002005">
+   <div type="chapter" xml:id="5">
     <head>
-     <ref target="contents_5" type="contents" xml:id="chapter_5">
+     
       V.
-     </ref>
+     
     </head>
     <p>
      Der var gaat en Uge, og i den Tid havde Riber flere Ganger gjort sig tidlig færdig med sine Forretninger og var tat ud med Ory til nogle af Londons Seværdigheder, hvorefter de saa havde endt Aftenen i et eller andet Teater. Hver Gang var Riber kommen skuffet og misfornøjet hjem fra disse Udflugter. Ory havde vært saa forknyt og stille, at der havde lagt sig som et Tryk over hans Sind. Hændte det, at hun en Stund saa glad og intreseret ud og kom med nogle Spørsmaal, saa vips kunde det være som strøget af hende, uden at han ante, hvad der var Grunden, og saa blev hun gaa ende med en Klemme for Munden Resten af Dagen. Som dengang da Regnskyllet overfaldt dem oppe i Hyde Park, og Ory var bleven saa vaad, at de maatte paa Hotel og forlange Værelse for at faa tørret hendes Tøj. Hun havde siddet saa sød og fornøjet foran Ilden i Kaminen og havde lét af hans Vittigheder, da han trak hendes Sko af og hang dem op paa Ildtangen. Og hele Tiden mens de spiste Middag og snakte sammen, var hun blid og kvik, indtil pludselig da de gik ned over Trapperne og den uskyldige Bemærkningen var undsluppet ham, at det første Opvarteren gjorde, naar de var gaat, var at se efter, om Sengen var urørt – da var den kommen over hende denne ulidelige Mørkheden og Tausheden, og siden havde det ikke vært muligt at slaa et Smil eller et Muk af hende. – Noksaa underligt Menneske den Ory. – Gud maatte vide, hvad hun egentlig gik og ruged over.
@@ -1803,11 +1792,11 @@ Amalie Skram: Forraadt.
      Ory følte sig trykket og trist, og som hun sad der i Kupeen mellem disse fremmede, halvsovende eller engelsksnakkende Mennesker, blev hun grebet af en ulidelig Hjemve. Hun vendte Hodet til Siden for at Riber, hvis Blik hun følte hvile forskende paa sig, ikke skulde se at hun kjæmped mod Graaden og hvert Øjeblik fik fugtige Øjne.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0002006">
+   <div type="chapter" xml:id="6">
     <head>
-     <ref target="contents_6" type="contents" xml:id="chapter_6">
+     
       VI.
-     </ref>
+     
     </head>
     <p>
      Da de kom hjem, syntes Ory, det var for tidlig at gaa i Seng, og vilde sidde lidt i deres Stue nedenunder. Riber tændte Gassen, la Hat og Frakke midt paa Bordet og hjalp Ory Tøjet af. Saa satte han sig paa en Stol ved Døren og faldt i Tanker.
@@ -2117,11 +2106,11 @@ Amalie Skram: Forraadt.
      «Du skal faa et Skriftemaal saa helt og fuldstændigt som nogen kan gi det i Verden, Aurora. Men inat taaler ingen af os mere. Det maa være, til vi kommer paa Sjøen og har fint Vejr en Dag. Imorgen skal vi jo sejle.»
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0002007">
+   <div type="chapter" xml:id="7">
     <head>
-     <ref target="contents_7" type="contents" xml:id="chapter_7">
+     
       VII.
-     </ref>
+     
     </head>
     <p>
      Tøjet var sendt ombord, og Ory og Riber havde tat Afsked med Værtinden, hvorpaa de sammen var gaat ud for at kjøbe nogle Smaating inden Afrejsen.
@@ -2522,11 +2511,11 @@ Amalie Skram: Forraadt.
      «Er De gal! Hal dem bare nedover til Gravesend det forteste I kan.
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0002008">
+   <div type="chapter" xml:id="8">
     <head>
-     <ref target="contents_8" type="contents" xml:id="chapter_8">
+     
       VIII.
-     </ref>
+     
     </head>
     <p>
      Ory steg ned ad Trappen, der i en Krumning sprang frem i den skumle Forkahyt, som brugtes til Spiserum. I Midten var et aflangt voksdugsklædt Bord og paa begge Sider Sofabænke, hvis Rygstød vendte forskjellig Vej. Tilvenstre stod Døren aaben til Stertsen, hvor Taget hang fuldt af Kander og Krus. Der saa ikke videre rent ud, og der lugted ubehageligt af Røg.
@@ -3173,11 +3162,11 @@ Amalie Skram: Forraadt.
      Riber lukked Øjnene og lod sit Ansigt falde ned paa hendes Skulder. «Lad mig hvile her bestandig,» hvisked han. «Andet steds er der ikke Fred for mig at finde.»
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0002009">
+   <div type="chapter" xml:id="9">
     <head>
-     <ref target="contents_9" type="contents" xml:id="chapter_9">
+     
       IX.
-     </ref>
+     
     </head>
     <p>
      Det blæste en forrygende Storm af Sydvest. Riber stod agterud paa det svajende Dæk og holdt sig fast i Kanten af Kappen, mens han af og til plired op i den sorte, med skiddengule Flager isprængte Luft. Hundevagten, som nylig var kommen paa Dækket, havde gjort fast de dobbeltrevede Merssejl og sat Stumperne til. Om Eftermiddagen var de kommen klar af Kanalen, som de havde maattet krydse sig igjennem, og idet de slap ud paa Spanskesjøen, var de bleven mødt af et krapt Hav, med svære Underdønninger, der kom væltende fra alle Kanter. Samtidig havde Vinden tat til i Styrke.
@@ -3489,11 +3478,11 @@ Amalie Skram: Forraadt.
      Jaja, nu fik hun se. Hun vendte sig om paa Siden, stemmed Knæerne mod Væggen for at ligge stødigere, og gisped. Sandelig var hun ikke blet søvnig. Og nu gik Skuden roligere. I Grunden laa hun som i en Gynge, der vugged hende frem og tilbage.
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0002010">
+   <div type="chapter" xml:id="10">
     <head>
-     <ref target="contents_10" type="contents" xml:id="chapter_10">
+     
       X.
-     </ref>
+     
     </head>
     <p>
      Ved Kappen stod Styrmanden og keg gjennem Sekstanten op mod den glødende Solskive for at ta Middagshøjden. Vinden var agterlig, og Skuden, som havde alle Sejl til, løb 8 Mil.
@@ -3680,11 +3669,11 @@ Amalie Skram: Forraadt.
      «Ja nok ud af det,» nikked Styrmanden. «Eneherskeren er gaat nedenom og hjem og der er knapt nok blet en almindelig Kaftejn tilbage. Faar vi saa den Kaffetaaren, Gut!» Styrmændene gik ind i sit Kammer og stopte sine Snadder.
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0002011">
+   <div type="chapter" xml:id="11">
     <head>
-     <ref target="contents_11" type="contents" xml:id="chapter_11">
+     
       XI.
-     </ref>
+     
     </head>
     <p>
      Inde i Salonen sad Riber i Sofahjørnet med en lang, utændt Pibe i Haanden. Han saa frem for sig med et træt Blik. Af og til sukked han tungt og flytted sig i Sædet, stille og forsigtig, som var han bange for at gjøre Støj. Udenfor Agtervinduerne, hvis Luger var borte, blaaned Havet, og ned igjennem det aabne Skylight strømmed Lyset og Solskinnet, og fyldte Rummet med en gylden Glans.
@@ -4237,9 +4226,7 @@ Amalie Skram: Forraadt.
     </p>
     <p>
      «Kan Du nu ikke fortælle mig det,» bad Ory. «Bare denne ene, ene Gangen.
-     <note type="footnote">
-      Manglende sluttanførselstegn.
-     </note>
+     
     </p>
     <p>
      «Aldrig har jeg vidst, at et Barn kunde være en saa grusom Bøddel,» sa Riber med en stille Hoderysten. «Ja for et Barn er Du, og det er din eneste Undskyldning.» Han vendte sig og forlod hende.
@@ -4248,11 +4235,11 @@ Amalie Skram: Forraadt.
      Ory saa efter ham. Han gik helt forover og steg op paa Bakken. Der blev han siddende i flere Timer.
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0002012">
+   <div type="chapter" xml:id="12">
     <head>
-     <ref target="contents_12" type="contents" xml:id="chapter_12">
+     
       XII.
-     </ref>
+     
     </head>
     <p>
      I elleve Dager havde «Orion» ligget for Vindstille i Floridabugtens døde Vande. Luften var kvælende tung, og Solvarmen saa glødende, at Begen smelted i Dæksnaterne. Folkene var brunstegte; de gik med bare Fødder paa det brændende varme Dæk, og endskjønt de kun havde en Bomuldsbusserul og en Lærredsbukse paa, silte Sveden af dem.

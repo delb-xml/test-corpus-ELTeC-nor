@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0001" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0001" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Garman &amp; Worse ELTeC-utgaven
     </title>
-    <author>
-     Kielland, Alexander (1849-1906)
-     <idno type="viaf">
-      https://viaf.org/viaf/54187212
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q318358
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/54187212 https://www.wikidata.org/wiki/Q318358">Kielland, Alexander  (1849-1906)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,13 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
+   <sourceDesc><bibl type="digitalSource">
      <ref target="http://www.bokselskap.no/boker/forraadt/tittelside">
       Teksten i bokselskap.no er basert p&amp;#x00E5; skannet og ocr-lest txt-fil mottatt fra NB/bokhylla.no.
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         A. L. Kielland
        </author>
@@ -71,10 +64,7 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q21473314
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -86,11 +76,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2013-05-16">
     Rettet ca 40 skanne-/tastefeil i de to siste kapitlene (oppdaget og innsendt av en bruker). Validert. Sender oppdatert fil til Bodil.
    </change>
@@ -104,11 +94,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
  </teiHeader>
  <text type="novel" xml:id="BS_Kielland_GarmanOgWorse_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0001001">
+   <div type="chapter" xml:id="1">
     <head>
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       I.
-     </ref>
+     
     </head>
     <p>
      <pb n="1"/>
@@ -304,11 +294,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      sagde den gamle Herre beroliget, «det er godt, at de har en med sig – i enhver Henseende.
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0001002">
+   <div type="chapter" xml:id="2">
     <head>
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       II.
-     </ref>
+     
     </head>
     <p>
      <pb n="16"/>
@@ -609,11 +599,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Den næste Dag red han altsaa til Byen.
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0001003">
+   <div type="chapter" xml:id="3">
     <head>
-     <ref target="contents_3" type="contents" xml:id="chapter_3">
+     
       III.
-     </ref>
+     
     </head>
     <p>
      <pb n="31"/>
@@ -803,11 +793,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      enhver kunde jo høre, at det var Løgn – da vilde han – Budet – tydeligt have hørt Konsulen – Unge-Konsulen – sprude ud i en liden kort, men tydelig Latter. Dette var naturligvis en Misforstaaelse; enhver vidste, at Unge-Konsulen ikke kunde le. –
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0001004">
+   <div type="chapter" xml:id="4">
     <head>
-     <ref target="contents_4" type="contents" xml:id="chapter_4">
+     
       IV.
-     </ref>
+     
     </head>
     <p>
      <pb n="46"/>
@@ -1030,11 +1020,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Men en Timestid efter mødte de begge ved Middagsbordet, – Legationssekretæren friseret og pyntet – med sit forbindtlige Diplomatsmil, – Konsulen stram, høitidelig og korrekt ud i Fingerspidserne. –
     </p>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0001005">
+   <div type="chapter" xml:id="5">
     <head>
-     <ref target="contents_5" type="contents" xml:id="chapter_5">
+     
       V.
-     </ref>
+     
     </head>
     <p>
      <pb n="57"/>
@@ -1258,11 +1248,7 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
     <p>
      <pb n="71"/>
      «Hjemmene ere jo forskjellige»,
-     <note type="footnote">
-      forskjellige»,]
-      rettet fra
-      : forskjellige,
-     </note>
+     
      sagde Johnsen; det var første Gang, han sagde noget, som Rachel ikke fandt kraftigt nok.
     </p>
     <p>
@@ -1306,11 +1292,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Men Gabriel stjal sig en Cigar og vandrede glad og søndagsmæt ned paa Værftet, for at inspicere Skibet og snakke engelsk med Mr. Robson.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0001006">
+   <div type="chapter" xml:id="6">
     <head>
-     <ref target="contents_6" type="contents" xml:id="chapter_6">
+     
       VI.
-     </ref>
+     
     </head>
     <p>
      <pb n="75"/>
@@ -1622,11 +1608,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Men endnu længe lyste den lille røde Glo i Lampevægen, medens Røgen i tyndere og tyndere Spiraler svirrede muntert opigjennem Glasset og spredtes i Mørket. –
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0001007">
+   <div type="chapter" xml:id="7">
     <head>
-     <ref target="contents_7" type="contents" xml:id="chapter_7">
+     
       VII.
-     </ref>
+     
     </head>
     <p>
      <pb n="96"/>
@@ -1933,11 +1919,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Fru Fanny vendte sig mod Madeleine, der ryddede paa Bordet, og betragtede hende nøie.
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0001008">
+   <div type="chapter" xml:id="8">
     <head>
-     <ref target="contents_8" type="contents" xml:id="chapter_8">
+     
       VIII.
-     </ref>
+     
     </head>
     <p>
      <pb n="114"/>
@@ -2270,11 +2256,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      – En liden Stund efter snorkede de gamle Herrer fredeligt sammen
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0001009">
+   <div type="chapter" xml:id="9">
     <head>
-     <ref target="contents_9" type="contents" xml:id="chapter_9">
+     
       IX.
-     </ref>
+     
     </head>
     <p>
      <pb n="135"/>
@@ -2509,11 +2495,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Rachel stod længe og saa efter ham indover Alléen. Endelig havde hun truffet en Mand, som turde vove noget. Det havde aldrig Jacob Worse havt Mod til!
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0001010">
+   <div type="chapter" xml:id="10">
     <head>
-     <ref target="contents_10" type="contents" xml:id="chapter_10">
+     
       X.
-     </ref>
+     
     </head>
     <p>
      <pb n="150"/>
@@ -2827,11 +2813,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      hvilket var blevet en Vane hos hende – gik der et tilfreds Smil over hendes Ansigt. Rollerne vare ombyttede uden at Madeleine havde mærket det, og nu kunde Stykket spilles, thi nu fandt den smukke Frue, at Rollerne vare komne i de rette Hænder.
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0001011">
+   <div type="chapter" xml:id="11">
     <head>
-     <ref target="contents_11" type="contents" xml:id="chapter_11">
+     
       XI.
-     </ref>
+     
     </head>
     <p>
      <pb n="169"/>
@@ -3072,11 +3058,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      – Mandag og Tirsdag gik Rachel i en feberagtig Spænding; noget maatte ske – syntes hun. Stemningen var mod Johnsen, men det maatte sikkert komme stærkere frem. Hun vidste, at han vilde søge hende; hvad det saa blev til –; og hun ventede ham. –
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0001012">
+   <div type="chapter" xml:id="12">
     <head>
-     <ref target="contents_12" type="contents" xml:id="chapter_12">
+     
       XII.
-     </ref>
+     
     </head>
     <p>
      <pb n="187"/>
@@ -3237,10 +3223,7 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
     </p>
     <p>
      Hannerne sad hist og her i Sivet, speidende til alle Sider med de fremstaaende Øine. Naar to kom hinanden for nær, styrtede de mod hverandre; de klare Vinger som fine – fine Plader af Kraagesølv
-     <note type="footnote">
-      Marieglas.
-      Argyrolithus.
-     </note>
+     
      slog mod hinanden med en Hvislen, og det raslede saa smaat, naar de skjællede Kroppe stødte sammen i Kampen. Saa blev der igjen stille i Sivet, indtil der nærmede sig en Hunlibelle.
     </p>
     <p>
@@ -3323,11 +3306,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Lydløst som det var kommet gled Spøgelset ud igjen, og Døren lukkedes. –
     </p>
    </div>
-   <div n="13" type="chapter" xml:id="NOR0001013">
+   <div type="chapter" xml:id="13">
     <head>
-     <ref target="contents_13" type="contents" xml:id="chapter_13">
+     
       XIII.
-     </ref>
+     
     </head>
     <p>
      <pb n="201"/>
@@ -3501,11 +3484,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Hun trakk Gardinerne fra; der stod Karaffelen – og Glasset ogsaa. Den smukke Frue udstødte et Lettelsens Suk; men Madeleine laa længe og stirrede paa Karaffelen uden at kunne begribe det hele. –
     </p>
    </div>
-   <div n="14" type="chapter" xml:id="NOR0001014">
+   <div type="chapter" xml:id="14">
     <head>
-     <ref target="contents_14" type="contents" xml:id="chapter_14">
+     
       XIV.
-     </ref>
+     
     </head>
     <p>
      <pb n="213"/>
@@ -3543,11 +3526,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      October og November gik hen paa denne Maade, og Folk, som vare vittige, sagde, at de havde glemt; hvorledes Solen saa ud. –
     </p>
    </div>
-   <div n="15" type="chapter" xml:id="NOR0001015">
+   <div type="chapter" xml:id="15">
     <head>
-     <ref target="contents_15" type="contents" xml:id="chapter_15">
+     
       XV.
-     </ref>
+     
     </head>
     <p>
      <pb n="216"/>
@@ -3608,12 +3591,7 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
     </p>
     <p>
      – Pastor Martens's
-     <note type="footnote">
-      t
-      i
-      Martens's
-      utydelig i 1. utgave
-     </note>
+     
      Frieri fuldstændiggjorde den pinlige Tilstand, hvori Madeleine havde levet siden hin Maaneskinsaften ihøst. Og alligevel kunde Kapellanen paa en vis Maade have Ret, naar han syntes, at Madeleine var kommen ham imøde med Venlighed. Der laa nemlig i den næsten faderlige Velvilje, hvormed han behandlede hende, noget, som beroligede hendes forskræmte Hjerte; hun trængte til at føle fuld Tillid til nogen; og den rolige, alvorlige Præstemand syntes hende at være saa fjern fra alt det, hun
      <pb n="220"/>
      ved hin Opdagelse havde faaet saamegen Afsky for.
@@ -3888,11 +3866,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      – Rachel vilde ogsaa gjerne taget hjem strax. Men Fru Garman havde hørt, at den nye Restauratør i Klubben kunde en ny Filét, og derfor maatte de vente til efter Aftensbordet. –
     </p>
    </div>
-   <div n="16" type="chapter" xml:id="NOR0001016">
+   <div type="chapter" xml:id="16">
     <head>
-     <ref target="contents_16" type="contents" xml:id="chapter_16">
+     
       XVI.
-     </ref>
+     
     </head>
     <p>
      <pb n="236"/>
@@ -4067,11 +4045,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Nedenunder gik Bedstefaderen og rumsterede, mens han drak op Ølslumperne. Marianne foldede sine Hænder og bad, at hun maatte faa dø; men udpaa Natten for hun op, hun var bankende hed og skjælvede over hele Kroppen; hun syntes høre Raab og Lyden af mange Mennesker. –
     </p>
    </div>
-   <div n="17" type="chapter" xml:id="NOR0001017">
+   <div type="chapter" xml:id="17">
     <head>
-     <ref target="contents_17" type="contents" xml:id="chapter_17">
+     
       XVII.
-     </ref>
+     
     </head>
     <p>
      <pb n="247"/>
@@ -4264,11 +4242,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Jomfru Cordsen pressede sine Læber sammen og rettede sig op, og saa bar hun ham som et Barn paa de lange tørre Arme gjennem Værelserne – alle Døre stod aabne – helt ud paa Trappegangen. Her fik hun raabe ned til en af Pigerne, som kom og hjalp hende.
     </p>
    </div>
-   <div n="18" type="chapter" xml:id="NOR0001018">
+   <div type="chapter" xml:id="18">
     <head>
-     <ref target="contents_18" type="contents" xml:id="chapter_18">
+     
       XVIII.
-     </ref>
+     
     </head>
     <p>
      <pb n="258"/>
@@ -4444,11 +4422,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Han lagde nøie Mærke til, hvad Klokken var paa Kirkeuhret, og han gik allerede og gjorde op med sig selv, hvorledes han skulde svare Politimesteren; thi det anede ham, at han vilde komme paa Brandforhør. –
     </p>
    </div>
-   <div n="19" type="chapter" xml:id="NOR0001019">
+   <div type="chapter" xml:id="19">
     <head>
-     <ref target="contents_19" type="contents" xml:id="chapter_19">
+     
       XIX.
-     </ref>
+     
     </head>
     <p>
      <pb n="258"/>
@@ -4614,11 +4592,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      bestille med Martin. Han var sluppen fri for Politi og Dom – de store Fællesfiender –; men han var alligevel en mærket Mand blandt Sine; og hans Venner betydede ham uden Omsvøb, at nu gjorde han bedst i at pakke sig af Landet jo før jo heller. –
     </p>
    </div>
-   <div n="20" type="chapter" xml:id="NOR0001020">
+   <div type="chapter" xml:id="20">
     <head>
-     <ref target="contents_20" type="contents" xml:id="chapter_20">
+     
       XX.
-     </ref>
+     
     </head>
     <p>
      <pb n="277"/>
@@ -4684,11 +4662,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Det var de sidste Ord, han sagde; thi før Doktoren fik hentet de andre ind i Sygeværelset, var Unge-Konsulen død – rolig og korrekt som han havde levet. –
     </p>
    </div>
-   <div n="21" type="chapter" xml:id="NOR0001021">
+   <div type="chapter" xml:id="21">
     <head>
-     <ref target="contents_21" type="contents" xml:id="chapter_21">
+     
       XXI.
-     </ref>
+     
     </head>
     <p>
      <pb n="281"/>
@@ -4868,11 +4846,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Madam Rasmussen bestemte sig til at brodere nogle Puder til at lægge i Vinduskarmen; thi Kapellanen taalte ikke Træk. –
     </p>
    </div>
-   <div n="22" type="chapter" xml:id="NOR0001022">
+   <div type="chapter" xml:id="22">
     <head>
-     <ref target="contents_22" type="contents" xml:id="chapter_22">
+     
       XXII.
-     </ref>
+     
     </head>
     <p>
      <pb n="291"/>
@@ -5151,11 +5129,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Og det var den Nyhed, at Pastor Martens gik med Paryk. Man kunde næsten ikke tro det; men det var ganske vist; Madam Rasmussen havde selv fortalt det.
     </p>
    </div>
-   <div n="23" type="chapter" xml:id="NOR0001023">
+   <div type="chapter" xml:id="23">
     <head>
-     <ref target="contents_23" type="contents" xml:id="chapter_23">
+     
       XXIII.
-     </ref>
+     
     </head>
     <p>
      <pb n="306"/>
@@ -5366,11 +5344,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      Præsten skrævede videre over Gravene. Der var endnu et Par Fattiglig, og Klokken var mange. –
     </p>
    </div>
-   <div n="24" type="chapter" xml:id="NOR0001024">
+   <div type="chapter" xml:id="24">
     <head>
-     <ref target="contents_24" type="contents" xml:id="chapter_24">
+     
       XXIV.
-     </ref>
+     
     </head>
     <p>
      <pb n="321"/>
@@ -5618,11 +5596,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      stivede Kappestrimler, de tørrede Lavendler fulgte hende, hvor hun gik, og alle Husets Hemmeligheder laa vel forvarede sammen med hendes egne; og den fast sammenpressede Mund med de utallige smaa Rynker var en sikker Laas til det sidste.
     </p>
    </div>
-   <div n="25" type="chapter" xml:id="NOR0001025">
+   <div type="chapter" xml:id="25">
     <head>
-     <ref target="contents_25" type="contents" xml:id="chapter_25">
+     
       XXV.
-     </ref>
+     
     </head>
     <p>
      <pb n="337"/>
@@ -5910,11 +5888,11 @@ Teksten i bokselskap.no følger 1. utgave, 1880. Digitaliseringen er basert på 
      </l>
     </quote>
    </div>
-   <div n="26" type="chapter" xml:id="NOR0001026">
+   <div type="chapter" xml:id="26">
     <head>
-     <ref target="contents_26" type="contents" xml:id="chapter_26">
+     
       XXVI.
-     </ref>
+     
     </head>
     <p>
      <pb n="352"/>

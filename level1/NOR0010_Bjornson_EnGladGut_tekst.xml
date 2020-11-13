@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0010" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0010" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      En Glad Gut ELTeC-utgaven
     </title>
-    <author>
-     Bjørnson, Bjørnstjerne Matrtinius (1832-1910)
-     <idno type="viaf">
-      https://viaf.org/viaf/295290572
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q46405
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/295290572 https://www.wikidata.org/wiki/Q46405">Bjørnson, Bjørnstjerne Matrtinius  (1832-1910)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,13 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
+   <sourceDesc><bibl type="unspecified">
      <ref target="https://www.bokselskap.no/boker/engladgut/tittelside">
       Tekstgrunnlaget for denne utgaven er et særtrykk &amp;#x00AB;ved Udvalget for Folkeoplysnings Fremme&amp;#x00BB; fra 1868.
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         B. M. Bjørnson
        </author>
@@ -69,10 +62,7 @@
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q11967394
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -84,11 +74,11 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="short"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T2"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2010-12-08">
     Ført inn kollasjonsresultatene og lagt til innholdsfortegnelse. Kjapp kodekontroll.
    </change>
@@ -102,9 +92,9 @@
    <div type="chapter">
     <head>
      <pb n="3"/>
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       Første Kapitel.
-     </ref>
+     
     </head>
     <p>
      Øyvind hedte han og græd, da han blev født. Men alt da han sad opreist paa Moderens Fang, lo han, og naar de tændte Lys paa om Kvelden, lo han, saa det sang, men græd, da han ikke fik komme bort til det. «Af den Gutten maa det blive noget rart», sagde Moderen.
@@ -222,9 +212,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       Andet Kapitel.
-     </ref>
+     
     </head>
     <p>
      Bukken gik bunden ved Stuevæggen, men Øyvind gik og saae opover Berget. Moderen kom ud til ham og sad hos ham; han vilde høre Eventyr om det, som var langt borte, thi nu var ikke Bukken længer nok. Saa fik han høre om, at engang kunde alting tale; Berget talte til Bækken og Bækken til Elven og Elven til Havet og Havet til Himmelen; men saa spurgte han, om ikke Himmelen talte til nogen, og Himmelen talte til Skyerne, men Skyerne til Træerne, men Træerne til Græsset, men Græsset til Fluerne, men Fluerne til Dyrene, men Dyrene til Børnene, men Børnene til de voxne; og saaledes gik det endnu videre, til det gik rundt, og ingen vidste, hvem som begyndte. Øyvind saae paa Berget,
@@ -433,9 +423,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_3" type="contents" xml:id="chapter_3">
+     
       Tredie Kapitel.
-     </ref>
+     
     </head>
     <p>
      Øyvind voxte til og blev en rask Gut; i Skolen var han blandt de første, og hjemme var han duelig i Arbeide. Det kom deraf, at hjemme holdt han af Mo
@@ -541,9 +531,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_4" type="contents" xml:id="chapter_4">
+     
       Fjerde Kapitel.
-     </ref>
+     
     </head>
     <p>
      Om hans videre Opvæxt til et Aar før Konfirmationen er ikke stort at melde. Han læste om Morgenen, arbeidede om Dagen og legte om Kvelden.
@@ -634,9 +624,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_5" type="contents" xml:id="chapter_5">
+     
       Femte Kapitel.
-     </ref>
+     
     </head>
     <p>
      Da Øyvind den følgende Morgen slog Øinene op, var det fra en lang, kvægende Søvn og lykkelige Drømme. Marit havde lagt paa Berget og kastet Løv nedpaa ham, han havde taget imod og kastet op igjen, det var gaaet op og ned i tusinde Farver og Figurer, Solen stod paa, og hele Berget glimrede op under. Idet han vaagnede, saae han sig om for at finde alt igjen, da huskede han Gaarsdagen, og den samme stikkende, saare Smerte i Brystet begyndte strax. Denne bliver jeg nok aldrig mere kvit, tænkte han og følte en Slaphed, som faldt hele Fremtiden fra ham.
@@ -686,9 +676,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_6" type="contents" xml:id="chapter_6">
+     
       Sjette Kapitel.
-     </ref>
+     
     </head>
     <p>
      Et halvt Aar efter, om Høsten nemlig (Konfirmationen var bleven udsat til da) sad Hovedsognets Konfirmanter i Præstens Borgestue forat udtages; iblandt dem Øyvind Pladsen og Marit Heidegaardene. Marit var netop kommen ned fra Præsten, hvor hun havde
@@ -747,9 +737,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_7" type="contents" xml:id="chapter_7">
+     
       Syvende Kapitel.
-     </ref>
+     
     </head>
     <p>
      I de Dage, man paa Pladsen forberedte sig til Konfirmationen, forberedte man sig ogsaa paa hans Reise til Landbrugsskolen; thi Dagen efter skulde den foregaa.
@@ -804,9 +794,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_8" type="contents" xml:id="chapter_8">
+     
       Ottende Kapitel.
-     </ref>
+     
     </head>
     <p>
      Kjære Forældre!
@@ -1007,9 +997,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_9" type="contents" xml:id="chapter_9">
+     
       Niende Kapitel.
-     </ref>
+     
     </head>
     <p>
      En Lørdag midtsommers roede Thore Pladsen over Vandet forat hente sin Søn, som om Eftermiddagen skulde komme fra Landbrugsskolen, hvor han var færdig. Moderen havde havt Leiekone flere Dage i Forveien, alt var rent og skuret, Kammeret var gjort istand for lang Tid siden, Ovn var sat ind, og der skulde Øyvind bo. Idag bar Moderen friskt Løv derind, lagde rent Linned tilrette, redede op Sengen og saae ud alt imellem, om nogen Baad skulde ro over Vandet. Inde var stor Opdækning og altid noget, som manglede, eller Fluer at jage væk, og i Kammeret var Støv, bestandig Støv. Endnu kom ingen Baad; hun hvilte sig paa Vindueskarmen og saae udover; da hørte hun Skridt tæt ved sig op i Veien og vendte Hovedet; det var Skolemesteren, som langsomt kom nedover støttende sig til en Stok, thi
@@ -1062,9 +1052,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_10" type="contents" xml:id="chapter_10">
+     
       Tiende Kapitel.
-     </ref>
+     
     </head>
     <p>
      En Eftermiddag ud paa Sommeren, da Moderen og en Pige ragede Hø sammen, Faderen og Øyvind bar ind, kom en liden barfodet og barhovedet Gut hoppende nedover Bakkerne og bortover Marken til Øyvind, som han gav en liden Seddel. «Du løber godt, du!» sa' Øyvind. «Jeg har Betaling for det», svarte Gutten. Paa Spørgsmaal, om han skulde have Svar, lød der nei, og han tog Veien hjem igjen over Berget; thi der kom nogen efter ham oppe i Veien, sagde han. Øyvind aabnede brydsomt Seddelen, thi den var først lagt sammen i en Strimmel, dernæst var den knyttet, saa forseglet og tilhakket, og i Seddelen stod:
@@ -1183,9 +1173,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_11" type="contents" xml:id="chapter_11">
+     
       Ellevte Kapitel.
-     </ref>
+     
     </head>
     <p>
      Midt i Middagshvilen var det; Folkene sov paa de store Heidegaarde, Høet laa kastet efter dem paa Volden, og Riverne stod stagede i Jorden. Nedenfor Laavekloppen stod Høslæderne, Sæletøiet laa afsprættet ved Siden, og Hestene gik i Tjor et Stykke derifra. Foruden disse og nogle Høns, som var komne borti Ågeren, saaes ikke et levende Væsen paa den hele Slette.
@@ -1367,9 +1357,9 @@
    </div>
    <div type="chapter">
     <head>
-     <ref target="contents_12" type="contents" xml:id="chapter_12">
+     
       Tolvte Kapitel.
-     </ref>
+     
     </head>
     <p>
      Nogle Aar er gangne hen siden sidste Optrin.
@@ -1628,9 +1618,9 @@
    <div type="chapter">
     <head>
      <pb n="94"/>
-     <ref target="contents_13" type="contents" xml:id="chapter_13">
+     
       Forklaring af adskillige norske Ord, som forekomme i «En glad Gut.»
-     </ref>
+     
     </head>
    </div>
   </body>

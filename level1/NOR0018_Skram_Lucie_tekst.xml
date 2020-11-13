@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0018" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0018" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Lucie ELTeC-utgaven
     </title>
-    <author>
-     Skram, Amalie (1849-1905)
-     <idno type="viaf">
-      https://viaf.org/viaf/64021492
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q291676
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/64021492 https://www.wikidata.org/wiki/Q291676">Skram, Amalie  (1849-1905)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="bokselskap.no">
-      Teksten i bokselskap.no f&amp;#x00F8;lger 1. utgave, 1888. Digitaliseringen er basert p&amp;#x00E5; fil mottatt fra Nasjonalbiblioteket/Bokhylla.no.&lt;/title&gt;
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         A. Skram
        </author>
@@ -70,10 +61,7 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q11986901
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -85,11 +73,11 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2013-09-30">
     Lagt inn sidetall. Kodekontroll.
    </change>
@@ -103,11 +91,11 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
  </teiHeader>
  <text type="novel" xml:id="BS_Skram_Lucie_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0018001">
+   <div type="chapter" xml:id="1">
     <head>
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       I. I Professorbyen.
-     </ref>
+     
     </head>
     <p>
      <pb n="1"/>
@@ -581,11 +569,11 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Hun lå og smålo hen til den store blårandede vandkande, som Gerner havde sat fra sig på gulvet ved siden af vaskerservanten, lysvågen og levende som efter en lang og forfriskende nattesøvn.
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0018002">
+   <div type="chapter" xml:id="2">
     <head>
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       II. Efter Bryllupsrejsen.
-     </ref>
+     
     </head>
     <p>
      <pb n="27"/>
@@ -811,11 +799,11 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Hun blev i vinterens løb noget magrere og blegere, men det klædte hende udmærket. Folk måtte indrømme, at, hvad der end kunde ha vært at sige på hende – vakker var hun ialtfald, den små «Tivolifrua».
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0018003">
+   <div type="chapter" xml:id="3">
     <head>
-     <ref target="contents_3" type="contents" xml:id="chapter_3">
+     
       III. Hjemme.
-     </ref>
+     
     </head>
     <p>
      <pb n="36"/>
@@ -901,11 +889,11 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      «Så, så, Lucie min. Tør nu tårerne og kys mig. Jeg er slet ikke sint på Dig – jeg har bare så ondt af Dig, Lucie min. Men det blir nok bedre, Du vil lære efterhvert, skal Du se.»
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0018004">
+   <div type="chapter" xml:id="4">
     <head>
-     <ref target="contents_4" type="contents" xml:id="chapter_4">
+     
       IV. På gaden.
-     </ref>
+     
     </head>
     <p>
      <pb n="41"/>
@@ -1122,15 +1110,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Bare hun kunde finde på et ærinde til fru Rejnertson – hun blev stående rådvild midt i trappen. Ja, hun kunde jo sige, at hun havde hørt, der skulde bo en vaskerkone i kjælderen og spørre, om fru Rejnertson kjendte noget til hvordan hun vasked.
     </p>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0018005">
+   <div type="chapter" xml:id="5">
     <head>
-     <ref target="contents_5" type="contents" xml:id="chapter_5">
+     
       [V.] Hos fru Rejnertson.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («IV.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="50"/>
      Sognepræst Brandt fra Arendal var i Kristiania på et kort besøg hos sin søster, fru Rejnertson, og sad nu ved den sene frokost. Fru Rejnertson havde rejst sig fra bordet og stelte med blomsterne.
@@ -1450,15 +1436,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      en kop kaffe af de stentøjskopperne hennes med de store roserne på og dyppe sukkerkavringer i. Ja, vist vilde hun det ja. Hvorfor skulde hun ikke gjøre Nilsa, stakkar, en glæde? Når der nå skulde så lidet, til. Theodor behøved jo aldrig at få vide det.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0018006">
+   <div type="chapter" xml:id="6">
     <head>
-     <ref target="contents_6" type="contents" xml:id="chapter_6">
+     
       [VI.] Hos Nilsen.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («V.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="63"/>
      Så er det bedst, jeg har veddemålsgaven med til hende,» tænkte Lucie, da hun indsvøbt i sin side peltskåbe, uden ærmer og med skindkantede gummistøvler trukket udenpå skoene, ved femtiden gik nedover Karl-Johan.
@@ -1889,15 +1873,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      gaden, og stemmen skjalv af hån og sinne. «Nu løper jeg hen til min mand. – Hold Dere bare unna, ellers sætter han kongstabelen på Dere,» det kom i lynende fart, og inden Olsen og Nilsen fik besinde sig på den uventede overgang, var hun langt henne i gaden.
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0018007">
+   <div type="chapter" xml:id="7">
     <head>
-     <ref target="contents_7" type="contents" xml:id="chapter_7">
+     
       [VII.] Hjemme igjen.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («VI.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="80"/>
      Hun så sin mand dreje om ved husrækken på Grand-Hotelsiden og gå nedover på fortouget. Hurtig fløj hun tværs over gaden og løb afsted forbi Storthinget og Studenterlunden. «Puddersukkersneen» drev omkring hendes fødder, og hun drog vejret med en halvkvalt hvæsen, mens hjærtet banked, så hun syntes, hun måtte omkomme. Det gjaldt at være hjemme før Theodor. Ved begyndelsen af Drammensvejen stansed hun lidt for at puste ud. Så løb hun igjen med små, hoppende skridt lige til porten i Incognitogaden.
@@ -2100,15 +2082,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      «Så, så,» hvisked han ømt og trykked hende til sig, idet han kyssed hende. «Nu kjender jeg min gamle, søde Lucie igjen.»
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0018008">
+   <div type="chapter" xml:id="8">
     <head>
-     <ref target="contents_8" type="contents" xml:id="chapter_8">
+     
       [VIII.] Nilsa.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («VII.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="89"/>
      En månedstid senere havde Gerner, da han en aften kom hjem fra kontoret mødt Nilsen i trappen. På hans misfornøjede spørgsmål til Lucie, havde denne for at redde sig, lavet en historie om, at Nilsen var kommen for at be om pengehjælp, da hun for øjeblikket holdt på at sulte ihjel. Gerner var bleven mildere stemt ved at erfare, at Nilsen altså ikke havde søgt hans kone i egenskab af veninde, men havde dog bestemt forlangt af Lucie, at hun ikke mere skulde modta hende. Hvis hun virkelig var så trængende, måtte hun heller ta sin tilflugt til at skrive. Så kunde Lucie sende hende nogle kroner. Bagefter var det faldet ham ind, at det kanske var rettere, han tog sagen i sin egen hånd og fik gjort en ende på det. Han havde så spurgt Lucie om,
@@ -2242,15 +2222,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Da Gerner læste hendes brev på kontoret, før han gik hjem til middag, kom der en hånlig trækning i hans mundviger. «Slikt et spjåk,» mumled han, idet han rev brevet istykker og kasted det i papirkurven.
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0018009">
+   <div type="chapter" xml:id="9">
     <head>
-     <ref target="contents_9" type="contents" xml:id="chapter_9">
+     
       [IX.] Før selskab.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («VIII.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="97"/>
      Der var gåt to år, og de var i slutningen af marts.
@@ -2296,15 +2274,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Hun var lej og kjed hele grejen, endda hun bare var 23 år. Om ti år blev hun 33, om tyve 43, om tredive 53. – «Du store tid, ossen skal jeg slippe gjennem alle de årene da!» Hun retted sig op, slog hænderne for ansigtet og bukked sig forover. Så hørte hun Theodor komme og fôr op. Hun gik hen til sybordet, tog sit arbejde frem af kurven og folded det ud med famlende, ligegyldige fingre. Da Theodor så lukked på døren og spurgte, om hun var færdig, la hun arbejdet sammen, fulgte efter ham ud i entréen og tog overtøjet på.
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0018010">
+   <div type="chapter" xml:id="10">
     <head>
-     <ref target="contents_10" type="contents" xml:id="chapter_10">
+     
       [X.] Hos Mørks.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («IX.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="101"/>
      Middagen var forbi, og damerne sad omkring bordet i dagligstuen og drak kaffe.
@@ -2697,15 +2673,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Uden at gi en lyd fra sig bukked Lucie sig ned efter huen og satte så på løb ud over Drammensvejen med huen i hånden, som om hun flygted for at redde livet.
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0018011">
+   <div type="chapter" xml:id="11">
     <head>
-     <ref target="contents_11" type="contents" xml:id="chapter_11">
+     
       [XI.] Om Natten.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («X.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="116"/>
      Gerner hverken sagtned eller påskyndte sine skridt, da Lucie løb fra ham. «Hvis Du har tænkt at skræmme mig, så har Du gjort regning uden vært,» mumled han. «Hvem andre end så'n en tøs kunde nu finde på sligt. Løbe sin vej midt på natten.»
@@ -2845,15 +2819,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Lidt efter faldt han i dyb søvn.
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0018012">
+   <div type="chapter" xml:id="12">
     <head>
-     <ref target="contents_12" type="contents" xml:id="chapter_12">
+     
       [XII.] Om morgenen.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XI.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="123"/>
      Da han vågned kl. 8, så han, at Lucies seng var tom og urørt.
@@ -3074,15 +3046,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Slig som hun verked.
     </p>
    </div>
-   <div n="13" type="chapter" xml:id="NOR0018013">
+   <div type="chapter" xml:id="13">
     <head>
-     <ref target="contents_13" type="contents" xml:id="chapter_13">
+     
       [XIII.] Om sommeren.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XII.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="131"/>
      Sommeren var kommen med stærk varme og lummer luft.
@@ -3202,15 +3172,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      jeg derud.»
     </p>
    </div>
-   <div n="14" type="chapter" xml:id="NOR0018014">
+   <div type="chapter" xml:id="14">
     <head>
-     <ref target="contents_14" type="contents" xml:id="chapter_14">
+     
       [XIV.] På Malmøen.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XIII.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="136"/>
      «Er Fredrik og bader?»
@@ -3541,15 +3509,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Udenfor den lille låge rakte Henny nøglen til Lucie. «De kjender jo badehuset. Den tredje brygge fra dampskibsbroen.»
     </p>
    </div>
-   <div n="15" type="chapter" xml:id="NOR0018015">
+   <div type="chapter" xml:id="15">
     <head>
-     <ref target="contents_15" type="contents" xml:id="chapter_15">
+     
       [XV.] Aften.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XIV.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="149"/>
      Om eftermiddagen, da Brandt var tat til byen, sad Lucie med fru Rejnertson og Henny oppe under hængeasken, hvor de havde drukket kaffe. Fru Rejnertson læste højt et stykke ind i «Kommandørens Døtre», med løfte om at fortsætte næste dag. Derpå gik de en tur gjennem skoven rundt øen, og rode efter aftensbordet ud på fjorden mellem de trærige småholmer.
@@ -3693,15 +3659,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      «Rigtig så det pirker i mig.»
     </p>
    </div>
-   <div n="16" type="chapter" xml:id="NOR0018016">
+   <div type="chapter" xml:id="16">
     <head>
-     <ref target="contents_16" type="contents" xml:id="chapter_16">
+     
       [XVI.] Lucie.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XV.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="156"/>
      Di skal se, Gerner kommer selv i aften, siden han ikke har skrevet,» sa fru Rejnertson, da de den næste eftermiddag gik en tur i skoven.
@@ -4062,15 +4026,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      «Nej tak, Du, det behøves nok ikke.»
     </p>
    </div>
-   <div n="17" type="chapter" xml:id="NOR0018017">
+   <div type="chapter" xml:id="17">
     <head>
-     <ref target="contents_17" type="contents" xml:id="chapter_17">
+     
       [XVII.] Henny.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XVI.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="168"/>
      Kom lad os sætte os op på verandaen, Henny.» Knut tog hendes hånd og trak hende med sig! «Seså,» han havde trykket hende ned på sidebænken deroppe under det tætte vinløv, som dækked verandaens tag og vægger. «Nu får jeg sige til mig selv: Vorherre styrke Dig, Knut.»
@@ -4481,15 +4443,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      «Ja vist, ja. Så skal Du altså hede fru Rejnertson liksom jeg. Gid, Du må bli glad og lykkelig, Henny. Det er så ondt ikke at være det.»
     </p>
    </div>
-   <div n="18" type="chapter" xml:id="NOR0018018">
+   <div type="chapter" xml:id="18">
     <head>
-     <ref target="contents_18" type="contents" xml:id="chapter_18">
+     
       [XVIII.] Gerner.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XVII.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="183"/>
      Gerner havde gjennemgåt forskjellige stemninger i de forløbne dage. Først havde han vært bange for hende. Rigtignok var det ikke noget usædvanligt, at Lucie uden videre forsvandt fra huset, når der havde været scener imellem dem, men hun plejed da altid at komme tilbage om en time eller to. Ialtfald til måltiderne.
@@ -4549,15 +4509,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Tænk, om Lucies tøj hang i entréen! Han fik hjærtebanken, mens han gik opover Karl-Johan. Han skulde ikke fare op, ikke spor af fare op, tale pent og besindigt til hende. Stakkeren, hun havde naturligvis havt det mindst lige så ondt som han. – – –
     </p>
    </div>
-   <div n="19" type="chapter" xml:id="NOR0018019">
+   <div type="chapter" xml:id="19">
     <head>
-     <ref target="contents_19" type="contents" xml:id="chapter_19">
+     
       [XIX.] Hjemkomsten.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XVIII.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="188"/>
      Hjemme i Incognitogade gik imidlertid Lucie urolig omkring. Hun havde valgt at ta ind med fireskibet, da var Theodor på kontoret, så slap hun da for at møde ham straks.
@@ -4802,15 +4760,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Han retted sig op fra sengen med et dybt suk. Og så fik han igjen denne nagende fornemmelse af at ha gjort uret imod hende, som ofte før var kommen op i ham. Det var som der blev pirket ved et ømt sted inde i brystet på ham.
     </p>
    </div>
-   <div n="20" type="chapter" xml:id="NOR0018020">
+   <div type="chapter" xml:id="20">
     <head>
-     <ref target="contents_20" type="contents" xml:id="chapter_20">
+     
       [XX.] Omvendelse.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XIX.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="198"/>
      Knut havde grundet en hel del over, hvorledes han skulde afværge Lucies hypnotiske besøg; for at hun vilde komme, var han aldeles overbevist om.
@@ -5015,15 +4971,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      gudfrygtige bøger. Hun vilde ikke tænke på and't end på de ting, som hørte guds rige til, hele liden mens hun gik så'n. Kanskje hun da også kunde få Theodor til at omvende sig. Det vilde Vorherre synes godt om og regne hende til bedste.
     </p>
    </div>
-   <div n="21" type="chapter" xml:id="NOR0018021">
+   <div type="chapter" xml:id="21">
     <head>
-     <ref target="contents_21" type="contents" xml:id="chapter_21">
+     
       [XXI.] Ventetid.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XX.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="209"/>
      En aften et par måneder senere fulgtes Mørk og Gerner opover Karl Johan.
@@ -5214,15 +5168,13 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Theodors, og at Vorherre havde tilgit hende alle hendes synder. Men så til andre tider, og hyppigst, kom det over hende igjen, at flækken vilde være der, stor og brun og fæl med lange, sorte hår på.
     </p>
    </div>
-   <div n="22" type="chapter" xml:id="NOR0018022">
+   <div type="chapter" xml:id="22">
     <head>
-     <ref target="contents_22" type="contents" xml:id="chapter_22">
+     
       [XXII.] Slutning.
-     </ref>
+     
     </head>
-    <note type="footnote">
-     Kapitlet er feilnummerert («XXI.») i førstetrykket.
-    </note>
+    
     <p>
      <pb n="217"/>
      Gerner gik op og ned inde i sit værelse. Der var halvmørkt i stuen, skjøndt det var højt op på formiddagen. Udenfor stod novemberskodden tyk og grå og ubevægelig, og ovnen vilde ikke trække. En skidden, støvagtig væde klæbed på ydersiden af vindusruderne, og husene ligeoverfor var ikke til at skjælne.
@@ -5302,9 +5254,7 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
     </p>
     <p>
      Han hørte en lyd som af klaps på et nøgent legeme. Så sa madam Sæbys visne stemme: «Det var da svært å trå
-     <note type="footnote">
-      (Træg.)
-     </note>
+     
      han er au da,» så igjen et klaps og derpå et spædt, vedholdende barneskrig.
     </p>
     <p>
@@ -5317,20 +5267,14 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
      Barnet blev ved at pibe, og samtidig hørte han en rislende skvulpen af vand. «Så stor å tidig, så,» sa madam Halvorsens stemme, «og så
      <pb n="222"/>
      fejt på kroppen da, og slig en skolt
-     <note type="footnote">
-      (Hode.)
-     </note>
+     
      , rimelig det måtte læte på
-     <note type="footnote">
-      (Tage på.)
-     </note>
+     
      . – Ræk mig ulddække' der da!»
     </p>
     <p>
      Så kom der en slippende lyd af vand, barneskriget holdt op, og så hørte han bare en stille puslen og en kjælen, slæbende stemme, som blev ved at sige: «Så dejlig og så søt så – så stor og søt så, – helledud, så tidig og så freg
-     <note type="footnote">
-      (Knøv, velnæret.)
-     </note>
+     
      så.»
     </p>
     <p>
@@ -5370,9 +5314,7 @@ Teksten i bokselskap.no følger 1. utgave, 1888. Digitaliseringen er basert på 
     </p>
     <p>
      «Advokaten kan da vel vide, at det ikke har vært noe barneværk, heller,» svarte madam Sæby med sit støjende smil. «Slig en rug
-     <note type="footnote">
-      (Prygl.)
-     </note>
+     
      af en gut!» hun pegte på barnet. «Jeg er stø på, han vejer mindst sine 24 mærker. Og så lik han er sin far da. – Han skal nok slippe for å lyve sig far til, den karen.»
     </p>
     <p>

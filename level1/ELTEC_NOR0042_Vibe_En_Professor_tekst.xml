@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0042" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0042" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      En Professor ELTeC-utgaven
     </title>
-    <author>
-     Vibe, Johan Ludvig Nils Henrik (1840-1897)
-     <idno type="viaf">
-      https://viaf.org/viaf/283661824
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q6224495
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/283661824 https://www.wikidata.org/wiki/Q6224495">Vibe, Johan Ludvig Nils Henrik  (1840-1897)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,13 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
+   <sourceDesc><bibl type="unspecified">
      <ref target="https://www.bokselskap.no/boker/enprofessor/kolofon">
       Utgaven er basert på teksten i 1. utgave, 1882 (Kristiania, Cammermeyer).
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         J. L. N. H. Vibe
        </author>
@@ -68,10 +61,7 @@
        <idno type="wiki">
         None
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p n="eltec-0"/>
@@ -83,11 +73,11 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="short"/>
-    <e:canonicity key="low"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>

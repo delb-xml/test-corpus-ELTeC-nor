@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0025" xml:lang="nn" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0025" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Paa sjølvstyr ELTeC-utgaven
     </title>
-    <author>
-     Løland, Rasmus (1861-1907)
-     <idno type="viaf">
-      https://viaf.org/viaf/67274327
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q350160
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/67274327 https://www.wikidata.org/wiki/Q350160">Løland, Rasmus  (1861-1907)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="bokselskap.no">
-      Teksten i bokselskap.no f&amp;#x00F8;lger 1. utgave, 1892 (Mons Litler&amp;#x00E9;, Bergen). Digitaliseringen er basert p&amp;#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         R. Løland
        </author>
@@ -71,10 +62,7 @@ ISBN: 978-82-8319-201-8 (digital, bokselskap.no), 978-82-8319-202-5 (epub), 978-
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q58903304
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -86,11 +74,11 @@ ISBN: 978-82-8319-201-8 (digital, bokselskap.no), 978-82-8319-202-5 (epub), 978-
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="short"/>
-    <e:canonicity key="low"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2015-01-13">
     Validering, kodekontroll og enititeter.
    </change>
@@ -104,7 +92,7 @@ ISBN: 978-82-8319-201-8 (digital, bokselskap.no), 978-82-8319-202-5 (epub), 978-
  </teiHeader>
  <text type="novel" xml:id="BS_Loland_Sjolvstyr_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0025001">
+   <div type="chapter" xml:id="1">
     <head type="main">
      PAA SJØLVSTYR
     </head>

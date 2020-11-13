@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0017" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0017" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Sjur Gabriel ELTeC-utgaven
     </title>
-    <author>
-     Skram, Amalie (1849-1905)
-     <idno type="viaf">
-      https://viaf.org/viaf/64021492
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q291676
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/64021492 https://www.wikidata.org/wiki/Q291676">Skram, Amalie  (1849-1905)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="bokselskap.no">
-      Teksten i bokselskap.no f&amp;#x00F8;lger Samlede  verker 1924 (3. utg.), bind 3 (Kristiania, Gyldendal). Digitaliseringen er basert p&amp;#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no)
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         A. Skram
        </author>
@@ -73,10 +64,7 @@ Teksten i bokselskap.no følger Samlede
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q95137704
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -88,11 +76,11 @@ Teksten i bokselskap.no følger Samlede
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="medium"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2016-11-30">
     Lagt inn korrekturrettelser. Lagt inn ISBN.
                 Enititeter, kodekontroll, validering.
@@ -105,7 +93,7 @@ Teksten i bokselskap.no følger Samlede
  </teiHeader>
  <text type="novel" xml:id="BS_Skram_SjurGabriel_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0017001">
+   <div type="chapter" xml:id="1">
     <head type="main">
      I
     </head>
@@ -123,10 +111,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      Gaarden hed Hellemyren, og det Navn var der Mening i. Stenknauser og Myrmark
-     <note type="footnote">
-      Forfatternote:
-      Mosejord
-     </note>
+     
      var
                     det altsammen med de svarte, nakne Fjællene og den
                     mørkegrønne Sjø til Indhegning.
@@ -180,10 +165,7 @@ Teksten i bokselskap.no følger Samlede
      Oline sad agterude i Rangen foroverbøjet med Albuerne paa Knæerne
                     og Hagen i Hænderne. Med det lille, udtryksløse Barneansigt og det
                     sorte Skout,
-     <note type="footnote">
-      Forfatternote:
-      Hovedtøj for Bondekoner
-     </note>
+     
      der slutted tæt om Panden,
                     ligned hun en halvvoksen Jente, der for Spøg havde klædt sig ud
                     som Kone.
@@ -221,24 +203,14 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Statt stidl, edl eg flængje Stakkjen
-     <note type="footnote">
-      Forfatternote:
-      Skjørtet
-     </note>
+     
      din! Kar ska Du
                     aav? spyr eg.»
     </p>
     <p>
      Oline gav tabt. Hun mumled noget om, at hun skulde op til «ho
                     Guri», som tjente paa en Bondestue i Torvegaarden.
-     <note type="footnote">
-      Forfatternote:
-      Gaarde
-      kaldes i Bergen de trange Gyder, der fra
-                        Strandgaden i Mængde skraaner ned mod Vaagen (Havnen) og ender med
-                        Bolværk og Baadtrappe. Her findes Beboelseshuse, Pakhuse, Udsalg og
-                        Beværtninger
-     </note>
+     
     </p>
     <p>
      «Ka heve Du i Bylten din?»
@@ -273,17 +245,10 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Dekers
-     <note type="footnote">
-      Forfatternote:
-      Dævels
-     </note>
+     
      Kjærring,» mumled Sjur Gabriel, da han
                     saa, at hun var borte. «Tak hidne no att.»
-     <note type="footnote">
-      Forfatternote:
-      Tag hende nu igjen! ɔ: Se,
-                        hvor Du nu faar hende fat igjen!
-     </note>
+     
     </p>
     <p>
      Han tog Sydvesten af Hodet, klødde sig i Haaret, satte den paa igjen,
@@ -298,11 +263,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Ka ska Du ha for Lyren din, Du Stril
-     <note type="footnote">
-      Forfatternote:
-      Stril, Havbonde i Omegnen af
-                        Bergen
-     </note>
+     
      der i Baaten?»
     </p>
     <p>
@@ -323,10 +284,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      Pigen tog en nykjøbt Soplime
-     <note type="footnote">
-      Forfatternote:
-      Fejekost af Kviste
-     </note>
+     
      op af Kurven, strakte sig
                     ud over Kanten af Bolværket saa langt, at hun formelig laa og ballancerte
                     paa det, dasked Sjur Gabriel paa Sydvesten med Spidsen af Soplimen, og skreg:
@@ -338,11 +296,7 @@ Teksten i bokselskap.no følger Samlede
                     gneldrende Røst, og en Gut i Toplue, graa Vadmelskufte med Tinknapper og
                     en Tine i Haanden hopped fra Trappen over i Baaden. «Me æ
                         inkje
-     <note type="footnote">
-      Forfatternote:
-      Vi er
-                        ikke
-     </note>
+     
      Stril, me,» vedblev han udfordrende og greb efter
                     Soplimen, «me æ nor ifraa Hedlaa.»
     </p>
@@ -350,10 +304,7 @@ Teksten i bokselskap.no følger Samlede
      «Ka skjiller det meg!» kom det kjapt fra den efter
                     Anstrængelsen rødsprængte Pige. «Strilene, di e vel
                     like go, di, saa inkven anen.»
-     <note type="footnote">
-      Forfatternote:
-      … som nogen anden
-     </note>
+     
     </p>
     <p>
      «Ka ska Du ha for Lyren, Du der nor fra Hellen, daa?» satte hun saa
@@ -389,28 +340,19 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Dan eine æ ein Tøsk,»
-     <note type="footnote">
-      Forfatternote:
-      Den ene er en Tosk
-     </note>
+     
      bemærkede Sjur Gabriel sindigt.
     </p>
     <p>
      «Daa e no Prisen enno mer uforskammet – slikt blaute
-     <note type="footnote">
-      Forfatternote:
-      bløde
-     </note>
+     
      Smaatosker! Men hør no her, – eg ska gje Deg syv Skjelling for
                     Slompen, d'e møkke for møkke, men eg har'kje Ti te
                     staa her aa kjæfte længer.»
     </p>
     <p>
      «Du lyt gjeva aatta.»
-     <note type="footnote">
-      Forfatternote:
-      du maa give otte
-     </note>
+     
     </p>
     <p>
      «Aanejmen gjør eg ej. – Ka tænker Du paa! Syv, ikkje
@@ -423,10 +365,7 @@ Teksten i bokselskap.no følger Samlede
      «Ja saa kom me'an daa!» raabte hun vredt. «Eg spaar,
                     Du ska faa vente en anen Gang, før nokken gjer Deg saanne Blopenger for
                     slikk laak
-     <note type="footnote">
-      Forfatternote:
-      daarlig
-     </note>
+     
      Fillefisk.»
     </p>
     <p>
@@ -468,10 +407,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      Jens gjorde fast et nyt Humlebaand til Aaren istedetfor et, som var blevet
                     sprængt, ordned Dræglinen forud, saa den danned en Kvejl,
-     <note type="footnote">
-      Forfatternote:
-      Rulle
-     </note>
+     
      og saa i
                     et væk mod Triangelen og Trappen. Da der ikke var mere at gjøre
                     for ham, stillede han sig forud med skrævende Ben, Hænderne i
@@ -491,30 +427,20 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Halt Deg hjaa Baadne,»
-     <note type="footnote">
-      Forfatternote:
-      Hold Dig ved Baaden
-     </note>
+     
      sa han til Jens uden at
                     vende sig om imod ham. «Eg kjebm trakst atte.»
-     <note type="footnote">
-      Forfatternote:
-      Jeg kommer straks
-                        igjen
-     </note>
+     
     </p>
     <p>
      Saa skridted han hen paa Trappen, steg langsomt op ad den, og blev borte for Jens
                     mellem Dragerne og Fløtmændene,
-     <note type="footnote">
-      Forfatternote:
-      Færgemændene
-     </note>
+     
      som
                     stod i Klynger paa Triangelen.
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0017002">
+   <div type="chapter" xml:id="2">
     <head type="main">
      II
     </head>
@@ -582,10 +508,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «So snyggaste,»
-     <note type="footnote">
-      Forfatternote:
-      Som snarest ɔ: et Snarærinde
-     </note>
+     
      nikked Oline og stak Hænderne under Forklædet, hvor hun gned dem
                     mod hinanden.
     </p>
@@ -600,10 +523,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Seg da daa,»
-     <note type="footnote">
-      Forfatternote:
-      Sig det da ɔ: det maa Du nok sige
-     </note>
+     
      var
                     Svaret.
     </p>
@@ -615,10 +535,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Da æ vel so da.»
-     <note type="footnote">
-      Forfatternote:
-      Det er vel saa
-     </note>
+     
     </p>
     <p>
      «Ska Du inkje sitja?» spurgte Guri, idet hun atter rejste sig for
@@ -626,11 +543,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Du ska ha Tak. – Eg lyt æles aav trakst paa Timen
-     <note type="footnote">
-      Forfatternote:
-      Jeg maa ellers afsted
-                        igjen straks paa Timen
-     </note>
+     
      att.»
     </p>
     <p>
@@ -642,11 +555,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Ja, de hev vel da – Maanen æ go han for dei, so æ
                     paa Sjødn.»
-     <note type="footnote">
-      Forfatternote:
-      Maanen er god for dem, som er paa
-                        Søen
-     </note>
+     
     </p>
     <p>
      Olines Hænder blev stedse uroligere. Det saa ud som der var en
@@ -672,11 +581,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Aa no sku eg ha kjøbt ongkart smaat aa hatt heim aat
                         Bodnæ.»
-     <note type="footnote">
-      Forfatternote:
-      Og nu skulde jeg have kjøbt noget smaat at
-                        have hjem med til Børnene
-     </note>
+     
     </p>
     <p>
      «Da æ vel so da.» Guri vred Dugen op, saa Vandet
@@ -691,10 +596,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Han Sjur Gabriel æ no so øverhændig snau,
-     <note type="footnote">
-      Forfatternote:
-      Knap
-     </note>
+     
      han. Da
                     finnst inkje Raa fyr aa faa da værige Grann.»
     </p>
@@ -704,17 +606,11 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Da æ so ymse
-     <note type="footnote">
-      Forfatternote:
-      forskjelligt
-     </note>
+     
      mæ Karfolkje, dei hev no
                     so sit eie Sætt og si eie staalsætte Meining,» blev Oline
                     ved, «aa dabmæ
-     <note type="footnote">
-      Forfatternote:
-      derfor
-     </note>
+     
      lyt eit stakkars Kvinnfolk mongei
                     Gong taka seg te rette sjøl.»
     </p>
@@ -743,10 +639,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Dedna
-     <note type="footnote">
-      Forfatternote:
-      Denne
-     </note>
+     
      Brøstdukjen her,» sa Oline idet hun hægted
                     Livstykket op og drog frem en med brogede Perler overbroderet Smække.
     </p>
@@ -766,11 +659,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      Ein Ort.»
-     <note type="footnote">
-      Forfatternote:
-      80
-                        Øre, en Ort 24 Skilling
-     </note>
+     
     </p>
     <p>
      «So mykje æ han inkje vær,» sa Guri og tog atter fat
@@ -839,10 +728,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Bære Du no inkje trega paa
-     <note type="footnote">
-      Forfatternote:
-      fortryder
-     </note>
+     
      da ettepaa, ja, for Du veit jo so
                     vel, at Du inkje løyse han idn att.»
     </p>
@@ -927,16 +813,10 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Nej, no ska dokker
-     <note type="footnote">
-      Forfatternote:
-      Bergensk Gadesprog: I
-     </note>
+     
      høre
                         nokke,»
-     <note type="footnote">
-      Forfatternote:
-      noget
-     </note>
+     
      satte han med Dragertouget i, «hø, hø,
                     hæh, hæh!» Han bar sig som om han ikke orked at tale for
                     Latter, mens han fægted med Armene som for at ramme noget usynligt, og
@@ -1021,7 +901,7 @@ Teksten i bokselskap.no følger Samlede
                     Raab og Latter og anden Tumult.
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0017003">
+   <div type="chapter" xml:id="3">
     <head type="main">
      III
     </head>
@@ -1063,11 +943,7 @@ Teksten i bokselskap.no følger Samlede
                     Løktna! Dei va inkje kveikta i Kvedl, men da kobm vel t'aa, at da
                     va so tile endaa. – Løkte paa aapna Gataa! – Da va daa
                     grove te Spel, kor kostbart aa merkjele dei hadde da sø i Bydn.
-     <note type="footnote">
-      Forfatternote:
-      syd i Byen. Bergen
-                        ligger syd for Hellen
-     </note>
+     
      Dan, so kudne bu heridne istaenfor i
                     Hedlamyrna, da vore noko adna da, edl aa ga dar aa stampa i Myrvatne aa
                     Steinskaræ, aa liggja aa slæpa paa Sjødn i Regn aa
@@ -1088,10 +964,7 @@ Teksten i bokselskap.no følger Samlede
                     so budde sø i Bydn aa hadde Peninga jamt aa rikjele mæ Peninga.
                     – Aa, ja, ja, – nær da inkje hadde gjenge hedne so syrgjele
                     i Værene,
-     <note type="footnote">
-      Forfatternote:
-      Verden
-     </note>
+     
      so vore ho no Kaana te ein rik, stor Herremann, Prins kann
                     hedna, ho visst inkje ho. Æh Gu naa meg!» Hun lo mat og rysted paa
                     Hodet af sin egen Daarligdom, strøg sig saa over Øjnene med den
@@ -1104,25 +977,14 @@ Teksten i bokselskap.no følger Samlede
      «Ein lyt agta seg sø i Bydn,» mumled hun med et forstaaende
                     Nik, idet hun letted sig op igjen. «Da æ inkje so aa gaa heima paa
                         Bødn.
-     <note type="footnote">
-      Forfatternote:
-      Græsmarken
-     </note>
+     
      Nei va da likt!»
     </p>
     <p>
      Hun rusled videre, opfyldt af en velvillig, halv rørt og halv lystig
                     Stemning. Hun vilde bare gjøre en liden Tur gjennem Strandgaden, saa
                     langt som til Smørsalmindingen,
-     <note type="footnote">
-      Forfatternote:
-      Almindinger
-      kaldes i Bergen de meget brede, nu
-                        tildels beplantede Bakkepladser, der paa mange forskjellige Steder fra de
-                        højereliggende Gader skraaner nedover mod de lavereliggende.
-                        Almindingerne har Husrækker paa begge Sider, der i Afstand ser ud som
-                        de er bygget paa Terasser
-     </note>
+     
      der var saa meget rart at se paa, saa vilde
                     hun snu og gaa ned til Baaden. Til den Tid vilde Jens være kommen fra
                     Bageren, og saa vilde det høve saa godt. Men først fik hun da
@@ -1256,7 +1118,7 @@ Teksten i bokselskap.no følger Samlede
                     Flager af brunt Spyt ud over Baadrælingen.
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0017004">
+   <div type="chapter" xml:id="4">
     <head type="main">
      IV
     </head>
@@ -1356,10 +1218,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Gak sta legg Deg, Gut,» sa han til Jens, idet han hev Benene op i
                     Sengen, og trak Kvittelen
-     <note type="footnote">
-      Forfatternote:
-      Et stivt, uldent Sengetæppe
-     </note>
+     
      over
                     sig.
     </p>
@@ -1367,10 +1226,7 @@ Teksten i bokselskap.no følger Samlede
      Jens tænkte paa Morens tomme Plads bagenfor Faren i Sengen og gik stille
                     ud i Kjøkkenet, følte sig for med Hænderne og fik fat i en
                     Stige, som stod lænet op til Kanten af en aaben Lem i Taget.
-     <note type="footnote">
-      Forfatternote:
-      Loftet
-     </note>
+     
      Han gav
                     sig til at klavre op af den, stansed saa og betænkte sig.
     </p>
@@ -1445,10 +1301,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Nei, so da æ han, Vesle-Jens,» udbrød hun lettet og
                     saa sig om. «Ka remja
-     <note type="footnote">
-      Forfatternote:
-      tuder
-     </note>
+     
      Du fyre?»
     </p>
     <p>
@@ -1456,10 +1309,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Ka æ so verte
-     <note type="footnote">
-      Forfatternote:
-      Hvad er det, som plager Dig?
-     </note>
+     
      Deg,
                     Gut!» hun rejste sig op, men sjangled paa Benene, saa hun et Par Gange
                     maatte lude sig ned og ta for sig i Toften, før hun fik ordentlig
@@ -1492,11 +1342,7 @@ Teksten i bokselskap.no følger Samlede
      «Du Jens, Du Jens,» mumled hun med en bristende Strubelyd og rysted
                     langsomt Hodet. «So Du ville sta aa sjaa ette dedne skarve Moræ
                         di.
-     <note type="footnote">
-      Forfatternote:
-      din elendige
-                        Moder
-     </note>
+     
      Gud Fader aa Guds Saan velsigna Deg.»
     </p>
     <p>
@@ -1517,10 +1363,7 @@ Teksten i bokselskap.no følger Samlede
                     mens hun talte. «Ho Mor di, hev'kje adle Daga vore ei sore Slarva
                     te Kjærring» – fortsatte hun straks efter –
                     «men Væræ
-     <note type="footnote">
-      Forfatternote:
-      Verden
-     </note>
+     
      æ beisk aa uvyræ; ho
                     fær ymse aat mæ øss synnige Stakkara.»
     </p>
@@ -1547,10 +1390,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Da ligg so tongt yve Bringaa
-     <note type="footnote">
-      Forfatternote:
-      Brystet
-     </note>
+     
      mi,» begyndte Oline igjen,
                     «so tongt, so tongt.» Jens kunde høre paa Stemmen, at hun
                     græd. «Eg veit 'kje, ka da kjebm t'aa, men da
@@ -1622,7 +1462,7 @@ Teksten i bokselskap.no følger Samlede
                     som en Sten.
     </p>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0017005">
+   <div type="chapter" xml:id="5">
     <head type="main">
      V
     </head>
@@ -1722,7 +1562,7 @@ Teksten i bokselskap.no følger Samlede
                     Gang, og Dagene beyndte atter at længes.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0017006">
+   <div type="chapter" xml:id="6">
     <head type="main">
      VI
     </head>
@@ -1741,10 +1581,7 @@ Teksten i bokselskap.no følger Samlede
                     hændt paa fire Aar. Arbejdet var gaat saa raskt og pent fra Haanden i
                     denne Tid baade ude og hjemme. Alting var bleven gjort i rette Tid, og han var
                     kommen videre end de paa Træet med Vaaraannen.
-     <note type="footnote">
-      Forfatternote:
-      Foraarsarbejdet i Marken
-     </note>
+     
     </p>
     <p>
      Paa Hjemvejen tænkte han paa, hvormeget vel Oline og Gutterne havde naadd
@@ -1846,11 +1683,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «No lyt me idn og fidna onkart te aa benna um Høve
                         dit,»
-     <note type="footnote">
-      Forfatternote:
-      Nu
-                        maa vi ind og finde noget at binde om Hodet dit
-     </note>
+     
      sa saa Ingeborg og
                     rejste sig, idet hun tog Søsterens Haand og vilde ha hende med sig.
     </p>
@@ -1871,10 +1704,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Nei, han slær inkje, sitt no stidl, so skal Du faa sjaa, at han
                     inkje sett Fengjen paa Deg eingaang. Ka vidle Du i Kjedlne
-     <note type="footnote">
-      Forfatternote:
-      Brønden
-     </note>
+     
      Du veit daa
                     so vel, at han inkje taale da. Da va dafyre han vart idl.»
     </p>
@@ -1904,10 +1734,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Bære inkje tynd han aav,»
-     <note type="footnote">
-      Forfatternote:
-      Bare ikke tumle det bort
-     </note>
+     
      sa
                     Sjur Gabriel resigneret. «Du lyt fokta han litevetta fyst,»
                     vedblev han saa og fulgte efter hende ud i Kjøkkenet.
@@ -1964,11 +1791,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Jou daa. Me fekk Non hjaa hedne og.»
-     <note type="footnote">
-      Forfatternote:
-      Vi fik Mellemmad hos hende
-                        ogsaa
-     </note>
+     
     </p>
     <p>
      Sjur Gabriel rejste sig og saa til Sengen. Smaa-Adna var indsovnet med Lefsen i
@@ -1985,17 +1808,13 @@ Teksten i bokselskap.no følger Samlede
      «Eg meina, Gutane rettno kan flytta paa Lofte,» sa han, mens han
                     hængte sine Søndagsklær op paa Væggen. «Han
                     æ vorten saa lun i Veeræ.»
-     <note type="footnote">
-      Forfatternote:
-      Det er blevet saa mildt i
-                        Vejret
-     </note>
+     
     </p>
     <p>
      «So lyt me sta ette Halm i Maaren bitti,» svarte Ingeborg.
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0017007">
+   <div type="chapter" xml:id="7">
     <head type="main">
      VII
     </head>
@@ -2044,10 +1863,7 @@ Teksten i bokselskap.no følger Samlede
                     Bomuldsdrejel og dækked det hele til med en Dyne, som hun havde sydd af
                     et gammelt Underskjørt og et Stykke blaastribet Bomuldstøj med et
                     Lag Stry
-     <note type="footnote">
-      Forfatternote:
-      Blaar
-     </note>
+     
      imellem.
     </p>
     <p>
@@ -2095,10 +1911,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Flagena
-     <note type="footnote">
-      Forfatternote:
-      Veerne
-     </note>
+     
      æ aat aa kobma,» sa hun stønnende.
                     «Du lyt skonda Deg.»
     </p>
@@ -2155,11 +1968,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Skjepar! Skjepar! Ve du hadla Kjæft, di Gneldrebekkja!
-     <note type="footnote">
-      Forfatternote:
-      Skipper! Skipper!
-                        (Navnet) Vil du holde Kjæft, din Hylehund!
-     </note>
+     
      – So, so,
                     kobm hega, kobm hega!»
     </p>
@@ -2180,11 +1989,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Ein sku tru, dei va utgjedne paa aa spikja
                         Døræ,»
-     <note type="footnote">
-      Forfatternote:
-      Man skulde tro, de gik ud paa at knuse
-                        Døren
-     </note>
+     
      sa Stemmen opbragt. «Slekt synnalæ Styr,
                     Nattens Tiæ.»
     </p>
@@ -2251,18 +2056,12 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Bære ho vel fylgja mæ,» sa Sjur Gabriel –
                     «eg æ ræd fyre – – Ruskjaveer
-     <note type="footnote">
-      Forfatternote:
-      Stygt Vejr
-     </note>
+     
      æ an og.»
     </p>
     <p>
      «Da kjebm an paa, kaslags Laat
-     <note type="footnote">
-      Forfatternote:
-      Humør (Lune)
-     </note>
+     
      ho æ
                     i.»
     </p>
@@ -2311,11 +2110,7 @@ Teksten i bokselskap.no følger Samlede
      «Hm,» sa Kari med en haanlig Snerren. – «Nei so han
                     Sjur Gabriel træng' om ho Gamle-Kari no, Fydlebytte, maa veta
                     – –. Jou, jou, da gaar so ymse te i Værne.»
-     <note type="footnote">
-      Forfatternote:
-      Jo, jo, det gaar
-                        forskjelligt til her i Verden
-     </note>
+     
     </p>
     <p>
      «Da gjere so,» svarte Sjur Gabriel.
@@ -2326,11 +2121,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Naar da gjellt om ei soræ Sak – Bodnsnø.
-     <note type="footnote">
-      Forfatternote:
-      Naar det
-                        gjælder en saadan Sag – Barnsnød
-     </note>
+     
      Ho skreik so
                     idla, ho Oline. – Me æ adle Menneskje –.» Sjur
                     Gabriel stammed i afbrudte Sætninger og drejed paa sin vaade Hue.
@@ -2416,10 +2207,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Aller seet slekt! Meina, Hidnmann
-     <note type="footnote">
-      Forfatternote:
-      Fanden
-     </note>
+     
      sjøl staar i da!»
                     mumled hun.
     </p>
@@ -2440,10 +2228,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      Endelig fandt hun Strømpebaandet under et Par Karer
-     <note type="footnote">
-      Forfatternote:
-      Karter
-     </note>
+     
      fulde av Uldtotter,
                     som laa paa Bordet.
     </p>
@@ -2460,10 +2245,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      Og hele Tiden bevæged hun sin store, flade Mund og skratted indimellem som
                     en Sjor,
-     <note type="footnote">
-      Forfatternote:
-      Skade
-     </note>
+     
      der venter Storm.
     </p>
     <p>
@@ -2511,7 +2293,7 @@ Teksten i bokselskap.no følger Samlede
                     Vejen.
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0017008">
+   <div type="chapter" xml:id="8">
     <head type="main">
      VIII
     </head>
@@ -2656,12 +2438,7 @@ Teksten i bokselskap.no følger Samlede
      «Aa joumen lyt Du smakka paa da nykjidna Smøre, korsomer,»
                     paastod Sjur Gabriel. «Aa her æ Sidlasupa. – Spissa no
                     mæ ho æ varm.»
-     <note type="footnote">
-      Forfatternote:
-      Aa jomæn maa Du smage paa det
-                        nykjærnede Smør, alligevel, og her er Sildesuppe. –
-                        Spis nu, mens den er varm
-     </note>
+     
     </p>
     <p>
      «Da behøves inkje,» mumled Kari, idet hun satte sig.
@@ -2677,12 +2454,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Dei pelle Fingrane – dan vesla Nasaa – han hev Negl! Eg
                     meina, dar æ Haar onne Lui hass!»
-     <note type="footnote">
-      Forfatternote:
-      De smaa Fingre – den lille
-                        Næse – han har Negle. Jeg tror, der er Haar under Huen
-                        hans
-     </note>
+     
      udbrød hun med Mellemrum.
     </p>
     <p>
@@ -2737,13 +2509,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Du faar sjøl ha Tak.»
-     <note type="footnote">
-      Tak.»]
-      rettet fra:
-      Tak.
-      (manglende
-                            anførselstegn)
-     </note>
+     
     </p>
     <p>
      Saa gik hun hen til Sengen og bød Farvel og Tak til Ingeborg. Oline, som
@@ -2766,7 +2532,7 @@ Teksten i bokselskap.no følger Samlede
                     Nils var med Faren og fisked.
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0017009">
+   <div type="chapter" xml:id="9">
     <head type="main">
      IX
     </head>
@@ -2895,16 +2661,13 @@ Teksten i bokselskap.no følger Samlede
                     store Skrøbelighed var en arbejdsom og duelig Kone.
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0017010">
+   <div type="chapter" xml:id="10">
     <head type="main">
      X
     </head>
     <p>
      Da Sommeren kom, og Slaataannen
-     <note type="footnote">
-      Forfatternote:
-      Høbjergningen
-     </note>
+     
      begyndte, blev Sjur
                     Gabriel, saa meget han endog stred imod og kvied sig, nødt til at se sig
                     om efter en Hjælpedreng for den travleste Tiden. Han skikked Bud over til
@@ -2929,16 +2692,10 @@ Teksten i bokselskap.no følger Samlede
                     danset Halling i Høladen og var bleven trakteret med et Støb
                     Øl. Da han skulde tilbage, gik han Snarvejen over Udmarken, der
                     stødte op til Sjur Gabriels Bø
-     <note type="footnote">
-      Forfatternote:
-      Græsmark
-     </note>
+     
      og glemte i
                     Ørske at lukke Garen
-     <note type="footnote">
-      Forfatternote:
-      Leddet
-     </note>
+     
      efter sig.
     </p>
     <p>
@@ -2962,11 +2719,7 @@ Teksten i bokselskap.no følger Samlede
                     op, saa han det forfærdelige Syn af den Ødelæggelse,
                     Kjørene havde anrettet. Han blev som afsindig af Forbitrelse. Med et
                     Brøl greb han en Hæsjestour
-     <note type="footnote">
-      Forfatternote:
-      Spær, der bruges til opretstaaende Lad,
-                        hvorpaa Høet tørres i Marken
-     </note>
+     
      og fo'r med de bare
                     Fødder over den af Natteduggen drivvaade Mark ind paa de græssende
                     Kjør, der flygted til alle Sider. Nogle, der havde spist sig saa
@@ -3031,7 +2784,7 @@ Teksten i bokselskap.no følger Samlede
                     Arbejde.
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0017011">
+   <div type="chapter" xml:id="11">
     <head type="main">
      XI
     </head>
@@ -3345,7 +3098,7 @@ Teksten i bokselskap.no følger Samlede
                     ja–men, adle ihop, ja!»
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0017012">
+   <div type="chapter" xml:id="12">
     <head type="main">
      XII
     </head>
@@ -3494,11 +3247,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Eg heve inkje Hog te Sengjæ. – Rett no æ da Ti aa
                         risa.»
-     <note type="footnote">
-      Forfatternote:
-      Ret
-                        nu er det Tid at staa op
-     </note>
+     
     </p>
     <p>
      Han saa sig om i Stuen. Sommernattens svage Dæmring havde git Plads for
@@ -3512,11 +3261,7 @@ Teksten i bokselskap.no følger Samlede
      «Gud tryste aa hjælpe øss – Gud tryste aa
                     hjælpe øss!» stønned Sjur Gabriel. «Du lytt
                         teia,
-     <note type="footnote">
-      Forfatternote:
-      Du maa tie
-                        stille
-     </note>
+     
      vesle Ingebjær,» sa han med Graaden i Stemmen.
                     «Da vert inkje bære mæ da.»
     </p>
@@ -3570,11 +3315,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      Han rev Dynen af Vuggen og tog ilsomt den uldne Hue af Vesle-Gabriels Hode. Saa
                     løste han Baandet i Halsen paa den «Stril»,
-     <note type="footnote">
-      Forfatternote:
-      Klædningsstykke
-                        med Trøje og Bukse i et
-     </note>
+     
      Barnet var iført. Men det var
                     umuligt for Sjur Gabriels skælvende Hænder at faa trukket
                     Klædningsstykket af de stive Lemmer. Uden at betænke sig
@@ -3712,7 +3453,7 @@ Teksten i bokselskap.no følger Samlede
                     Mund og slapt nedhængende Arme.
     </p>
    </div>
-   <div n="13" type="chapter" xml:id="NOR0017013">
+   <div type="chapter" xml:id="13">
     <head type="main">
      XIII
     </head>
@@ -3806,10 +3547,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      «Bære inkje ho Mor heve tynt seg,»
-     <note type="footnote">
-      Forfatternote:
-      har tumlet sig bort
-     </note>
+     
      sa Jens og
                     saa frygtsomt paa Faren.
     </p>
@@ -3826,10 +3564,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      At nu Oline, med det samme hun var sluppen ud af Sygehuset, og han havde havt saa
                     store Udgifter med hende, vilde begynde paa den gamle Tralten
-     <note type="footnote">
-      Forfatternote:
-      Maade
-     </note>
+     
      –
                     det var dog for uvorrent. Han havde trodd saavist, at hun skulde være
                     kommen til Eftertanke nu. En skulde synes, hun havde havt Stunder til det, al
@@ -3973,11 +3708,7 @@ Teksten i bokselskap.no følger Samlede
     <p>
      «Lat meg!» udbrød saa Ingeborg. «Lyt eg gjera allt
                     anna, so vidn eg yve dettane mæ.»
-     <note type="footnote">
-      Forfatternote:
-      Maa jeg gjøre alt andet, saa
-                        vinder jeg over dette med
-     </note>
+     
      Hun tog Tvaren fra Moren.
     </p>
     <p>
@@ -4020,12 +3751,7 @@ Teksten i bokselskap.no følger Samlede
                     Hodet ind gjennem Døraabningen og sa med en Stemme, som lo af Haan:
                     «Lat no inkje Sidlaslog i Grauten att, likso sisst ho Mor hadde vore
                     sø i Bydn. Han Far var istann te verta forarga.»
-     <note type="footnote">
-      Forfatternote:
-      Kom nu ikke Sildeslo
-                        (Sildeaffald) i Grøden igjen ligesom sidst, Mor havde været
-                        sør (syd) i Byen. Far var i Stand til at bli sint
-     </note>
+     
     </p>
     <p>
      «Gud Fader aa Gud Saan!» stønned Oline, idet hun slog
@@ -4037,7 +3763,7 @@ Teksten i bokselskap.no følger Samlede
                     Bordet.
     </p>
    </div>
-   <div n="14" type="chapter" xml:id="NOR0017014">
+   <div type="chapter" xml:id="14">
     <head type="main">
      XIV
     </head>
@@ -4059,12 +3785,7 @@ Teksten i bokselskap.no følger Samlede
                     næsten ikke voved at spørge, hvor Gutten var. Naar Vesle-Gabriel
                     saa kom tilstede, hang han sig om Benet paa Faren, indtil han blev løfted
                     op paa hans
-     <note type="footnote">
-      hans]
-      rettet fra:
-      hns
-      (trykkfeil)
-     </note>
+     
      Skuldre og fik slaa
                     Kolbøtter over hans Hode.
     </p>
@@ -4080,10 +3801,7 @@ Teksten i bokselskap.no følger Samlede
     </p>
     <p>
      I Slaattetiden stod han med sin Træljaa
-     <note type="footnote">
-      Forfatternote:
-      Trælé
-     </note>
+     
      ved Siden
                     af Faren og bildte sig ind, han slog Græs, mens han pusted og
                     stræved og hvert Øjeblik spurgte, om det var slik det skulde
@@ -4139,18 +3857,13 @@ Teksten i bokselskap.no følger Samlede
                     sig helt og holdent hjælpeløse.
     </p>
    </div>
-   <div n="15" type="chapter" xml:id="NOR0017015">
+   <div type="chapter" xml:id="15">
     <head type="main">
      XV
     </head>
     <p>
      Sjur Gabriel
-     <note type="footnote">
-      Gabriel]
-      rettet fra:
-      Gabrel
-      (trykkfeil)
-     </note>
+     
      stod borte ved Grisehuset
                     med en Fisker fra Salhus, som kjøbslog om Prisen paa to af hans nye
                     Griseunger. I Haanden holdt han Vesle-Gabriel, der havde et grønt Uldsjal
@@ -4305,7 +4018,7 @@ Teksten i bokselskap.no følger Samlede
                     fo'r afsted til Sjøen.
     </p>
    </div>
-   <div n="16" type="chapter" xml:id="NOR0017016">
+   <div type="chapter" xml:id="16">
     <head type="main">
      XVI
     </head>
@@ -4534,7 +4247,7 @@ Teksten i bokselskap.no følger Samlede
                     strøg gjennem hans Sind som en Svalelse.
     </p>
    </div>
-   <div n="17" type="chapter" xml:id="NOR0017017">
+   <div type="chapter" xml:id="17">
     <head type="main">
      XVII
     </head>

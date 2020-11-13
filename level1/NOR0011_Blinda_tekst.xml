@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0011" xml:lang="nn" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0011" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      I blinda ELTeC-utgaven
     </title>
-    <author>
-     Duun, Olav (1876-1939)
-     <idno type="viaf">
-      https://viaf.org/viaf/66543636
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q19376632
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/66543636 https://www.wikidata.org/wiki/Q19376632">Duun, Olav  (1876-1939)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="bokselskap.no">
-      Teksten i bokselskap.no f&amp;#x00F8;lger 2. opplag, 1919 (Kristiania, Olaf Norlis forlag). Digitaliseringen er basert p&amp;#x00E5; fil fra Nasjonalbiblioteket (nb.no)
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         O. Duun
        </author>
@@ -71,10 +62,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q20112371
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -86,11 +74,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2017-04-04">
     Lagt inn innholdsliste og ref-koding.
    </change>
@@ -104,27 +92,27 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
  </teiHeader>
  <text type="novel" xml:id="Duun_Blinda_tekst_xml_text">
   <body>
-   <div n="1" type="part">
+   <div type="group" xml:id="1">
     <head type="main">
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       1
       ste
       BOKA
-     </ref>
+     
     </head>
     <p rend="center">
      «Den som får sig en Hustru, får sig en god Ting.»
     </p>
-    <div n="1_1" type="chapter" xml:id="NOR00111_1">
+    <div type="chapter" xml:id="1_1">
      <head type="main">
-      <ref target="contents_1_1" type="contents" xml:id="chapter_1_1">
+      
        Ungdommen rasar
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="7"/>
        Det var sommarkvelden og finvêre, vollane låg snauklipte og mjuke av hå, bjørkeskogen låg og tagde i djupaste helg, skuggane tok til og vart lange, og gravølsfolke på Håberg baud farvel og fór kvar til seg. Ein såg dem i godforlikte flokkar, nedover til sjøen og innetter båe vegane; nokre var ridande inn-imillom, men dei heldt lag med dei andre; dei hadde høgtida med seg der dei fór. Det hadde vore eit gilde som det var tak i.
@@ -208,12 +196,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        <pb n="13"/>
        «Du frys ikkj no, Anders, det sjer æg,» sa Åsel.
-       <note type="footnote">
-        Åsel]
-        rettet fra:
-        Asel
-        (trykkfeil)
-       </note>
+       
        – «Ja ja. Den dag og den sorg,» la ho til.
       </p>
       <p>
@@ -235,12 +218,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Anders svara ikkje, og straks etter gjekk Åsel.
-       <note type="footnote">
-        Åsel]
-        rettet fra:
-        Asel
-        (trykkfeil)
-       </note>
+       
       </p>
       <p>
        Han gjekk og sette seg for seg sjøl. Kvifor sa ho det der om ho mor! Han kom til å sakne mora så hardt. Her hadde han gått i årevis og ikkje vorte vâr henne, gått ut og inn i lag med henne og knapt hørt orde av det ho sa. Så sterk som ho måtte ha vore! Derfor var ho så still. Ingen ein vann over henne; og ingen ting. Han kjente det bergfast i denne stunda, at han likna på henne vel så mykje som på faren.
@@ -272,11 +250,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        , Anders!
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        Det var tomt på Håberg etter Valborg, men Anders og Petter lest som dei ikkje merka det. Anders vilde rive ned stuelona til næste sommar, så gjekk det over. Og desutan hadde han Petter å tenke på. Petter var eit par år yngre, men vaksen nok for det, Anders var alt eit par å tjuge. Men det var ikkje noko til emne i Petter, det var for mykje av kjeften og bakbeina, som dei sa, og ein fliropp og ein godtull til kar. Eiande snil var han, men ei bør å ha på seg, han kunde sjå reint vondt på ein stundom, og kva skulde det bli av han? Korles kom det til å gå han?
       </p>
@@ -356,11 +334,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Det kom for han, at det var tanken på faren som fekk han til å gå til prestgaren og gjera ålvor av det med Massi. Han gjorde kanskje ikkje å dryge lenger no.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        «Lad mig tage mig en hustru,» song han. «Til ægte,» la han til, og så pynta han seg og gjekk. Men da hadde våren komme alt.
       </p>
@@ -369,10 +347,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Men best ein gjekk, var det slutt, og natta hadde tatt til. Ein gjekk midt i henne, og allting hadde skifta og død bort. Troll-skrauggen
-       <note type="footnote">
-        Forfatternote:
-        Trollskrauggen ɔ: rugda
-       </note>
+       
        hadde gått over tretoppane, kro-kro-kvist! sa han, og så var det ingen fugl som song lenger, og dagslyse hadde slokna ut. Einast orhanen bles innpå myrhaugane, men det var ein trollblåster å høre på, han vekte opp nattlive i all skogen og marka; ikkje ei dagsens låt å høre meir.
       </p>
       <p>
@@ -416,10 +391,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «No veit eg det» sa Ola, da dei stod utpå reina. «Den som kjem lavandes
-       <note type="footnote">
-        Forfatternote:
-        lavandes ɔ: levande
-       </note>
+       
        nedgjenon fossen her, han ska ha a Massi!»
       </p>
       <p>
@@ -430,10 +402,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «Tvi!» sa han og rista vatne utor andlete. «Det gjekk skit, det her! Vi val finn på indkvart anna. Visst førkja e vard di
-       <note type="footnote">
-        Forfatternote:
-        vard di ɔ: verd det
-       </note>
+       
        da.»
       </p>
       <p>
@@ -574,11 +543,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Han hadde aldri prøvd å vera mindre enn ein annan ein.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Det leid ikkje langt utpå vinteren, så kom dei og fortalde Anders at Ola skulde ha ho Massi. Ein dagen kom Petter og visste det han med, så
        <pb n="30"/>
@@ -699,18 +668,18 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        <pb n="36"/>
        med broren. Han såg kor Anders voks seg i vêre for kvar tingen han levde seg framgjenom. No stod han der likbleik, med ein liten smil som Petter aldri hadde set hoss han før; det vart aldri å nå opp til Anders meir. – Nei, men han lo til heile stasen, han, å, han var så like hendt med kor det gjekk. Og kor mange var dei som var vaksne nok til å vera det, tru?
       </p>
-     </div>
+     
     </div>
-    <div n="1_2" type="chapter" xml:id="NOR00111_2">
+    <div type="chapter" xml:id="1_2">
      <head type="main">
-      <ref target="contents_1_2" type="contents" xml:id="chapter_1_2">
+      
        Solvi
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="37"/>
        Det var høgsommarstid, og eit vidunders vêr; dagandes dag med blåna og sol, så eit jamdøgers regn så det søya i jorda, og dermed stod sola der att og stråla og mana, det var liksom det strauma signing ned frå eit stort og godt hjartelag. Jorda låg og anda varme, ein takksam og grotung varme, det vilde ein vel kor ein snudde seg; når vinden strauk over småbjørklia eller grasvollen, susa det djupt imot bringa på ein, og så kom han berande med fangan full av lauvlukt og blomsterdåm og alt det dyraste han visste, myrgrase og porsen kom og minte seg, og strandblommane og tangfjøra og mange andre små kjendingar.
@@ -781,10 +750,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Massi gav seg til og vogga litlebarne. Han vekte opp ungen for henne, sa ho. Men ho vart så gild
-       <note type="footnote">
-        Forfatternote:
-        gild, her: glad
-       </note>
+       
        å sjå til; dette var eitkvart ho vilde ha meir av.
       </p>
       <p>
@@ -844,15 +810,9 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «Han far, mein du?» Ho fekk sneven av ein skugge over åsyna; dei kunde fara så langt bort i blånaen, auga hennar, kunde rømme tusen mil unna; ho smilte att, men det var ansles enn før: «Kann du ikkj bli med inn fer di da? Han renni da ikkje ti dæg.
-       <note type="footnote">
-        Forfatternote:
-        renni ti dæg ɔ: bit deg (om hund)
-       </note>
+       
        – Nei nei, for resten. Han e no så skrøpeli radd
-       <note type="footnote">
-        Forfatternote:
-        radd ɔ: rædd
-       </note>
+       
        fer mæg; liksom æg skuld vara den einast gjeita hans.»
       </p>
       <p>
@@ -887,11 +847,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Han stal seg ein kyss eller to; men tok han etter henne, stakk ho og kitla han, så han mista både låtten og håtten.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        Massi såg ut etter sola over nordfjella; det var sengtid, og ho skulde just til å klæ av seg. Da stod Anders Håberg uti garen. «I gudsnamn rett?» sa ho, og kasta auga kringom i stua. Kom her enno fleir i kveld? No kom han inn.
       </p>
@@ -954,17 +914,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        – – – Anders langa på og gjekk, og han tok same vegen som Petter. Dér hadde han fâre etter skarvlaupen òg; – «æg kjenni no kua mi på kløyve,
-       <note type="footnote">
-        Forfatternote:
-        kløyve ɔ: klauvene
-       </note>
+       
        og gjeita mi på pralen,» sa han. Men det her skulde dei bli to om. Om hån sa skulde leie han heim i klave og band, og sette han på bås! Han tørka sveitten og gjekk, for
        <pb n="48"/>
        det var varmt som i bakaromnen, og ikkje kunde han få til å gå makje
-       <note type="footnote">
-        Forfatternote:
-        makje ɔ: i mak
-       </note>
+       
        heller, han syntes han kom for seint. Kvistar som kom i vegen for han, braut han tvert av. «Finnlus og fark!» murra han.
       </p>
       <p>
@@ -1046,10 +1000,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «Æg veit det e dæg å takk fer det, Solvi, at det hi gått så bra hiten-te;
-       <note type="footnote">
-        Forfatternote:
-        hiten-te ɔ: hittil
-       </note>
+       
        og det villa æg sei dæg.»
       </p>
       <p>
@@ -1096,11 +1047,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Det var om det, at Anders hadde ingen ting tapt. Her var slik ei uendes mengd med dagar austafor. Og så vart her bra med korn på Håberg i år; resten gav han seg ikkje om.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        <pb n="53"/>
        Ein par månads tid etter reid Anders til prestgaren og fria til Solvi. Ho var der og tente no. Det hadde vorte slik spådd han av ei farkkjerring ein gong, at frå prestgaren kom han til å hente den han skulde ha, og no fekk han vel avstad. – Han trudde ikkje dusta på spådommen, han var fødd steins vantru slik. Han
@@ -1132,10 +1083,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        Næste gongen var med kirka. Han stod og batt hesten sin i skuggen attom fjøse, og med det same kom ho om nova, skulde avstad og flytte ei heimeku bortpå vollen. Det hadde ringt tredje gongen, og folk hadde gått åt kirka, det sat berre nokre gutpåkar bortpå haugen og fór
        <pb n="55"/>
        med å spella kort. – Det tok han så knapt,
-       <note type="footnote">
-        Forfatternote:
-        knapt, her = kvast
-       </note>
+       
        da han fekk sjå henne, han glømte det aldri. Ho var i full stas, hadde ein lys, fin kjole på, og ein kvit krage kring halsen. Det hadde gjort henne til eit nyt menneske, eit som ein måtte ha. – «Du,» sa han, da ho endelig ein gong var ferdig med denne kua, – «rettno kjem æg ein dag og vil snakk med dæg. Det e allvors snakk det, Solvi. Og den da'n slepp du ikkj ifrå mæg.» Han stod og såg på kor raudnaen flødde utover andlete hennar; men auga dei hadde ikkje forstått han. Og så let han henne gå. Men det tok som ei tong i hjarte på han, at den dagen måtte det ikkje bli lenge til, ein kunde bli beiskelig for sein.
       </p>
       <p>
@@ -1255,11 +1203,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Natta kan bli så tunglyndt seinsommarstid, vollar og skog ligg borti halvmørkre og kviskrar og minns. Det fanga til seg Anders, der han reid, og han visste ikkje korles det hadde seg. Det hadde vorte ein mangdubbel ting, det å vera til. Og den Anders som reid hit, han reid ikkje heimatt, og ospelundane og åkrane, som kviskra i kring han, det hadde aldri vore til før. Han visste ikkje om det var sorg eller lukke som gjekk igjenom han; det var ein ukjent ir, liksom han reid på hellig jord. Denne vegen hadde ingen fare før han. Ingen kom til å vita korles det var.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Petter kjem til Engdalen ein kveld føre brylloppe, sleng innom liksom han ingen ting vil. Massi står i kjøkkene og steiker potetkake, – for dei hadde alt tatt til og prøvd seg fram med
        <pb n="60"/>
@@ -1302,10 +1250,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Ola hadde vore haten
-       <note type="footnote">
-        Forfatternote:
-        haten ɔ: forhatig
-       </note>
+       
        på Anders, hadde sagt han farvel for levetida; men da han tok Massi frå han, var den tingen utjamna og glømt, han var for mykje slåsskjempe til å gå og brenne med noko hat. Han visste ingen likare i bygda enn Anders, enda han venta seg ingen venskap av han på lenge. – Ja, skulde dei i veg, så fekk dei finne på ein brurgave som
        <emph>
         var
@@ -1372,10 +1317,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
         nykånnå-kjolen
        </emph>
        og huva, var ho enda vakrare. Ho hadde slik lukke i kring seg; ho vermte som sommardagen der ho kom. – Så det var no ikkje for under om han gjekk seg i den gleksa,
-       <note type="footnote">
-        Forfatternote:
-        glekse ɔ: revesaks
-       </note>
+       
        syntes dei. – Å, hadde eg vore
        <emph>
         ung
@@ -1427,18 +1369,18 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Men hadde ikkje han Petter vore den gapen han var, så hadde allting vore ansles. Så hadde han inga Solvi havt.
       </p>
-     </div>
+     
     </div>
-    <div n="1_3" type="chapter" xml:id="NOR00111_3">
+    <div type="chapter" xml:id="1_3">
      <head type="main">
-      <ref target="contents_1_3" type="contents" xml:id="chapter_1_3">
+      
        Steinskreia
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="68"/>
        Det var ein frisk morgon utpå hausten, rimfrost i lynge og is på alle tjønner, lufta stod still og kald kring ein og var som eit laug å komma ut i. Folk var ute på sjøen i dag, drog taugja og fiska jul-kveite. Anders tok heller børsa og strauk til skogs. Han gjekk og lya etter sjøbord-turen; det var slik fri og sterk ein tone i han.
@@ -1463,10 +1405,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Petter strauk seg over panna, vilde ikkje opp med auga. – Å, det vart no så mykje som til øvrigheita det, og melde eit dødsfall att. No var det andre gongen. – Dei fell litt skryp,
-       <note type="footnote">
-        Forfatternote:
-        skryp ɔ: udryg
-       </note>
+       
        <pb n="70"/>
        småkarane hennar Massi, sa han, og no såg han på broren.
       </p>
@@ -1595,11 +1534,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        <pb n="74"/>
        skapningar attmed senga si; det kunde ta i hu-tenna på ein og løfte, så utrivelig var det. Petter kjente, somme nættene, kor det seig inn på han, alt det dei andre trudde. Og var det eit menneske som hadde ønska fram dette, så måtte det vera lovlig å ønske eitkvart vondt attende. Så fekk det i gudsnamn råke der det vilde.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        Anders kom heim i kveldinga. Mange fuglane hadde han ikkje, og ikkje tenkte han på dem heller. Det hadde drege etter seg, det Petter sa; det tyngde på han i lag med snøkaven og kvelden som fall på. Han tenkte på Solvi, oppatt og oppatt, og han visste det var bert umulig, at far hennar kunde gjera noko slikt. Og noko måtte han finne på så han kvævde det, men kva det skulde bli, det rann bort for han i ei grå skodd. Ja ja, han fekk no sjå. Det måtte vel gå an å snakke med folk.
       </p>
@@ -1653,10 +1592,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Ho var så ulik seg all igjenom i dag, når han først såg på henne, var så annsam og så skygg, og auga hennar var etter han støtt. Og så trøytt som ho var. Ho som aldri pla vera det. Han tok i fletta hennar og drog, til ho bad for seg, det var den einaste måten han hadde å låte etter
-       <note type="footnote">
-        Forfatternote:
-        låte etter ɔ: «kjærtegne»
-       </note>
+       
        henne på; ho måtte gjernast gå med håre nedetter ryggen, det vart for tungt elles. – Da han slepte henne, var han god til motes som han brukte vera; han hadde liksom kjent att henne da han fekk ta i henne.
       </p>
       <p>
@@ -1669,10 +1605,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Dei sat inga stunda før dei hadd bitt. «Er det gamla sjøl det her, tru, hell e det Norig?» sa Anders da han tok til å dra. Det var ein tønnefisk. Ikkje lenge etter hadde dei ei til, og like stor. Drengen vart fortenkt. – Sjøl han veit korles dette var, sa han. Enten fiska dei i fegda,
-       <note type="footnote">
-        Forfatternote:
-        fegda ɔ: av feig (dauen nær)
-       </note>
+       
        hell så måtte det vera runeri og develsmakt i heile stelle, og no vilde han i land. Det vilde Anders òg, men han sa stopp, han vilde kaste ein gong til. Den tredje storkveita kom opp. Henne kunde dei ikkje ta inn, og så prøvde dei å slæpe henne etter seg borttil Juviklande, Anders fatla kleppen og smikka i henne. Men så slo ho seg vill og gjekk. Det lettna for dei båe to: For mykje er for mykje, både i godt og i vondt.
       </p>
       <p>
@@ -1782,11 +1715,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        <pb n="82"/>
        Det måtte no vel bli enten egg hell ungar tå det der, tenkte Petter; han kjendte ein livsalig flir i seg.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        Dagen etter gjekk Anders til Engdalen. Han måtte ein stad, det var det. Nokon måtte han snakke med, og der fanns ingen annan enn henne. Enn Massi. Det var da berre nokre få veker sea dei var ur unge og hørte einannan til, syntes han; så ho måtte vel kunne seie han eit ord det var mon i. Han såg henne for seg som noko skinande lysgult og blått; Massi, det var den tingen som var god i verda, – som ein kunde gå til. Og no gjekk han.
       </p>
@@ -1898,11 +1831,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        <pb n="86"/>
        Men kanskje, når han kom heim? Når han fekk sjå henne? Var det så reint umulig at ho kunde vera den ho hadde vore før? Kva var det, det dei kalla nåde?
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Solvi var åleine med gutungen i stua, da Anders kom. Ho gråna over alt andlete med det same ho såg han. Han kom stomlande inngjenom døra som eit frammandmenneske, løfta kneene høgt i vêre som ein blind ein, og hadde auga ståande stivt fram i vêre. Ho gjekk attlenges imot veggen, da han vart vâr henne og kom imot henne.
       </p>
@@ -2018,10 +1951,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        Han såg ikkje likt til nokon ting. Det hadde
        <pb n="91"/>
        komme ned stein, syntes han sjå, malli
-       <note type="footnote">
-        Forfatternote:
-        malli ɔ: mykje
-       </note>
+       
        òg; men elles var det sjøen og berge og ingen anna ting. Han svinga ned i sunde, bort i vinden og båra, og langt om lenge fann han ei av færings-årane sine, og straks etter ei tilje. Utover mot Skarsvågen fann han auskare sitt. Han rodde att og fram i sunde til det var mørkt, var heilt over til øyane, men noko meir vart ikkje å finne. – Dei måtte ha fått båten full med stein. Og da hadde det gått fort med dem.
       </p>
       <p>
@@ -2037,11 +1967,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Det var Vårherre han meinte. Og så sov han godtsom med det same; han hadde knapt sovna så fort nokon kveld.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        V
-      </head>
+      </label></p>
       <p>
        Det vart sledaføre til gravøle i Engdalen, og høgmåneskin attåt. Dette var mykje til vêr, etter den årstida, syntes folk; det kom reint som ein gave, dei gjekk og undrast og snakka frampå om det. Så var det ein av gammalkarane som
        <pb n="92"/>
@@ -2292,18 +2222,18 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Men Anders gråna i håre den vinteren, enda han berre var 30 år.
       </p>
-     </div>
+     
     </div>
-    <div n="1_4" type="chapter" xml:id="NOR00111_4">
+    <div type="chapter" xml:id="1_4">
      <head type="main">
-      <ref target="contents_1_4" type="contents" xml:id="chapter_1_4">
+      
        Massi
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="100"/>
        Petter var den som først vart vâr at broren hadde gråna. Han kom slengande heim til Håberg gong og annan utover vinteren. Det var likt til han måtte sjå broren, og det gjorde Anders godt; – anna folk vilde han ikkje sjå.
@@ -2543,17 +2473,14 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «Såles går det: Somm messi
-       <note type="footnote">
-        Forfatternote:
-        messi ɔ: mister
-       </note>
+       
        det og somm får det.»
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        Anders låg i full fastande sømn, det var ei natt utpå seinhausten. Han låg nedi stua, og tenestfolka på lofte. Da vaknar han og synes han er ikkje åleine inne. Han ser seg i kring, og bli vâr ei som sit på senggavlen hoss han. Tanken på Solvi kryp igjenom han; han vilde gjerne ha snakka med henne, men ikkje når ho kom slik. Han smiler likevel, for dette var da skrømt, kven det så var, og det hadde han
        <pb n="109"/>
@@ -2567,10 +2494,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «Ja, det va så månløst.
-       <note type="footnote">
-        Forfatternote:
-        månløst ɔ: månelyst
-       </note>
+       
        – Og du søv?»
       </p>
       <p>
@@ -2726,10 +2650,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Ta til med live? Ja. Hadde ikkje anna tenkt. Når hans tid kom. Men det var lenge tart enda; malli
-       <note type="footnote">
-        Forfatternote:
-        malli ɔ: mykje
-       </note>
+       
        lenge òg.
       </p>
       <p>
@@ -2742,11 +2663,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        hadde vore. Det vart han aldri meir.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        Det gjekk ikkje mange dagane, så sala Anders unghesten sin og rei til Engdalen. Det var ein rivande frisk dag med kvitskyer og haustsol; vinden sprang over reinane og sopa lauv, rennte gjenom snauskogen og susa seg glad, og fjorden gjekk i ein frøs, med kvitgul tanngar imot sola.
       </p>
@@ -2814,10 +2735,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «Ja, for du, sjer du – – æg ska vel allti leit dæg ut ei som du e tjent med. Når du vart vaksin ein gong og la tå all ban-frasan
-       <note type="footnote">
-        Forfatternote:
-        ban-frasan ɔ: barnefaktene
-       </note>
+       
        din; og skarvstykkja. Og naar æg får områ mæg urliti».
       </p>
       <p>
@@ -2983,11 +2901,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        «Og no ska æg i kast med sjølve live da. Merkeli! Skål pastor!»
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Det første Anders og Massi vart vâr, no da dei var to til å sjå, var det at på Håberg måtte ein både slite og spara. For Massi var dette grei grein, ho var skapt til det, og ho var ikkje ansles vant. For Anders fall det tyngre. Han vilde helst arbeide rykk og annan, så røyken stod, og så ha tida for seg til litt av kvart; og slett ikkje var han huga på å spara, det baud han imot som riller eller surna mat. Massi hadde eit serskilt lag med han: ho opna auga på han utan han vardest det. For kvart barne som kom, sette ho ny fart i han. Fattigmanns-ungar skulde dei ikkje bli, alt anna enn det. Som du seier, Anders, la ho til. – Nei, det var no likare å sikte for høgt enn for lågt, sa han. Derfor vart kvar ein av småkarane liksom ein ny tott i makta hans. – For kvar gong det skrik ein ny ein borti senga der, bli det ein ny bardaga for meg, brukte han å seie. Dei såg attende på det sea og var lukkelige:
        <emph>
@@ -3102,30 +3020,30 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        han. For det var trøysamt at det fanns einkvan som var så langt ansles enn ein sjøl. Og ein gong måtte han vel få skikk på han òg, som på alt anna. Når han no endelig kom seg i gang.
       </p>
-     </div>
+     
     </div>
    </div>
-   <div n="2" type="part">
+   <div type="group" xml:id="2">
     <head type="main">
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       2
       dre
       BOKA
-     </ref>
+     
     </head>
     <p rend="center">
      «Alles øine vogte på dig.»
     </p>
-    <div n="2_1" type="chapter" xml:id="NOR00112_1">
+    <div type="chapter" xml:id="2_1">
      <head type="main">
-      <ref target="contents_2_1" type="contents" xml:id="chapter_2_1">
+      
        Ein stor ein og mange små
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="131"/>
        Anders på Håberg gjekk til presten. Det var ikkje så mange andre
@@ -3306,11 +3224,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Og så kom gåmlingen sjøl-seg og la seg på tvert for han. Men det vart alltid ei råd, ikkje farlig med det, san. No, for det første, var det denne vegen i bygda. Den skulde dei ha, enten dei vilde eller ikkje; og derfor gjekk han til Lauvset og vilde snakke med dem.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        <pb n="138"/>
        Lauvset-karane og nokre grannar til var borti stua hoss Kristian. Han Mønnicken frå Nesse var der òg. Han var elles ikkje å sjå borti garane: han var storkar. Anders hadde sagt han vilde snakke med dem, og dei visste vel kva det var om. – Anders tok målinga først, for Kristian Lauvset var med i tilsyne. Dei sa som presten, at målinga burde han ta på seg. Petter hadde snakka frampå om det, og Petter var den likaste målaren dei visste å seie av, men det fall seg ikkje lett for han å få ut måling hoss handlaren; – han skyldte vel urlite grand, sa ein av dem. Og best var det, Anders, om du tok på deg heile stelle. Så visste vi kven vi skulde halde oss til. Bygda venta seg det tå deg.
@@ -3421,11 +3339,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        – «Sju – issj!» bles orhanen. Kva var det han varskudde for?
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        Dagen etter gjekk Anders i veg og snakka med Petter. Det stridregnte, og grase grodde, og skogen spratt; det var mykje til gro-vêr, og Anders gjekk og smilte: Folk hadde klaga og kridd for kaldtørken, og han hadde blåse åt dem, – no kunde dei sjå. Men dei såg vel ingen ting nei. Dei lærte ikkje det slag på hundre år, kva levde dei så etter? God tid hadde dei støtt, men aldri tid til å bie. Dei
        <emph>
@@ -3564,12 +3482,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Han kom stigande stilt inn heime, såg mest ingen. Han fortalte Massi om erende sitt til Leinland,
-       <note type="footnote">
-        Leinland,]
-        rettet fra:
-        Leinland.
-        (trykkfeil)
-       </note>
+       
        og ho lysna til med det same og tykte vel om det. Men så vart ho ståande og tenke. Det kom no an på, sa ho. Om han vilde sjøl, han Per?
       </p>
       <p>
@@ -3668,11 +3581,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Nei, Massi gruva ikkje. Det var slikt vêr i Anders, han reiv henne med seg så ho mest måtte le innvortes. Men det ira ei uro gjenom henne i same tida: at no hadde han Anders vorte den ho vilde ha han til, og no visste ikkje ho lenger kva veg det bar.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Våren gjekk, og våronna vart gjort, på det vise det var; Anders visste godt det var i fløtaste lage, for han tok til med vegarbeide i same tida å kalle, hadde ikkje ro til å dryge lenger. Frå Vågen til Håberg var han alt ferdig, og no bar det inngjenom marka til Lauvset.
        <emph>
@@ -3767,18 +3680,18 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Han var alt på gonga ifrå den andre.
       </p>
-     </div>
+     
     </div>
-    <div n="2_2" type="chapter" xml:id="NOR00112_2">
+    <div type="chapter" xml:id="2_2">
      <head type="main">
-      <ref target="contents_2_2" type="contents" xml:id="chapter_2_2">
+      
        Avkomme
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="157"/>
        Det som gav Anders den nye makta hans, var borna. Slik kom det for han. Javisst hadde han havt dem før òg, og glad i dem hadde han vore, men først no i det siste hadde han vorte vâr dem for ålvor. Same kor det gjekk, så hadde han dem. Han gjekk i ei djup og tung lukke, kjente seg uovervinnelig: Han skulde ordne framtida for dem; her var mange ting i vente, sjølve live var i vente.
@@ -3820,11 +3733,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        eller ikkje.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        Anders låg vaken ein natta utpå hausten. Det gjorde han elles støtt når ungane var heimanfrå, og no var dei sør i Lines-grenda på skuronn-dugna og dans, kom vel ikkje heim før på morgoparten. September-månen stod lågt over haugane, så stor at han kunde stogge hjarte i folk; og raud som sloknande jarn, men lyste gjorde han mest ikkje; åsar og fjell la svart skugge over all bygda å seie. Tungsjøen tura utom oddane; han tok slik
        <pb n="160"/>
@@ -3919,10 +3832,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Ved dette leite kom farbror Petter raklande heim frå kirka og arbeide. Han hadde vore vestom Vågen og fått seg skjenk, i kveld som ein annan kveld, så han var den han pla vera, småfull og småsyngande, men vaken og beisk som nordavinden. Han møtte unglyden, og spurte om dei hadde treft nokon her frampå. – Nei, ikkje ei sjæl. – Hm. Han syntes da så tydelig det gjekk eit par straks føre han? Han saga i veg att, men da han er midt for loddo,
-       <note type="footnote">
-        Forfatternote:
-        loddo ɔ: høyløe
-       </note>
+       
        set han seg på vegkanten. Det var godt å sitte her, når ein ikkje var
        <emph>
         for
@@ -3984,11 +3894,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        «Ja–a. Viss-at ho va tå di bonnom, så.»
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        Det vart bryllopp på Håberg i jula, som Anders hadde lovt. Han nemnte Marja Leinland for Per ein dagen i haust; dei var enda nedmed sjøen og hengte opp sildgarn. Det er ei hiva veikje, gut – tru om du ikkje
        <emph>
@@ -4210,11 +4120,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        !»
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Ut i februar fór folk på fiskja. Ola Håberg vart med i staden for Petter Lines, på båten hoss Hall. Gjartru hadde manna seg opp og latt Hall få reise; så stor ei skamm måtte ikkje gå over han, at han vart heime når dei andre fór. Og faren hadde komme så rar ein dagen og trøsta henne, liksom han visste kor tung for bringa ho var. – Det vil oss berre vel, no eit tak, hadde han sagt, og dei orda hadde vore gode å ha.
       </p>
@@ -4457,18 +4367,18 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        tid, ban.»
       </p>
-     </div>
+     
     </div>
-    <div n="2_3" type="chapter" xml:id="NOR00112_3">
+    <div type="chapter" xml:id="2_3">
      <head type="main">
-      <ref target="contents_2_3" type="contents" xml:id="chapter_2_3">
+      
        I kirketårne og nedpå jorda att
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="183"/>
        Men Anders glømte ikkje kirka, og ein vakker dag var han der att. Han snakka ikkje til presten denne gongen, han lånte seg ein stega av rossdrengen, og kleiv oppetter kirkeveggen til han var i jamhøgd med øvre vindaugskarmen og vel så det. Han sette tommelneglen i målinga. Ho var blaut som deig. Han prøvde kirka rundt, og det var det same. «Sildlaka og ikkj tran!» dømte han. No kunde målinga ha hyra for det, enda det høvde seg no kleint på kirka; men her var anna fusk attåt. «Krit og skit», sa han, og slengte stegan. Tok så tollkniven og prøvde nedunder vindauga: Der skaulna målinga av som skjel. Han rista på hovude og stod der med slakke armar: «Nei men dæven han busti, han!»
@@ -4488,12 +4398,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
         her
        </emph>
        !» sa kjærringja, ho datt på grefta.
-       <note type="footnote">
-        grefta.]
-        rettet fra:
-        grefta».
-        (trykkfeil)
-       </note>
+       
        Ja ha, og til Petter hadde han sagt at han kom og såg opp i tårne ein dag! Lenger enn hit skulde han ikkje komma etter Petter si rekning. Nei, men at eg skulde gå attlenges og slå i hel meg,
        <emph>
         det
@@ -4658,11 +4563,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        det.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        Dagen etter gjekk Anders og vakta på Per. Han måtte snakke med han, og helst så ingen
        <pb n="191"/>
@@ -4800,11 +4705,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Men jamenn stod ho der og kom i hug, lel, det der med Solvi og steinskreia. Noko tull, som han Petter ventelig hadde git henne inn med skjeia – signe maten! Gammalt og glømt, hadde mest aldri hendt. Anna enn det da, at han Petter var ein mordar! Så tydelig hadde han aldri set det før. Han sa det høgt med seg sjøl, der han leita seg fram i snøtjukka: «Det der ska du ikkj gløym tå, Anders».
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        Ved denne tida var Petter på vegen frå Vågen og til kirka. Han var tålig bra full, men
        <emph>
@@ -4905,11 +4810,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Petter lo, han tykte han lo som Svarten sjøl: Du brente godt, Petter. Du hadde lukka med deg att. Men Vårherre skulde akte seg: Denne gudsengelen hans hadde no born. Dem måtte ein vel kunne komma på skottmål ein gong.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Det gjekk både lettare og fortare å få Hallstein unna enn Anders hadde venta. Han stod fast for pengar att, og så selde han likesnart heile stasen, og Jens kjøpte. Mønnicken hadde vore fram, men vart for sein. Anders hadde budd seg på eit tak, og det vart han narra for; men han stod att så underlig varm og lett for bringa: Bygda tok åt og folkast til litt medkvart. Folk var likast når ein slapp å bryte dem under seg.
       </p>
@@ -5069,18 +4974,18 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        å seie, at han hadde komme dit med makt.
       </p>
-     </div>
+     
     </div>
-    <div n="2_4" type="chapter" xml:id="NOR00112_4">
+    <div type="chapter" xml:id="2_4">
      <head type="main">
-      <ref target="contents_2_4" type="contents" xml:id="chapter_2_4">
+      
        Svana syng og trasten skvattrar
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="210"/>
        Ved denne tida vart Massi sjuk. Ho fekk ein svull i halsen. Anders såg straks at den vart ikkje grei, han sat så langt nedi at ein ikkje kom til med kvast der. Han kurerte med dei råder han visste, og tenkte sterkt på å bruke kniven utanfrå; men Massi vilde ikkje høre snakk om det; ho rista så hjartans trøytt men sterkt på hovude: dei fekk lyde henne denne gongen.
@@ -5303,11 +5208,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Han heldt seg mykje godt unna borna. Dei uroa han så. Det kom for han, at dei gjekk og vakta på han og frykta for han heldt på og miste syne. Javisst dimte han litt på det no heretter, han som så mange andre i slekta, tidlig gråhærde og tidlig dimsynte, – det var enda eit par som hadde ligge til sengs siste åra og hadde vore blind. Men han skulde vita å kurere seg, ikkje farlig med det. Men først måtte han gjera unna det meste av det som venta på han.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        Faster Ane i Pålsnese hadde òg vore i gravøle. Ho hadde aldri vore større
        <emph>
@@ -5316,19 +5221,9 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        ; men ho var av dem i ætta som ikkje visste å døy.
        <pb n="222"/>
        Likevel vart ho liggande etter det gjestebode. Ho fekk kulde i eine foten, og så sette det seg for og gjorde han nåmen og dau; og litt medkvart døde heile den sida bort. Ho måtte matast og røktast som eit litebarn, og det vart Åsel som måtte til.
-       <note type="footnote">
-        til.]
-        rettet fra:
-        til
-        (trykkfeil)
-       </note>
+       
        Det fall av seg sjøl for henne. Ane hadde kåre, og var rik, etter som folk trudde. Åsel
-       <note type="footnote">
-        Åsel]
-        rettet fra:
-        Asel
-        (trykkfeil)
-       </note>
+       
        skulde ha all ting etter henne, men det kom ho sjelden i hug. Ho hadde vorte glad i denne 90-års gamle ungen, som ingen annan hadde og ingen kunde gjera til lags; ho måtte le litt somtid, for gamla sautra og sutra verre des bedre ein stelte med henne.
       </p>
       <p>
@@ -5343,12 +5238,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        lenger, eg veit ikkje korles det er. Han er så mild og snild, det er snart berre barne att. Men
        <pb n="223"/>
        Åsel
-       <note type="footnote">
-        Åsel]
-        rettet fra:
-        Asel
-        (trykkfeil)
-       </note>
+       
        rista på hovude: – A nei, san, ho fekk da bli her.
       </p>
       <p>
@@ -5356,20 +5246,12 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Dei var i kjøkene, og Gjartru sat på kjøkenbenken. No prøvde ho å sjå ut gjenom dei små dimsne rutene, det var trøyheit, for det vart så ruklut og rart alt ein såg på, og så grønt. Da såg ho ein frammand kar ute i garen, ein ungdom enda, stor og lang, i kvite seglduk-bukser og raudrutut vest; han gjekk i undertrøyermane i kaldvinden og hadde berre ei lita skjermhuve attpå nakken; han var ikkje her ifrå bygda, han der. Elles ein trivelig kropp å sjå til, ein snøgg
-       <note type="footnote">
-        Forfatternote:
-        snøgg ɔ: her: vakker
-       </note>
+       
        ungkar, dei kalla. Ho spurte Åsel kven det var.
       </p>
       <p>
        Åsel kom og såg ut. Så sette ho i og lo, bert og blankt så Gjartru
-       <note type="footnote">
-        Gjartru]
-        rettet fra:
-        Gjertru
-        (trykkfeil)
-       </note>
+       
        ikkje kjente att henne:
       </p>
       <p>
@@ -5577,29 +5459,21 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Anders hadde ikkje komme heim stort før Per og Åsel.
-       <note type="footnote">
-        Åsel]
-        rettet fra:
-        Asel
-        (trykkfeil)
-       </note>
+       
        Det var noko han gjekk og la over. Han vilde ta og kurere seg i auga. Han
        <pb n="229"/>
        vilde ikkje ha denne lyse blinde skodda imot seg lenger, det heldt visst på og la seg ein tynn sjå over dem, dei var snart som glasauga i hest. Og han trong å sjå vel no, han som skulde sjå for dem alle i hop.
       </p>
       <p>
        Men da han står på Stallbakken heime, synes han høre som ein song i lufta. Ikkje nokon svanesong just, ikkje nokon høyrande tone eingong, men der var ein ôm millom fjella eller kor det no var, eitkvart som var ute og vilde han noko. – Hm – hm! sa han, og gjekk inn. Så let han det vera den her gongen. Enda han kunde ikkje anna skjønne og til få, enn at heit tjæralaug måtte ta vekk denne hinda, og smurte ein med lys
-       <note type="footnote">
-        Forfatternote:
-        lys (lyse) ɔ: blanktran
-       </note>
+       
        etter, så skulde auga bli gode og mjuke, reint oppyngt. Men, som sagt, han kunde late det vera. Han var åleine, hadde ikkje for mange å lite på. Og dei vilde han vel, dei som varskudde han.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        Det var vårkveld med nordavind og kaldtørk. Kvitgule nordanskyer gjekk lystig sørover; dei var kalde i åsyna og hadde hast. Dei såg forundra ned på jorder og lauvskog her sørpå, som hadde tatt til å vårast alt; det var vinteren nordanfrå som seglde sin veg. Men ovanom dem kom det eit hav med grå sky frå sudvest;
        <pb n="230"/>
@@ -5626,10 +5500,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        Det var Jens, handlaren i Vågen. Han var full, det såg dei straks. Andlete, som var litt
        <pb n="231"/>
        brent etter småpokko,
-       <note type="footnote">
-        Forfatternote:
-        småpokko ɔ: poka (kopperne.)
-       </note>
+       
        var raudt og stivt, og auga stod i grå røyk fram for han. Han var fastrusta i måle, det var så vidt han fekk spurt etter Per. – Per var inni stua, han fekk leite inn. – Nei, han hadde ikkje tida til det, såg ikkje slik ut på føtene heller. Gjartru gjekk inn etter Per, og dei gjekk åt Øyster-stu dei kalla; det var der Per og kona hadde senga si, – elles heldt dei til i den vestre i lag med dei andre.
       </p>
       <p>
@@ -5798,11 +5669,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Så gjekk dei åt andre stua.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Lensmannen var der enda, og no skulde han til bords. Der var framsett til han på frammandborde, millom dei to søndre vindauga; sjølsegfolke sat attmed kvardagsborde ved nordre veggen.
       </p>
@@ -5910,18 +5781,18 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        «Nei nei,» sa han, og så skildest dei.
       </p>
-     </div>
+     
     </div>
-    <div n="2_5" type="chapter" xml:id="NOR00112_5">
+    <div type="chapter" xml:id="2_5">
      <head type="main">
-      <ref target="contents_2_5" type="contents" xml:id="chapter_2_5">
+      
        «Kast dit brød på vandet»
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="242"/>
        Andre dagen tok faren Gjartru for seg. Han bad henne åt kammerse, og let att døra. Det gjekk så høgtidssamt for seg, at gjenta vart både heit og bleik.
@@ -5996,10 +5867,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Var han Per her i gårkveld da? – Ja, han var da det. – Kunde tenke det ja. Anders stod med okspeisen i handa, tok seg opp i håre med den andre: «Det var skjit, va det. He'» Så såg han litt velare på Kjersti. Ho såg verken glad eller vond ut. Han kremta, og vart raudflagut oppetter andlete: «Æg val skikk gutan hitover ein dag hell to: med hesthjolp; her e liti gjort med våronna, sjer
-       <note type="footnote">
-        Forfatternote:
-        sjer ɔ: ser
-       </note>
+       
        æg.»
       </p>
       <p>
@@ -6046,10 +5914,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        Det var helgedagsstilt ute i garen og rundt omkring, med han stussa med dette. Flua song på veggen, og småfuglen skvattra om sitt;
        <pb n="247"/>
        gåspuen
-       <note type="footnote">
-        Forfatternote:
-        gåspuen ɔ: spoven
-       </note>
+       
        let om seg nedpå myra, og gong og annan hørtes eit rop, når dei fordømte seg over hestane utpå åkeren, det var alt i hop forunderlig langt unna, ute i ei anna verd. Anders lya etter det: det var merkelig så stilt. Men han hadde anna for seg.
       </p>
       <p>
@@ -6099,11 +5964,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        <pb n="249"/>
        Ho undrast på det, med ho tok på seg og gjekk ut. Ho blunka til Beret, og stal seg austover vegen. For det var slik uhegdelig fuglesong aust i marka, nattvaka sat i kvar ein telltopp og lokka; det var ikkje ein kveld til å sitte inne. – Ein kunde vera storglad ein ikkje var ei bondekjerring, kor som var.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        II
-      </head>
+      </label></p>
       <p>
        Faster Ane i Pålsnese vart fort dårligare. Da Åsel kom heim frå Håberg den kvelden, stod den nye drengen ute og venta henne. – Ho er visst malli klein, ho gamla der inne, sa han, eg hørte ho anka seg, og så var eg innom hoss henne. Eg fekk inge svar av henne. Åsel skyndte seg inn; det var først ettersea, at ho gådde han hadde stått der.
       </p>
@@ -6136,12 +6001,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
         trudde
        </emph>
        ho han sat uti kjøkene. Utpå morgoparten var han der att, med kaffe til henne. Åsel
-       <note type="footnote">
-        Åsel]
-        rettet fra:
-        Asel
-        (trykkfeil)
-       </note>
+       
        drakk aldri kaffe, det var slik vond ein smak på han, men no vart han trua i henne, og han gjorde
        <emph>
         vemodi godt
@@ -6254,11 +6114,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        <pb n="255"/>
        vel komma hit i gravøle. Ho visste ikkje at ho skjemtes for å gå til han.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        III
-      </head>
+      </label></p>
       <p>
        Dei tenkte det same på Håberg, at Anders måtte no vel bli så lik han kom til gravøle. Det låg som ei tyngd og ei uro over dem all dagen, så på sisten var det ingen som torde nemne det. Men da det var berre ein dag att, tok Gjartru seg for og sa det med han. Han låg og snudde seg til veggen, slik han hadde gjort mest heile tida sea han vart dårlig, og det mumla i han, at frisk det var han, han hadde berre litt verking i eine auge. – Lat meg så ha fred! bad han. Det same sa han når dei kom med mat.
       </p>
@@ -6267,10 +6127,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «Æg vart ussel, æg,» sa han. «O-lek, malli o-lek ò.»
-       <note type="footnote">
-        Forfatternote:
-        o-lek ɔ: ulik, sjuk
-       </note>
+       
       </p>
       <p>
        Per kremta berre til eit par gonger. Anders løfta handa og let henne falle tungt ned på senggavlen:
@@ -6437,11 +6294,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        </emph>
        , ban!»
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        IV
-      </head>
+      </label></p>
       <p>
        Nei, Anders tvila ikkje pa det. Der var vel ei meining med allting, og kvifor skulde ho ikkje vera god? Han tykte han hadde sett litt i røra på det, mange gonger.
       </p>
@@ -6452,10 +6309,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
        Det var Gjartru det tok til med. Ho hadde eitkvart å fortele han; han syntes sjå det, og des lenger det vart før ho kom fram med det, des tyngre la det seg over han. Så ein dagen ho var uti kammerse hoss han med mat, spurte han beint ut: Korles var det med henne og lensmannen? Det var langt lettare å spøre no når ein hadde bind for auga. – Har ikkje set noko til han i det siste, svara ho. – Snakk sant, Gjartru! Åt meg. Gjartru kom i hug at han var både blind og hjelpelaus, og så fortalte ho korles det var. Det var slutt. Anders sat litt og let fingrane gå om-einannan. – Du fortalte han litt for mykje, da? – Gjorde vel det. – Men var han slik ein
        <pb n="262"/>
        snøstrøsk
-       <note type="footnote">
-        Forfatternote:
-        snøstrøsk ɔ: hoven tosk
-       </note>
+       
        da? – Neida, neida. Nei, han sa berre at eg var ei tullhøne. – Ja? – Ja, og så sa han meg det, beint opp i auga, at han hadde ikkje vore likare sjøl; han hadde vore borti
        <emph>
         utrolig
@@ -6590,12 +6444,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        Han vona så smått på at Ola skulde ta garen. Men han svara aldri på det. Og utpå sommaren, da Jens skulde fara, gjorde han seg i stand og reiste på lærarskolen. Anders måtte låne pengar åt dem båe, og han visste ingen annan å gå til enn søsterne deira. Men der var det ingen ting. Dei hadde alt lånt bort skillingane sine til Jens, liksom Ola
-       <note type="footnote">
-        Ola]
-        rettet fra:
-        Olå
-        (trykkfeil)
-       </note>
+       
        hadde gjort, så han kunde range seg utor gjelden før han fór. Da skikka han bud til Juvika, til faster Åsel, og ho kom, så gammal ho var. Ho var den einaste som var god å høre på når ho snakka, tykte Anders; og pengane fekk han med første ord.
       </p>
       <p>
@@ -6624,11 +6473,11 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Dei sa farvel og fór, og Anders stabba inn åt kammerse sitt og sette seg att. No var det berre eitt som vanta: at dei tok ifrå han garen, så måtte han da vera til botns i det, trudde han. Men der vanta to ting enno. Den eine var, at lensmannen fór i prestgaren og fria, etter Jens slutta, og Gjartru heldt til på lofte og gret. Den andre, at Beret hadde vorte plukk tullut og måtte på tronka, ho var ikkje havande i hus.
       </p>
-     </div>
-     <div type="uchapter">
-      <head type="sub">
+     
+     <milestone unit="uchapter"/>
+      <p><label>
        V
-      </head>
+      </label></p>
       <p>
        Men dei tok ikkje garen frå Anders. Skylda var ikkje så stor; og sonekona kom knapt med nokon arving. Han sa det med Gjartru ein dagen:
        <pb n="270"/>
@@ -6734,18 +6583,18 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Hm. Slik no. Det var sant. Han sat og rugga på hovude. Kaste brøde sitt på vatne var no hardt da. Det hadde han aldri prøvd; var ikkje skapt til det heller. Men dei var vise, dei som det gjorde. Og ei underlig makt måtte det vera i dem. «Forbanna, æg klara det ikkj!» sukka han. «Nei, gu bere, æg va ikkj tå di bonnom».
       </p>
-     </div>
+     
     </div>
-    <div n="2_6" type="chapter" xml:id="NOR00112_6">
+    <div type="chapter" xml:id="2_6">
      <head type="main">
-      <ref target="contents_2_6" type="contents" xml:id="chapter_2_6">
+      
        I blinda
-      </ref>
+      
      </head>
-     <div type="uchapter">
-      <head type="sub">
+     <milestone unit="uchapter"/>
+      <p><label>
        I
-      </head>
+      </label></p>
       <p>
        <pb n="275"/>
        Det hadde gått i ein dur for Anders i det siste, og han takka for det. Det vart alltid stunder til å sitte. Likevel var det liksom han vilde skynde seg på sluten, få det unnagjort og komma seg i ro. Han vilde sjå på det som hadde hendt, han vilde ta for seg ulukka og allting og sjå det slik det var. Og no stilna det forunderlig. Allting så la det seg til ro omkring han. Han hørte solskine, kor det stod ute i lufta sommardagen lang. Han hørte vinden, kor han bles over take og over alle fjella. Han kunde sjå det òg, når han berre let att auga: åkeren la seg unna vinden, båra mørkgrønt og lysgrønt, mørkgrønt og lysgrønt; og no tok stormen i lauvkrona på bjørkene og rengte henne over hovude på dem, dei stod og stridde imot med kvite krokute legger, skjemdest så hjartelig, ønska dei sokk i jord. – Men elles skjedde her ikkje noko, syntes han, det var slutt og til endes med den ting; verda låg og let tida gå over seg, som vind over fjell.
@@ -6941,10 +6790,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       </p>
       <p>
        «Ja sjå, det visst du ikkj. Der vart du fer støtt,
-       <note type="footnote">
-        Forfatternote:
-        støtt ɔ: stutt
-       </note>
+       
        ban! Men her sitt æg. Og snaut og tomt i kringom mæg ja. Ein kund bli te is.»
       </p>
       <p>
@@ -6978,7 +6824,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
       <p>
        Amen! sa han, og det tykte han var som ei vaksenmanns-gudsfrykt.
       </p>
-     </div>
+     
     </div>
    </div>
   </body>
