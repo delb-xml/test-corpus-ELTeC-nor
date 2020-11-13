@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0048" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0048" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Enken ELTeC-utgaven
     </title>
-    <author>
-     Krag, Thomas Peter (1868-1913)
-     <idno type="viaf">
-      161482950
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q934901
-     </idno>
-    </author>
+    <author ref="161482950 https://www.wikidata.org/wiki/Q934901">Krag, Thomas Peter  (1868-1913)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,13 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
+   <sourceDesc><bibl type="unspecified">
      <ref target="https://www.nb.no/search?q=krag%20enken&amp;mediatype=b%C3%B8ker&amp;title=%22Enken%20%3A%20Roman%22">
       Utgaven er basert på teksten i 1. utgave, 1899 (iflg. NB Tar-fil)
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         T. P. Krag
        </author>
@@ -68,10 +61,7 @@
        <idno type="wiki">
         None
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -83,11 +73,11 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <e:canonicity key="low"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>

@@ -1,21 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
-<TEI xml:id="NOR0004" xml:lang="nn" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0004" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Bondestudentar ELTeC-utgaven
     </title>
-    <author>
-     Garborg, Arne (1851-1924)
-     <idno type="viaf">
-      https://viaf.org/viaf/89613088
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q467497
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/89613088 https://www.wikidata.org/wiki/Q467497">Garborg, Arne  (1851-1924)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -41,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="dokpro.uio.no">
-      Skriftir i samling, b. 1, Aschehoug, Kristiania, 1921.
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         A. Garborg
        </author>
@@ -69,10 +59,7 @@
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q3423739
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -84,11 +71,11 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="long"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2011-05-08">
     La inn manglende entitet for iacute.
    </change>
@@ -102,7 +89,7 @@
  </teiHeader>
  <text type="novel" xml:id="BS_Garborg_Bondestudentar_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0004001">
+   <div type="chapter">
     <head>
      I.
     </head>
@@ -481,7 +468,7 @@
                     vilde bli Prest.
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0004002">
+   <div type="chapter">
     <head>
      II.
     </head>
@@ -907,7 +894,7 @@
                     verre enn heime.
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0004003">
+   <div type="chapter">
     <head>
      III.
     </head>
@@ -1909,7 +1896,7 @@
                     gamle slitne Akslom.
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0004004">
+   <div type="chapter">
     <head>
      IV.
     </head>
@@ -2254,11 +2241,7 @@
                     der stod:
      nisi, quanta vi civitates libertatem expetunt, tanta
                         regna reges defendant –,
-     <note type="footnote">
-      nisi–defendant:
-      um ikkje Kongane vil verja sine Rike likso
-                        kraftigt som Borgersamfunde søkjer Fridomen …
-     </note>
+     
      daa stod
                     han fast; han tok
      tanta
@@ -2729,7 +2712,7 @@
                     Botn.
     </p>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0004005">
+   <div type="chapter">
     <head>
      V.
     </head>
@@ -2868,10 +2851,7 @@
                     – visst mang ein Gong – – paa vor Gute Vis (æh?
                     vov!) hev forbanna (Bravo! Bravo! Bravo!) som ei Trældomstid (Mja-au).
      Faustis avibus
-     <note type="footnote">
-      Faustis avibus:
-      um alt gjeng vel.
-     </note>
+     
      (Hurra!) vil me no
                     – um faa Dagar – vera vaksne (Kykeliky!) og frie Mennar –
                     vera
@@ -3056,11 +3036,7 @@
      ,
      ton bion
                         theôn
-     <note type="footnote">
-      ton bion
-                            thêon:
-      Live aat Gudane.
-     </note>
+     
      i menneskjeleg Meining
                     (Bravo!), med eit Ord, mine Herrar, i Sanning
      <emph>
@@ -3162,11 +3138,7 @@
                     vandre; njote sin Ungdom skulde dei, men njote som Studentar, som aandsvigde
                     Sveinar i Ideens Presteskap, som
      cives academici.
-     <note type="footnote">
-      cives academici:
-      akademiske
-                        Borgarar.
-     </note>
+     
      Og det var det herlege ved aa vera ung Student; det var det
                     sanne Innhald av Russe-Gleda, av Fagnaden og Festen her i Kveld (stort
                     Samtykke). Og so vilde daa endeleg Professoren slutte med eit Leve! for den
@@ -3197,10 +3169,7 @@
                     «Ha-ha-ha-ha! Sjøgang idag! Og forb-banna mange Vrak!»
                     – han hermde ei kjend Rispe. Daa Halvor kom framtil Daniel, helsa han med
                     stor Glede; treiv Handi hans og gratulera sin «Busenfrynd»&gt;
-     <note type="footnote">
-      Busenfreund:
-      Hjartans-Vén.
-     </note>
+     
      utan Ende; og Daniel, som elles aldri hadde
                     kunna like Halvor Mosebø, vart likso glad; drog han nedpaa Stolen ved
                     Sida av seg, og lo av di Halvor var full. Det var so morosamt aa vera ung og
@@ -3703,7 +3672,7 @@
                     fekk Daniel Braut heim.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0004006">
+   <div type="chapter">
     <head>
      VI.
     </head>
@@ -3817,12 +3786,7 @@
                     svært tydeleg Maate viste Bòdberaren, at sin
                     «Demissjonsrett» hadde han ikkje tapt, kor det no kunde vera med
                         Dimissjonsretten.
-     <note type="footnote">
-      demissio:
-      Nedsending (her Ned- eller Utkasting).
-      dimissio:
-      Burtsending, Frigjering (i Skule-Maale: Slutt-Prøve).
-     </note>
+     
     </p>
     <p>
      Fabrik-Russen, og Daniel med dei andre, vart bleikare um Nebben for kvar Dag som
@@ -3868,10 +3832,7 @@
     <p>
      Forunderleg nok gjekk det godt i Tysk og Fransk. Og no var han trygg paa
                         Laud.
-     <note type="footnote">
-      Laud
-      : Ros verd.
-     </note>
+     
      Han
                     gjekk og hugga seg med aa tenkje paa, kor glade dei skulde bli, dei som hadde
                     hjelpt han fram, og kor staut det vilde vera aa kunna skrive til Inga Holm:
@@ -3918,12 +3879,7 @@
      det i Grunnen! men fekk det ikkje. Hadde han berre ikkje
                     vori so nære ved! Og hadde ikkje Historie og Geografi vori hans beste
                     Fag! At slikt kunde hende! No skulde han gaa i heile sitt Liv og hava Haud
-     <note type="footnote">
-      haud:
-      godt.
-      non:
-      ikkje verst.
-     </note>
+     
      til Artium, og det berre av di … i
                     Grunnen av di han hadde havt Robert Djevelen til Domsmann.
     </p>
@@ -4141,11 +4097,7 @@
                     seg yvi i alle sine Dagar. Men ender og daa kom det trampande ein
      homo novus
      ,
-     <note type="footnote">
-      homo
-                            novus
-      : ukjend (ættlaus) Mann.
-     </note>
+     
      ein Aslaksen eller ein
                     Bragestad; og Daniel saag med veksande Uro, kor lett det mest alltid var aa
                     kjenne deim fraa dei andre. Dei hadde ikkje Svingen. Brevi sine tok dei imot med
@@ -4263,7 +4215,7 @@
                     lenger; og minst kunde han halde ut aa sjaa paa denne nye Gjenta.
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0004007">
+   <div type="chapter">
     <head>
      VII.
     </head>
@@ -4323,11 +4275,7 @@
                     og redigere kvarandre «
      in absurdum
      «.
-     <note type="footnote">
-      redigere in absurdum:
-      gjera til
-                        Narr.
-     </note>
+     
      Daniel høyrde med Vyrdnad paa desse store Talarane og
                     tenkte med seg, at slikt kunde ikkje han lære. Men langsamt var her; han
                     sat berre og stunda etter at dei vilde slutte. Endeleg kom Toddyen. Men det var
@@ -5073,7 +5021,7 @@
                     mødd; han kunde ikkje læ.
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0004008">
+   <div type="chapter">
     <head>
      VIII.
     </head>
@@ -5386,11 +5334,7 @@
                     for so mykje Satans List og Forlokking, at han hadde vori nære paa aa
                     tapa si Barnetru. (Hurra! Mjøltraavarens Barnetru!)
      Pater omnipotens
-     <note type="footnote">
-      Pater
-                            omnipotens:
-      allmegtug far.
-     </note>
+     
      vart kløkt yvi Angeren til
                     Mjøltraavaren; han heldt ei Tale um Røvaren paa Krossen (Laatt);
                     so spurde han kva Mjøltraavaren no vilde taka seg til. Denne svara, at
@@ -5907,7 +5851,7 @@
      Men han hadde vondt i Hovude.
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0004009">
+   <div type="chapter">
     <head>
      IX.
     </head>
@@ -6321,11 +6265,7 @@
                     Kaffistogo raaka han Jens. «Naa, endeleg. Inn der!» sa Jens;
                     Daniel gjekk.
      «Jacta est alea,»
-     <note type="footnote">
-      Jacta est alea;
-      Terningen er
-                        kasta.
-     </note>
+     
      tenkte han.
     </p>
     <p>
@@ -6521,7 +6461,7 @@
                     drakk; drakk med deim alle: Samvite var uheilt: men full vart han.
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0004010">
+   <div type="chapter">
     <head>
      X.
     </head>
@@ -6918,7 +6858,7 @@
                     hjelpe ikkje so lite; og so slapp han au det Brye aa raka seg.
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0004011">
+   <div type="chapter">
     <head>
      XI.
     </head>
@@ -7798,7 +7738,7 @@
                     Fedralande var … Fedralande var … han vilde segja ei Frase.
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0004012">
+   <div type="chapter">
     <head>
      XII.
     </head>
@@ -8293,7 +8233,7 @@
                     lika dette.
     </p>
    </div>
-   <div n="13" type="chapter" xml:id="NOR0004013">
+   <div type="chapter">
     <head>
      XIII.
     </head>

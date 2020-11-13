@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0009" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0009" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Kommandørens døtre ELTeC-utgaven
     </title>
-    <author>
-     Lie, Jonas Lauritz (1833-1908)
-     <idno type="viaf">
-      https://viaf.org/viaf/59124011
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q469681
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/59124011 https://www.wikidata.org/wiki/Q469681">Lie, Jonas Lauritz  (1833-1908)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="Bokselskapet">
-      Utgave 1920 (Samlede Digterverker v. P. Bergh)
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         J. L. Lie
        </author>
@@ -69,10 +60,7 @@
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q11981499
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -84,11 +72,11 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="long"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2011-11-17" xml:id="ENW">
     Kodet om filen til bokselskap-xml.
                 Kodekontroll.
@@ -97,11 +85,11 @@
  </teiHeader>
  <text type="novel" xml:id="BS_Lie_KommandorensDottre_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0009001">
+   <div type="chapter">
     <head>
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       I.
-     </ref>
+     
     </head>
     <p>
      En Tjenestemand beredte sig i den blege Solnedgang til at affire Flaget ved
@@ -676,11 +664,11 @@
                     Du Karsten!»
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0009002">
+   <div type="chapter">
     <head>
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       II.
-     </ref>
+     
     </head>
     <p>
      Rul rul rul rul, – rul rul rul rul, – rul rul rul rul, rul rul . .
@@ -1567,11 +1555,11 @@
                     Nella, – bare en halv Time,» bad Marthe.
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0009003">
+   <div type="chapter">
     <head>
-     <ref target="contents_3" type="contents" xml:id="chapter_3">
+     
       III.
-     </ref>
+     
     </head>
     <p>
      Gik der nogen Sjømand paa hele Kysten og længtes efter
@@ -2409,11 +2397,11 @@
                     næsten et virkeligt Frieri.
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0009004">
+   <div type="chapter">
     <head>
-     <ref target="contents_4" type="contents" xml:id="chapter_4">
+     
       IV.
-     </ref>
+     
     </head>
     <p>
      Den næste Formiddag ved Ellevetiden spankulerede Karsten op og ned i
@@ -2919,11 +2907,11 @@
      Men, – hun inviterede ham til at komme igjen – –
     </p>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0009005">
+   <div type="chapter">
     <head>
-     <ref target="contents_5" type="contents" xml:id="chapter_5">
+     
       V.
-     </ref>
+     
     </head>
     <p>
      De havde kjøbt Silkebaand og Hansker, Cecilie Witt og Laura Fock, og kom
@@ -3710,11 +3698,11 @@
                     hvorfor.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0009006">
+   <div type="chapter">
     <head>
-     <ref target="contents_6" type="contents" xml:id="chapter_6">
+     
       VI.
-     </ref>
+     
     </head>
     <p>
      Med de lysere Aftener udover Marts var Ballerne forbi. Selskabeligheden formede
@@ -4153,11 +4141,11 @@
                     Gardinet mod Morgenlyset atter ganske opgjort og klar gik tilsengs.
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0009007">
+   <div type="chapter">
     <head>
-     <ref target="contents_7" type="contents" xml:id="chapter_7">
+     
       VII.
-     </ref>
+     
     </head>
     <p>
      Inde hos Kommandørinden var al Sind og Tanke fortiden optat af Karsten,
@@ -4550,11 +4538,11 @@
      Med dette var hun kommet over en virkelig Bekymring, som havde tynget hende.
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0009008">
+   <div type="chapter">
     <head>
-     <ref target="contents_8" type="contents" xml:id="chapter_8">
+     
       VIII.
-     </ref>
+     
     </head>
     <p>
      Vaaren lakkede fremover med alle de nære Forandringer i Luften.
@@ -5002,11 +4990,11 @@
                     Selskab og nød Sønnens efterladte Glans i Stuen.
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0009009">
+   <div type="chapter">
     <head>
-     <ref target="contents_9" type="contents" xml:id="chapter_9">
+     
       IX.
-     </ref>
+     
     </head>
     <p>
      Der var kommet et vist nynnende Liv over Cecilie, – noget fartfuldt
@@ -5366,11 +5354,11 @@
                     sørgmodig alligevel . . .
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0009010">
+   <div type="chapter">
     <head>
-     <ref target="contents_10" type="contents" xml:id="chapter_10">
+     
       X.
-     </ref>
+     
     </head>
     <p>
      Klokken to tre Nat til Lørdag rumsteredes der varlig i Trapperne med at
@@ -5653,11 +5641,11 @@
                     . . .
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0009011">
+   <div type="chapter">
     <head>
-     <ref target="contents_11" type="contents" xml:id="chapter_11">
+     
       XI.
-     </ref>
+     
     </head>
     <p>
      Dampbaadsrøgen havde været slem mod Kommandørindens hvide
@@ -6369,11 +6357,11 @@
                     klarsynet, da hun fik Lyst til at se.
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0009012">
+   <div type="chapter">
     <head>
-     <ref target="contents_12" type="contents" xml:id="chapter_12">
+     
       XII.
-     </ref>
+     
     </head>
     <p>
      Sladderen har nu engang paataget sig et Slags Overinspektion med Folks
@@ -6833,11 +6821,11 @@
                     Skjæbne tynge og stritte bag sig.
     </p>
    </div>
-   <div n="13" type="chapter" xml:id="NOR0009013">
+   <div type="chapter">
     <head>
-     <ref target="contents_13" type="contents" xml:id="chapter_13">
+     
       XIII.
-     </ref>
+     
     </head>
     <p>
      Cecilie havde i Stilhed gaat og grublet i flere Dage; det var intet mindre end en
@@ -7099,11 +7087,11 @@
                     slugte hun dem udover Natten med Lyset paa Hovedpuden.
     </p>
    </div>
-   <div n="14" type="chapter" xml:id="NOR0009014">
+   <div type="chapter">
     <head>
-     <ref target="contents_14" type="contents" xml:id="chapter_14">
+     
       XIV.
-     </ref>
+     
     </head>
     <p>
      Der gik nok et kjedt og slidsomt Aar, før Karsten vandt frem til Maalet
@@ -7369,11 +7357,11 @@
                     .
     </p>
    </div>
-   <div n="15" type="chapter" xml:id="NOR0009015">
+   <div type="chapter">
     <head>
-     <ref target="contents_15" type="contents" xml:id="chapter_15">
+     
       XV.
-     </ref>
+     
     </head>
     <p>
      De sidste Gjæster var gaat, og Lysene i Lysekronerne slukkedes i Salen,
@@ -7593,11 +7581,11 @@
                     som havde hun bredet Ligklædet over sin Ungdom og sine Forhaabninger.
     </p>
    </div>
-   <div n="16" type="chapter" xml:id="NOR0009016">
+   <div type="chapter">
     <head>
-     <ref target="contents_16" type="contents" xml:id="chapter_16">
+     
       XVI.
-     </ref>
+     
     </head>
     <p>
      Det var ikke godt at vide, hvad for Slags Meddelelser, Marthe kunde have havt;
@@ -8490,11 +8478,11 @@
                     sætte Bo og Hjem derover, hvor han var.
     </p>
    </div>
-   <div n="17" type="chapter" xml:id="NOR0009017">
+   <div type="chapter">
     <head>
-     <ref target="contents_17" type="contents" xml:id="chapter_17">
+     
       XVII.
-     </ref>
+     
     </head>
     <p>
      Cecilie var vant til, at Kadetterne og de unge Herrer vendte sig om og saa efter
@@ -8666,11 +8654,11 @@
                     saamæn meget bedre tjent med en net Boardingshousjomfru . . .
     </p>
    </div>
-   <div n="18" type="chapter" xml:id="NOR0009018">
+   <div type="chapter">
     <head>
-     <ref target="contents_18" type="contents" xml:id="chapter_18">
+     
       XVIII.
-     </ref>
+     
     </head>
     <p>
      Cecilies Interesse for Fasting var – trods alt, hvad hun selv mente og
@@ -9120,11 +9108,11 @@
                     hun vil gjøre noget af sin gamle KristiansfeldterTysk.»
     </p>
    </div>
-   <div n="19" type="chapter" xml:id="NOR0009019">
+   <div type="chapter">
     <head>
-     <ref target="contents_19" type="contents" xml:id="chapter_19">
+     
       XIX.
-     </ref>
+     
     </head>
     <p>
      Det havde været travlt med Opgjør, Udbetalinger og Lønninger
@@ -9472,11 +9460,11 @@
                     vi for vor Part har ialfald ikke set andet end godt af dem . . .»
     </p>
    </div>
-   <div n="20" type="chapter" xml:id="NOR0009020">
+   <div type="chapter">
     <head>
-     <ref target="contents_20" type="contents" xml:id="chapter_20">
+     
       XX.
-     </ref>
+     
     </head>
     <p>
      Henved et halvt Snes Aar var gaat hen med sine store Forandringer.
@@ -9868,11 +9856,11 @@
                     Fortrolighed.
     </p>
    </div>
-   <div n="21" type="chapter" xml:id="NOR0009021">
+   <div type="chapter">
     <head>
-     <ref target="contents_21" type="contents" xml:id="chapter_21">
+     
       XXI.
-     </ref>
+     
     </head>
     <p>
      Cecilie holdt paa at faa en Mani for at pudse og polere. Hun gned Bitterheden og

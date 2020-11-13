@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0020" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0020" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Lodsen og hans Hustru ELTeC-utgaven
     </title>
-    <author>
-     Lie, Jonas Lauritz (1833-1908)
-     <idno type="viaf">
-      https://viaf.org/viaf/59124011
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q469681
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/59124011 https://www.wikidata.org/wiki/Q469681">Lie, Jonas Lauritz  (1833-1908)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="bokselskap.no">
-      Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. Dokpros tekst er                     basert p&amp;#x00E5; Samlede Digterverker, standardutg.                     i 10 bind, Kristiania, Gyldendal, 1920&amp;#x2013;21).
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         J. L. Lie
        </author>
@@ -71,10 +62,7 @@ ISBN: 978-82-8319-408-1 (digital, bokselskap.no), 978-82-8319-409-8 (epub), 978-
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q7757145
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -86,11 +74,11 @@ ISBN: 978-82-8319-408-1 (digital, bokselskap.no), 978-82-8319-409-8 (epub), 978-
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T2"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2018-06-19" xml:id="ENW">
     XML-koding. Entiteter, kodekontroll og validering. Lagt inn ISBN.
    </change>
