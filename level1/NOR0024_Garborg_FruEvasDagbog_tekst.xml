@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0024" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0024" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Fru Evas Dagbog ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/79414014 https://www.wikidata.org/wiki/Q3143008">Garborg, Hulda  (1862-1934)</author>
+    <author>
+     Garborg, Hulda (1862-1934)
+     <idno type="viaf">
+      https://viaf.org/viaf/79414014
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q3143008
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,11 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
-     
-     
-     
-    </bibl><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
+     <ref target="bokselskap.no">
+      Teksten følger 1. utgave (1905) og er basert på skannet         og ocr-lest fil fra Nasjonalbiblioteket/Bokhylla.no. Korrekturlest         og tilrettelagt av HIOA-studentene Ane F. Gimse, Vibeke N. Larsen og Stine Y. Runshaug
+     </ref>
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         H. Garborg
        </author>
@@ -61,7 +70,10 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q58902741
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p n="eltec-0"/>
@@ -73,11 +85,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2013-06-25">
     Lagt inn en del rettelser oppdaget i Tor Arnes korrektur. Validert. Nye nedlastningsfiler.
    </change>
@@ -91,11 +103,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
  </teiHeader>
  <text type="novel" xml:id="HIOA_Garborg_FruEvasDagbog_tekst_xml_text">
   <body>
-   <div type="chapter">
+   <div n="1" type="chapter" xml:id="NOR0024001">
     <head>
-     
+     <ref target="contents_1" type="contents" xml:id="chapter_1">
       [1]
-     
+     </ref>
     </head>
     <p>
      <pb n="2"/>
@@ -117,11 +129,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Ak, dengang for længe, længe siden –!
     </p>
    </div>
-   <div type="chapter">
+   <div n="2" type="chapter" xml:id="NOR0024002">
     <head>
-     
+     <ref target="contents_2" type="contents" xml:id="chapter_2">
       [2] AF DAGBOGEN.
-     
+     </ref>
     </head>
     <quote>
      <l>
@@ -181,11 +193,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      </l>
     </quote>
    </div>
-   <div type="chapter">
+   <div n="3" type="chapter" xml:id="NOR0024003">
     <head>
-     
+     <ref target="contents_3" type="contents" xml:id="chapter_3">
       [3]
-     
+     </ref>
     </head>
     <p>
      – Der kom en Dag i mit Liv, da Grunden under mine Fødder svigtede. Jeg følte med Angst, at alle Baand brast, og at alt jeg i lange Aar havde bygget op sank i Grus omkring mig.
@@ -352,11 +364,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Min Tid er kommet. Et Krav vokser over alle andre og gir mig den grusomme Styrke til at leve mit eget Liv – uden Hensyn til noget andet end det, som for mig er Sandheden og det ene fornødne.
     </p>
    </div>
-   <div type="chapter">
+   <div n="4" type="chapter" xml:id="NOR0024004">
     <head>
-     
+     <ref target="contents_4" type="contents" xml:id="chapter_4">
       [4]
-     
+     </ref>
     </head>
     <p>
      – Her er alt saa høitidsfuldt og stort. De faa Mennesker, som mødes i Storm og Stille paa de ensomme Stier ser hverandre saa aabent i Øinene, og hvert Møde er som et stille Løfte om at være god mod hinanden og staa sammen mod fælles Fiender. Alle blir saa smaa her, og alle trænger hverandre; Elementerne er mægtige i sit Vælde.
@@ -379,11 +391,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Sunde, stærke og glade Mennesker lever paa min Ø; thi de er født med Nøglen til Livets lille enkle Hemmelighed.
     </p>
    </div>
-   <div type="chapter">
+   <div n="5" type="chapter" xml:id="NOR0024005">
     <head>
-     
+     <ref target="contents_5" type="contents" xml:id="chapter_5">
       [5]
-     
+     </ref>
     </head>
     <p>
      Jeg saa saa mange onde Øine derinde i Sumpene; men endnu flere syge og sultne og gridske, der speided efter Offer at suge Liv og Indhold af. Noget at pine og hade, eller noget at søle til med savlet Medlidenhed.
@@ -446,11 +458,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      I ensomme Stunder vil jeg saa ta dem frem og le over dem, og med ødsel Haand vil jeg strø omkring mig af mine Skatte. Og er der end Smuler nu i mit Skatkammer mod dengang jeg samled til én, saa er jeg dog en Krøsus mod de mange, som aldrig har eiet Evne til Livsglæde. Skam faa den, som ikke vender rigere tilbage baade fra Jubelen paa Livets Tinder og fra Graaden i dets Afgrunde!
     </p>
    </div>
-   <div type="chapter">
+   <div n="6" type="chapter" xml:id="NOR0024006">
     <head>
-     
+     <ref target="contents_6" type="contents" xml:id="chapter_6">
       [6]
-     
+     </ref>
     </head>
     <p>
      <pb n="21"/>
@@ -521,11 +533,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      atter tilbage til den som til en stille, stor Glæde, ingen kan ta fra mig og intet gjøre større eller mindre.
     </p>
    </div>
-   <div type="chapter">
+   <div n="7" type="chapter" xml:id="NOR0024007">
     <head>
-     
+     <ref target="contents_7" type="contents" xml:id="chapter_7">
       [7]
-     
+     </ref>
     </head>
     <p>
      Min Ø er ogsaa en Guldgrube for Geologer, bygget op som den er af mangfoldige Stenarter, for det meste løse, vulkanske, som smuldrer hen og slides bort, mens de fastere staar igjen, saa Fjeldene tar de eventyrligste Former under Forvandlingen.
@@ -569,11 +581,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      – Der findes ikke Træ eller Busk paa min Ø; men de Tusender af vilde Blomster er skjønnere end Blomster noget andet Sted i Verden, og nøisomme som Menneskene de skal glæde. I Revner og Sprækker, mellem Sten og Grus, ja midt i selve nakne Uren og de steileste Ras skyder de op i Klaser, Dusker og Tuer, ligesom overdaadigt og ødselt udstyrede Hynder slængt i Grams mellem Stenene, indbydende og lokkende. Det er som om de ikke engang trænger Jord herude. Og dog er Farverne saa straalende, og der ligger som en tung Em af Blomsterduft over Fjeld og Mark, naar Solen varmer og tørrer dem efter Regn og Dugfald.
     </p>
    </div>
-   <div type="chapter">
+   <div n="8" type="chapter" xml:id="NOR0024008">
     <head>
-     
+     <ref target="contents_8" type="contents" xml:id="chapter_8">
       [8]
-     
+     </ref>
     </head>
     <p>
      –– Ofte maa jeg tænke paa den Dag, jeg første Gang kom herud. Alt var mig saa fremmed og eventyrligt. En ny Verden oplodes for mig.
@@ -676,11 +688,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Mændene rodde saa det fossed hvidt ora Forstavnen, jevnt og taktfast, jevnt og taktfast. Hele Tiden det samme Ryk gjennem Legemet, hvergang de 8 Aarer slog mod Kjeiperne, og det samme Stød gjennem Hjernen. Og Luften var tung og vaad og overvældende hernede i Vandskorpen. Lidt efter lidt gled jeg ned paa mine Faareskind med Armen under Hovedet og faldt i en sløv Halvslummer med taagede Drømme. Jeg sank og sank, gled og gled ud i endeløse Rum og Vidder, men skvat saa op ved, at noget blev lagt under mit Hoved; og en Stemme sagde: Du ligger vondt! Saa vidste jeg ikke mer, før vi i klart Veir stod ind under Vestø.
     </p>
    </div>
-   <div type="chapter">
+   <div n="9" type="chapter" xml:id="NOR0024009">
     <head>
-     
+     <ref target="contents_9" type="contents" xml:id="chapter_9">
       [9]
-     
+     </ref>
     </head>
     <p>
      Min første Fornemmelse, da jeg vaagned efter min tunge, timelange Søvn i Baaden, var Lugt af Torvrøg fra Land. Men da jeg endelig fik Øinene helt op, laa min
@@ -749,11 +761,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      fører til Husets Indre, udføre dette sit Arbeide med stort Alvor, mens de fire brune Høns, som er hendes Privateiendom, flokkes om hende for at faa sin beskikkede Del af Kornet. Siden gaar hun med sin Mor og Pigen i Marken til Sauefjøset og melker Faarene, før de slippes. Naar Solen skinner, sidder hun udenfor Døren paa en Stenbænk og binder Fiskegarn eller syr smaa lette Sko at ufarvet Lammeskind til sig selv og sin Mor, og tvinder røde og blaa Snore til at binde dem fast med. Ogsaa til mig har hun syet et Par. Og naar jeg pludselig træder paa skarpe Stene, saa jeg hopper af Smerte i de tynde Sko, saa ler hun og ryster paa Hovedet. Jeg gaar klodset, mener hun. Og saa springer hun let nogle Skridt fra Tue til Tue eller paa finslebne, glatte Stene. Saan! Ja du kan sagtens hoppe du Eli, du som neppe er 17 Aar og har sprunget i Fjeld og Ur som en Gjedekilling, fra du kunde sætte de smaa Ben under dig!
     </p>
    </div>
-   <div type="chapter">
+   <div n="10" type="chapter" xml:id="NOR0024010">
     <head>
-     
+     <ref target="contents_10" type="contents" xml:id="chapter_10">
       [10]
-     
+     </ref>
     </head>
     <p>
      – Blandt de Ting, jeg havde med herud, var en Pakke Blomsterfrø og nogle Hyazinthløg i en Klump Jord. Og nu
@@ -770,11 +782,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      vandet. Jeg forstod og nikked. Da blev hun glad og tog mig ved Haanden og førte mig ud mod Stupet ret ovenfor paa Nord siden. Fjeldvæggen gaar her lodret ned i Havet, men er kun omkring hundrede Fod høi. Sikkert og rolig gik hun helt hen til Kanten og vilde trække mig efter; men jeg traadte svimmel tilbage og lagde Haanden over Øinene. Da kasted hun sig paa Maven og saa udover og klapped paa Græsset ved Siden af. Jeg skulde gjøre ligedan, mente hun. Men da jeg energisk negted dette, sprang hun pludselig op som i et Anfald af Trods, og satte sig paa Kanten med Benene dinglende udover Styrtningen. Hun hørte jo ikke Brændingens Larm dernede, og smilende og tryg sad hun der. Men da lagde jeg mig, som hun havde sagt, og tog Tag i hende med begge Hænder, og hun lo og krabbed hen til mig og saa mig ind i Ansigtet og rysted energisk paa Hovedet: ikke farligt, mente hun. Men jeg gøs og viste hende, at jeg var ræd. Saa sprang vi omkap nedover alle Bakker og kasted os røde og varme i Græsset bag min Hytte.
     </p>
    </div>
-   <div type="chapter">
+   <div n="11" type="chapter" xml:id="NOR0024011">
     <head>
-     
+     <ref target="contents_11" type="contents" xml:id="chapter_11">
       [11]
-     
+     </ref>
     </head>
     <p>
      <pb n="55"/>
@@ -870,11 +882,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      – Men jeg Kjætter herude i Ørkenen, jeg raaber over al Jord: Tak og Pris alligevel, at Troldom engang bandt mig! Og Tak og Pris, at jeg intet angrer, intet, uden alt det negative, alt det jeg ikke har levet! Og Tak, fordi jeg har set Eventyrets Glans, før Hjernens og Fornuftens Tid holdt sit Indtog paa Jorden!
     </p>
    </div>
-   <div type="chapter">
+   <div n="12" type="chapter" xml:id="NOR0024012">
     <head>
-     
+     <ref target="contents_12" type="contents" xml:id="chapter_12">
       [12]
-     
+     </ref>
     </head>
     <p>
      – «Alle Ting er forgjængelige; kun Sandheden er evig»; men den store evige Sandhed, som skabte os og lever i os og om os, den kan ikke Mennesker rokke med sine mange Ord. Vi er en Draabe i Livets evig rindende Strøm, og vore Ord dør, før de kommer over Læben. Kunde vi saasandt lære at tie!
@@ -898,11 +910,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Ja, langt er jeg gledet ud i Livets Strøm, gledet ud over Vandene for langt, langt der ude at komme op igjen som en ny Bølge.
     </p>
    </div>
-   <div type="chapter">
+   <div n="13" type="chapter" xml:id="NOR0024013">
     <head>
-     
+     <ref target="contents_13" type="contents" xml:id="chapter_13">
       [13]
-     
+     </ref>
     </head>
     <p>
      <pb n="64"/>
@@ -981,11 +993,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Livet tumler ofte saa underligt med vore Theorier, og alle maa vi sent eller tidlig høste, hvad vi har saad. Evig og sikker er nemlig den gamle Sandhed, at Naturen lader sig ikke spotte.
     </p>
    </div>
-   <div type="chapter">
+   <div n="14" type="chapter" xml:id="NOR0024014">
     <head>
-     
+     <ref target="contents_14" type="contents" xml:id="chapter_14">
       [14]
-     
+     </ref>
     </head>
     <p>
      – Alle ubrugte Evner blir tilsidst en Fiende, som maa bekjæmpes. Og Moderfølelsen og Elskovsevnen er ingen Undtagelse fra denne Regel. De visner og dør eller blir utaalelige at trækkes med, naar de ikke frit faar udfolde sig. Og et Liv i opslidende ydre Samfundsarbeide kræver sit Menneske helt, tar dets Tid og Kraft; og jeg tror, vi er paa Vildspor, naar vi tænker os Mændenes mange «Stillinger» som en attraaværdig Modsætning til Kvindernes «huslige Slaveri». Jeg undres paa, hvem der oftest er «Slave», siden vi nu endelig skal bruge et saa pompøst Ord.
@@ -1017,11 +1029,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      virkelig blir en ligefrem betænkelig Sag at faa Børn, – ja næsten uforsvarligt. Og egentlig vel ogsaa noksaa overflødigt, da det jo altsaa slet ikke længer er det høieste, men kun det afgjort besværligste. Skridtet er da ikke langt til at føle det som noget nedværdigende at bli Mor. Legemets Tid er forbi; Aand, Aand!
     </p>
    </div>
-   <div type="chapter">
+   <div n="15" type="chapter" xml:id="NOR0024015">
     <head>
-     
+     <ref target="contents_15" type="contents" xml:id="chapter_15">
       [15]
-     
+     </ref>
     </head>
     <p>
      –Livet er blit saa vanskeligt og indviklet; og ikke mindst er det blit vanskeligt at være Kvinde. Thi vel maa vi ha Udvikling, vi ligesom Mændene; men ikke Udvikling som fører os bort fra vor høieste Opgave. Vist er der Undtagelser blandt Kvinderne, ligesom den overordentlige Aandelighed vel til syvende og sidst hører til det eksceptionelle ogsaa hos Mænd. Og det er selvsagt, at for disse Undtagelser maa der være Plads, hvad enten de hører til det ene eller det andet Kjøn. Men hele Livet kan vel ikke indrettes efter Undtagelserne. Det har alle Dage været Untagelsernes Lod at baske sig frem og kjæmpe, og det vil vel ogsaa her efter bli saa, om end forhaabentlig Menneskene efter hvert vil vokse sig frem til lidt
@@ -1049,11 +1061,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Men alt hænger sammen og har sin dybe Grund.
     </p>
    </div>
-   <div type="chapter">
+   <div n="16" type="chapter" xml:id="NOR0024016">
     <head>
-     
+     <ref target="contents_16" type="contents" xml:id="chapter_16">
       [16]
-     
+     </ref>
     </head>
     <p>
      – Da jeg mat sad og læste om «Fremtidens Madonna», kom jeg til at huske Sofokles' Vers til Eros, «al Vældes Betvinger». Ak Herregud, vingeskudt kryber nu Eros om paa Jorden; og Menneskene synger ikke længer som den græske Digter: «øde er Livet, naar Kjærlighed mangler; gid jeg maa dø den Dag, Blodet i Aaren er koldt!» – han, som i den elskedes Øie og ved den
@@ -1081,11 +1093,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Og jeg fatter heller ikke, hvad Moralisterne mener med «tom Sanserus» og «tom Nydelse». Det er absolut tomme Begreber for mig. Man kan dog ikke tænke sig, at «sanseligt Samliv» med en ligegyldig Mand kan ha noget med Rus eller Nydelse at gjøre – bare Tanken paa det er jo fæl –, mens derimod det at være i samme Stue som den elskede, eller i samme Hus, eller bare gaa paa samme Gade allerede er Lyksalighed.
     </p>
    </div>
-   <div type="chapter">
+   <div n="17" type="chapter" xml:id="NOR0024017">
     <head>
-     
+     <ref target="contents_17" type="contents" xml:id="chapter_17">
       [17]
-     
+     </ref>
     </head>
     <p>
      <pb n="81"/>
@@ -1243,11 +1255,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Nei, nu gaar Solen ned derude i Havet, og jeg sidder her og ærgrer mig over Bøger!
     </p>
    </div>
-   <div type="chapter">
+   <div n="18" type="chapter" xml:id="NOR0024018">
     <head>
-     
+     <ref target="contents_18" type="contents" xml:id="chapter_18">
       [18]
-     
+     </ref>
     </head>
     <p>
      – De to Mænd, som er kommet til Øen, er nogle rare Skruer begge to. De bor i Telt opunder en Hammer nordenfor Grænden. Og de laver selv sin Mad.
@@ -1284,11 +1296,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Jeg skulde saamænd gjerne ønske, at den begavede unge Mand vilde begive sig til en anden Ø. Jeg liker ikke, at der pludselig gaar et Menneske her og «hader» mig. Jeg har neppe turdet vove mig ud disse Dage. Overhovedet er dette en Streg i Regningen. Nu maa jeg bl.a. begynde at tænke paa mine Klær. Jeg kan ikke farte om som et Fugleskræmsel nu, da jeg ikke længer raader Grunden alene. Disse Mænd, som bare ligger her for at se paa Naturen, de skal naturligvis drive om til alle Døgnets Tider og gjøre mine deiligste Udflugtssteder utrygge.
     </p>
    </div>
-   <div type="chapter">
+   <div n="19" type="chapter" xml:id="NOR0024019">
     <head>
-     
+     <ref target="contents_19" type="contents" xml:id="chapter_19">
       [19]
-     
+     </ref>
     </head>
     <p>
      Jeg har ikke været ordentlig i Baad siden jeg kom herud. Kun har Eli og jeg plasket lidt nede i Viken og drevet omkring ude ved Edderfugleholmen. Det er saa morsomt at se de brune, brede Fuglerygge paa Rederne nede i Tangen og mellem Tuer og Stene. Der er ogsaa af Torv bygget en hel Del lune smaa Smuthuller til Rugepladse; men de blir straks optat, og efterhvert laves der Reder overalt, hvor der bare er den mindste Smule Ly. Vi var ogsaa i
@@ -1309,11 +1321,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Derfor gruer jeg mig.
     </p>
    </div>
-   <div type="chapter">
+   <div n="20" type="chapter" xml:id="NOR0024020">
     <head>
-     
+     <ref target="contents_20" type="contents" xml:id="chapter_20">
       [20]
-     
+     </ref>
     </head>
     <p>
      Igaar var vi da ude i Fuglefjeldene.
@@ -1414,11 +1426,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Men Doktoren vendte sine Øine bort og sagde stille: «Blod, Blod i Vesten. Fra Østen kommer Lyset!»
     </p>
    </div>
-   <div type="chapter">
+   <div n="21" type="chapter" xml:id="NOR0024021">
     <head>
-     
+     <ref target="contents_21" type="contents" xml:id="chapter_21">
       [21]
-     
+     </ref>
     </head>
     <p>
      Om Kvælden sad vi foran Torv-Ilden i min Stue og talte sammen, vi tre Fremmede paa Øén. Digteren var blit mere meddelsom, og fandt sig i, at jeg var her i min egen Stue. Doktoren havde simpelthen «tat ham», sagde han; og nu havde han da overvundet sin Uvilje mod denne fremmede Kvinde saavidt, at han gik ind af hendes Dør og talte til hende.
@@ -1554,11 +1566,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Lille, kjære Eli min! laften gløder Korset paa din Pande.
     </p>
    </div>
-   <div type="chapter">
+   <div n="22" type="chapter" xml:id="NOR0024022">
     <head>
-     
+     <ref target="contents_22" type="contents" xml:id="chapter_22">
       [22]
-     
+     </ref>
     </head>
     <p>
      Idag er det Regn og Taage. Eli har været sin vanlige Morgentur hos mig; ellers har jeg intet Menneske set. Jeg kan ikke se Grænden og ikke den lille, hvide Spids af Doktorens Telt under Hammeren ovenfor. Jeg er alene i Verden.
@@ -1681,11 +1693,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      – Nu letter Taagen, og jeg ser Eli komme gaaende. Hun er pyntet i sin bedste Puds og med et nyt Halsbaand af Skjæl og Perler om Halsen ved Siden af det blaa. Stakkels lille unge Eli!
     </p>
    </div>
-   <div type="chapter">
+   <div n="23" type="chapter" xml:id="NOR0024023">
     <head>
-     
+     <ref target="contents_23" type="contents" xml:id="chapter_23">
       [23]
-     
+     </ref>
     </head>
     <p>
      Da Eli og jeg igaaraftes gik vor vanlige Aftentur, kom Digteren efter os alene og spurgte, om han maatte gaa med. Og han snakked, og lukked Døren paa Gløt til sit inderste Væsen, og jeg saa som i forbiglidende Lysskjær Glimt af en eiendommelig og ensom Sjæl.
@@ -1757,11 +1769,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Hvad kommer den Sau mig ved?
     </p>
    </div>
-   <div type="chapter">
+   <div n="24" type="chapter" xml:id="NOR0024024">
     <head>
-     
+     <ref target="contents_24" type="contents" xml:id="chapter_24">
       [24]
-     
+     </ref>
     </head>
     <p>
      <pb n="135"/>
@@ -1799,11 +1811,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Det er sandt. Og det er vakkert.
     </p>
    </div>
-   <div type="chapter">
+   <div n="25" type="chapter" xml:id="NOR0024025">
     <head>
-     
+     <ref target="contents_25" type="contents" xml:id="chapter_25">
       [25]
-     
+     </ref>
     </head>
     <p>
      Jeg sidder her idag og tænker tilbage. Det er Digterens Skyld. Men jeg er glad, fordi jeg tænker tilbage – langt tilbage fra det, som ikke skal tænkes paa – –.
@@ -1862,11 +1874,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      latterligt, men sandt, at da jeg blev gift, varte det længe, før jeg trygt kunde sidde og læse i en Bog. Jeg havde ond Samvittighed; og mer end en Gang gjemte jeg Bogen for min Husbond og Herre. Ja, saa modig en Dame var jeg. Jeg tænkte jo, at jeg som Husmor dog vist neppe burde ha Tid til sligt midt paa blanke Arbeidsdagen, hvis jeg vilde være samvittighedsfuld. Og det vilde jeg saa gjerne. Og jeg vilde ogsaa umaadelig gjerne tiltvinge mig Herrens Beundring og Ros.
     </p>
    </div>
-   <div type="chapter">
+   <div n="26" type="chapter" xml:id="NOR0024026">
     <head>
-     
+     <ref target="contents_26" type="contents" xml:id="chapter_26">
       [26]
-     
+     </ref>
     </head>
     <p>
      Jeg fik snart større Løn, og der var dengang i vor lille By ingen ung Pige, der tjente saa mange Penge som jeg, og Folk sagde, at jeg ligned min Far i Energi. Da var jeg kry, skjønt jeg smilte for mig selv; – de skulde nok med Tiden faa se, at jeg kunde mer end dette
@@ -1928,11 +1940,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Men i Hemmelighed tænkte jeg ofte paa ham med Bitterhed i mit Hjerte.
     </p>
    </div>
-   <div type="chapter">
+   <div n="27" type="chapter" xml:id="NOR0024027">
     <head>
-     
+     <ref target="contents_27" type="contents" xml:id="chapter_27">
       [27]
-     
+     </ref>
     </head>
     <p>
      Da hændte der en Dag noget, som gjorde Mor fuld af Iver og Haab. Der kom en noget ældre, formuende Beiler af udmærket Familie tilgaards. Han gjorde, saa vidt jeg forstod, Kur til Mor; men pludselig fridde han til mig gjennem hende. Jeg blev ganske stiv af Skræk. Han kunde jo magelig været min Far. Og desuden – der var ingenting i Verden jeg bedre kunde undvære, end en Mand. Jeg var Mand god nok selv, tak. Nu havde jeg drevet det til en noksaa pen Gage, siden jeg havde lært udenlandsk Korrespondence; og jeg stod fremdeles paa «stigende». Hvad saa. Og jeg vred mig og vred mig.
@@ -1984,11 +1996,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Stille hulkende krøb jeg i min Seng; mens Mors haarde, bitre Ord sved mig i Sjælen. Ja, Verden var ikke lys for mig den Nat; og det blev ingen lystig Tid, som fulgte. –
     </p>
    </div>
-   <div type="chapter">
+   <div n="28" type="chapter" xml:id="NOR0024028">
     <head>
-     
+     <ref target="contents_28" type="contents" xml:id="chapter_28">
       [28]
-     
+     </ref>
     </head>
     <p>
      Under alt dette havde jeg en stille Tilbeder i en Kollega, en ung, brav og ærlig Gut, som jeg har Synd paa mig for. Han var saa rørende og god mod mig, overøste
@@ -1998,11 +2010,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      have forhindret det.
     </p>
    </div>
-   <div type="chapter">
+   <div n="29" type="chapter" xml:id="NOR0024029">
     <head>
-     
+     <ref target="contents_29" type="contents" xml:id="chapter_29">
       [29]
-     
+     </ref>
     </head>
     <p>
      <pb n="154"/>
@@ -2017,11 +2029,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Og naar jeg nu tænker paa de greie og trofaste Venner jeg havde i min Ungdom, saa er det med inderlig Taknemmelighed; og ofte synes jeg, at vi i vor Tid behandler Venskab saa altfor uærbødigt og slurvet.
     </p>
    </div>
-   <div type="chapter">
+   <div n="30" type="chapter" xml:id="NOR0024030">
     <head>
-     
+     <ref target="contents_30" type="contents" xml:id="chapter_30">
       [30]
-     
+     </ref>
     </head>
     <p>
      Mange af mine bedste Ungdomsaar gik nu i ensformigt Arbeide, og jeg begyndte efterhvert at se Livet for mig uden Drømmenes Rosenskjær over. Kanske var Livet alligevel bare dette! Kanske skulde jeg leve saadan Aar efter Aar, til min Alderdom kom. Efterhvert faa større og større Løn og tilslut kunne bo standsmæssigt som en anden Familieforsørger og bli en agtet Borger i Smaabyen. Og saa vilde Mor dø fra mig,
@@ -2074,11 +2086,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Men før vi reiste, begraved vi den Ven, som havde ført os sammen.
     </p>
    </div>
-   <div type="chapter">
+   <div n="31" type="chapter" xml:id="NOR0024031">
     <head>
-     
+     <ref target="contents_31" type="contents" xml:id="chapter_31">
       [31]
-     
+     </ref>
     </head>
     <p>
      I den lille Hytte i Alperne begyndte vi et Liv, som var strævsomt nok i mange Maader. Men vi var glade; for vi var to. For mig var ialfald alt godt, naar bare han
@@ -2104,11 +2116,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Men i de Aar var jeg Barnepige, Kokke og «Mädchen für alles». Og Tiden gik. Ja, Tiden gik. Naar jeg nu tænker tilbage paa det alt, saa er det som om det var i en anden Tilværelse. –
     </p>
    </div>
-   <div type="chapter">
+   <div n="32" type="chapter" xml:id="NOR0024032">
     <head>
-     
+     <ref target="contents_32" type="contents" xml:id="chapter_32">
       [32]
-     
+     </ref>
     </head>
     <quote rend="rightAligned">
      <quote>
@@ -2156,11 +2168,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Ja, jeg er ræd for at reise; og alligevel er jeg syg af Længsel.
     </p>
    </div>
-   <div type="chapter">
+   <div n="33" type="chapter" xml:id="NOR0024033">
     <head>
-     
+     <ref target="contents_33" type="contents" xml:id="chapter_33">
       [33]
-     
+     </ref>
     </head>
     <p>
      Idag har jeg siddet mellem Bjerge af snehvid Dun og hørt Jakob synge Glædesviser
@@ -2216,11 +2228,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      </l>
     </quote>
    </div>
-   <div type="chapter">
+   <div n="34" type="chapter" xml:id="NOR0024034">
     <head>
-     
+     <ref target="contents_34" type="contents" xml:id="chapter_34">
       [34]
-     
+     </ref>
     </head>
     <p>
      – Doktoren har ikke været frisk i den sidste Tid. Han ser mig ud som en Mand, der sulter. Hans Madbeholdning minker naturligvis, og kan herude ikke fornyes. Bare han ikke er nærmere ved at «overvinde Legemet» end han selv tror. Han er saa gulbleg og uendelig mager; men han er i jevnt godt Humør, og han taler om sin Sygdom som om en personlig Synd. Sikkert har han engang saad, hvad han nu maa høste i Form af Sygdom. Og et gjennemført
@@ -2243,11 +2255,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      i deres Madboder bugner det af tørret Kjød og Fisk; og Faar og Høns og Gjæs og Sjøfugl skaffer ferske Delikatesser. Fersk Fisk til Husbrug drager Smaagutterne nede i Fjæren og ude omkring Holmerne. Endnu findes ingen Tandlæge paa Øerne, og bare for 10 Aar siden vidste ingen hvad Tandpine var. Men Kaffen er nu blit Nationaldrik, og den nye Bager paa Storø har lært Folket at bruge «blødt Brød», saa Tandlægen kommer vel snart han ogsaa.
     </p>
    </div>
-   <div type="chapter">
+   <div n="35" type="chapter" xml:id="NOR0024035">
     <head>
-     
+     <ref target="contents_35" type="contents" xml:id="chapter_35">
       [35]
-     
+     </ref>
     </head>
     <p>
      Digteren taler om at bli endnu en Stund herude. Han vil flytte ind i min Stue, naar jeg er reist; for med Telt nytter det ikke her, naar Høststormene for Alvor begynder.
@@ -2430,11 +2442,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Græs; men ingen af os talte mer. Under den sidste Terrasse sagde vi hinanden God nat. Han var ganske graableg af Kulde, og hans Haar klæbed mod Tindingerne, dyvaadt af Natteduggen. Rimeligvis saa jeg akkurat ligedan ud. Det er ikke flatterende at være vaad og blaafrossen!
     </p>
    </div>
-   <div type="chapter">
+   <div n="36" type="chapter" xml:id="NOR0024036">
     <head>
-     
+     <ref target="contents_36" type="contents" xml:id="chapter_36">
       [36]
-     
+     </ref>
     </head>
     <p>
      Doktoren har atter lagt ind til mig Bøger om gammel Visdom. Og jeg læser og læser. Men ak, noget nyt er der jo egentlig aldrig.
@@ -2452,11 +2464,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Det er nu Tale om, at vi skal ha Eli med, naar vi reiser. Paa en Skole.
     </p>
    </div>
-   <div type="chapter">
+   <div n="37" type="chapter" xml:id="NOR0024037">
     <head>
-     
+     <ref target="contents_37" type="contents" xml:id="chapter_37">
       [37]
-     
+     </ref>
     </head>
     <quote>
      <l>
@@ -2525,11 +2537,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      – Da alle var gaat hjem til sit, sad jeg endnu en Stund oppe, og tænkte paa disse Mennesker, som netop havde forladt mig. Jeg tænkte paa disse to omflakkende fremmede Mænd, begge saa ude af Stand til at faa Fodfæste i det virkelige Liv; og jeg tænkte paa Eli, den lille, hvide Fugl, som strækker sig mod Solen i ung, bævende Længsel herude fra sit vilde Skjær i Havet. Aa, hvor brutale Svar Livet vil gi paa dine tause Spørgsmaal, Eli!
     </p>
    </div>
-   <div type="chapter">
+   <div n="38" type="chapter" xml:id="NOR0024038">
     <head>
-     
+     <ref target="contents_38" type="contents" xml:id="chapter_38">
       [38]
-     
+     </ref>
     </head>
     <p>
      Jeg sidder her i en forunderlig Stemning. Digteren kom herind i Formiddag, bleg og nervøs, og talte om Eli.
@@ -2618,11 +2630,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Men de to deroppe i Fjeldet, hvor er de? Skal jeg ingenting faa vide om dem, før Natten kommer?
     </p>
    </div>
-   <div type="chapter">
+   <div n="39" type="chapter" xml:id="NOR0024039">
     <head>
-     
+     <ref target="contents_39" type="contents" xml:id="chapter_39">
       [39]
-     
+     </ref>
     </head>
     <p>
      – Jeg er syg efter en Nat i Angst og Spænding og efter en forfærdelig Dag. Og nu slutter min Dagbog fra Elis Ø, for nu er Eli borte.
@@ -2636,11 +2648,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Vil de finde dig nu, som dengang for mange Aar siden, Eli, halvdød og mærket af Ravnene, eller er du derude, hvor ingen mer vil finde dig? Kjære, kjære Eli ––––
     </p>
    </div>
-   <div type="chapter">
+   <div n="40" type="chapter" xml:id="NOR0024040">
     <head>
-     
+     <ref target="contents_40" type="contents" xml:id="chapter_40">
       [40]
-     
+     </ref>
     </head>
     <p>
      I tre Dage har de nu ledt; men intet Spor fundet.
@@ -2650,11 +2662,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Digteren var herinde i Eftermiddag, bleg og forvaaget, og vi sagde ikke mange Ord. Han knuged Hænderne om en liden Pakke, som han tog op af sin Brystlomme. Det var Elis Halsbaand. Da han havde fortalt om Dagens forskjellige Streiftog, gik han igjen opover til de andre, som ledte. Alle tror nu, at hun har traadt feil i Mørket og er styrtet i Krateret. –
     </p>
    </div>
-   <div type="chapter">
+   <div n="41" type="chapter" xml:id="NOR0024041">
     <head>
-     
+     <ref target="contents_41" type="contents" xml:id="chapter_41">
       [41]
-     
+     </ref>
     </head>
     <p rend="rightAligned">
      Storhavn.
@@ -2672,11 +2684,11 @@ Teksten følger 1. utgave (1905) og er basert på skannet og ocr-lest fil fra Na
      Farvel da alt herude!
     </p>
    </div>
-   <div type="chapter">
+   <div n="42" type="chapter" xml:id="NOR0024042">
     <head>
-     
+     <ref target="contents_42" type="contents" xml:id="chapter_42">
       [42]
-     
+     </ref>
     </head>
     <p rend="rightAligned">
      Ombord i Dampskibet udenfor Skotland.

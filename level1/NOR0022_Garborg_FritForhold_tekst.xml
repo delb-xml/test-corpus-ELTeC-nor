@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0022" xml:lang="nb">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="NOR0022" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Frit Forhold ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/79414014 https://www.wikidata.org/wiki/Q3143008">Garborg, Hulda  (1862-1934)</author>
+    <author>
+     Garborg, Hulda (1862-1934)
+     <idno type="viaf">
+      https://viaf.org/viaf/79414014
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q3143008
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,11 +40,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
-     
-     
-     
-    </bibl><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
+     <ref target="bokselskap.no">
+      Teksten i bokselskap.no følger 1. utg. fra 1892 (Mons Litleré, Bergen) og er basert på ocr-lest og skannet fil mottatt fra Nasjonalbiblioteket (nb.no)
+     </ref>
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         H. Garborg
        </author>
@@ -63,7 +72,10 @@ Sist endret: desember 2017
        <idno type="wiki">
         None
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -75,11 +87,11 @@ Sist endret: desember 2017
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2017-12-27">
     Lagt inn Åshilds artikkel/innledning. Kodekontroll og validering.
    </change>
@@ -109,17 +121,19 @@ Sist endret: desember 2017
     <head type="main">
      Innleiing
     </head>
-    <milestone unit="uchapter"/>
-     <p><label>
+    <div type="uchapter">
+     <head type="sub">
       Om romanen
-     </label></p>
+     </head>
      <p rend="noIndent">
       Våren 1892 sende Arne Garborg eit usignert manuskript til forleggaren sin i Bergen, Mons Litleré, med spørsmål om han kunne tenkje seg å gje det ut. Svaret kom raskt:
      </p>
      <quote>
       <p rend="noIndent">
        «Et frit forhold» las eg gjennom igaar. Eg fekk hug på boki; men det er visst best aa drygja med prentingi til hausten, og so maa eg faa vita forfattaren. Der stend ikkje paa mskr., kven det er av.
-       
+       <note type="footnote">
+        Mons Litleré til Arne Garborg 27.05.1892, Nasjonalbiblioteket, Brevs. 140.
+       </note>
       </p>
      </quote>
      <p rend="noIndent">
@@ -130,7 +144,9 @@ Sist endret: desember 2017
      </p>
      <p rend="noIndent">
       Karen Hulda Bergersen vart fødd på Stange i Hedmark 22. februar 1862 som tredje dottera til Christian Fredrik og Marie Petrine Bergesen.
-      
+      <note type="footnote">
+       Dei biografiske opplysningane i det følgjande baserer seg på Skre 2011: 12–49.
+      </note>
       Faren var utdanna jurist og hadde på få år arbeidd seg opp til å bli ein framgangsrik sakførar og storbonde. Livet på toppen vart likevel ikkje langvarig. Ein uheldig kombinasjon av økonomiske nedgangstider, ureieleg sakførarverksemd og ein noko grenselaus livsførsel sende han sjølv og familien nedover den sosiale og økonomiske rangstigen. Han mista sakførarbevillinga og gjekk konkurs, og då Hulda var eitt år gamal, skilde foreldra seg. Etter skilmissa vart familien splitta; Hulda vart buande på Hamar saman med mor si, medan dei to eldre søstrene flytte med faren til Kristiania. Etter kvart kom også Hulda og mora til Kristiania, og 17 år gamal fekk Hulda jobb som butikkjomfru i konfeksjonsbutikken til Brødrene Dobloug i Storgata.
      </p>
      <p>
@@ -138,7 +154,9 @@ Sist endret: desember 2017
      </p>
      <p rend="noIndent">
       Det var arbeidsgjevaren hennar, den politisk radikale Mikkel Dobloug, som introduserte Hulda til Kristiania Arbeidersamfund.
-      
+      <note type="footnote">
+       Skre 2011: 49.
+      </note>
       Foreininga var både ein sosial møteplass og ein viktig diskusjonsarena i hovudstaden, og her vart butikkjomfru Bergersen eit ivrig medlem i dei følgjande åra.
      </p>
      <p>
@@ -152,7 +170,9 @@ Sist endret: desember 2017
      </p>
      <p>
       I boka følgjer vi Dina Halvorsen som kjem frå småbyen Sandefjord til Kristiania for å jobbe i konfeksjonsbutikken Jensen &amp; Co. I byrjinga er frøken Halvorsen svært bevisst at ho må oppføre seg anstendig og er var for alt «som det ikkje gik an for Damer at snakke om» (s. 148). Samstundes er ho nyfiken og fascinert av det forbudte, «en blanding som ikke lover godt for henne», som Hareide skriv.
-      
+      <note type="footnote">
+       Hareide 1993: 152.
+      </note>
      </p>
      <p>
       Tittelen på boka er heile tida med som ein ironisk kommentar til handlinga. Og den fremste talsmannen for frie forhold, Hans Jæger, dukkar sjølv opp utanfor butikkvindauga til Jensen ein dag, mest som eit frampeik om kva som kjem til å skje (s. 24–25).
@@ -164,11 +184,15 @@ Sist endret: desember 2017
       <p rend="noIndent">
        Sine Pengebekymringer var hun kvit, og det var en ubeskrivelig Lettelse. Hun fik betalt sin Smaagjæld, kunde spise og drikke hvad hun vilde, og klæde sig som hun vilde. Det at spise fin Mad og drikke god Vin var en større Nydelse end hun havde havt Anelse om, og hun hengav sig til den af ganske Hjerte.
       </p>
-      
+      <note type="footnote">
+       Side 59.
+      </note>
      </quote>
      <p rend="noIndent">
       Då frøken Halvorsen ikkje uventa blir gravid, får ho innvilga ferie og reiser på landet for å føde barnet. Det blir ordna med bortsetting av barnet, og den vesle jenta hamnar hjå ei kone i eit av dei aller fattigaste områda av Kristiania, Vaterland. Skildringa av korleis barnet blir vanskjøtta av fostermora og til slutt døyr kan kanskje virke som litt for mykje av det elendige for dagens lesarar. Det er likevel meir enn eit litterært verkemiddel. Barnedødelegheita var generelt høg på denne tida, og skyhøg for barn av ugifte foreldre. Årsaka var først og fremst at bortsette barn var særleg utsette for svolt og vanskjøtsel. Saman med Danmark var Noreg det landet i Europa med størst forskjell i dødelegheit mellom ektefødde og uektefødde barn.
-      
+      <note type="footnote">
+       Aftenposten 25.02.2011, «Christiania. De elendiges hovedstad».
+      </note>
      </p>
      <p>
       Etter at barnet døyr utviklar frøken Halvorsen og herr Jensen eit svært dysfunksjonelt forhold. Det blir ein maktkamp mellom dei som får fram dei minst sympatiske sidene til begge, og i denne kampen er det kanskje litt overraskande herr Jensen som tapar mest. Frie forhold hadde allereie vore emne i mange romanar, og då var det gjerne kvinna som vart skildra som den som betalte den høgaste prisen og vart talerøyr for minussidene ved eit slikt arrangement. Slik som i til dømes Arne Garborgs
@@ -188,7 +212,9 @@ Sist endret: desember 2017
      <quote>
       <p rend="noIndent">
        (...) at være gift var sku ikke saa farligt; det var et Paradis af Frihed alligevel det, mod et Forhold som dette! Det maatte være et uhyre upraktisk Menneske, som ikke kunde skaffe sig lidt Frihed, om han var gift; men kom man først ind i et saakaldt frit Forhold, saa sad man sku der, trods al Overlegenhed, det skjønte han nu.
-       
+       <note type="footnote">
+        Side 108–109.
+       </note>
       </p>
      </quote>
      <p>
@@ -207,9 +233,13 @@ Sist endret: desember 2017
        Edderkoppen
       </title>
       (1904) vitnar heller om det motsette. Dei baserer seg begge på dei meir ugreie delane av Huldas familie- og barndomshistorie.
-      
+      <note type="footnote">
+       Skre 2011: 395–396.
+      </note>
       Forklaringa er nok heller den at hennar eigne erfaringar som butikkjomfru ikkje eigna seg som stoff til ein naturalistisk roman. Sjølv om jobben hos Brødrene Dobloug var eit slit, så var dette i det store og heile gode år for Hulda der ho gjorde val som var utviklande og positive for henne.
-      
+      <note type="footnote">
+       Obrestad 1992: 37–51 og Skre 2011: 48–93.
+      </note>
       Frøken Halvorsen derimot, kan ikkje gjere like gode val om det skal bli god problemdikting ut av historia. Hennar valfridom begrensar seg til å karre til seg god vin, delikatessar og fine kjolar på vegen. Noko ho også blir svært god til etter kvart.
      </p>
      <p>
@@ -220,17 +250,27 @@ Sist endret: desember 2017
        Et frit Forhold
       </title>
       kom ut i slutten av september, og responsen på romanen var nokså bra blant lesarane, i alle fall selde boka forholdsvis godt. Hulda Garborg skal ha tent 400 kroner på romanen, noko som utgjorde omtrent ei årsløn for ei butikkekspeditrise på denne tida.
-      
+      <note type="footnote">
+       Hareide 1993: 162.
+      </note>
       Allereie 5. oktober skreiv forleggaren til Hulda Garborg at han hadde seld 700 eksemplar av boka og spekulerte på om han skulle trykkje eit opplag til.
-      
+      <note type="footnote">
+       Mons Litleré til Hulda Garborg 05.10.1892, Nasjonalbiblioteket, Brevs. 140.
+      </note>
       Og i slutten av november kunne Litleré opplyse forfattaren om at andre opplag var på veg: «'Et frit Forhold' er
       i dag
       send i prenting paa nytt lag. Aviserne hev voret laake, men boki hev gjenget lell.»
-      
+      <note type="footnote">
+       Mons Litleré til Hulda Garborg 22.11.1892, Nasjonalbiblioteket, Brevs. 140.
+      </note>
       Og i januar året etter kunne forleggaren igjen koma med gode nyheiter, denne gongen i brev til Arne Garborg: «De fær helsa Hulda med, at boki hennar sig framleis. Eg er nok alt i stor skuld til ho.»
-      
+      <note type="footnote">
+       Mons Litleré til Arne Garborg, 12.01.1893, Nasjonalbiblioteket, Brevs. 140.
+      </note>
       Arne Garborg sjølv omtala romanen som «ei merkjeleg god Bok».
-      
+      <note type="footnote">
+       Arne Garborg til Mons Litleré, 05.10.1892, Universitetsbiblioteket i Bergen, Ms. 1005/1.
+      </note>
      </p>
      <p>
       Meldarane stod likevel ikkje i kø. Dei meldingane som kom, var, som Litleré oppsummerte det, stort sett «laake». I Dagbladet vart boka meld 30. oktober, og meldaren er tydeleg lei heile naturalismen:
@@ -242,11 +282,15 @@ Sist endret: desember 2017
      </quote>
      <p rend="noIndent">
       Familievenene Rasmus Steinsvik og Heinrich Hart leverte atskilleg meir positive omtalar av boka i sine respektive radikale kanalar, sjølv om ingen av dei kan reknast som nøytrale i denne samanhangen. Dei gode meldingane i avisa Firda og tidsskriftet Freie Bühne karakteriserte Hulda Garborg som høvesvis «svært snil» og «udmærkede».
-      
+      <note type="footnote">
+       Hulda Garborg til Mons Litleré 02.11.1892 og 10.05.1893, Universitetsbiblioteket i Bergen, Ms. 1005/1. Steinsviks melding stod i landsmålsavisa Firda, der Mons Litleré var redaktør, 26.10.1892. Harts melding stod truleg på trykk våren 1893. Eit omsett utdrag av meldinga vart trykt i Indherredsposten 16.07.1893 under overskrifta «Norsk Literatur i Udlandet».
+      </note>
      </p>
      <p>
       Hulda Garborg var truleg litt seint ute for å få den fulle merksemda til litteraturmeldarane då ho sende ut ein naturalistisk roman i 1892. Den samfunnsengasjerte problemdiktinga var i ferd med å bli erstatta av ein meir psykologisk retta litteratur. Og sjølv om det kan diskuterast kor vidt 1890-talslitteraturen innebar eit brot eller ei med problemdiktinga som hadde rådd grunnen i eit par tiår, var frie forhold ikkje eit like spenstig tema i 1892 som det hadde vore nokre år tidlegare.
-      
+      <note type="footnote">
+       Sjå til dømes Norges litteraturhistorie, bind 4: 39–43 og Andersen 2001: 282–283.
+      </note>
      </p>
      <p>
       Første og andre opplag
@@ -260,7 +304,9 @@ Sist endret: desember 2017
        Et frit Forhold
       </title>
       avdekka om lag 220 forskjellar. Dei aller fleste avvika gjeld teiknsetjing, forkortingar og rettskriving og er ikkje meiningsberande. Figuren under syner korleis avvika fordeler seg i teksten reint kvantitativt. Den mest openberre tendensen er at avvika blir fleire utover i teksten.
-      
+      <note type="footnote">
+       Ein tabell som syner dei einskilde avvika mellom dei to opplaga er tilgjengeleg i arkivet til Det norske språk- og litteraturselskap.
+      </note>
      </p>
      <p rend="center"/>
      <p>
@@ -270,7 +316,9 @@ Sist endret: desember 2017
       <p rend="noIndent">
        Eg var noko missfornøgd med prentingi av boki. Grieg hev greidur, so han kann levera det finaste arbeid, men han hev denne gongen voret sluskutt – kor det no hev seg. Og so hev han gløymt aa setja namnet sitt til!
       </p>
-      
+      <note type="footnote">
+       Mons Litleré til Arne Garborg 05.10.1892, Nasjonalbiblioteket, Brevs. 140.
+      </note>
      </quote>
      <p rend="noIndent">
       Det er difor truleg at forleggaren har bede Grieg forlag om at boka vart sett på ny då han bestemte seg for eit nytt opplag. Det kan dermed argumenterast for at andre opplag av
@@ -278,14 +326,16 @@ Sist endret: desember 2017
        Et frit Forhold
       </title>
       eigentleg er ein ny variant av teksten, altså ei ny utgåve, meir enn eit nytt opplag. Johnny Kondrup omtalar dette som radierande tekstar, det vil seia utgåver som har grunnlag i same trykkmanuskriptet
-      
+      <note type="footnote">
+       Kondrup 2011: 123n.
+      </note>
       . Med grunnlag i det bevarte brevmaterialet mellom Hulda Garborg og Mons Litleré er det ikkje noko som tyder på at forfattaren reviderte manuskriptet før andre opplag gjekk i trykken.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div type="uchapter">
+     <head type="sub">
       Om utgåva
-     </label></p>
+     </head>
      <p>
       Tekstgrunnlag og tekstgjengiving
      </p>
@@ -295,7 +345,9 @@ Sist endret: desember 2017
        Et frit Forhold
       </title>
       er laga etter prinsippa i den tyske, historisk-kritiske edisjonsfilologien, som kort fortalt går ut på å attskape den opprinnelege teksten så autentisk som råd.
-      
+      <note type="footnote">
+       Sjå til dømes Kondrup 2011: 48–53.
+      </note>
       I praksis betyr det at førsteutgåva er foretrukken som tekstgrunnlag, at ein ikkje normaliserer språk, ortografi eller teiknsetting og er generelt svært varsam med å rette i teksten. Det reint grafiske tekstbildet søkjer ein å ta vare på ved å behalde kapittelinndeling, avsnitt, skillestrekar med meir.
      </p>
      <p>
@@ -303,7 +355,9 @@ Sist endret: desember 2017
        Et frit Forhold
       </title>
       kom ut i to opplag hausten 1892, og boka vart ikkje utgitt fleire gonger i Hulda Garborgs levetid.
-      
+      <note type="footnote">
+       I 1993 gav Spartacus Forlag ut romanen på ny med etterord av Jorunn Hareide.
+      </note>
       Trykkmanuskriptet er ikkje bevart. Den einaste moglege grunnteksten for denne utgåva er difor førstetrykket frå 1892. Av dei to opplaga av førstetrykket er vidare første opplag valgt. Første opplag er sannsynlegvis eit dårlegare tekstvitne enn andre opplag til det manuskriptet som Hulda Garborg sende frå seg hausten 1892, jamfør ovanfor. Det er likevel denne teksten som først vart presentert for lesarar og kritikarar, og dette omsynet har vore avgjerande for valet av første opplag som grunntekst.
      </p>
      <p>
@@ -377,11 +431,11 @@ Sist endret: desember 2017
        Norway-Heritage
       </ref>
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div type="uchapter">
+     <head type="sub">
       Kjelder
-     </label></p>
+     </head>
      <p>
       Arkivmateriale og aviser
      </p>
@@ -462,7 +516,7 @@ Sist endret: desember 2017
       </title>
       . Oslo: Det Norske Samlaget.
      </p>
-    
+    </div>
    </div>
    <div type="chapter">
     <p rend="center">
@@ -483,36 +537,54 @@ Sist endret: desember 2017
     </p>
     <p>
      Det var ellers ikke mange Folk at se paa Gaden. Det var midt i Sommerferien, da hele det fine Kristiania ligger paa Landet.
-     
+     <note type="commentary">
+      ligger paa landet] er på ferie
+     </note>
     </p>
     <p>
      Man saa en og anden Forretningsmand, som ruslede nedover til «Engebret»
-     
+     <note type="commentary">
+      «Engebret»] kafe og restaurant. Grunnlagt av Engebret Christophersen i 1857 i Rådhusgata 11, frå 1863 på Bankplassen 1.
+     </note>
      for at faa sin Lunch, eller smaa Flokker af skidne Almuskolebørn, som skulde paa Vippetangen
-     
+     <note type="commentary">
+      Vippetangen] hamneområde som hadde fleire badeplassar i andre halvdel av 1800-talet
+     </note>
      og bade; fire–fem Arm i Arm slentrede de afsted, lykkelige over at slippe til denne sin eneste Feriefornøielse.
     </p>
     <p>
      Inde i Butikkerne stod søvnige Handelsbetjente og længtede efter Kvælden, da de ved Bygdø Søbad
-     
+     <note type="commentary">
+      Bygdø Søbad] badeplass på halvøya Bygdøy, opna i 1880
+     </note>
      eller i Tivolihaven
-     
+     <note type="commentary">
+      Tivolihaven] del av Tivoli-området på Klingenberg
+     </note>
      hos svenske Sangerinder for en Stund kunde glemme Livets Elendighed.
     </p>
     <p>
      Hos Jensen &amp; Co.
-     
+     <note type="commentary">
+      Jensen &amp; Co.] fiktivt forretningsnamn. I adressebøkene frå 1880-talet finst det ein fedevareforretning (matvarer) med same namn i Torggata.
+     </note>
      i Kirkegaden var Folkene nær ved at forgaa af Kjedsomhed. De førte hovedsagelig
      <pb n="4"/>
      finere Manufakturvarer,
-     
+     <note type="commentary">
+      Manufakturvarer] tekstilvarer
+     </note>
      og kunde, som Jensen udtrykte sig, smigre sig med at tælle Byens bedste Damer blandt sine Kunder. Men for den Slags Forretninger var det nu en absolut død Tid.
     </p>
     <p>
      De hvide Lærredsgardiner
-     
+     <note type="commentary">
+      Lærredsgardiner] lerret: glatt umønstra ty, ofte kvitt
+     </note>
      var nedrullede og ind gjennem den aabne Dør væltet Gadestøvet sig i tykke
-     
+     <note type="criticalApp">
+      tykke] 2. opplag: tætte
+     </note>
      Skyer og bredte sig over Diske og Hylder. Og det var det eneste, som skaffede Betjeningen lidt Arbeide; for nu var Knappereoler, Silkebaandsskuffer og Kniplingsæsker ryddet om igjen og om igjen saa ofte, at der ikke længer var noget at finde paa med dem heller. I sin Fortvilelse gav de sig til at snakke om Chefen.
     </p>
     <p>
@@ -526,7 +598,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Hansen knurrede videre. Den «Linerla»
-     
+     <note type="commentary">
+      «Linerla»] kallenamn på Jensen. Linerla er kjent for den karakteristiske vippinga med halen.
+     </note>
      derinde, det var akkurat, som han gjordes paa. Passed paa som en Smed hele Dagen, saa en kunde ikke faa sig en halv Øl, om en var dauefærdig af Tørst.
     </p>
     <p>
@@ -539,7 +613,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Saa gudskelov, nu rusler han hjem til Madamen,»
-     
+     <note type="commentary">
+      Madamen] tittelen ‹madam› vart brukt for gift kvinne av folket eller middelklassen, men tidlegare også for gift kvinne av borgarskapet. Her brukt lett nedsetjande, ‹fru› er den rette nemninga.
+     </note>
      udbrød Hansen lettet, «saa kan en kanske faa puste paa lidt!»
     </p>
     <p>
@@ -550,7 +626,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Tobiassen sa ikke et Ord; men tog op sin Portemonæ
-     
+     <note type="commentary">
+      Portemonæ] lommebok
+     </note>
      og la toogtyve Øre paa Disken.
     </p>
     <p>
@@ -562,7 +640,11 @@ Sist endret: desember 2017
      </l>
      <l>
       tra la la la la la la la –»
-      
+      <note type="commentary">
+       Saa lunkar vi saa smaanigom] drikkevise av Carl Michael Bellman,
+       Fredmans sånger
+       , no. 21 «Måltidssång». Omsett: Så traskar vi i langsam takt.
+      </note>
      </l>
     </quote>
     <p rend="noIndent">
@@ -595,7 +677,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Det er sandt, det. Jeg garanterer, at der ikke fins nogen i hele Byen, som kan efterligne Tivander
-     
+     <note type="commentary">
+      Tivander] Knut Tivander (1842–1889) svensk skodespelar og teatermann
+     </note>
      saa godt som han. Det er akkurat, som De skulde høre'n.»
     </p>
     <p>
@@ -609,7 +693,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Har De aldrig været paa Tivoli
-     
+     <note type="commentary">
+      Tivoli] underhaldningsstad på Klingenberg. Knut Tivander gav området dette namnet då han overtok Klingenberg Teater og området rundt på slutten av 1870-talet.
+     </note>
      kanske?»
     </p>
     <p>
@@ -668,7 +754,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Skynda paa nu, Frøken!» raabte Hansen inde fra Lageret, «vi har ikke mer end en Kop, ved De, og jeg tørster svarligen!»
-     
+     <note type="commentary">
+      svarligen] mykje, i stor grad
+     </note>
     </p>
     <p>
      Ja ja, siden de slet ikke vilde lade hende slippe saa – hun vilde jo desuden nødig fornærme Tobiassen; han var egentlig en snil Gut.
@@ -703,7 +791,9 @@ Sist endret: desember 2017
      Tobiassen gik til Middag, og lidt efter forsvandt ogsaa Chefen igjen. Han tog Frak og
      <pb n="10"/>
      Paraply og gik ud Bagveien. Aha! Han skulde formodentlig til Ormøen,
-     
+     <note type="commentary">
+      Ormøen] Ormøya ved Bekkelaget. Utbygd som villaområde etter at brua over Ormsundet stod ferdig på 1870-talet.
+     </note>
      til Borks, siden han tog Frak. Gudskelov. –
     </p>
     <p>
@@ -711,12 +801,16 @@ Sist endret: desember 2017
     </p>
     <p>
      «Nu skal du jamen rive i en Flaske Portvin, Tjukken!» sa Hansen flot. Han vilde vise «Tulla» at han ikke tog sig nær af det som var passeret. «Du er den eneste som ikke har krympet
-     
+     <note type="commentary">
+      krympet] innvia, feira med å drikka alkohol
+     </note>
      Ny-Tulla enda, og det er jamen daarlig, du som er den rigeste af os allesammen.»
     </p>
     <p>
      Det skulde nu ikke meget til, mente Tobiassen.
-     
+     <note type="criticalApp">
+      Tobiassen] 2. opplag: Larsen
+     </note>
     </p>
     <p>
      Frøken Halvorsen saa fornærmet ud. «Fy, hvor væmmelig De er Hansen!» sa hun og snudde sig.
@@ -731,12 +825,16 @@ Sist endret: desember 2017
      Til deres store Forbauselse sa Larsen om lidt,
      <pb n="11"/>
      at han vel fik
-     
+     <note type="criticalApp">
+      vel fik] 2. opplag: fik vel
+     </note>
      hente en Flaske Vin da. Og saa gik han efter at have stukket en Tomflaske forsigtig under Frakken.
     </p>
     <p>
      «Men i Jøsse Navn, hvad gaar der af Tjukken da? De skal jagu se han er forlibt
-     
+     <note type="commentary">
+      forlibt] forelska
+     </note>
      i Dere, Frøken!» –
     </p>
     <p>
@@ -770,7 +868,9 @@ Sist endret: desember 2017
      </l>
      <l>
       då har de så rysligt svårt for at neka!»
-      
+      <note type="commentary">
+       O…neka] truleg samtidig revyvise. Omsett: Å dei jentene! Når dei byrjar å leika med gutane, då har dei så svært vanskeleg for å nekta!
+      </note>
      </l>
     </quote>
     <p>
@@ -784,9 +884,13 @@ Sist endret: desember 2017
     </p>
     <p>
      «Har dere set den nye Kasserersken over hos Skindhandleren?» spurgte Tobiassen om lidt, «en
-     
+     <note type="footnote">
+      lidt, «en] retta frå: lidt,» en
+     </note>
      liden nydelig «Helledussen»
-     
+     <note type="commentary">
+      «Helledussen»] brukt om noko lite og hjelpelaust
+     </note>
      med lang Flette?»
     </p>
     <p>
@@ -807,7 +911,9 @@ Sist endret: desember 2017
      </l>
      <l rend="indent_1">
       ses gjerne trediemand.»
-      
+      <note type="commentary">
+       Med…trediemand] truleg samtidig revyvise. Omsett: Med jenta er best på tomannshand. Ved drikkebegeret ser ein gjerne tredjemann.
+      </note>
      </l>
     </quote>
     <p>
@@ -823,9 +929,13 @@ Sist endret: desember 2017
       nu
      </emph>
      lo af igjen. Gud, for alle de Historier de fortalte. Det var frygtelig Morro at høre paa, enda hun forstod ikke paa langt nær alt. De fortalte om Skipperfruer som hadde «Kapellaner»
-     
+     <note type="commentary">
+      «Kapellaner»] kapellan er ein hjelpeprest, her bruk i tydinga elskar
+     </note>
      og Løitnanter og Grosserere som holdt «Mætresser»,
-     
+     <note type="commentary">
+      «Mætresser»] elskarinner
+     </note>
      Gud ved, hvad det egentlig betød; men noe grovt var det vist ialfald, for de lo saa frygtelig. Sligt noget havde hun aldrig hørt Tale om hjemme i Sandefjord. Der var vist meget rart herinde i Kristiania. –
     </p>
     <p>
@@ -841,7 +951,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Ja, hun havde saamen været heldig som havde faat den gode Posten,
-     
+     <note type="commentary">
+      Posten] stillinga, jobben
+     </note>
      saadan en Mængde Ansøgere som der var, og hun var den yngste; – bare hun nu ikke havde stelt sig saa, at hun mistet den igjen. Huf, hun turde ikke tænke paa det. –
     </p>
     <p>
@@ -851,11 +963,15 @@ Sist endret: desember 2017
     </p>
     <p>
      Ret som det var begyndte hun at føle sig sulten. Hun havde ingenting spist siden Middag. De kunde jamen gjerne sætte af lidt Mad til hende naar de skjønte hun ikke kom hjem. Kanske der stod noget henne paa Buffeten?
-     
+     <note type="commentary">
+      Buffeten] skjenk eller disk til å ha mat på
+     </note>
     </p>
     <p>
      Hun sprang op og gik i bare Linnedet
-     
+     <note type="commentary">
+      Linnedet] nattklede, underklede
+     </note>
      omkring og ledte. Nei da, ikke Spor. Kunde de ikke bare sat ind et Par skaarne Smørogbrød og lidt Melk? Hun var næsten paa Graaden. Men der var altsaa ingen Raad med det, hun maatte lægge sig med det hun havde.
     </p>
     <p>
@@ -874,12 +990,16 @@ Sist endret: desember 2017
     <p>
      <pb n="17"/>
      Ved Hjelp af sin Tante, Fru Pølsemager Hedels, havde Frøken Halvorsen faat Logi hos Agent
-     
+     <note type="commentary">
+      Agent] seljar
+     </note>
      Gundersens. Det var snille hyggelige Folk, som hun likte godt.
     </p>
     <p>
      De klorede sig møisommeligt igjennem; thi Gundersen dyrkede sin Fløite og sin Toddy
-     
+     <note type="commentary">
+      Toddy] drikk av varmt vatn, sukker og brennevin, vin eller saft
+     </note>
      mer end sin Forretning, og det var saaledes kun Fruens «Pensionat» som egentlig indbragte noget. Men ogsaa Pensionatet var en usikker Forretning, og saa blev det at slide sig frem fra Dag til Dag med syv Sorger og otte Bedrøvelser.
     </p>
     <p>
@@ -892,9 +1012,13 @@ Sist endret: desember 2017
     </p>
     <p>
      Frøken Marie gik paa Nissens Guvernanteskole
-     
+     <note type="commentary">
+      Nissens Guvernanteskole] Hartvig Nissens skole, i perioden 1860–99 lokalisert i Øvre Vollgate 15.
+     </note>
      og havde fine Veninder. Det var allerede galt nok, at hun selv var Datter af en Pølsemager, om hun ikke ogsaa skulde trække omkring med en Kusine, der var Skrædderdatter fra Sandefjord og ovenikjøbet stod hos
-     
+     <note type="commentary">
+      stod hos] jobba hos
+     </note>
      Jensen.
     </p>
     <p>
@@ -927,7 +1051,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Hun kikked paa Uhret paa vor Frelsers Kirke;
-     
+     <note type="commentary">
+      vor Frelsers Kirke] sto ferdig 1697, skifta namn til Oslo domkirke i 1950.
+     </note>
      du store Verden, var den ikke ti Minutter over otte alt. Bare nu ikke Chefen var kommet. Sommetider kom han med det samme de lukked op. –
     </p>
     <p>
@@ -938,7 +1064,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Enda værre blev det, da hun for at faa Fred sa, at hun havde Hodepine. Ha–ha–ha! saa hun havde Katzenjammer.
-     
+     <note type="commentary">
+      Katzenjammer] bakrus
+     </note>
      «Det er bare Mangel paa Øvelse det Frøken; det gir sig i Enden, sa Rebslageren.»
     </p>
     <p>
@@ -946,7 +1074,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Da hun kom ind igjen var Jensen kommet, og sammen med ham Fru Assessor
-     
+     <note type="commentary">
+      Assessor] embetsmann som er medlem av ein domstol
+     </note>
      Block. Fruen
      <pb n="21"/>
      skulde ha sig en Kjole; og godt var det ialfald, at han havde nogen med sig; saa la han ikke saa meget Mærke til hende.
@@ -985,7 +1115,9 @@ Sist endret: desember 2017
     <p>
      <pb n="22"/>
      «Det er sandt, det har De ogsaa før. Men,» udbrød han pludselig begeistret, «her har jeg en Kjole for Dem! netop en Kjole for Dem, Frue! Et aldeles deiligt engelsk Stof – aa Hansen, vil De ta ned det dueblaa deroppe, det nye engelske ved De, det som kom med sidste «Angelo»;
-     
+     <note type="commentary">
+      «Angelo»] S/S «Angelo», Wilson Lines, Hull i England, frakta gods og passasjerar i ruta Kristiania–Kristiansand–Hull i perioden 1874–1905.
+     </note>
      – det ja, Tak.» –
     </p>
     <p>
@@ -999,11 +1131,15 @@ Sist endret: desember 2017
     </p>
     <p>
      «De Frue! Jo netop! netop! Men jeg vil sige: mange er det ikke som kan bære en Kjole af den Farve; det er et af de Stoffe, som man ikke viser frem til Per og Paal.»
-     
+     <note type="commentary">
+      Per og Paal] kven som helst
+     </note>
     </p>
     <p>
      «Men tendert
-     
+     <note type="commentary">
+      tendert] tindrande klår i fargen, sart
+     </note>
      er det, frygtelig tendert,» mente Fruen, idet hun med kritisk Mine beskuede Tøiet.
     </p>
     <p>
@@ -1059,7 +1195,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Hun retted sig op, stelte lidt paa Haaret og gik smaanynnende ind i Butikken igjen. Hun skulde vise den Hansen, at hun ikke tog sig nær af Jaaleriet
-     
+     <note type="commentary">
+      Jaaleriet] tøvet, fjaset
+     </note>
      hans!
     </p>
     <p>
@@ -1067,7 +1205,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Kjender De den Fyren
-     
+     <note type="commentary">
+      den Fyren] Hans Jæger (1854–1910), norsk forfattar, bohem og anarkist.
+     </note>
      paa den andre Siden
      <pb n="25"/>
      af Gaden der, Frøken?» spurgte Tobiassen, som stod ved Vinduet og saa ud.
@@ -1077,9 +1217,15 @@ Sist endret: desember 2017
     </p>
     <p>
      «Han med svart Skjæg og Lorgnet?
-     
+     <note type="commentary">
+      Lorgnet] brille utan stenger som blir festa med ei klemme over naseryggen
+     </note>
      Det er han, som vil indføre fri Kjærlighed; har De ikke hørt snakke om ham da? Han har skrevet en fælt morsom Bok
-     
+     <note type="commentary">
+      Bok] truleg
+      Fra Kristiania-Bohêmen
+      , utgitt i desember 1885. Boka vart straks beslaglagt av styresmaktene, og Jæger vart seinare dømd til 60 dagars fengsel pga. pornografisk innhald.
+     </note>
      om alle Smaapigerne sine, saadanne som han af og til har havt det hyggeligt med.» Han saa bort paa Hansen og lo betydningsfuldt.
     </p>
     <p>
@@ -1098,12 +1244,16 @@ Sist endret: desember 2017
     </p>
     <p>
      «La du Mærke til Tulla ista du?» spurgte Hansen, da Frk. Halvorsen var ude. «Hun blomstred som en Pion,
-     
+     <note type="commentary">
+      Pion] rødma. Pion er ei prydplante med rosa blomar.
+     </note>
      Far; Fan tru slig en liden Helledussen!»
     </p>
     <p>
      «Hun er ialfald Patent
-     
+     <note type="commentary">
+      Patent] skikkeleg, påliteleg, her i tydinga jomfru
+     </note>
      enda da,» mente Tobiassen lidt kort.
     </p>
     <p>
@@ -1153,7 +1303,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Skabe og Hylder fyldtes af nye Varer og af gamle Varer, som blev trukne frem af en Krog paa Lageret og nu skulde lægges ud som «sidst ankomne». Publikum begyndte saa smaat at tænke paa sine Vintertoiletter.
-     
+     <note type="commentary">
+      Vintertoiletter] toalett: selskapskjole, festdrakt
+     </note>
     </p>
     <p>
      Men rigtig travelt blev det først henimod Jul. Da skulde alle Mennesker ha nyt; det var «som om de ikke skulde leve længer end til Jul,» skjændte Hansen.
@@ -1178,14 +1330,18 @@ Sist endret: desember 2017
     </p>
     <p>
      «Ingen kan se min sultne Tarm, men alle kan se min nakne Arm», som Madam Simonsen sa. Leie et Kot sammen med en Sypige, eller logere sig ind hos en Haandværksfamilie i Udkanten af Byen og saa leve paa Kaffe og Brød til Frokost, Kaffe og Brød til Middag og Potøl
-     
+     <note type="commentary">
+      Potøl] lett og billeg øl som vart seld i potteflasker. Pott er ei gamal måleeining for flytande varer, i underkant av ein liter.
+     </note>
      og Brød til Kvælds –; nei, hun fik nok være fornøiet, hun, om hun nu ikke netop havde Raad til at være mæt bestandig.
     </p>
     <p>
      Og det havde hun ikke. Ikke paa langt nær. Hun sled rent utrolig Skotøi med den lange Veien, og en Kjole kosted saa mange Penge, at man maatte betale paa den i flere Maaneder. Hun havde allerede tre Gjældsposter at gnage paa, Skomageren, Vaskekonen og Sydamen. Fru Hedels havde i Førstningen ladet hendes Tøi vaske hos sig; men der var altid saa mange Omstændigheder, at Frk. Halvorsen for længe siden havde sluttet at bringe
      <pb n="30"/>
      det did. Hun havde jo ikke saa meget Tøi og maatte ha vasket meget oftere end hvergang Fru Hedels havde Storvask. Det var ogsaa noget hun snart maatte tænke paa at faa sig lidt nyt Undertøi. Sex Linneder og sex Par Benklæder og tre pene hvide Nattrøier maatte hun ha; – hun havde bare disse blaa Sirtstrøierne
-     
+     <note type="commentary">
+      Sirtstrøierne] sirs: tynt bomullsty
+     </note>
      derhjemmefra, og det var rent for lidet. Det var for væmmeligt at rende til Vaskekonen hvereneste Uge med de gamle Fillerne, syntes hun; det gik ikke an for en Dame sligt. –
     </p>
     <p>
@@ -1200,9 +1356,13 @@ Sist endret: desember 2017
     </p>
     <p>
      Blaakammeret, eller «det Allerhelligste», var et lidet, dybt Kjælderværelse med et enkelt Vindu inde i den tykke Murvæg. Det laa godt gjemt indenfor Kjøkkenet. Der var ogsaa ganske hyggeligt med den gammeldagse Topseng
-     
+     <note type="commentary">
+      Topseng] himmelseng med krone
+     </note>
      og den store Sofa med Hestehaarsbetrækket; foran Sofaen et stort brunmalt Klaffebord med blomstret Voxdugsteppe og paa Væggene store, gjilde Oljetryk og en Masse Billeder som var udklippet af «Verdens Gang»;
-     
+     <note type="commentary">
+      «Verdens Gang»] liberal avis 1868–1923
+     </note>
      – Madamen var nemlig Venstremand.
     </p>
     <p>
@@ -1263,7 +1423,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «–
-     
+     <note type="footnote">
+      «–] retta frå: –
+     </note>
      Aa fy, Madam Simonsen! sig det ikke, sig det ikke!» skreg Frk. Halvorsen og satte Fingrene i Ørene. «Aa fy, hvor fæl De er; og det kunde Jensen –! Aa fy, det havde jeg aldrig trod.»
     </p>
     <p>
@@ -1304,7 +1466,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Jaha da, mange Penger; det var nok næsten paa Hægta
-     
+     <note type="commentary">
+      paa Hægta] på nippet, så vidt, her brukt i tydinga nær konkurs
+     </note>
      med han, den Gangen han fik snusa op henner.»
     </p>
     <p>
@@ -1318,7 +1482,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Aa saa naa –. Nei Gud hjælpe mig, som sidder saa længe her og væver
-     
+     <note type="commentary">
+      væver] pratar tull, tøvar
+     </note>
      –!»
     </p>
     <p>
@@ -1377,9 +1543,13 @@ Sist endret: desember 2017
      «Jeg forsikrer Dem, bedste Fru Hedels; dersom De virkelig skal ha en sort Kjole, saa kan De trygt slaa Dem til Ro hos mig med det samme – i Sort skal jeg kunne tilfredsstille ethvert optænkeligt Forlangende. Jeg har for Tiden et
      <pb n="37"/>
      Assortement i sorte Stoffe, som jeg garanterer at ingen, absolut ingen i den hele By skal kunne vise Dem Magen til. Hvad siger De f. Ex. om et Stof som denne franske Velour?
-     
+     <note type="commentary">
+      Velour] vove stoff med opprubba overflate, silkefløyel
+     </note>
      – Fineste, reneste Vare. De kan mase det sammen mellem Deres Hænder, De kan behandle det som De vil, ikke en Rynke, ikke en Fold skal De se paa det. – Eller denne engelske Caschemir
-     
+     <note type="commentary">
+      Caschemir] fint, mjukt ullstoff
+     </note>
      –? Har De nogensinde set et Stof, som falder smukkere i et Draperi? Aa, Frøken Halvorsen, vil De se hid et Øieblik?»
     </p>
     <p>
@@ -1387,7 +1557,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Det var en stor Lettelse, da Fruen endelig i en fornærmet Tone tilkjendegav, at hun alligevel fik bestemme sig for 10 Meter af Velouren, «siden hun havde skaffet saa meget Bryderi.» Hun havde jo ellers set noget hos Sten og Strøm,
-     
+     <note type="commentary">
+      Sten og Strøm] Noregs eldste stormagasin, grunnlagt i 1797 av Samuel Strøm. Dagens namn frå 1854 då Emil Steen kom med i drifta.
+     </note>
      som hun likte bedre.
     </p>
     <p>
@@ -1429,7 +1601,9 @@ Sist endret: desember 2017
     </p>
     <p>
      – Han snakkede længe med hende om forskjellige Familieforhold, om hendes Hjem o. s. v.
-     
+     <note type="footnote">
+      o. s. v.] retta frå: o. s. v
+     </note>
      Hun fik saadan Lyst til at fortælle ham om alting
      <pb n="39"/>
      det var for morsomt, at han saadan gav sig af med hende. Det skulde ærgre de andre godt. Hun saa af og til hen paa sine Colleger. Jo naturligvis stod Tobiassen der og niglodde; – og der stod Hansen og gjorde Ablegøier bag Tobiassens Ryg; hun maatte tvinge sig for ikke at le; han stod paa Taa og gjorde Linerleben.
@@ -1444,7 +1618,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Og saa deiligt som det maatte være at ha en, som sørget for alting, og være kvit disse evige Pengebekymringer. Huf, det var næsten det værste af alt. Et Værelse fik hun vel ikke i dette Liv; det gik til Tøi alting. Det var saa koldt i denne væmmelige Butikken, at man maatte staa emballeret i Uld fra Top til Taa, hvis man ikke skulde fryse Helsen af sig. Uldtrøier med lange Ærmer og Uldbenklæder havde hun maattet koste sig tidlig i Vinter. Nu skyldte hun baade for et Kjoletøi og for al den kostbare Flonellen
-     
+     <note type="commentary">
+      Flonellen] mjukt ty av ull el. bomull med lo på begge sider
+     </note>
      hos Jensen; men det var hende ikke mulig at faa betalt af noget endnu. Hun var ængstelig, hvergang hun skulde hæve Gagen. Men gudskelov, endnu blev der aldrig
      <pb n="41"/>
      talt om Gjældsposterne. Hun fik altid sin Løn fuldt udbetalt.
@@ -1460,7 +1636,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Hun holdt leende Femogtyveøringen op mod Tobiassen og spurgte, om de skulde spleise til en halv Lysholmer.
-     
+     <note type="commentary">
+      Lysholmer] akevitt frå produsenten Lysholm
+     </note>
     </p>
     <p>
      <pb n="42"/>
@@ -1468,11 +1646,15 @@ Sist endret: desember 2017
     </p>
     <p>
      «Hurra for Tulla vor!» raabte Hansen, «har jeg ikke i hele Dag gaat og længtet efter en Kolekvintare!»
-     
+     <note type="commentary">
+      Kolekvintare] dram
+     </note>
     </p>
     <p>
      Lidt efter rusled Karl, Visergutten, afsted med en Tomflaske under Frakken efter en halv No. 1 hos Bennecke.
-     
+     <note type="commentary">
+      Bennecke] C.A. Benneche, vin- og brennevinshandel i Grensen 1
+     </note>
     </p>
    </div>
    <div type="chapter">
@@ -1488,9 +1670,13 @@ Sist endret: desember 2017
     </p>
     <p>
      Saa blev da Værelset indredet saa hyggeligt som muligt. Fruen satte ind flere Smaating, som gjorde det mere hjemligt. Et gammelt trebenet Bord blev hentet ned fra Loftet og gjort istand til Toilettebord. Det blev trukket med rød Mug
-     
+     <note type="commentary">
+      Mug] hardvalsa bomullsty
+     </note>
      og et Par gamle hvide Gardiner, som Fruen med stor Kunst havde strøget sammen, saa det tog sig ganske net ud. Paa Sofaen kom hjemmehæklede Antimakasar
-     
+     <note type="commentary">
+      Antimakasar] tystykke til å ha over ryggen på lenestolar eller liknande for å verna mot feitt frå håret
+     </note>
      og ovenpaa Bordtæppet en hvid Serviet med Tyksømsbroderi.
     </p>
     <p>
@@ -1543,17 +1729,35 @@ Sist endret: desember 2017
     </p>
     <p>
      Men Frk. Halvorsen saa paa det velstandsmæssige Bord, som var dækket i Spisestuen, og glæded sig til Maden. Ak-a-mei, tænk faa en ordentlig Steg, som der ikke var kogt Suppe paa. Ogsaa pleied der altid at være Multer eller noget andet saadant godt efterpaa. Bare det nu ikke vilde vare for længe! Det var saa vanskeligt at finde paa noget at ta sig til, mens man vented. Onkel Hedels havde snakket det han havde, spurgt om nyt fra Sandefjord, om Trafikken i Forretningen, o. s. v.; Albummet
-     
+     <note type="commentary">
+      Albummet] truleg eit portrettalbum med små fotografi av familiens venner og omgangskrets, vanleg blant borgarskapet på denne tida.
+     </note>
      og Skillingsmagasinet
-     
+     <note type="commentary">
+      Skillingsmagasinet]
+      Skilling-Magazin til Udbredelse af almennyttige Kundskaber
+      , illustrert vekeblad som kom ut i perioden 1835–1891.
+     </note>
      havde hun set igjennem. Men der laa nogle Bøger; hvad mon det var for nogen? «I det Stille» af Marie;
-     
+     <note type="commentary">
+      «I det Stille» af Marie] Marie:
+      I det stille : Skildringer fra den hjemlige Arnes Synspunkt
+      , Kristiania 1878. Marie var pseudonym for Antoinette Meyn, norsk forfattar (1827–1915).
+     </note>
      den havde hun
      <pb n="47"/>
      læst. «Kong Oskars Reise til Nordkap»,
-     
+     <note type="commentary">
+      «Kong Oskars Reise til Nordkap»] J.A. Friis:
+      Hans Majestæt kong Oscar II's Reise i Nordland og Finmarken Aar 1873
+      , Kristiania 1874.
+     </note>
      ja der var Billeder; dem kunde man se. Men der laa «Guld-Else eller det gamle Slot» af Marlitt.
-     
+     <note type="commentary">
+      «Guld-Else eller det gamle Slot» af Marlitt] bok av E. Marlitt, utgitt i Leipzig 1866 med originaltittelen
+      Goldelse
+      . E. Marlitt var pseudonym for Eugenie John (1825–1887), tysk forfattar.
+     </note>
      Den havde hun ogsaa læst før; men den var saa deilig, at hun kunde læse den om igjen hundrede Gange. Hun satte sig hen til Vinduet og ledte efter det Sted, som hun syntes var det yndigste i hele Bogen. Der hvor de gaar Arm i Arm paa en yndig, skyggefuld Vei, og han siger fore noget, som hun skal sige efter. Hun kunde ikke huske, hvordan det lød, men det var saa deiligt. –
     </p>
     <p>
@@ -1606,9 +1810,13 @@ Sist endret: desember 2017
     </p>
     <p>
      Frk. Halvorsen fortalte, at hun havde været en Tur rundt Fæstningen,
-     
+     <note type="commentary">
+      Fæstningen] Akershus festning
+     </note>
      men at det var saa koldt, saa hun holdt paa at fryse Benene af sig; saa havde hun faat den Ide, at hun skulde gaa indom og varme sig lidt. Ja hun maatte ta af sig og sætte sig op i Sofaen, mente Madamen, saa skulde hun gaa ud i Kjøkkenet og «svinge paa Kjedlen».
-     
+     <note type="commentary">
+      «svinge paa Kjedlen»] laga kaffi. Uttrykket viser truleg til at ein gjerne svingar eller løftar kaffikjelen opp og ned for at gruten skal falle til botn.
+     </note>
     </p>
     <p>
      «Aa De er et velsignet Menneske, Madam Simonsen –» sa Frøknen, tog Tøiet af sig og satte sig godt tilrette op i Sofaen. Saa gudskelov, nu kunde hun da sidde og dovne sig lidt, og saa
@@ -1620,14 +1828,20 @@ Sist endret: desember 2017
     </p>
     <p>
      Det var sandt som Jensen sa, det var ikke noget for Damer; men af Madam Simonsens Politik lo han. Nu syntes Madamen, at han og hans Lige havde været Storfolk længe nok, sa han; nu vilde hun og hendes Lige være Storfolk en Stund! Akkurat saa var det ogsaa med de emanciperede Damer,
-     
+     <note type="commentary">
+      emanciperede Damer] frigjorte, uavhengige, brukt om kvinnesakskvinner
+     </note>
      forklarte Jensen; nu havde Mandfolkene været Mandfolk saalænge, at nu vilde de være Mandfolk til en Afvexling. – Og han havde vist egentlig Ret.
     </p>
     <p>
      Da Madamen havde sat Kjedlen over, kom hun ind med Kværnen, tog ud en Papirpose i Piedestallen,
-     
+     <note type="commentary">
+      Piedestallen] høgt, smalt skåp
+     </note>
      fyldte i, og satte sig til at male Kaffe. Idetsamme kikked hun ud gjennem Vinduet, som vendte til Gaarden. Saa satte hun Kværnen fra sig paa Bordet og gik hen og flytted paa en stor Geranium,
-     
+     <note type="commentary">
+      Geranium] namn på prydplanta pelargonium
+     </note>
      som stod i Veien, som for at se bedre.
     </p>
     <p>
@@ -1638,7 +1852,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Søndagen efter Optagningen
-     
+     <note type="commentary">
+      Optagningen] vareoppteljinga
+     </note>
      sidder'n bestandig og regner, ved De,» sa Madamen og gav Kværnen et Dask for at faa de sidste Bønner med, «han
      <pb n="51"/>
      stunder efter at se, hvormeget han har tjent i Aaret.»
@@ -1648,7 +1864,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Hei, der kommer Svarten!»
-     
+     <note type="commentary">
+      Svarten] kaffikjelen
+     </note>
      skreg Madamen og sprang ud for at redde Kjedlen som kogte over. Men derude hørte Frk. Halvorsen hende skrige enda høiere: «Kors i Jesu Navn, aa Di skræmte mig!» Og idet samme hørte hun en Stemme som lo og sa: «Ja det er jo saa mørkt her, at man ikke kan se en Tomme foran sig; det var saamæn nær paa jeg skulde omfavnet Dem.» Det var Jensen.
     </p>
     <p>
@@ -1676,7 +1894,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Det er saamæn første Gang, Frøkna gjør mig den Ære aa
-     
+     <note type="criticalApp">
+      aa] 2. opplag: at
+     </note>
      hilse paa mig en Søndag,» sa Madamen ude fra Kjøkkenet, «og derfor skulde vi netop ha vaars en liden Kop Kaffe i Anledningen.»
     </p>
     <p>
@@ -1824,7 +2044,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Frøken Halvorsen begyndte ogsaa virkelig at komme i Naade igjen hos Hedels. Hun havde lagt sig til noget af det Væsen, som Tante Hedels fandt, at en ung Dame maatte ha. Hun var bleven mere snerpet
-     
+     <note type="commentary">
+      snerpet] tilgjort fin og atterhalden, som lett blir moralsk støytt
+     </note>
      og holdt mere paa sin Værdighed end før. Og saa gik hun pent klædt. I og for sig var det jo en ærlig Sag at fortjene sit Brød selv; det var mange bedre Mands Døtre som begyndte med det nu for Tiden. – Og det hændte sogar, at hun blev indbudt sammen med Frøken Maries fine Veninder.
     </p>
     <p>
@@ -1840,12 +2062,16 @@ Sist endret: desember 2017
      Men det var ikke saa greit for Frøken Halvorsen at holde sine Colleger i passende Afstand. Hun begyndte at behandle dem overlegent og la udtrykkelig an paa at vise dem, hvor uendelig ligegyldige de var hende. Især var hun ækel mod
      <pb n="62"/>
      Tobiassen. Men denne gjemte trolig hver Fornærmelse og svor paa, at hun skulde ha det igjen. Helt siden han for et Aars Tid siden fik sin Kurv,
-     
+     <note type="commentary">
+      fik sin Kurv] fekk avslag på frieri
+     </note>
      havde han havt en Mistanke; man kjendte jo Jensen; og snart var han ikke længer i Tvil om, hvordan Sagerne stod. Kunde han saa sandt faa et sikkert Bevis, saa skulde han kaste hende det i Ansigtet, om det saa skulde koste ham hans Stilling.
     </p>
     <p>
      En Dag kunde han ikke bare sig længer; han kaldte hende «Holddame»
-     
+     <note type="commentary">
+      «Holddame»] elskerinne som blir økonomisk underhalden av mannen
+     </note>
      til de andre Betjente, og da Ordet først var nævnt, blev der ikke sparet. Den eneste, som ingenting sa, var tykke Larsen.
     </p>
     <p>
@@ -1859,7 +2085,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Han interesserte sig for Boston-
-     
+     <note type="commentary">
+      Boston] kortspel
+     </note>
      og Toddypartier langt mer end rimeligt, syntes hun, og blev
      <pb n="63"/>
      rent lykkelig, naar en af hans Venner kom for at faa ham med ud. Han huskede ikke paa, hvordan det var for hende. Hun turde ikke ha Veninder; Jensen fandt det ikke raadeligt; Kvindfolkene havde saa let for at blive intime, sa han. Det blev da svært ensomt for hende sommetider. Især var Søndagene utaalelige; da saa hun ham aldrig. Da maatte han være hos sin Familie, sa han; det var ikke Raad for det. Ofte græd hun af Skinsyge og Harme, naar hun de lange Søndageftermiddage laa hjemme paa sin Sofa og tænkte paa, at nu var han i Selskab og mored sig, eller ude og kjørte med Fruen og de søde Børnene sine, som han nok i Grunden var svært glad i, mens hun – – –
@@ -1869,7 +2097,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Der var ogsaa kommet en ny Dame i Spisestuen nu, som hun af og til var sammen med. Det var en Frøken Paulsen, et snilt, hyggeligt Menneske, hvis væsentlige Interesse var Kjoler og Hatte. Hun var ogsaa fra et tarveligt
-     
+     <note type="commentary">
+      tarveligt] enkelt, fattigsleg
+     </note>
      Hjem i en Smaaby; men hun havde en Fætter som var Student, og gjennem ham en Del fine Bekjendtskaber, som hun strævede svært med at holde sig paa Høide med. Hun havde en dødelig Angst for alt, som ikke var
      <pb n="64"/>
      «rigtigt». Det at være Forretningsdame var jo lige paa Grændsen af ikke at være anstændigt; derfor maatte man være umaadelig forsigtig; man kunde aldrig være streng nok. Hun likte godt Frøken Halvorsen, fordi denne havde de samme Principer, og de begyndte at omgaaes, hjalp hinanden med at fordrive Kvælderne og de lange Søndage, som de bedst kunde.
@@ -1882,7 +2112,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Frøken Paulsen var nærved at faa et Tilfælde.
-     
+     <note type="commentary">
+      Tilfælde] sjukdomstilfelle
+     </note>
      Og hun, som flere Gange havde spadseret paa Drammensveien med hende om Søndagene! Hun var i disse Tider mer end almindelig nervøs for sit Rygte, da hun havde alt andet end god Samvittighed selv. Hun fik takke til, om hun kunde klare sin egen Historie.
     </p>
     <p>
@@ -1906,12 +2138,16 @@ Sist endret: desember 2017
     </p>
     <p>
      Om Søndagene laa hun ofte hele Dagen paa Sofaen med en Vinflaske og alskens Slikkerier foran sig. Hun gad ikke klæde sig paa; det var saa dovent og godt at ligge saadan i en rummelig Morgenkjole uden Korset
-     
+     <note type="commentary">
+      Korset] snøreliv, livstykke med spiler brukt for å få ein slankare figur
+     </note>
      og strække sig og rigtig være grundlad. Ikke læse, ikke tænke, bare drikke Vin, til man laa saadan i en behagelig Døs og drømte og fantaserede om alt, som var deiligt; bare lave sammen de vidunderligste Historier – alt det som kunde hænde med ham og hende – aa ham, ham; aa, at han ikke var her nu, netop nu –. Hun lukkede Øinene og drømte sig ind i hans Arme, inde ved hans Legeme, til hun skalv og brændte. Hun kasted sig omkring, knuged Armene om Sofapuden; – aa hvis han var her –.
     </p>
     <p>
      Naar Frøken Halvorsen laa saadan om Søndagene og ikke kom ind til Maaltiderne, bragte Fru Gundersen hende Mad ind paa Værelset og fortalte Pensionærerne,
-     
+     <note type="commentary">
+      Pensionærerne] personar som har kost og losji i pensjonat eller liknande
+     </note>
      at hun var daarlig. Hun havde saadan en styg Hoste, sa Fru Gundersen; «det Butiklivet var vist ikke sundt for hende.»
     </p>
     <p>
@@ -1934,7 +2170,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Jasaa, det er
-     
+     <note type="criticalApp">
+      det er] 2. opplag: er det
+     </note>
      virkelig Deres?»
     </p>
     <p>
@@ -1956,7 +2194,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Han lo haanligt. «Denne Gang var Madam Simonsen for sent ude,» sa han og kasted Kammen i Gulvet med al sin Kraft, bøied sig fremover hendes ene Skulder og hvisled med sammenbidte Tænder «Tøs».
-     
+     <note type="commentary">
+      «Tøs»] hore
+     </note>
      Og saa gik han, med Næverne knyttet dybt nede i Buxelommerne.
     </p>
     <p>
@@ -1978,7 +2218,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Da hun kom ind paa Lageret igjen, tog hun frem et stort Stykke hvid Stout,
-     
+     <note type="commentary">
+      Stout] solid bomullsty
+     </note>
      som hun gav sig til at slaa op paa et Træbræt. Hun nynned paa en Valsemelodi, mens den hvide Støvsky stod høit om hende, hver Gang hun med unødig Voldsomhed klasked Tøiet i Disken.
     </p>
     <p>
@@ -2059,9 +2301,13 @@ Sist endret: desember 2017
      Men snart begyndte Kampen for at skjule det, og hun led forfærdelig. Det trange Korset pinte hende, og naar hun kom hjem om Kvælden efter at have maattet staa hele Dagen, rev hun Klæderne af sig og kasted sig udmattet ned paa Sengen. Naar hun saa sig i Speilet, blev hun forfærdet. Dag for Dag blev hun sværere, og endnu var der to Maaneder igjen. Hvad i Alverden skulde hun
      <pb n="75"/>
      gjøre? Hun kunde umulig holde ud endnu i to Maaneder. Hun syntes, Folk maatte se det. Og hun snøred Maven sammen med faste Bind og spændte Korsettet, saa hun neppe kunde puste. Hun blev huløiet og mager og gik altid med et Sjal over Skuldrene og smaahosted. Og til Fru Gundersen og i Forretningen fortalte hun, at Doktoren havde sagt, det var galt fat med Brystet. Hverken hun eller nogen anden kunde skjønne andet, end at Fru Gundersen trodde paa Tæringen
-     
+     <note type="commentary">
+      Tæringen] tuberkulosen
+     </note>
      af sit ganske Hjerte. Hun stelte godt med hende, og en Dag sa hun sogar, at hun syntes virkelig, Frk. Halvorsen burde søge om en ordentlig Sommerferie i Aar, saa hun kunde komme ud paa Landet lidt. Landluft var jo den bedste Medicin for Brystsyge.
-     
+     <note type="commentary">
+      Brystsyge] sjukdom i brystet, særleg tuberkulose
+     </note>
     </p>
     <p>
      Men i Butikken var det værre.
@@ -2107,9 +2353,13 @@ Sist endret: desember 2017
     <p>
      <pb n="78"/>
      Da Klokken var ti, stod hun op og tog paa sig en stor Slynge,
-     
+     <note type="commentary">
+      Slynge] kappe for kvinner, cape
+     </note>
      en liden Filthat
-     
+     <note type="commentary">
+      Filthat] filt: stoff av samanpressa ull eller hår
+     </note>
      og et tæt Slør for Ansigtet, og gik nedover Pilestrædet. Paa Hjørnet af Kirkegaden vented Tobiassen med Droske. Hun steg op, og de kjørte i Taushed nedover til Dampskibsbryggen. Regnen øste ned, og der var stille paa Gaden. Tobiassen var uhyggelig tilmode; han vidste ikke, hvad han skulde sige. Tilslut spurgte han, om der var noget, han skulde besørge for hende. «Ja, Kufferten – i Morgen –.»
     </p>
     <p>
@@ -2123,7 +2373,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Tivoli!» raabte han til Kusken og sprang op i Vognen
-     
+     <note type="footnote">
+      i Vognen] retta frå: Vognen
+     </note>
      igjen.
     </p>
    </div>
@@ -2143,7 +2395,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Ofte drømte hun, at det begyndte paany. Hun skulde slagtes, og hun maatte ligge og se paa Forberedelserne. Den lille geschäftige
-     
+     <note type="commentary">
+      geschäftige] aktive, tiltaksame
+     </note>
      Jordemoder vimsed omkring og rakte alleslags underlige
      <pb n="80"/>
      Instrumenter til den høie, mørke Manden, som stod bøiet over hende, og hun laa i Dødsangst og ventet paa at føle dem i sit Kjød –.
@@ -2175,13 +2429,17 @@ Sist endret: desember 2017
     </p>
     <p>
      Men Madamen vidste ingen deromkring, som kunde ta det; derimod kjendte hun en ung Styrmandskone i Kristiania, som vilde ha et Pleiebarn,
-     
+     <note type="commentary">
+      Pleiebarn] barn som er bortsett mot betaling
+     </note>
      og der trodde hun Barnet maatte faa det godt. Den Konen havde selv bare en treaarsgammel Gut, og Manden var fordetmeste ude paa Reiser, saa hun havde Tid nok; og ikke var det rigtig nogen Fattigkone heller, som de fleste andre saadanne Pleiemødre.
     </p>
     <p>
      <pb n="82"/>
      Frk. Halvorsen syntes hun maatte benytte sig af en saa god Leilighed.
-     
+     <note type="commentary">
+      Leilighed] høve, anledning
+     </note>
      Hun følte ogsaa en hemmelig Glæde ved Tanken paa, at hun skulde faa ha Barnet saa nær. Man kunde altid lave sammen en eller anden Historie, saa hun kunde faa se det lidt ofte.
     </p>
     <p>
@@ -2192,7 +2450,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Det var i Grunden bare dumt at grue for at komme til Byen igjen. Det var jo ingen som vidste noget. Og selv om de havde vidst
-     
+     <note type="footnote">
+      vidst] retta frå: vist
+     </note>
      noget –! hun blaaste i dem allesammen. Det var saamæn noget, som havde hændt de fineste Damer; Madam Simonsen kunde fortælle lidt af hvert om de Ting. De kunde sladre saameget de vilde; hun kryssed ingen. Desuden blev de nok snart kjed af det.
     </p>
     <p>
@@ -2211,7 +2471,9 @@ Sist endret: desember 2017
     <p>
      <pb n="84"/>
      Nei, aldrig se dem mer. Hun vilde leie paa en rent anden Kant af Byen. Den Konen, som skulde ha Barnet, boede i Vognmandsgaden
-     
+     <note type="commentary">
+      Vognmandsgaden] tidlegare gate i fattigkvarteret på Vaterland. Bortregulert i samband med saneringa av området på 1960-talet.
+     </note>
      etsteds, saa kunde det jo passe for hende at leie paa Grønland; da havde hun det lige i Veien sin. Hun fik si, at det var en Slægtning af sig som eied Barnet, eller kanske en Bekjendt. Aa nei, det var alligevel bedre at si en Slægtning; hun kunde jo si, at det var en Fætter; naar det bare var Faderen, hun var i Slægt med, saa var det jo ikke nogen videre Skam. Hun kunde fortælle, at han var Student, af rige, fine Forældre, men desværre svært letsindig. Og saa maatte hun si, at det var med en fin Dame, han havde dette Barnet, af en i Byen velkjendt, stor Familie; derfor kunde Moderen altsaa ikke selv o. s. v.; det kunde jo formelig bli interessant.
     </p>
     <p>
@@ -2226,7 +2488,9 @@ Sist endret: desember 2017
     <p>
      <pb n="85"/>
      Vognmanden fulgte ombord og tog hendes Kuffert, og hun følte sig betydelig lettet, da hun var kommet op i Vognen med alle sine Pakkenelikker.
-     
+     <note type="commentary">
+      Pakkenelikker] små pakkar, bagasje
+     </note>
     </p>
     <p>
      «Kanske De vil slaa op Kaleschen, Vognmand; jeg tror, det begynder at regne?»
@@ -2236,14 +2500,18 @@ Sist endret: desember 2017
     </p>
     <p>
      «Ja – Madam Johnsens Privathotel.»
-     
+     <note type="commentary">
+      Madam Johnsens Privathotel] truleg fiktivt namn
+     </note>
     </p>
     <p>
      – Da hun var kommet ind paa det lille Værelse, som blev hende anvist, stablede hun sit Tøi sammen i en Krog, og bestilte en halv Flaske Øl og nogle skaarne Smørogbrød. Men Smørogbrødene var vonde og Værelset var trist og ubehageligt; det var ikke muligt at sætte sig i Ro og spise.
     </p>
     <p>
      Hun gik op og ned paa Gulvet, bed af et Par forskjellige Madstykker, tømte Ølflasken og begyndte at klæde sig af. Hun var virkelig saa gjennemtræt efter Reisen; hun mærked nok godt, at hun ikke taalte saa meget endnu, men det maatte vel komme sig med Tiden. Da hun var næsten afklædt, fik hun pludselig Lyst til at se paa Maven sin. Mon hvordan
-     
+     <note type="footnote">
+      hvordan] retta frå: hv ordan
+     </note>
      den kunde se ud efter en saadan Historie. Hun havde aldrig turdet se paa den saalænge hun gik med Barnet, det var for fælt bare at se den udenpaa Linnedet dengang. Hun løste Bindet og gik hen foran Speilet. Men du gode Gud, hvordan var det hun saa ud! – blaasorte Striber over hele Maven, Aarer eller Ar ligesom; fælt stor var den ogsaa enda, foldet og styg,
      <pb n="86"/>
      huf! Kanske hun skulde gaa omkring med de Mærkerne hele sit Liv, jo det skulde se nydeligt ud! Hun skyndte sig at knytte Bindet fast paa igjen og sprang hurtig op i Sengen.
@@ -2262,7 +2530,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Frøken Halvorsen var søvnig og uvel, havde Hovedpine og var tung og træt; hun maatte ha forkjølet sig. Gud hjelpe hende saasandt, om hun skulde bli gjentaget,
-     
+     <note type="commentary">
+      gjentaget] få tilbake jobben
+     </note>
      – bli liggende her, og der kom Doktor, og hele Greien kom for en Dag. Hun drak sin Kaffe med febrilsk Hast, tvang sig til at spise lidt og stod op. Det blev vel bedre, naar hun fik vasket og stelt sig og kom ud i Luften.
     </p>
     <p>
@@ -2272,7 +2542,9 @@ Sist endret: desember 2017
      Efter adskilligt Stræv var hun endelig færdig.
      <pb n="88"/>
      Det var et sandt Ord, at Pudsen var halve Gjenta,
-     
+     <note type="commentary">
+      Pudsen var halve Gjenta] pynten var halve jenta
+     </note>
      tænkte hun og saa sig endnu engang i Speilet. Nu saa hun jo noksaa bra ud.
     </p>
     <p>
@@ -2306,7 +2578,9 @@ Sist endret: desember 2017
      «Her har sku vært forbandet stille og kjedeligt,» svarte Jensen, idet han tog nogle Skridt indenfor
      <pb n="89"/>
      Disken og saa opefter Hylderne. «Ikke Spor af Trafik, fuldkommen uddød. Men nu kommer De forhaabentlig og sætter lidt Liv i Geschæften,
-     
+     <note type="commentary">
+      Geschæften] handelen
+     </note>
      De Frøken?»
     </p>
     <p>
@@ -2377,7 +2651,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Nei nei, misforstaa mig nu endelig ikke; jeg ved jo, at du er god og fornuftig; men du kan da ikke fortænke
-     
+     <note type="commentary">
+      fortænke] mistenke
+     </note>
      mig i at – jeg mener, du skjønner jo at – hele min Existens staar paa Spil, hvis –»
     </p>
     <p>
@@ -2428,7 +2704,9 @@ Sist endret: desember 2017
     </p>
     <p>
      – Da hun første Gang skulde
-     
+     <note type="footnote">
+      skulde] retta frå: kulde
+     </note>
      besøge Jensine i hendes nye Logi, grued hun sig noksaa meget; og hun var lykkelig; da hun havde revet af sig Historien om Fætteren.
     </p>
     <p>
@@ -2450,9 +2728,13 @@ Sist endret: desember 2017
     </p>
     <p>
      Det
-     
+     <note type="footnote">
+      Det] retta frå: Den
+     </note>
      var den engelske Syge,
-     
+     <note type="commentary">
+      den engelske Syge] rakitt, mangelsjukdom som følge av D-vitaminmangel.
+     </note>
      Jensine havde. Men Fru Johannesen sa, at det var en Sygdom,
      <pb n="95"/>
      som andet hvert Barn havde; det var slet ikke saa farligt. Hendes egen lille Gut havde ogsaa havt den, og det var gaat over med en almindelig Trankur.
@@ -2462,7 +2744,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Frk. Halvorsen skjønte, at det var mere Penge, det gjaldt, og hun var strax rede. Hun skulde nok faa sine Tab godtgjort,
-     
+     <note type="commentary">
+      godtgjort] erstatta
+     </note>
      mente hun, bare hun vilde stelle rigtig godt med Jensine. Og Fru Johannesen kyssed og kjælte for den lille og sa, at med Guds Hjælp, saa skulde hun nok blive frisk og kjæk igjen.
     </p>
     <p>
@@ -2540,7 +2824,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Med tungt Hjerte gik Frøken Halvorsen hjemover, trykket til Jorden under Følelsen af sin Vanmagt. Det var til at blive sindssvag af, at staa med bundne Hænder og se paa slig Elendighed. Hun orked ikke at gaa i Butikken igjen om Eftermiddagen. Hun skrev en Seddel
-     
+     <note type="commentary">
+      Seddel] notislapp
+     </note>
      og sa, at hun var syg.
     </p>
     <p>
@@ -2551,7 +2837,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Dette store Barnehoved med de dumme, matte Øine og den lille gjennemsigtige Krop med de visne krogede Ben
-     
+     <note type="commentary">
+      visne krogede Ben] sjukdommen rakitt medfører redusering av beinvevet slik at knoklar og bein blir deformerte
+     </note>
      forfulgte Frøken Halvorsen Dag og Nat, og for at holde sig oppe maatte hun ofte drikke. Sommetider drak hun, saa hun var ræd for sig selv. Men hun maatte. Det var det eneste, som hjalp lidt paa Samvittigheden.
     </p>
     <p>
@@ -2664,7 +2952,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Pyh!» sa
-     
+     <note type="footnote">
+      sa] retta frå: saa
+     </note>
      hun og vendte sig fra ham med en kort Latter.
     </p>
     <p>
@@ -2677,7 +2967,9 @@ Sist endret: desember 2017
      Gudskelov at det var sagt; han var sku kjed af dette-her nu. Det var noget saa fortærende ved dette aldrig at føle sig som fri Mand; man kunde bli gal af det. Det maatte da for svarte Fanden gaa an at faa en Ende paa det, vel! Her gik han som en Tyv bestandig og turde ikke se Folk i Øinene, mens hun var saa rolig og tryg –; det var rent irriterende. Hun havde ingenting at resikere, hun, mens han – aa du evige Gud, kunde man tænke sig noget dummere end at kjøre sig slig fast. Han havde nok havt adskillig Erfaring i Fruentimmerveien; men det var første Gang han havde et Forhold, som liksom skulde være lidt bedre
      <pb n="107"/>
      end de mange af allerløseste Slags, som han begyndte at bli kjed af; men havde han havt Anelse om, hvad dette det
-     
+     <note type="criticalApp">
+      det] 2. opplag: ordet manglar
+     </note>
      var for et Slaveri, saa skulde han vist ha passet sig.
     </p>
     <p>
@@ -2701,7 +2993,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Frk. Hoel begreb ikke et Muk
-     
+     <note type="commentary">
+      Muk] svak lyd, kvekk
+     </note>
      af dette; den Tobiassen var ogsaa en rar Førstemand.
     </p>
     <p>
@@ -2709,7 +3003,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Men da han en Dag hørte Madam Simonsen spase
-     
+     <note type="commentary">
+      spase] fjase, spøke
+     </note>
      med, at Frøken Halvorsen og Tobiassen skulde gifte sig, var han nær ved at bede til Gud.
     </p>
     <p>
@@ -2719,7 +3015,9 @@ Sist endret: desember 2017
      Enkemand –, naa; at være gift var sku ikke
      <pb n="109"/>
      saa farligt; det var et Paradis af Frihed alligevel det, mod et Forhold som dette! Det maatte være et uhyre upraktisk Menneske, som ikke kunde skaffe sig lidt Frihed, om han var gift; men kom man først ind i et saakaldt frit Forhold, saa sad man sku der, trods al Overlegenhed, det skjønte han nu. Altid at ha Skandalen hængende over Hode paa sig – hu; naa, man fik indrette sig; der var altsaa ikke noget at gjøre ved det. Hun forlangte svært meget af ham ogsaa nu; han fik nok ikke Lov til at forsømme hende saa ofte, som han kunde ha Lyst til; – der blev strax Scener, og det var saa Satans væmmeligt. En vakker Dag kunde hun jo ogsaa gjerne finde paa at sende alle disse dumme Billetter
-     
+     <note type="commentary">
+      Billetter] korte brev
+     </note>
      hjem til Fru Jensen; ingen vidste, hvad et nervøst Fruentimmer kunde finde paa; de tænkte ikke, de; neida; nei, han fik nok – – – –.
     </p>
     <p>
@@ -2742,7 +3040,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Er'n go, saa kommer'n igjen,» som Madam Simonsen sagde; herregud, hun vidste jo det nu. Og i sin Tryghed drev hun ham ofte til Raseri ved sin udfordrende Dovenskab og Ligegyldighed. Det kom til stormende Scener, som hun tog med stedse
-     
+     <note type="commentary">
+      stedse] alltid, stadig
+     </note>
      større Ro, medens han mer og mer laa under for sin Magtesløshed. Han sprælled i hendes Baand som Fisken paa Krogen. Det var ikke Frygten for Skandalen alene, som bandt ham; det værste
      <pb n="111"/>
      var at … Fanden, naar det kom til Stykket, saa kunde han ikke undvære hende heller! Han, som havde følt sig saa høit hævet over dette udannede Kvindemenneske, maatte nu knytte Næven i Lommen og indrømme, at han var den underlegne; og det hjalp ham ikke det mindste, at han fortalte sig selv og hende, at det var smudsige Vaaben hun brugte, at det var hendes Mangel paa Dannelse og Finfølelse som var hendes Styrke o. s. v.; hun lo ham bare ud, naar han snakked om Finfølelse, og for sig selv blev han hverken finere eller stærkere af det.
@@ -2767,20 +3067,28 @@ Sist endret: desember 2017
     </p>
     <p>
      Som altid hos Jensens havde man spist en udmærket Aftensmad, og nu kom Punchebollen.
-     
+     <note type="commentary">
+      Punchebollen] punsj: drikk av vatn, sukker, krydder og alkohol
+     </note>
     </p>
     <p>
      Fru Jensen var i høieste Velgaaende
-     
+     <note type="commentary">
+      høieste Velgaaende] høggravid
+     </note>
      og sad bleg og træt og strævede med at være Værtinde. Hun saa gammel og daarlig ud og røbed i Paaklædning og Frisur en paafaldende Ligegyldighed for sit Ydre. Og det irriterede Jensen; man behøved da ikke at skabe sig værre end man var heller. Han kunde ikke lade være at gjøre Sammenligninger, og stjal sig saa ofte som mulig til at
      <pb n="113"/>
      betragte Frøken Halvorsen, som sad lidt ifra de andre og snakked med hans Ven Grosserer Bøhn.
     </p>
     <p>
      Det forekom ham, at Bøhn gjorde temmelig betydelig Haneben.
-     
+     <note type="commentary">
+      Haneben] flørta
+     </note>
      Fan til Udhaler
-     
+     <note type="commentary">
+      Udhaler] lauslynt, usømeleg mann
+     </note>
      ogsaa; han maatte da i Pokkers Skind og Ben forstaa, at sligt var upassende. Det var simpelthen taktløst var det, naar Husets Frue var tilstede. Jensen drak temmelig flittig og var ganske rød i Toppen.
     </p>
     <p>
@@ -2788,7 +3096,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Skaal, Skaal du!» kvak Bøhn i og snudde sig rundt paa Stolen forat ta sit Glas, som stod bag ham paa Etagéren.
-     
+     <note type="commentary">
+      Etagéren] møbel med hyller
+     </note>
     </p>
     <p>
      De drak og plirede til hverandre over Glassene.
@@ -2805,7 +3115,9 @@ Sist endret: desember 2017
     </p>
     <p>
      – De taltes sjelden ved, Jensen og Fruen nu, thi han benyttede enhver Anledning til at spise i Byen. Og som altid naar Fruen gik sidst paa,
-     
+     <note type="commentary">
+      gik sidst paa] var høggravid
+     </note>
      havde han sit eget Soveværelse.
     </p>
     <p>
@@ -2835,7 +3147,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Da Jensen vaagned den næste Morgen, havde han en ækel Følelse af Flauhed. Han husked noget væmmeligt fra igaar, og at
-     
+     <note type="footnote">
+      og at] rettet fra: og
+     </note>
      han idag skulde gjøre Alvor af – – Alvor af at skille sig ved Frøken Halvorsen. Han havde jo bestemt det igaar, og Gud skulde vide, at han var bestemt idag ogsaa. Men –
     </p>
     <p>
@@ -2843,7 +3157,9 @@ Sist endret: desember 2017
     </p>
     <p>
      – Dersom hun enda ikke havde været saa sentimental; hun satte i at flæbe
-     
+     <note type="commentary">
+      flæbe] gråte
+     </note>
      for alting. Nei, naar Kvindfolkene ovenpaa alt var sentimentale, da blev først Helvede rigtig hedt. Det var i Grunden bare det Sludderet, som havde afholdt ham fra at bryde for længe siden; – ja ogsaa det, at hun var saa fornuftig – og flink, svært flink saagar, naar hun vilde; og i disse elendige Tider havde det sku ikke lidet at betyde, at have Folk, som man kunde stole paa; og stole paa hende kunde han, saalænge – saalænge –; naa, det kunde han vist om de skiltes ogsaa, naar de skiltes
      <pb n="118"/>
      som gode Venner da; og om andet var der jo ikke Tale.
@@ -2860,7 +3176,9 @@ Sist endret: desember 2017
     <p>
      <pb n="119"/>
      «Ja, du kan nok se angergiven ud,» sa hun med halvfornærmet, koket
-     
+     <note type="commentary">
+      koket] jålete, tilgjord
+     </note>
      Mine. «Ved du, hvad du havde fortjent? – Ærlig og redelig havde du fortjent, at jeg havde tat alle Brevene dine …» Han glodde dumt paa hende og vilde afbryde –: det var altsaa ikke dette, som var Meningen –. Men hun holdt ham paa Munden med den ene Haand, medens hun fortsatte – «nei, ti nu stille for jeg er saa sint paa dig, at jeg vil skjende – Brevene dine og Fotografierne af hende og Gutterne, som du har stjaalet til mig – jo du har stjaalet dem, Far, negt ikke det, og de staar i Ramme paa Komoden min, ved du; jeg har naturligvis faat dem af Fru Jensen, jeg … du havde fortjent, at jeg havde taget altsammen og pakket det pent ind og sendt det ud paa Drammensveien …»
     </p>
     <p>
@@ -2902,7 +3220,9 @@ Sist endret: desember 2017
     </p>
     <p>
      – – Da han et Par Timer senere tøflede
-     
+     <note type="commentary">
+      tøflede] gå stille som på tøflar, subbe. Her viser det også til uttrykket ‹å vere under tøffelen›, altså vere underkasta kvinna i forholdet.
+     </note>
      hjemover, gik han og snakkede halvhøit med sig selv. «Ikke noget at gjøre ved det, altsaa! – ikke noget at gjøre ved det! – Hun har Bugten og begge Enderne, hun; – ikke noget at gjøre ved det!» –
     </p>
    </div>
@@ -2923,7 +3243,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Der boede hos Gundersens en ung dansk Skuespiller, som hun var bleven svært gode Venner med. Han var vakker og livsglad, og det endte med, at hun forelsked sig i ham. Der gik lystigt til hos Gundersens i denne Tid. Værtsfolkene, Skuespilleren og Frøken Halvorsen turede
-     
+     <note type="commentary">
+      turede] rangla, festa
+     </note>
      mangen Nat igjennem, til ingen af dem rigtig vidste, hvordan de kom iseng. Gundersen spilte; mens Skuespilleren og Frøkenen sang Duetter eller opførte Scener af forskjellige Theaterstykker. Og det
      <pb n="123"/>
      hændte ikke sjelden, at de spillede Elskovsscener saa naturligt, at Fruen fandt det passende at indskyde et: «Fingrene af Fadet». Men mangengang lo hun, saa Taarerne trilled, naar de to efter en voldsom Scene sank udmattede ned i Sofaen med Armene om hinandens Hals. Det var jo bare Spøg; og jamen var de komiske.
@@ -2933,7 +3255,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Dagen efter gik hun omkring i en underlig sentimental, forelsket Stemning, inderlig forranglet og sjaber og maatte uafladelig stive sig op. Hun drømte og drømte. Nu var Prinsen kommet. Prinsen med de gyldne Lokker og de drømmende blaa Øine, slank og kraftig, forførende deilig i sit freidige Letsind. Det var ham, hun havde drømt om i mange, mange, aa saa mange Aar. Ingen fede, slappe Fingre, ingen tynde Haarstubber med Pomade.
-     
+     <note type="commentary">
+      Pomade] parfymert blanding av feittstoff m.m. brukt som kosmetisk middel
+     </note>
      Gyldne Lokker, drømmende blaa Øine. Ja, ham var det, den store stærke, den vidunderlige, som kom og tog hende med Magt, rev hende med i bedøvende, vild Lidenskab –; og Glas paa Glas tømte hun for sin Prins. Vildere og deiligere drømte hun, jo længer det nærmed sig Kvælden –
      <pb n="124"/>
      den salige Time, da hun atter skulde drukne i hans Favntag.
@@ -2964,9 +3288,13 @@ Sist endret: desember 2017
     </p>
     <p>
      «Der
-     
+     <note type="footnote">
+      «Der] retta frå: Der
+     </note>
      er sku en til her, som har lidt tilbedste.
-     
+     <note type="commentary">
+      tilbedste] til gode
+     </note>
      – Halvorsen f. Ex.»
     </p>
     <p>
@@ -3006,7 +3334,9 @@ Sist endret: desember 2017
     <p>
      <pb n="129"/>
      Frøken Halvorsen sad paa en udtrukken Skuffe og broderede paa en stor, hvid Dug; det skulde være Geburtsdagspresent til Fru Gundersen. Tobiassen stod med Ryggen til hende og lagde op nogle Tøistykker. Han gjæsped høit, strakte Arme og Ben med lydelige
-     
+     <note type="commentary">
+      lydelige] høge, tydelege
+     </note>
      Støn og sagde med et Blik paa Frøken Halvorsen: «Huf Gut, dette-her er et langsomt Leven! Ikke en Kjæft at se hele Dagen, Far.»
     </p>
     <p>
@@ -3017,7 +3347,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Har du ikke set noget til Frøken noksagt
-     
+     <note type="commentary">
+      noksagt] brukt nedsetjande om ein person
+     </note>
      heller idag da?»
     </p>
     <p>
@@ -3044,12 +3376,16 @@ Sist endret: desember 2017
      En forfærdelig Angst betog hende. Nu forstod hun alt deres Snak og alle deres Hentydninger i den sidste Tid. Saa var det altsaa. Nu blev det igjen de gamle Bekymringer som fyldte hende, og hun glemte for en Stund dette saare, vonde fra igaar. Bare ikke miste ham; det maatte ikke ske. Nu, da hun forstod, at en anden holdt paa at tage ham fra hende, vaagned der en rasende Skinsyge i hende, trods den Ligegyldighed, ja Modbydelighed, som hun ofte i den senere Tid havde følt for ham. Han var hendes eneste og sidste Støttepunkt. Fik nogen anden den Magt over ham, som hun nu havde, saa var det forbi med hende. Det var den eneste Fornøielse, hun havde, at føle ham sprælle i sine Garn. Uden den kunde hun ikke greie det længer. Nei, den Glæde at se hende sparket ud, den skulde de ikke faa. Kanske de trodde, hun skulde trække sig tilbage i al Stilhed med et Par Kroner om Maaneden til Erstatning. Aa nei tak san. Aa nei tak san, det skulde blive Løgn, det; det blev ikke hende det,
      <pb n="131"/>
      det kunde de bande paa. Hun knytted Hænderne om Hatten, som hun havde taget ned af Knaggen og hvisled mellem Tænderne: H–fanten, H–fanten,
-     
+     <note type="commentary">
+      H–fanten] truleg ‹Helvetes fanten›
+     </note>
      du skal nok ikke slippe saa let. Febrilsk hurtig gik hun ud gjennem Butikken, idet hun gav den Besked, at hun ikke kom igjen mer i Dag. Nu var hun lige glad. De kunde synes, hvad de vilde. Idiotisk at gaa saan og spille Komedie. De vidste jo alligevel, at hun gjorde hvad hun vilde.
     </p>
     <p>
      En Stund efter gik Jensen til Middag. I Flos og ulastelige Hansker med den fine Stok stukket under Armen gik han opover Carl Johan, rolig og elegant som sædvanlig, røgende med tilsyneladende Velbehag af en fin Cigar. Men hans Tanker var alt andet end behagelige. Han var dybt hensunken i Betragtninger over sin ublide Skjæbne, og han kvak formelig, hver Gang der pludselig dukket op et kjendt Ansigt ved Siden af ham. Han, som havde sin Force
-     
+     <note type="commentary">
+      Force] fransk: styrke
+     </note>
      i at opdage sine fine Dame-Kunder paa saa lang Afstand, at han altid stod i Vinkel med Hatten ved Siden i rette Tid, naar han mødte dem. Men i Dag hverken saa eller hørte han.
     </p>
     <p>
@@ -3059,7 +3395,9 @@ Sist endret: desember 2017
      Da han var kommet opover mod Universitetet, vaktes han af sine sørgelige Betragtninger over
      <pb n="132"/>
      Formiddagens Ærgrelser ved at se Frøken Halvorsen komme over Gaden lige imod ham. Han glemte at aflevere den lille passelig nedladende Hilsen, hvormed man møder en Tjener, som har været længe i ens Brød. Hvad i Guds Navn var der nu paafærde. Midt i Forretningstiden, paa Carl Johan? Han bed Tænderne sammen og saa sig sky omkring. Var der nogen i Nærheden som kjendte dem? Han vilde gaa videre uden at lade sig mærke med noget, men hun slap ham ikke saa let. I et Nu var hun paa
-     
+     <note type="criticalApp">
+      det] 2. opplag: ved
+     </note>
      Siden af ham paa Fortauget: «Nei, vent lidt, jeg skal snakke med dig.»
     </p>
     <p>
@@ -3085,7 +3423,9 @@ Sist endret: desember 2017
     <p>
      <pb n="134"/>
      Fru Jensen sad paa Verandaen indpakket i Tæpper og Sjaler, da Berthe kom ind gjennem Haveporten; og et Par Smaagutter legte nede i en af Grusgangene. Under et stort Træ lidt længer nede i Haven sad Jensen med sin lange Pibe og kurrede Middagen
-     
+     <note type="commentary">
+      kurrede Middagen] kvilte etter middagen
+     </note>
      .
     </p>
     <p>
@@ -3098,7 +3438,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Jensen skar Brevet op med sin lille elegante Pennekniv, roligt og forsigtig som sædvanlig. Han følte sin Kones spørgende Øine, læste det, gik opover mod Verandaen brættende Papiret omhyggeligt sammen til en Fidibus,
-     
+     <note type="commentary">
+      Fidibus] papirstrimmel til å tenna tobakkspipe med
+     </note>
      ganske som han pleied. «Boston hos Bøhn igjen,» sa han, idet han gik forbi sin Kone. Han vilde ind paa sit Værelse. Gud give han var derinde. Det svimled saa underlig for ham. «Saa,» sa Fruen med sit lille trætte Smil. «Gaar du?»
     </p>
     <p>
@@ -3135,7 +3477,9 @@ Sist endret: desember 2017
     </p>
     <p>
      Jensen saa sig om. Jo her var hyggeligt. Han smeldte Bogen sammen, gik med store faste Skridt ud i Entreen og tog Tøiet paa; derpaa stak han Hovedet ind af
-     
+     <note type="criticalApp">
+      af] 2. opplag: ad
+     </note>
      Sovekammerdøren og sagde: «Jeg gaar alligevel.»
     </p>
     <p>
@@ -3174,9 +3518,13 @@ Sist endret: desember 2017
     </p>
     <p>
      Han følte sig alligevel lidt trykket, da han traadte ind i Blaakammeret. Frøken Halvorsen sad i Sofaen uden Reisetøi og Madam Simonsen stod foran hende og pakked et Laagefad
-     
+     <note type="commentary">
+      Laagefad] fat med lokk
+     </note>
      ned i en liden Kurv. Hun havde Sjal over Hovedet og var færdig til at gaa ud. Hun ledte efter en Avis til at lægge over Kurven. Jensen lo og spurgte om hun ikke holdt «Verdens Gang» længer nu, siden der var Mangel paa Makulatur.
-     
+     <note type="commentary">
+      Makulatur] avfallspapir
+     </note>
     </p>
     <p>
      «Nei, jeg gjør ikke det,» sa Madamen lidt tvært, idet hun anstrængte sig for at faa ned noget Papir, som var slængt op paa Piedestallen, og fortsatte, idet hun haled Papiret ned –: «det kan ikke nytte aa studdere paa, aaffer ikke alle Potetene er like store og aaffer Silla ikke er saa stor som Makrellen … – ja, adjø da … jeg læser igjen. Di har vel Nøkkeln?» Og ude var hun.
@@ -3229,7 +3577,9 @@ Sist endret: desember 2017
     </p>
     <p>
      «Altsaa Sladder, som jeg siger, Sladder og intet andet.» Han satte sig atter, betydelig mildnet. Men da kasted hun sig over ham med lidenskabelig Heftighed, klamrede sig fast om hans Hals og spurgte Gang paa Gang: «Kan du sværge paa det? – Kan du sværge paa, at der ikke har været noget med dig og – og en anden? At det er mig, du holder af, nu som i gamle Dage, mig og ingen anden?!» Han holdt sig lidt reserveret tilbage og svared fornærmet: «Men Dina, at du kan tvile paa det; har jeg nogensinde løiet for dig, har jeg ikke altid …?»
-     
+     <note type="footnote">
+      altid …?»] retta frå: altid …?
+     </note>
      Hun afbrød ham: «Jeg ved ikke; jeg ved ikke, om du har løiet for mig; men kan du ikke skjønne, at jeg elsker dig saa forfærdelig, (hun følte sig temmelig flau indvendig; men det maatte til) at jeg dør af Jalousi, saasnart jeg bare tænker mig Muligheden af, at du skulde holde af nogen anden.» – «Men du ved jo det, Dina …» «Nei, jeg ved ikke, du maa sværge, at du elsker mig, at du kunde gjøre alt for mig, at … at du … dersom du var fri …» – «Naa, naturligvis, selvfølgelig, du ved jo … Herregud …» Hun
      <pb n="144"/>
      klynged sig tættere ind til ham og svor paa, at hun til Gjengjæld skulde elske ham trofast hele sit Liv – hele sit Liv!
@@ -3248,7 +3598,9 @@ Sist endret: desember 2017
     </p>
     <p>
      – Til Heiberg!
-     
+     <note type="criticalApp">
+      Heiberg] 2. opplag: Bøhn
+     </note>
     </p>
     <p>
      – Skulde man graate eller le af sligt. Var det ikke som han havde tænkt sommetider alligevel: Pigebarnet gik der og «elsket» ham. Det kunde man kalde Lykke.

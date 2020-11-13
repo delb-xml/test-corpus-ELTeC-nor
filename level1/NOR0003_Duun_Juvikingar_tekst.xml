@@ -1,16 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.bokselskap.no/tekstkoding/NSL_tei_xinclude.dtd">-->
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0003" xml:lang="nn">
+<?xml version="1.0" encoding="utf-8"?>
+<!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.bokselskap.no/tekstkoding/NSL_tei_xinclude.dtd">-->
+<TEI xml:id="NOR0003" xml:lang="nn" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Juvikingar ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/66543636 https://www.wikidata.org/wiki/Q19376632">Duun, Olav  (1876-1939)</author>
+    <author>
+     Duun, Olav (1876-1939)
+     <idno type="viaf">
+      https://viaf.org/viaf/66543636
+     </idno>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q19376632
+     </idno>
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -36,13 +41,16 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc><bibl type="unspecified">
+   <sourceDesc>
+    <bibl>
      <ref target="https://www.nb.no/nbsok/nb/48924643c3caaec752ef4eeaa384696a?index=2#0">
       Teksten i bokselskap.no f&amp;#x00F8;lger 1. utgave, 1918 (Kristiania, Olaf Norlis forlag)
      </ref>
-     
-     
-    </bibl><bibl type="unspecified">
+     <ref target="wiki">
+      some ref
+     </ref>
+     <relatedItem type="copyText">
+      <bibl>
        <author>
         O. Duun
        </author>
@@ -65,7 +73,10 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q21473314
        </idno>
-      </bibl></sourceDesc>
+      </bibl>
+     </relatedItem>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -77,11 +88,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="long"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:canonicity key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
+  <revisionDesc>
    <change when="2016-08-09">
     Lagt inn ISBN.
    </change>
@@ -97,11 +108,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
  </teiHeader>
  <text type="novel" xml:id="Duun_Juvikingar_tekst_xml_text">
   <body>
-   <div type="chapter">
+   <div n="1" type="chapter" xml:id="NOR0003001">
     <head type="main">
-     
+     <ref target="contents_1" type="contents" xml:id="chapter_1">
       Frå gammalt av.
-     
+     </ref>
     </head>
     <p>
      <pb n="5"/>
@@ -151,7 +162,10 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                     slå deg for da, skal han ha sagt, du får ta romme etter ho mor, ho
                     sturta her i fjor. Det hadde ingen hørt – når vart ho
                         førd
-     
+     <note type="footnote">
+      Forfatternote:
+      førd ɔ: ført til kirkegaren.
+     </note>
      da? –
                     Førd? Nei ho ligg nedi bakken her. Bedre jord å ligge i er her
                     vandt om. – Gifta seg gjorde dei ikkje, men han og Mærit levde
@@ -338,16 +352,16 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                     ung.
     </p>
    </div>
-   <div type="chapter">
+   <div n="2" type="chapter" xml:id="NOR0003002">
     <head type="main">
-     
+     <ref target="contents_2" type="contents" xml:id="chapter_2">
       Løssi Langnatt.
-     
+     </ref>
     </head>
-    <milestone unit="uchapter"/>
-     <p><label>
+    <div n="2_1" type="uchapter">
+     <head type="sub">
       I.
-     </label></p>
+     </head>
      <p>
       <pb n="14"/>
       Lei skjønna ikkje dette, kvinnfolka: kva det var med
@@ -473,7 +487,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       <pb n="18"/>
       Det var straks føre jul, men det var
                             lé-vêr
-      
+      <note type="footnote">
+       Forfatternote:
+       lé-vêr ɔ:
+                            linn-vêr.
+      </note>
       no, for brygging og bakster, som dei sa, og no
                         skulde dei til, kvinnfolka, om det var ei veke for tidlig aldri så
                         mykje. Dei fekk slutte med det gamle røle no, litt medkvart, for no
@@ -672,11 +690,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         som mauren; han var altfor flittig, tykte faren; han visste ikkje kvifor han
                         tykte slik.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="2_2" type="uchapter">
+     <head type="sub">
       II.
-     </label></p>
+     </head>
      <p>
       Det var grovt med sjø alt da Per Anders var mefjords, og nedmed andre
                         lande vart han reint nask. Per Anders tok vegen beinast til
@@ -962,7 +980,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         få det som dei vilde ha det, dei som smålig og kleint folk
                         var. Han sa det tett inn i andlete på henne: «Nei for, kjem
                         ein i ska for å gjera rang ei – det e eit falig vanhaugg
-      
+      <note type="footnote">
+       Forfatternote:
+       vanhaugg ɔ:
+                            skadehogg.
+      </note>
       det. Det e
       respekterli
       ! Og
@@ -1002,16 +1024,19 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      <p>
       «Kom dokk no bortover sjursmess-dan ja, så kund det hend det
                         vart ein slagtar-batta.»
-      
+      <note type="footnote">
+       Forfatternote:
+       batta ɔ: beta.
+      </note>
      </p>
      <p>
       Så sette han seg i årane.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="2_3" type="uchapter">
+     <head type="sub">
       III.
-     </label></p>
+     </head>
      <p>
       Nordvesten hadde auka på. Han er aldri så nask som når
                         han har fått laust snøkvistre, og no gjekk han med små
@@ -1210,7 +1235,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         Løssi Langnatt … «Det veit du! Ro? Pøtt san.
                         Æg e eit krøter te å ro, ska æg fortel
                         dæg. Og eit helvet med di, at æg bli alder klar!»
-      
+      <note type="footnote">
+       Forfatternote:
+       bli alder klar
+                            ɔ: gaar aldri trøytt.
+      </note>
      </p>
      <p>
       Det same sa han med seg sjøl, da han låg uti nordvesten og
@@ -1333,11 +1362,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         «Lang natt! Lang natt!» Og sauen og gjeita dei remja med hue
                         under bogen: «Ho e lenger enn to!»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="2_4" type="uchapter">
+     <head type="sub">
       IV.
-     </label></p>
+     </head>
      <p>
       Oppi garen venta dei på kallen i sju lange og sju breie, og aldri han
                         kom.
@@ -1628,16 +1657,16 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      <p>
       Ane la seg ikkje, ho heldt seg oppe og la på varmen.
      </p>
-    
+    </div>
    </div>
-   <div type="chapter">
+   <div n="3" type="chapter" xml:id="NOR0003003">
     <head type="main">
-     
+     <ref target="contents_3" type="contents" xml:id="chapter_3">
       Bukken
                         remjar.
-     
+     </ref>
     </head>
-    <milestone unit="uchapter"/>
+    <div n="3_1" type="uchapter">
      <p>
       <pb n="48"/>
       Dagen etter krak Per Anders seg opp, da det leid utpå, men
@@ -1878,11 +1907,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       Jens retta på seg i senga si, og gjeispa: «I morrå e det
                         guds goe vêre igjen, for det her!»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="3_2" type="uchapter">
+     <head type="sub">
       II.
-     </label></p>
+     </head>
      <p>
       Det var det òg. Blank himmel og blank fiord, og Juvik-gutane rodde til
                         kvenna.
@@ -1997,7 +2026,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       Per kvikna til, for det var friskt at endelig ein sa eitkvart, og så
                         sette han handa for munnen og svara: Hu-uh! så det rønn i
                         berge. Han var ein meister til å herme etter stunn-ulen,
-      
+      <note type="footnote">
+       Forfatternote:
+       stunn-ul ɔ:
+                            steinugle, hubro.
+      </note>
       <pb n="57"/>
       hadde lokka han heilt fram til husa heime eingong med det, og no
                         kom han straks lenger fram på fjellbruna og svara. Det gjekk lystig
@@ -2119,11 +2152,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         tenkte han; for ein fugl var det og ingen annan ting, men kunde han ikkje
                         halde seg heime?
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="3_3" type="uchapter">
+     <head type="sub">
       III.
-     </label></p>
+     </head>
      <p>
       Per Anders kom ikkje opp dagen etter. Dei såg det snart, kva veg det
                         vilde.
@@ -2431,11 +2464,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         att; dei var meint på å sjå hit før han
                         ferdast.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="3_4" type="uchapter">
+     <head type="sub">
       IV.
-     </label></p>
+     </head>
      <p>
       Det vart ikkje slik. Natta etter, utpå morgonparten, var det gjort.
                         Mest heile tida låg han og snakka; det var vel det at han hadde ikkje
@@ -2546,18 +2579,18 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         imot dem så det fossa etter. Han smilte gult, men austover skulde
                         han, det var livsens sanning for han.
      </p>
-    
+    </div>
    </div>
-   <div type="chapter">
+   <div n="4" type="chapter" xml:id="NOR0003004">
     <head type="main">
-     
+     <ref target="contents_4" type="contents" xml:id="chapter_4">
       Nårøyken slær til gars.
-     
+     </ref>
     </head>
-    <milestone unit="uchapter"/>
-     <p><label>
+    <div n="4_1" type="uchapter">
+     <head type="sub">
       I.
-     </label></p>
+     </head>
      <p>
       <pb n="72"/>
       Dagen etter brennte dei likhalmen. Det var stilt i
@@ -2845,11 +2878,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       «Nei,» sa Per; han vart ståande der han stod. Jens
                         måtte ta og gå ifrå han.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="4_2" type="uchapter">
+     <head type="sub">
       II.
-     </label></p>
+     </head>
      <p>
       <pb n="79"/>
       Dagen etter var dei borti Gammel-stu og tok mål, dei
@@ -3142,11 +3175,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         ikkj går det no havbåra og nøa på dem som sitt
                         att hell.»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="4_3" type="uchapter">
+     <head type="sub">
       III.
-     </label></p>
+     </head>
      <p>
       <pb n="87"/>
       Gråe, halvblinde dagar. Vinteren hadde teke til for
@@ -3390,18 +3423,18 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       «Kor det vart tå deig da, Per Anders? Vent urliti, du e
                         så hasti, du!»
      </p>
-    
+    </div>
    </div>
-   <div type="chapter">
+   <div n="5" type="chapter" xml:id="NOR0003005">
     <head type="main">
-     
+     <ref target="contents_5" type="contents" xml:id="chapter_5">
       Juvik-kjempa lear på seg.
-     
+     </ref>
     </head>
-    <milestone unit="uchapter"/>
-     <p><label>
+    <div n="5_1" type="uchapter">
+     <head type="sub">
       I.
-     </label></p>
+     </head>
      <p>
       <pb n="93"/>
       Sjøl veit, sa Per ein dagen, han og Jens var nedmed
@@ -3626,11 +3659,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      <p>
       «Gjer så, ban.» Jens gav seg til å synge.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="5_2" type="uchapter">
+     <head type="sub">
       II.
-     </label></p>
+     </head>
      <p>
       <pb n="99"/>
       Om ein ottedags tid var Jens god kar. Han hadde vore grå
@@ -3681,7 +3714,10 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      <p>
       Han fór ikkje Oterbekken ned til plassen, han tok tvert om myra og til
                         Dølbekken, enda der var agneta
-      
+      <note type="footnote">
+       Forfatternote:
+       agnet ɔ: små-aure.
+      </note>
       så små ho var ikkje steikande. Han heftast heller ikkje der,
                         han var snart nedmed ein plass som heiter Aune. Der kom det ein ut og stod i
                         døra, ein ungdom, noko yngre enn Jens; han stod litt og følgde
@@ -3977,11 +4013,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         Per. No låg kanskje han Per og drømte om at han var konge over
                         heile Juvika, han? Ja ja, lat han det.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="5_3" type="uchapter">
+     <head type="sub">
       III.
-     </label></p>
+     </head>
      <p>
       Det gjorde ikkje Per; han låg vaken. Men han hadde det i seg, han
                         gjekk med det om dagane som ei dyr sanning som han skulde leva på, at
@@ -4179,11 +4215,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         høvesmann eingong hadde dei fare i veg i Juvika. Men Per var glad han
                         fór sin veg.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="5_4" type="uchapter">
+     <head type="sub">
       IV.
-     </label></p>
+     </head>
      <p>
       Det vart stole i bure i Juvika den våren, to gonger og kanskje meir,
                         og siste gongen slik at det gjorde skar i maten. Valborg kom inn og var
@@ -4370,11 +4406,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      <p>
       «Nei, han – – hald kjeften din, skjitongji!»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="5_5" type="uchapter">
+     <head type="sub">
       V.
-     </label></p>
+     </head>
      <p>
       <pb n="117"/>
       Valborg undrast mykje på kven det kunde vera, og det same
@@ -4458,7 +4494,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      </p>
      <p>
       «Æg mein da du e fél,
-      
+      <note type="footnote">
+       Forfatternote:
+       fél ɔ:
+                            fæl
+      </note>
       æg!» Ho vart liggande fortenkt. –
                         Ja ja, sa ho om ei stund; det fekk våge seg det; no når det
                         var gjort. Men sprang han på sjøen da? Ja, da var det no
@@ -4600,18 +4640,18 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       «Nei nei,» sa han, og så reiste han seg og gjekk ut,
                         skulde sjå til hestane.
      </p>
-    
+    </div>
    </div>
-   <div type="chapter">
+   <div n="6" type="chapter" xml:id="NOR0003006">
     <head type="main">
-     
+     <ref target="contents_6" type="contents" xml:id="chapter_6">
       Tuftene skyt ham.
-     
+     </ref>
     </head>
-    <milestone unit="uchapter"/>
-     <p><label>
+    <div n="6_1" type="uchapter">
+     <head type="sub">
       I.
-     </label></p>
+     </head>
      <p>
       <pb n="122"/>
       Juvik-garen ligg ned imot fjorden i aust, med brattreinar og
@@ -4716,7 +4756,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      </p>
      <p>
       «Du e no vel ikkj styrlaus, Per? Du må no vel vatta
-      
+      <note type="footnote">
+       Forfatternote:
+       vatta ɔ:
+                            veta.
+      </note>
       hut?»
      </p>
      <p>
@@ -4901,11 +4945,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         «Det e da ein sau oppi markja, høyri du ikkj det
                         da?»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="6_2" type="uchapter">
+     <head type="sub">
       II.
-     </label></p>
+     </head>
      <p>
       I hundedagane flotnar det opp, det sjøen har teke. Da flotna Morten
                         Aune opp òg. Dei fann han i fjæra sørom Svarthammaren,
@@ -4961,7 +5005,12 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         så. Og skog ja, og hamning – han stod på Stallhaugen og
                         såg bortover – her måtte ein da vel vera bra
                         usørgandes for det. Og ingen lang sjøveg. Og så
-      
+      <note type="footnote">
+       så]
+       rettet fra:
+       sa
+                            (trykkfeil i 1. utg.)
+      </note>
       brenntorv, brenntorv alt med ein såg
                         bortover. Og nyland å ta opp, nøgda for heile live:
      </p>
@@ -5230,11 +5279,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         fløtta vi herifrå samma da'n, du og æg,
                         Per.»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="6_3" type="uchapter">
+     <head type="sub">
       III.
-     </label></p>
+     </head>
      <p>
       Per tok det for skøy, og tenkte ikkje meir på det. Jens meinte
                         vel heller ikkje stort med det, men det skulde snart bli ålvor av
@@ -5463,11 +5512,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      <p>
       Per gjekk ifrå han.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="6_4" type="uchapter">
+     <head type="sub">
       IV.
-     </label></p>
+     </head>
      <p>
       Jens var snild både med tenarfolke og med kona. Likevel sa den andre
                         tausa opp da Dåret vart matmor, for henne vilde ho ikkje gå
@@ -5625,11 +5674,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         ikkje anna han vilde, enn å seie henne farvel og ta henne i handa.
                         Dåret skjønna ingen ting av det.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="6_5" type="uchapter">
+     <head type="sub">
       V.
-     </label></p>
+     </head>
      <p>
       Vinteren gjekk, men han gjekk tungt, ein blåsande og vond vinter.
      </p>
@@ -5760,18 +5809,18 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         «det kjem an på om det ikkj e slik at de gammel tomtin
                         skjøt hamen somtid. Dem ha det for det, gammel-karan.»
      </p>
-    
+    </div>
    </div>
-   <div type="chapter">
+   <div n="7" type="chapter" xml:id="NOR0003007">
     <head type="main">
-     
+     <ref target="contents_7" type="contents" xml:id="chapter_7">
       «Men frels os fra det onde!»
-     
+     </ref>
     </head>
-    <milestone unit="uchapter"/>
-     <p><label>
+    <div n="7_1" type="uchapter">
+     <head type="sub">
       I.
-     </label></p>
+     </head>
      <p>
       <pb n="151"/>
       Det var utpå førejulsvinteren, ein totre år
@@ -6090,11 +6139,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      <p>
       «– det bit mæg på leggjen, sei!»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="7_2" type="uchapter">
+     <head type="sub">
       II.
-     </label></p>
+     </head>
      <p>
       Utpå vinteren rodde Per over til Valvære to gonger, men han kom
                         tomhendes att. Han nemnte ikkje erende sitt, og ingen spurte heller.
@@ -6266,7 +6315,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       i år
       . Det
                         gjord så. Men: veit du ka du fe
-      
+      <note type="footnote">
+       Forfatternote:
+       ka du fe ɔ: kva du
+                            får.
+      </note>
       te åri komman', mein du?»
      </p>
      <p>
@@ -6321,11 +6374,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       «Hoi, gut! Det ska alvor te før æg be
                         kvinnfolk-bønna!»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="7_3" type="uchapter">
+     <head type="sub">
       III.
-     </label></p>
+     </head>
      <p>
       Per stod og såg på Steffen Storsko og drengen, dei heldt
                         på og la att veit. Det var eit nytt arbeid der i bygda; det hadde
@@ -6486,7 +6539,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
      </p>
      <p>
       Forresten var linfåa
-      
+      <note type="footnote">
+       Forfatternote:
+       Linfå ɔ: hol dei fådde lin
+                            i.
+      </note>
       fyllt no, så dei var kvitt både hole og steinen,
                         og Anders måtte heim og sjå etter sauene, dei stal seg gjerne
                         til fjells til natta.
@@ -6582,11 +6639,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         grand ufarug og tukta, så skal du ha takk. Så skal du ha takk
                         ja.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="7_4" type="uchapter">
+     <head type="sub">
       IV.
-     </label></p>
+     </head>
      <p>
       Det var gravøl i Pålsnese. Han Andrias hadde falle ifrå.
                         Ane hadde funne han liggande utom stubrua, og da var han klar. Slik vart dei
@@ -6860,11 +6917,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         på han gjorde! kaldflirte ho. – Nei, det kunde hende han let
                         det vera òg!
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="7_5" type="uchapter">
+     <head type="sub">
       V.
-     </label></p>
+     </head>
      <p>
       Han let det vera. Fjortan-dagane hadde gått, og enno var Jens
                         på Håberg. Eitt og anna take hjelpte han til i garen med, men
@@ -7122,11 +7179,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         Svartmagta, skjønna han. Å seie, når ein var skraput
                         med helsa ja; da trong ein eitkvart å stø seg til.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="7_6" type="uchapter">
+     <head type="sub">
       VI.
-     </label></p>
+     </head>
      <p>
       Jens gjekk og kjente på seg eit par dagar: han var så mjuk og
                         godhjarta. Han fekk ta og gjera eitkvart. Så kom han og sa det,
@@ -7421,19 +7478,19 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         alt. Og det Onde, det kan ingen frelse oss ifrå; det kjem, det som er
                         tilmåta åt oss.
      </p>
-    
+    </div>
    </div>
-   <div type="chapter">
+   <div n="8" type="chapter" xml:id="NOR0003008">
     <head type="main">
-     
+     <ref target="contents_8" type="contents" xml:id="chapter_8">
       Ein
                         båredal i ætta.
-     
+     </ref>
     </head>
-    <milestone unit="uchapter"/>
-     <p><label>
+    <div n="8_1" type="uchapter">
+     <head type="sub">
       I.
-     </label></p>
+     </head>
      <p>
       <pb n="193"/>
       Det kom over Per som ei sveitting ein kvelden, at no gjekk han
@@ -7493,7 +7550,10 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       <pb n="195"/>
       Per vart stillvoren i seg. Det var dette med helsa. Ho var
                         så tung å umbera.
-      
+      <note type="footnote">
+       Forfatternote:
+       umbera ɔ: undvera.
+      </note>
       Kunde ein lure
                         henne til seg att, så var ho det vel verd. Men han gav seg ikkje om
                         det; dei kunde ha henne, dei som hadde teke henne. Ja visst, folk gjekk og
@@ -7646,11 +7706,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         komme i hug Anders sea han vart klein; han hadde tenkt mykje meir på
                         Valborg, og ho lest ikkje som ho såg han.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="8_2" type="uchapter">
+     <head type="sub">
       II.
-     </label></p>
+     </head>
      <p>
       Per sat utpå Stallbakken, det var dagen etter. Det var skinande
                         haustvêr, og allting hadde komme vakkert i hus. Han sat gjerne her om
@@ -7924,11 +7984,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         knaka i finger-leane. Da fekk Anders det same drage, dei same rukkene vilde
                         fram i panna på han òg.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="8_3" type="uchapter">
+     <head type="sub">
       III.
-     </label></p>
+     </head>
      <p>
       <pb n="207"/>
       Per stod ikkje opp meir, og ingen venta det heller. Han
@@ -8060,11 +8120,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         stod der tålmodig og bia – kom han ikkje snart? Å jau;
                         rettno så.
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="8_4" type="uchapter">
+     <head type="sub">
       IV.
-     </label></p>
+     </head>
      <p>
       Endelig bar det i veg. Det var ei måneskins-natt, slik som den gongen
                         faren døde. Åsel hadde komme hitover tidlig på kvelden,
@@ -8245,11 +8305,11 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
       han
       skuld høggast ned.»
      </p>
-    
-    <milestone unit="uchapter"/>
-     <p><label>
+    </div>
+    <div n="8_5" type="uchapter">
+     <head type="sub">
       V.
-     </label></p>
+     </head>
      <p>
       <pb n="215"/>
       Lines'n var vert i det gravøle òg. Han stod
@@ -8303,7 +8363,7 @@ Teksten i bokselskap.no følger 1. utgave, 1918 (Kristiania, Olaf
                         lekse med gode ord, etter som det gjekk frå mann til mann. Per var
                         det snart ingen som kom i hug meir.
      </p>
-    
+    </div>
    </div>
   </body>
  </text>
