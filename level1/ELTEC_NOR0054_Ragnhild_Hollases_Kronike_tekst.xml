@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0054" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0054" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Hollases Krønike ELTeC-utgaven
     </title>
-    <author>
-     Jølsen, Ragnhild (1875-1908)
-     <idno type="viaf">
-      59886290
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q2338861
-     </idno>
-    </author>
+    <author ref="59886290 https://www.wikidata.org/wiki/Q2338861">Jølsen, Ragnhild  (1875-1908)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="None">
-      Utgaven er basert på teksten i 1. utgave, 1906 (iflg. NB Tar-fil)
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         R. Jølsen
        </author>
@@ -68,10 +59,7 @@
        <idno type="wiki">
         None
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -83,11 +71,11 @@
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>

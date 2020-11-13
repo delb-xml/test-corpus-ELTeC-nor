@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0021" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0021" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Fra Kristiania-Bohêmen ELTeC-utgaven
     </title>
-    <author>
-     Jæger, Hans Henrik (1854-1910)
-     <idno type="viaf">
-      https://viaf.org/viaf/107037771
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q924021
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/107037771 https://www.wikidata.org/wiki/Q924021">Jæger, Hans Henrik  (1854-1910)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,16 +36,11 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="bokselskap.no">
-      Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Dokpros tekst er hentet fra faksimileutgave, Novus 1976
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+   <sourceDesc><bibl type="unspecified">
+     
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         H. H. Jæger
        </author>
@@ -70,10 +61,7 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q42184844
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -85,11 +73,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="long"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2012-06-01" xml:id="ENW">
     Kodet om teksten til TEI P5. Kodekontroll.
    </change>
@@ -99,9 +87,9 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
   <body>
    <div type="chapter">
     <head>
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       Fortale.
-     </ref>
+     
     </head>
     <p>
      Jeg ved, at denne bog er et monstrum af en bog – literært som socialt. Men desværre, den maatte bli det i begge henseender.
@@ -193,12 +181,10 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      individer kan opnaa den størst mulige grad af frihed og udvikling. Og gjør samfundet det, saa
      kan
      ikke den stærkere undertrykke den svagere – med mindre han overskrider disse grænser. Men da kommer samfundet og drager ham til ansvar derfor ikke med nogen moralsk ret gudbevars, men med en juridisk
-     <note n="*)" type="fnmark"/>
+     
      .
     </p>
-    <note n="*)" type="fnote">
-     Her turde kanske være plads for den bemærkning, at i et fuldt udviklet samfund, der virkelig har opfyldt sin pligt ligeoverfor individerne og skaffet dem alle den størst mulige grad af frihed og udvikling,
-    </note>
+    
     <p>
      Og herved kommer jeg ind paa en anden opgave, som frembyr sig for den deterministiske forfatter.
     </p>
@@ -206,11 +192,7 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Ligesaa vist nemlig som samfundet i kraft af den moralske pligt, som paahviler det, har ret til at indskrænke individernes handlefrihed inden visse grænser, for at
      alle
      individer kan opnaa den størst mulige grad af frihed og udvikling – ligesaa vist er det ogsaa samfundets moralske pligt at sørge for, at optrække disse grænser netop saa snævert, som det til den ende behøves, og hverken videre eller snævrere. Thi trækkes de for snævert disse grænser, saa vil jo det – ligedan som tilfældet var med den individualistiske moral – paa den ene side lede til en unødvendig nivellering af individualiteterne og derved for-
-     <note type="fnote">
-      politisk, økonomisk, socialt og intellektuelt; i et samfund altsaa, hvor individet staar der med fuld forstaaelse af, hvad en forbrydelse er, nemlig oprør imod samfundet som samfund – der vil der neppe være plads for andre straffe i kriminalloven end dødsstraf eller deportation. Thi den, der
-      da
-      begaar en forbrydelse, han begaar den ikke længer, fordi umoralske samfundsforhold indvirker uheldig paa hans natur, men fordi han, med denne sin natur, overhovedet ikke er skikket til at være medlem af et frit samfund. Derfor maa samfundet kaste ham ud, saa lidet han end selv kan hjælpe for, at han er slig.
-     </note>
+     
      arme det sociale liv, og paa den anden side skabe forbrydere af folk, der ikke behøved at være det. – Og trækkes grænserne ikke snævert nok, saa aabnes der derved en adgang for den stærkere til at undertrykke den svagere.
     </p>
     <p>
@@ -267,11 +249,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Lad saa penheden og bravheden skraale paa lavhed og slethed og uanstændighed og obscønitet, saameget de lyster; det rører mig ikke. Jeg har kun én sorg – : at jeg ikke kunstnerisk skal ha magtet min opgave saapas, at denne bog virkelig blir en begyndelse.
     </p>
    </div>
-   <div n="1" type="chapter" xml:id="NOR0021001">
+   <div type="chapter">
     <head>
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       I.
-     </ref>
+     
     </head>
     <p>
      Jeg var syg.
@@ -547,11 +529,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Det blev jeg liggende og tænke paa den hele lange nat, lige til det blege lys af den gryende dag begyndte at blande sig med lampens gule til en graagulkold taage.
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0021002">
+   <div type="chapter">
     <head>
-     <ref target="contents_3" type="contents" xml:id="chapter_3">
+     
       II.
-     </ref>
+     
     </head>
     <p>
      Det var en eftermiddag i marts, vaaren efter at Jarmann om høsten var kommen ind til Kristiania som en flittig, flink og kristeligsindet femtenaars gut for herinde at gaa paa latinskole og i sin tid bli præst.
@@ -882,11 +864,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      I begyndelsen kjæmped han endnu imod og bad gud om kraft til at vende om, men lidt efter lidt blev det sjældnere, han bad, og tilslut, da han følte, der ikke længer kunde være tale om at holde op, lod han helt være med at be – det vilde jo under de omstændigheder bare være gudsbespottelse – og gav sig helt hen til sin lidenskab.
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0021003">
+   <div type="chapter">
     <head>
-     <ref target="contents_4" type="contents" xml:id="chapter_4">
+     
       III.
-     </ref>
+     
     </head>
     <p>
      Det var en eftermiddag udpaa vaaren aaret efter; klokken var lidt over fem. Inde paa den samme lille førsteétages hybel ud til gaarden laa Jarmann, strakt ud saa lang han var, paa ryg henne i sofaen med halvlukkede øjne. Haanden med tobakspiben var glid udfor kanten af sofaen og hang slap ned. Piben var udrøgt, det lille værelse fyldt af fersk tobaksrøg; han havde dampet som en hest ovenpaa den tunge middagsmad.
@@ -1082,14 +1064,12 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
     </p>
     <p>
      Efterat ha opmuntret Henschen til at være ved godt mod – «det var jo grejt, at et sligt digt vilde bli antat» – gik Jarmann alene hjem igjen; Henschen skulde som sædvanlig hjem og læse
-     <note n="*)" type="fnmark"/>
+     
      .
     </p>
     <p>
      Da Jarmann var kommen hjem, gik han
-     <note n="*)" type="fnote">
-      Produktet blev virkelig forlagt af Cammermeyer!
-     </note>
+     
      fornøjet op og ned ad gulvet i sit lille værelse med en følelse af at ha gjort noget. – Det forstod sig: han selv stod ikke til at redde, det følte han; men han vilde ialfald gjøre, hvad han kunde, for at andre ikke skulde gaa den samme vej ... det var ham ialfald en trøst....
     </p>
     <p>
@@ -1244,11 +1224,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Han holdt sig inde et par dage og sad og græmmed sig. Men saa begyndte han igjen paa sin gamle flakken om efter fruentimmer, og snart var hun for ham blot et vemodigt minde.
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0021004">
+   <div type="chapter">
     <head>
-     <ref target="contents_5" type="contents" xml:id="chapter_5">
+     
       IV.
-     </ref>
+     
     </head>
     <p>
      Der var igjen gaat et aar, om nogen maaneder skulde han op til artium. – Han bodde ikke længer paa den lille hybel ud til gaarden henne i Kristian August: han var kommen i huset hos skolens bestyrer.
@@ -1403,11 +1383,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Men med et let tryk af sin lille fod paa den broderte skammel havde hun slynget sig tilbage i gyngestolen og sendt en klar spottende latter efter ham, da han løb. Den klang endnu igjen i hans øren, denne klare spottende latter, den la mile mellem hende og ham ... Mile? – nej, en gabende afgrund, en hel verden la den imellem dem – aa, de vilde aldrig finde hverandre, aldrig! han vidste ikke hvorfor, men følte, at det vilde aldrig ske. Og taarerne styrted ud af hans øjne, en krampagtig graad greb ham, og han blev liggende længe og hulke dernede mellem puderne, mens det kjærlighedens fantom, som havde vist sig for ham, reves ud af hans sjæl ...
     </p>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0021005">
+   <div type="chapter">
     <head>
-     <ref target="contents_6" type="contents" xml:id="chapter_6">
+     
       V.
-     </ref>
+     
     </head>
     <p>
      Han havde faat artium alligevel, rigtignok med non paa næstsidste point, men han var da student. – Bestyreren havde gratulert ham, og hjemme var der blet glæde: det var jo mere end de havde ventet. Faderen havde skrevet og sagt, han vilde holde ham herinde et aar, mens han tog andenexamen; siden fik han sørge for sig selv, men indtil den tid kunde han skrive efter penge, naar han trængte dem. Og Jarmann skrev temmelig stærkt hjem efter penge, uden at den gamle knurred: det var jo bare det ene aar.
@@ -1585,11 +1565,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Slig gik tiden en tre fjerdings aar til ud paa vaaren 1881.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0021006">
+   <div type="chapter">
     <head>
-     <ref target="contents_7" type="contents" xml:id="chapter_7">
+     
       VI.
-     </ref>
+     
     </head>
     <p>
      Det var en aften i «Fram» i Maj 1881, mødet holdtes nede i Kristiania arbejdersamfund, paa hjørnet af Youngstorvet og Torvgaden, i et værelse oppe i 2den étage. Det var i Frams første tider, da medlemmernes antal endnu var temmelig indskrænket.
@@ -1740,11 +1720,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Klokken var over fire, inden han kom iseng. – Da han dagen efter laa paa sofaen paa sagførerkontoret og tænkte paa hvordan han nu skulde ta fat, kunde han slet ikke begribe, hvor han skulde begynde, og hvor han skulde ende. Tilslut fandt han paa at ville begynde med at læse Stuart Mills «repræsentative system», tog virkelig ogsaa permission fra kontoret den sidste halvtime før to, gik op paa universitetsbibliotheket og laante bogen, og læste om eftermiddagen nogen sider i den, men fandt den forfærdelig kjedelig og lod den siden bli liggende og slænge paa bordet der hjemme uden nogensinde mer at se i den. Og inden mange dage var gaat, var hele begejstringen fra aftenen i Fram fuldstændig fordunstet og arbejdsplanen opgit, og han blev ved at gaa omkring og væve bort tiden akkurat som før.
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0021007">
+   <div type="chapter">
     <head>
-     <ref target="contents_8" type="contents" xml:id="chapter_8">
+     
       VII.
-     </ref>
+     
     </head>
     <p>
      Det var omtrent ved den tid, at jeg første gang traf Jarmann.
@@ -2031,11 +2011,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Af disse samtaler med Lily fik Jarmann stadig referater, og de baade mored og interesserte ham. De skaffed ham klarhed over meget af det, han selv havde tænkt og følt, og hjalp ham til at bringe det liv, han leved, ind under pligtens kategori – noget hvortil han endnu følte en dunkel trang.
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0021008">
+   <div type="chapter">
     <head>
-     <ref target="contents_9" type="contents" xml:id="chapter_9">
+     
       VIII.
-     </ref>
+     
     </head>
     <p>
      En aften sad jeg som sædvanlig oppe hos Bruns og drak kaffe.
@@ -2420,11 +2400,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Og saa gik jeg hjemover med et noksaa inmari «fan'en!»
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0021009">
+   <div type="chapter">
     <head>
-     <ref target="contents_10" type="contents" xml:id="chapter_10">
+     
       IX.
-     </ref>
+     
     </head>
     <p>
      Paa hjemvejen mødte jeg Jarmann, jeg havde forberedt ham paa, at idag skulde slaget staa.
@@ -2945,11 +2925,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Han var gjennemvaad paa fødderne, helt bedækket med sne, væden sived ned ad hals og ryg indenfor klæerne, ansigtet og haandleddene sved, men han la neppe mærke til det; han bare gik ind, rev klæerne af sig, putted sig i seng og blev liggende der og stirre op i det mørke tag, beruset af fremtidshaab indtil han tilslut søvned af.
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0021010">
+   <div type="chapter">
     <head>
-     <ref target="contents_11" type="contents" xml:id="chapter_11">
+     
       X.
-     </ref>
+     
     </head>
     <p>
      Dagen efter om formiddagen gik jeg opom Bruns og tilbød Lily en theaterbillet til Tivoli om aftenen. Jeg kunde se hun havde lyst til sige nej men hun turde ikke; moeren som var tilstede da jeg kom, vidste hvor glad hun var i at gaa i theatret og vilde have anet uraad. –
@@ -3368,11 +3348,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      – – Det var i sidste øjeblik, at jeg kom indom Bruns og hented Lily til theatret. Vi skyndte os derhen. Jeg saa ikke paa stykket hele aftenen, bare tænkte paa Gerda. Da vi kom fra theatret gik Lily og jeg en tur sammen. Jeg fortalte hende om skolen og om Gerda og de andre, men lod hende selv være ganske udenfor. Hun hørte interesseret paa det hele, men sa ikke stort. Da jeg sa godnat foran hendes port, var forholdet mellem os aldeles som før jeg havde leveret mit slag, og mere var det ikke, jeg havde villet. Først om en uges tid agted jeg at fornye angrebet.
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0021011">
+   <div type="chapter">
     <head>
-     <ref target="contents_12" type="contents" xml:id="chapter_12">
+     
       XI.
-     </ref>
+     
     </head>
     <p>
      Jeg kom alene hjem, klokken var over tolv. Det var ganske koldt i værelset, men jeg var slet ikke oplagt til at lægge mig. Jeg saa efter i kakkelovnen, der laa endnu nogen glør i asken og jeg skyndte mig at putte lidt ved og kul indpaa. Og saa gik jeg hen til vinduet og blev staaende der med hat og frak paa og se ud, mens jeg vented paa at det skulde bli varmt.
@@ -3629,11 +3609,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Endelig kunde jeg lukke vinduet. Saa klædde jeg af mig det forteste jeg kunde og søvned fra det hele.
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0021012">
+   <div type="chapter">
     <head>
-     <ref target="contents_13" type="contents" xml:id="chapter_13">
+     
       XII.
-     </ref>
+     
     </head>
     <p>
      Dagen efter var det søndag. Klokken lidt over ni blev jeg vækket ved at Jarmann kom ind. Jeg slængte benene udfor sengekanten og blev siddende og gni mig i øjnene.
@@ -3824,11 +3804,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      - - – I «Fædrelandet»s tirsdagsnumer blev der udstødt et ramaskrig over den ugudelige tale. Men folk bare lo – : Fædrelandet – hahaha! – Forresten maa det være en ganske frejdig herre denne samme Herman Eek, sa man.
     </p>
    </div>
-   <div n="13" type="chapter" xml:id="NOR0021013">
+   <div type="chapter">
     <head>
-     <ref target="contents_14" type="contents" xml:id="chapter_14">
+     
       XIII.
-     </ref>
+     
     </head>
     <p>
      Jeg havde ikke faat tid til mere end ganske flygtig at hilse paa Gerda og af og til tale et par ord med hende i forbigaaende hele ugen igjennem, førend fredag eftermiddag. Da var jeg fri og ledte hende op. Jeg traf hende oppe ved pavillonen i studenterlunden.
@@ -4341,11 +4321,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Saa dingled jeg hjemover fuld som en fille. –
     </p>
    </div>
-   <div n="14" type="chapter" xml:id="NOR0021014">
+   <div type="chapter">
     <head>
-     <ref target="contents_15" type="contents" xml:id="chapter_15">
+     
       XIV.
-     </ref>
+     
     </head>
     <p>
      Det var nede i arbejdersamfundet Søndag aften. Salen var ikke saa overfyldt som forrige gang, der var god plads nede ved indgangen. Skrædder Engelstad stod og talte.
@@ -4790,11 +4770,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Friele stansed forbløffet og vendte sig og blev staaende og se efter ham. Jarmann vendte sig ogsaa og saa det. Og saa blev han pludselig mindre behagelig tilmode ved tingen og skyndte sig halvt ængstelig om hjørnet og forsvandt blandt menneskene oppe i Karljohan.
     </p>
    </div>
-   <div n="15" type="chapter" xml:id="NOR0021015">
+   <div type="chapter">
     <head>
-     <ref target="contents_16" type="contents" xml:id="chapter_16">
+     
       XV.
-     </ref>
+     
     </head>
     <p>
      Efter den dag var jeg stadig paa mine Karljohan-promenader i musiktiden gjenstand for publikums meget specielle opmærksomhed. Jeg følte, at afgrunden mellem dette publikum og mig var uoverkommelig. Kristiania publikum er for lidet til at kunne glemme.
@@ -5184,11 +5164,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Og saa trak jeg hodet til mig, lukked vinduet, tulled mig godt ind i min slobrok og la mig igjen hen i sofaen til at stirre op i luften efter røgen af min cigar.
     </p>
    </div>
-   <div n="16" type="chapter" xml:id="NOR0021016">
+   <div type="chapter">
     <head>
-     <ref target="contents_17" type="contents" xml:id="chapter_17">
+     
       XVI.
-     </ref>
+     
     </head>
     <p>
      Det var triste dage. Evig og altid denne liggen paa sofaen og denne stirren op paa den kjedsommelige cigarrøg uden at tænke, uden at føle, bare sunken hen i sløv apathi, og med en tyngende fornemmelse over hjernen.
@@ -5567,11 +5547,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      kunde de forstaa at man var venstre.» Det hele var altsaa fuldstændig forgjæves; jeg var og blev socialt umulig.
     </p>
    </div>
-   <div n="17" type="chapter" xml:id="NOR0021017">
+   <div type="chapter">
     <head>
-     <ref target="contents_18" type="contents" xml:id="chapter_18">
+     
       XVII.
-     </ref>
+     
     </head>
     <p>
      Nogen dage senere, klokken henimod tre om middagen vandred jeg trybel og alene opover Karljohan med hænderne i lommen og frakkekraven brættet op. Det snedde tæt men var ganske stille og ikke koldt. De store, bløde sneflokker daled langsomt og lydløst, tæt paa hverandre ned gjennem luften foran mig, hylled alting ind i et fugtigt, hvidt slør og bedækked mit bryst og mine skuldre med et tykt lag af sne. Paa gaden laa nysneen flere tommer tyk; jeg gik som paa et blødt hvidt tæppe.
@@ -5989,11 +5969,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      – Ja, vi har jo ingenting at gjøre alligevel iaften; saa kan du ligesaa godt faa høre det. – Og jeg tog frem af skrivemappen en bunke gamle manuskripter og læste op for ham følgende:
     </p>
    </div>
-   <div n="18" type="chapter" xml:id="NOR0021018">
+   <div type="chapter">
     <head>
-     <ref target="contents_19" type="contents" xml:id="chapter_19">
+     
       XVIII.
-     </ref>
+     
     </head>
     <p>
      Naar jeg tænker tilbage paa den tid jeg var liden gut, er der én scene som strax staar lyslevende for mig –.
@@ -6041,12 +6021,10 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
     </p>
     <p>
      Og alle de lyster, jeg havde havt! ... alt det jeg havde tænkt paa med husjomfruen, den store prægtige attenaars Lina, tante Lina som vi kaldte hende ... hun skulde vidst det! ... (de mest fantastiske liderligheder som jeg i tankerne havde bedrevet med hende gled mig forbi – liderligheder saa fantastiske, at jeg aldrig har hørt dem bedrevet i virkeligheden engang
-     <note n="*" type="fnmark"/>
+     
      ) ... Aa gud, hvor det var gyselig, grisagtig, forfærdelig stygt. Men dengang syntes jeg det var dejligt ... Lina skulde vidst det! du store gud hvad mon hun vilde ha sagt.... Og ligedan med Kaja Hansen, naboens fjortenaars datter ... Og med min søster ... det var kanske det allerstyggeste ...
     </p>
-    <note n="*" type="fnote">
-     ) Det gjør mig ondt, at jeg ikke kan meddele disse liderligheder her; de vilde ikke ta sig ud paa tryk, og man vil skrige nok om denne bog alligevel. Jeg sætter derfor her, saa nødig jeg end gjør det, det kunstneriske hensyn tilside ligeoverfor publikums taabelige snerpethed.
-    </note>
+    
     <p>
      Nu kunde sligt ikke falde mig ind. Men det var vist bare fordi jeg var saa træt. Blev jeg rask og stærk igjen, saa kom vist de skrækkelige lyster tilbage igjen. Naturligvis. – Aa hvor jeg da kom til at bli ugudelig naar jeg saa kom ud tilsøs. – Nej, det var bedst som det var; nu kunde jeg dø som et guds barn....
     </p>
@@ -6081,11 +6059,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Jeg var tolv aar dengang.
     </p>
    </div>
-   <div n="19" type="chapter" xml:id="NOR0021019">
+   <div type="chapter">
     <head>
-     <ref target="contents_20" type="contents" xml:id="chapter_20">
+     
       XIX.
-     </ref>
+     
     </head>
     <p>
      Det var udpaa sommeren aaret efter; vi var flyttet ud paa landet.
@@ -6259,11 +6237,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Og saa rodde vi til med raskere aaretag, baaden tog fart gjennem det blanke vand, og snart var jeg igjen ude i marken og højed sammen med bondejenterne.
     </p>
    </div>
-   <div n="20" type="chapter" xml:id="NOR0021020">
+   <div type="chapter">
     <head>
-     <ref target="contents_21" type="contents" xml:id="chapter_21">
+     
       XX.
-     </ref>
+     
     </head>
     <p>
      Det var et aar senere. Jeg var blet kahytsgut ombord i en liden bark.
@@ -6402,11 +6380,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Og jeg blev liggende der i køjen nede i det mørke kot og græde som i krampe af bare raseri. – –
     </p>
    </div>
-   <div n="21" type="chapter" xml:id="NOR0021021">
+   <div type="chapter">
     <head>
-     <ref target="contents_22" type="contents" xml:id="chapter_22">
+     
       XXI.
-     </ref>
+     
     </head>
     <p>
      Over et aar var gaat. Vi laa i Plymouth ved vintertide. Det var raat og koldt. Fra 6 morgen til 7 aften arbejded vi – og saa var det at vaske sig og gaa iland. For ombord var der ikke værendes, med mindre man vilde gaa tilkøjs med det samme; vi havde jo ingen ovn i ruffen og vi var kuldskjære, vi kom fra Middelhavet.
@@ -6755,11 +6733,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      – – – Nogen dage efter fandt jeg paa at rømme, rejste opover landet, udstod adskillige besværligheder og kom tilsidst ned til Swansea igjen, hvor jeg fik hyre med en Tysker. Under alt dette glemte jeg mere og mere Laura og kom ikke til at skrive til hende mer. Og til Plymouth kom jeg aldrig siden.
     </p>
    </div>
-   <div n="22" type="chapter" xml:id="NOR0021022">
+   <div type="chapter">
     <head>
-     <ref target="contents_23" type="contents" xml:id="chapter_23">
+     
       XXII.
-     </ref>
+     
     </head>
     <p>
      Nok et aar. Det var i Kristiania. Jeg var kommen herind for at ta skipperexamen; jeg var ikke mere end 17 aar, men disse examiner var det ligesaa godt at faa fra sig først som sidst.
@@ -7070,11 +7048,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      En maanedstid efter fik jeg examen og rejste ud igjen som letmatros.
     </p>
    </div>
-   <div n="23" type="chapter" xml:id="NOR0021023">
+   <div type="chapter">
     <head>
-     <ref target="contents_24" type="contents" xml:id="chapter_24">
+     
       XXIII.
-     </ref>
+     
     </head>
     <p>
      Det var ud paa høsten det samme aar, en nat. Vi havde vagt tilkøjs og laa og sov. Saa brøles der ud midt i ruffen –: «Re-e-e-js ud til kvarter i guds na-a-a-vn!» – Det var udpurring; klokken var tolv.
@@ -7431,11 +7409,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Jeg saa hende aldrig mere.
     </p>
    </div>
-   <div n="24" type="chapter" xml:id="NOR0021024">
+   <div type="chapter">
     <head>
-     <ref target="contents_25" type="contents" xml:id="chapter_25">
+     
       XXIV.
-     </ref>
+     
     </head>
     <p>
      Det var halvandet aar efter, en aften, nede i en liden smal dampskibslugar. En liden ballancelampe af messing, fæstet paa væg gen midt imod sofaen, lyste godt op i det lille rum. Nedenunder lampen, paa det lille bord som var slaat ud fra væggen stod et toddybret med flaske, mugge og sukkerkop, og ved siden af et toddyglas, omtrent halvdrukket. I sofaen sad jeg, alene; albuen støttet paa bordpladen, stirrende ned i toddyglasset, som jeg rørte rundt i med theskeen. – Det var
@@ -7478,11 +7456,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Og jeg skylled resten af toddyen i mig laved en ny og blev siddende der og drikke og røre og se ned i glasset mens jeg tænkte paa, hvordan jeg skulde overvinde de for skjellige vanskeligheder med penge og alt sligt. Indtil alting begyndte at sejle omkring mig og jeg la mig tilbage i sofaen fuld som en fille, og afgik....
     </p>
    </div>
-   <div n="25" type="chapter" xml:id="NOR0021025">
+   <div type="chapter">
     <head>
-     <ref target="contents_26" type="contents" xml:id="chapter_26">
+     
       XXV.
-     </ref>
+     
     </head>
     <p>
      Over to aar var gaat. Det var sommeren 1876.
@@ -7775,11 +7753,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      – – – Det blev det heller ikke. Vi hjalp os uden saxen, og jeg slap at risikere blodforgiftning, men resultatet af experimentet blev bare en delvis ødelæggelse af følenerverne derinde, ingen forstærkelse af muskelen.
     </p>
    </div>
-   <div n="26" type="chapter" xml:id="NOR0021026">
+   <div type="chapter">
     <head>
-     <ref target="contents_27" type="contents" xml:id="chapter_27">
+     
       XXVI.
-     </ref>
+     
     </head>
     <p>
      Det var en aften udpaa vinteren 1877, halvandet aar senere.
@@ -8013,11 +7991,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Alligevel blev jeg ved med filosofien. Jeg bestilte ikke stort, men naar jeg bestilte noget saa var det filosofi; gammel og ny, men mest gammel. Jeg havde jo ikke noget at forsømme med det, og det kunde jo altid være noksaa moro hvis jeg rak saalangt engang, at skrive den spekulative filosofis historie slig, at enhver der gad befatte sig med den, i en haandevending kunde faa fuld indsigt i den og forstaa at af den var der heller ingenting at vente.
     </p>
    </div>
-   <div n="27" type="chapter" xml:id="NOR0021027">
+   <div type="chapter">
     <head>
-     <ref target="contents_28" type="contents" xml:id="chapter_28">
+     
       XXVII.
-     </ref>
+     
     </head>
     <p>
      Lidt over et aar efter, sommeren 1879, havde jeg lejet mig ind paa gaarden Gaarder, en bondegaard oppe i nordre Land. Den ligger midt oppe i aasen, paa højre haand naar man rejser opover, med udsigt over den skovbevoxede dalbund der gjennemstrømmes af Dokka elv.
@@ -8194,11 +8172,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Og han blev mig kjær denne eneste mand – kjær som intet andet menneske i verden, mens jeg gik der vemodig ulykkelig paa den tause ensomme landevej....
     </p>
    </div>
-   <div n="28" type="chapter" xml:id="NOR0021028">
+   <div type="chapter">
     <head>
-     <ref target="contents_29" type="contents" xml:id="chapter_29">
+     
       XXVIII.
-     </ref>
+     
     </head>
     <p>
      Jeg la manuskriptet bort, og blev liggende der i sofaen og tænke paa det der saa tilslut var hændt mig i de to tre sidste aar.
@@ -8322,11 +8300,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Siden den dag kom han ikke mere op til mig.
     </p>
    </div>
-   <div n="29" type="chapter" xml:id="NOR0021029">
+   <div type="chapter">
     <head>
-     <ref target="contents_30" type="contents" xml:id="chapter_30">
+     
       XXIX.
-     </ref>
+     
     </head>
     <p>
      En eftermiddag i Februar maaned 1883 sad jeg nede i Grand Hôtel og drak kaffe. Der var mange gjæster. Henne ved hjørnevinduet sad Jarmann sammen med to andre unge mennesker; den ene høj, mørk og mager, med et stivnet træk om de tynde læber og stivt stirrende staalblaa øjne ossaa noget underlig afmagret ved den spidse blege næse; den anden liden og lys og i godt hold. Jarmann sad midt imod vinduet med ryggen ind til kaffeen og saa ud paa gaden; de andre to sad paa hver sin side af vinduet og saa indover kaféen. Ingen af dem talte, de bare sad der og røgte og saa ud i luften.
@@ -8461,11 +8439,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Og jeg blev liggende og tænke og tænke paa dette forspildte liv og paa grundene til, at det var blet forspildt – og saa var det jeg beslutted mig til at skrive denne bog.
     </p>
    </div>
-   <div n="30" type="chapter" xml:id="NOR0021030">
+   <div type="chapter">
     <head>
-     <ref target="contents_31" type="contents" xml:id="chapter_31">
+     
       XXX.
-     </ref>
+     
     </head>
     <p>
      En aften i Januar maaned 1884 – nogen maaneder efter at Jarmann havde vært oppe og besøgt mig – var Helmer og min bror Henrik kommen hjem til ham for at høre ham læse op en skisse han havde skrevet, og som han kaldte «Aprilsvejr». Han bodde paa sit gamle sted der henne i Kristian August i den lille første étages hybel ud til gaarden. Gardinet var rullet ned og lampen tændt og de sad der omkring bordet henne ved vinduet alle tre, Jarmann midt foran, de andre to paa hver sin side. Jarmann tog manuskriptet frem af bordskuffen og læste, lidt deklamerende –:
@@ -8847,11 +8825,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      – Ja de føler sammenhængen som du selv; de kjender dig og har altsaa forudsætningerne. Men andre folk, publikum, har ikke det, og derfor vil de kaste skissen og sige –: ikke andet!
     </p>
    </div>
-   <div n="31" type="chapter" xml:id="NOR0021031">
+   <div type="chapter">
     <head>
-     <ref target="contents_32" type="contents" xml:id="chapter_32">
+     
       XXXI.
-     </ref>
+     
     </head>
     <p>
      En aften en tre ugers tid senere sad Jarmann alene hjemme paa sin gamle hybel. Der var godt og varmt derinde, og lampen stod tændt paa bordet foran ham, men han bare sad der lænet sammensunken tilbage paa sto len med opknappet vaabenkjole, benene ud fra sig og hænderne slapt ned, stirrende forbi lampen hen paa det graa rullegardin med Vor Frelsers kirke paa.
@@ -8910,11 +8888,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Han var virkelig træt ogsaa; tankerne havde udmattet ham, det var længe siden han havde vært saapas intens, og fem minutter efter laa han stille derhenne og sov som et barn med roligt regelmæssigt aandedræt.
     </p>
    </div>
-   <div n="32" type="chapter" xml:id="NOR0021032">
+   <div type="chapter">
     <head>
-     <ref target="contents_33" type="contents" xml:id="chapter_33">
+     
       XXXII.
-     </ref>
+     
     </head>
     <p>
      Det var Tirsdag i den stille uge. Klokken var to, solen skinned, gaderne var tørre, og Karljohan vrimled af folk i vaar– og vintertoiletter om hverandre; der var rigtignok ingen musik, men vejret var
@@ -8979,11 +8957,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      En slig Karljohanspromenade havde han ikke havt paa lange tider, syntes han.
     </p>
    </div>
-   <div n="33" type="chapter" xml:id="NOR0021033">
+   <div type="chapter">
     <head>
-     <ref target="contents_34" type="contents" xml:id="chapter_34">
+     
       XXXIII.
-     </ref>
+     
     </head>
     <p>
      Det var nat mellem Langfredag og Paaskeaften. Jarman havde vært i selskab, og havde paa hjemvejen tittet indom Vika. Da han kom hjem var klokken to.
@@ -9467,11 +9445,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Han laa og sov med et træt smil om sin mund.
     </p>
    </div>
-   <div n="34" type="chapter" xml:id="NOR0021034">
+   <div type="chapter">
     <head>
-     <ref target="contents_35" type="contents" xml:id="chapter_35">
+     
       XXXIV.
-     </ref>
+     
     </head>
     <p>
      Klokken ni den næste morgen sad Jarmann paa sengekanten og trak langsomt underbuxerne paa. Da han var færdig med det blev han siddende foroverbøjet med én haand paa hvert knæ og se ud i luften ....
@@ -10345,11 +10323,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      Hjalmar tændte en fyrstikke og saa paa klokken –: den var over fem.
     </p>
    </div>
-   <div n="35" type="chapter" xml:id="NOR0021035">
+   <div type="chapter">
     <head>
-     <ref target="contents_36" type="contents" xml:id="chapter_36">
+     
       XXXV.
-     </ref>
+     
     </head>
     <p>
      Ved elvetiden vaagned Jarmann, vendte sig i sengen, gned sig i øjnene, gabte og saa sig om i det lille værelse – hvad mon klokken var? ...
@@ -10940,11 +10918,11 @@ Teksten er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. Do
      – Han vilde ha fat i dem der havde gjort det!
     </p>
    </div>
-   <div n="36" type="chapter" xml:id="NOR0021036">
+   <div type="chapter">
     <head>
-     <ref target="contents_37" type="contents" xml:id="chapter_37">
+     
       XXXVI.
-     </ref>
+     
     </head>
     <p>
      Blygraa luft hviler over kirkegaarden. Tunge sorte skyer hænger lavt nede i blikstillet. Træerne strækker sine magre nøgne sorte grene, uhyggelig strittende, ligesom fortvivlet op i luftens tause truende graa.

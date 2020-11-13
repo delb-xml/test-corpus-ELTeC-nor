@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0041" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0041" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Farlige Folk ELTeC-utgaven
     </title>
-    <author>
-     Elster, Kristian (1841-1881)
-     <idno type="viaf">
-      https://viaf.org/viaf/5739505
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q550125
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/5739505 https://www.wikidata.org/wiki/Q550125">Elster, Kristian  (1841-1881)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -40,18 +36,15 @@
      </date>
     </p>
    </publicationStmt>
-   <sourceDesc>
-    <bibl>
+   <sourceDesc><bibl type="unspecified">
      <ref target="https://www.bokselskap.no/boker/farligefolk/tittelside">
       Romanen Farlige Folk kom ut i 1881, etter at Kristian Elster døde i april samme år.
 Handlingen er lagt til en liten kystby. De «farlige» er Arne Holt og sønnen Knut, som med sine radikale meninger og «frisinnede» oppførsel står i opposisjon til byens reaksjonære og konservative innbyggere.
 Romanen er på mange måter en tidstypisk realistisk tendensroman, hvor handlingen drives av sosiale og politiske konflikter. Men Elsters persongalleri er ikke nødvendigvis bare «onde» eller «gode» og helten Knut Holt har sine feil.
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     
+     
+    </bibl><bibl type="unspecified">
        <author>
         K. Elster
        </author>
@@ -71,10 +64,7 @@ Romanen er på mange måter en tidstypisk realistisk tendensroman, hvor handling
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q17770669
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p n="eltec-0"/>
@@ -86,11 +76,11 @@ Romanen er på mange måter en tidstypisk realistisk tendensroman, hvor handling
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <e:canonicity key="low"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>
@@ -127,7 +117,7 @@ lastet ned fra
    </p>
    
    
-   <div type="level1" xml:id="i.">
+   <div type="unrecognized">
     <head>
      I.
     </head>
@@ -648,7 +638,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="ii.">
+   <div type="unrecognized">
     <head>
      II.
     </head>
@@ -1122,7 +1112,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="iii">
+   <div type="unrecognized">
     <head>
      III
     </head>
@@ -1620,7 +1610,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="iv.">
+   <div type="unrecognized">
     <head>
      IV.
     </head>
@@ -2537,7 +2527,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="v.">
+   <div type="unrecognized">
     <head>
      V.
     </head>
@@ -3474,7 +3464,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="vi.">
+   <div type="unrecognized">
     <head>
      VI.
     </head>
@@ -3997,7 +3987,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="vii.">
+   <div type="unrecognized">
     <head>
      VII.
     </head>
@@ -4967,7 +4957,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="viii.">
+   <div type="unrecognized">
     <head>
      VIII.
     </head>
@@ -5320,7 +5310,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="ix.">
+   <div type="unrecognized">
     <head>
      IX.
     </head>
@@ -6568,7 +6558,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="x.">
+   <div type="unrecognized">
     <head>
      X.
     </head>
@@ -7818,7 +7808,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="xi.">
+   <div type="unrecognized">
     <head>
      XI.
     </head>
@@ -8968,7 +8958,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="xii.">
+   <div type="unrecognized">
     <head>
      XII.
     </head>
@@ -9676,7 +9666,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="xiii.">
+   <div type="unrecognized">
     <head>
      XIII.
     </head>
@@ -9863,7 +9853,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="xiv.">
+   <div type="unrecognized">
     <head>
      XIV.
     </head>
@@ -10398,7 +10388,7 @@ lastet ned fra
      «Det var farlige Folk,» sagde Bjørnholt.
     </p>
    </div>
-    <div>
+    <div type="chapter">
    <p>
     Noter:
    </p>
