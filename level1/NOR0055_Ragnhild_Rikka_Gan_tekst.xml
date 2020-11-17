@@ -86,8 +86,8 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="BS_Jolsen_Ragnhild_Rikka_Gan_xml_text">
-  <body>
-   <p>
+ 
+  <!-- <p>
     bokselskap.no 2012
     Ragnhild Jølsen:
     Rikka Gan
@@ -109,17 +109,16 @@ gratis fra
    </p>
    <p>
     1904
-   </p>
-   <p/>
-    <div type="chapter">
+   </p>-->
+ 
+    <front><div type="liminal">
    
      
     <head>
      
      INDLEDNING.
     </head>
-    </div> 
-  <div>
+   
    <p>
     Sorte laa Gan Gaards Huse med sit søvnige Ekko, og Trærødderne skalv
 nede i Haven.
@@ -211,15 +210,14 @@ Bestyrer paa sit Gan.
    <p>
     Og denne Bestyrer blev Jon Torsen.
    </p>
-    </div>
-   <div type="group">
+    </div></front>
+  <body> <div type="group">
     <head>
      
       I.
      
     </head>
     <p/>
-   </div>
    <div type="chapter">
     <head>
      I.
@@ -1321,15 +1319,13 @@ Bestyrer paa sit Gan.
   saa saart og tungt som en anden ung Pige, der kan sørge over sin
   spildte Lykke paa Jord – ved en Hilsen fra ham, hun elsker.
     </p>
-   </div>
-   <div type="group">
-    <head>
+   </div></div><div type="group">
+     <head>
      
       II.
      
     </head>
-    <p/>
-   </div>
+  
    <div type="chapter">
     <head>
      I.
@@ -1934,15 +1930,13 @@ Bestyrer paa sit Gan.
     <p>
      «Riketta, Riketta – hun er som Ilden.»
     </p>
-   </div>
-   <div type="group">
-    <head>
+   </div></div><div type="group">
+     <head>
      
       III.
      
     </head>
-    <p/>
-   </div>
+    
    <div type="chapter">
     <head>
      I.
@@ -2673,16 +2667,13 @@ Bestyrer paa sit Gan.
   naar du saa alligevel ikke bort ifra. – Men gak du, Jomfru Rikka – gak
   du i Fred for mig, Klokkedrageren i Ud.» – –
     </p>
-   </div>
-   <div type="group">
-    <head>
+   </div></div><div type="group">
+     <head>
      
       IV.
      
     </head>
-    <p/>
-   </div>
-   <div type="chapter">
+      <div type="chapter">
     <head>
      I.
     </head>
@@ -4140,7 +4131,7 @@ Bestyrer paa sit Gan.
      Han gjorde hende drukken af Malurt.»
     </p>
    </div>
-   <div type="group">
+   <div type="chapter">
     <head>
      X.
     </head>
@@ -4190,8 +4181,8 @@ Bestyrer paa sit Gan.
   blaableg Himmel. – Og dybt nedi Sjøen var Rikka Torsens Tanker
   stilnet. – – –
     </p>
-   </div>
-
+   </div></div>
   </body>
+  
  </text>
 </TEI>
