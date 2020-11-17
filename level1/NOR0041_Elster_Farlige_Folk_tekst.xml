@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0041" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0041" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Farlige Folk ELTeC-utgaven
     </title>
-    <author>
-     Elster, Kristian (1841-1881)
-     <idno type="viaf">
-      https://viaf.org/viaf/5739505
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q550125
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/5739505 https://www.wikidata.org/wiki/Q550125">Elster, Kristian  (1841-1881)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -32,32 +28,24 @@
      0
     </measure>
    </extent>
-   <publicationStmt>
-    <p>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
-     <date>
+     
       2020-11-10
-     </date>
-    </p>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="https://www.bokselskap.no/boker/farligefolk/tittelside">
-      Romanen Farlige Folk kom ut i 1881, etter at Kristian Elster døde i april samme år.
-Handlingen er lagt til en liten kystby. De «farlige» er Arne Holt og sønnen Knut, som med sine radikale meninger og «frisinnede» oppførsel står i opposisjon til byens reaksjonære og konservative innbyggere.
-Romanen er på mange måter en tidstypisk realistisk tendensroman, hvor handlingen drives av sosiale og politiske konflikter. Men Elsters persongalleri er ikke nødvendigvis bare «onde» eller «gode» og helten Knut Holt har sine feil.
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     
+    --></publicationStmt>
+   <sourceDesc><bibl type="digitalSource">
+      <ref target="https://www.bokselskap.no/boker/farligefolk/tittelside">
+        Teksten i bokselskap.no følger 1. utgave, 1881 (København/Gyldendal). 
+        Digitaliseringen er basert på fil fra Nasjonalbiblioteket (nb.no) 
+      </ref>
+      
        <author>
         K. Elster
        </author>
        <title>
         Kristian Elster (d.e.): Farlige Folk, bokselskap.no
-2019
        </title>
        <pubPlace>
         Kjøbenhavn
@@ -68,13 +56,7 @@ Romanen er på mange måter en tidstypisk realistisk tendensroman, hvor handling
        <date>
         1881
        </date>
-       <idno type="wiki">
-        https://www.wikidata.org/wiki/Q17770669
-       </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+       </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p n="eltec-0"/>
@@ -86,11 +68,12 @@ Romanen er på mange måter en tidstypisk realistisk tendensroman, hvor handling
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <e:canonicity key="low"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-15">Checked by checkup
+                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>
@@ -127,7 +110,7 @@ lastet ned fra
    </p>
    
    
-   <div type="level1" xml:id="i.">
+   <div type="chapter">
     <head>
      I.
     </head>
@@ -648,7 +631,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="ii.">
+   <div type="chapter">
     <head>
      II.
     </head>
@@ -1122,7 +1105,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="iii">
+   <div type="chapter">
     <head>
      III
     </head>
@@ -1620,7 +1603,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="iv.">
+   <div type="chapter">
     <head>
      IV.
     </head>
@@ -2537,7 +2520,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="v.">
+   <div type="chapter">
     <head>
      V.
     </head>
@@ -3474,7 +3457,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="vi.">
+   <div type="chapter">
     <head>
      VI.
     </head>
@@ -3997,7 +3980,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="vii.">
+   <div type="chapter">
     <head>
      VII.
     </head>
@@ -4967,7 +4950,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="viii.">
+   <div type="chapter">
     <head>
      VIII.
     </head>
@@ -5320,7 +5303,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="ix.">
+   <div type="chapter">
     <head>
      IX.
     </head>
@@ -6568,7 +6551,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="x.">
+   <div type="chapter">
     <head>
      X.
     </head>
@@ -7818,7 +7801,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="xi.">
+   <div type="chapter">
     <head>
      XI.
     </head>
@@ -8968,7 +8951,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="xii.">
+   <div type="chapter">
     <head>
      XII.
     </head>
@@ -9676,7 +9659,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="xiii.">
+   <div type="chapter">
     <head>
      XIII.
     </head>
@@ -9863,7 +9846,7 @@ lastet ned fra
    </div>
    
    
-   <div type="level1" xml:id="xiv.">
+   <div type="chapter">
     <head>
      XIV.
     </head>
@@ -10398,333 +10381,326 @@ lastet ned fra
      «Det var farlige Folk,» sagde Bjørnholt.
     </p>
    </div>
-    <div>
+  </body>
+   <back>
+    <div type="notes">
    <p>
     Noter:
    </p>
    <p>
-    <ref target="#backn1" xml:id="ton1">
+    <note target="#backn1" xml:id="ton1">
      n1
-    </ref>
+    </note>
     .
     Forfatternote:
     Vær, Fiskeplads.
    </p>
    <p>
-    <ref target="#backn2" xml:id="ton2">
+    <note target="#backn2" xml:id="ton2">
      n2
-    </ref>
+    </note>
     .
     Forfatternote:
     Stenhelle,
 Stenflise.
    </p>
    <p>
-    <ref target="#backn3" xml:id="ton3">
+    <note target="#backn3" xml:id="ton3">
      n3
-    </ref>
+    </note>
     .
     Forfatternote:
     Bustet,
 børsteagtig.
    </p>
    <p>
-    <ref target="#backn4" xml:id="ton4">
+    <note target="#backn4" xml:id="ton4">
      n4
-    </ref>
+    </note>
     .
     Forfatternote:
     Fløtmand,
 Færgemand.
    </p>
    <p>
-    <ref target="#backn5" xml:id="ton5">
+    <note target="#backn5" xml:id="ton5">
      n5
-    </ref>
+    </note>
     .
     Forfatternote:
     Glytte, skotte.
    </p>
    <p>
-    <ref target="#backn6" xml:id="ton6">
+    <note target="#backn6" xml:id="ton6">
      n6
-    </ref>
+    </note>
     .
     Forfatternote:
     Almenning, aaben
 Plads.
    </p>
    <p>
-    <ref target="#backn7" xml:id="ton7">
+    <note target="#backn7" xml:id="ton7">
      n7
-    </ref>
+    </note>
     .
     Forfatternote:
     Kremte, rømme sig.
    </p>
    <p>
-    <ref target="#backn8" xml:id="ton8">
+    <note target="#backn8" xml:id="ton8">
      n8
-    </ref>
+    </note>
     .
     Forfatternote:
     Kram, klam.
    </p>
    <p>
-    <ref target="#backn9" xml:id="ton9">
+    <note target="#backn9" xml:id="ton9">
      n9
-    </ref>
+    </note>
     .
     Forfatternote:
     Bukkerag,
 Bukkehaar.
    </p>
    <p>
-    <ref target="#backn10" xml:id="ton10">
+    <note target="#backn10" xml:id="ton10">
      n10
-    </ref>
+    </note>
     .
     Forfatternote:
     Sildesyner, Tegn paa
 Sildens Ankomst.
    </p>
    <p>
-    <ref target="#backn11" xml:id="ton11">
+    <note target="#backn11" xml:id="ton11">
      n11
-    </ref>
+    </note>
     .
     Forfatternote:
     Snadde, kort Pibe.
    </p>
    <p>
-    <ref target="#backn12" xml:id="ton12">
+    <note target="#backn12" xml:id="ton12">
      n12
-    </ref>
+    </note>
     .
     Forfatternote:
     Løvspræt,
 Løvspring
    </p>
    <p>
-    <ref target="#backn13" xml:id="ton13">
+    <note target="#backn13" xml:id="ton13">
      n13
-    </ref>
+    </note>
     .
     Forfatternote:
     Havegrind,
 Haveled.
    </p>
    <p>
-    <ref target="#backn14" xml:id="ton14">
+    <note target="#backn14" xml:id="ton14">
      n14
-    </ref>
+    </note>
     .
     Forfatternote:
     Leger, Legetøj.
    </p>
    <p>
-    <ref target="#backn15" xml:id="ton15">
+    <note target="#backn15" xml:id="ton15">
      n15
-    </ref>
+    </note>
     .
     Forfatternote:
     Sturen, i slet Humør,
 taus
    </p>
    <p>
-    <ref target="#backn16" xml:id="ton16">
+    <note target="#backn16" xml:id="ton16">
      n16
-    </ref>
+    </note>
     .
     Forfatternote:
     Hej, Fjeldslette.
    </p>
    <p>
-    <ref target="#backn17" xml:id="ton17">
+    <note target="#backn17" xml:id="ton17">
      n17
-    </ref>
+    </note>
     .
     Forfatternote:
     Svepe, Svøbe.
    </p>
    <p>
-    <ref target="#backn18" xml:id="ton18">
+    <note target="#backn18" xml:id="ton18">
      n18
-    </ref>
+    </note>
     .
     Forfatternote:
     Dreng, Karl.
    </p>
    <p>
-    <ref target="#backn19" xml:id="ton19">
+    <note target="#backn19" xml:id="ton19">
      n19
-    </ref>
+    </note>
     .
     Forfatternote:
     Olderkrat,
 Ellekrat.
    </p>
    <p>
-    <ref target="#backn20" xml:id="ton20">
+    <note target="#backn20" xml:id="ton20">
      n20
-    </ref>
+    </note>
     .
     Forfatternote:
     Saate, liden Stak
 eller Hob.
    </p>
    <p>
-    <ref target="#backn21" xml:id="ton21">
+    <note target="#backn21" xml:id="ton21">
      n21
-    </ref>
+    </note>
     .
     Forfatternote:
     Hesje, et Slags
 Stillads til at tørre Hø paa.
    </p>
    <p>
-    <ref target="#backn22" xml:id="ton22">
+    <note target="#backn22" xml:id="ton22">
      n22
-    </ref>
+    </note>
     .
     Forfatternote:
     Tjor, Tøir.
    </p>
    <p>
-    <ref target="#backn23" xml:id="ton23">
+    <note target="#backn23" xml:id="ton23">
      n23
-    </ref>
+    </note>
     .
     Forfatternote:
     Lubben, trind.
    </p>
    <p>
-    <ref target="#backn24" xml:id="ton24">
+    <note target="#backn24" xml:id="ton24">
      n24
-    </ref>
+    </note>
     .
     Forfatternote:
     Like, synes om.
    </p>
    <p>
-    <ref target="#backn25" xml:id="ton25">
+    <note target="#backn25" xml:id="ton25">
      n25
-    </ref>
+    </note>
     .
     Forfatternote:
     Opkom, Væld.
    </p>
    <p>
-    <ref target="#backn26" xml:id="ton26">
+    <note target="#backn26" xml:id="ton26">
      n26
-    </ref>
+    </note>
     .
     Forfatternote:
     Labbe, sjokke.
    </p>
    <p>
-    <ref target="#backn27" xml:id="ton27">
+    <note target="#backn27" xml:id="ton27">
      n27
-    </ref>
+    </note>
     .
     Forfatternote:
     holde paa, være ifærd
 med.
    </p>
    <p>
-    <ref target="#backn28" xml:id="ton28">
+    <note target="#backn28" xml:id="ton28">
      n28
-    </ref>
+    </note>
     .
     Forfatternote:
     Nøste, Nøgle.
    </p>
    <p>
-    <ref target="#backn29" xml:id="ton29">
+    <note target="#backn29" xml:id="ton29">
      n29
-    </ref>
+    </note>
     .
     Forfatternote:
     Nøst, Baadskur.
    </p>
    <p>
-    <ref target="#backn30" xml:id="ton30">
+    <note target="#backn30" xml:id="ton30">
      n30
-    </ref>
+    </note>
     .
     Forfatternote:
     Svaberg, nøgent
 Fjeld.
    </p>
    <p>
-    <ref target="#backn31" xml:id="ton31">
+    <note target="#backn31" xml:id="ton31">
      n31
-    </ref>
+    </note>
     .
     Forfatternote:
     Fort, hurtig.
    </p>
    <p>
-    <ref target="#backn32" xml:id="ton32">
+    <note target="#backn32" xml:id="ton32">
      n32
-    </ref>
+    </note>
     .
     Forfatternote:
     Grind, Led.
    </p>
    <p>
-    <ref target="#backn33" xml:id="ton33">
+    <note target="#backn33" xml:id="ton33">
      n33
-    </ref>
+    </note>
     .
     Forfatternote:
     Holde paa, være ifærd
 med.
    </p>
    <p>
-    <ref target="#backn34" xml:id="ton34">
+    <note target="#backn34" xml:id="ton34">
      n34
-    </ref>
+    </note>
     .
     Forfatternote:
     Sno, Trækvind, kold
 Blæst.
    </p>
    <p>
-    <ref target="#backn35" xml:id="ton35">
+    <note target="#backn35" xml:id="ton35">
      n35
-    </ref>
+    </note>
     .
     Forfatternote:
     Fang, Skjød.
    </p>
    <p>
-    <ref target="#backn36" xml:id="ton36">
+    <note target="#backn36" xml:id="ton36">
      n36
-    </ref>
+    </note>
     .
     Forfatternote:
     Kraake, Krage.
    </p>
    <p>
-    <ref target="#backn37" xml:id="ton37">
+    <note target="#backn37" xml:id="ton37">
      n37
-    </ref>
+    </note>
     .
     Forfatternote:
     Skindhyre,
 Skindklæder.
    </p>
-   <p>
-    Kristian Elsters
-    Farlige Folk
-    er
-lastet ned gratis fra
-    <ref target="http://bokselskap.no/">
-     bokselskap.no
-    </ref>
-   </p>
     </div>
-  </body>
+   </back>
  </text>
 </TEI>

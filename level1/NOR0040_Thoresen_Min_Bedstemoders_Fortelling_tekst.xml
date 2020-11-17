@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0040" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0040" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Min Bedstemoders Fortælling ELTeC-utgaven
     </title>
-    <author>
-     Thoresen, Magdalene (1819-1903)
-     <idno type="viaf">
-      https://viaf.org/viaf/25550020
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q443649
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/25550020 https://www.wikidata.org/wiki/Q443649">Thoresen, Magdalene  (1819-1903)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -32,34 +28,25 @@
      0
     </measure>
    </extent>
-   <publicationStmt>
-    <p>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
-     <date>
+     
       2020-11-12
-     </date>
-    </p>
-   </publicationStmt>
+     
+    --></publicationStmt>
    <sourceDesc>
-    <bibl>
-     <ref target="https://www.bokselskap.no/boker/bedstemoder/tittelside">
-      Utgaven følger teksten i antologien Ved Løvfaldstid, 1867 (H. Tønsberg, Christiania), digitaliseringen er basert på fil hentet fra Nasjonalbiblioteket (nb.no)
-     </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+       <bibl type="digitalSource">
+        <ref target="https://www.bokselskap.no/boker/bedstemoder/tittelside">
+            Utgaven følger teksten i antologien Ved Løvfaldstid, 1867 (H.
+            Tønsberg, Christiania), digitaliseringen er basert på fil hentet fra
+            Nasjonalbiblioteket
+        </ref>
        <author>
         M. Thoresen
        </author>
        <title>
-        bokselskap.no, 2015 Magdalene Thoresen: Min Bedstemoders
-Fortælling Utgaven følger teksten i antologien Ved Løvfaldstid, 1867 (H.
-Tønsberg, Christiania), digitaliseringen er basert på fil hentet fra
-Nasjonalbiblioteket (nb.no) ISBN: 978-82-8319-219-3 (digital,
-bokselskap.no), 978-82-8319-220-9 (epub), 978-82-8319-221-6
-(mobi)
+           Min Bedstemoders Fortælling
        </title>
        <pubPlace>
         Christiania
@@ -68,15 +55,10 @@ bokselskap.no), 978-82-8319-220-9 (epub), 978-82-8319-221-6
         H. Tønsberg
        </publisher>
        <date>
-        1880
+        1867
        </date>
-       <idno type="wiki">
-        https://www.wikidata.org/wiki/Q42191285
-       </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+ 
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -88,11 +70,12 @@ bokselskap.no), 978-82-8319-220-9 (epub), 978-82-8319-221-6
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <e:canonicity key="low"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-15">Checked by checkup
+                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>
@@ -580,9 +563,7 @@ Livet endnu hang fast paa en næsten gaadefuld Maade!
 Men med disse Ord var ogsaa den opflammende Styrke forbrugt, og Fader
 lagde hende
 uden
-    <ref target="#ton1" xml:id="backn1">
-     n1
-    </ref>
+
     Livstegn tilbage paa Puden igjen. Vi satte os stille, en for en, omkring
 Sengen. Uden at nævne det, vidste vi med os selv, at vi delte den samme
 vemodige Forventning; thi der var pludselig kastet et Skjær over den
@@ -828,9 +809,7 @@ et Skrig af Længsel efter ham. Denne Rædsel tabte sig efterhaanden,
 [31] men min Sorg blev den samme; thi Sorgen var min Pligt og Pligten
 mit
 Livsforhold.
-    <ref target="#ton2" xml:id="backn2">
-     n2
-    </ref>
+ 
     Min Husbond var bleven Borger i de Dødes Rige, og jeg levede mit Liv i
 Samfund med ham.
    </p>
@@ -890,9 +869,7 @@ ligefor mig, som skulde op. Jeg veg et Skridt tilbage og saa op til ham.
 Det var en høi, lyshaaret Mand med et stort, leende Ansigt og kloge
 Øjne. Han stod med Hatten i Haanden og lod Blæsten ruske i det fyldige
 Haar.
-    <ref target="#ton3" xml:id="backn3">
-     n3
-    </ref>
+
    </p>
    <p>
     «De synger jo, som om De var udnævnt til Forsanger for hele Naturen»
@@ -957,9 +934,7 @@ Det var en herlig Skikkelse, som han stod der, omskinnet af Dagglandsen,
 midt i Styrkens Fylde! Hvor han lignede hele Naturen, de svingende
 Trægrene, det krusede Vand og de fuldmodne nikkende
 Kornax.
-    <ref target="#ton4" xml:id="backn4">
-     n4
-    </ref>
+
    </p>
    <p>
     [35] Han havde under Nedstigningen forhørt sig om Alt mig
@@ -1805,50 +1780,7 @@ Hjertet.»
     «Søde Lille-Mor! Jeg vil være trofast; thi jeg vil være lykkelig, og
 den, som er troløs, kan aldrig blive lykkelig i dette Liv.»
    </p>
-   <p>
-    Noter:
-   </p>
-   <p>
-    <ref target="#backn1" xml:id="ton1">
-     n1
-    </ref>
-    . uden]
-    rettet fra:
-    nden
-   </p>
-   <p>
-    <ref target="#backn2" xml:id="ton2">
-     n2
-    </ref>
-    . Livsforhold]
-    rettet fra:
-    Lisvforhold
-   </p>
-   <p>
-    <ref target="#backn3" xml:id="ton3">
-     n3
-    </ref>
-    . Haar.]
-    rettet fra:
-    Haar».
-   </p>
-   <p>
-    <ref target="#backn4" xml:id="ton4">
-     n4
-    </ref>
-    . Kornax.]
-    rettet fra:
-    Kornax».
-   </p>
-   <p>
-    Magdalene Thoresens
-    Min Bedstemoders
-Fortælling De to Aftener
-    er lastet ned gratis fra
-    <ref target="http://bokselskap.no/">
-     bokselskap.no
-    </ref>
-   </p>
+  
   </body>
  </text>
 </TEI>

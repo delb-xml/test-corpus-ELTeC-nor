@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0007" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0007" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Fru Marta Oulie ELTeC-utgaven
     </title>
-    <author>
-     Undset, Sigrid (1882-1949)
-     <idno type="viaf">
-      https://viaf.org/viaf/59124011
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q80889
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/59124011 https://www.wikidata.org/wiki/Q80889">Undset, Sigrid  (1882-1949)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -32,24 +28,35 @@
      129
     </measure>
    </extent>
-   <publicationStmt>
-    <p>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
-     <date>
+     
       2020-11-12
-     </date>
-    </p>
-   </publicationStmt>
+     
+    --></publicationStmt>
    <sourceDesc>
-    <bibl>
-     <ref target="Det norske spr&amp;#x00E5;k- og litteraturselskap">
-      Utgave ved Gry Berg og Liv Bliksrud.
+    <bibl type="firstEdition">
+     <ref target="https://www.nb.no/items/f968e130774818bc763ff7298fb70cab">
+      Bokhylla, nasjonalbiblioteket
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     <pubPlace>
+      Kristiania
+     </pubPlace>
+     <publisher>
+      Aschehaug
+     </publisher>
+     <date>
+      1907
+     </date>
+     <idno type="wiki">
+      https://www.wikidata.org/wiki/Q11968448
+     </idno>
+     
+     
+     
+    </bibl>
+    <bibl type="digitalSource">
        <author>
         S. Undset
        </author>
@@ -58,22 +65,7 @@
          Sigrid Undset: Fru Marta Oulie.
         Utgave ved Gry Berg og Liv Bliksrud.
        </title>
-       <pubPlace>
-        Kristiania
-       </pubPlace>
-       <publisher>
-        Aschehaug
-       </publisher>
-       <date>
-        1907
-       </date>
-       <idno type="wiki">
-        https://www.wikidata.org/wiki/Q11968448
-       </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+       </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -85,11 +77,12 @@
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-15">Checked by checkup
+                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2010-09-16" xml:id="ENW">
     Kodekontroll.
    </change>
@@ -100,20 +93,18 @@
  </teiHeader>
  <text type="novel" xml:id="NSL_Undset_FruMarta_tekst_xml_text">
   <body>
-   <div type="part">
+   <div type="group">
     <head>
      <pb n="[1]"/>
-     <ref target="contentsI" type="contents" xml:id="I">
+     
       I
-     </ref>
+     
     </head>
     <pb n="[2]"/>
     <div type="chapter">
      <p>
       <pb n="[3]"/>
-      <ref target="contentsI1" type="contents" xml:id="I1">
-       Jeg har været min mand utro
-      </ref>
+      
       . –
      </p>
      <p>
@@ -1854,12 +1845,12 @@
      <pb n="[94]"/>
     </div>
    </div>
-   <div type="part">
+   <div type="group">
     <head>
      <pb n="[95]"/>
-     <ref target="contentsII" type="contents" xml:id="II">
+     
       II
-     </ref>
+     
     </head>
     <pb n="[96]"/>
     <div type="chapter">
@@ -2155,12 +2146,12 @@
      </p>
     </div>
    </div>
-   <div type="part">
+   <div type="group">
     <head>
      <pb n="[111]"/>
-     <ref target="contentsIII" type="contents" xml:id="III">
+     
       III
-     </ref>
+     
      Løse blade
     </head>
     <pb n="[112]"/>
@@ -2183,9 +2174,7 @@
     </div>
     <div type="chapter">
      <p>
-      <ref target="contentsIII2" type="contents" xml:id="III2">
-       De klager heroppe over solen
-      </ref>
+      
       , der steger og brænder dag ud og dag ind. –
      </p>
      <p>
@@ -2206,9 +2195,7 @@
     </div>
     <div type="chapter">
      <p>
-      <ref target="contentsIII3" type="contents" xml:id="III3">
-       For mine barns skyld sagde jeg ja
-      </ref>
+      
       , da Henrik spurgte, om jeg vilde gifte mig med ham. Jeg var saa træt, da Otto var død, saa træt,
       at jeg sygnet, naar jeg tænkte paa, at jeg skulde kjæmpe mig alene gjennem verden med dem.
      </p>
@@ -2235,9 +2222,7 @@
     </div>
     <div type="chapter">
      <p>
-      <ref target="contentsIII4" type="contents" xml:id="III4">
-       Jeg klaget mig for Henrik
-      </ref>
+      
       :
      </p>
      <p>
@@ -2339,9 +2324,7 @@
     </div>
     <div type="chapter">
      <p>
-      <ref target="contentsIII5" type="contents" xml:id="III5">
-       Alligevel tænkte jeg
-      </ref>
+      
       paa at gifte mig med ham. Jeg havde ganske vist ikke sagt, at jeg vilde, og vi talte aldrig om det, men det var da forudsætningen den hele tid.
      </p>
      <p>
@@ -2402,9 +2385,7 @@
     </div>
     <div type="chapter">
      <p>
-      <ref target="contentsIII6" type="contents" xml:id="III6">
-       Han blev ved at komme endda
-      </ref>
+      
       . Og han vilde fremdeles, vi skulde gifte os. Men nu var det nok bare, fordi han syntes, det var hans pligt, og forat han kunde være saa meget som mulig for mig og barnene.
      </p>
      <p>
@@ -2514,9 +2495,7 @@
     </div>
     <div type="chapter">
      <p>
-      <ref target="contentsIII7" type="contents" xml:id="III7">
-       Nei, jeg er ikke blit lykkeligere
-      </ref>
+      
       , efterat Henrik og jeg skiltes. Men jeg vilde været lige ulykkelig, om jeg havde prøvet at friste fremtiden sammen med ham.
      </p>
      <p>

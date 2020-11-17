@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0056" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0056" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Fernanda Mona ELTeC-utgaven
     </title>
-    <author>
-     Jølsen, Ragnhild (1875-1908)
-     <idno type="viaf">
-      59886290
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q2338861
-     </idno>
-    </author>
+    <author ref="viaf:59886290 https://www.wikidata.org/wiki/Q2338861">Jølsen, Ragnhild  (1875-1908)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -32,33 +28,32 @@
      0
     </measure>
    </extent>
-   <publicationStmt>
-    <p>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
-     <date>
+     
       2020-11-01
-     </date>
-    </p>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl>
+     
+    --></publicationStmt>
+   <sourceDesc><bibl type="digitalSource">
      <ref target="https://www.bokselskap.no/boker/fernanda/tittelside">
-      Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. Dokpros tekst er basert på Samlede Skrifter. Oslo, Aschehoug, 1909.
+      Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. 
+      Dokpros tekst er basert på Samlede Skrifter. Oslo, Aschehoug, 1909.
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
+     <title>
+       bokselskap.no Ragnhild Jølsen: Fernanda Mona
+     </title>
+     
+    </bibl><bibl type="firstEdition">
+      <ref target="https://www.nb.no/items/437ff3b51fa68437edd436bb70252759">
+        NB Bokhylla
+      </ref>
+      
        <author>
         J. Ragnhild
        </author>
        <title>
-        bokselskap.no, Oslo 2019 Ragnhild Jølsen: Fernanda Mona
-Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. Dokpros tekst
-er basert på Samlede Skrifter. Oslo, Aschehoug, 1909. ISBN:
-978-82-8319-483-8 (digital, bokselskap.no), 978-82-8319-484-5 (epub),
-978-82-8319-485-2 (mobi)
+  Fernanda Mona
        </title>
        <pubPlace>
         Kristiania
@@ -69,13 +64,8 @@ er basert på Samlede Skrifter. Oslo, Aschehoug, 1909. ISBN:
        <date>
         1905
        </date>
-       <idno type="wiki">
-        None
-       </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+  
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p n="eltec-0"/>
@@ -87,11 +77,12 @@ er basert på Samlede Skrifter. Oslo, Aschehoug, 1909. ISBN:
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="short"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-15">Checked by checkup
+                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>
@@ -124,7 +115,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </p>
     
     
-   <div type="level1" xml:id="i.">
+   <div type="chapter">
     <head>
      I.
     </head>
@@ -249,7 +240,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
     </p>
    </div>
    
-   <div type="level1" xml:id="ii.">
+   <div type="chapter">
     <head>
      II.
     </head>
@@ -441,7 +432,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
     </p>
    </div>
    
-   <div type="level1" xml:id="iii.">
+   <div type="chapter">
     <head>
      III.
     </head>
@@ -591,7 +582,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
     </p>
    </div>
   
-   <div type="level1" xml:id="iv.">
+   <div type="chapter">
     <head>
      IV.
     </head>
@@ -725,7 +716,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
     </p>
    </div>
    
-   <div type="level1" xml:id="v.">
+   <div type="chapter">
     <head>
      V.
     </head>
@@ -942,7 +933,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
     </p>
    </div>
    
-   <div type="level1" xml:id="vi.">
+   <div type="chapter">
     <head>
      VI.
     </head>
@@ -1224,7 +1215,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
     </p>
    </div>
    
-   <div type="level1" xml:id="vii.">
+   <div type="chapter">
     <head>
      VII.
     </head>
@@ -1363,7 +1354,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="viii.">
+   <div type="chapter">
     <head>
      VIII.
     </head>
@@ -1540,7 +1531,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="ix.">
+   <div type="chapter">
     <head>
      IX.
     </head>
@@ -1652,7 +1643,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="x.">
+   <div type="chapter">
     <head>
      X.
     </head>
@@ -2113,7 +2104,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xi.">
+   <div type="chapter">
     <head>
      XI.
     </head>
@@ -2300,7 +2291,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xii.">
+   <div type="chapter">
     <head>
      XII.
     </head>
@@ -2451,7 +2442,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xiii.">
+   <div type="chapter">
     <head>
      XIII.
     </head>
@@ -2497,7 +2488,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xiv.">
+   <div type="chapter">
     <head>
      XIV.
     </head>
@@ -2721,7 +2712,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xv.">
+   <div type="chapter">
     <head>
      XV.
     </head>
@@ -2941,7 +2932,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xvi.">
+   <div type="chapter">
     <head>
      XVI.
     </head>
@@ -3167,7 +3158,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xvii.">
+   <div type="chapter">
     <head>
      XVII.
     </head>
@@ -3670,7 +3661,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xviii.">
+   <div type="chapter">
     <head>
      XVIII.
     </head>
@@ -3743,7 +3734,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xix.">
+   <div type="chapter">
     <head>
      XIX.
     </head>
@@ -3837,7 +3828,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xx.">
+   <div type="chapter">
     <head>
      XX.
     </head>
@@ -3942,7 +3933,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxi.">
+   <div type="chapter">
     <head>
      XXI.
     </head>
@@ -4147,7 +4138,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxii.">
+   <div type="chapter">
     <head>
      XXII.
     </head>
@@ -4439,7 +4430,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxiii.">
+   <div type="chapter">
     <head>
      XXIII.
     </head>
@@ -4556,7 +4547,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxiv.">
+   <div type="chapter">
     <head>
      XXIV.
     </head>
@@ -4856,7 +4847,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxv.">
+   <div type="chapter">
     <head>
      XXV.
     </head>
@@ -4913,7 +4904,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxvi.">
+   <div type="chapter">
     <head>
      XXVI.
     </head>
@@ -5124,7 +5115,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxvii.">
+   <div type="chapter">
     <head>
      XXVII.
     </head>
@@ -5257,7 +5248,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxviii.">
+   <div type="chapter">
     <head>
      XXVIII.
     </head>
@@ -5472,7 +5463,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
    </div>
     
     
-   <div type="level1" xml:id="xxix.">
+   <div type="chapter">
     <head>
      XXIX.
     </head>
@@ -5720,7 +5711,7 @@ Samlede Skrifter. Oslo, Aschehoug, 1909.
   da dør det.» –
     </p>
    </div>
-    <div>
+    <div type="chapter">
    <p>
     Ragnhild Jølsens
     Fernanda Mona

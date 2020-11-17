@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0012" xml:lang="nn" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0012" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Fred ELTeC-utgaven
     </title>
-    <author>
-     Garborg, Arne (1851-1924)
-     <idno type="viaf">
-      https://viaf.org/viaf/89613088
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q467497
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/89613088 https://www.wikidata.org/wiki/Q467497">Garborg, Arne  (1851-1924)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -32,50 +28,36 @@
      317
     </measure>
    </extent>
-   <publicationStmt>
-    <p>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
-     <date>
+     
       2020-11-13
-     </date>
-    </p>
-   </publicationStmt>
+     
+    --></publicationStmt>
    <sourceDesc>
-    <bibl>
-     <ref target="bokselskap.no">
-      Teksten i bokselskap.no f&amp;#x00F8;lger 2. utgave, 1905 (Kristiania, Aschehoug). Digitaliseringen er basert p&amp;#x00E5; fil mottatt fra Nasjonalbiblioteket (nb.no).
+    <bibl type="firstEdition">
+     <ref target="https://www.nb.no/items/ba0454751011a46a067ec0b2f2071bc8"/>
+     <author>A. Garborg</author>
+     <title> Fred </title>
+     <pubPlace>Bergen</pubPlace>
+     <publisher>Mons Litlerè</publisher>
+     <date>1892</date>
+     </bibl>
+    <bibl type="digitalSource">
+     <ref target="https://www.bokselskap.no/boker/fred/tittelside">
+      bokselskap.no, 2015 Arne Garborg: Fred
+      Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
+      Aschehoug). Digitaliseringen er basert på fil mottatt fra
+      Nasjonalbiblioteket (nb.no).
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
-       <author>
-        A. Garborg
-       </author>
-       <title>
-        bokselskap.no, 2015 Arne Garborg: Fred
-Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
-                    Aschehoug). Digitaliseringen er basert på fil mottatt fra
-                    Nasjonalbiblioteket (nb.no). ISBN: 978-82-8319-258-2 (digital,
-                    bokselskap.no), 978-82-8319-259-9 (epub), 978-82-8319-260-5 (mobi)
-       </title>
-       <pubPlace>
-        Bergen
-       </pubPlace>
-       <publisher>
-        Mons Litlerè
-       </publisher>
-       <date>
-        1892
-       </date>
+       <pubPlace>Kristiania</pubPlace>
+       <publisher>Aschehoug  (W. Nygaard)</publisher>
+       <date>1905</date>
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q14434353
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -87,11 +69,12 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="long"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-15">Checked by checkup
+                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2015-09-01">
     Entiteter og validering.
    </change>
@@ -502,12 +485,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Ved den nedre Bordenden sat ein Flokk eldre Mennar med Kritpipur og Ølkrus i
                     koselegt Drøs; lenger uppe sat eit anna Lag og spìla Kort; men uti
                         Bui
-     <note type="footnote">
-      Forfatternote:
-      Bui
-      :
-                        Bestestova.
-     </note>
+     
      gjekk Dansen med Feleskratt og Rop og Braak og Staak, so
                     det song gjenom Huse. Helge Haave heldt Bryllaup for yngste Dotter si; og so
                     laut det vera eit Lag, som kunde baade høyrast og spyrjast.
@@ -823,12 +801,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <head type="main">
      [IV.]
     </head>
-    <note type="footnote">
-     IV.]
-     rettet fra:
-     VI.
-                    (feilnummerering)
-    </note>
+    
     <p>
      Nei; hadde Djevelen fysst fengi Tak, so tarv du kje tru, han slepte! – det
                     kunde kje verte noko av i Dag heller.
@@ -1290,12 +1263,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      Det var eit stort Kvernhus, skift i tvo med ein Vegg; i det indre Rome var
                         Tussa,
-     <note type="footnote">
-      Forfatternote:
-      Tussa
-      :
-                        Turkegreida.
-     </note>
+     
      i det ytre Kverni. Enok heldt seg i det indre. Kvar Gong
                     han skulde ut aat Kverni, i det kalde mjølkvite Rome med dei rare Skuggane naar
                     Ljose kom, – var det so det kulsa i han. Tenk, um det sat ein der no paa
@@ -1621,12 +1589,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      Dei var innkomne or Fjose og hadde silt og stelt; no sat dei ved Kòla
-     <note type="footnote">
-      Forfatternote:
-      Kòla
-      :
-                        Tranlampe.
-     </note>
+     
      og spann, baade Kona og Gjenta. Men Kòla blakra og
                     blekkte som ho kunde gaa ut.
     </p>
@@ -1642,12 +1605,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Ho Serina, eit ljost, vent Gjentebarn paa aatte Aar, sat paa ein Skammel attmed
                     Mor si og kara; Anna og Rakel, dei tvo minste, laag paa Golve og krabba med sine
                     rolege Barnespel. Men han Gunnar sat tett innunder Kòla og smidde
-     <note type="footnote">
-      Forfatternote:
-      Smida
-      : gjera
-                        Smedarbeid; arbeide med Kniv.
-     </note>
+     
      paa noko som skulde verte
                     Karjolsæte.
     </p>
@@ -1702,19 +1660,10 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      Marta kom med Bòd at Epli
-     <note type="footnote">
-      Forfatternote:
-      Eple
-      (Jordeple): Potetur
-     </note>
+     
      var ferdige; og Anna
                     maatte aat Kjøken. Gunnar tok ho med; han var so glup til aa flysja.
-     <note type="footnote">
-      Forfatternote:
-      Flysja
-      :
-                        «skrælle».
-     </note>
+     
     </p>
     <p>
      <pb n="55"/>
@@ -1943,11 +1892,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Gunnar au maatte upp, med alt det han grét og ille lét, og endaa
                     Mor hans bad for han; inga Avgudsdyrking no; og inga Kjæling og Bløyting!
                     – Men Serina hadde fengi Kregda,
-     <note type="footnote">
-      Forfatternote:
-      Kregda
-      : Krilla (Meslinger).
-     </note>
+     
      so ho slapp;
                     alltid skulde det gange so godt for henne. So vart Dagen vigd med Song og Bøn.
                     Drengen og Gjenta laut og vera med; Enok var Husfar og andsvarleg for deim alle.
@@ -1961,21 +1906,12 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Etter Bøni fekk dei seg Mat. Og ved Matborde skulde det vera stilt; me skulde
                     hava Vyrdnad for Gud og Gaavune hans. Og me skulde tenkje paa, at Gud sjølv var
                     tilstades, so me ikkje vanhelga Maaltidi hans med Tøv og Tattl.
-     <note type="footnote">
-      Forfatternote:
-      Tattl
-      : Tullesnakk,
-                        «Vrøvl».
-     </note>
+     
      Fyri og etter Maten Bøn og eit Salmevers.
     </p>
     <p>
      So gjekk Enok til Arbeide sitt full av Annhug
-     <note type="footnote">
-      Forfatternote:
-      Annhug
-      : «Iver».
-     </note>
+     
      og
                     Glede.
     </p>
@@ -2686,12 +2622,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     sette seg til millom Husens Folk og rødde med deim, so kunde det vera ikkje
                     mindre gildt. Mykje kunde ein faa Greide paa som ein aldri hadde visst; og um
                     dei kom til aa skjemte og læ, so vart det daa aldri noko Heigraskap.
-     <note type="footnote">
-      Forfatternote:
-      He(i)graskap
-      :
-                        Uvitingskap.
-     </note>
+     
      Dei hadde vorti so kjende med han Tarald Aksdal, at det
                     var mest som han skulde høyre Huse til; og det vart Sorg baade paa store og
                     smaae her i Haust, daa det vart til det at han skulde gjeva upp Skulen.
@@ -2734,21 +2665,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      Det var nokre Dagar etter at «Jesusbarne» fraa Heialand var komi,
                     – ein litin myrkleitt Gjentunge som heitte Jorina.
-     <note type="footnote">
-      Forfatternote:
-      Jorina, Serina, Maria
-      osfr., i det
-                        heile alle tristavde Ord, vert ut-tala med tvo tunge Stavingar og ei lett
-                        (– – ᴗ),
-      ikkje
-      Jor
-      i
-      na, Mar
-      i
-      a osfr. Tonefalle for
-                        «Anna», «Marta» osfr. er: – –;
-                        ikkje – ᴗ.
-     </note>
+     
      Dei sat kring Kòla ein Kveld; Enok
                     banda Byttur, Anna og
      <pb n="92"/>
@@ -3420,11 +3337,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      Og snart var Jorina inne i ei Sogu att. «Ho Mor fortalde ein Gong noko som
                     ho hadde høyrt av han gamle Vidkunn i Ramstad-Træe.
-     <note type="footnote">
-      Forfatternote:
-      Træe
-      : Trø.
-     </note>
+     
      Det kom eit stort
                     Fantefylgje dit ein Gong; i det Fylgje var der ei gamal Kjering; ei utgamal ei,
                     so skrukki og gul som Hodn. Denne Kjeringi sat paa ein Stol i ei Kraa og sukka
@@ -3468,19 +3381,11 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Dei andre tok det i Mak. Ho Gunhild, Kjeringi, sat paa ein Skammel
                     midt imot Tomas og røykte paa ei Kritpipe; jamsides henne, paa Marki, sat eit
                     yngre fregnutt Kvinnfolk med eit Spøt.
-     <note type="footnote">
-      Forfatternote:
-      Spøt
-      : Bunding.
-     </note>
+     
      Store svarte Olaves Didriksen,
                     Bror hennar Gunhild, laag so lang han var burtetter Vollen og lèta seg; ein
                     Flokk Ungar flaug rundt og gjorde gildt,
-     <note type="footnote">
-      Forfatternote:
-      Gjera gildt
-      : leike.
-     </note>
+     
      ylande av Glede som smaae
                     Vargar.
     </p>
@@ -3488,12 +3393,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Tomas var Kam-makar og Blekksmed og kunde binde Vevskeîir og gjera
                     Fiskekrokar; og han tente so mykje med Arbeide sitt, at med det til som Kjeringi
                     og dei andre tagg ihop, kunde Flokken klara seg utan Spaning.
-     <note type="footnote">
-      Forfatternote:
-      Spaning
-      (Tatermaal):
-                        Steling (= Spaneba)
-     </note>
+     
     </p>
     <p>
      Og det var det beste i fleire Maatar, meinte Tomas. For det fysste var
@@ -3515,14 +3415,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      Han hadde lesi alle gode gamle Lærdomsbøkar, Sakso Grammatikkus, Olger Danske,
                     Karl Magnus og andre, og so Bibelen, Lars Linderoth og Knud Spødervoll.
-     <note type="footnote">
-      Forfatternote:
-      Knud Spödervoll
-      : Ein
-                        Bonde paa Vestlande som høyrde til dei
-      sterkt-truande
-      og skreiv Bøkar til Forsvar for denne Sekti.
-     </note>
+     
      Han var konfirmera med
                     god Kristendomskunskap paa Tukthuse i Kristianssand; dei hadde tenkt paa aa
                     døype han au, men ikkje vaaga det, daa det var rimelegt at han var barnedøypt
@@ -3621,31 +3514,14 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     den som lét seg flaa! Det kunde vera mangt aa pumpe hjaa han Enok,
                     lét Gunhild; «veit du kje, din Trave, at der er
                         Smaa-Rakli'er
-     <note type="footnote">
-      Forfatternote:
-      Rakli
-      : Gjente.
-     </note>
+     
      der? – det kann bli Blavi
-     <note type="footnote">
-      Forfatternote:
-      Blavi
-      :
-                        Bryllaup.
-     </note>
+     
      og Lokki
-     <note type="footnote">
-      Forfatternote:
-      Lokki
-      : Barnseng.
-     </note>
+     
      det, Far! F. slipe meg, hev
                     kje so gali hendt fyrr! – slik ein kvant
-     <note type="footnote">
-      Forfatternote:
-      kvant
-      : ven; framifraa.
-     </note>
+     
      og
                     væl-likandes ein som Carolus er. Naar Mormor di fekk ein Gardmannsson fraa
                     Vardal, so kann liksosnart Son din faa ei Gardmannsdotter fraa Haave,
@@ -3855,86 +3731,31 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     løynsk Smil, noko-so-nær ned-duld; Tala slutta med nokre Ord i Fantemaal, som
                     kom i same strenge, manande Tonelag som alt det andre: «og so vonar eg
                     til Gud, Carolus, at du vil ascha ein horta
-     <note type="footnote">
-      Forfatternote:
-      horta
-      : ægte.
-     </note>
+     
      Romanisæl
-     <note type="footnote">
-      Forfatternote:
-      Romanisæl
-      kallar
-                        Tateren seg sjølv.
-     </note>
+     
      og ikkje lata Buroen
-     <note type="footnote">
-      Forfatternote:
-      Buro
-      : Bonde.
-     </note>
+     
      stultra
-     <note type="footnote">
-      Forfatternote:
-      Stultra
-      : narre.
-     </note>
+     
      dero
-     <note type="footnote">
-      Forfatternote:
-      Dero
-      : du,
-                        deg.
-     </note>
+     
      eller bokka
-     <note type="footnote">
-      Forfatternote:
-      Bokka
-      : svelte.
-     </note>
+     
      dero eller dabba
-     <note type="footnote">
-      Forfatternote:
-      Dabba
-      : slaa.
-     </note>
+     
      dero; men kammar
-     <note type="footnote">
-      Forfatternote:
-      Kamma
-      : hava.
-     </note>
+     
      dero kje latjot,
-     <note type="footnote">
-      Forfatternote:
-      Latjot
-      : godt.
-     </note>
+     
      so naschar
-     <note type="footnote">
-      Forfatternote:
-      Nascha
-      : røme.
-     </note>
+     
      dero og avar
-     <note type="footnote">
-      Forfatternote:
-      Ava
-      :
-                        koma.
-     </note>
+     
      til Daden
-     <note type="footnote">
-      Forfatternote:
-      Dad
-      : Far.
-     </note>
+     
      deros og Deia
-     <note type="footnote">
-      Forfatternote:
-      Deia
-      : Mor.
-     </note>
+     
      deros i Jessu Kristi Namn. Og
                     so maa du liva vel daa.»
     </p>
@@ -4023,12 +3844,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Par søte Ord i denne Bløytetonen –: «det var daa leidt, at du
                     ikkje vart ferdig, Carolus, du, som er slik ein glup Kar. Han Gunnar fær hjelpa
                     deg litegrand daa.» Ja tenk-kje
-     <note type="footnote">
-      Forfatternote:
-      tenk-ikkje
-      : «naturligvis»; kvifor
-                        ikkje.
-     </note>
+     
      <pb n="135"/>
      han Gunnar! Han Gunnar var god til alt. Ikkje turvte Fanten gaa i
                     Skinnbrók heller. –
@@ -4054,19 +3870,11 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     lagde ho til: «og so skal du vera snild med han Carolus.»
      <pb n="136"/>
      Gunnar stod som torefortenkt.
-     <note type="footnote">
-      Forfatternote:
-      torefortenkt
-      : naamen av Forundring.
-     </note>
+     
      Dette
                     kunde han ikkje skỳna. Skjemd og forundra drog han seg uti Matbui att;
                     – «no, kva fekk du for Besingi
-     <note type="footnote">
-      Forfatternote:
-      Besing
-      : Fisling.
-     </note>
+     
      di?» spurde
                     Carolus.
     </p>
@@ -4077,11 +3885,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      Og det viste seg i Dag, at Carolus kunde vera løgin.
-     <note type="footnote">
-      Forfatternote:
-      løgin
-      : morosam.
-     </note>
+     
      Skulde aldri
                     ha set so rart som han kunde skapa seg til. Han var «vill Mann» og
                     fekk deim til aa læ mest meir enn dei hadde godt av. Sidan fortalde han Eventyr
@@ -4129,11 +3933,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </head>
     <p>
      Lufti bleikna og Aakeren skjerna.
-     <note type="footnote">
-      Forfatternote:
-      skjerna
-      (um Aaker): verte skjer (mogin).
-     </note>
+     
      Eplekaale misste sine vene blaaskjengjute eller rjomegule Blomar og sette
                     Topp-Eple. Viba tagna, flokka seg og vart burte. Paa bleike avslegne Engir heldt
                     Staren sine Stor-møte med eit Skravl og eit Kvirl, so det høyrdest langan Veg.
@@ -4816,11 +4616,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      Glad var Gunnar. No fekk han gange sundagsklædd! Og so var det Fristundine. Daa
                     tumla han seg reint villt. Fangtokst
-     <note type="footnote">
-      Forfatternote:
-      Fang-takast
-      : brjotast.
-     </note>
+     
      og slogst og ylte i
                     høgan Sky, og fann paa alle Slags Fantestykkje. Serleg leid var han med henne
                     Olina hans Per; lugga og slog henne; kneip henne i Armane og stakk henne med
@@ -4857,12 +4653,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     malheureux!
      » – og anna Javl, som skulde vera Franskt,
                     lét han um.
-     <note type="footnote">
-      Forfatternote:
-      laate
-                            um
-      : «lade sig forlyde med».
-     </note>
+     
     </p>
     <p>
      <pb n="164"/>
@@ -4967,12 +4758,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      <l>
       in vielen, langen Jahren ...»
      </l>
-     <note type="footnote">
-      Forfatternote: Av «Olsens» Forteljing i Kap.
-                        XV er Stykke fraa «Omsider begyndte det at gaa rundt» til og
-                        med det tyske Verse laant fraa eit (forbòdi) lite Skrift av ein eldre
-                        Forfattar.
-     </note>
+     
     </quote>
     <p>
      <pb n="167"/>
@@ -5020,11 +4806,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     ligesom den salig Guds Mand Presten Zetlitz; men vorder ikke siddende her i
                     disse mørke Huler og grubler over eders saakaldte Synder; he-he, Synder! som om
                     en Bauer
-     <note type="footnote">
-      Forfatternote:
-      Bauer
-      (tysk): Bonde.
-     </note>
+     
      kunde synde! Jeg synes jeg ser Vorherre sidde og tælle
                     ihop de Smaadumhederne og Smaaraahederne, som falder af efter dere, og som dere
                     smykker med det høitravende Navn «Synd»; ha-ha; Synd! I har Fanden
@@ -5045,10 +4827,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      Dei saag kje meir til han. Men Morgonen etter kom det Bod fraa han Per der nord
                     etter Panken hans og ein Ort
-     <note type="footnote">
-      Forfatternote: 1 Ort 6 Skill.
-                        = 1 Kr.
-     </note>
+     
      og seks, som han skulde hava av Enok for otte Dagar
                     Skule.
     </p>
@@ -5344,11 +5123,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <quote>
      <l>
       «Paa Daarafjedl'e,
-      <note type="footnote">
-       Forfatternote:
-       Daarafjedl'e
-       er vel Dovrefjell.
-      </note>
+      
      </l>
      <l>
       paa Daarafjedl'e,
@@ -5361,11 +5136,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      </l>
      <l>
       ittepaa kjem Kùssen
-      <note type="footnote">
-       Forfatternote:
-       Kùsse
-       ; litin Kalv.
-      </note>
+      
       den
                         raue.»
      </l>
@@ -5651,12 +5422,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     og Orliangskjolar, og Karane med nymotens Hattar og Klokkekjedur av Sylv; og
                     rundt um paa Gardane sette Folk upp store gilde Hus og maala dei kvite so dei
                     skein yvi Land, og køyrde med Karjolar og Skeisur
-     <note type="footnote">
-      Forfatternote:
-      Skjeise
-      (Chaise): finare
-                        Stolkjerre.
-     </note>
+     
      som smaae Storkarar. Og den eine etter den andre raadde
                     seg til av desse nye Plogane som Møller paa Myre hadde ført inn; liksom det
                     ikkje var Guds Signing, det galdt um, men gilde Greidur; ja der var dei som fekk
@@ -5864,11 +5630,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     skulde vera ein klok Kar, hadde han høyrt, utlærd paa denne nye Lærarskulen; og
                     Tomas hadde kje godt av seg, fyrr han fekk visentere han litegrand. Det skulde
                     vera Beng'en
-     <note type="footnote">
-      Forfatternote:
-      Beng
-      (Fantemaal): Djevelen.
-     </note>
+     
      til Spikk, um denne unge Spiren
                     her skulde kunne klara seg mot han Fante-Tomas.
     </p>
@@ -6421,18 +6183,9 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      Bùje
-     <note type="footnote">
-      Forfatternote:
-      Bùj
-      : Buskap.
-     </note>
+     
      vert utslept. Like eins Smalen,
-     <note type="footnote">
-      Forfatternote:
-      Smale
-      (Kollektiv):
-                        Saueflokk.
-     </note>
+     
      som
      <pb n="215"/>
      Enok ikkje hev sent aat Heiî i
@@ -6450,20 +6203,11 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <quote>
      <l>
       «Aa kjæra mina Kjavoar,
-      <note type="footnote">
-       Forfatternote:
-       Kjavo
-       (Fantemaal): Barn.
-      </note>
+      
      </l>
      <l>
       aa kjærar
-      <note type="footnote">
-       Forfatternote:
-       Kjæra
-       :
-                            trættast; slaast.
-      </note>
+      
       inte saa –!»
      </l>
     </quote>
@@ -6570,9 +6314,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      – – Paa slike Dagar er Fantelive søtt, naar dei ligg burtetter
                     Heiane og lètar seg i Soli. Eit Grand paa Flaska og ein Kortstokk. Tjeia
-     <note type="footnote">
-      Forfatternote: Tjeia (Fantemaal): Gjente.
-     </note>
+     
      ligg i
                     Solbakken spak og lat. – – Ja Buro vil eg kje vera lenger!
     </p>
@@ -6616,11 +6358,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     paa Vindaugo;
      <pb n="221"/>
      d'er kje Moskroen,
-     <note type="footnote">
-      Forfatternote:
-      Moskro
-      : Lensmann.
-     </note>
+     
      hæ-hæ ...
                     Sattans Smalen! Hæs! Hæs!! – Men Skit. Det er siste Dagen. Lat han ganga
                     aat Engi so mykje han vil. I Morgo Kveld er eg i Byn; og so ut yvi Have det
@@ -6680,11 +6418,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      <pb n="224"/>
      stræva med aa hjelpe Fante-Tomas til
                     Hus, – aa kor fellt
-     <note type="footnote">
-      Forfatternote:
-      fellt
-      : «tilpas.»
-     </note>
+     
      dei vilde tykkje dette var
                     aat han. «No kan hann hava det so godt. Kvi skulde han dra innpaa oss alt
                     dette Herke?» Og Presten vilde sjaa paa han: «du har vel ikke
@@ -6790,11 +6524,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      Han slepte Arbeide or Hendane og vart standande som naamin.
-     <note type="footnote">
-      Forfatternote:
-      naamin
-      : lammet.
-     </note>
+     
      Kor stod det
                     til med han? Var han Guds Barn? I slikt Myrkr, i slikt kjøtelegt Sinn hadde han
                     livt og endaa totst vera i Naaden; skulde det verkeleg vera Tøv og Draum og
@@ -7264,12 +6994,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      – Guri laag svært klen. Det aaleitte henne aa røda; stundom var ho i
                         Herota.
-     <note type="footnote">
-      Forfatternote:
-      Herote
-      :
-                        Ørske; Sanseløyse.
-     </note>
+     
     </p>
     <p>
      Enok sette seg 'med Omnkraabenken der ho laag, og tala Gudord med henne;
@@ -7501,11 +7226,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </head>
     <p>
      Gunnar var framsloppin.
-     <note type="footnote">
-      Forfatternote:
-      framsloppin
-      : konfirmera.
-     </note>
+     
     </p>
     <p>
      Og no skulde Dægeren taka baade Forklaring og altihop – han var vaksen Kar
@@ -7539,11 +7260,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     var komi noko framandt og liksom utanlandskt yvi han. Og slik ein Sving han
                     hadde fengi paa Maale sitt! Han sagde baade «har» og
                         «jog»;
-     <note type="footnote">
-      Forfatternote:
-      Jog
-      : jau.
-     </note>
+     
      og «mangen» for mange og
                     «bangen» for rædd og mykje anna fint; Gunnar vart reint bljug av
                     det stakkars simple Bygdemaale sitt.
@@ -7622,12 +7339,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      Det hjelpte noko at Far hans var meir burte no enn fyrr; og so var han Torkjell
                     Tualand her mest jamt; han var Dreng haalvestundo.
-     <note type="footnote">
-      Forfatternote:
-      Haalvestundo
-      : halve Tidi (skiftevis;
-                        t. D. ei Viku um Gongen).
-     </note>
+     
      Ei Hjelp var det au at han var kje so
                     streng um Sundagane heller som fyrr, han Far; Gunnar fekk mest raade seg sjølv
                     Kveldyktine.
@@ -8307,12 +8019,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Det gjekk elles godt, so lengi ho Finne-Barbro lìvde. Ho kunde i mange
                     Maatar vera som ei Kone for Tomas, ho. Og so hadde ho slikt eit flytendes
                     Talent, at ho kunde føde heile Flokken. Iser forstod ho seg paa Summing.
-     <note type="footnote">
-      Forfatternote:
-      Summing
-      :
-                        Trolling.
-     </note>
+     
      Naar dei var paa avbakslege Stadir inn-i Fjordane eller
                     tilfjells, kunde ho stundom tena baade Mat og Skjelingar med aa lesa yvi eit
                     Barn eller gjera aat for ei Ku; mang ein god Kjøtknok og mangt eit godt gamalt
@@ -8417,19 +8124,10 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     saag raadlaust ut aa klara Vinteren; og ho Katrine tok til aa undrast
      <pb n="284"/>
      paa, kva Beng'en
-     <note type="footnote">
-      Forfatternote:
-      Beng
-      : Djevel.
-     </note>
+     
      ein skulde hava tvo lange
                         Morsar
-     <note type="footnote">
-      Forfatternote:
-      Mors
-      :
-                        Mannfolk.
-     </note>
+     
      gangande her etter, naar dei ikkje kunde finne paa Raad! Ho
                     Else, som med sine tolv Aar var nokso rask paa Munnen alt, gnaala med paa sin
                     Maate. Dei tvo Morsane skỳna godt kva Kvinnfolki meinte, og dei glytte
@@ -8538,11 +8236,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     han: «Du hev kje stort att for ditt ustraffelege Levnet,
      <pb n="288"/>
      Far! Dei hev betre Dagar dei som er paa Pagoen,
-     <note type="footnote">
-      Forfatternote:
-      Pago
-      : Tukthus.
-     </note>
+     
      enn me
                     hev.»
     </p>
@@ -8584,20 +8278,12 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
       Spaneba
      </emph>
      .
-     <note type="footnote">
-      Forfatternote:
-      Spaneba
-      : Stuld.
-     </note>
+     
     </p>
     <p>
      Og det vart Glede i Flokken, og Godlag og Blidlaat; Katrine klappa med kjælne
                     Augo Carolus paa Kinne og sagde: «du er Rakloen
-     <note type="footnote">
-      Forfatternote:
-      Raklo
-      : Gut.
-     </note>
+     
      min alltid,
                     du!» – Det var som dei endeleg saag Land. «No ikke noget
                     Kryberi!» knota Carolus; «berre gaa paa med mandelegt Mod;
@@ -8643,12 +8329,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Hjarta hans banka litegrand; elles var han med godt Mod. Snarare glad. Kjende seg
                     Eigar av alt som her var; um Natti var det Fanten som var Herre. Hadde han
                         Tjuroen?
-     <note type="footnote">
-      Forfatternote:
-      Tjuro
-      :
-                        Kniv.
-     </note>
+     
      Javel. Stilt og smaatt stìga han seg fram, eit halvt Fet
                     um Senn, med den eine Handi framfyri seg, um der skulde vera eitkvart i Vegen;
                     snart stod han ved Skatole hennar Anna.
@@ -8698,39 +8379,19 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <quote>
      <l>
       «Ja dero
-      <note type="footnote">
-       Forfatternote:
-       dero
-       : du.
-      </note>
+      
       skal le
-      <note type="footnote">
-       Forfatternote:
-       le
-       : faa.
-      </note>
+      
       Isingar
-      <note type="footnote">
-       Forfatternote:
-       Ising
-       : eig. Klædning.
-      </note>
+      
       gule
                         og blaa,
      </l>
      <l>
       naar Tjuroen
-      <note type="footnote">
-       Forfatternote:
-       Tjuro
-       : Kniv.
-      </note>
+      
       og Tjaknia
-      <note type="footnote">
-       Forfatternote:
-       Tjakni
-       : Svipe (Slagsmaalsvaapen).
-      </note>
+      
       byrjar aa gaa» ...
      </l>
     </quote>
@@ -8743,25 +8404,12 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     nye Klæde!» «Er ein fysst ute so skal ein ta for seg!»
                     Carolus tok ut Glase og smaug inn, ledug som ein Orm. «Ha, ha!
                         Moskroen
-     <note type="footnote">
-      Forfatternote:
-      Moskro
-      :
-                        Lensmann.
-     </note>
+     
      søv, og Buroen
-     <note type="footnote">
-      Forfatternote:
-      Buro
-      : Bonde.
-     </note>
+     
      søv, og Hundane søv;
                         Romanisælen
-     <note type="footnote">
-      Forfatternote:
-      Romanisæl
-      : Tater.
-     </note>
+     
      er Herre paa Tufti.» Han rette ut
                     gjenom Vindaugsgluggen Vev etter Vev; daa
      <pb n="293"/>
@@ -8803,11 +8451,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      <l>
       <pb n="294"/>
       For elles kann I ava
-      <note type="footnote">
-       Forfatternote:
-       ava
-       : koma.
-      </note>
+      
       paa Pagoen
      </l>
      <l>
@@ -8834,11 +8478,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      Der skifte dei Spane
-     <note type="footnote">
-      Forfatternote:
-      Span
-      : Stuld, det stolne.
-     </note>
+     
      imillom seg og skildest. Det som
                     var av Sylv og Gull tok Olaves Didriksen og sette beinast til Byn med; han
                     kjende ein Mann der som kaupte slikt; Tridjeparten av Pengane skulde han hava
@@ -8870,11 +8510,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      «Det vil vera meg ei smal Sak, Tjeia
-     <note type="footnote">
-      Forfatternote:
-      Tjeia
-      : Gjente.
-     </note>
+     
      mi!»
     </p>
     <p>
@@ -9003,33 +8639,16 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <quote>
      <l>
       «Aa heia
-      <note type="footnote">
-       Forfatternote:
-       Heia
-       : høyr.
-      </note>
+      
       meg, du Tjeia
-      <note type="footnote">
-       Forfatternote:
-       Tjeia
-       : Gjente.
-      </note>
+      
       mi,
      </l>
      <l>
       haa miro
-      <note type="footnote">
-       Forfatternote:
-       miro
-       :
-                            eg.
-      </note>
+      
       sangrar
-      <note type="footnote">
-       Forfatternote:
-       sangra
-       : syngje.
-      </note>
+      
       deg!
      </l>
      <l>
@@ -9040,17 +8659,9 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      </l>
      <l>
       Aa miro asjar
-      <note type="footnote">
-       Forfatternote:
-       asja
-       : vera.
-      </note>
+      
       raavefull
-      <note type="footnote">
-       Forfatternote:
-       raavefull
-       : sorgfull, ottesam.
-      </note>
+      
       –
      </l>
      <l>
@@ -9066,12 +8677,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      </l>
      <l>
       min Raklo,
-      <note type="footnote">
-       Forfatternote:
-       Raklo
-       :
-                            Gut.
-      </note>
+      
       for meg!
      </l>
      <l>
@@ -9082,11 +8688,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      </l>
      <l>
       For miro kammar latjot
-      <note type="footnote">
-       Forfatternote:
-       kammar latjot
-       : hev det godt.
-      </note>
+      
       –
      </l>
      <l>
@@ -9111,27 +8713,14 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      </l>
      <l>
       Du ler
-      <note type="footnote">
-       Forfatternote:
-       ler
-       :
-                            faar.
-      </note>
+      
       deg vel ein Mors
-      <note type="footnote">
-       Forfatternote:
-       Mors
-       : Mann.
-      </note>
+      
       igjen,
      </l>
      <l>
       mens miro asjar kei
-      <note type="footnote">
-       Forfatternote:
-       kei
-       : her
-      </note>
+      
       –
      </l>
      <l>
@@ -9145,25 +8734,13 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <quote>
      <l>
       «Aa dero
-      <note type="footnote">
-       Forfatternote:
-       dero
-       : du.
-      </note>
+      
       maa kje pattja,
-      <note type="footnote">
-       Forfatternote:
-       pattja
-       : tru.
-      </note>
+      
      </l>
      <l>
       at miro fakkar
-      <note type="footnote">
-       Forfatternote:
-       fakka
-       : gjera.
-      </note>
+      
       so!
      </l>
      <l>
@@ -9174,11 +8751,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      </l>
      <l>
       For miro kammar Latjoheit
-      <note type="footnote">
-       Forfatternote:
-       Latjoheit
-       : Godhug, Kjærleik.
-      </note>
+      
       –
      </l>
      <l>
@@ -9219,19 +8792,10 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Alt saag Enok no; so Helvites, Helvites klaart. Han hadde elska
                     Verdi; elska og dyrka Verdi; all Tid, all Tid. Gud hadde sagt: du skal selja alt
                     ditt og gjeva det til dei fatige; men Enok hadde meint Nei. Vandare
-     <note type="footnote">
-      Forfatternote:
-      (ikkje)vandare i
-      : slik
-                        Slag; like godt.
-     </note>
+     
      i kva Gud sagde; Enok hadde meint sitt, han.
                     Forherda seg hadde han; forherda seg som Farao. Snakka seg i Logn
-     <note type="footnote">
-      Forfatternote:
-      Logn
-      : Ro.
-     </note>
+     
      med
                     Prestetøv; kjent Anden vitne i Hjarta sitt, men gjort seg tjukkøyrd og dauv;
                     synda med Vilje, synda med Vilje; «Synden til Døden» heitte det i
@@ -9291,12 +8855,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      Fredlaus hasta han fraa Stad til Stad, utan Bidlund
-     <note type="footnote">
-      Forfatternote:
-      Bidlund
-      : Tòlmod;
-                        «Udholdenhed».
-     </note>
+     
      til aa arbeide, utan Ro til aa kvile.
                     Att og fram, att og fram; best som han var i Kjeldaren høyrde dei han paa Lofte,
                     og best som han gjekk i Dørom og sveiv, var han inginstad aa finne. Han gløymde
@@ -9444,12 +9003,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     </p>
     <p>
      Enok gjekk og tutla og vavra og var mest som burte. Underleg haalaus
-     <note type="footnote">
-      Forfatternote:
-      haalaus
-      : slø;
-                        ørskin.
-     </note>
+     
      og viljelaus vart han; det var Dagar, daa ho Anna laut segja
                     han fyri kva han skulde gjera, mest som han
      <pb n="310"/>
@@ -9753,11 +9307,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      Kvitare og kvitare skein Soli; gladare og gladare spela Solflekken seg. Dansa paa
                     Veggir og Golv; lyste paa Stakken hennar Anna; leika i det sveitte Haare hans
                     Enok; skvatt so uppi Róte,
-     <note type="footnote">
-      Forfatternote:
-      Rót
-      : Loftgolve yvi Stogurome.
-     </note>
+     
      der
                     Flugur i tusundtal krauma og kraup. Skuggen av den gamle Raunen som svinga der
                     ute i Sumarvinden, vogga seg
@@ -9859,12 +9409,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
      – Noko fælt leidt hende. Dei laut byte Gjente midt i Aare; ho Maren, det
                     Slarvetinge, hadde vorti med Barn. Den Ukjura han Helmik Heialand skulde vera
                     Skuldi; han slepte seg nok reint yvi,
-     <note type="footnote">
-      Forfatternote:
-      sleppe seg yvi
-      : gjeva seg upp;
-                        «forfalde.»
-     </note>
+     
      det Menneskje no. «Vaabøni!
                     Vaabøni!» braaka han Enok; «for mi Skuld kastar Gud Vanære yvi
                     heile mitt Hus. Kvi Fenden gjeng eg her? kvi gjer eg kje Ende paa meg, so Guds
@@ -9998,12 +9543,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <head type="main">
      [XXIX.]
     </head>
-    <note type="footnote">
-     XXIX.]
-     rettet fra:
-     XIX.
-                    (feilnummerering)
-    </note>
+    
     <p>
      Han gjekk heim; sov roleg um Natti og vakna um Morgonen med klaart Hovud.
     </p>
@@ -10128,11 +9668,7 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
                     Sat og rødde um Mor hans Enok; ho hadde au havt det med slike Gruvle-Ridir,
                     sagde han; «so du skal kje bry deg, Enok; du skal kje bry deg ...»
                     Men ingin kunde skỳna kva Trøyst Enok
-     <note type="footnote">
-      Enok]
-      rettet fra:
-      Envk
-     </note>
+     
      skulde hava av det at Mor
                     hans au hadde havt Gruvle-Ridir. «No vilde eg berre ynskja, eg hadde di
                     Tru!» ropa Enok inn i Øyra paa Gamlen; – «jagu ja,
@@ -10204,21 +9740,12 @@ Teksten i bokselskap.no følger 2. utgave, 1905 (Kristiania,
     <p>
      «Hyss da Mand; – skulde der være noget i Veien med
      mens?
-     <note type="footnote">
-      Forfatternote:
-      mens
-      : Sjæl; Sinn.
-     </note>
+     
      – – Hm; ikke
                     noe særligt vist ... Hm. Det er vel bare denne Gudeligheta igjen. Du gaar vel
                     paa disse Opbyggelserne og tyller dig fuld af Svovelsnakk, kan jeg tro. He-he;
                         Pecus.
-     <note type="footnote">
-      Forfatternote:
-      pecus
-      :
-                        Fe.
-     </note>
+     
      Som sagt, min Mand, er der noget i Veien med
                     «Samvite», saa faar du gaa til Presten; jeg har ikke noe med de
                     Ting. Men et Sovemiddel kan du faa. Hør du smaa der; fins der Pen og Blæk i

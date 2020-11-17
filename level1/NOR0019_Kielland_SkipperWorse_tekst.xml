@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0019" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0019" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Skipper Worse ELTeC-utgaven
     </title>
-    <author>
-     Kielland, Alexander (1849-1906)
-     <idno type="viaf">
-      https://viaf.org/viaf/54187212
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q318358
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/54187212 https://www.wikidata.org/wiki/Q318358">Kielland, Alexander  (1849-1906)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -32,32 +28,24 @@
      313
     </measure>
    </extent>
-   <publicationStmt>
-    <p>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
-     <date>
+     
       2020-11-13
-     </date>
-    </p>
-   </publicationStmt>
+     
+    --></publicationStmt>
    <sourceDesc>
-    <bibl>
-     <ref target="bokselskap.no">
-      Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på prosjekt Runebergs versjon (http://runeberg.org/skipwors) og er korrekturlest mot faksimiler av 2. opplag i Bokhylla.no.
+    <bibl type="digitalSource">
+     <ref target="https://www.bokselskap.no/boker/skipperworse/tittelside">
+      bokselskap.no 2013.
+      Alexander L. Kielland: Skipper Worse
+      Teksten i bokselskap.no følger 2. opplag, 1882. 
+      Digitaliseringen er basert på prosjekt Runebergs versjon 
+      (http://runeberg.org/skipwors) og er korrekturlest mot faksimiler av 2. opplag i Bokhylla.no.
      </ref>
-     <ref target="wiki">
-      some ref
-     </ref>
-     <relatedItem type="copyText">
-      <bibl>
-       <author>
-        A. L. Kielland
-       </author>
-       <title>
-        bokselskap.no 2013.
-Alexander L. Kielland: Skipper Worse
-Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på prosjekt Runebergs versjon (http://runeberg.org/skipwors) og er korrekturlest mot faksimiler av 2. opplag i Bokhylla.no.
-       </title>
+       <author>A. L. Kielland</author>
+     <title>Skipper Worse</title>
        <pubPlace>
         Kjøbenhavn
        </pubPlace>
@@ -70,10 +58,7 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
        <idno type="wiki">
         https://www.wikidata.org/wiki/Q12000992
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -85,11 +70,12 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-15">Checked by checkup
+                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2013-01-16">
     Ført inn korrekturrettelser. Validert. Kodekontroll.
    </change>
@@ -100,11 +86,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
  </teiHeader>
  <text type="novel" xml:id="BS_Kielland_SkipperWorse_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0019001">
+   <div type="chapter">
     <head>
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       I.
-     </ref>
+     
     </head>
     <p>
      «Lauritz! – din Dævlunge! op og klar Vimpelen.»
@@ -376,11 +362,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Men paa Torvebryggen ventede der Skipper Worse en bitter Skuffelse: Randulf var i Østersøen med Sild.
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0019002">
+   <div type="chapter">
     <head>
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       II.
-     </ref>
+     
     </head>
     <p>
      «Sara! – du gaar i Forsamlingen i Eftermiddag,» sagde Madame Torvestad til sin ældste Datter.
@@ -709,11 +695,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Men Kapteinen og Jungmanden tog sig endnu en Omgang ved Skjænken. Dette havde kvikket Worse op; og da han saa, hvor sjæleglad Lauritz stormede afsted til Søhuset, forat hente Kisten med det mærkværdige i, glemte han for et Øieblik, hvor dyrt han havde betalt sin Jungmands lille Tagkammer. –
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0019003">
+   <div type="chapter">
     <head>
-     <ref target="contents_3" type="contents" xml:id="chapter_3">
+     
       III.
-     </ref>
+     
     </head>
     <p>
      Hans Nilsen Fennefos kom fra en Familie, der tidligt var bleven vakt ved Hauges Reiser gjennem Bygden. Fra sin tidligste Barndom havde han hørt Tale om den elskede Lærer, hans Moder havde sunget hans Salmer, og selv bar han hans Navn.
@@ -840,29 +826,7 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
     </p>
     <p>
      Vel var det forbi med hine Tider
-     <note type="footnote">
-      <p>
-       (Forfatterens note:) I Slutten af forrige og i Begyndelsen af dette Aarhundrede vare Præsterne i Norge tørre Rationalister, der ikke formaaede at tilfredsstille den religiøse Trang hos Folket, som de ikke forstod, og hvis lave Kultur de dessuden foragtede.
-      </p>
-      <p>
-       Da begyndte en ulærd Bondesøn – Hans Nilsen Hauge – født 1771 – at vandre om i Landet, og ved Samtaler og gudelige Forsamlinger vakte han i kort Tid et blomstrende Kristenliv blandt Almuen. Bonden vendte sig fra Slagsmaal og Drik og tog fat paa sit Arbeide; og snart havde Bevægelsen fundet talrige Brændpunkter i det vidtstrakte Land, hvor Fabriker og industrielle Anlæg voxede frem under flittige Hænder, medens Arbeidere og Arbeidsherrer i broderlig Kjærlighed samledes om Guds Ord.
-      </p>
-      <p>
-       At Folket saaledes hjalp sig selv baade i aandelig og timelig Henseende, kunde Embedsstanden ikke taale. Præsterne fik en villig Haandsrækning af Juristerne, og ved Hjælp af en gammel Forordning af 1741 mod gudelige Forsamlinger fik de Hauge grebet og fængslet.
-      </p>
-      <p>
-       I ti Aar holdt de ham i Fængsel. Men da alt, hvad utallige Forhør bragte for Dagen, kun var nye Vidnebyrd om Mandens pletfri Vandel, store Evner og ædle Karakter, maatte hans Fiender tilslut lade ham gaa og nøies med at berøve ham Resterne af hans Formue.
-      </p>
-      <p>
-       Alligevel havde de seiret. Thi Hauge var legemligt knækket af et langt og usundt Fængselsliv; han levede ikke mange Aar efter, – syg og fuld af Plager, men kjæk og frimodig til det sidste.
-      </p>
-      <p>
-       I 1824 døde han. Men først i 1842 fik Folkets Repæsentanter hin gamle Forordning af 1741 ophævet – tiltrods for Kongen, Statsraad, Amtmænd, Universitet, Bisper, Provster og Præster. –
-      </p>
-      <p>
-       (Anm. til den tyske Udgave.)
-      </p>
-     </note>
+     
      , da Præsten tog Lensmanden eller en fordrukken Løitnant med sig, adsplittede de gudelige Forsamlinger, skjældte Prædikanten eller spyttede ham i Ansigtet og lod ham transportere ud af Sognet til næste Lensmand.
     </p>
     <p>
@@ -1150,11 +1114,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Alligevel maatte han flere Gange tænke paa, hvor hyggeligt det havde været at synge med Jomfru Sara, og han fandt, der var ensomt og tørt i hans store luftige Stuer.
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0019004">
+   <div type="chapter">
     <head>
-     <ref target="contents_4" type="contents" xml:id="chapter_4">
+     
       IV.
-     </ref>
+     
     </head>
     <p>
      De følgende Aftener var Skipper Worse igjen i Klubben og befandt sig vel. Det var bare den første Dag, det faldt saa forkjert med disse unge Amerikafarere.
@@ -1501,11 +1465,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      I Klubben var de saa forbandet vittige.
     </p>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0019005">
+   <div type="chapter">
     <head>
-     <ref target="contents_5" type="contents" xml:id="chapter_5">
+     
       V.
-     </ref>
+     
     </head>
     <p>
      Naar Solen senhøstes gik ned i store gule Skyer fulde af Storm og Regn, sænkede der sig over den lille By et Mørke, mod hvilket der ikke blev gjort nogen Modstand, – medmindre man vilde regne en liden Lygte, som døsede i Muren ved Indgangen til Raadstuen.
@@ -1911,11 +1875,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Og Folk, som havde været længe hjemmefra og faret Jorden rundt, de sagde, at saadan Luft fandtes ikke andetsteds i Verden; og de reiste ud og de kom igjen; og hjemme var der nogle faa, som længtede ud; men alle – alle som vare ude, længtede hjem.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0019006">
+   <div type="chapter">
     <head>
-     <ref target="contents_6" type="contents" xml:id="chapter_6">
+     
       VI.
-     </ref>
+     
     </head>
     <p>
      Jomfru Sara og Henriette sad i Væverstuen og nøstede Garn, – Henriette hviskede. Moderen sad og skrev Breve i Dagligstuen med Døren aaben; men hun hørte ikke godt.
@@ -2199,11 +2163,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Fra Kristiansand vilde han saa tage opover Sætersdalen, og ved Juletider gjorde han Regning paa at være i sin Hjembygd. –
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0019007">
+   <div type="chapter">
     <head>
-     <ref target="contents_7" type="contents" xml:id="chapter_7">
+     
       VII.
-     </ref>
+     
     </head>
     <p>
      Det var ikke Hykleri, naar Madame Torvestad udbredte sig over, hvormegen Pris hun satte paa at have Hans Nilsen boende i sit Hus og hvor ondt det gjorde hende, naar han reiste bort. Men paa den anden Side skjulte hun dog omhyggeligt, hvor beleiligt det kom hende denne Gang.
@@ -2568,11 +2532,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Men Henriette, som hørte Sara hulke, krøb op i hendes Seng og vilde trøste hende.
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0019008">
+   <div type="chapter">
     <head>
-     <ref target="contents_8" type="contents" xml:id="chapter_8">
+     
       VIII.
-     </ref>
+     
     </head>
     <p>
      Den første Skygge, som trak hen over Skipper Worses Lyksalighed, var Mødet med Konsul Garman, da han skulde ud og melde Forlovelsen.
@@ -2618,9 +2582,7 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
     </p>
     <p>
      «Paa Søndag!
-     <note type="criticalApp">
-      Trolig satt feil, «Paa Søndag!» er nok Worses svar og ikke del av konsul Garmans neste «replikk».
-     </note>
+     
      – naa – De har saa Skam Hastværk, – ja – ja! – gid De bare aldrig maa fortryde det.»
     </p>
     <p>
@@ -2907,9 +2869,7 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
     </p>
     <p>
      Men da Romarino var kommen paa egen Haand og var bleven gift med en Jomfru fra Bergen, om hvem man kun vidste, at hun var munter og verdsligsindet, og at hendes Familie ikke hørte til de Vakte, blev Forholdet
-     <note type="criticalApp">
-      Forholdet] rettet fra: Forholdt
-     </note>
+     
      kjøligere. De unge og de gamle Worses havde ikke Interesser fælles og saaes kun yderst sjeldent. Romarino kjøbte sig et Hus, og slog svært stort paa. Gamle Worse rystede paa Hovedet. –
     </p>
     <p>
@@ -2949,11 +2909,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Men Brevet havde Sara skrevet; Moderen havde selv bedt hende derom.
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0019009">
+   <div type="chapter">
     <head>
-     <ref target="contents_9" type="contents" xml:id="chapter_9">
+     
       IX.
-     </ref>
+     
     </head>
     <p>
      Garman &amp; Worse havde nogle heldige Aar. Som en Strøm af friskt Blod løb Jacob Worses Penge ind i den hensygnende Forretning, fordelte sig udover Lemmerne og gjorde hele Organismen sund og stærk. Og det varede ikke længe, før Firmaet havde gjenvundet hele sin Glans baade hjemme og ude.
@@ -3106,11 +3066,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Men naar man bøiede Grenene tilside og trængte ind i det forvildrede Krat, kunde man endnu se Spor af de retvinklede Gange og af de smaa klippede Dukkehækker. Der var mørkt og fugtigt, glat af grøn Mose, og en gammel uddød Lugt af Buxbom, som raadnede.
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0019010">
+   <div type="chapter">
     <head>
-     <ref target="contents_10" type="contents" xml:id="chapter_10">
+     
       X.
-     </ref>
+     
     </head>
     <p>
      I den lave, gammeldagse Stue hos Sivert Jespersen blev der dækket langt Bord. Det var god Damaskes Dug og Servietter; men simple Knive og Jerngafler. Hist og her med store Mellemrum stod en Flaske Medoc, ellers var der Vand, Salt og Brød paa Bordet – og ingenting mer.
@@ -3225,9 +3185,7 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
     </p>
     <p>
      Hans
-     <note type="criticalApp">
-      Hans] rettet fra: Nans
-     </note>
+     
      Nilsen Fennefos taug eller talte halvhøit nogle Ord til Sara. Men mange blev nu livlige ved at tale om disse Emner, som interesserede dem alle, og hvorom de fleste vidste god Besked. Madame Torvestad var især ivrig; det var netop i disse Ting, hun var hjemme, og hun lod aldrig nogen Leilighed gaa unyttet, til at fortælle om de Mænd, hun i sin Ungdom havde hørt saa meget om.
     </p>
     <p>
@@ -3411,11 +3369,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Herved følte de andre sig aabenbart lettede, og nu først begyndte de at tale meget ivrigt om Saltpriserne.
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0019011">
+   <div type="chapter">
     <head>
-     <ref target="contents_11" type="contents" xml:id="chapter_11">
+     
       XI.
-     </ref>
+     
     </head>
     <p>
      Skipper Randulfs lille hvide Hus laa høit med Udsigt over Vaagen og Fjorden. De to Venner havde spist og spist svært: nu sov de Middagssøvn, Værten paa sin almindelige Plads i Sofaen og Gjæsten i en stor Lænestol.
@@ -3826,11 +3784,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Men først da han havde snorket en hel Time, kom hans Kone stille ind og lagde sig ved hans Side.
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0019012">
+   <div type="chapter">
     <head>
-     <ref target="contents_12" type="contents" xml:id="chapter_12">
+     
       XII.
-     </ref>
+     
     </head>
     <p>
      Hver Aften, naar hun gik iseng, gjentog Henriette den Ed, hun havde svoret Lauritz, da han reiste: «Jeg lover og sværger at elske dig trofast i Liv og Død og aldrig gifte mig med nogen anden.»
@@ -4154,11 +4112,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Paa hende mærkede Folk ingenting; men med Fennefos syntes Vennerne, at der var foregaaet en heldig Forandring. Den overdrevne Strænghed, han var begyndt med, var nu ganske veget fra ham, – ja der var næsten noget ydmygt over ham.
     </p>
    </div>
-   <div n="13" type="chapter" xml:id="NOR0019013">
+   <div type="chapter">
     <head>
-     <ref target="contents_13" type="contents" xml:id="chapter_13">
+     
       XIII.
-     </ref>
+     
     </head>
     <p>
      Det var en temmelig stor Gaard, som flere af de fornemste Haugianere ejede i Fællesskab; og foruden Jordbruget var der ogsaa en Del Fabrikanlæg.
@@ -4452,11 +4410,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      Og da de kom tilbords, kunde han neppe røre Maden; Djævelen var i Erterne ogsaa.
     </p>
    </div>
-   <div n="14" type="chapter" xml:id="NOR0019014">
+   <div type="chapter">
     <head>
-     <ref target="contents_14" type="contents" xml:id="chapter_14">
+     
       XIV.
-     </ref>
+     
     </head>
     <p>
      Min kjære Christian Fredrik!
@@ -4739,11 +4697,11 @@ Teksten i bokselskap.no følger 2. opplag, 1882. Digitaliseringen er basert på 
      </emph>
     </p>
    </div>
-   <div n="15" type="chapter" xml:id="NOR0019015">
+   <div type="chapter">
     <head>
-     <ref target="contents_15" type="contents" xml:id="chapter_15">
+     
       XV.
-     </ref>
+     
     </head>
     <p>
      En Storm kan gaa an, selv om den er temmeligt stiv, naar man er paa Landjorden.

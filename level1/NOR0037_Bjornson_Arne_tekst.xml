@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0037" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0037" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Arne ELTeC-utgaven
     </title>
-    <author>
-     Bjørnson, Bjørnstjerne Matrtinius (1832-1910)
-     <idno type="viaf">
-      https://viaf.org/viaf/295290572
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q46405
-     </idno>
-    </author>
+    <author ref="https://viaf.org/viaf/295290572 https://www.wikidata.org/wiki/Q46405">Bjørnson, Bjørnstjerne Matrtinius  (1832-1910)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -32,49 +28,40 @@
      0
     </measure>
    </extent>
-   <publicationStmt>
-    <p>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
-     <date>
+     
       2020-11-13
-     </date>
-    </p>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl>
-     <ref target="http://www.bokselskap.no/boker/forraadt/tittelside">
-      Teksten i bokselskap.no er basert p&amp;#x00E5; skannet og ocr-lest txt-fil mottatt fra NB/bokhylla.no.
+     
+    --></publicationStmt>
+   <sourceDesc><bibl type="digitalSource">
+     <ref target="http://www.bokselskap.no/boker/arne/tittelside">
+      Teksten er hentet fra Universitetet i Oslo/dokpro.uio.no. Dokpros tekst er basert på 
+      Samlede Digter-Verker, standardutg. i 9 bind, Kristiania, Gyldendal, 1919–20. 
      </ref>
-     <ref target="wiki">
-      some ref
+     <date>1919-20</date>
+     
+    </bibl><bibl type="firstEdition">
+     <ref target="https://www.nb.no/items/49692694064385ffe6111e3c7c088d2f">
+      NB, Bokhylla
      </ref>
-     <relatedItem type="copyText">
-      <bibl>
        <author>
         B. M. Bjørnson
        </author>
        <title>
-        bokselskap 2012: Bjørnstjerne Bjørnson: Arne (1859). Teksten er hentet fra Universitetet i
-                    Oslo/dokpro.uio.no. Dokpros tekst er basert på Samlede
-                        Digter-Verker, standardutg. i 9 bind, Kristiania, Gyldendal,
-                    1919–20.
+     Arne
        </title>
        <pubPlace>
-        Kjøbenhavn
+        Bergen
        </pubPlace>
        <publisher>
-        Gyldendalske Boghandels Forlag (F. Hegel &amp; Søn)
+        Geelmuydens Enke Officin og Forlag
        </publisher>
        <date>
-        1859
+        1858
        </date>
-       <idno type="wiki">
-        https://www.wikidata.org/wiki/Q21473314
-       </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+       </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -86,11 +73,12 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T1"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc>
+  <revisionDesc><change when="2020-11-15">Checked by checkup
+                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2012-04-30" xml:id="ENW">
     Kodet teksten i TEI p5.
    </change>
@@ -98,12 +86,12 @@
  </teiHeader>
  <text type="novel" xml:id="BS_Bjornson_Arne_tekst_xml_text">
   <body>
-   <div n="1" type="chapter" xml:id="NOR0037001">
+   <div type="chapter">
     <head>
-     <ref target="contents_1" type="contents" xml:id="chapter_1">
+     
       Første
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      DER var et dypt stup nede mellem to fjell; igennem det stup drog en vandrik elv
@@ -203,11 +191,11 @@
                     at nå frem,» sagde eneren.
     </p>
    </div>
-   <div n="2" type="chapter" xml:id="NOR0037002">
+   <div type="chapter">
     <head>
-     <ref target="contents_2" type="contents" xml:id="chapter_2">
+     
       Annet kapitel.
-     </ref>
+     
     </head>
     <p>
      Oppe på kampen var det, at Arne blev fødd.
@@ -555,12 +543,12 @@
                     ikke.
     </p>
    </div>
-   <div n="3" type="chapter" xml:id="NOR0037003">
+   <div type="chapter">
     <head>
-     <ref target="contents_3" type="contents" xml:id="chapter_3">
+     
       Tredje
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Det var just om høsten, som før meldt. Åtte dager efter at
@@ -863,12 +851,12 @@
                     skjorte og sin trøje.
     </p>
    </div>
-   <div n="4" type="chapter" xml:id="NOR0037004">
+   <div type="chapter">
     <head>
-     <ref target="contents_4" type="contents" xml:id="chapter_4">
+     
       Fjerde
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Da nu den tid var kommen, at kreaturene skulde gætes i skogen, vilde han
@@ -1154,11 +1142,11 @@
      </l>
     </quote>
    </div>
-   <div n="5" type="chapter" xml:id="NOR0037005">
+   <div type="chapter">
     <head>
-     <ref target="contents_5" type="contents" xml:id="chapter_5">
+     
       Femte kapitel.
-     </ref>
+     
     </head>
     <p>
      Arne blev ved at gæte; om vintren leste han, når sommeren kom
@@ -1478,12 +1466,12 @@
                     lå og sov som et barn.
     </p>
    </div>
-   <div n="6" type="chapter" xml:id="NOR0037006">
+   <div type="chapter">
     <head>
-     <ref target="contents_6" type="contents" xml:id="chapter_6">
+     
       Sjette
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Nogle dager efter blev moder og søn, som i senere tid havde levet mere
@@ -1707,12 +1695,12 @@
                     drømt.»
     </p>
    </div>
-   <div n="7" type="chapter" xml:id="NOR0037007">
+   <div type="chapter">
     <head>
-     <ref target="contents_7" type="contents" xml:id="chapter_7">
+     
       Syvende
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Det var dagen efter på låven i samme gård. Arne havde
@@ -1864,12 +1852,12 @@
      «Du ser dig så om, Arne?»
     </p>
    </div>
-   <div n="8" type="chapter" xml:id="NOR0037008">
+   <div type="chapter">
     <head>
-     <ref target="contents_8" type="contents" xml:id="chapter_8">
+     
       Åttende
                         kapitel.
-     </ref>
+     
     </head>
     <quote>
      <l>
@@ -2166,12 +2154,12 @@
                     fortroligt.
     </p>
    </div>
-   <div n="9" type="chapter" xml:id="NOR0037009">
+   <div type="chapter">
     <head>
-     <ref target="contents_9" type="contents" xml:id="chapter_9">
+     
       Niende
                         kapitel.
-     </ref>
+     
     </head>
     <quote>
      <l>
@@ -2772,12 +2760,12 @@
                     men visen.
     </p>
    </div>
-   <div n="10" type="chapter" xml:id="NOR0037010">
+   <div type="chapter">
     <head>
-     <ref target="contents_10" type="contents" xml:id="chapter_10">
+     
       Tiende
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      At tale til moderen var ikke så lett gjort som tenkt. Han talte
@@ -3144,12 +3132,12 @@
                     ved det vindu Eli havde stått forrige kveld.
     </p>
    </div>
-   <div n="11" type="chapter" xml:id="NOR0037011">
+   <div type="chapter">
     <head>
-     <ref target="contents_11" type="contents" xml:id="chapter_11">
+     
       Ellevte
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Dagen efter kom Arne inn og fortalte, hvad han nettopp havde fått
@@ -3398,12 +3386,12 @@
                     Bård nu havde talt eller ej.
     </p>
    </div>
-   <div n="12" type="chapter" xml:id="NOR0037012">
+   <div type="chapter">
     <head>
-     <ref target="contents_12" type="contents" xml:id="chapter_12">
+     
       Tolvte
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Eli var såre matt efter sykdommen, moderen sat over henne natt og dag og
@@ -3676,12 +3664,12 @@
                     gått.
     </p>
    </div>
-   <div n="13" type="chapter" xml:id="NOR0037013">
+   <div type="chapter">
     <head>
-     <ref target="contents_13" type="contents" xml:id="chapter_13">
+     
       Trettende
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Sent kommer våren inn imellem fjellene. Posten, som drog efter kongsvejen
@@ -3957,12 +3945,12 @@
                     hennes beste mat.
     </p>
    </div>
-   <div n="14" type="chapter" xml:id="NOR0037014">
+   <div type="chapter">
     <head>
-     <ref target="contents_14" type="contents" xml:id="chapter_14">
+     
       Fjortende
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Kampen var en vakker gård. Den lå midt på den slette, som
@@ -4438,12 +4426,12 @@
      </l>
     </quote>
    </div>
-   <div n="15" type="chapter" xml:id="NOR0037015">
+   <div type="chapter">
     <head>
-     <ref target="contents_15" type="contents" xml:id="chapter_15">
+     
       Femtende
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      «Farvel!» sagde Margit i døren oppe hos presten. –
@@ -4857,12 +4845,12 @@
                     det.
     </p>
    </div>
-   <div n="16" type="chapter" xml:id="NOR0037016">
+   <div type="chapter">
     <head>
-     <ref target="contents_16" type="contents" xml:id="chapter_16">
+     
       Sekstende
                         kapitel.
-     </ref>
+     
     </head>
     <p>
      Det var ut på høsten, folk holdt på at køre inn i

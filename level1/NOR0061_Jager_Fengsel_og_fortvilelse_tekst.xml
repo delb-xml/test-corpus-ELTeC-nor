@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0061" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0061" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Fængsel og fortvilelse ELTeC-utgaven
     </title>
-    <author>
-     Jæger, Hans Henrik (1854-1910)
-     <idno type="viaf">
-      107037771
-     </idno>
-     <idno type="wiki">
-      https://www.wikidata.org/wiki/Q924021
-     </idno>
-    </author>
+    <author ref="viaf:107037771 https://www.wikidata.org/wiki/Q924021">Jæger, Hans Henrik  (1854-1910)</author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -32,24 +28,23 @@
      427
     </measure>
    </extent>
-   <publicationStmt>
-    <p>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
-     <date>
+     
       2020-11-02
-     </date>
-    </p>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl>
+     
+    --></publicationStmt>
+   <sourceDesc><bibl type="digitalSource">
      <ref target="https://www.nb.no/items/70bec8422f41f7207805d001988fbfdc?page=5&amp;searchText=F%C3%A6ngsel%20og%20fortvilelseDS">
       Utgaven er basert på teksten i en utgave fra 1970 (Pax Forlag)
      </ref>
-     <ref target="wiki">
-      some ref
+     
+     
+    </bibl><bibl type="firstEdition">
+     <ref target="https://www.nb.no/items/fc9a8fc10ca6e530e3c4eddd48a18aab">
+      NB Bokhylla
      </ref>
-     <relatedItem type="copyText">
-      <bibl>
        <author>
         H. H. Jæger
        </author>
@@ -68,10 +63,7 @@
        <idno type="wiki">
         Q65526669
        </idno>
-      </bibl>
-     </relatedItem>
-    </bibl>
-   </sourceDesc>
+      </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p n="eltec-0"/>
@@ -83,14 +75,15 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="long"/>
-    <e:canonicity key="high"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
-  </profileDesc>  <revisionDesc>
+  </profileDesc>  <revisionDesc><change when="2020-11-15">Checked by checkup
+                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2006-02">
-    <name>
+    
      ESO
-    </name>
+    
     Stilark påbegynt. Første delen av XSL-fil
     laget
    </change>
@@ -98,17 +91,18 @@
  </teiHeader>
  <text type="novel" xml:id="hjt3ff_xml_text">
   <body>
-   <div type="binddel">
+   
     
-     <div n="IL" type="chapter">
-      <p>
+     <div type="chapter">
+      <head>II.</head>
+      <head>
         En uke efter. (Thorsda 9de August
                      88)
-      </p>
-      <p>
+      </head>
+      <head>
        BREV TIL VERA
-      </p>
-      <div type="brev">
+      </head>
+      <milestone unit="brev"/>
        <p>
         Aa kom kom Vera! si ikke nej, ta gjerne ham me, men
         kom for guds skyll,
@@ -181,10 +175,10 @@
                         skal
         velsigne dere begge to.
        </p>
-      </div>
+      
      </div>
      <pb n="6"/>
-     <div n="L" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (Freda 10de August
                      88)
@@ -711,7 +705,7 @@
       </p>
      </div>
      <pb n="12"/>
-     <div n="LI" type="chapter">
+     <div type="chapter">
       <p>
         En uke efter. (Thorsda 16de August
                      88)
@@ -1198,7 +1192,7 @@
       </p>
      </div>
      <pb n="18"/>
-     <div n="LII" type="chapter">
+     <div type="chapter">
       <p>
          Dagen efter. (Freda 17de August
                      88)
@@ -1265,7 +1259,7 @@
                      :
       </p>
       <pb n="19"/>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         Kjære, kjære dei
        </p>
@@ -1298,8 +1292,8 @@
         ikke rigti i champagnestemning men
         rædsomt fordrøvet.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
       
        Jei staar der mitt i cellen og læser begjærli om igjen
@@ -1836,10 +1830,10 @@
        naa
        hadde den haannen din!
       </p>
-      </div>
+      
      </div>
      <pb n="26"/>
-     <div n="LIII" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter (Lørda 18de August
                      88)
@@ -2335,7 +2329,7 @@
        og jei river breve
                      op og læser - :
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         - saa kjørte jei me Kahrs og var hos Kahrs til af-
         ten, og laa hos
@@ -2377,8 +2371,8 @@
         Din fordrøvete Vera
         gud hvor jei er gla i dei.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Hjerte banker i vill glæde mens jei læser det - : nej
        det
@@ -2430,10 +2424,10 @@
                      sikre medlidende smil hvor-
        me han sa det! . . .
       </p>
-      </div>
+      
      </div>
      <pb n="33"/>
-     <div n="LIV" type="chapter">
+     <div type="chapter">
       <p>
         To dage efter. (Manda 20de August
                      88).
@@ -2441,7 +2435,7 @@
       <p>
        BREV TIL VERA
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         Vera hvor er du henne naa? hva gjør du? hvordan
         ser du ut? hva sier du,
@@ -2499,10 +2493,10 @@
                         tilintetgjort
         uten dei.
        </p>
-      </div>
+      
      </div>
      <pb n="34"/>
-     <div n="LV" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter (Tirsda 21de August
                      88).
@@ -2510,7 +2504,7 @@
       <p>
        BREV FRA VERA:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
          Hvidsten. Manda 20.
        </p>
@@ -2597,10 +2591,10 @@
         men skriv til
                         mei imens kjære dei.
        </p>
-      </div>
+      
      </div>
      <pb n="36"/>
-     <div n="LVI" type="chapter">
+     <div type="chapter">
       <p>
         To dage senere (Thorsda 23de August
                      88)
@@ -3118,7 +3112,7 @@
                      lagt omkring det altsammen. Paa papirlappen har
        hun skrevet:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         Netop naa!
        </p>
@@ -3137,7 +3131,7 @@
         Din egen Vera.
        </p>
        <pb n="42"/>
-       <div type="etterskrift">
+       <milestone unit="unrecognized"/>
         <p>
          Det ene af de to brevene fra Hvidtsten som du her
          faar, kom jei ikke
@@ -3151,9 +3145,9 @@
          imaaren kl. 5
                            rejser jei ut til Hvidtsten igjen.
         </p>
-       </div>
-      </div>
-      <div>
+       
+      
+      <milestone unit="unspecified"/>
       <p>
        - Gudsjelov! - jei aanner igjen frit - det var alt-
        saa, ikke noe
@@ -3248,8 +3242,8 @@
                      Waldemar ville læse det" -
        og jei bryter det og læser begjærli - ;
       </p>
-      </div>
-      <div type="brev">
+      
+      <milestone unit="brev"/>
        <p>
          4 august.
        </p>
@@ -3284,13 +3278,13 @@
        <p>
         Vera.
        </p>
-       <div type="etterskrift">
+       <milestone unit="unrecognized"/>
         <p>
          Tak min egen kjære ven for alt hva du er for mei.
         </p>
-       </div>
-      </div>
-      <div>
+       
+      
+      <milestone unit="unspecified"/>
       <p>
        Tak, tak Vera! for alt det
        du
@@ -3785,10 +3779,10 @@
       <p>
        - "Jeg elsker elsker elsker dei!"
       </p>
-      </div>
+      
      </div>
      <pb n="50"/>
-     <div n="LVII" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (Freda 24de
                      August)
@@ -3940,7 +3934,7 @@
       </p>
      </div>
      <pb n="52"/>
-     <div n="LVIII" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (Lørda 25de August
                      88)
@@ -4366,7 +4360,7 @@
       </p>
      </div>
      <pb n="57"/>
-     <div n="LIX" type="chapter">
+     <div type="chapter">
       <p>
         To dage efter. (Manda 27de August
                      88).
@@ -4728,7 +4722,7 @@
       </p>
      </div>
      <pb n="62"/>
-     <div n="LX" type="chapter">
+     <div type="chapter">
       <p>
          Dagen efter (Tirsda 28de August
                      88).
@@ -5241,7 +5235,7 @@
       </p>
      </div>
      <pb n="68"/>
-     <div n="LXI" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (Onsda 29de August
                      88).
@@ -5958,7 +5952,7 @@
       </p>
      </div>
      <pb n="77"/>
-     <div n="LXII" type="chapter">
+     <div type="chapter">
       <p>
          Dagen efter (Thorsda 30de August
                      88)
@@ -6253,7 +6247,7 @@
       </p>
      </div>
      <pb n="81"/>
-     <div n="LXIII" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter (Freda 31 August
                      88).
@@ -6410,7 +6404,7 @@
       <p>
        SVAR PÅ VERAS BREV
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
          Freda nat.
        </p>
@@ -6505,10 +6499,10 @@
                         uten aa se dit ansikt
         - aa Vera Vera.
        </p>
-      </div>
+      
      </div>
      <pb n="85"/>
-     <div n="LXIV" type="chapter">
+     <div type="chapter">
       <p>
          To dage senere (Sønda 2den september
                         88)
@@ -6868,7 +6862,7 @@
       </p>
      </div>
      <pb n="89"/>
-     <div n="LXV" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (Manda 3die Septembre
                      88)
@@ -7456,7 +7450,7 @@
       </p>
      </div>
      <pb n="96"/>
-     <div n="LXVI" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (Tirsda 4de September
                      88)
@@ -7473,7 +7467,7 @@
                      og rejser mei overenne paa chæ-
        selongen og bryter det og læser:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
           Manda
          aften.
@@ -7530,8 +7524,8 @@
        <p>
         Din egen Vera.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Jei blir saa gla ve aa læse dette breve; jei skynner
        mei aa klæ paa mei og
@@ -7654,10 +7648,10 @@
                      arbejde - naar man har
        det vont, skal man ha det gott osv. -
       </p>
-      </div>
+      
      </div>
      <pb n="99"/>
-     <div n="LXVII" type="chapter">
+     <div type="chapter">
       <p>
          Dagen efter. (Onsda 5te September
                      88).
@@ -7729,7 +7723,7 @@
       </p>
      </div>
      <pb n="100"/>
-     <div n="LXVIII" type="chapter">
+     <div type="chapter">
       <p>
        Dagen efter. (Thorsda 6 September
                      88).
@@ -7737,7 +7731,7 @@
       <p>
        BREV TIL VERA
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         Vera hvor det var fælt her igaar! - hvor du iset mei
         over da du kom . .
@@ -7965,9 +7959,9 @@
         Din egen gut
         - er jei det?
        </p>
-      </div>
+      
       <pb n="103"/>
-      <div>
+      <milestone unit="unspecified"/>
       <p>
        Jei har sent afsted dette breve ve middagstide - og
        tilbragt en skrækkeli
@@ -8019,8 +8013,8 @@
        teren, og river
                      det op og læser - :
       </p>
-      </div>
-      <div type="brev">
+      
+      <milestone unit="brev"/>
        <p>
          Kl. 7.
        </p>
@@ -8050,8 +8044,8 @@
        <p>
         Vera.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        - "og min kjærlihet til dei gaar ikke over!" - graa-
        <pb/>
@@ -8134,10 +8128,10 @@
        papirene frem . .
                   .
       </p>
-      </div>
+      
      </div>
      <pb n="105"/>
-     <div n="LXIX" type="chapter">
+     <div type="chapter">
       <p>
        Dagen efter. (Freda 7de September
                      88).
@@ -8623,7 +8617,7 @@
                      og
        skriver til henne, træt og bedrøvet - :
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         Vera! hvis du engang pludseli midt oppi alt det du
         gaar i kommer til aa
@@ -8733,10 +8727,10 @@
         Din egen gut
         som ikke kjenner sei sell igjen.
        </p>
-      </div>
+      
      </div>
      <pb n="112"/>
-     <div n="LXX" type="chapter">
+     <div type="chapter">
       <p>
        Dagen efter (Lørda 8de September
                      88)
@@ -8901,7 +8895,7 @@
       </p>
      </div>
      <pb n="114"/>
-     <div n="LXXI" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (Sønda 9de September
                      88)
@@ -9005,7 +8999,7 @@
       </p>
      </div>
      <pb n="116"/>
-     <div n="LXXII" type="chapter">
+     <div type="chapter">
       <p>
          Dagen efter (Manda 10de September
                      88).
@@ -9225,7 +9219,7 @@
       </p>
      </div>
      <pb n="119"/>
-     <div n="LXXIII" type="chapter">
+     <div type="chapter">
       <p>
         To dage efter. (Onsda 12te September
                         88).
@@ -9607,7 +9601,7 @@
       </p>
      </div>
      <pb n="124"/>
-     <div n="LXXIV" type="chapter">
+     <div type="chapter">
       <p>
          Dagen efter (Thorsda 13de September
                      88)
@@ -9620,7 +9614,7 @@
                      brev, og jei bryter
        det og læser:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         "Kjære dei - ja igaar var det hyggeli. Men gud hvor
         jei graat da jei
@@ -9692,8 +9686,8 @@
        <p>
         Din Vera!
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Jei lægger breve fra mei, læner mei tilbake paa stolen,
        og stryker mei gla
@@ -9864,10 +9858,10 @@
        fra mei, og kjæmper mei inn igjen i det jei skal
                      skrive.
       </p>
-      </div>
+      
      </div>
      <pb n="127"/>
-     <div n="LXXV" type="chapter">
+     <div type="chapter">
       <p>
          Dagen efter. (Freda 14de September
                      88)
@@ -9968,7 +9962,7 @@
       </p>
      </div>
      <pb n="129"/>
-     <div n="LXXVI" type="chapter">
+     <div type="chapter">
       <p>
         To dage senere (Sønda 16de September
                         88).
@@ -11039,7 +11033,7 @@
       </p>
      </div>
      <pb n="141"/>
-     <div n="LXXVII" type="chapter">
+     <div type="chapter">
       <p>
         Fire dager efter. (Freda 24
         de
@@ -11048,7 +11042,7 @@
       <p>
        BREV TIL VERA
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         "Naa sitter jei her sløv og stille - aa saa underli stille
         og sløv
@@ -11315,10 +11309,10 @@
                         dette
         er en forfærdeli dødningetilstann . . ."
        </p>
-      </div>
+      
      </div>
      <pb n="145"/>
-     <div n="LXXVIII" type="chapter">
+     <div type="chapter">
       <p>
        Dagen efter. (Lørda 22
         de
@@ -11750,7 +11744,7 @@
        river
        det op, og læser:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         Kjære!
        </p>
@@ -11775,15 +11769,15 @@
        <p>
         Din Vera.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        - - Timer er gaat, det er sént paa nat - saa sæt-
        ter jei mei ned og
                      skriver til henne:
       </p>
-      </div>
-      <div type="brev">
+      
+      <milestone unit="brev"/>
        <p>
         "Tak Vera for breve dit! tak for at du ville vært hyg-
         <pb/>
@@ -11821,10 +11815,10 @@
         jei er det? - aa
                         Vera, om fjorten dage! -
        </p>
-      </div>
+      
      </div>
      <pb n="151"/>
-     <div n="LXXIX" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (Sønda 23
         de
@@ -11983,7 +11977,7 @@
       </p>
      </div>
      <pb n="153"/>
-     <div n="LXXX" type="chapter">
+     <div type="chapter">
       <p>
         Elve dage senere (Thorsda 4
         de
@@ -12186,7 +12180,7 @@
        jei river
                      konvolutten op og læser:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         Kjære
        </p>
@@ -12201,8 +12195,8 @@
         og naa er det for sént. La mei faa vite hvordan du har
         det naar du kommer ut.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Me haannen støttet paa det gule bore staar jei der
        litt og stirrer paa
@@ -12935,10 +12929,10 @@
                      ørken - intil jei plud-
        seli træffer henne" . . .
       </p>
-       </div>
+       
      </div>
      <pb n="164"/>
-     <div n="LXXXI" type="chapter">
+     <div type="chapter">
       <p>
          Fire dage efter. (Manda 8
         de
@@ -13140,7 +13134,7 @@
        Angest styrter jei inn paa Grand, faar breve, river
        det op og læser:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
          Skagen 7/10 88.
        </p>
@@ -13158,8 +13152,8 @@
        <p>
         Waldemar Bjørck.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Jei staar der skjælvende inni kaféen og læser dette,
        og det virker paa mei
@@ -13211,8 +13205,8 @@
                      ned gjennem alle nerver mens
        jei aapner det og læser:
       </p>
-      </div>
-      <div type="brev">
+      
+      <milestone unit="brev"/>
        <p>
           Manda 8/10 88.
        </p>
@@ -13312,8 +13306,8 @@
        <p>
         Vera.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Hjerte har snøret sei volsomt sammen mens jei har
        sittet der og læst - det
@@ -13380,10 +13374,10 @@
                      jei igjen afsted me døvete nerver
        og haannen paa saare . . .
       </p>
-      </div>
+      
      </div>
      <pb n="170"/>
-     <div n="LXXXII" type="chapter">
+     <div type="chapter">
       <p>
         Otte dage senere. (17
         de
@@ -14061,7 +14055,7 @@
        og imens faar jei
                      skrevet mit brev:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
          Skagen 22/10 88
        </p>
@@ -14126,8 +14120,8 @@
        <p>
         Hans Jæger.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Jei lægger breve sammen, forsejler det og skriver uten-
        paa - og læner mei
@@ -14530,10 +14524,10 @@
        være .
                      . .
       </p>
-      </div>
+      
      </div>
      <pb n="183"/>
-     <div n="LXXXIII" type="chapter">
+     <div type="chapter">
       <p>
         Noen dage senere.
       </p>
@@ -14667,7 +14661,7 @@
       </p>
      </div>
      <pb n="185"/>
-     <div n="LXXXIV" type="chapter">
+     <div type="chapter">
       <p>
         Fjorten dage senere.
       </p>
@@ -14934,7 +14928,7 @@
        faar jei et nyt et
                      fra henne:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
          Skagen.
        </p>
@@ -14964,8 +14958,8 @@
        <p>
         Vera.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Slap og dø sitter jei der ve min pjolter inne paa Grand
        og læser dette -
@@ -14978,10 +14972,10 @@
        vært mot dei paa det
                      siste!!!
       </p>
-      </div>
+      
      </div>
      <pb n="189"/>
-     <div n="LXXXV" type="chapter">
+     <div type="chapter">
       <p>
         En maaned senere. (8
         de
@@ -15419,7 +15413,7 @@
       </p>
      </div>
      <pb n="194"/>
-     <div n="LXXXVI" type="chapter">
+     <div type="chapter">
       <p>
         Otte dage senere. (16
         de
@@ -15450,7 +15444,7 @@
                      bryter breve og læ-
        ser:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         Kjære Hans Jæger!
        </p>
@@ -15484,9 +15478,9 @@
        <p>
         Lili.
        </p>
-      </div>
+      
       <pb n="195"/>
-      <div>
+      <milestone unit="unspecified"/>
       <p>
        Det føles som en bløt haann lagt paa mit hode og et
        par bløte deltagende
@@ -15507,8 +15501,8 @@
       <p>
        Saa sætter jei mei ned ve bore og skriver til henne:
       </p>
-      </div>
-      <div type="brev">
+      
+      <milestone unit="brev"/>
        <p>
         "Kjære fru Lili!
        </p>
@@ -15803,10 +15797,10 @@
         Deres
         Hans Jæger.
        </p>
-      </div>
+      
      </div>
      <pb n="199"/>
-     <div n="LXXXVII" type="chapter">
+     <div type="chapter">
       <p>
         Julaften 1888.
       </p>
@@ -16189,7 +16183,7 @@
       </p>
      </div>
      <pb n="204"/>
-     <div n="LXXXVIII" type="chapter">
+     <div type="chapter">
       <p>
         Dagen efter. (3
         die
@@ -17202,7 +17196,7 @@
       </p>
      </div>
      <pb n="215"/>
-     <div n="LXXXIX" type="chapter">
+     <div type="chapter">
       <p>
         Otte dage senere. (3
         die
@@ -17280,7 +17274,7 @@
       </p>
      </div>
      <pb n="216"/>
-     <div n="XC" type="chapter">
+     <div type="chapter">
       <p>
         Noen dage senere.
       </p>
@@ -17991,7 +17985,7 @@
       </p>
      </div>
      <pb n="224"/>
-     <div n="XCI" type="chapter">
+     <div type="chapter">
       <p>
         Fjorten dage senere (8
         de
@@ -18444,7 +18438,7 @@
       </p>
      </div>
      <pb n="230"/>
-     <div n="XCII" type="chapter">
+     <div type="chapter">
       <p>
         En maaned senere (17
         de
@@ -19839,7 +19833,7 @@
        I fjorten dage har jei ikke hørt fra henne - saa skri-
        ver jei til henne:
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
         "Forrie gang jei skrev til Dem lofte jei at jei aldri
         skulle be Dem om
@@ -19857,8 +19851,8 @@
         Deres
         Hans Jæger."
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Hun svarer kort tilbake:
       </p>
@@ -19886,8 +19880,8 @@
                      tilfældivis kom-
        mer noksaa ædru hjem. Det lyder saa:
       </p>
-      </div>
-      <div type="brev">
+      
+      <milestone unit="brev"/>
        <p>
         Nej, jei vil ikke snakke me Dem. Jei har netop hørt en
         saan mængde ting
@@ -19904,8 +19898,8 @@
        <p>
         Vera.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Det gaar mei som et volsomt sting gjennem hjerte, og
        <pb/>
@@ -19940,10 +19934,10 @@
        Men gud hvor jei syns det er sjofelt at hun har gjort
        det! . . .
       </p>
-      </div>
+      
      </div>
      <pb n="247"/>
-     <div n="XCIII" type="chapter">
+     <div type="chapter">
       <p>
         Fem uker senere (Slutten a Maj
                      89).
@@ -20262,7 +20256,7 @@
       </p>
      </div>
      <pb n="251"/>
-     <div n="XCIV" type="chapter">
+     <div type="chapter">
       <p>
         Halvanden maaned senere (Juli
                      89)
@@ -20723,11 +20717,11 @@
       </p>
      </div>
      <pb n="257"/>
-     <div n="XCV" type="chapter">
+     <div type="chapter">
       <p>
        BREV TIL VERA
       </p>
-      <div type="brev">
+      <milestone unit="brev"/>
        <p>
          Paris 25
          de
@@ -20890,8 +20884,8 @@
         ne jei bli sint paa
                         Dem hva Di saa enn hadde gjort -
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Jei skrev dette breve den 25
        de
@@ -20924,8 +20918,8 @@
        det
        først:
       </p>
-      </div>
-      <div type="brev">
+      
+      <milestone unit="brev"/>
        <p>
         "Hans Jæger, er det virkeli sant at Deres bog skal
         komme ut naa? - Jei
@@ -20936,8 +20930,8 @@
        <p>
         Vera".
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Jei blir sittende der me bankende hjerte og stirre hen
        for mei - : tænk,
@@ -21040,8 +21034,8 @@
        Paa Regencen finner jei et brev fra henne, bryter det
        angest og læser:
       </p>
-      </div>
-      <div type="brev">
+      
+      <milestone unit="brev"/>
        <p>
         Jei er eni me Dem i at "til intet har et menneske en
         helliere og
@@ -21057,8 +21051,8 @@
        <p>
         Vera.
        </p>
-      </div>
-      <div>
+      
+      <milestone unit="unspecified"/>
       <p>
        Jei blir forfærdelig tong om hjerte:
       </p>
@@ -21081,10 +21075,10 @@
                      denne første dagen ialfall vil
        jei forsøke aa være gla! . . .
       </p>
-      </div>
+      
      </div>
      <pb n="262"/>
-     <div n="XCVI" type="chapter">
+     <div type="chapter">
       <p>
        Fire uker efter (Mitt i Oktober
                      89).
@@ -21975,7 +21969,7 @@
       </p>
      </div>
      <pb n="272"/>
-     <div n="XCVII" type="chapter">
+     <div type="chapter">
       <p>
         Fjorten dage efter.
       </p>
@@ -22606,7 +22600,7 @@
       </p>
      </div>
     
-   </div>
+   
   </body>
  </text>
 </TEI>
