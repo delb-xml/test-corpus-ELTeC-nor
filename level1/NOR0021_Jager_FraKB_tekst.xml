@@ -28,11 +28,18 @@
      733
     </measure>
    </extent>
-   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
-                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
+   <publicationStmt>
+     <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
+                Literary History" (CA16204)</publisher>
+      <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+      <date when="2020-11-15"/>
+      <availability>
+      <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+      </availability>
+      <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
      Incorporated into the ELTeC
      
-      2020-11-13
+      2021-03-29
      
     --></publicationStmt>
    <sourceDesc>
