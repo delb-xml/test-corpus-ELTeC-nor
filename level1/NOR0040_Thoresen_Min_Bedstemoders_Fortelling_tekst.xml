@@ -80,7 +80,8 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="BS_Thoresen_Bedstemoder_tekst_xml_text">
-  <body>
+  <front>
+      <div type="liminal">
    <p>
     bokselskap.no, 2015
     Magdalene Thoresen:
@@ -95,9 +96,7 @@ Nasjonalbiblioteket (nb.no)
 bokselskap.no), 978-82-8319-220-9 (epub), 978-82-8319-221-6
 (mobi)
     Teksten er lastet ned fra
-    <ref target="http://bokselskap.no/">
-     bokselskap.no
-    </ref>
+
    </p>
    <p>
     Magdalene Thoresen
@@ -116,8 +115,10 @@ bokselskap.no), 978-82-8319-220-9 (epub), 978-82-8319-221-6
     bokselskap.no
     Oslo 2015
    </p>
-   <p/>
-   <p/>
+      </div>
+  </front>
+     <body>
+         <div type="chapter">
    <p>
     Jeg var tolv Aar gammel. Min Undervisning havde jeg hidindtil
 modtaget i Hjemmet i Selskab med mit Sødskendebarn, en liden Pige paa
@@ -1621,9 +1622,8 @@ Kvindes Barn opdrog jeg som min Søns Tvillingbroder, som min egen Søn.
 Min lange Prøvetid er forbi . . . Min elskede Husbond! Min Mage! Jeg ser
 dit skinnende Aasyn for mig! Guds Vilje ske!
    </p>
-   <p>
-    *
-   </p>
+         </div>
+         <div type="chapter">
    <p>
     Hermed sluttede min Bedstemoder sin Fortælling. Underlig og mægtigt
 havde den grebet os. Vi følte, at hun i stille Samfund med det Svundne
@@ -1780,7 +1780,8 @@ Hjertet.»
     «Søde Lille-Mor! Jeg vil være trofast; thi jeg vil være lykkelig, og
 den, som er troløs, kan aldrig blive lykkelig i dette Liv.»
    </p>
+         </div>
+     </body>
   
-  </body>
  </text>
 </TEI>

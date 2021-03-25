@@ -78,49 +78,9 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="NB_Normann_Krabvaag_xml_text">
-  <body>
-   <p>
-    0.9477970323453296
-   </p>
-   <p>
-    <ref target="http://urn.nb.no/URN:NBN:no-nb_digibok_2006112000055">
-     http://urn.nb.no/URN:NBN:no-nb_digibok_2006112000055
-    </ref>
-   </p>
-   <p>
-    Krabvaag skildringer fra et lidet fiskevær
-   </p>
-   <p>
-    Normann, Regine
-   </p>
-   <p>
-    1905
-   </p>
-   <p>
-    nob
-   </p>
-   <p>
-    KRABVAAG
-   </p>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p/>
-   <p>
-    4 $ CjO
-   </p>
+ 
+  <front>
+      <div type="titlepage">
    <p>
     REGINE NORMANN
    </p>
@@ -143,23 +103,11 @@
    <p>
     1905
    </p>
-   <p>
-    I
-   </p>
-   <p>
-    Fn f n
-   </p>
-   <p/>
-   <p>
-    m%
-   </p>
-   <p>
-    DET MALUNGSKE BOGTRYKKERI a/s
-   </p>
-   <p>
-    a
-   </p>
-   <p>
+      </div>
+  </front>
+ <body>
+     <div type="chapter">
+      <p>
     Der gik et herrens veir over bygden. Det begyndte under sildefisket
 paa eftersommeren, og nu hadde det bredt sig fra Faarci til gaard og
 bygd imellem, overalt hvor han kom, denne forunderlige prædikanten,
@@ -180,9 +128,7 @@ herren, Karen Nilsen, og sig, at broder 7allakBen kommer som en
 vandrende pil^rim og B&lt;3Zer ly hos hende, mens han driver sit
 menneskefiske for herren i Krab-
    </p>
-   <p>
-    1 — kl,etzine Normann: krabvaaz.
-   </p>
+
    <p>
     vaag», hadde han sagt. Øra-Jon kom med budet ordrer, det var hun
 sikker paa. Vistnok var han et djævelens barn og aldrig at se paa en
@@ -4338,6 +4284,7 @@ sig og 3tsrkne6 alt, som taarer og rørelse var.
    <p>
     m .
    </p>
+     </div>
   </body>
  </text>
 </TEI>

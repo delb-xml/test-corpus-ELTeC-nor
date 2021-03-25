@@ -75,8 +75,8 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="BS_Jager_FraKB_tekst_xml_text">
-  <body>
-   <div type="chapter">
+  <front>
+   <div type="liminal">
     <head>
      
       Fortale.
@@ -240,6 +240,8 @@
      Lad saa penheden og bravheden skraale paa lavhed og slethed og uanstændighed og obscønitet, saameget de lyster; det rører mig ikke. Jeg har kun én sorg – : at jeg ikke kunstnerisk skal ha magtet min opgave saapas, at denne bog virkelig blir en begyndelse.
     </p>
    </div>
+  </front>
+  <body>
    <div type="chapter">
     <head>
      

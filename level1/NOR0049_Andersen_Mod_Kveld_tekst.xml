@@ -80,39 +80,9 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="NB_Andersen_Tryggve-Mot_kveld__xml_text">
-  <body>
-   <p>
-    0.9883217948165152
-   </p>
-   <p>
-    <ref target="http://urn.nb.no/URN:NBN:no-nb_digibok_2011081120003">
-     http://urn.nb.no/URN:NBN:no-nb_digibok_2011081120003
-    </ref>
-   </p>
-   <p>
-    Mot kvæld
-   </p>
-   <p>
-    Andersen, Tryggve
-   </p>
-   <p>
-    1900
-   </p>
-   <p>
-    nob
-   </p>
-   <p>
-    85GA64419
-   </p>
-   <p>
-    L. E. TVEDTES FjDRLAG
-   </p>
-   <p>
-    KRISTIANIA
-   </p>
-   <p>
-    MOD KVÆLD
-   </p>
+ 
+  <front>
+      <div type="titlepage">
    <p>
     TRYGGVE ANDERSEN
    </p>
@@ -123,12 +93,13 @@
     ROMAN
    </p>
    <p>
-    _So wirdt die Helle auch ein Platz genannt, der so weit ist, dasz die
-Verdampten, so da wohnen raiissen, kein Rnde daran ersehen
-mogen."
+       <foreign xml:lang="de">
+    "So wirdt die Helle auch ein Platz genannt, der so weit ist, dasz die
+Verdampten, so da wohnen müssen, kein Rnde daran ersehen
+mögen."</foreign>
    </p>
    <p>
-    Folkebogtn om Faust.
+    Folkebogen om Faust.
    </p>
    <p>
     KRISTIANIA JOHN FREDRIKSONS FORLAG
@@ -136,15 +107,23 @@ mogen."
    <p>
     1900
    </p>
+      </div>
+      <div type="liminal">
    <p>
     OSCAR ANDERSENS BOGTRYKKERI.
    </p>
    <p>
     1900.
    </p>
-   <p>
+      </div>
+  </front>
+     <body>
+         <div type="group">
+   <head>
     FØRSTE BOG
-   </p>
+   </head>
+             <div type="chapter">
+                 <head>I.</head>
    <p>
     Fru Christiane gik sin vanlige formiddagstur en varm dag sidst i
 juli. Langsomt og værdig bevægede hendes svære figur sig henad gaden.
@@ -163,9 +142,6 @@ var saa snever, at den laa helt i skygge mellem de lave, toetages
 træhus, der stirrede hinanden ind gjennem de øverste vinduer, og hvis
 udhængende butikskilter næsten mødtes som hænder strakte frem til et
 evigt
-   </p>
-   <p>
-    Mod kvæld. 1
    </p>
    <p>
     goddag. Brolægningen var ujevn med spidse sten og dybe huller, men
@@ -511,6 +487,9 @@ du! — Farvel."
 for at gaa ind til middagen. Katten blev vækket, skjød ryg og brynte
 sine klør og listede sig efter ham.
    </p>
+</div>
+<div type="chapter">             
+    <head>II.</head>
    <p>
     De to, sagfører Erik Holk og ingeniør Johannes Nilsen, var paa vei
 til at bli byens forargelse i det sidste.
@@ -1047,6 +1026,10 @@ fredsforstyrrer ?"
     «Aa, vær ikke bange for det, jeg er ikke meget varmblodig af mig for
 tiden." Han smilte tvungent.
    </p>
+</div>
+             <div type="chapter">             
+                 <head>III.</head>
+                 
    <p>
     Fredelig var byen. Det havde Erik Holk til sin glæde hurtig faat
 vished om. Han havde søgt ro og hvile, da han nedsatte sig der, og hvile
@@ -1570,6 +1553,10 @@ forestillet sagfører Holk for dig."
    <p>
     Mod kvæld.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>IV.</head>
+                 
    <p>
     Det varte ikke længe, inden Erik Holk maatte sande rygtet om Lilli
 Herwigs stridbarhed. Den brød løs mod ham seiv, og han ærgrede sig over
@@ -1963,6 +1950,10 @@ Endnu engang blev han tvunget til at møde de straalende øine.
 lukkede op, sagde noget til hende, og hun svarte med en liden, jublende
 latter — Lillis latter, naar hun var rigtig glad og lykkelig.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>V.</head>
+                 
    <p>
     Gaden var øde. Husenes vinduer lyste mat gjennem snefoget, og jorden
 dækkedes allerede af et tyndt, hvidt lag.
@@ -2902,6 +2893,10 @@ flakkende lygteskin paa vinduet sluknede.
 solen brød frem over heierne og hidsede menneskenes travle flid for en
 ny dag.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>VI.</head>
+                 
    <p>
     Den tykfaldne, rødhaarede kontorist krøgede sig stilfærdig skrivende
 over pulten og skottede gløgt til principalen, der aabnede posten.
@@ -3314,6 +3309,10 @@ gaden:
     Holk ruskede ham hvast i skulderen, og han taug forskrækket ~Hys, ti
 stille! Væk ikke huset. Lad os gaa ind."
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>VII.</head>
+                 
    <p>
     Sneen vendte tilbage og forsøgte at bli liggende, men havtaage seg
 ind og tyknede til regn, der skyllede den væk.
@@ -4272,6 +4271,10 @@ sagføreren snorke.
 storm ruskede i huset. Ør og altfor træt og elendig til at huske kom han
 sig ind paa soveværelset og iseng.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>VIII.</head>
+                 
    <p>
     Det var blet et overhændigt veir om natten.
    </p>
@@ -4588,9 +4591,6 @@ det var et opskyllet lig, men saa
     hoppede manden op, hyttede mod brændin-
    </p>
    <p>
-    Mod kvæld. 10
-   </p>
-   <p>
     gerne, og strakte hænderne mod dem, travede i ring og bar sig som en
 gal eller en indiansk heksemester. Forundret over hans løierlige adfærd
 nærmede de sig, og han luskede skamfuld bort. Det havde været
@@ -4772,10 +4772,16 @@ laa i brunlig, fiolet dis, og høit paa himlen i nordvest drømte en
 enlig, rødgylden sky. Elven strømmede blank og tyst over i det fredelige
 hav, men om skjærene kruste dønningen smale, hvide bræmmer.
    </p>
-   <p>
+             </div>
+         </div>
+         <div type="group">
+   <head>
     ANDEN BOG
-   </p>
-   <p>
+   </head>
+        
+         <div type="chapter">             
+             <head>I.</head>
+             <p>
     Erik Holk gjorde toilet for at begi sig op i konsul Herwigs have, og
 han smilte ved sig seiv over den pedantiske omhu, hvormed han gik
 tilværks. Men han havde mistet øvelsen — Det var ogsaa en evindelighed,
@@ -5271,6 +5277,10 @@ forstenedes i alvor, og de vandrede hen for at meddele nyheden til
 venner og kjendinger og undre sig med dem over sekterernes
 formastelse.
    </p>
+         </div>
+             <div type="chapter">             
+                 <head>II.</head>
+                 
    <p>
     Byen var kry af sine haver og det med rette. Klemt sammen som den var
 af bratte heier langs el ven og havnen paa den smale, veirhaarde
@@ -6232,6 +6242,10 @@ igjen. ~Men tiden og timen er skjulte for os, hr. advokat".
     Gabriel tog lampen og gik foran med den bortover terassen og nedad
 trappen.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>III.</head>
+                 
    <p>
     Under lindetræerne ved havegrinden standsede bankkasereren, medens
 man tog afsked, og løftede lampen høit og saa efter Lilli, som han vilde
@@ -6727,8 +6741,12 @@ hvis gjenskin slikkede vandene. Saa reiste han sig og vendte sig mod
 byen og saa det første, kolde og grønlige morgengry blege himmelen over
 heierne.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>IV.</head>
+                 
    <p>
-    Det var lørdag ettermiddag. Bestyrelsen for den kvindelige
+    Det var lørdag eftermiddag. Bestyrelsen for den kvindelige
 hedningemission havde været samlet hos fru Christiane for at raadslaa om
 midler til at øge foreningens indtægter. Det trængtes; thi forholdene
 paa missionsmarkerne var alvorlige og truende. — Mægtige rørelser
@@ -7460,6 +7478,10 @@ hendes gang var freidig og let.
 sammen og stansede et øieblik. Men saa ilte hun videre, nynnende,
 hvidklædt i det hvide maaneskin.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>V.</head>
+                 
    <p>
     Hele søndags formiddag tænkte Ellen Jensenius paa, hvad hun skulde
 sige til Erik. Hun var saa optat af det ved frokosten, at apothekeren
@@ -8937,8 +8959,11 @@ før. — En skjælvende, slidt kvinderøst begyndte at nynne en af
 adventisternes yndlingssange, og omkvædet nynnedes af flere:
    </p>
    <p>
-    ,Vaag min sjæl, af angst bespændt, vaag og bed, hold lampeu tændt!
-Snart vil brudgommen komme."
+       <quote>
+    <l>"Vaag min sjæl, af angst bespændt,</l> 
+    <l>vaag og bed, hold lampeu tændt!</l>
+<l>Snart vil brudgommen komme."</l>
+       </quote>
    </p>
    <p>
     Men de nøiedes med nogle faa vers. Thi efterhvert som skumringen
@@ -9239,6 +9264,9 @@ sølle en fordømt djævel til at kunne be." Og han knæggede ondt.
 et gjensidigt afskyens had, der hidtil havde været en hemmelighed for
 dem. — Erik Holk gik og lukkede stilfærdig døren efter sig.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>VI.</head>
    <p>
     De andre kjøbmænd i gaden aabnede sine butikker, men lemmerne blev
 hængende for vinduerne i Søren Danielsens bod paa hjørnet ved
@@ -9712,6 +9740,9 @@ byen og berettede, at Søren Danielsen havde hængt sig.
    <p>
     21.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>VII.</head>
    <p>
     Lige rød som den var sunket bag fjeldene måndag, stod solen op
 tirsdag, og anderledes blev den heller ikke onsdag og thorsdag, og lige
@@ -11147,9 +11178,9 @@ kvalte hans tanker.
 at lægge sig paa stedet, slæbte fødderne og tællede de skridt, der kunde
 være igjen til sin bolig.
    </p>
-   <p>
-    VIII.
-   </p>
+             </div>
+             <div type="chapter">             
+                 <head>VIII.</head>
    <p>
     Erik Holk havde vanskelig for at faa sin gangdør op. Den sluttede
 trangt, og han kunde ikke med fuld kraft bruge den saarede haand.
@@ -11803,6 +11834,9 @@ sætningernes sætning, gaadernes gaade! — ~Fra evighed til evighed er
 jeg, o Gud," sagde han med tynd, klar stemme og satte kniven for
 struben og snittede til.
    </p>
+             </div>
+             <div type="chapter">             
+                 <head>IX.</head>
    <p>
     Natlampens væge flød dybt nede i glasset, hvis olje var næsten
 fortæret og kun var som en gul hinde over vandet. Dens lille, uskyldige
@@ -12730,11 +12764,12 @@ barnetroen u
     atter:
    </p>
    <p>
-    B I det ny Jerusalem
-   </p>
-   <p>
-    hos min Gud er mit hjem. Der er sollys! Der er sollys ! Der er sollys
-i mit hjem!"
+       <quote>
+    <l>"I det ny Jerusalem</l>
+ 
+    <l>hos min Gud er mit hjem.</l> <l>Der er sollys! Der er sollys !</l> <l>Der er sollys
+i mit hjem!"</l>
+       </quote>
    </p>
    <p>
     Erik Holk havde begit sig paa vei til apotheket. Luften var trykkende
@@ -13102,6 +13137,8 @@ til at vride sig som blinde onne. Lyn standsede og blev.
    <p>
     1 Nasjonalbiblioteket
    </p>
-  </body>
+         </div>
+         </div>
+     </body>
  </text>
 </TEI>

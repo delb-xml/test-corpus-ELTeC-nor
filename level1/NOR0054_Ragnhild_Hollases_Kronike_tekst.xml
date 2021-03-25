@@ -79,27 +79,8 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="NB_Jolsen_Ragnhild_Hollases_Kronike_xml_text">
-  <body>
-   <p>
-    0.9851048980628575
-   </p>
-   <p>
-    <ref target="http://urn.nb.no/URN:NBN:no-nb_digibok_2008040204019">
-     http://urn.nb.no/URN:NBN:no-nb_digibok_2008040204019
-    </ref>
-   </p>
-   <p>
-    Hollases Krønike
-   </p>
-   <p>
-    Jølsen, Ragnhild
-   </p>
-   <p>
-    1906
-   </p>
-   <p>
-    nob
-   </p>
+  <front>
+      <div type="titlepage">
    <p>
     RAGNHILD JØLSEN
    </p>
@@ -127,78 +108,22 @@
    <p>
     1906
    </p>
+      </div> 
+  </front>
+ 
+  
+     <body>
+    <gap unit="toc"/>
+   <div type="chapter">
+    <head>I</head>
+ 
    <p>
-    Published November 12. 1906.
-   </p>
-   <p>
-    Privilege of copyright in the United States reserved under the Act
-approved March 3. 1905, by H. Aschehoug &amp; Co.
-   </p>
-   <p>
-    DET MALLINGSKE BOGTHYKKERI
-   </p>
-   <p>
-    INDHOLD:
-   </p>
-   <p>
-    i
-   </p>
-   <p>
-    Hollas, Stolmageren, Smeden og Balgdrageren. Hoppen, Meheimen,
-hvordan Hollas skaffed Vidner. Ransfolkene ved Braanaas. Hesteungen,
-Præsten og den betalbare Mynt. Krumholtens Hodeklø, Adelsfeiden i sin
-Vorden. Netta, Myndlingen. Krumholtsønnen og Buksesælerne. De falske
-Vidner, Aastedsdommen. Nettas Bekjendelse og Straf.
-   </p>
-   <p>
-    II
-   </p>
-   <p>
-    Statsskibet og Guldbarrerne. Kallen, som spaadde Pestilens. Guds
-hellige Hus til Auktion. Far Kristen og hans Stedbarn. Angelica,
-Præstens Søster. Hollas i Kirken. Stoltrækket, Netta, Katten i
-Bagerovnen. Silkeklædet og Hunden. Den staselige Stols Tunger. Hollas
-paa Kirketaget. Fugleungens Pip. Ad pios usus. Stedbarnets Paradis.
-Præsten paa Tærskelen, Forglemmigei og Roser.
-   </p>
-   <p>
-    111
-   </p>
-   <p>
-    Otto Kefas. Angelicas første Bøn, Haabets Have, Livets og Dødens
-Engler. Himmelskyerne. Hollases Frieri og rigelige Traktement.
-Falskmyntneren. Netta gir Stoltrækket til Præsten. Hollas og
-Altertavlen. Angelicas anden Bøn, Sol over moden Aker. Hollas den Onde
-som Kunstbeskytter. Angelica drømmer om Perler. Den store Dag. Angelicas
-tredje Bøn, Blæstens Klage, Æolsharpen.
-   </p>
-   <p>
-    IV
-   </p>
-   <p>
-    De adelige Herrer. Ilevandet og Søppelkvartillet. Gule,
-Signekjærringen. Korsveistokken og Koleraen. Nettas Trøst i Nøden. En
-Daler for Livet dit, Jommen, svart eller rødt! Nettas Sang. Draapernes
-Dryp. Men hvo, som graver en Grav for andre, skal selv — . Hollases Død.
-Hvad Herremanden hørte de ti Aar senere, og hvad Præsten saa.
-Adelsfeidens evige Fortsættelse.
-   </p>
-   <p>
-    !
-   </p>
-   <p>
-    DU IKKE DET DA —
-   </p>
-   <p>
-    JEG VIL JO BARE LÆRE MENNESKENE AT FINDE SIG SELV,» SAGDE HOLL
-AS.
-   </p>
-   <p>
-    1
-   </p>
-   <p>
-    I
-   </p>
+   SKJØNNER DU IKKE DET DA —
+  
+  
+    JEG VIL JO BARE LÆRE MENNESKENE AT FINDE SIG SELV,» SAGDE HOLLAS.
+ </p>
+
    <p>
     Hollas, den Onde, Indflytteren paa Munkejord Gaard, skar i Træ Stoler
 med buede Ben og Figenblade. Stoleryggerne laved han høie og ranke, og
@@ -1549,10 +1474,9 @@ haanlige Svar.
 naar du syr paa det Trækket, og naar du ikke syr paa det, skal jeg holde
 det nedlaast £i Skuffen her.»
    </p>
-   <p>
-    II
-   </p>
-   <p>
+   </div>
+       <div type="chapter">
+           <head>II</head>   <p>
     «NAADE GAAR FOR RET I FAR KRISTENS HUS.»
    </p>
    <p>
@@ -3078,14 +3002,11 @@ helt ondt om Hjertet for ham.
    <p>
     »
    </p>
+       </div>
+           <div type="chapter">
+               <head>III</head>
    <p>
-    111
-   </p>
-   <p>
-    •
-   </p>
-   <p>
-    tLAD MIG BLI SOM LEOPARDEN, HERRE GUD!*
+       «LAD MIG BLI SOM LEOPARDEN, HERRE GUD!»
    </p>
    <p>
     Otto Kefas, Herremandens Søn, var den, alle Kvinder elsked, brændende
@@ -3104,9 +3025,7 @@ Man og Hale bølged som Silkegræs i Blæst. Og Otto Kefas fulgtes af en
 glathaaret Hund, hvis Bevægelser var langsomt lade som hos en Løve i
 Bur, men hvis Øine
    </p>
-   <p>
-    7 — Ragnhild Jølsen: Hollases Krønike.
-   </p>
+ 
    <p>
     var godmodige og tro. Otto Kefas, der selv var at ligne med et
 Sølvkrus fyldt af Burgunder, likte at knuse god Mad mellem sine
@@ -5275,9 +5194,9 @@ græmmer sig og sørger og vanker som i hjemløst Land. Indtil den Dag de
 forstaar at blive som Leoparden, saa fri og franke, saa smidige og
 stærke — i Verdens store Menneskeskoge.
    </p>
-   <p>
-    IV
-   </p>
+</div>
+           <div type="chapter">
+               <head>IV</head>
    <p>
     « TROR I DERFOR, AT HOLLAS ER DØD? NEI, HOLLAS LEVER EVINDELIG.»
    </p>
@@ -7073,6 +6992,7 @@ siger Folk — «som ikke under hinanden Fred i Graven.»
    <p>
     {(biksiyiaalsforeninqJ
    </p>
-  </body>
+   </div>
+     </body>
  </text>
 </TEI>

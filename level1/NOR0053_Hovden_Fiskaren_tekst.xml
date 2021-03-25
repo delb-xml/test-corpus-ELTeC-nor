@@ -79,55 +79,19 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="NB_Hovden_Anders_Fiskaren_xml_text">
-  <body>
-   <p>
-    0.9804723256240642
-   </p>
-   <p>
-    <ref target="http://urn.nb.no/URN:NBN:no-nb_digibok_2008040704031">
-     http://urn.nb.no/URN:NBN:no-nb_digibok_2008040704031
-    </ref>
-   </p>
-   <p>
-    Fiskaren forteljing
-   </p>
-   <p>
-    Hovden, Anders
-   </p>
-   <p>
-    1904
-   </p>
-   <p>
-    nno
-   </p>
-   <p>
-    FISKAREN
-   </p>
-   <p>
-    v
-   </p>
-   <p>
-    GOtDctum^
-   </p>
-   <p>
+ <front>
+     <div type="titlepage">
+     <p>
     ANDERS HOVDEN
    </p>
-   <p>
-    r".
-   </p>
+ 
    <p>
     FISKAREN
    </p>
    <p>
     FORTELJING
    </p>
-   <p>
-    NB Ra
-   </p>
-   <p>
-    Depotbit
-   </p>
-   <p>
+    <p>
     KRISTIANIA
    </p>
    <p>
@@ -137,114 +101,172 @@
     1904
    </p>
    <p/>
-   <p>
-    NIKOLAI OLSENS BOGTRYKKERI
-   </p>
-   <p>
+     </div>
+     
+ <div type="liminal">
+   <head>
     Forord.
-   </p>
+   </head>
    <p>
-    Her som han far min stræva, og mor mi gret og bad,
+       <quote>
+           <l> Her som han far min stræva,      </l>              
+           <l> og mor mi gret og bad,</l>
+ 
+           <l> eg vil so gjerne liva </l>
+           <l> og syngje mine kvad . . . </l>
+           <l> som staren uppaa take</l>
+           <l> i tidleg morgonstund, </l>
+           <l> han sit der med sin make </l>
+           <l> og leikar paa sin lund.</l>
+       </quote>
    </p>
-   <p>
-    eg vil so gjerne liva og syngje mine kvad . . . som staren uppaa take
-i tidleg morgonstund, han sit der med sin make og leikar paa sin
-lund.
-   </p>
-   <p>
+ </div>
+ </front>
+     <body>
+         <div type="group">
+   <head>
     I. DEIL
-   </p>
-   <p>
+   </head>
+             
+   <head>
     I
+   </head>
+   <p>
+       <quote>
+           <l> Hyvle no, hamre no, gutar, med grein /           </l>   
+           <l> No maa me nøyte oss alle som </l>
+               <l> ein: Sterk maa han vera og lett til aa ro, </l>
+                   <l> vænt maa han liggje og stødug paa sjo; </l>
+                       <l> hugse me maa for kvar nagle me driv : </l>
+                           <l> Her gjeld det velferd, her gjeld det liv.</l>
+                     <l>Klinke no, klinke no !</l>
+                     <l>Gutar, gjev gaum,     </l>
+                     <l>slåa no inn           </l>
+                     <l>naglar                </l>
+                     <l>og klinke no saum !   </l>
+                 </quote>
    </p>
    <p>
-    Hyvle no, hamre no, gutar, med grein / No maa me nøyte oss alle som
-ein: Sterk maa han vera og lett til aa ro, vænt maa han liggje og stødug
-paa sjo; hugse me maa for kvar nagle me driv : Her gjeld det velferd,
-her gjeld det liv. Klinke no, klinke no I Gutar, gjev gaum, slåa no inn
-naglar og klinke no saum !
+       <quote>
+           <l> Far av garde                     </l>
+           <l> skal i vetterfiskja fare,        </l>
+           <l> siste kvelden                    </l>
+           <l>  flokken hans ved lampeelden     </l>
+           <l>samlar seg um bibelorde           </l>
+           <l>rundt kring borde,                </l>
+           <l>deira tunge hjartetrong           </l>
+           <l>løyser seg i salmesong.           </l>
+           <l>Alle tankar er so saare,          </l>
+           <l>stilt ei taare                    </l>
+           <l>  dryp or augo, store, klaare:    </l>
+           <l>„Sit me saman siste gong?"        </l>
+           <l>Tidt det hende,                   </l>
+           <l>at ein far drog burt og vende     </l>
+           <l>aldri meir                        </l>
+           <l>atter heim til flokk og reir.     </l>
+           <l>  „ Kunde slikt vel henda far?"   </l>
+           <l>Alle augo søkjer hans,            </l>
+           <l>sit han som istjernekrans         </l>
+           <l>av ein hjartig augneglans,        </l>
+           <l>syng og les med røysti klar.      </l>
+           <l>Daa er trøysti av Guds ord        </l>
+           <l>kjær og stor:                     </l>
+           <l>  Skal me skiljast aat paa jord,  </l>
+           <l>møtest me i himmelkor.            </l>
+           <l>  Klinke no, klinke no!           </l>
+           <l>  Gutar, gjev gaum,               </l>
+           <l>slåa no inn naglar                </l>
+           <l>og klinke no saum!                </l>
+    </quote>
+   </p>
+   <p><quote>
+       
+       
+       
+       <l>Gode vonir er um bord,                                                            </l>
+       <l>naar han sigler ut av fjord,                                                      </l>
+       <l>rikt paa skattar i sin famn                                                       </l>
+       <l>have ruggar um hans stamn,                                                        </l>
+       <l>segl for lette morgongræle                                                        </l>
+       <l>sigler gjenom blaanar sæle.                                                       </l>
+       <l>Sellar sukka                                                                      </l>
+       <l>under sine tronge kaar :                                                          </l>
+       <l>"Gud, lat                                                                         </l>
+       <l>lukka fylgje ut med baaten vaar /"                                                </l>
+       <l>Naar han kverv i himmelrandi,                                                     </l>
+       <l>mange bønir fylgjer med,                                                          </l>
+       <l>mange augo innpaa strandi                                                         </l>
+       <l>ventar han, naar sol gjeng ned.                                                   </l>
+       <l>Mange ljose barnetankar                                                           </l>
+       <l>sviv som fuglar rundt hans stamn,                                                 </l>
+       <l>mange fjaage hjarto bankar,                                                       </l>
+       <l>naar med fengd han kjem i hamn:                                                   </l>
+       <l>Daa kvitrat smaagjenta, daa dansar smaaguten,                                     </l>
+       <l>dei spretter i fjør o med smil umkring truten,                                    </l>
+       <l>han Basse flyg med dei, han gøyr paa ei, skjor.                                   </l>
+       <l>Daa roper han far: „ Gaa med fisk heim til mor!"                                  </l>
+       <l>— Daa far kjem fil husar, stend fisken paa borde                                  </l>
+       <l>so kosteleg fersk, hau mest liver kvar mole,                                      </l>
+       <l>med liver og rogn uppi bollane store                                              </l>
+       <l>og supa i fat ("Mor, sjaa katten hev stole                                        </l>
+       <l>fraa Basse. Kisst Mons ! Vil du halda di klo !")                                  </l>
+       <l>"Teg still!" segjer mor, "og forsyne dykk no, et dykk ulyste og slutt dykkar tôt, </l>
+       <l>i fiskesupa er helsebot."                                                         </l>
+       <l>Den minste krev sitt, han er                                                      </l>
+       <l>morsk som ein borre, han sit burti vogga so bjart som ein borre,                  </l>
+       <l>Klinke no, klinke no!                                                             </l>
+       <l>Gutar, gjev gaum,                                                                 </l>
+       <l>slåa no inn naglar                                                                </l>
+       <l>og klinke no saum!                                                                </l>
+    </quote>
    </p>
    <p>
-    Far av garde skal i vetterfiskja fare, siste kvelden
+       <quote>
+           <l> Aa hei! naar ville stormen smell,      </l>
+           <l> og have som eit skridufjell            </l>
+           <l> kjem brukande med døn og skrell,       </l>
+           <l> og reiser ragg som bjørnen vreid,      </l>
+           <l> og burar yvi lengd og leid,            </l>
+           <l> just daa det gjeld,                    </l>
+           <l> at kvar ein saum og nagle held,        </l>
+           <l> at han er smøygin, lett og greid       </l>
+           <l> og bringebreid,                        </l>
+           <l> so han kan slåa seg gjenom rase        </l>
+           <l> som Ijaaen gjenom høge grase.          </l>
+           <l> Klinke no, klinke no!                  </l>
+           <l> Gutar, gjev gaum,                      </l>
+           <l> slåa no inn naglar                     </l>
+           <l> og klinke no saum!                     </l>
+           
+       </quote>
    </p>
    <p>
-    flokken hans ved lampeelden samlar seg um bibelorde rundt kring bot
-de, deira tunge hjartetrong løyser seg i salmesong. Alle tankar er so
-saare, stilt ei taare
+       <quote>
+           <l> Fuskar me, me fær det att                 </l>
+           <l> skræmeleg vaar siste natt:                </l>
+           <l> Bleike born                               </l>
+           <l> rispar oss med augnetorn,                 </l>
+           <l> sokne lik                                 </l>
+           <l> flotnar upp med vaadeskrik.               </l>
+           <l> All den friske brand av blod,             </l>
+           <l> sløkkt daa det i bragje stod,             </l>
+           <l> logar uppatt i vaart mod,                 </l>
+           <l> brenn som djupast eld i berg,             </l>
+           <l> tærer oss til sjæl og merg.               </l>
+           <l> Hyvle no, hamre no, gutar, med grein!     </l>
+           <l> No maa me nøyte oss alle som ein.         </l>
+           <l> Sterk maa han vera og lett til aa ro,     </l>
+           <l> vænt maa han liggje og stødug paa sjo,    </l>
+           <l> hugse me maa for kvar nagle me driv :     </l>
+           <l> Her gjeld det velferd, her gjeld det liv. </l>
+           
+       </quote>
    </p>
-   <p>
-    dryp or augo, store, klaare: ?Sit me saman siste gong? 11 Tidt det
-hende, at ein far drog burt og vende aldri meir atter heim til flokk og
-reir.
-   </p>
-   <p>
-    „ Kunde slikt vel henda far?" Alle augo søkjer hans, sit han som
-i stjernekrans av ein hjartig augneglans, syng og les med røysti klar.
-Daa er trøysti av Guds ord kjær og stor:
-   </p>
-   <p>
-    Skal me skiljast aat paa jord, møtest me i himmelkor.
-   </p>
-   <p>
-    Klinke no, klinke no!
-   </p>
-   <p>
-    Gutar, gjev gaum, slåa no inn naglar og klinke no saum!
-   </p>
-   <p>
-    Gode vonir er um bord, naar han sigler ut av fjord, rikt paa skattar
-i sin famn have ruggar um hans stamn, segl for lette morgongræle sigler
-gjenom blaanar sæle. Sellar sukka under sine tronge kaar : ?Gud, lat
-lukka fylgje ut med baaten vaar /" Naar han kverv i himmelrandi,
-mange bønir fylgjer med,
-   </p>
-   <p>
-    mange augo innpaa strandi ventar han, naar sol gjeng ned. Mange ljose
-barnetankar sviv som fuglar rundt hans stamn, mange fjaage hjarto
-bankar, naar med fengd han kjem i hamn: Daa kvitrat smaagjenta, daa
-dansar smaaguten, dei spretter i fjør o med smil umkring truten, han
-Basse flyg med dei, han gøyr paa ei, skjor.
-   </p>
-   <p>
-    Daa roper han far: „ Gaa med fisk heim til morf" — Daa far kjem
-fil husar, stend fisken paa borde so kosteleg fersk, hau mest liver kvar
-mole, med liver og rogn uppi bollane store og supa if at f,, Mor, sjaa
-katten hev stole fraa Basse. Kisst Mons ! Vil du halda di klo !")
-?Teg still/' 1 segjer mor, ?og forsyne dykk no, et dykk ulyste og slutt
-dykkar tbt, i fiskesupa er helsebot." Den minste krev sitt, han er
-morsk som ein borre, han sit burti vogga so bjart som ein orre. Klinke
-no, klinke no!
-   </p>
-   <p>
-    Gutar, gjev gaum, slåa no inn naglar og klinke no saum!
-   </p>
-   <p>
-    Aa hei! naar ville stormen smell, og have som eit skridufjell kjem
-brukande med døn og skrell, og reiser ragg som bjørnen vreid, og burar
-yvi lengd og leid, just daa det gjeld, at kvar ein saum og nagle held,
-at han er smøygin, lett og greid og bringebreid, so han kan slåa seg
-gjenom rase som Ijaaen gjenom høge grase. Klinke no, klinke no!
-   </p>
-   <p>
-    Gutar, gjev gaum, slåa no inn naglar og klinke no saum!
-   </p>
-   <p>
-    Fuskar me, me fær det att skræmeleg vaar siste natt: Bleike born
-   </p>
-   <p>
-    rispar oss med augnetorn, sokne lik flotnar upp med vaadeskrik. All
-den friske brand av blod, sløkkt daa det i bragje stod, logar uppatt i
-vaart mod, brenn som djupast eld i berg, tærer oss til sjæl og merg.
-   </p>
-   <p>
-    Hyvle no, hamre no, gutar, med grein ! No maa me nøyte oss alle som
-ein. Sterk maa han vera og lett til aa ro, vænt maa han liggje og stødug
-paa sjo, hugse me maa for kvar nagle me driv : Her gjeld det velferd,
-her gjeld det liv.
-   </p>
-   <p>
-    11.
-   </p>
+         </div>
+         <div>
+   <head>
+    II.
+   </head>
    <p>
     D'er han Knut Haugen som talar so til sine hjelpesmenn. Han er
 baatebyggjar um sumaren; um vetteren driv han sjølv fiskje. Han hev gard
@@ -584,26 +606,27 @@ sleppe aa prøve kor tungt det er aa vera gamall og ende-paa!"
    <p>
     Um Øystein unge er det at vaar soga mest kjem til aa lue.
    </p>
+         </div>
+             <div>
+                 <head>
+                     III.
+                 </head>
    <p>
-    111.
-   </p>
-   <p>
-    Purpurstraumar av ungdoms blod, danse, danse med lystelegt mod,
-danse, danse som moreldbylgja til fela si voggande tone flod!
-   </p>
-   <p>
-    Gjev eit stormhav av feleljod kom fløymande inn
-   </p>
-   <p>
-    som ei havsalt flod
-   </p>
-   <p>
-    i alle fjordar av folksens sinn, skylde og sopte og reinska ut all
-sjælemugg og all hjartesutf
-   </p>
-   <p>
-    Danse, danse til song og spel! Anten me jublar eller sturer, djupe
-gløyper oss likevel.
+       <quote>
+           <l> Purpurstraumar av ungdoms blod,   </l>
+           <l> danse, danse med lystelegt mod,   </l>
+           <l> danse, danse som moreldbylgja     </l>
+           <l> til fela si voggande tone flod!   </l>
+           <l> Gjev eit stormhav av feleljod     </l>
+           <l> kom fløymande inn                 </l>
+           <l> som ei havsalt flod               </l>
+           <l> i alle fjordar av folksens sinn,  </l>
+           <l> skylde og sopte og reinska ut     </l>
+           <l> all sjælemugg og all hjartesutf   </l>
+           <l> Danse, danse til song og spel!    </l>
+           <l> Anten me jublar eller sturer,     </l>
+           <l> djupe gløyper oss likevel.        </l>
+       </quote>
    </p>
    <p>
     Ungdomen vert haldin strengt. Det er ein spreng fraa morgen til kveld
@@ -888,9 +911,11 @@ sanseløysa hev gjengi seg utfyri.
     Hovude ligg i sjøtrømen, og baarune leikar med lokkane kring den høge
 finkvelvde diktarskallen hans.
    </p>
-   <p>
-    IV.
-   </p>
+             </div>
+         <div>
+             <head>
+                 IV.
+             </head>
    <p>
     Aa, du er ung og elskhugsfull, hugen leikar i skyir ljose, vev seg
 sælt inn i glans og gull, dalar ned millotn blom og rose.
@@ -1273,9 +1298,11 @@ Harald skulde gifte seg til haustes.
    <p>
     Ho raudnar sterkt.
    </p>
-   <p>
-    v.
-   </p>
+         </div>
+         <div>
+             <head>
+                 V.
+             </head>
    <p>
     Smilen og taara er systkin, du, tvillingar gleda og sorgi, laatt og
 graat og tvil og tru er frendar heile horgi.
@@ -2040,9 +2067,11 @@ endaa.
 heimvegen radt, med alle pengane paa seg. Reiser paa dekksplass, kjøper
 med seg ei flaske brennevin, og liver elles av turrmat heile dagen.
    </p>
-   <p>
-    VII.
-   </p>
+         </div>
+         <div>
+             <head>
+                 VII.
+             </head>
    <p>
     Og kingelen set sine kleimande nøtar so lurande løynskt fyri vengir
 og føtar.
@@ -2723,9 +2752,11 @@ kar."
    <p>
     Han kjenner ikkje ryggverken sin paa mange dagar.
    </p>
-   <p>
-    VIII.
-   </p>
+         </div>
+         <div>
+             <head>
+                 VIII.
+             </head>
    <p>
     Daa er det sol og sæle, daa er vel live søtt, aaar unge, elskande
 hjarto heve kvarandre møtt!
@@ -3122,10 +3153,11 @@ og kjenner lite til aa vera trøytte.
     Og han brukar fleire slags børnad, etter som det best vil slåa til,
 likso vel line som garn.
    </p>
-   <p>
-    IX.
-   </p>
-   <p>
+         </div>
+         <div>
+             <head>
+                 IX.
+             </head>   <p>
     Gamle-Øystein legst helsotti denne vetteren. Han hev slik trøyst av
 Petrina, at han karm ikkje vera henne forutan, men maa stendig hava
 henne um seg, berre ho hev ei avlaus ykt.
@@ -3330,10 +3362,11 @@ hjarta."
    <p>
     Det siste han sagde var til henne: ?Gud velsigne deg!"
    </p>
-   <p>
-    x
-   </p>
-   <p>
+         </div>
+         <div>
+             <head>
+                 X.
+             </head>   <p>
     Aa, so gjævt koma heim! Øystein tek lengre stig, berre han øygnar
 huse. Han gled seg: Der uppe hev han fyrste rom og rett baade i hus og
 hjarta. Og han er velkomin. Ho kjem ut og tek imot, bed han vera
@@ -3503,10 +3536,11 @@ dag hev lyft ein fald av live og undrar seg alltid yvi nye utsynir, og
 grev og spør seint og tidleg. Det vekkjer ofte baade gaman og
 ettertanke.
    </p>
-   <p>
-    XI.
-   </p>
-   <p>
+         </div>
+         <div>
+             <head>
+                 XI.
+             </head>  <p>
     Scelt aa naa uppaa tinden, soltinden høg og blank, upp yvi djup og
 dimme, upp yvi sut og ank!
    </p>
@@ -3699,12 +3733,16 @@ live vaart."
    <p>
     Øystein stilt bivrande: ?Han høyre det!"
    </p>
-   <p>
-    11. DEIL
-   </p>
-   <p>
+             
+         </div>
+ <div type="group">            
+   <head>
+    II. DEIL
+   </head>
+     <div type="chapter">
+   <head>
     I
-   </p>
+   </head>
    <p>
     Me strider paa ein vaade-sjo mot myrker, storm og baare, vaar baat er
 bert ei liti spo i all den føle faare
@@ -3955,10 +3993,11 @@ og lukke laag no soleis slengt i brot rundt ikring han.
 Daa sansar han Øystein seg og segjer, innarleg mjuk i maale: ?Nei, er du
 ute i dette ufysne vere, du, fuglen min!"
    </p>
-   <p>
-    11.
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             II.
+         </head>   <p>
     Magna maa taka stjorne i huse etter Petrina; det er so vanskeleg um
 tenarar; Amerika-sotti herjar grendine um lag som ein ny
 svartedaude.
@@ -4202,10 +4241,11 @@ fara ut etter fjorden i dag!
    <p>
     glad mot det opne have, alle lydde dei meg!
    </p>
-   <p>
-    111.
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             III.
+         </head>   <p>
     Den lange noti
    </p>
    <p>
@@ -4464,10 +4504,11 @@ som er hjaa henne, og ho fær slik fred.
 hev sett inn gaavune ho hadde fengi fraa sønine. Ho meinte det skulde
 fylgje ei sers signing med desse pengane.
    </p>
-   <p>
-    IV.
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             VI.
+         </head>   <p>
     Og skal ein, fyrr ein bind seg prøva um hjarta karm til hjarta høva
 ein draum er kort, ein harm er lang.
    </p>
@@ -4689,10 +4730,11 @@ hjernen som my i solskin.
 til aa setja han i ulag, mistyda og svara paa tvert. Og so stend ho paa
 sitt, jamvel um ho maa vita ho hev urett.
    </p>
-   <p>
-    v
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             V.
+         </head>   <p>
     Det var ei nall ved det hustrande hav, der stod tri sinaaborn ved
 moders grav. Det eine gret taarur, dei andre gret blod, dei bed si moder
 av svartan jord.
@@ -5065,10 +5107,11 @@ land!
    <p>
     IO
    </p>
-   <p>
-    VI.
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             VI.
+         </head>   <p>
     Vinn ikkje gaa
    </p>
    <p>
@@ -5329,10 +5372,11 @@ vel laga etter hans lynde, at han likar seg best i dei. Han ser at naar
 noko røyner paa, so er Alv god aa hava, han er raadug og tenkt som ein
 vaksin.
    </p>
-   <p>
-    VII.
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             VII.
+         </head>   <p>
     Vreiden dansar i villa og kved ein liksalm um gru og grav, og
 sløkkjer det friske, bankande blod med rcedsle i kolsvarte hav.
    </p>
@@ -5429,10 +5473,11 @@ ut paa fyllearresten.
 Denne gongen hadde eg godt av det. Det var berre ei husraad eg treiv til
 for aa faa vermen i meg ... Eg hadde liksom fengi slik kuls."
    </p>
-   <p>
-    VIII.
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             VIII.
+         </head>   <p>
     Tome bingar og tome fat. Borni ropar og vil ha mat; tungt ver a
 far!
    </p>
@@ -5659,10 +5704,11 @@ rossmaal og isbjørn.
    <p>
     II
    </p>
-   <p>
-    IX.
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             IX.
+         </head>   <p>
     Saag du noko til kjeringi mi uppe i lidi?
    </p>
    <p>
@@ -5770,10 +5816,11 @@ dansemeistaren, lisle Knut; han sprett som eit kid paa fange deira.
     Daa ho og barne fer heimatt, er det avtalen, at dei tvo andre skal
 kome etter, so snart fiskja er slutt til vaaren.
    </p>
-   <p>
-    x
-   </p>
-   <p>
+     </div>
+     <div>
+         <head>
+             X.
+         </head>   <p>
     Djupt nedi have der er det ro der er det ro og stille.
    </p>
    <p>
@@ -6045,141 +6092,8 @@ utan aa røre seg — til han søkk under.
    <p>
     ikkje ute.
    </p>
-   <p>
-    *-&amp;*-*
-   </p>
-   <p>
-    Av ANDERS HOVDEN er fyrr utkome:
-   </p>
-   <p>
-    Sunnmøringen. Diktsamling. Sviv. Diktsamling.
-   </p>
-   <p>
-    Heimhug. Diktsamling. Tungalda. Diktsamling.
-   </p>
-   <p>
-    Ein Bautastein. Diktsamling. Odd. Forteljing.
-   </p>
-   <p>
-    Hardhausar. Forteljingar. Bonden. Forteljing.
-   </p>
-   <p>
-    I den vide verdi. Forteljing. Heim og Hamn I. Preikebok. Heim Og Hamn
-11. Preikebok.
-   </p>
-   <p>
-    '■»
-   </p>
-   <p>
-    ■ ■
-   </p>
-   <p>
-    i . '*&lt;
-   </p>
-   <p/>
-   <p/>
-   <p>
-    ■^•rw^r^Kie^f'
-   </p>
-   <p>
-    •i«É..«
-   </p>
-   <p>
-    liÉi AtiÉ-jar^'iiiraaatiffl nit^-Tftffiwirr, r
-   </p>
-   <p>
-    fNBR
-   </p>
-   <p>
-    mm
-   </p>
-   <p>
-    Depotbiblioteket
-   </p>
-   <p>
-    iiiiiiiiiiii ØØsd 11 413
-   </p>
-   <p>
-    H
-   </p>
-   <p>
-    't t
-   </p>
-   <p>
-    r
-   </p>
-   <p>
-    T*«
-   </p>
-   <p>
-    1
-   </p>
-   <p>
-    ■
-   </p>
-   <p>
-    y§^:
-   </p>
-   <p>
-    ■Pl
-   </p>
-   <p>
-    ■
-   </p>
-   <p>
-    SA
-   </p>
-   <p>
-    l* : -T &gt;; -
-   </p>
-   <p>
-    Mi
-   </p>
-   <p>
-    ■
-   </p>
-   <p>
-    WMWSSåi
-   </p>
-   <p>
-    -
-   </p>
-   <p>
-    £mi
-   </p>
-   <p>
-    ' røH
-   </p>
-   <p>
-    •t.
-   </p>
-   <p>
-    f *
-   </p>
-   <p>
-    tfw.Wjfc:
-   </p>
-   <p>
-    F± skaren T^ører ikke lenger Bodø bibliotek
-   </p>
-   <p>
-    BODØ BIBLIOTEK
-   </p>
-   <p>
-    A/L BIBLIOTEKSENTRALEN - OSLO
-   </p>
-   <p>
-    I
-   </p>
-   <p>
-    \&gt;
-   </p>
-   <p>
-    X
-   </p>
-   <p>
-    a
-   </p>
-  </body>
+       </div>
+         </div>
+     </body>
  </text>
 </TEI>

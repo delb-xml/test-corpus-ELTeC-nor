@@ -79,30 +79,9 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="NB_Collett_Vogt_Nils_Harriet_Blich_xml_text">
-  <body>
-   <p>
-    0.9385155676695838
-   </p>
-   <p>
-    <ref target="http://urn.nb.no/URN:NBN:no-nb_digibok_2012071206221">
-     http://urn.nb.no/URN:NBN:no-nb_digibok_2012071206221
-    </ref>
-   </p>
-   <p>
-    Harriet Blich Fortælling
-   </p>
-   <p>
-    Vogt, Nils Collett
-   </p>
-   <p>
-    1902
-   </p>
-   <p>
-    nob
-   </p>
-   <p>
-    F
-   </p>
+ 
+<front>
+    <div type="titlepage">
    <p>
     NILS COLLETT YOGT
    </p>
@@ -120,9 +99,6 @@
     FORLAGT AF H. ASCHEHOUG &amp; CO. (W. NYGAARD)
    </p>
    <p>
-    l
-   </p>
-   <p>
     1902
    </p>
    <p>
@@ -132,6 +108,8 @@
    <p>
     &lt;
    </p>
+    </div>
+    <div type="liminal">
    <p>
     TIL
    </p>
@@ -140,7 +118,13 @@
    </p>
    <p>
     &gt;
-   </p>
+   </p> 
+    </div>
+</front>
+     <body>
+<div type="chapter">
+    
+<head>I.</head>
    <p>
     Tænkte Harriet Blich som voksen tilbage paa sin første Barndom, steg
 følgende Billede frem for hende:
@@ -162,9 +146,7 @@ skikke Atterbud med det samme!
 skotskternede Hverdagskjole og fulgte forslugent, hvad der skede rundt
 omkring hende.
    </p>
-   <p>
-    — Harriet Blich.
-   </p>
+
    <p>
     Stolen, hun sad paa, var saa høi, og hun saa liden, at Benene ikke
 rak ned til Gulvet engang. Tyst som en Mus maatte hun sidde, det vidste
@@ -644,6 +626,9 @@ Forvisning, at hun for sin Part holdt mest af sin Far.
    <p>
     Hun var den Gang ni Aar gammel.
    </p>
+</div>
+         <div type="chapter">
+             <head>II.</head>
    <p>
     Hvad kom det af, at Harriet fra første Dag paa Skolen blev de fleste
 af sine Klassekamerater til Morskab; nogle endog til Forargelse ? Hun
@@ -660,9 +645,7 @@ hende forsagt og fortjamset, hvorpaa maa saa hende bøie Hovedet og lidt
 efter snige sig skamfuld unna, som hun havde sagt noget rigtig
 forfærdelig galt.
    </p>
-   <p>
-    2 — Harriet Blich.
-   </p>
+
    <p>
     Saa begyndte Moroen. «Er du sint nu, Harriet?» Eller: «Skal du i
 Skammekrogen nu, Harriet?» En nappede hende i Kjolen, en anden i Haaret.
@@ -1149,9 +1132,7 @@ triumferende Glimt i Blikket.
     Det var Langfredag, den Dag, da Menneskene sørger og gaar stille
 forbi hverandre som mellem
    </p>
-   <p>
-    3 — Harriet Blich.
-   </p>
+ 
    <p>
     Grave. Mens Faderen nu gav sig til at læse op en af Wexels
 Prædikener, sad Harriet hele Tiden og tænkte, at paa en saadan Dag
@@ -1195,6 +1176,9 @@ alle være gode mod hverandre!» Og saa vilde hun ha set dem dybt ind i
     Skade, at de ikke var der! Man maatte hykle for at faa Lov at
 leve.
    </p>
+         </div>
+         <div type="chapter">
+             <head>III.</head>
    <p>
     En Gut kjendte hun, som aldrig krænkede eller gjorde Nar af hende, og
 hvera hun ogsaa af denne Grund følte sig draget til. Han hedte Markus
@@ -1490,6 +1474,9 @@ havde Del i Redet, og hvad der var i det.
 Hun følte en Sorg som en Mor, ud af hvis Arme hendes Barn er blit revet
 ved Voldsmands Haand.
    </p>
+         </div>
+         <div type="chapter">
+             <head>IV.</head>
    <p>
     Ud paa Høsten, da de nye Huse stod færdige til at tages i Brug,
 flyttede flere Familier nede fra Byen ind i dem, blandt dem en
@@ -1590,9 +1577,7 @@ gav ham mange smaa Biindtægter, idet alle de Varer, der ikke blev
 afhentet paa hans Kontor tre Maaneder efter djpres Ankomst, rettelige
 tilfaldt ham. Ogsaa
    </p>
-   <p>
-    4 — Harriet Blich.
-   </p>
+ 
    <p>
     af denne Grund var Beckers Hus et rigtigt Madhus at nævne, da der
 selvsagt blandt de ikke afhentede Varer stak mange Slags udsøgte
@@ -1735,6 +1720,9 @@ dette,» sagde Olga bedrøvet.
    <p>
     «Det varte længe, før jeg turde se min egen Far i Øinene.»
    </p>
+         </div>
+         <div type="chapter">
+             <head>V.</head>
    <p>
     At hendes egen Far, hendes egen Mor — de, som i e n Henseende ialfald
 havde været ukrænkelige og overjordisk hellige hidtil — at de kunde
@@ -2081,9 +2069,7 @@ Historie af og blev staaende og glane fortabt efter hende. Var der
 nogen, som lo &gt; Han hørte nok, at de lo af ham, fordi han syntes,
 Olga Becker var den, hun var, men sligt vilde
    </p>
-   <p>
-    5 — Harriet Blich.
-   </p>
+ 
    <p>
     han ikke finde sig i. Saa meget de vidste det I — Skjønt han var tynd
 og smækker, kunde han magelig ta det op med dem alle. Han gav et smidigt
@@ -2128,6 +2114,9 @@ en god en, De,» sagde hun tilslut
 sin Arm ind under Harriets. «Ham skulde jeg nok ha Lyst til at lugge
 lidt i Haaret!» lo hun. «Du kan tro, han er ikke en af de bedste!»
    </p>
+         </div>
+         <div type="chapter">
+             <head>VI.</head>
    <p>
     Slut var det med de store Selskaber under feststraalende Lysekroners
 Glans i Bureauchel Blichs Hus, og der stod aldrig nu mere nogen Slæde
@@ -2548,6 +2537,9 @@ der førte Splidens og Uhyggens Aand ind i Hjemmet.
     Han kjendte pluselig, at der ogsaa i ham sitrede en hemmelighedsfuld
 Streng, et Nag, en dunkel, uovervindelig Modvilje. . . .
    </p>
+         </div>
+         <div type="chapter">
+             <head>VII.</head>
    <p>
     Det saa nok alligevel ikke ud til, at Olga havde nogen Lyst paa at
 «lugge» Gotfred Munter i Haaret, efterat hun først var blit kjendt med
@@ -2564,9 +2556,7 @@ hørte dem tale om Bøger og store Digtere . . . Alligevel forsikrede Olga
 hende Gang paa Gang, at det ved Gud ikke var Spor af morsomt, nåar hun
 ikke gik med, og at hun under ingen Omstændigheder turde
    </p>
-   <p>
-    6 — Harriet Blich.
-   </p>
+
    <p>
     gaa alene med en Herre om Aftenerne. Og saa fik Harriet vel gjøre
 hende den Tjeneste! Da gav det mere Liv og Skøi, nåar ogsaa de andre
@@ -2824,8 +2814,9 @@ at ha faat al denne ufortjente Moro gratis. Fra Flokken bag dem steg
 det:
    </p>
    <p>
-    «Se de to, se de to, se de to forlibte, gid de var, gid de var
-allerede gifte !&gt;
+       <quote>
+    <l>«Se de to, se de to, se de to forlibte,</l> <l>gid de var, gid de var
+allerede gifte !&gt;</l></quote>
    </p>
    <p>
     men dog saa dæmpet, at Ordene ikke naadde frem til dem, som de var
@@ -3020,9 +3011,10 @@ Barndom, og gav dem det igjen, hvad de havde gjort mod hende.
 men blev seiv staaende skamfuld og raadvild indenfor Gjærdet. Kjærringen
 smilte fremdeles, skjønt hendes Kind var rødflammet efter Slaget.
    </p>
-   <p>
-    — Harriet Blich.
-   </p>
+ 
+         </div>
+         <div type="chapter">
+             <head>VIII.</head>
    <p>
     Ud paa Høsten flyttede Olga Becker med sine Forældre ned til Byen
 igjen. Gotfred Munter ligervis. Kanske fandt hans Bedstemor, at
@@ -3494,9 +3486,7 @@ Anledning, heller end gjerne vilde regnes blandt de gudløse. Bedst som
 han snakkede, gav han sig til at rulle med Øinene og gjøre alskens
 Tilnærmelser, saa
    </p>
-   <p>
-    8 — Harriet Blich.
-   </p>
+  
    <p>
     Harriet blev ganske fælen. De var midt inde i Skogen og langt fra
 Folk. Men han havde ikke opdaget hendes Angst, før han skyndte sig at
@@ -3755,6 +3745,9 @@ udvikle dem, hvis det morede Harriet.
     Paa den Maade ble v de to nærmere kjendte og var snart uadskillelige.
 lalfald kunde ikke Ivar undvære Markus.
    </p>
+         </div>
+         <div type="chapter">
+             <head>IX.</head>
    <p>
     Samme Aar som Harriet blev konfirmeret, tog Markus Finstad og Ivar
 Borg Artium. Den første Søndag, efterat Blichs var kommet tilbage fra
@@ -3952,9 +3945,7 @@ eiede Evner til i denne Stund at si ham noget lækkert og smigrende, en
 rigtig fint dreiet Kompliment, der kunde bøde paa det! Han følte
 allerede i Rædsel det Tilbageslag
    </p>
-   <p>
-    9 — Harriet Blich.
-   </p>
+ 
    <p>
     af Lidelser, dette hans Forræderi med Tiden vilde bringe.
    </p>
@@ -4055,6 +4046,9 @@ i hans.
    <p>
     x
    </p>
+         </div>
+         <div type="chapter">
+             <head>X.</head>
    <p>
     Ja, der var virkelig sket et Under med hende! Seiv om den sidste
 Sommer ikke havde forvandlet hende til en Svane, saa var hun ialfald
@@ -4441,9 +4435,7 @@ for hende efter denne Vinters mange Anstrengelser.
     Hun kom tilbage til Kristiania en Aprilaften i et nervøst irritabelt
 Humør. Paa Veien fra Bryggen
    </p>
-   <p>
-    io — Harriet Blich.
-   </p>
+ 
    <p>
     sad hun hele Tiden i Vognen og gruede for Gjensynet med Forældrene.
 Hun sad og sammenlignede dem Træk for Træk med de Mennesker, hun kom
@@ -4588,6 +4580,9 @@ der laa henslængt i Vindueskarmen, og som ikke var brugt paa længe.
    <p>
     Hun følte det, som hun var blit en ganske liden Pige igjen.
    </p>
+         </div>
+         <div type="chapter">
+             <head>XI.</head>
    <p>
     To Maaneder efter var hendes Far død. Det sidste Livstegn, han gav,
 var, da han smilte bort til hende, som i al denne Tid ikke havde været
@@ -4877,16 +4872,16 @@ sidste Dages unge Poeter, hvem jeg værdsætter særdeles høit?»
 :
    </p>
    <p>
-    «Og husker du, da i et skjønt Sekund en Klarhed, stor som Luftens,
-syntes falde, da dine Arme rørt du rakte ud ;
-   </p>
-   <p>
-    thi Mennesker var vi, vi var Mennesker alle! Ja, vi var Mennesker han
-og du og jeg
-   </p>
-   <p>
-    og gik tilsammen Livets, Dødens Vei ! Det var, som kunde du hvert
-Jordliv favne og nævne dem ved Broder, Søsternavne !»
+       <quote>
+    <l>«Og husker du, da i et skjønt Sekund</l> 
+    <l>en Klarhed, stor som Luftens, syntes falde,</l> 
+    <l>da dine Arme rørt du rakte ud ;</l>
+    <l>thi Mennesker var vi, vi var Mennesker alle!</l>
+    <l>Ja, vi var Mennesker han og du og jeg</l>
+    <l>og gik tilsammen Livets, Dødens Vei !</l> 
+    <l>Det var, som kunde du hvert Jordliv favne</l> 
+    <l>og nævne dem ved Broder, Søsternavne !»</l>
+       </quote>
    </p>
    <p>
     «Nei, det kjender jeg ikke,» svarte hun, da han var færdig.
@@ -5025,9 +5020,7 @@ Haand.
     «Men Forelskelsen ? Hvad siger De om den store, ulykkelige
 Forelskelsen ?» spøgte hun videre.
    </p>
-   <p>
-    n — Harriet Blich.
-   </p>
+  
    <p>
     «.Den maatte da bli bestemmende for ens Liv, skulde
    </p>
@@ -5208,7 +5201,10 @@ lignede en Ødemark, hvorover alle hendes Livs Dage vilde lunke afsted i
 Rad og Række som det Sørgefølge, der i Regnveiret vandrede bag Faderens
 Kiste.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             <head>XII.</head>
+             <p>
     I Faderens Levetid havde de brugt at bo paa Landet om Sommeren; men
 det kunde der naturligvis ikke bli Tale om nu, da de for enhver Pris
 maatte indskrænke sig, saa meget som gjørligt var. Det var sandt, at de
@@ -5596,9 +5592,7 @@ Dukker. Naar saa hun sine Nærmeste bli forarget, nåar der øvedes Uret?
 Aldrig! Og dog førte de Ord som Retfærdighedsfølelse daglig i Munden,
 ja, brugte disse Ord som
    </p>
-   <p>
-    12 — Harriet Blich.
-   </p>
+ 
    <p>
     Vaaben mod dem, der kanske var mere menneskelige og
 retfærdighedsfølende end de seiv.
@@ -5626,6 +5620,9 @@ det første Glimt af Byen, følte hun det, som om hun havde rystet al
 Fortidens Støv af sig og lig en Høg svævede i fribaaren Flugt over en
 indgjærdet Dyrehave.
    </p>
+         </div>
+         <div type="chapter">
+             <head>XIII.</head>
    <p>
     Og hun gav sig til at drømme om Ivar Borg, til at sværme forelsket
 rundt alle de Erindringer, de to havde sammen.
@@ -5759,7 +5756,9 @@ ellers blev hun gal tilslut. Hun var jo alt lidt gal, og i et saadant
 Anfald af Forrykthed skrev hun en Aften, saa fort Pennen kunde løbe. et
 Brev til ham, som hun angrede, straks det var afsendt.
    </p>
-   <p>
+   <quote>
+    <p>
+       
     «Kjære Ivar Borg!» skrev hun. «Jeg gaar her stadig og tænker paa Dem.
 Ofte synes jeg, at jeg og alle andre har gjort Dem dyb Uret. De, som
 sikkert er mer værd end alle os andre tilhobe! Nu ber jeg Dem om
@@ -5770,6 +5769,8 @@ misforstaaet som De.
    <p>
     Paa Gjensyn snart!
    </p>
+   <p>Deres Harriet Blich</p>
+   </quote>
    <p>
     lalfald havde dette Brev en god Virkning, den, at hun blev
 roligere.
@@ -6091,6 +6092,9 @@ friske Blomster. Det var Faderens Grav.
     «Lad de døde hvile i Fred,» tænkte hun koldt. «Det er os, de levende,
 som det kommer an paa!»
    </p>
+         </div>
+         <div type="chapter">
+             <head>XIV.</head>
    <p>
     Ivar Borg havde ikke faat hendes Brev, før han kom strygende ind til
 Byen lige ned fra Fjeldet. Dets Tone forbausede ham. Hvad! Hun skrev, at
@@ -6110,9 +6114,7 @@ tusen usynlige Tilskueres Jubel. Det var, som om de ydmyge Ord i dette
 lille, søde, ham saa tiltalende Brev, undfanget i Ensomhed og Smerte,
 fyldte alle de tomme Rum i
    </p>
-   <p>
-    13 — Harriet Blich.
-   </p>
+ 
    <p>
     ham, saa han videde sig ud, saa Blodet strømmede styrkende til
 Hjernen, og han atter blev Kar for sin Hat . . .
@@ -6617,9 +6619,7 @@ stod saa beklemt og syndbevidst, efterat han havde kysset hende, gik det
 med et levende op for hende, at han i meget var den samme, som da hun
 for mange Aar siden agte Kjælkebakke med ham. Han var blit
    </p>
-   <p>
-    14 — Harriet Blich.
-   </p>
+ 
    <p>
     skulderbredere og mandigere af Udseende, men havde ellers ikke
 forandret sig saa meget.
@@ -6704,6 +6704,9 @@ elske, ny de ... Og i sin Trang efter Liden skab tænkte hun, at var det
 end hendes egen Mor, vilde hun gladelig ofre hende, hvis hun prøvede paa
 at holde hende igjen.
    </p>
+         </div>
+         <div type="chapter">
+             <head>XV.</head>
    <p>
     Men hun evnede jo hverken at leve, elske eller nyde, ikke engang at
 trække Aanden frit og dybt, saa længe hun gik her i disse vante
@@ -6876,6 +6879,9 @@ de to Damer såtte sig i Droschen, lød Hurraraabene, og i Triumf svingede
 en af Gutterne et rent Flag, han havde kjøbt sig sidste syttende
 Mai.
    </p>
+         </div>
+         <div type="chapter">
+             <head>XVI.</head>
    <p>
     Var det ikke det, hun vidste: De havde ikke flyttet ind i deres nye
 Leilighed, før hun straks blev et ganske nyt Menneske. Her i disse
@@ -7080,9 +7086,7 @@ Kaabelommerne.
     Og som det saa ofte var gaat ham før, gik det ogsaa nu: Han blev med
 et ganske ædru. Han
    </p>
-   <p>
-    15 — Harriet Blich.
-   </p>
+ 
    <p>
     ønskede, at de atter var ude i fri Luft, at han aldrig havde bedt
 hende med sig, og at han paa en eller anden Maade kunde faa hende ud
@@ -7345,8 +7349,11 @@ sad paa Galleriet og betragtede de dansende.
    <p>
     Hun var jo rent gal efter at more sig !
    </p>
+         </div>
+         <div type="chapter">
+             <head>XVII.</head>
    <p>
-    Ja, jeg er gal, taenkte hun, men det faar ikke hjælpe. Jeg vil
+    Ja, jeg er gal, tænkte hun, men det faar ikke hjælpe. Jeg vil
 alligevel more mig! Jeg har havt det saa trist og ensomt i hele mit Liv,
 at nu vil jeg more mig rigtig til Gavns. Jeg har som en lid indvendig,
 der ikke gir mig Fred, og den liden vil jeg slukke ved at more mig.
@@ -7394,9 +7401,11 @@ igjen.
     Jeg vil le, fordi jeg skal dø! Le, le! Raabe ud paa Gadehjørnerne, at
 jeg er ty ve Aar og en ung Mands unge Elskerinde.
    </p>
-   <p>
-    XVIII.
-   </p>
+   
+         </div>
+         <div type="chapter">
+             <head>XVIII.</head>
+   
    <p>
     Saa høit kunde der naaes ! Ikke høiere. Som en saa vildt berusende
 Lidelse kunde altsaa Glæden i ens Sind føles, nåar dette er spændt til
@@ -7592,9 +7601,7 @@ Forsøg paa at slukke Lysene, der havde straalet over hendes festglade
 Undersaatter, som om hun trampede paa Roserne og trak paa Skuldrene af
 alle hendes Triumfer.
    </p>
-   <p>
-    16 — Harriet Blich.
-   </p>
+ 
    <p>
     Klokken var næsten to, da hun kom hjem fra dem!
    </p>
@@ -7961,6 +7968,9 @@ egen.
 Menneske havde Ret til at leve sit Jordliv saa rigt som muligt. Med
 tørre, skinnende Øine laa hun og saa ind i Mørket.
    </p>
+         </div>
+         <div type="chapter">
+             <head>XIX.</head>
    <p>
     Det første, Harriet hørte, da hun aabnede Øinene om Morgenen, var en
 dumpt ru m] ende Lyd af Vand, der styrtede fossetungt ned gjennem
@@ -8099,9 +8109,7 @@ Tilfælde Ret til det? I snart to Uger havde han nu siddet skyldbetynget
 og indeklemt mellem disse fire stængende Vægge og ventet paa, at der
 vilde ske noget. Hun havde
    </p>
-   <p>
-    17 — Harriet Blich,
-   </p>
+ 
    <p>
     opdaget ham. Han sad her som Ræven i Saksen, som Insektet spiddet paa
 Naalen, og vred sig i Kval og Pine for at komme løs igjen, men kunde
@@ -8501,6 +8509,10 @@ Overflod paa Livslyst og Arbeidslængsel, trykkede han Hatten fast bag
 paa Skolten, snudde om og pilte aandeløs hjem til sit nye
 Arbeidsværelse.
    </p>
+         </div>
+         <div type="chapter">
+             <head>XX.</head>
+             
    <p>
     Det blev en lang, trist Regnvinter. Harriet sad næsten altid inde og
 brydde sig ikke mere om at gaa ud.
@@ -8620,98 +8632,9 @@ raabte det høit i hende, at hun vilde did ned.
    <p>
     Ja, hun vilde did ned !
    </p>
-   <p>
-    18 — Harriet Blich.
-   </p>
-   <p>
-    i
-   </p>
-   <p>
-    I alle bog lader faaes følg ende bøger a f
-   </p>
-   <p>
-    NILS COLLETT VOGT
-   </p>
-   <p>
-    FAMILIENS SORG. Eortælling. Pris kr. 3,50.
-   </p>
-   <p>
-    DIGTE.
-   </p>
-   <p>
-    Pris kr. 1,50.
-   </p>
-   <p>
-    FRA VÅAR TIL BØST. Bigte. Pris kr. 2,00.
-   </p>
-   <p>
-    MUSIK OG VÅAR. Nye digte. Pris kr. 1,75, ib. kr. 3,00.
-   </p>
-   <p>
-    DET DYRE BRØD. Bigte. Pris kr. 2,00.
-   </p>
-   <p>
-    Morske statsstødde / iwtnvvvfflrmwmwnVYYY
-   </p>
-   <p>
-    tist
-   </p>
-   <p/>
-   <p>
-    Folke bok=
-   </p>
-   <p>
-    mo røtKEBOKSAMUNi
-   </p>
-   <p>
-    Lånerne anmodes
-   </p>
-   <p>
-    Ikke å ta på bøkene med våte eller
-   </p>
-   <p>
-    skitne hender.
-   </p>
-   <p>
-    Ikke å ta dem ut i uten omslag.
-   </p>
-   <p>
-    regn eller sne
-   </p>
-   <p>
-    Ikke å skrive eller
-   </p>
-   <p>
-    tegne i dem
-   </p>
-   <p>
-    Ikke å bøye permene bakover, så heftetrådene brister. Ikke å brette
-bladene som merke.
-   </p>
-   <p>
-    Hvis boken ikke er tilbakelevert innen den bestemte forfallsdag,
-   </p>
-   <p>
-    betales
-   </p>
-   <p>
-    øre for hver over
-   </p>
-   <p>
-    sky tende dag i overdagspenger. 1^ Beskadigelse som skyldes
-skjødesløs behandling, erstattes av låneren etter bibliotekarens skjønn.
-jp Bortkastede bøker erstattes med E den i katalogen oppførte pris fkr.
-for bind.
-   </p>
-   <p>
-    Framlån er forbudt
-   </p>
-   <p>
-    FOLKEBOKSAMLINGENES EKSPEDISJON - OSLO
-   </p>
-   <p>
-    i&gt;iT w^S
-   </p>
+ 
+         </div>
+
   </body>
  </text>
 </TEI>

@@ -77,33 +77,8 @@
   </revisionDesc>
  </teiHeader>
  <text type="novel" xml:id="NB_Janson_Fredlose_xml_text">
-  <body>
-   <p>
-    0.968850892535876
-   </p>
-   <p>
-    <ref target="http://urn.nb.no/URN:NBN:no-nb_digibok_2009051910004">
-     http://urn.nb.no/URN:NBN:no-nb_digibok_2009051910004
-    </ref>
-   </p>
-   <p>
-    De Fredløse Roman fra Reformationstiden
-   </p>
-   <p>
-    Janson, Kristofer
-   </p>
-   <p>
-    1894
-   </p>
-   <p>
-    nob
-   </p>
-   <p>
-    87GA98280
-   </p>
-   <p>
-    DE FREDLØSE
-   </p>
+<front> 
+<div type="titlepage">
    <p>
     DE FREDLØSE
    </p>
@@ -120,27 +95,14 @@
     'BERGEN
    </p>
    <p>
-    FORLAGT AF MONSLITLERÉ
+    FORLAGT AF MONS LITLERÉ
    </p>
    <p>
-    i&amp;9 It
+    1894
    </p>
-   <p>
-    J. D. BBYERS BOGTRYKKERI
-   </p>
-   <p>
-    MAGNUS BROSTRUP LANDSTADS
-   </p>
-   <p>
-    OVLIIsriDE
-   </p>
-   <p>
-    TILEGNET
-   </p>
-   <p>
-    — -»-&lt; ' ■
-   </p>
-   <p>
+</div>
+<div type="liminal">   
+    <p>
     Fortale.
    </p>
    <p>
@@ -177,12 +139,16 @@ Folk.
    <p>
     Kristofer Janson.
    </p>
-   <p>
+</div>
+</front>
+     <body>
+<div type="chapter">         
+   <head>
     Første Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Laget paa Prestegaarden. En Brudekamp.
-   </p>
+   </head>
    <p>
     Der skulde være Dugnad hos Presten til Hjartdal, Hr. Lars. Bønderne
 var tilsagte at kjøre Juleved, som Skik og Brug var. Mo 'r Sidsel,
@@ -250,15 +216,12 @@ være blandt de værste Slaaskjemper.«
    <p>
     Da blev Sidsel sint. Hun slængte en Rad med Brød hen paa
 Kjøkkenbordet, saa det smald og sagde: »nei Gudskelov, at Sønnerne vore
-duger til andet end til at sidde paa Herremakket*) og pluddre Latin. En
+duger til andet end til at sidde paa Herremakket<ref target="EN02">*)</ref> og pluddre Latin. En
 stakkars Landsprest, som næsten blir sultet ihjel, er nu det usleste
 Kreket paa Ghids grønne Jord, og det er bedre at være de, som trakker,
 end dem, som skal trakkes paa.«
    </p>
-   <p>
-    *) En gammel, isoleret Stuebygning paa Hjartdals Preste- gaard, som
-nu ikke er mere til. (Landstad.)
-   </p>
+ 
    <p>
     » Mennesket lever ikke af Brød alene, men af hvert Ord, som udgaar af
 Guds Mund,« svarede Hr. Lars med Salvelse.
@@ -402,7 +365,7 @@ ham op, men Hans To faldt ind: »det er best du drikk upp Synderne
    </p>
    <p>
     hans, du Herbjørn ; du veit, det er ikkje berre Presten, som drikk
-seg full i Synderne vaare no, me fær smaka litt av Vinet me og.«*)
+seg full i Synderne vaare no, me fær smaka litt av Vinet me og.«<ref target="EN03">*)</ref>
    </p>
    <p>
     »Ja dei finn paa so nrykje rart noumstunder, « tog Anfinn Dysjaa i,
@@ -433,11 +396,7 @@ paa Siden. Saa seg de endelig ind paa Prestegaardstunet. Mo 'r Sidsel,
 som ikke stolede paa sin Ægtehalvdel, naar, det gjaldt det
 praktiske,
    </p>
-   <p>
-    *) I den katolske Kirke uddeltes, som bekjendt, kun Brødet i Alterens
-Sakramente, mens Presten alene drikker Vinen for ikke at spilde noget af
-den dyrebare Vædske.
-   </p>
+
    <p>
     modtog dem med et Maalebaand, og efterhvert som de havde aflæsset og
 lagt op Veden i Lag, var hun efter med Maalebaandet og gav fine Lovord,
@@ -870,12 +829,14 @@ so du karm koma deg stad og fri.«
 Aaslaug Bekkhus, som var den hæsligste Gjente i hele Hjartdal, er ikke
 godt at vide.
    </p>
-   <p>
+</div>
+         <div type="chapter">
+   <head>
     Andet Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Hestekampen paa Bø. Ditlef kommer i Knibe.
-   </p>
+   </head>
    <p>
     Rygtet om, hvad der skulde foregaa paa Bø i Saudland Tingdagen, var
 spredt viden om i Telemarken. Tolket vidste, at Kongens Foged var kommen
@@ -1141,7 +1102,7 @@ Aar var gaaet, havde befriet Bygden fra de Ildgjerningsmænd, som laa og
 huserte i Fjeldene og overfaldt baade Folk og Pæ, saa skulde han berge
 sit Liv. Bjørgulf paatog sig Hvervet, saafremt han fik beholde sine
 Heste, og det blev ham lovet. Dommen blev hilset af Bønderne med stor
-Jubel; thi &gt;/Fjørbaugsmændene«*) var meget frygtede. Der havde været
+Jubel; thi &gt;/Fjørbaugsmændene«<ref target="EN04">*)</ref> var meget frygtede. Der havde været
 opskaaret Budstikke, som stevnede meget Folk sammen fra alle Bygderne
 rundt om, og de havde gjort Mandgar for at fange de Fredløse, men de
 havde ingen fundet.
@@ -1158,9 +1119,7 @@ med Mo'r Sidsels Ovnsbrød og 01.
 raabte Bjørgulf. »Var ikkje Mikkel og Stikkel for trøytte, so skulde
 eg
    </p>
-   <p>
-    *) De Fredløse.
-   </p>
+
    <p>
     vaaga dei. Men korleis er det med deg, Paal Aabø, du plar no ikkje
 vera kveppen, naar det gjeld Øykjerne dine.«
@@ -1189,7 +1148,7 @@ Mængden for at rigge op Hesten sin. Folk stimlede sammen om Ditlef, og
 gav sig til at se og føle paa Hesten hans.
    </p>
    <p>
-    »Han er god i Beini!« — »Kva Tid fekk du honom, Ditlef? « ■ — - »Han
+       »Han er god i Beini!« — »Kva Tid fekk du honom, Ditlef? «— — -»Han
 er ikkje fallen her i Bygdi?« saaledes lød Bemærkningerne rundt om.
 Ditlef stod i Ringen og forklarede og skrød. Hesten var kommen fra
 Hallingdal og var Søn af » Kongen « paa Gol; havde været Seirherre i tre
@@ -1305,12 +1264,14 @@ Hoved ved Siden af Slæden, hvorpaa dens døde Husbond hvilede, og
 dræbte Hest blev efter gammel Skik gravet ned paa Stedet, hvor den
 faldt, med Bidsel og Sele.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+   <head>
     Tredie Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Natadalsmændene kræver Hevn. Ditlefs Flugt.
-   </p>
+   </head>
    <p>
     Aasmund Natadal var begravet med al mulig Ære. Bagerst i Ligtoget gik
 to Kjør, de saakaldte »gravvigsla Naut«, som siden skulde sendes Presten
@@ -1513,12 +1474,15 @@ var kommen ind i Stuen igjen, sank hun sammen paa Bænken og raabte til
 Ingeborg: »Gudskelov, me vart kvitt dei. Du tok vel ikkje av det andre
 Turklædet og? — So hev me daa endaa litt leivt «.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Fjerde Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Den Fredløse. Italieneren. Julenatten paa Fjeldet.
-   </p>
+   </head>
    <p>
     Der levede en enslig Mand, mest paa Skorveog Melefj eldet eller oppe
 ved Breidvatnet. Ingen vidste, hvem han var, eller hvorfra han var
@@ -1735,32 +1699,33 @@ paa, korleids det gjekk paa Haatveit i Kveld. Eg sende Hunden heim, at
 ho Ragnhild kunde sjaa, han hadde funnet meg, og at eg hadde Vampen.
 «
    </p>
-   <p>
+             <p><quote>
+   <l>
     Og nu begyndte Ditlef at synge, saa det rungede i Hytten:
-   </p>
-   <p>
+   </l>
+   <l>
     »Austan reke
-   </p>
-   <p>
+   </l>
+   <l>
     Skyi skeke,
-   </p>
-   <p>
+   </l>
+   <l>
     og den kalde Mjølli driv, betre var det beima vera skjemta seg med
 sitt Viv.
-   </p>
-   <p>
+   </l>
+   <l>
     Austan reke Skyi skeke,
-   </p>
-   <p>
+   </l>
+   <l>
     det driv so kaldt i Heidi, Betre var det heima sitja dei frosne
 Tær'na tøye.
-   </p>
-   <p>
+   </l>
+   <l>
     Betre var det heima vera, skjemta seg med sin Hest,
-   </p>
-   <p>
-    hell vera i Dag paa ville Fjellet, naar det blæse av Nordvest.**)
-   </p>
+   </l>
+   <l>
+    hell vera i Dag paa ville Fjellet, naar det blæse av Nordvest.<ref target="EN05">**)</ref>
+   </l></quote></p>
    <p>
     Og Ditlef slog Ølet i Bollen og satte den for Munden. Han dråk og
 pustede og dråk igjen. Saa strøg han med Haandbaken over Munden og rakte
@@ -1770,9 +1735,7 @@ Kroppen. Velsignad vera han Paal, og du med, som gav meg Hus. Stakkars
 den, som skal ferdast ute i Nott. Fær eg no Grauten din attaat, trur eg,
 det vert Folk av meg med.«
    </p>
-   <p>
-    *) Disse Vers er af Landstads Kjempevisesamling.
-   </p>
+ 
    <p>
     De to Karene sad snart med Grødfadet imellem sig, aad og snakkede om
 n}^t og gammelt. Ditlef sad i bare Skjorten nærmest Gruen og vendte sig
@@ -1917,7 +1880,7 @@ takka fyr, « mumlede han og stampede Grøden.
 Redningsmand,« fortsatte den Fremmede.
    </p>
    <p>
-    Da vendte Viking sig pludselig. »Um du elder Karen der« ■ — og han
+    Da vendte Viking sig pludselig. »Um du elder Karen der«  — og han
 pegte paa Skydskaren, som havde lagt sig ned ved Siden af Hesten — »
 elder ho paa Sengi nemner eit einaste Ord um, at dei hev set meg elder
 voret her, so skal denne Kniven sitja i Hjartat dykkar fyrr Kveld. « Og
@@ -2161,12 +2124,15 @@ anden Gang.
    <p>
     5
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Femte Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Morgenen efter. Turen til Bygden. Kirkesagn. Dale-Arnbjern.
-   </p>
+   </head>
    <p>
     Det er med Naturen som med Menneskene. Man ligger som knust under
 Stormen af Sorger og Skuffelser, og i næste Øieblik kommer Haabets Sol
@@ -2341,9 +2307,7 @@ Prestga'ren, « sagde Ditlef.
 Veien tog til at skraane ned igjennem Hjartdalslien. Hele Dalen laa
 udbredt for
    </p>
-   <p>
-    70 . i — ■
-   </p>
+
    <p>
     dem, belyst af Vintersolen. Kirkeklokkerne begyndte med en Gang at
 ringe, og de kunde se Slæder og Folk mylre frem paa Veiene som mørke
@@ -2537,12 +2501,15 @@ underlege Ting. «
 modtog Gjæsterne med al den Værdighed, som det sømmede sig en Husmo'r
 paa et af de største Bruk.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Sjette Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Arnbjerndalen. Bernardos Hjem. Spogelset.
-   </p>
+   </head>
    <p>
     Som et Dyb, sænket ned mellem vikle Fjelde, ligger Arnbjørndalen. Paa
 den eae Side løfter Mælefjeldet sit stolte Hoved mod Skyen, og tusinde
@@ -2912,12 +2879,15 @@ man paa hans tunge Aandedræt, at ogsaa han var sovnet. Flammerne legede
 endnu paa Væggen, og Stiletten blinkede glimtvis, men alle onde Aander
 var bortvegne fra de to Fredløse.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Syvende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Guldnes Verk. Tydskernes Julefest.
-   </p>
+   </head>
    <p>
     Guldnes Verk ved Sundsbarmsvandet i Seljord var først drevet af
 Biskop Mogens af Hamar. Han fik Brev paa Verket af Kong Fredrik den
@@ -2959,7 +2929,7 @@ skulde kjøre for dem og skaffe dem Mad, men at de endog skulde rømme de
 Verket nærmestliggende Gaarde og overlade dem til Bergmændene. En
 lydelig Knurren reiste sig mod dette Tyranni over hele øvre Telemarken,
 og Misfornøielsen var om at koge over, hver Gang der berettedes om en ny
-Voldsgjerning fra Tydskernes Side.*)
+Voldsgjerning fra Tydskernes Side.<ref target="EN06">*)</ref>
    </p>
    <p>
     Det var en Dag i Julen —og Julen holdtes efter den gamle Skik til
@@ -2970,9 +2940,7 @@ end gjerne grebet Leiligheden til at komme derhen. Thi Herdis, hans
 dyrtvundne Kjæreste, havde maattet flytte fra Prestegaarden, saasnart
 som Søren kom
    </p>
-   <p>
-    *) Landstad: Sagn om Hjartdølerne.
-   </p>
+ 
    <p>
     sig af sine Vunder, især da denne var bleven hoftelam attaat sine
 mange andre Skrøbeligheder. Han taalte ikke at se dette Tvistens Æble
@@ -3214,12 +3182,15 @@ gryede ad Dag, tussede endnu nogle drukne Skikkelser omkring nede ved
 Øltønden. Det var Bergekongen og nogle af Dvergene ; Huldren derimod var
 flygtet.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Ottende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Mor Sidsel vover sig ind i Løvekulen. Lars blir bergtagen.
-   </p>
+   </head>
    <p>
     Ditlef havde naturligvis berettet hjemme paa Prestegaarden om alle
 sine underlige Hændelser og om alt, hvad han havde seet hos den
@@ -3579,12 +3550,15 @@ fortryllede Hus havde br sendt sig for fast i Sønnen, og aarle næste
 Morgen saa man ham med Skræppe paa Ryg og Stav i Haand vandre let og
 glad mod Slottet i Arnbjørndalen.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Niende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Bjørgulf Ba løser sit Liv.
-   </p>
+   </head>
    <p>
     Bjørgulf Bø gik vel løs og fri; men Øvrigheden holdt dog stadig Øie
 med ham. Han havde paataget sig at renske Bygderne for Ildgjerningsmænd,
@@ -3710,7 +3684,7 @@ svarede Bjørgulf og 10. »So det er paa Skorvefjellet, han held te
 no.«
    </p>
    <p>
-    »Nei, lian er med Breidvatnet i Vinter, i Fjellbudi upp me Tjerni — ■
+    »Nei, lian er med Breidvatnet i Vinter, i Fjellbudi upp me Tjerni — 
 der er han.«
    </p>
    <p>
@@ -3939,12 +3913,15 @@ Stikkel, kom Bjørgulf tilbage
 Stabburet. Der skulde de hænge til evindeligt Eftermæle for de kommende
 Slægter om hans Livs største Bedrift.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Tiende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Forsent.
-   </p>
+   </head>
    <p>
     Samme Kveld, som dette forefaldt, bankede det paa Døren paa Haatveit.
 Ragnhild gik for at lukke op. En Kone stod udenfor med et Barn paa
@@ -4163,12 +4140,15 @@ paa Sædet og kjørte hjem. Vikings Hund løb hylende efter. Men Magnhild
 laa og pratede meningsløst hele Veien, mens Barnet krabbede rundt og
 famlede efter hendes Bryst.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Ellevte Kapitel
-   </p>
-   <p>
+   </head>
+   <head>
     Liv i Arnbjørndalen. Bernardos Historie Sommerdrøniime.
-   </p>
+   </head>
    <p>
     Lars var bleven forhekset i Arnbjørndalen. Om Paven havde truet med
 Ban eller Morten Luther med det evige Helvede eller en Engel fra
@@ -4179,9 +4159,7 @@ havde gjort sit Arbeide, fik han Lov at sidde inde og deltage i de
 Undervisningstimer, som Bernardo gav Maria. Og denne brugte da for hans
 Skyld det danske Sprog, saa det blev
    </p>
-   <p>
-    Janson: De Fredløse
-   </p>
+ 
    <p>
     en fornyet Øvelse baade for Bernardo og hans Datter. Men naar Talen
 faldt paa religiøse Emner, brugte altid Bernardo Italiensk, hvad der
@@ -4830,12 +4808,15 @@ paa sin Baret, satte Sporerne i Hesten og var snart forsvunden. Men
 Maria stod i Tanker og saa efter ham. Det var som en Aabenbarelse fra en
 anden Verden.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Tolvte Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Troldom.
-   </p>
+   </head>
    <p>
     Mo'r Sidsel sad i Stuen sin og spandt paa Haandten. Stuen var ikke
 udstyret som Prestegaardsstuer nutildags. Der fandtes hverken Grardiner
@@ -5323,12 +5304,15 @@ Brynhild reiva ein Bleie kring deg og leggja deg ned i Vogga. « Og
 dermed vendte Mo 'r Sidsel foragteligt Ryggen til Sønnen sin og gik
 ind.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Trettende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Serens Frieri.
-   </p>
+   </head>
    <p>
     Aaslaug Bekkhus, Søster til Hjartdalssolen, var ligesaa hæslig, som
 Søsteren var fager. Forældrene ansaa hende for en Byting, og Moderen
@@ -5463,12 +5447,15 @@ Bekkhusen anede det, stod Søren i Tunet. »!Sro fær du laga te Brudlaups,
 Bekkhusen, « sa' han, »no skjerer ikkje Mons Landverk av fleire
 Hesterumpor.«
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Fjortende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Mester og Lærling.
-   </p>
+   </head>
    <p>
     Lars sad i Bernardos Stue. Hans store Øine hvilede med Beundring
 blandet med Frygt paa sin Mester, der sad bøiet over sine Manuskripter.
@@ -5678,12 +5665,9 @@ Jorden og mellem alle Nationer. [I denne Orden forandrer man ikke Bolig
 men Sæder, ikke Klædning men Liv; man skjærer af alle syndige Tanker og
 Begjærligheder og ikke Haaret; man beder med Hjertet og ikke med
 Læberne; man lyder Gud og ikke Mennesker. Kun ædle Sjæle kan træde
-derind]*). Og denne Orden er Guds Riget paa Jorden. «
+derind]<ref target="EN07">*)</ref>. Og denne Orden er Guds Riget paa Jorden. «
    </p>
-   <p>
-    *) Alle de i [ ] satte Ytringer er Citater af Bernardino Ochi- nos
-Skrifter.
-   </p>
+
    <p>
     »Her driv dei hardt med aa lesa i Bøneboki, naar dei hev gjort noko
 galet — dei, som karm lesa daa. Trur du, det hjelper?« spurgte Lars.
@@ -5773,12 +5757,15 @@ stille Aften - timer ved Amen. Nu venter mine Manuskripter paa mig.«
 Bernardo vendte sin Stol mod Bordet igjen, og Lars vaklede ud, fortumlet
 af hvad han havde hørt
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Femtende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Andet Angreb paa Haatveit. Ditlef gjør sig fredløs.
-   </p>
+   </head>
    <p>
     Ditlef havde siddet i god E,o paa sin Graard nu en Stund og troede al
 Fare forbi, og saa troede ogsaa Ragnhild. Men Grunden under dem var ikke
@@ -6074,12 +6061,15 @@ Magnhild med Barnet sit.
 sagde hun. »Han er vel ikkje komen endaa han Viking. No skal me sitja
 her og venta paa honom. «
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Sekstende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Skole og Skolemester. Paal Aabø som Ægteskabsstifter.
-   </p>
+   </head>
    <p>
     Ragnhild Haatveit grundede Dag og Nat paa, hvad hun skulde gjøre. At
 Ditlef skulde ligge ude aarevis i Skog og Mark som en anden Fredløs,
@@ -6299,7 +6289,7 @@ Guro Dysja, kva heiter sosiste Bokstaven ?«
    <p>
     Guro havde det netop saa travelt med at stikke Sidemanden sin med en
 Naal, saa hun ikke hørte Spørgsmaalet, blev bare rød i Hausen. I det
-samme flyttede Ragnhild Haatveit sig lidt paa Krakken — ■ hun begyndte
+samme flyttede Ragnhild Haatveit sig lidt paa Krakken —  hun begyndte
 at blive utaalmodig — og dermed kom en Snip af Stakken kendes til at
 staa indpaa en Kasse, som stod der i Peiskraaen. Med et begyndte det at
 blive levende i Kassen, og en liden Koppgris, som havde fundet det
@@ -6635,12 +6625,15 @@ hit og ser dei, so kunde kanskje Sinnet taka honom, og han spilla heile
 Greida. Og so fær du hava Takk daa, Paal, du er no Meisteren lei. Kom no
 inn og faa litt i Skrotten. «
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Syttende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Hr. Lars maner Djævelen.
-   </p>
+   </head>
    <p>
     Kristian Larsson kom en Dag hinkende ind paa Prestegaarden.
    </p>
@@ -6725,7 +6718,7 @@ er faret i henne og daa hjelper ikkje anna enn Guds Ord. «
     »Dette er en meget betænkelig Sag, Kristian, « sagde han; »thi
 Djævelens Magt er stor, naar han først har faaet Indpas i Huset, og han
 kan tilkalde Legioner af Djævle til sin Hjælp. Denne Hunden, som hun
-dægger saa for, er ikke han svart ■?«
+dægger saa for, er ikke han svart ?«
    </p>
    <p>
     »Jau, pikkande svart som Ramnen. «
@@ -6733,10 +6726,10 @@ dægger saa for, er ikke han svart ■?«
    <p>
     »Der har vi det. Lutherus siger, at Slanger og Abekatte fremfor alle
 andre Dyr er Fanden undergivne; at han farer i dem og besætter dem og
-bruger dem til at bedrage og skade Folk med*) ; men jeg
+bruger dem til at bedrage og skade Folk med<ref target="EN01">*)</ref> ; men jeg
    </p>
    <p>
-    *) Heksevæsen og Troldskab i Norge. S. 41.
+   
    </p>
    <p>
     ved forvist, at svarte Hunde ogsaa er et af Djævelens villigste
@@ -6794,7 +6787,7 @@ indenfor den anden. Selv stillede han sig i den inderste. Saa slog han
 et stort Kors foran sig i. Luften og raabte med sterk Røst:
    </p>
    <p>
-    »Apage, Satanas.U*}
+    "Apage, Satanas."<ref target="EN08">*)</ref>
    </p>
    <p>
     Da begyndte Brynhild at le.
@@ -6805,9 +6798,7 @@ du fyrst manar honom ut or Kristian og dei andre Sønerne dine.« Men Hr.
 Lars lod sig ikke forstyrre, han lukkede Øinene og begyndte at ramse
 Latin, saa det durede i Væggen.
    </p>
-   <p>
-    *) Pak dig, Satan!
-   </p>
+  
    <p>
     Kristian foldede Hænderne i from Beundring, men Brynhild lo enda
 værre.
@@ -6858,15 +6849,13 @@ jage dig ned i det dybeste Helvede, hvor du hører hjemme, og løber du
 ikke for Guds Ord, saa kan du løbe for den, « — idet samme dreiede Hr.
 Lars sig rundt paa Hælen, vendte Bagen til Brynhild og udsendte en høist
 upassende Lyd. »Tag den og far med den til Paven i Rom, din rette Herre
-! « *)
+! « <ref target="EN09">*)</ref>
    </p>
    <p>
     Dette blev for stærkt selv for Djævelen. Han satte paa Dør og tog
 Brynhild med sig.
    </p>
-   <p>
-    *) Se Heksevæsen og Troldskab i Norge. S. 41.
-   </p>
+ 
    <p>
     Men Hr. Lars stod igjen paa Grulvet og tørrede sin svede Pande, mens
 Kristian langsomt aabnede Døren for at slippe ud den stygge Lugt, som
@@ -6875,16 +6864,19 @@ altid følger med, naar Djævelen fjerner sig.
    <p>
     Morgenen efter fandt man Brynhilds Lig liggende nedenfor nærmeste
 Bjerghammer. Om hun i Sinnet uforvarende var gledet udfor, eller
-Djævelen liavde kastet hende ned, for dog at faa Kroppen ■ødelagt, naar
+Djævelen liavde kastet hende ned, for dog at faa Kroppen ødelagt, naar
 han ikke fik Sjælen, det var der ingen, som vidste. Men Kristian drog et
 Lettelsens Suk, og Hr. Lars's Ry som Djævlebesværger steg end mere.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Attende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Magnhild og Maria. Marias Bortførelse Festen paa Guldnes.
-   </p>
+   </head>
    <p>
     Sommeren stod endnu i sin fulde Pragt. Bernardo og Maria gjorde endnu
 sine Streiftog i Skog «g Mark, fulgte af Lars, der villig gjorde
@@ -7073,7 +7065,7 @@ Fladbrød til, da hun kom farende ind og raabte:
     »Hvad siger hun?« spurgte Bernardo.
    </p>
    <p>
-    » Viking komen ! — stor — ■ pen — brunt Skjegg — fine Klær — aa, so
+    » Viking komen ! — stor —  pen — brunt Skjegg — fine Klær — aa, so
 fine! — Møyels Huva med Fjør — snakkad babela-be-la-be-la« — og Magnhild
 lo; hun havde ikke skjønnet Tydsken.
    </p>
@@ -7630,12 +7622,15 @@ Fængslet, krydsede hendes Hjerne. Der var ikke Tale om Søvn den Nat. Og
 under alle sine Tanker hørte hun Skildtvagtens monotone Skridt udenfor
 sit Fængsel.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Nittende Kapitel
-   </p>
-   <p>
+   </head>
+   <head>
     Morgendagen. Lars's Heltebedrift. Bernardos og Glasers Møde.
-   </p>
+   </head>
    <p>
     Maria havde ikke klædt sig af. Hun havde kastet sig med Klæderne paa
 over Sengen og forsøgt at sove efter at have givet sig i alle de
@@ -7959,12 +7954,15 @@ vil beskytte mig og Sandheden. «
     Hans Glaser sprang op og tog i Døren ; men saa betænkte han sig og
 strøg grundende Haanden over sit stærke, brune Skjæg.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Tyvende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Maaneskinsdrømme.
-   </p>
+   </head>
    <p>
     Hans Glaser skummede af Raseri, da han opdagede, at Buret var tomt,
 og Fuglen fiøien. Nogle Bergfolk var komne op og havde meldt, at en af
@@ -8134,9 +8132,12 @@ til de større Syner og Vidder, hvor du skal slibes i Livets store Kampe.
 Det er din gode Engel, som hviler der i din Arm; hun skal føre dig som
 Engelen førte Petrus ud af Lænkerne og Fængslet til Lys og Frihed.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Et og Tyvende Kapitel.
-   </p>
+   </head>
    <p>
     Brylluppet paa Natadal. Serens Drab. Det samler sig til Hevn.
    </p>
@@ -8265,22 +8266,25 @@ Illjas-Bjørnar. «
     »Ja, det kjem seg av, at dei vil løysast or Trolldomen, ser du,
 soleis som det stend i den gamle Visa:
    </p>
-   <p>
+   <p><quote>
+       <l>
     Og det vart Fruga Sigaros, slo til med Tussegreivi,
-   </p>
-   <p>
+   </l>
+   <l>
     skapad ho dei i tvo Augnebjønnir, dei laggad der nord yver Heidi.
-   </p>
-   <p>
+   </l>
+   <l>
     Ho slo til med Tussegreivi og i den samre Tid:
-   </p>
-   <p>
+   </l>
+   <l>
     der skal vera tvo Augnebjønnir og laupe i rosands Lid.
-   </p>
-   <p>
+   </l>
+   <l>
     So lenge skal dei Bjønnir vera og heran paa Skogni gange, til dei
-teker Barnet 'tor Mors Mage og føder det upp til Manne.*)
-   </p>
+teker Barnet 'tor Mors Mage og føder det upp til Manne.<ref target="EN10">*)</ref>
+
+   </l>
+       </quote></p>
    <p>
     »Sku du høyrt Maken? Og ho Sidsel vart teki av slik ein?«
    </p>
@@ -8289,9 +8293,7 @@ teker Barnet 'tor Mors Mage og føder det upp til Manne.*)
 ein Fjordung Veg fraa Bondal, for dei er no mest Sætrar alle Gararne der
 uppe i Tudal. Olav, Mann hennar, bad henne vera
    </p>
-   <p>
-    *) Landstads Kjæmpeviser.
-   </p>
+ 
    <p>
     var, for det skulde vera stygt med Bjørn deruppe, og han song fyr
 henne Visa um Fruga Sigaros; men ho meinte det berre vart Tull og Tøv,
@@ -8381,24 +8383,27 @@ berre Hugen tung, og no skal me vera lystuge og glade. Kva meinar de um
 me tok til aa stevjast litt P « sagde Paal Aabø. »Eg skal byrja. « Og
 dermed begyndte Paal at synge paa den gamle Stevtonen:
    </p>
-   <p>
+            <p> <quote>
+   <l>
     Eg hev farit baad' Land og Strand, ridet og sum Tid gjenget,
-   </p>
-   <p>
+   </l>
+   <l>
     men fagrare Brud og venare Møy eg hev ikkje set paa lenge.
-   </p>
-   <p>
+   </l>
+   <l>
     Vænt det var med Hjartdals Kyrkja, daa Bruri ho kom inn,
-   </p>
-   <p>
+   </l>
+   <l>
     dei tar 'kje bry seg for Ljosi bera, det lyser av Blomekinn.
-   </p>
-   <p>
+   </l>
+   <l>
     Haaret hev ho som Tiriltunga, og Halsen er som Mjell,
-   </p>
-   <p>
-    og Augo er i Hausen sjaa som Soli kjem upp fyr Fjell.*)
-   </p>
+   </l>
+   <l>
+    og Augo er i Hausen sjaa som Soli kjem upp fyr Fjell.<ref target="EN11">*)</ref>
+   </l>
+            </quote>
+            </p>
    <p>
     »Nei, no gjerer du meg mest bljug, Paal, « sa' Bruden, »det er best
 du skryt upp han Bendik lite vetta no.«
@@ -8432,10 +8437,7 @@ Stemme:
     Um alle Gutar stod i ei Line, fyrst dei ljote og so dei fine, um alle
 Gutar stod i ei Rad, eg visste vel, hokken eg vil ha
    </p>
-   <p>
-    *) Disse saavel som de følgende Stev er alle hentede fra Landstads
-Kjæmpevisesamling.
-   </p>
+
    <p>
     Og Guten min, han er nyssupprunnin i Andlet er han som Eggjeplomin, i
 Atgjerun er han no utifraa,
@@ -8751,9 +8753,7 @@ Ugras døyr ikkje so snøgt, veit de, og han Mons kraanad til. «
     »So var det i Dag tidlegt, « — og Maalet begyndte at briste for gamle
 Jesper, — »at han Søren
    </p>
-   <p>
-    -— ■
-   </p>
+ 
    <p>
     stod einsleg paa Stabburet ; han skulde firma fram Stasklædnaden sin
 og klæda seg te Brudlaups, daastend Mons Landverk attmed honom som
@@ -8801,7 +8801,7 @@ Hovedet og fortalte om Søren, •og græd imellem.
     »Nei, at det skulde gaa slik med han Søren — ja, vakker var han
 ikkje; men det er ikkje Vænleiken, som skal gjera det. Og Vit — ja han
 hadde Vit ! — han hadde tolv Manns Vit, som ein Bjørn. Skakkmynt var
-han, men kvassmynt var han og, - — ■ det var ikkje dei, som torde
+han, men kvassmynt var han og, - —  det var ikkje dei, som torde
 hanskast med honom, og so skulde han faa slik syrgjeleg Ende — aa nei,
 aa nei! Og ho Aaslaug, som no sit som Enkja paa Gåren, det er vel ingen,
 som vil hava henne, so styg som ho er. Men, te Søren var ho so
@@ -8821,7 +8821,7 @@ sig og paa alt, at han Søren var den af Prestesønnerne, som havde været
 mindst likt i bygden.
    </p>
    <p>
-    Ungdommen drog sig lidt efter lidt ud paa ■Tunet igjen.
+    Ungdommen drog sig lidt efter lidt ud paa Tunet igjen.
    </p>
    <p>
     »Eg tykkjer, han Søren fekk det just maate,« var det En som sagde.
@@ -8998,12 +8998,15 @@ Gildet var, blev udnævnte som Ledere. Saa skiltes Gjæsterne; men Tomas
 blev med Guldnesbonden nedover, dog paa det høitidelige Vilkaar, at han
 ingen Yoldsgjerning skulde foretage sig paa egen Haand.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     To og Tyvende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Lars som Skattegraver.
-   </p>
+   </head>
    <p>
     Signor Bernardo havde slaaet flere Gange paa, at han maatte se snart
 at komme sig over Tjeldet til Bergens By, for derfra at prøve at faa
@@ -9188,12 +9191,15 @@ gjøre; Lars skulde vist ikke fortælle det til Nogen.
 Han havde en Tversæk liggende paa Ryggen af Hesten. Han syntes flere Aar
 ældre som en alvorlig, myndig Mand.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Tre og Tyvende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Hans Glaser fuldender sin Hevn. Hr. Lars ruster sig mod Djævlene.
-   </p>
+   </head>
    <p>
     Hr. Lars blev ikke lidet forundret, da han hørte Hestetramp udenfor
 sin Bolig og saa en fint antrukken Ridder stige af. Han aabnede Døren
@@ -9311,8 +9317,8 @@ Djævelens Snare. «
 ve barn til os, « sagde Glaser.
    </p>
    <p>
-    » Bange, det ikke nytter, « svarede Hr. Lars ■og rystede paa Hovedet,
-»han er bunden paa Hæn■der og Fødder i Heksens Garn.«
+    » Bange, det ikke nytter, « svarede Hr. Lars og rystede paa Hovedet,
+»han er bunden paa Hænder og Fødder i Heksens Garn.«
    </p>
    <p>
     » Heksen ?«
@@ -9438,7 +9444,7 @@ tillod Fraadseri og Drukkenskab, fritog Munkene fra deres Bodsøvelser,
 og fik endog Nonner fra et Søsterkloster over til dem, og snart
    </p>
    <p>
-    var hele Klostret forvandlet til en Satans Hule*). Siden den Tid har
+       var hele Klostret forvandlet til en Satans Hule<ref target="EN12">*)</ref>. Siden den Tid har
 Satan særlig huseret i alle Klostre, og Munkene og Nonnerne har været
 hans udklædte Tjenere; derfor har vi ogsaa nu jaget dem paa Dør.
 Djævelen er saare opfmdsom i at plage Menneskene og drive Ap med dem. Af
@@ -9458,9 +9464,7 @@ Gnister, og som store kulsorte Kjæmper, der puster og fræser Ild. Ja,
 Gud tillader ham endog, for afc prøve sine Troende, at mishandle dem
 korporligen. Saaledes maatte
    </p>
-   <p>
-    *) Se Arturo Graf: Djævelens Naturhistorie S. 85 og 87.
-   </p>
+   
    <p>
     St. Everard taale at blive ørefiget Nat og Dag uden Ophør fra
 Langfredag til Pintse — tænk paa det, Venner, i hele 52 Dage, og en
@@ -9471,7 +9475,7 @@ den hellige Katharina i Sverige, og opbrændte den hellige Wilhelm i hans
 Seng i Roskilde. Djævelen bankede den hellige Grerardesca, kastede hende
 omkuld og forsøgte at drukne hende i Elven, da Jomfru Maria og Englene
 kom til og til Gjengjæld gav Djævelen Prygl. Og tænk paa den hellige
-Kristina af Stammelse, som blev plaget af 200,000 Djævle*)
+Kristina af Stammelse, som blev plaget af 200,000 Djævle<ref target="EN13">*)</ref>
    </p>
    <p>
     Ak, Venner, det er forfærdeligt at tænke paa, hvad Magt der er givet
@@ -9484,14 +9488,12 @@ som rider til Blaakulla og Hekkenfjeld paa Kosteskaft og deltager der
 med den Onde i hans gruelige Fester, og som maa forsværge sin Daab og
 sin
    </p>
-   <p>
-    *) Arturo Graf: Djævelens Naturhistorie S. 94—96—98—99—118.
-   </p>
+
    <p>
     Kristendom med saa skrækkelige Ord, at de ikke uden Anstød og
 Forargelse kan nævnes, disse, som lærer ved Hjælp af Håar og ISTegle og
 Ben og Fjær at vække Storm og sætte Ilt baade paa Folk og Fæ, disse, om
-hvem Martin Luther siger, at han ønsker, de var brændte alle tilhobe.*)
+hvem Martin Luther siger, at han ønsker, de var brændte alle tilhobe.<ref target="EN14">*)</ref>
 Men jeg vil tale om de meget farligere Troldmænd, disse, som efter at
 have sluttet Kontrakter med Djævelen og underskrevet dem med deres eget
 Blod, bliver af Djævelen indviet i Naturens Mysterier og hemmelige
@@ -9509,18 +9511,15 @@ Nat og lade dem forsvinde igjen, formørke Luften ved et Ord, forvandle
 Skarn til Gruld og Guld til Skarn, ja de kan gjøre Reiser paa
 Djævelens
    </p>
-   <p>
-    *) Heksevæsen og Troldskab i Norge. S. 56, 58. 190. Janson: De
-Fredløse. 18
-   </p>
+
    <p>
     19
    </p>
    <p>
     Ryg og komme i en Haandevending fra den ene Side af Jorden til den
-anden.*) De har en stor Skole for Troldmænd nede i Rom, og derfra er de
+    anden.<ref target="EN15">*)</ref> De har en stor Skole for Troldmænd nede i Rom, og derfra er de
 fleste Paver og Kardinaler udgangne, og man har fundet Breve fra Satanas
-selv til Pavekirkens Biskoper som hans Venner og Haandlangere.**)
+selv til Pavekirkens Biskoper som hans Venner og Haandlangere.<ref target="EN16">**)</ref>
    </p>
    <p>
     Hvor maa vi ikke prise vor Grud, Venner, at vi lever saa langt borte
@@ -9543,13 +9542,7 @@ Haand og saa ufravendt paa ham med et ængsteligt Blik.
 for at lave sine Troldmediciner, hvormed han ventelig vilde sætte Ondt
 paa Kreaturer og Folk i Vinterens Løb; men min
    </p>
-   <p>
-    *) Graf: Djævelens Naturhistorie. S. 175, 176, 271. **) — — S.
-18».
-   </p>
-   <p>
-    S. 18'».
-   </p>
+
    <p>
     Hustru har seet ham med sine egne Øine forvandle Vand til Blod. Og vi
 ved alle, at han har en stor Troldstav, hvormed han kiger paa
@@ -9611,12 +9604,15 @@ tilside, saa der blev aabent Eum, hvor han vendte sig. Men Folk talte
 sig imellem om, at i Dag havde Hr. Lars havt Aandens Salvelse over sig,
 og de takkede og haandtoges med sin modige og djerve Prest.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Fire og Tyvende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Lars værger om Reden.
-   </p>
+   </head>
    <p>
     Lars fulgte som bedøvet efter Bernardo og hans Datter. Hvad han havde
 hørt idag af sin egen Fa'rs Mund, havde oprevet ham aldeles og ladet ham
@@ -9638,7 +9634,7 @@ hans Hoved :
 end hvad jeg længe har ventet. «
    </p>
    <p>
-    »Eg gret ikkje fyr deg ■ — ■ eg gret fyr alle hine, « hulkede Lars,
+    »Eg gret ikkje fyr deg  —  eg gret fyr alle hine, « hulkede Lars,
 »eg skjemst ved aa vera Teledøl i Dag. «
    </p>
    <p>
@@ -9887,12 +9883,15 @@ han. Saa gik han roligt ind i Huset, vaskede Blodet af sit Ansigt,
 badede Mærkerne efter Tydskernes Næver ; men fortalte Ingen om det
 Forefaldne.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Fem og Tyvende Kapitel.
-   </p>
-   <p>
-    Modet i Arnbjørndalen. Tydskerne jages.
-   </p>
+   </head>
+   <head>
+    Mødet i Arnbjørndalen. Tydskerne jages.
+   </head>
    <p>
     Morgenen efter saa man et underligt Syn. Stille kom Bønder dragende
 paa alle Veie og nedover alle Lier. De fleste af dem var til Hest og
@@ -9994,13 +9993,13 @@ ein Dag etter denne og. «
 Flokken satte sig i Marsch med de to Tydskere mellem sig. De, som ikke
 havde Hest, fik sidde paa med dem, som havde. Da de var komne over
 Aasen, som skiller Arnbjørndalen fra Flatdal, delte de sig. Den ene Flok
-drog gjennem Manndalen, den anden gjennem Flatdal, Seljord ■og Kivledal.
+drog gjennem Manndalen, den anden gjennem Flatdal, Seljord og Kivledal.
 De var ikke visse paa paa det ene Sted at linde Færger nok til at fragte
 dem over til Guldnes Verk.
    </p>
    <p>
     Mødet havde været ved Daggry; nu var Solen kommen op og skinnede paa
-Buerne, paa Pilespid■serne, paa Økserne og Knivene til de brunbarkede
+Buerne, paa Pilespidserne, paa Økserne og Knivene til de brunbarkede
 sterke Mænd, som uden at tale et Ord drog sig i stille Tog op imellem
 Løvbuske og Stene. Med •det samme Toget skulde sætte sig i Gang, havde
 Lars raabt Ditlef hen til sig.
@@ -10172,9 +10171,14 @@ Disciplinen brudt
 Bergmandsbluser og Hatte, leirede rundt om de Mad- og Øllevninger, de
 havde fundet paa Verket, raabende, syngende og hujende.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+   <head>
+       Seks og Tyvende Kapitel
+   </head>          
+   <head>
     Heksebaalet. Reddet som gjennem Ild.
-   </p>
+   </head>
    <p>
     Det var sent paa Kveld den samme Dag, og Skumringen faldt paa. Lars
 og Ditlef var endnu i faldt Arbeide med Pakning, da de hørte en vild
@@ -10296,8 +10300,8 @@ dansede oppe paa Tagryggen.
     »Hui! dykk dernede!« raabte hun. »Kan de taka meg no? er Viking
 dernede millom dykk, so send honom upp! Sjaa! sjaa! upp paa Himmelen —
 der kjem ho Brynhild Haugene jagande paa ein svart Hest. D"et
-gneistar Eld af Naserne hans, og den svarte Hunden hennar flyg fyre ■ —
-■ Hui ! kor det gjeng! skal du henta meg no, Brynhild ?«
+gneistar Eld af Naserne hans, og den svarte Hunden hennar flyg fyre  —
+ Hui ! kor det gjeng! skal du henta meg no, Brynhild ?«
    </p>
    <p>
     Saaledes raabte Magnhild oppe paa Taget og svingede med Armene, men
@@ -10585,7 +10589,7 @@ Ditlef og eg spikrad ned i Kassar, « sagde Lars.
    </p>
    <p>
     »Saa sidder jeg alligevel bunden her og kan ikke komme afsted, et
-Offer for Kongens Mænd — ■det var alt, jeg eiede og havde, « sukkede
+Offer for Kongens Mænd — det var alt, jeg eiede og havde, « sukkede
 Bernardo.
    </p>
    <p>
@@ -10601,18 +10605,21 @@ kosta baade deg og Dotter di og meg sjølv yver til Holland. «
    <p>
     »Ja, undrast du paa det?« svarede Lars, »det er gamle Dale Arnbjørn,
 som betaler si Skuld, « lagde han hviskende til. »Men seg meg, — er her
-svart herinne, — det svimrar fyr Augo mine. Trur ■eg ikkje, eg uvitar
+svart herinne, — det svimrar fyr Augo mine. Trur eg ikkje, eg uvitar
 som eit anna Kvinfolk — — «.
    </p>
    <p>
     Dermed stupte Lars bent ned paa Gulvet.
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Syv og Tyvende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Straffen
-   </p>
+   </head>
    <p>
     Teledølernes Grlæde over at have rensket Bygden for Fant blev af kort
 Varighed, og den fik sit Efterspil, som ikke blev saa behageligt.
@@ -10633,10 +10640,7 @@ straffe dennem den Stund, der er En uskikkelig; thi os ikke lideligt er
 at tilstede saadanne oprørske og uhørsomme Underdaner at bo i vore Riger
 og Lande. «
    </p>
-   <p>
-    Janscm: De Fredløse. 21
-   </p>
-   <p>
+    <p>
     Klaus Bilde og Peder Hansson sendte straks Krigsmagten afsted . .En
 Tydsker eller Hollænder, Hans von Dresyel, anførte Hæren. Da det
 rygtedes, kom den gamle Harme op i Teledølerne, Budstikken gik atter
@@ -10747,14 +10751,17 @@ Fogder og Lensmænd, at de kunne forfare, om han er en
    <p>
     saadan Mand, paa det at vi ikke skulle fortabe vort Gods og vore
 Penge efter Loven, om vi ham hyse eller gjemme og skulle vi lade os
-efter denne Dag udi ingen Maade uvillige fmdes.«*)
+efter denne Dag udi ingen Maade uvillige findes.«<ref target="EN17">*)</ref>
    </p>
-   <p>
+         </div>
+         <div type="chapter">
+             
+   <head>
     Otte og Tyvende Kapitel.
-   </p>
-   <p>
+   </head>
+   <head>
     Vikings Hevner. Slutning.
-   </p>
+   </head>
    <p>
     Ditlef Haatveit viste sig at være rette Manden, til hvem Bernardo
 kunde betro sig. Der var Ingen, som anede, at han og Datteren var gjemte
@@ -10766,10 +10773,7 @@ sig til sin Mand, Hr. Lars; men det var ogsaa, som om Bitterheden mod
 Bernardo havde gi vet sig noget selv hos ham efter hans Udgydelse i
 Kirken og
    </p>
-   <p>
-    *) De historiske Dokumenter i dette Kapitel er nedtegnede efter
-Landstads: Sagn om Hjartdølerne.
-   </p>
+ 
    <p>
     hans sidste Samtale med Sønnen. Ja, Hr. Lars lod sig forlyde med, at
 han gjerne vilde hjælpe til at faa Bernardo ud af Landet, saa var man da
@@ -10861,7 +10865,7 @@ en.
 Dale-Arn bjørns Penge laa indsyede dels i et Skindbelte, han havde om
 Livet rundt bare Kroppen, dels paa Indsiden af hans Kufte. En Del af
 Ringene og Sylgjerne var overladte til Ditlef og Ragnhild, de eneste,
-som vidste ■om Hemmeligheden.
+som vidste om Hemmeligheden.
    </p>
    <p>
     Det var en underlig Afsked, da de 5 Heste stod opsadlede paa
@@ -11004,11 +11008,9 @@ ham siddende alene paa en Kiste i Logishuset med Ansigtet begravet i
 Hænderne, og da saa Lars, at Taarerne tippede ned mellem Fingrene
 hans.
    </p>
+
    <p>
-    oqc 000 —
-   </p>
-   <p>
-    x Dei fær i Guds Namn taka Hovedet mitt«, sagde han, »men heim maa
+    "Dei fær i Guds Namn taka Hovedet mitt", sagde han, »men heim maa
 eg. Eg lengtar for mykje etter henne Ragnhild og Haatveit«.
    </p>
    <p>
@@ -11061,18 +11063,69 @@ sig ihjel.
    <p>
     Hermed ender Sagaen om de Fredløse.
    </p>
-   <p>
-    lam! yaSfvi^l? &gt;^
-   </p>
-   <p>
-    ih. **V.»S&gt;. *i ;
-   </p>
-   <p>
-    ' J 'li. m 9
-   </p>
-   <p>
-    H Nasjonalbiblioteket
-   </p>
-  </body>
+</div>
+    </body>
+     <back>
+         <div type="notes">
+             <note xml:id="EN01"> *) Heksevæsen og Troldskab i Norge. S. 41.</note>
+             <note xml:id="EN02">
+                 *) En gammel, isoleret Stuebygning paa Hjartdals Preste- gaard, som
+                 nu ikke er mere til. (Landstad.)
+             </note>
+             <note xml:id="EN03">
+                 *) I den katolske Kirke uddeltes, som bekjendt, kun Brødet i Alterens
+                 Sakramente, mens Presten alene drikker Vinen for ikke at spilde noget af
+                 den dyrebare Vædske.
+             </note>         
+             <note xml:id="EN04">
+             *) De Fredløse.
+         </note>
+             <note xml:id="EN05">
+                 *) Disse Vers er af Landstads Kjempevisesamling.
+             </note>
+             <note xml:id="EN06">
+                 *) Landstad: Sagn om Hjartdølerne.
+             </note>
+             <note xml:id="EN07">
+                 *) Alle de i [ ] satte Ytringer er Citater af Bernardino Ochi- nos
+                 Skrifter.
+             </note>
+             <note xml:id="EN08">
+                 *) Pak dig, Satan!
+             </note>
+             <note xml:id="EN09">
+                 *) Se Heksevæsen og Troldskab i Norge. S. 41.
+             </note>
+             <note xml:id="EN10">
+                 *) Landstads Kjæmpeviser.
+             </note>
+             <note xml:id="EN11">
+                 *) Disse saavel som de følgende Stev er alle hentede fra Landstads
+                 Kjæmpevisesamling.
+             </note>
+             <note xml:id="EN12">
+                 *) Se Arturo Graf: Djævelens Naturhistorie S. 85 og 87.
+             </note>
+             <note xml:id="EN13">
+                 *) Arturo Graf: Djævelens Naturhistorie S. 94—96—98—99—118.
+             </note>
+             <note xml:id="EN14">
+                 *) Heksevæsen og Troldskab i Norge. S. 56, 58. 190. Janson: De
+                 Fredløse. 18
+             </note>
+             <note xml:id="EN15">
+                 *) Graf: Djævelens Naturhistorie. S. 175, 176, 271. 
+             </note>
+             <note xml:id="EN16">   
+                 **) — — S.
+                 18».
+             </note>
+             <note xml:id="EN17">
+                 *) De historiske Dokumenter i dette Kapitel er nedtegnede efter
+                 Landstads: Sagn om Hjartdølerne.
+             </note>
+         </div>
+
+     </back>
  </text>
 </TEI>
