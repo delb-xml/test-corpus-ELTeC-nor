@@ -35,9 +35,10 @@
       2020-11-13
      
     --></publicationStmt>
-   <sourceDesc><bibl type="digitalSource">
-   <ref target="https://www.nb.no/items/dc1059b72f32fbf1246ce604442a6f8e">
-      Digitalisert av NB fra originalutgave 1840. (NB-fil, sjekket mot Bokhylla)
+   <sourceDesc>
+       <bibl type="digitalSource">
+       <ref target="https://www.bokselskap.no/boker/roolfsen/tittelside">
+      Digitalisert av bokselskapet
      </ref>
        <author>
         M. C. Hansen
@@ -54,7 +55,13 @@
        <date>
         1840
        </date>
-      </bibl></sourceDesc>
+      </bibl>
+       <bibl type="digitalSource">
+           <ref target="http://urn.nb.no/URN:NBN:no-nb_digibok_2011032410002">
+               Faksimilie i bokhylla
+           </ref>
+       </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
