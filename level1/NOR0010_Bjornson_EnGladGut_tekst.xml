@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0010" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0010" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -92,7 +89,7 @@
    <change when="2010-12-08">
     Ført inn kollasjonsresultatene og lagt til innholdsfortegnelse. Kjapp kodekontroll.
    </change>
-   <change when="2010-11-17" xml:id="ENW">
+   <change when="2010-11-17">ENW 
     Kodet om filen til TEI P5.
    </change>
   </revisionDesc>

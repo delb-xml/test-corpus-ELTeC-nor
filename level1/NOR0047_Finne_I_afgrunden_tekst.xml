@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0047" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0047" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -95,7 +92,7 @@
 			<p>Et langt ligfølge nærmed sig over sletten nedenunder mig, en uendelig række slæder under mat bjældeklang. Jeg lå skjult et stykke oppe i bakken og holdt udkig gjennem snetyngte 
 			    grene, Følget trak sig langsomt afsted som et sort kjæmpeleddyr over et lagen,</p>
 			<p>Jeg husker, at tårer fyldte mine øine, og at jeg jamred mig, da vognen med kisten passerte.</p>
-			<p></p>
+			<p/>
 			<p> </p>
 			<p> Bygdens stadselige ligvogn, sat på mejer. Og lige efter vognen i en slæde sad Helene, den dødes hustru, og ved hendes side den dødes mor. Helene med opløftet slør og med lommetørklædet i et væk til øinene. Men den dødes mor sad og havde et hårdt og spydigt træk om mundvigerne i sit kjølige, voksgule gammelkoneansigt</p>
 			<p>Og kirkeklokken satte pludselig i med råbende klang. Ligvognen var just i det veisving,</p>
@@ -1023,7 +1020,7 @@ meratsfod med dem. Men han bragte duft fra den arbeidende verden. Og dog, og dog
 spurgte høflig: Får gutten lov at løbe efter Hennesy?</p>
 			<p>Det var en aldrende mand med ualmindelig markerte træk. Blygrå øine, svære, hængende</p>
 			<p> </p>
-			<p></p>
+			<p/>
 			<pb n=""/>
 			<p>76</p>
 			<p> barter, hroraf pjolteren dryppede. Han sad med frakken halvt opknappet og hatten bag i nakken. Hans ord var knappe, det var, som kjendte han altfor vel, hvad der rørte sig i 
@@ -1088,13 +1085,13 @@ skyllende bølger Dover steg ind, med cigar i munden, færdig til at gå til dag
 at han kunde få det alt sammen hentet --Og trænger De staks nogen småting, så lægger jeg lidt penge her, sa han. 
 </p>
 			<p> </p>
-			<p></p>
+			<p/>
 			<p> </p>
-			<p></p>
+			<p/>
 			<p> </p>
-			<p></p>
+			<p/>
 			<p> </p>
-			<p></p>
+			<p/>
 			<p>Siden idag kan vi tales ved om arbeide for Dem. Jeg klædte mig på og sik ud og satte mig</p>
 			<pb n="84"/>
 			<p>80</p>

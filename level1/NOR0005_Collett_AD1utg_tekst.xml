@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0005" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0005" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -84,7 +81,7 @@ ISBN: 978-82-93134-06-0
    <change when="2013-08-21">
     FØrt inn rettelser og innspill fra Kristin og Jorunn. Eniteter.
    </change>
-   <change when="2013-06-18" xml:id="ENW">
+   <change when="2013-06-18">ENW 
     Slått sammen del I og del II til en fil. Ført inn oversettelser av tyske sitater. Validert. Kodekontroll.
    </change>
   </revisionDesc>

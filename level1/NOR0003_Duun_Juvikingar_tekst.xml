@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.bokselskap.no/tekstkoding/NSL_tei_xinclude.dtd">-->
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0003" xml:lang="nn">
+<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.bokselskap.no/tekstkoding/NSL_tei_xinclude.dtd">--><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0003" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -79,7 +76,7 @@
     Ført inn korrekturrettelser. Entiteter,
                 kodekontroll og validering.
    </change>
-   <change when="2016-01-08" xml:id="ENW">
+   <change when="2016-01-08">ENW 
     XML-koding. Klar for
                 korrektur.
    </change>

@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0026" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0026" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -74,10 +71,10 @@
   </profileDesc>
   <revisionDesc><change when="2020-11-15">Checked by checkup
                 script</change><change when="2020-11-13">ran oldCheckUp to update</change>
-   <change when="2013-03-27" xml:id="ENW">
+   <change when="2013-03-27">ENW 
     Lagt inn innholdsfortegnelse og ref-koding. Fjernet harde linjeskift. Sjekket entiteter. Kodekontroll.
    </change>
-   <change when="2013-03-15" xml:id="HIOA">
+   <change when="2013-03-15">HIOA 
     Kodet, korrekturlest og tilrettelagt av Rita Cicconi, Rolf Håkon Kristiansen og Leif-Arne Svellingen som en del av valgfaget "E-bøker" på HIOA våren 2013.
    </change>
   </revisionDesc>

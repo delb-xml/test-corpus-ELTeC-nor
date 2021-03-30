@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="NOR0068" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0068" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -57,7 +56,7 @@
    <textDesc>
     <e:authorGender key="F"/>
     <e:size key="medium"/>
-    <reprintCount key="high" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
     <e:timeSlot key="T4"/>
    </textDesc>
   </profileDesc>

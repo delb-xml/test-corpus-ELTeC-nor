@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0023" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0023" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -80,7 +77,7 @@
    <change when="2015-06-30">
     Lagt inn sidetall.
    </change>
-   <change when="2015-02-26" xml:id="ENW">
+   <change when="2015-02-26">ENW 
     XML-koding. Klar for korrektur. Gjenstår: entiteter, ref-koding, sidetall, kodekontroll
    </change>
   </revisionDesc>

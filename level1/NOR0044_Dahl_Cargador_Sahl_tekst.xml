@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0044" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0044" xml:lang="nb">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -141,7 +138,7 @@
                 <p> </p>
                 <p>2 To, flert. Tor 2: flad, græsgroet Afsats</p>
                 <pb n="7"/>
-                 <p></p>
+                 <p/>
                 <p>var saa ungt, at Jan Sahl ikke kjendte sin Bedstefar igjen. Men bag paa Billedet
                     stod der med penselbrede Kjæmpetræk:</p>
                 <p>«Hans Dankertsen Berman, fød 13. Nov 19. — Wirkelig Cancellie-Assessor, Raadman,
@@ -734,7 +731,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>Det blev for de andre bare at bukke, at le og i Høiden at sige Ja eller Nei</p>
                 <p>Vilde Skriveren forsøge at komme til, skar med et høfligt «Hva ba?» og tog teten
                     igjen. Og spurgte han selv, ventede han ikke paa Svaret, men fortalte videre —
@@ -757,7 +754,7 @@
                 <p> </p>
                 
                 <pb n="31"/>
-                 <p></p>
+                 <p/>
                 <p>dede bare fundet sig frem til Folk, saa kunde man kanske reddet Resten; nu fandt
                     man for- uden Styrmanden bare Skipperen. Han laa i Storstøvler og med knyttede
                     Næver og skval- pede druknet under Ruffen, som var afslanet og hang over en Sten
@@ -786,7 +783,7 @@
                 <p> </p>
                 <pb n="32"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>var tilbage af de to Aars Undervisning i Kjø- benhavn, paa Skolen hos
                     Blomsterelskeren Vahls Døtre. Tysk og Fransk var som vasket ud i det praktiske
                     Liv; og stort maatte hun aldrig have kunnet. For nu drev hun det ikke længe end
@@ -811,7 +808,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="33"/>
-                 <p></p>
+                 <p/>
                 <p>finere bygget. Det hudfine Ansigt lyste saa skjært under Guldhjælmen og mellem
                     den hvide Linhue, hvis Kniplinger stak frem i Tindingen og Nakken</p>
                 <p>Den hollandske Sølvkalender, som Sahl første Aften havde ført hende hen til, var
@@ -902,7 +899,7 @@
                 <pb n="36"/>
                 <p> </p>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>jet bedre demonstre- «Fisken svømme,</p>
                 <p>og ingen kunde løfte Gl rende, naar man kom det er et Ord.»</p>
                 <p>Men allerfortrinligst: var han, naar han brølte: «Vi drak Norges Hæder og Held.»
@@ -928,7 +925,7 @@
                     var Sahls Ord enkle,</p>
                 <p> </p>
                 <pb n="37"/>
-                 <p></p>
+                 <p/>
                 <p>saa var Hjertelaget rigt, og Stemmens Basun- tone gik langt ind i alle Hjerter.
                     For selv uden Ord en slig Menneskestemme have endnu mer melodiøs Magt end et
                     Messinginstru- ment</p>
@@ -963,7 +960,7 @@
                 <p> </p>
                 <pb n="38"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>Begge Kraagerne skreg i Munden paa hin- anden og pikkede paa Ruden.</p>
                 <p>Mækleren og Skriverkarlen, som aldrig havde været paa Udvær før, forundrede sig
                     over dette Fænomen</p>
@@ -993,7 +990,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="39"/>
-                 <p></p>
+                 <p/>
                 <p>han maatte styrte ud under alles Latter for at skure Hovedet i Kjøkkenet + Da han
                     kom ind, brølte de: «I vore pole- rede Dage» Og Pokalerne løftedes højere end
                     høit ved de dyrebare Linjer</p>
@@ -1023,7 +1020,7 @@
                 <p>Men strax skulde Præsten til at konkur- rere med den græske Version</p>
                
                 <pb n=""/>
-                   <p></p>
+                   <p/>
                 <p>Fis byéiav 1ap8évav mivo — — —</p>
                 <p>Og nu gik det Surr i Surr om hinanden; absentium og zapåvtov og quodquod venien-
                     tium, til Madam Sahl munter afbrød</p>
@@ -1035,8 +1032,7 @@
                     alles begeistrede Til- slutning uden Madammens, som strax hævede Taffelet.</p>
             
             </div>
-            <div type="chapter"
->                <head>VI.</head>
+            <div type="chapter">                <head>VI.</head>
                 <p>Piber, Tobaksposer og Fyrtøi kom frem, iverkarlen, som var for beskeden til at
                     føre Pibe med, tog til Skraaen.</p>
                 <p>Punschebollen kom paa Bordet, og Mæk- leren, som talte lidt geliufigere Tysk end
@@ -1045,7 +1041,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="41"/>
-                 <p></p>
+                 <p/>
                 <p>Og hvergang noget morsomt blev fortalt, raabte Sahl: «Kone, Kone!» Hun maatte
                     høre alt, baade af ham og andre. Og hun, som havde hørt Cargadørhistorierne
                     hundre Gange, var dog den første til at bede sin «Søleven» fortælle dem igjen,
@@ -1072,7 +1068,7 @@
                 <p> </p>
                 <p> </p>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>Syg og elendig laa jeg i en Køie, som ikke rummede halve Sahl, og brølte gjorde
                     jeg, saa kuden kunde revne, mest paa: Vand! Men ingen forstod mig, før jeg selv
                     krøb paa alle e op paa Dækket (nu reiste Sahl sig og krøb) lige hen il Vandfadet
@@ -1154,7 +1150,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="45"/>
-                 <p></p>
+                 <p/>
                 <p>fra Harlingen, hvis Bekjendtskab han ikke vilde undværet for meget godt. For naar
                     van Marken skulde frem og tegne under Konosse- menterne, trak han Trøien af som
                     til et Kjæmpetag og steg frem saa Gulvet dissede. Og saa stregede han bare et
@@ -1202,7 +1198,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="47"/>
-                 <p></p>
+                 <p/>
                 <p>Derfor gik han i Lag med de byklædte og Hollænderen, da de drog bort til Hammeren
                     i Besigtelses- og Skjønsforretning</p>
                 <p>cJa misand! han Mikkal var ikje mindre Karen, end at han gjek midt imellem
@@ -1234,7 +1230,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="48"/>
-                 <p></p>
+                 <p/>
                 <p>havde de alle gjort hele Morgenen, ligefra Dorthe Stadsmø havde vækket dem med
                     Kaffeen paa Sengen — i den Grad, at det var umuligt at faa nogen til at være
                     Tolk.</p>
@@ -1261,7 +1257,7 @@
                     igjen til</p>
                 <p> </p>
                 <pb n="49"/>
-                 <p></p>
+                 <p/>
                 <p>Matrosen, mens alle tre løftede Arm og Fingre efter hverandre</p>
                 <p>sleh lobe und swøre» .</p>
                 <p>eleh lobe und swøre,» gjentog Hollænderen</p>
@@ -1283,7 +1279,7 @@
                 <p>4— Cargadør Sal</p>
                 <pb n=""/>
                 <p> </p>
-                 <p></p>
+                 <p/>
             </div>
             <div type="chapter">
                 <head>VIII.</head>
@@ -1313,7 +1309,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="51"/>
-                 <p></p>
+                 <p/>
                 <p>Den lille taarnløse Kirke Ia lige ved ren i Nordvig, paa Jørgens store, gode
                     Bygselgaard; den bedst bebyggede, før Øen havde faaet Konge og Residents.</p>
                 <p>Thi før havde Jørgen Nordvig været etslags Nummer En. Han som hjalp Sahl til at
@@ -1374,7 +1370,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="53"/>
-                 <p></p>
+                 <p/>
                 <p>— til Tegn paa de Straffedomme, som skulde komme over Jorderige,</p>
                 <p>Og saa ct Billede til, som Kvinderne fun- derede lige saa opmærksomt paa, som
                     Mændene paa Blodbadet; det var Jeremiæ Syn om den sydende Potte, saa livagtig
@@ -1465,7 +1461,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="56"/>
-                 <p></p>
+                 <p/>
                 <p>var god — og hvor alle Mennesker var gode — og hvor alt var godt.</p>
                 <p>Efter Prækken lyste Præsten af og lagde et Anstrøg af forhaabningsfuld Munterhed
                     over det hele, idet han sagde: «Saa skal jeg igjen aflyse det Ægteskab, som jeg
@@ -1493,7 +1489,7 @@
                 <p> </p>
                 <pb n="57"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>Mikkal vinkede pan Hylekonerne, for de var saa enfoldige og bibelske endda
                     derude, at de holdt Hylekoner, som flyttede fra Grav- houg til Gravhoug, skreg
                     hjerteskjærende midt under Præstens Tale og græd virkelige Taarer, om det saa
@@ -1575,7 +1571,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>jælderne klang; Somdu og Spør'an før gjøende omkring, og hele Øens Befolkning
                     stod paa Tunene og gabte paa dette kongelige Optog. Ligetil de gamle Pindhuer i
@@ -1635,7 +1631,7 @@
                 <p> </p>
                 <p>+ Begavinger 2: Krampe</p>
                 <pb n="62"/>
-                 <p></p>
+                 <p/>
                 <p>Da rømte Sahl i sin store Angst og i sin store Tørst efter Fred ned i
                     Borgstuen</p>
                 <p>Der blev han vel modtagen. Sven Raads- dreng forsikrede Gamle-Guri lige op i
@@ -1669,7 +1665,7 @@
                 <p>Udenfor staden der staar en brond, der vilde den svend først hvile, at wederquæge
                     camele oc tiund,</p>
                 <pb n="63"/>
-                 <p></p>
+                 <p/>
                 <p>som færdtes de mange mile; da kom af staden met krus oc spand de skjønne jo saa
                     noie hand dennem beskuer.</p>
                 <p>fruer at hente vand</p>
@@ -1698,7 +1694,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="64"/>
-                 <p></p>
+                 <p/>
                 <p>garden — og mante han neri Tomme for Tomme, saa han aldrig kom fram mer. ser en
                     daa ”kje nan tedags.»</p>
                 <p>eVi har det godt, siger Sahl, vi har det godt, Guri. Her er jo ingen døde at mane
@@ -1750,7 +1746,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="66"/>
-                 <p></p>
+                 <p/>
                 <p>ket spillede du Børnene og lagede Disser til dem — ikke sandt? — Hva ba? — Og saa
                     di- skede du op med Middagen i den store Agter- kahytten; jo da er Danskejagten
                     god, du; der findes ikke Jagtekahyt som i den. Og Steg og Pudding, ikke
@@ -1800,7 +1796,7 @@
                 <p>øst.</p>
                 <pb n="68"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>tænke, Berendt Willem gav dig ikke mindre. Og hvad for en Mækler var du hos? Voss
                     i Altona? Hva ba? Reimers? Nei var du vir- kelig hos gamle Reimers? Og Fruen
                     hans fulgte kanske selv med for at passe Saloppen? vist, javist! Det var
@@ -1825,7 +1821,7 @@
                 <p>dsmø og lagde Varme-</p>
                 <p> </p>
                 <pb n="69"/>
-                 <p></p>
+                 <p/>
                 <p>«Pyt hon! Hon finner seg nok tilrettes. Hon gaar saamen saa frøntelig ind og ul,
                     som hon hadde oppeholdt seg her hele Livet, og som hon ede Halledelen i ever og
                     bil. — Jo, der har me tat os nokke paa, kan Di tru»</p>
@@ -1844,7 +1840,7 @@
                     Riggen og Raadal&gt;</p>
                 <p>+ niggen og Haada 2: Hegn og Raaddenskab.</p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>Men nu kom Morgentrækken ind af de aabne Havsvinduer, luftede op i hele
                     Jæderstuen og slængte Skydynerne op over alle Fjeldryggene.</p>
                 <p>Og langt derude laa Øen, vaad og blank som et spylet Dæk; Vand omkring, Vand over
@@ -1868,7 +1864,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="71"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>og delte Vinterens Udbytte. Først en Tidaler- Seddel tilmands, saalangt
                     Tidaler-Sedlerne rak ; saa en Femmer; saa en Dalerseddel, saa Sølv og Kobber:
@@ -1930,7 +1926,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="73"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>— saa slog Si «20 Daler skal Skilling mer.»</p>
                 <p>Ja en særdeles» Mand var det, det var jynd te segja andet; men han var værste mod
@@ -1951,7 +1947,7 @@
                     han fik den efterlængtede Brevpakke. Et Brev fra</p>
                 <p> </p>
                 <pb n="74"/>
-                 <p></p>
+                 <p/>
                 <p>hver af van Gelders Familie, efter den gode, gamle Skik; ja ligetil fra lille
                     Willemand</p>
                 <p>&lt;Godeste Ven og Fætter!</p>
@@ -1973,7 +1969,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="75"/>
-                 <p></p>
+                 <p/>
                 <p>Maatte Du og Din ædle Hustrue samtykke heri, da blev jeg og min Louise lige
                     lykkelige. Kom snart og hoe hos os, medens Huset paa Hop bygges.</p>
                 <p>Ja, godeste Ven, gid Dit nye Sted maatte blive Dig kjært, og at Du maatte nyde
@@ -2055,7 +2051,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="78"/>
-                 <p></p>
+                 <p/>
                 <p>og Fætter skulde lægge Mærke til den taktfuldt ikke understrøgne Notits
                     nedenunder: om det nye velsignelsesrige Afholdsselskab, som oprettet i
                     Stavanger, og som allerede havde frugtet såvidt, at selv «Skibe gik ud uden
@@ -2076,7 +2072,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="79"/>
-                 <p></p>
+                 <p/>
                 <p>Huset stod paa Ende; saa baade Madammen og Jomfru Brouwer lo i skjøn
                     Endrægtighed, da de havde faaet ham til Sæde oppe paa Nye- arken foran
                     Chatollet.</p>
@@ -2184,7 +2180,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="83"/>
-                 <p></p>
+                 <p/>
                 <p>«Jei klæder mik ikke for nogen.»</p>
                 <p>Og Udværbuen! «Nei, nu er jeg saa nøiet», sa' den ene efter den anden, med Sorg i
                     Ansigtet, da de hørte gamle dem. Og det endda de tjente paa det alle- sammen paa
@@ -2245,7 +2241,7 @@
                 <p>er rumsterede i</p>
                 <p> </p>
                 <pb n="85"/>
-                 <p></p>
+                 <p/>
                 <p>Jo, hon kunde ret gjøre seg te for ham imel- lem, Tinget</p>
                 <p>Imens sad Browwer imellem noget Skram- mel inde paa Lofiskammeret og græd. Hun de
                     faaet Tag i et gammelt hollandsk Por- cellænshus, som havde staaet paa
@@ -2306,7 +2302,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="87"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>— Desuten saa laag jo Ligpønten færdig i Jan — med kvit Kappe og brede Atlaskes
                     Baand for Fruentimmer-brug, og ny Paryk med kvite Bendelbaand i for Mandsbrug.
@@ -2332,7 +2328,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="88"/>
-                 <p></p>
+                 <p/>
                 <p>ned til Kræ og Kra var installeret ombord paa «Primus»</p>
                 <p>Primus var Sahls gamle Skjøite, døbt af ham selv — og skulde, naar denne Reise
                     var gjort, tilfalde Føreren, Josef i Beite, til Tak og Amindelse.</p>
@@ -2357,7 +2353,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="89"/>
-                 <p></p>
+                 <p/>
                 <p>hver Krog i et stort, taknemmeligt Blik og lagde sig san paa Knæ, den svære Mand,
                     og takkede Gud — mens Taarerne trillede — for hver Dag og hver Glæde i
                     Huset.</p>
@@ -2386,7 +2382,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>
                 <quote>
                     <l> Så holder hver sin reise-fær</l>
@@ -2459,7 +2455,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="92"/>
-                 <p></p>
+                 <p/>
                 <p>XVI.</p>
                 <p>Kloster havde ikke stort mer end Navnet igjen af sin oprindelige Bestemmelse. For
                     de Ruiner, som laa igjen oppe ved Floren, kunde ligesaa godt være Grundmur efter
@@ -2540,7 +2536,7 @@
                     Have,</p>
                 <p> </p>
                 <pb n="95"/>
-                 <p></p>
+                 <p/>
                 <p>saa skulde han ikje sagt. Men han gamle Corgadør Sahl udfra Sjøen — var no det
                     nokke?</p>
                 <p>Han kunde ikke dy sig for at sige det til Petrikke, som stak sit skjeløjede
@@ -2580,7 +2576,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="96"/>
-                 <p></p>
+                 <p/>
                 <p>Idet han svingede langs den brede Veranda for at gaa ned paa Bryggen, kom hans
                     Frue frem i den grønne Gadedør, gjengjældte hans straalende Hilsen med en Bruds
                     Blanding af Blyghed og Blidhed og fik vide, at Børnene var gaaet med
@@ -2630,7 +2626,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="98"/>
-                 <p></p>
+                 <p/>
                 <p>Denne Brygge var uvilkaarligt bleven hans Kommandobrædt i Livets Seilads. Derfra
                     over- saa han alt og var med i alt, fra Krambod- nøstet derude til Værftet, til
                     Fabrikkerne, til Lageret, Kontorbygningen, Pagterbolig, Hoved- hus og Haveport.
@@ -2657,7 +2653,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="99"/>
-                 <p></p>
+                 <p/>
                 <p>han fik saa liden Tid til at tage sig af den svære Jordvei, at Jens «meste»
                     syntes det var hans egen. Og den gav vist Pagteren bedre Renter end Eieren.</p>
                 <p>Paa Skansen, indenfor Bryggeroden, hang allerede det svære norske Flag paa
@@ -3467,7 +3463,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="128"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>taget Maimorgen i 1808, som Jose de ud med Hummerteinerne, skimtede han et Skib
                     ret i Vest og roede mod det, alt Ar- mene holdt. Lodspengene kom vel med i Kr
@@ -3498,7 +3494,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="129"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>iden var han i &lt;Sanketeinen» i Nieuwe- diep, det var en gammel Manuar, som de
                     csankede» alslags Hjelpetropper i — og derfra havde han deltaget i mangen kjæk
@@ -3523,7 +3519,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Den unge Chef kneb Øiet til og hyttede med Haanden; men han havde svær Lyst paa
                     Melken ogsaa — og saa gik der en Kadet og otte Mand med Josef i Chaluppen.</p>
@@ -3548,7 +3544,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="131"/>
-                 <p></p>
+                 <p/>
                 <p>Kadetten Jagde sig paa Maven og skjød ind i Hulen efter ham, paakryds og
                     paatvers. Men det ventede han, og derfor var han øie- blikkelig krøbet ind i
                     Sidehullet.</p>
@@ -3571,7 +3567,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="132"/>
-                 <p></p>
+                 <p/>
                 <p>Da gik det skjælvende Kryb af en Lods, som din Far kalder ham, hen til Chefen og
                     fik endelig forklaret ham, at det bare var kanoner.</p>
                 <p>Chefen vilde først ikke tro ham og truede. Men Lodsen holdt paa at forsikre.</p>
@@ -3598,7 +3594,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="133"/>
-                 <p></p>
+                 <p/>
                 <p>Da fik min Far se Maskinmesteren drive saa sørgmodig paa Dækket med Hænderne i
                     Lommen og forstod hele Maskepiet. Og strax sendte han naturligvis Bud til alt
                     det Kystværn, som fandtes nedover.</p>
@@ -3621,7 +3617,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="134"/>
-                 <p></p>
+                 <p/>
                 <p>&lt;Var du med, Sahl? spurgte Willemand interesseret,</p>
                 <p>Nei heldigvis — hverken din Far eller jeg; vi var i Byen paa Lancaster-skolen;
                     det var bare de gamle som alt var flyttet ud.</p>
@@ -3649,7 +3645,7 @@
                     Grønnebakken,</p>
                 <p> </p>
                 <pb n="135"/>
-                 <p></p>
+                 <p/>
                 <p>hvor Brynjil og Ved-Ole grov det ned mellem to store Stene. Det var det, som
                     Gjest Baard- sen siden forsynte sig saa dygtigt af.</p>
                 <p>Naa; — men siden der var saa faa Folk igjen paa Fregatten, maatte Chefen selv
@@ -3676,7 +3672,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="136"/>
-                 <p></p>
+                 <p/>
                 <p>ikke sandt, Willemand? Og nu maa du vide, at nogle Aar efter Freden var sluttet
                     fik Konow en engelsk Husjomfru, som var fra Sheernes, samme lille By, hvor
                     Chefen hørte hjemme. Og du skulde høre hendes Beskrivelse af S gen i hele den
@@ -3774,7 +3770,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Sørgeslør som en gjensiddende Enke. — Da skrider fra høire op mod hende en stor,
                     stolt ker; bag ham følger Gutter, der løfter svære Fiske til Paamindelse om
@@ -3801,7 +3797,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="141"/>
-                 <p></p>
+                 <p/>
                 <p>Det fjerde Billede var helliget gode Gjer- ninger. Fattige, Krøblinge og Børn
                     bankede paa eller blev hjulpne.</p>
                 <p>Det femte gik om hele Bundvæggen og var ofret Glæden: Fest, Vin og Kvinder. Det
@@ -3824,7 +3820,7 @@
                 <p> </p>
                 <pb n="142"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>mod Forevigelse under blaat Stjernehvælv. Og Engle, der med sine Emblemer
                     afbildede de syv Kardinaldyder (Troskab, Gudsfrygt o. s. v.), omsvævede den
                     fuldkomne paa hendes Himmel- fart. «Jaha — jaha,- sa' den gamle Skjønaand og
@@ -3850,7 +3846,7 @@
                     Procenter baade</p>
                 <p> </p>
                 <pb n="143"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>af Kjøber og Sælget sørget.</p>
                 <p>&lt;Eg sitter meg i Kjøkkenet, Seren for di kommer vel snart, vet eg.»</p>
@@ -3885,7 +3881,7 @@
                 <p> </p>
                 <pb n="144"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>igjennem. Ok kor møkke vondt her &amp; i Tiden, Serenne Mor; de e'kje saa daa eg
                     va' Baren.» Vei, det er det vel ikje — — ok — hys daa — der er jo Fruen! — — —
                     Velkommen. Fruen! Velkommen af Kloster! Velkommen Madam Sahl. Ok, kor Di e" blit
@@ -3907,7 +3903,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="145"/>
-                 <p></p>
+                 <p/>
                 <p>Par Tusen Dalers Formue umuligt kunde ernære sig og sine to aldrende Døtre, uden
                     at Pengene blev fornuftigt anvendte,</p>
                 <p>Og nu var gamle Pølsemager Stengel lige- overfor Gaden heldigvis død omtrent
@@ -3933,7 +3929,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="146"/>
-                 <p></p>
+                 <p/>
                 <p>Mødte de hilsende Byfolk, hilste Sahl — forsigtig, stødvis længer og længer med
                     Hat- ten, eftersom han iagttog deres Høflighedsgrad. Pludselig hilste han
                     ærbødigt paa en ung Dame, vendte sig om efter hende og trippede nogle
@@ -3963,7 +3959,7 @@
                 <p>eur</p>
                 <p> </p>
                 <pb n="147"/>
-                 <p></p>
+                 <p/>
                 <p>lem. Med dem slog han sig sammen; saa var han da bare Tilskuer saalænge, mens
                     Sahl og Beneman lige høirøstede og begeistrede — halvt paa fransk og halvt paa
                     norsk — gjennemgik Minderne fra hin berømmelige Rogntur til Dou- arnener.</p>
@@ -3982,7 +3978,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="148"/>
-                 <p></p>
+                 <p/>
                 <p>Sahl øieblikkelig som en Dansemester lige mange Pas bagover.</p>
                 <p>Og nu lagde Øieblikket sin fulde Vægt over Sahl, som i hellig Begeistring traadte
                     helt hen til Skranken, mens han forsikrede: «Jeg, Jan Diderik S . . »</p>
@@ -4004,7 +4000,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="149"/>
-                 <p></p>
+                 <p/>
                 <p>Og tede nu ikke Louise, kunde hun gjerne resikere, at han fortalte høit om
                     Berendt Wil- lemmerne og Willem. Berendterne, den første, anden og tredie helt
                     op til femten Hundrede og den Tid; og om hvorledes denne hans forgudede van
@@ -4026,7 +4022,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>Men over alle straalede van Gelders. Og kunde de endnu stige i hans Beundring,
                     saa skede det, da gamle Sagen et Par Dage efter fulgte ham ud i det gamle,
                     stolte Hus paa Strand- gaden og gav ham en kyndig Dukkert i Slæg- tens noble
@@ -4046,7 +4042,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="151"/>
-                 <p></p>
+                 <p/>
                 <p>i Talenten». Men hon lærte naa vel norsk bedre og bedre med Tiden</p>
                 <p>Da Madam Sahl kom hjem, gik der ikke mange Uger, før hun tydeligt mærkede Tilnær-
                     melsen. Og jamen kom hon ikke en Dag, Brouwer, og spurgte hende tilraads, om hun
@@ -4122,7 +4118,7 @@
                 <p> </p>
                 <p>&amp; Lok 2: Torvgrav, Myrhul</p>
                 <pb n="154"/>
-                 <p></p>
+                 <p/>
                 <p>Men van Gelder var dannet nok til at for- staa, at det gode fra Nazareth er bedre
                     end det slette fra Jerusalem, og respekterede i høi Grad Jens's Karakterfasthed.
                     Derfor kom de til at gaa sammen der paa Bryggen og tale ud om Byskydsens
@@ -4147,7 +4143,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="155"/>
-                 <p></p>
+                 <p/>
                 <p>Men denne Aften kom van Gelder ikke til- bage, skjønt Klokken slog baade elleve
                     og tolv. Og hvergang en af Kvinderne gik i Gadedøren for at lytte, var der intet
                     andet at berette, end at Faderen gik taktfast op og ned paa sin Kommandobro.</p>
@@ -4167,7 +4163,7 @@
                     Sahls skulde skrive sig øverst paa Medlems-</p>
                 <p> </p>
                 <pb n="156"/>
-                 <p></p>
+                 <p/>
                 <p>listen; og baade Stedet og han skulde je ind mange Gange baade aandeligt og
                     materielt, det de tabte ved at opgive Brændevinsret og Brændevinshandel;</p>
                 <p>Som tænkt saa gjort. Næste Dag stod van Gelder selv ved Karnelis's Side og
@@ -4197,7 +4193,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="157"/>
-                 <p></p>
+                 <p/>
                 <p>Brændevin vil eg drikka, men eg skal sjøl passa Maaten.»</p>
                 <p>eNils, Nils!»</p>
                 <p>&lt;Dat er ingjen Sak te skriva, skal eg segja Sahl, men dat er værre te halda
@@ -4217,7 +4213,7 @@
                     me har fire Brændevinsflasker paa Bænken. Men no ska du smaka dat og.»</p>
                 <p> </p>
                 <pb n="158"/>
-                 <p></p>
+                 <p/>
                 <p>Hun efter Korkettrekkeren  op med Flasken og i Glasset</p>
                 <p>«No kan du drikke, Far, og se om Sahl skriver og ikje holder. No — korledes
                     smagte dat?</p>
@@ -4262,7 +4258,7 @@
                     Huset altsaa tommere og tristere end før; især nu som Madammen var saa gammel og
                     halvblind, at der fulgte mindre Liv og Mod med hende.</p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>Men det gode var der jo med Hop, at han, maar han var færdig med
                     Veirobservationerne, - stadig havde nogenlunde nok af friske Aviser.</p>
                 <p>Og Krimkrigen var en særdeles heldig Op- findelse til Underholdning for Sahl.
@@ -4288,7 +4284,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="161"/>
-                 <p></p>
+                 <p/>
                 <p>Sextant og Kronometer vil komme vel med paa de Vande, Louise skal fare.»</p>
                 <p>Skomager Rathje var et mathematisk Geni, som regnede nyere Navigation bedre end
                     nogen, mens han syede over Læsten. Aldrig havde han været tilsjøs, men Væggene
@@ -4311,7 +4307,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="162"/>
-                 <p></p>
+                 <p/>
                 <p>erkjendelsesgave af den russiske Regjering eller af «Kjeiseren», som Gerche Huun
                     yndede at sige, en svær, massiv Themaskine med Bolle og Brikke, som hun gik og
                     pudsede paa Resten af sit Liv, for at den skulde skinne til Ære for hendes
@@ -4336,7 +4332,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="163"/>
-                 <p></p>
+                 <p/>
                 <p>Men hun var jo Pige — og kunde jo ikke godt ligge i Sengen hos Sahl; skjønt han
                     hundre Gange havde været paa Nippen til al spørge sin Kone, om hun ikke godt
                     kunde alligevel</p>
@@ -4362,7 +4358,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="164"/>
-                 <p></p>
+                 <p/>
                 <p>førte og Berendt Willem var mer lydhør end nogen anden for at opfatte og
                     imødekomme.</p>
                 <p>Saa den slanke, blonde Mand, som gik op og ned paa Bryggen med sine smaa
@@ -4417,7 +4413,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="166"/>
-                 <p></p>
+                 <p/>
                 <p>Jo mere ingetogent van Gelders kom til at leve, jo mer fik han Trang til at løfte
                     sin Præstestemme og raabe ind i Bygaderne, raabe ind i Parvenuerne, hvor fine
                     van Gelders var.</p>
@@ -4442,7 +4438,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="167"/>
-                 <p></p>
+                 <p/>
                 <p>Saa blev det altsaa for Sahl at kredse som en Humle om et Lys, han bare brændte
                     sig paa. Det var saa fortærende glansfuldt at tie med, og saa svidende
                     latterligt: at tale om.</p>
@@ -4469,7 +4465,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="168"/>
-                 <p></p>
+                 <p/>
                 <p>&lt;Du skulde skamme dig, Nils, at gjøre van Gelder slig Sorg med dette usle
                     Brænde- vinet.»</p>
                 <p>Men Nils var ikke blygere end at han svarede: «Eg tænkje dat eg, at Sahl har
@@ -4545,7 +4541,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="171"/>
-                 <p></p>
+                 <p/>
                 <p>Over Toppene af den brune Lyng laa der en fin Sølvglans. Det var de fjorgamle,
                     graa- blegede Blomster, som trofast holdt Stand og gjorde Tjeneste i Landskabet,
                     til de nye kunde komme og løse af.</p>
@@ -4575,7 +4571,7 @@
                 <p> </p>
                 <pb n="172"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Sild paa Hatlenæsset; det skulde de se på Formiddag. Og der var Pale <ref target="#NOR0044_EN15">**</ref> i
                     Kobbevigen, og den skulde de dorge om Aftenen, de to Venner, som nu lige
@@ -4631,7 +4627,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="174"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Sahl og Lillemor gik i Baad og halte sig langs Noten, saa hun kunde faa se ned i
                     den grønryggede Sildesværm; indimellem skjenede en og anden Fisk, saa den lyste
@@ -4679,7 +4675,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="176"/>
-                 <p></p>
+                 <p/>
                 <p>og fik istedenfor Hat et varmt Uldtørklæde rundt Hoved og Hals, fæstet med en
                     stor Knude i Nakken</p>
                 <p>hl trampede rundt hende i Henrykkelse ; og halvblinde Madam Sahl kjærlegnede
@@ -4703,7 +4699,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="177"/>
-                 <p></p>
+                 <p/>
                 <p>Borte paa Kobbehammeren sad Basen blandt Maagerne og speidede. Gammel og
                     graatjafset. Med Øine, der lyste som Ild og Blod.</p>
                 <p>Før Menneskeøiet saa det Gran — en Favn under Vandet og mange Kabellængder borte
@@ -4730,7 +4726,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="178"/>
-                 <p></p>
+                 <p/>
                 <p>gned sig i Hænderne af Henrykkelse og pratede, saa det rungede over Fjorden efter
                     al den kon- ventionelle Taushed i Kobbevigen.</p>
                 <p>Længer ude hørtes frisk og fornøielig Trallen af en primitiv Røst:</p>
@@ -4752,7 +4748,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="179"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Og Primus var det nok ogsaa. Men ikje gamle Primus til Sahl; for den havde den
                     svære Stormen knust i Vinter; men nu havde gamle Josef havt let for at kjøbe sig
@@ -4780,7 +4776,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>&lt;Jasaa,» raabte Sahl tilbage, cfaarjeg Hundre Daler af Udvær iaar?»</p>
                 <p>eHan Sahl faar firadobbelt, og tidobbelt skulde han nok ha”, om han ikje altid
                     hadde aa taalige og eftergivandes.»</p>
@@ -4808,7 +4804,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="181"/>
-                 <p></p>
+                 <p/>
                 <p>«Ja tæng, han gjek ikje eingong med Flo hat um Syndagjen.» Hele Øen kom stadig
                     med Vemod ihu det opløftende Syn af Kværn- huset til Sahl.</p>
                 <p>eAlt var godt,» sa? han Sahl; og hele Øen sagde det endnu efter ham; men i det
@@ -4831,7 +4827,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="182"/>
-                 <p></p>
+                 <p/>
                 <p>Og ka segje Sahl om Jeremiæ sydende Potte, som altid havde gjort Kvindfolkene saa
                     storartet godt te sjan paa. Men endda tregte han Josef for sin Del meste paa
                     Kristian den syvendes blodige Sjun, for det havde baade han og fleire med han
@@ -4858,7 +4854,7 @@
                 <p>var d ta' pan. Og han Mikkal, som balberte alle Ligaa pan Øen, maatte daa balbera
                     han kver einaste Dag, daa han var derude.»</p>
                 <pb n="183"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>&lt;Kver Stemme i Forlugen.</p>
                 <p>&lt;Ja misan, kver einaste Dag; det var naa andet te særdeles Mand det ja.»</p>
@@ -4886,7 +4882,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="184"/>
-                 <p></p>
+                 <p/>
                 <p>vilde kommet uskadt over det, hvis ikke gamle Josef med Naturbarnets Aabenhed
                     havde sagt</p>
                 <p>sAa stakkar, kor M gammale og har tabt seg, daat&gt;</p>
@@ -4910,7 +4906,7 @@
                 <p>sSchon munter?» raabte Sahl. «Skjøn Mun- ter, søte Ven! Gratulere med Dagen!»
                     svarede Madammen.</p>
                 <pb n="185"/>
-                 <p></p>
+                 <p/>
                 <p>Jomfru Petrikke var kommen fra Kloster tidlig om Morgenen for at være tilhjælpes.
                     Og Døren var sat oppe mellem Sahls Værelse og Lillemors, saa de laa i hver sin
                     Seng udover Morgenen og underholdt hinanden ud af sit Festhumør.</p>
@@ -4933,7 +4929,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="186"/>
-                 <p></p>
+                 <p/>
                 <p>med indlagt Oval af grøn Multum, to unge Herrer i stramme, ankelkorte Benklæder,
                     brun Spidskjole, lys Silkevest og med store Guldnaaler i Brystet — og spillede.
                     Den tabende raabte agiteret, mens Sveden perlede frem paa hans Pande: «Je tiens
@@ -4995,7 +4991,7 @@
                 <p>Døren</p>
                 <p> </p>
                 <pb n="188"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Og saa fik alle sig en ordentlig Velkomst- latter, mens Sahl stakkar strævede
                     alene med at faa de dyrebare Bremerbuxer paa, og Lille- mor stod i sin Dørspræk
@@ -5019,7 +5015,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="189"/>
-                 <p></p>
+                 <p/>
             </div>
             <div type="chapter">
                 <head>XXIV.</head>
@@ -5044,7 +5040,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>Nu sad Præsten Reimers oppe hos Damerne og trøstede dem, før Sørgehøitiden skulde
                     be- gynde.</p>
                 <p>Og ude i Smaastuen, som var Indrekjøkke- nets Expeditionslokale, stod Brouwer,
@@ -5072,7 +5068,7 @@
                 <p>Men da tog sandelig Madam Sahl til at græde paa Sahlemands Vegne; stakkar, hun
                     var blø't gammel no.</p>
                 <pb n="191"/>
-                 <p></p>
+                 <p/>
                 <p>Sahl i det samme stak sin store, sørgmodige Skikkelse frem i Døren, sutrede hun
                     til ham</p>
                 <p>sVet du ka Brouwer segjer, at du, søte Ven, kommer te sitte nerenfor van Gellert
@@ -5099,7 +5095,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="192"/>
-                 <p></p>
+                 <p/>
                 <p>Da han vendte sig rundt, kom sandelig Nils i Ramsvig ind og det som Førstemand.
                     Brændevinshandelen havde allerede gjort ham frakkeklædt som en Bymand.</p>
                 <p>Et Øieblik skulede de til hinanden. Men idag var Sahls Styrke end fortere brudt
@@ -5131,7 +5127,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="193"/>
-                 <p></p>
+                 <p/>
                 <p>Ligtale; og Sørgesalmer til at synge og siden gjemme paa, fik de og.</p>
                 <p>Aa ja — aa ja — det var ikke til at undres paa, at de hikstede, naar alle Mændene
                     ogsaa stride med Taarerne, og selve Præsten maatte stanse tre Gange og gribe
@@ -5159,7 +5155,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="194"/>
-                 <p></p>
+                 <p/>
                 <p>Mossjøen stakkar, som var saa langt vække og endnu ingen Ting vidste</p>
                 <p>Kisten svandt mellem Blomster og Grønt, og de tre Spader faldt. Taarerne vilde
                     kvæle Sahl, der han stod med Arbeidernes Sølvkrans i begge Hænder. Men da han
@@ -5203,7 +5199,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="196"/>
-                 <p></p>
+                 <p/>
                 <p>&lt;Ok, det er daa saa gyseligt uheldigt,» forsikrede hun, saa der var ialfald
                     "kje Tale om, at de kunde ta' mer end det ene te Wil- lem Berendt.</p>
                 <p>Til Gjengjæld satte Willem Berendt tilbørlig Pris paa det. Han gik ind i Enrum
@@ -5227,7 +5223,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="197"/>
-                 <p></p>
+                 <p/>
                 <p>«Der Kopf hoch gehalten, Hr. van Gelder! Der Kopf immer hoch gehalten!»</p>
                 <p>For fire lange og tunge Aar blev det for ham, som arbeidede derude med alle Evner
                     for theoretisk og praktisk at dygtiggjøres til Styret af de komplicerede
@@ -5259,7 +5255,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="198"/>
-                 <p></p>
+                 <p/>
                 <p>Forudbetingelser til at være paa Høiden af den mangeartede Bedrift.</p>
                 <p>Engang drog tre af dem i heftigste Uenig- hed mod Hop for at drage Sahl som
                     nærmeste ndlige Slægtning ind i Striden og Ansvaret Men Sahl mødte dem heldigvis
@@ -5288,7 +5284,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="199"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>gamle Ko og saa forklarede Sahlemand, den gamle Dyreven, som mærkeligt nok aldrig
                     havde elsket og kjendt sine egne Kjør, at «den Koen fek de Løkke tel aa kjøpe,
@@ -5319,7 +5315,7 @@
                 <p>Men i Godveir gik Hjemveien rundt K gaarden paa Øvresletien; der foldede den
                     store Mand Hænderne, bøjede Hovedet og sukkede</p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>sMin Sjæl dø denne Retfærdiges Død: mit Endeligt vorde som hans.»</p>
                 <p>Den umistelige Sahl! Aa hvor Louise va glad i ham! Og Lillemor — hun kunde gaa i
                     Døden for ham. For næsten alle hendes lyse Timer og hendes bedste Ungdomslatter
@@ -5343,7 +5339,7 @@
                 <p>aa</p>
                 <p> </p>
                 <pb n="1"/>
-                 <p></p>
+                 <p/>
                 <p>Hun sprang fortvilet opover til sit Løn- kammer, Wibekes tilgroede Børnehave op
                     paa Bratfjeldet, og begyndte alt at hulke undervei</p>
                 <p>Sahl kom just summende fra Hop, som en Humle, der efter at have klasket mod Vin-
@@ -5374,7 +5370,7 @@
                 <p> </p>
                 <pb n="2"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>Og sig, at jeg blir paa mit Værelse, til han er reist» Dermed sprang hun forbi
                     ham og Folkeveien ovenpaa</p>
                 <p>Sahl frembragte venligt og skaansomt sit Ærinde. Men Hans Berman blev siddende og
@@ -5402,7 +5398,7 @@
                 <p>guldknap-</p>
                 <p> </p>
                 <pb n="3"/>
-                 <p></p>
+                 <p/>
                 <p>Han kunde forsikre hende, at hendes Mor vilde gifte sig igjen — aldrig. Det havde
                     han fra hendes egen Mund — og den vidste Lilemor løj al</p>
                 <p>Aa — den velsignede Sahl! Hun kunde have kysset ham, hvis det ikke stred mod
@@ -5429,7 +5425,7 @@
                 <p> </p>
                 <p>den savner intet, som har dig</p>
                 <pb n="4"/>
-                 <p></p>
+                 <p/>
                 <p>Jeg hist med dem skal samles glad. hvor ingen mer skal skilles ad. hvor vi af
                     ingen Kummer ved, men alt er Lys og Herlighed —</p>
                 <p> </p>
@@ -5455,7 +5451,7 @@
                     kjøre hjem derfra.</p>
                 <p> </p>
                 <pb n="5"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Og paa Veien fik da Sahl høre, at Tiderne var meget daarlige. De svære
                     Jordeiendomme. gav intet af sig, og Fabrikkerne maatte have nye Maskiner, om de
@@ -5483,7 +5479,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="6"/>
-                 <p></p>
+                 <p/>
                 <p>dens Befolkning var ogsaa to Gange fordoblet paa Grund af Fiskerierne. &lt;Var
                     det ikke Generalkonsulen, som i sin Tid hjalp Dem til Udvær?</p>
                 <p>«Jo vist, jo vist,» svarede S maabende.</p>
@@ -5512,7 +5508,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="7"/>
-                 <p></p>
+                 <p/>
                 <p>Skjæbne. Og et ædelt, saligt Haab lagde Lys- ning over hans brede, blanke Ansigt,
                     da han sagde: «Med Guds Hjælp skal det gaa.»</p>
                 <p>Og nu gjorde Sahl sit første Tausheds Sto værk. Hans aabne Mund blev gjenknebet
@@ -5541,7 +5537,7 @@
                 <p>ære» — ja han blev m«</p>
                 <p> </p>
                 <pb n="8"/>
-                 <p></p>
+                 <p/>
                 <p>han hverken skulde sendes eller være med. Sahl skulde ingen Vidner have paa denne
                     Fart. Et Par Dage efter reiste han. Det var jo ikke nu som i gamle Dage. Nu
                     havde man bare at følge Dampskibet til Haugesund — og saa tage Seilskyds de
@@ -5569,7 +5565,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="9"/>
-                 <p></p>
+                 <p/>
                 <p>Og frem til Mikkal Fyrdreng stormede de alle, for der var han taget ind. «Jamen
                     var det ikje gamle Sahl! Tæng, saa gammale han var vorten, du! Nei, eg segje meg
                     saa!»</p>
@@ -5596,7 +5592,7 @@
                 <p> </p>
                 <p>og maa selv gaa fra Gaardene.&gt; 14 — Cargader Sal.</p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>Folket maabede en Stund og saa hviskede og murrede de sig imellem. Men Sahl gik
                     ikke ud, som i gamle Dage.</p>
                 <p>Han bare gjentog nu og da: «Kjære Ven- ner! Jeg maa — jeg maa» nkelte kom ihug
@@ -5625,7 +5621,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="211"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>er; og saa veid me naa det og, at en anden Mand vilde forlangt meir af os. Eg
                     segje &lt;Vannari»,” eg: for min part, Beite. Gjer Vorherre sligt Sturtafiske en
@@ -5659,7 +5655,7 @@
                 <p> </p>
                 <p>£ Vannari 2: Lad ga!</p>
                 <pb n="212"/>
-                 <p></p>
+                 <p/>
                 <p>&lt;Gud velsigne og bevare Eder alle, Eder og Eders Børn!»</p>
                 <p>Sahl drog hjem, lys og lykkelig og mer pratsom end nogensinde. Folk paa Dampski-
                     bet kappedes om at faa snakke med den aabne, godslige gamle Herre. Og saa
@@ -5681,7 +5677,7 @@
                 <p>Og saa ridderlig elskværdig, som han var mod sin Moder og sine Søstre, skjønt
                     altid paa</p>
                 <pb n="213"/>
-                 <p></p>
+                 <p/>
                 <p>den skjulte, bramfri, van Gelderske Vis. Og med et Instinkt! Et Instinkt for
                     Forretningens Stilling, Tidernes Vanskelighed og for den øko- nomiske Situation
                     paa Hop, som var forbau- sende. Det var som Forstaaelsen af alt og alle gleden
@@ -5708,7 +5704,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="214"/>
-                 <p></p>
+                 <p/>
                 <p>rende dette Blik var; det saa baade dybt paa ham og dybt indad i
                     Selvprøvelse.</p>
                 <p>Aa — hvor disse Ord glædede Willem Be- rendt, for han havde baade Faderens
@@ -5767,7 +5763,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="216"/>
-                 <p></p>
+                 <p/>
                 <p>at Stedet kunde rykke Kulturen nærmere; Sjø- veien var altfor afhængig af Vind og
                     Veir</p>
                 <p>Og hver Arbeider, endsige Bygselman maatte fan skikkelig Vei tildørs, og Træer og
@@ -5819,7 +5815,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="218"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>gnede Sahl med Tilfredshed og Historier fra de gode, gamle Tider — lige op til
                     Løsenet i Kronstadt, van Marken sit Kruys og Rognlasten i Douarnenez.</p>
@@ -5841,7 +5837,7 @@
                 <p>&lt;Denne Bøgernes Bog, som har været mit stille Lys i alt Livets Mørke og min
                     stærke Hjælp i al Svaghed, anbefaler jeg Eder, mine</p>
                 <pb n="219"/>
-                 <p></p>
+                 <p/>
                 <p>kjære efterladte. Den vise Eder altid Veien til ham, som er vores eneste Tilflugt
                     i Liv og Død og som vil være Enkens Trøst og de faderløses bedste Fader.»</p>
                 <p>Willem Berendt læste det op for sin Mor og Lillemor, saa paa dem med sit
@@ -5914,9 +5910,9 @@
                 <l>   san skal du faa Havre paa Haarr <ref target="#NOR0044_EN14">***</ref></l>  
                     <l>   Mens de brænder og brygger i Finshongen.</l>
                 </quote>
-                <p></p>
+                <p/>
                 <pb n="221"/>
-                 <p></p>
+                 <p/>
                 <p>Dødens Engel red nordover Nyta og Snestormen var hans prustende Ganger.
                     Sprængred; for der var 6—8 Menneskeliv langs Kysten, som hans Hov skulde give
                     sidste Stød for Brystet, inden Aaret løb ud.</p>
@@ -5973,7 +5969,7 @@
                 <p> </p>
                 <p>+ Naafogl 2: Fugl, som varsler Død.</p>
                 <pb n="223"/>
-                 <p></p>
+                 <p/>
                 <p>perne? med Tønden og de andre dundrende med Dikselen — og sad med Fangskind og
                     blaa Strømper og Spændesko — og eg hadde lurt meg ud for te følge di, for eg fek
                     ikje Lov ser du — ok kor fornøjeligt te tænke paa</p>
@@ -5998,7 +5994,7 @@
                 <p> </p>
                 <p>&lt; Kipperne 2: Bodkerlauget.</p>
                 <pb n="224"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>«Ja langt Eftermæle, ja; det vil eg no haape, søte Ven; for det va'kje møkke
                     fornøjeligt for meg bare te ha' to—tri Pær gaaendes bak efter Kisten.»</p>
@@ -6056,7 +6052,7 @@
                 <p>ra et</p>
                 <p> </p>
                 <pb n="226"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Min Ven! Naar du er bedrøvet, Sabl, saa er jeg det og. Jeg beder dig indstændig
                     ikke at lade Bekymringer nedstemme dit Sind. Du er ikke ene. Vort Hus er nær og
@@ -6111,7 +6107,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="228"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Lillemors Bevidsthed den Geburtsdag, da Madam Sahl slap Sleven og skreg ud</p>
                 <p>Ok, naa dat van Gellert !-</p>
@@ -6182,7 +6178,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>og Børnenes Skyld, som sad igjen i baade Nød og Fortvilelse; men han, han tog det
                     værste Bibelsprog han kunde finde: «De skulle ligge pan deres Gjerninger», og
                     tordnede en hel Time over det, trods alt det Konen krampeskreg og Tilhørerne
@@ -6208,7 +6204,7 @@
                 <p> </p>
                 <p>ste</p>
                 <pb n="231"/>
-                 <p></p>
+                 <p/>
                 <p>ligt og aandeligt, for han bar mange og meget paa sit Hjerte. Svær og tung og
                     bukket sad han bag: og Skydsen havde hele Tiden en Følelse, som de roede i den
                     svarle Skygge af et høit, men helligt Fjeld</p>
@@ -6268,7 +6264,7 @@
                 <p> </p>
                 <pb n="233"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>tro, han ikke var saa fast og seig en Karakter som han v</p>
                 <p>Skulde man ikke maaske kunne gjøre noget for at hjælpe sine Arbeidere fremad i
                     Oplysning og dygtiggjøre dem for sin Livsopgave? Ja ha spurgte bare. Skulde man
@@ -6302,7 +6298,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="234"/>
-                 <p></p>
+                 <p/>
                 <p>hverken Fruen eller Lillemor vidste, enten det kom fra hellig Glæde eller helligt
                     Sinne.</p>
                 <p>Ja, der kom man sandsynligvis til det ømme Punkt. Gik det ikke an at tænke —
@@ -6338,7 +6334,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="235"/>
-                 <p></p>
+                 <p/>
                 <p>klart Standpunkt: «Hvad siger nu De, Fru van Gelder?»</p>
                 <p>Louise blussede som en, ung Pige og sva- rede med et fortryllende Smil: «Jeg
                     siger ingen ing.» Men strikkede og tænkte, gjorde hun — strikkede og tænkte.</p>
@@ -6369,7 +6365,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="236"/>
-                 <p></p>
+                 <p/>
                 <p>kes som Kvinderne; han maatte have alt op- sjort i en Fei, for at holde ud.</p>
                 <p>Selv van Gelder, som heller ikke veg I ærlig Kamp, var taknemmelig for Damernes
                     Skyld.</p>
@@ -6434,7 +6430,7 @@
                 <p>atte hat</p>
                 <p> </p>
                 <pb n="238"/>
-                 <p></p>
+                 <p/>
                 <p>aabne Gem</p>
                 <p> </p>
                 <p>tlighed brød frem som Sol i Taage, og mens Kvinderne slugte ham — «den som gjør
@@ -6470,7 +6466,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="239"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>lyst for mig over hele Livets Hav, Venskab og Gudsfrygt.»</p>
                 <p>sVenskab og Gudsfrygt,» gjentog Præsten, som han svælgte noget usmageligt. «Det
@@ -6502,7 +6498,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="240"/>
-                 <p></p>
+                 <p/>
                 <p>Van Gelder smaalo og sagde: «De ser, Sahl ogsaa er et Stykke af en Præst, baade
                     efter Stemme og Kald. Ja han har sogar en- gang været bestemt til Præst.» Vendt
                     til Sahl Derfor gik du jo ud af Lancaster-skolen og begyndte hos Konrektor
@@ -6533,7 +6529,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="241"/>
-                 <p></p>
+                 <p/>
                 <p>-Aldeles ikke, gjentog Broderen. «Han talte og førte sig som en Mand af
                     Overbevisning skal gjøre»</p>
             </div>
@@ -6568,7 +6564,7 @@
                 <p>Carpader Sahl</p>
                 <p> </p>
                 <pb n="242"/>
-                 <p></p>
+                 <p/>
                 <p>tere baade i og udenfor Kirken. Desuden valgte han sig en svoren «Medhjælper» paa
                     Kloster, som holdt ham ajour med alt og alle</p>
                 <p>Men van Gelder var for ophøiet til lignende Kontratræk. Naar Læreren blev hans
@@ -6595,7 +6591,7 @@
                 <p> </p>
                 <pb n="243"/>
                 <p> </p>
-                 <p></p>
+                 <p/>
                 <p>Og naar Præsten kom hæs hjem fra det fuldpakkede Hus og den totimers Tale, kunde
                     han endog triumferende spørge: «Se hvor hele Stedets Fysiognomi nu er et andet;
                     er det ikke at takke Gud for? Drik og Eder og Verdslighed tager af, og Kirkegang
@@ -6623,7 +6619,7 @@
                 <p>p</p>
                 <p> </p>
                 <pb n="244"/>
-                 <p></p>
+                 <p/>
                 <p>Et meget værre Stød for van Gelder blev det dog, at Lillemor, som gik til
                     Konfirmation, uvilkaarlig blev greben af Præsten Espedals djærve og ærlige
                     Paavirkning. Og da Aaret var ude, og den bevægelige Konfirmationsdag forbi, da
@@ -6676,7 +6672,7 @@
                 <p> </p>
                 <p>jære, snille, søde</p>
                 <pb n="246"/>
-                 <p></p>
+                 <p/>
                 <p>ter hun fik, og de Prøvemethoder hun lærte at anvende paa sine Omgivelser
                     hjemme.</p>
                 <p>Hun kunde aldrig faa et Ord frem mod dem mer. Men naar noget sagdes eller gjor:
@@ -6704,7 +6700,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="247"/>
-                 <p></p>
+                 <p/>
                 <p>Traktater var lagt lige bort i Næsen paa Gjæ- sterne for at minde sig.</p>
                 <p>Ja — tungt var det, naar hun var ude af Stuen, og tungt, naar hun var inde.</p>
                 <p>Der var de Aftener, da van Gelder i en ungdommelig Utaalmodighed, som han betvang
@@ -6729,7 +6725,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="248"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>at lære</p>
                 <p> </p>
@@ -6758,7 +6754,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="249"/>
-                 <p></p>
+                 <p/>
                 <p>Det faldt hende saa tungt at tage mod Hjælp og Opvartning; for hun havde trods
                     sin Stilling aldrig været vant til at kræve Tjeneste.</p>
                 <p>Og det var saa uvant og underligt for Børnene at se hende ligge der, støttet af
@@ -6784,7 +6780,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="250"/>
-                 <p></p>
+                 <p/>
                 <p>Middagssøvnen, var hun bestandig vaagnet op med sit yndige Smil</p>
                 <p>Ja selv den sidste Dag, da hun mildt havde sagt til Præsten, at hun nu helst
                     vilde være alene med sine Børn, og Sønnen kom ind, saa man et blygt Vink med
@@ -6812,7 +6808,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="251"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>pegte op med Hi vende Røst</p>
                 <p>-Vi tror paa Syndernes Forladelse, Kjødets Opstandelse og det evige Liv. — Vi
@@ -6868,7 +6864,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="253"/>
-                 <p></p>
+                 <p/>
                 <p>som glædede Sahl, og som derfor glædede Wil- lem Berendt og Wibeke.</p>
                 <p>Præsten nævnte fast en Programsalme, som hun heller burde synge. Men hun svarede
                     med van Geldersk Selvstændighed, at hun nu helst vilde synge det, som glædede
@@ -6981,7 +6977,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="257"/>
-                 <p></p>
+                 <p/>
                 <p>at sige. Snart reiste han sig for at vaske de store, haarede Hænder, en
                     Yndlingsbeskjæftigelse, han længe havde grebet til, naar han trængte Afvexling;
                     snart reiste han sig for at se paa Kalenderen; snart for at følge Billederne
@@ -7009,7 +7005,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="258"/>
-                 <p></p>
+                 <p/>
                 <p>den engelske, Princess of Wales: og endelig den hollandske, de hoopende
                     Visser</p>
                 <p>Sæl laa døde og levende rundt paa Fla- gene. Matroserne lemmede en firkantet Hval
@@ -7038,7 +7034,7 @@
                 <p> </p>
                 <p>isse tre ædle, unge Venner.</p>
                 <pb n="259"/>
-                 <p></p>
+                 <p/>
                 <p>Og saa deres uforglemmelige Fader, hans Fætter og Ven: Berendt Willem van Gelder,
                     født 1796 som han selv; hollandsk General konsul o. s. v.; gift med Louise Ruge.
                     Gud velsigne dem i deres Grav</p>
@@ -7065,7 +7061,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n=""/>
-                 <p></p>
+                 <p/>
                 <p>rendt Willem van Gelder, født 1668; Agent, en af de 16. (se Ole Camstrups
                     poetiske Sager og Relation over Christian d. 6tes Ophold i Ber- gen). Gift med
                     Cornelia de Lange,</p>
@@ -7094,7 +7090,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="261"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Han begyndte atter at lede efter Piben. der stak jo Mundspidsen frem under
                     Aviserne.</p>
@@ -7120,7 +7116,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="262"/>
-                 <p></p>
+                 <p/>
                 <p>Sahl gjorde sig hurtig færdig til at gaa ned og vaskede for sidste Gang sine
                     Hænder.</p>
                 <p>Han fandt Præsten alene; Willem Berendt var gaaet nord. Men Præsten fortalte ham
@@ -7145,7 +7141,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="263"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p> </p>
                 <p>lever han efter det, han læser. — Præst, Præst — De aner ikke, hvad Mand han er.
@@ -7176,7 +7172,7 @@
                 <p> </p>
                 <p>Da aflagde Sahl høit og bevæget sin Bekjendelse</p>
                 <pb n="264"/>
-                 <p></p>
+                 <p/>
                 <p> </p>
                 <p>Jeg vil dø i den samme Tro som uforglemmelige Ven og Fætter van Gelder.»</p>
                 <p>H| store Hoved og saa paa Willem Berendt med sin store, gjennem tre Generationer
@@ -7195,7 +7191,7 @@
                 <p>Præsten var reist. Willem Berendt sad i Sabls Vindu og saa Aflensolen gylde Gran-
                     toppene, lægge Grønglans over Græsmatterne</p>
                 <p> </p>
-                <p></p>
+                <p/>
                 <p> </p>
                 <p> </p>
                 <p> </p>
@@ -7231,7 +7227,7 @@
                     Ikke et Ord — og alligevel mellem Linjerne en kold Fornem-</p>
                 <p> </p>
                 <pb n="266"/>
-                 <p></p>
+                 <p/>
                 <p>melse af Præstens Misti lige Habitus:</p>
                 <p>Men da Præsten var færdig, stod van Gel- der, før han selv vidste af det, lys og
                     fast paa Gravbakken med Hatten i Haanden:</p>
@@ -7263,7 +7259,7 @@
                 <p> </p>
                 <p> </p>
                 <pb n="267"/>
-                 <p></p>
+                 <p/>
                 <p>Men ved Sahls Begravelse var det sidste Gang, Præsten var paa Kloster i Embeds
                     Med- før. Ugen efter tiltraadte han sit nye Embede i Byen, hvor der var mange
                     Præster, og hvor de fleste repræsenterede samme Retning som han.</p>
@@ -7294,7 +7290,7 @@
                 <p> </p>
                 <p>må</p>
                 <pb n="268"/>
-                 <p></p>
+                 <p/>
                 <p>Og naar han om Søndagen gik paa Altanen og saa Ungdommen fare opover de store
                     Skoge, som var hans Hænders Værk, eller seile ud efter Leden i Flok og Følge,
                     men bare en eneste. fattigslig Færing med tre Kvindfolk og en Mand roede til
@@ -7331,9 +7327,9 @@
                 <note xml:id="NOR0044_EN07">Reint *: Reinkomn eller Byg. og *: Rug.</note>
                 <note xml:id="NOR0044_EN06">* høg som hover *: lige holden; lige glad</note>
                 <note xml:id="NOR0044_EN05">* To, flert. Tor *: flad, græsgroet Afsats</note>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p/>
+                <p/>
+                <p/>
                
             </div>
         </back>
