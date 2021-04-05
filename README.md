@@ -9,7 +9,7 @@ This is the Norwegian novel collection for the ELTeC, the European Literary Text
 
 General information about ELTeC releases is available at https://github.com/COST-ELTeC/ELTeC.
 
-* v0.5.0, April 2021: This release contains 53 novels. The DOI of this release is: [10.5281/zenodo.4662590](https://doi.org/10.5281/zenodo.4662590). 
+* v0.5.0, April 2021: This release contains 53 novels. The DOI of this release is: [10.5281/zenodo.4662724](https://doi.org/10.5281/zenodo.4662724). 
 * v0.3.0, November 2020: The ELTeC-nor collection as it stands contains 27 novels encoded at level 1, 21 in Bokmål and 6 in Nynorsk. The corpos composition criteria are not yet fully fulfilled. The DOI of this release is: [10.5281/zenodo.3521572](https://doi.org/10.5281/zenodo.3521572).  
 
 ## Contributors
