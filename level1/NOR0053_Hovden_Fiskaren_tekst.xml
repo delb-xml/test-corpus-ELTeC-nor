@@ -124,7 +124,7 @@
    <head>
     I. DEIL
    </head>
-             
+          <div type="chapter">      
    <head>
     I
    </head>
@@ -260,7 +260,7 @@
        </quote>
    </p>
          </div>
-         <div>
+         <div type="chapter">
    <head>
     II.
    </head>
@@ -604,7 +604,7 @@ sleppe aa prøve kor tungt det er aa vera gamall og ende-paa!"
     Um Øystein unge er det at vaar soga mest kjem til aa lue.
    </p>
          </div>
-             <div>
+             <div type="chapter">
                  <head>
                      III.
                  </head>
@@ -909,7 +909,7 @@ sanseløysa hev gjengi seg utfyri.
 finkvelvde diktarskallen hans.
    </p>
              </div>
-         <div>
+         <div type="chapter">
              <head>
                  IV.
              </head>
@@ -1296,7 +1296,7 @@ Harald skulde gifte seg til haustes.
     Ho raudnar sterkt.
    </p>
          </div>
-         <div>
+         <div type="chapter">
              <head>
                  V.
              </head>
@@ -2065,7 +2065,7 @@ heimvegen radt, med alle pengane paa seg. Reiser paa dekksplass, kjøper
 med seg ei flaske brennevin, og liver elles av turrmat heile dagen.
    </p>
          </div>
-         <div>
+         <div type="chapter">
              <head>
                  VII.
              </head>
@@ -2750,7 +2750,7 @@ kar."
     Han kjenner ikkje ryggverken sin paa mange dagar.
    </p>
          </div>
-         <div>
+         <div type="chapter">
              <head>
                  VIII.
              </head>
@@ -3151,7 +3151,7 @@ og kjenner lite til aa vera trøytte.
 likso vel line som garn.
    </p>
          </div>
-         <div>
+         <div type="chapter">
              <head>
                  IX.
              </head>   <p>
@@ -3360,7 +3360,7 @@ hjarta."
     Det siste han sagde var til henne: ?Gud velsigne deg!"
    </p>
          </div>
-         <div>
+         <div type="chapter">
              <head>
                  X.
              </head>   <p>
@@ -3534,7 +3534,7 @@ grev og spør seint og tidleg. Det vekkjer ofte baade gaman og
 ettertanke.
    </p>
          </div>
-         <div>
+         <div type="chapter">
              <head>
                  XI.
              </head>  <p>
@@ -3731,7 +3731,7 @@ live vaart."
     Øystein stilt bivrande: ?Han høyre det!"
    </p>
              
-         </div>
+         </div></div>
  <div type="group">            
    <head>
     II. DEIL
@@ -3991,7 +3991,7 @@ Daa sansar han Øystein seg og segjer, innarleg mjuk i maale: ?Nei, er du
 ute i dette ufysne vere, du, fuglen min!"
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              II.
          </head>   <p>
@@ -4239,7 +4239,7 @@ fara ut etter fjorden i dag!
     glad mot det opne have, alle lydde dei meg!
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              III.
          </head>   <p>
@@ -4502,7 +4502,7 @@ hev sett inn gaavune ho hadde fengi fraa sønine. Ho meinte det skulde
 fylgje ei sers signing med desse pengane.
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              VI.
          </head>   <p>
@@ -4728,7 +4728,7 @@ til aa setja han i ulag, mistyda og svara paa tvert. Og so stend ho paa
 sitt, jamvel um ho maa vita ho hev urett.
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              V.
          </head>   <p>
@@ -5105,7 +5105,7 @@ land!
     IO
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              VI.
          </head>   <p>
@@ -5370,7 +5370,7 @@ noko røyner paa, so er Alv god aa hava, han er raadug og tenkt som ein
 vaksin.
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              VII.
          </head>   <p>
@@ -5471,7 +5471,7 @@ Denne gongen hadde eg godt av det. Det var berre ei husraad eg treiv til
 for aa faa vermen i meg ... Eg hadde liksom fengi slik kuls."
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              VIII.
          </head>   <p>
@@ -5702,7 +5702,7 @@ rossmaal og isbjørn.
     II
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              IX.
          </head>   <p>
@@ -5814,7 +5814,7 @@ dansemeistaren, lisle Knut; han sprett som eit kid paa fange deira.
 kome etter, so snart fiskja er slutt til vaaren.
    </p>
      </div>
-     <div>
+     <div type="chapter">
          <head>
              X.
          </head>   <p>
