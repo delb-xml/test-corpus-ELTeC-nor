@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0011" xml:lang="nn">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0011" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -84,7 +81,7 @@ ISBN: 978-82-8319-336-7 (digital, bokselskap.no), 978-82-8319-337-4 (epub), 978-
    <change when="2017-04-03">
     Ført inn korrekturrettelser. Lagt inn ISBN. Entiteter, validering og kodekontroll.
    </change>
-   <change when="2016-06-20" xml:id="ENW">
+   <change when="2016-06-20">ENW 
     XML-koding. Klar for korrektur.
    </change>
   </revisionDesc>

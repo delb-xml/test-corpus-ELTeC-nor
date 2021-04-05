@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0042" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0042" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -77,7 +74,7 @@
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>
-    <text type="novel" >
+    <text type="novel">
 <front>
     <div type="titlepage">
     
@@ -108,7 +105,7 @@ Martin og hans Broder Andreas's Barndom og tidligste Ungdom.
 </p>
 <p> </p>
 <p>
-artin Aamot var ældste Søn > af Hattemager Nils Sivert- sen Aamot og Anne Ka- trine Aamot født Bøen. Forældrene boede i en af Smaabyerne paa Vestlan- det.
+artin Aamot var ældste Søn &gt; af Hattemager Nils Sivert- sen Aamot og Anne Ka- trine Aamot født Bøen. Forældrene boede i en af Smaabyerne paa Vestlan- det.
 </p>
 <p>
 Martin var en kvik Gut, og Forældrenes nærmeste Omgangsven, Kom- mandersergeant Kristiansen, der var Martins Gudfader, morede sig undertiden med at notere ned de piquante Bemerkninger, Barnet fremkom med. En Aften kom Kommandersergeanten til- fældigvis til at læse et Brudstykke af en Biografi over Gøthe. Det slog ham ved denne Leilighed, at de mærkelige Ytringer, der var citeret fra
@@ -128,7 +125,7 @@ Martin var en kvik Gut, og Forældrenes nærmeste Omgangsven, Kom- mandersergean
 eJeg giver ikke meget for Martins Bemerk- ninger», sagde han, «Sagen er vel den, at den ene Unge omtrent gjør ligesaa kløgtige Bemerk- ninger som den anden; men hvis Ungen bliver til Noget, naar han bliver voksen, saa noterer man ned Rub og Stub af, hvad han har sagt, fra han var en Næve stor, og anfører det som et Bevis for, at han alt fra Barn af var bestemt til at blive noget Stort. Men bliver ikke Ungen til Noget, saa er der ikke en Kjeft, som lægger Merke til, hvad han har sagt, da han var liden, om det saa er aldrig saa merkeligt.»
 </p>
 <p>
-«Sig ikke det, Hattemager Aamot! Sig ikke det», sagde Kommandersergeanten. «Store Mænd fremkommer, baade medens de er Børn, og naar de ligger paa sit Dødsleie, med Ytringer, hvori man kan skimte den ualmindelige Begavelse, Saaledes var det sidste, den omtalte store Digter Gøthe, der hele Tiden havde arbeidet i Oplys- ningens Tjeneste, ytrede paa sit Dødsleie hine merkelige Ord: «Mere Lysl>»
+«Sig ikke det, Hattemager Aamot! Sig ikke det», sagde Kommandersergeanten. «Store Mænd fremkommer, baade medens de er Børn, og naar de ligger paa sit Dødsleie, med Ytringer, hvori man kan skimte den ualmindelige Begavelse, Saaledes var det sidste, den omtalte store Digter Gøthe, der hele Tiden havde arbeidet i Oplys- ningens Tjeneste, ytrede paa sit Dødsleie hine merkelige Ord: «Mere Lysl&gt;»
 </p>
 <p>«Det var de sidste Ord min Søster Maren</p>
 <p>…</p>
@@ -329,7 +326,7 @@ cTilstaa. lige saa godt med det samme», gjentog Faderen. «Jeg lader mig ikke f
 »Husk paa, at jeg kan skri versitetet», afbrød Hattemageren ham.
 </p>
 <p>
-eDet behøves ikke, det kommer jo i Avi- seme>, raabte Martin.
+eDet behøves ikke, det kommer jo i Avi- seme&gt;, raabte Martin.
 </p>
 <p>
 sKommer det i Aviserne», udbrød Hattema- geren, «kommer det i Aviserne, saa skal vi snart faa Sandheden at vide. Posten er kommet idag.»
@@ -429,7 +426,7 @@ Der opstod en høitidelig Pause, medens Hat- temageren dampede af Piben.
 <p>Martin stirrede paa Faderen.</p>
 <p>ePaa Universitetet», gjentog han.</p>
 <p>
-eJa», sagde Faderen, «har du aldrig tænkt paa dett>
+eJa», sagde Faderen, «har du aldrig tænkt paa dett&gt;
 </p>
 <p>
 cNei», svarede Martin, «men siden du siger det, saa skal jeg tænke paa det.»
@@ -705,7 +702,7 @@ cHan bad mig hilse og sige, at han ønskede at se Hr. Aamot hos sig til Middag.�
 eHan ønskede at se mig hos sig til Middag», gjentog Martin, «du er vis paa det?»
 </p>
 <p>eJa», svarede Pigen, «ganske vis»</p>
-         <p>«Godt», sagde Martin, «Du kan gaa></p>
+         <p>«Godt», sagde Martin, «Du kan gaa&gt;</p>
 <p> </p>
 <pb n="32"/>
 <p>2</p>
@@ -734,9 +731,9 @@ Martin svarede ikke, men pegte hen paa Visitkortkurven, hvor han havde lagt Prof
 <p>2</p>
 <p> </p>
 <p>
-«Professor Schumacher», sagde Albert Schnur- busch, «hvordan nyder du den Ære>
+«Professor Schumacher», sagde Albert Schnur- busch, «hvordan nyder du den Ære&gt;
 </p>
-         <p>«Anbefalinger», svarede Martin, «Professor Wolfil></p>
+         <p>«Anbefalinger», svarede Martin, «Professor Wolfil&gt;</p>
 <p>
     «For», vedblev Albert Schnurbusch, «Profes- sor Schumacher er ikke den Mand, som gjør Visit til enhver.»
 </p>
@@ -744,7 +741,7 @@ Martin svarede ikke, men pegte hen paa Visitkortkurven, hvor han havde lagt Prof
 «I Almindelighed», sagde Martin med Selv- følelse, «jeg ved det; men der gives Undtagelser.»
 </p>
 <p>
-eSaal> sagde Albert Schnurbusch, saa?» Ja, saa gratulerer jeg.»
+eSaal&gt; sagde Albert Schnurbusch, saa?» Ja, saa gratulerer jeg.»
 </p>
 <p>
     «Og mu», sagde Martin, «faar vi gaa Jeg vil ikke lade Prof ssor Schumacher vente med Middagen for min Skyld Du undskylder.»
@@ -808,7 +805,7 @@ eJeg har ladet Dem hente», udbrød han, sfor at sige Dem, at De havde fortjent 
 Professoren blev endnu rødere i Ansigtet end før og traadte et Skridt frem.
 </p>
 <p>
-eDe havde fortjent en Dragt Prygh», gjentog han, «forstaar De det?>
+eDe havde fortjent en Dragt Prygh», gjentog han, «forstaar De det?&gt;
 </p>
 <p>
 Martin lo endnu mere gemytlig end forrige Gang og nikkede gjentagende paa Hovedet med
@@ -821,7 +818,7 @@ Martin lo endnu mere gemytlig end forrige Gang og nikkede gjentagende paa Hovede
 Professoren blev ganske purpurrød i Ansigtet og saa ud, som om han kunde faa et Slagtilfælde paa Stedet.
 </p>
 <p>
-eDe er den mest uforskammede Karl, jeg i mit Liv har truffet», brølede han, «øser De en Gang til Deres skidne Vand ud i min Have, melder jég Dem for Politiet. Havde det ikke været af Hensyn til Deres Ungdom, saa skulde jeg faaet Dem relegeret fra Universitetet, De in- fame Karl. Pak Dem fra mit Hus og lad mig ikke oftere se Dem for mine Øine. Aldrig i mit Liv har jeg truffet en saa infam Person. Paa Døren >
+eDe er den mest uforskammede Karl, jeg i mit Liv har truffet», brølede han, «øser De en Gang til Deres skidne Vand ud i min Have, melder jég Dem for Politiet. Havde det ikke været af Hensyn til Deres Ungdom, saa skulde jeg faaet Dem relegeret fra Universitetet, De in- fame Karl. Pak Dem fra mit Hus og lad mig ikke oftere se Dem for mine Øine. Aldrig i mit Liv har jeg truffet en saa infam Person. Paa Døren &gt;
 </p>
 <p>
 Der var intet andet for Martin at gjøre, end skyndsomt at fjerne sig.
@@ -862,7 +859,7 @@ ejeg skal derhen igjen i Aften», sagde Martin, «Kl. 8. Jeg skal være 4de Mand
 <p>
 «Og hvem var det?» spurgte Schnurbusch. «Ingen, som Du kjender», sagde Martin. «God Vin?» spurgte Schnurbusch. «Fortreftelig», sagde Martin,
 </p>
-         <p>«Og Professoren sely, er det en behagelig Mand?></p>
+         <p>«Og Professoren sely, er det en behagelig Mand?&gt;</p>
 <p>
 »Overmaade behagelig», sagde Martin, «høflig, elskværdig og forekommende. Han behandlede mig, som om jeg havde været hans egen Søn.»
 </p>
@@ -894,7 +891,7 @@ Martin var en udmerket Kammerat, og hans Ankomst var derfor Signalet til, at der
 Det var høist merkeligt at se, hvilken Virk- ning Sangen havde spaa den unge Mand med Violinen. Han havde hidtil siddet ganske stille. Men aldrig saa snart havde de første Strofer af Sangen lydt gjennem Hallen, før. han for op af sin halvt hvilende Stilling og fik de besynderligste Trækninger om Munden og Øinene, Da man begyndte paa den anden Sang, hvor Martins Stemme navnlig var hørlig under Afsyngelsen af Koret:
 </p>
 <p>
-    «Juk he, juk he, juk dideludei, Juk dideludei jukhe > blev den Fremmedes Bevægelser endnu mere for-
+    «Juk he, juk he, juk dideludei, Juk dideludei jukhe &gt; blev den Fremmedes Bevægelser endnu mere for-
 </p>
 <p>uroligende. Han skar ikke alene Ansigter, men 4 r</p>
 <p> </p>
@@ -903,7 +900,7 @@ Det var høist merkeligt at se, hvilken Virk- ning Sangen havde spaa den unge Ma
 36 begyndte ogsaa at skrabe med Benene og holdt samtidig begge sine Hænder for Ørene.
 </p>
 <p>
-Efterat denne Sang var sunget tilende, og Ekkoet af det sidste: «Juk dideludei juk he I> var hendøet i Luften, blev der et Øiebliks Stansning, og den Fremmede begyndte gradvis at gjenvinde sin Rolighed, da Martin pludselig fik det Indfald at synge en Solo. Den Fremmede hoppede for- melig paa Stolen, da Martin satte i med sine Lungers fulde Styrke, og han var ikke kommen tilende med første Vers, før den Fremmede greb Violinen og styrtede ud af Værelset.
+Efterat denne Sang var sunget tilende, og Ekkoet af det sidste: «Juk dideludei juk he I&gt; var hendøet i Luften, blev der et Øiebliks Stansning, og den Fremmede begyndte gradvis at gjenvinde sin Rolighed, da Martin pludselig fik det Indfald at synge en Solo. Den Fremmede hoppede for- melig paa Stolen, da Martin satte i med sine Lungers fulde Styrke, og han var ikke kommen tilende med første Vers, før den Fremmede greb Violinen og styrtede ud af Værelset.
 </p>
 <p>
 Da Martin var færdig med sin Solo, saa han paa Klokken, lod som han blev meget altereret over, at den allerede var 8, tog sin Hat og ilede ud af Værelset med den Bemerkning, at Professor Schumacher ventede paa ham med THombren.

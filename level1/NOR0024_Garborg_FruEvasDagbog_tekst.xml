@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0024" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0024" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -81,10 +78,10 @@
    <change when="2013-06-25">
     Lagt inn en del rettelser oppdaget i Tor Arnes korrektur. Validert. Nye nedlastningsfiler.
    </change>
-   <change when="2013-03-25" xml:id="ENW">
+   <change when="2013-03-25">ENW 
     Lagt inn div'er, innholdsfortegnelse og ref-koding. Sjekket pb'er. Fjernet harde linjeskift. Rettet en del smågrums (manglende mellomrom, overflødige mellomrom, overflødige arksign o.l.). Sjekket entiteter. Kodekontroll.
    </change>
-   <change when="2013-03-19" xml:id="HIOA">
+   <change when="2013-03-19">HIOA 
     Kodet, korrekturlest og tilrettelagt av Ane F. Gimse, Vibeke N. Larsen og Stine Y. Runshaug som en del av valgfaget «E-bøker» på HIOA våren 2013.
    </change>
   </revisionDesc>

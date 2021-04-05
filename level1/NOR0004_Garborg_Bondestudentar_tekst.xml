@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0004" xml:lang="nn">
+<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">--><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0004" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -80,7 +77,7 @@
    <change when="2011-04-27">
     Kodekontroll.
    </change>
-   <change when="2011-04-26" xml:id="ENW">
+   <change when="2011-04-26">ENW 
     Kodet om teksten til TEI P5.
    </change>
   </revisionDesc>

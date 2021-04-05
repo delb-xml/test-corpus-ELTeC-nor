@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0019" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0019" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -79,7 +76,7 @@
    <change when="2013-01-16">
     Ført inn korrekturrettelser. Validert. Kodekontroll.
    </change>
-   <change when="2012-06-22" xml:id="ENW">
+   <change when="2012-06-22">ENW 
     Kodet om teksten til TEI P5.
    </change>
   </revisionDesc>

@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0027" xml:lang="nb">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0027" xml:lang="nb">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -76,10 +73,10 @@
   </profileDesc>
   <revisionDesc><change when="2020-11-15">Checked by checkup
                 script</change><change when="2020-11-13">ran oldCheckUp to update</change>
-   <change when="2015-05-13" xml:id="ENW">
+   <change when="2015-05-13">ENW 
     Rettet noen feil i teksten. Rettet litt i kodingen og la inn entiteter for anf.tegn. Kodekontroll. Validert.
    </change>
-   <change when="2015-03-13" xml:id="HIOA">
+   <change when="2015-03-13">HIOA 
     Kodet fil i TEI P5 XML. Lagt inn korrekturrettelser. Validert.
    </change>
   </revisionDesc>
