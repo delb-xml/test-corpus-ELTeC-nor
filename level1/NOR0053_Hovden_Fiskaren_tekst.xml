@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0053" xml:lang="nb">
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0053" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -61,7 +62,7 @@
   </encodingDesc>
   <profileDesc xmlns:e="http://distantreading.net/eltec/ns">
    <langUsage>
-    <language ident="nb" usage="100"/>
+    <language ident="nn" usage="100"/>
    </langUsage>
    <textDesc>
     <e:authorGender key="M"/>
