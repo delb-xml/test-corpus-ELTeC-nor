@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">--><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0004" xml:lang="nn">
+<?xml version="1.0" encoding="UTF-8"?><!--<!DOCTYPE TEI PUBLIC "-// NSL Norge //EN" "http://www.nslnorge.no/tekster/NSL_tei_xinclude.dtd">-->
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0004" xml:lang="nn">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -25,15 +28,16 @@
      216
     </measure>
    </extent>
-   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
-                Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-15"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--
-     Incorporated into the ELTeC
-     
-      2020-11-12
-     
-    --></publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
+   <publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+   <sourceDesc><bibl type="digitalSource">
      <ref target="http://www.bokselskap.no/boker/bondestudentar/tittelside">
       Teksten i bokselskap.no er basert på xml-fil mottatt fra Universitetet i Oslo/dokpro.uio.no. 
       Dokpros tekst er hentet fra Skriftir i samling, b. 1, Aschehoug, Kristiania, 1921.
@@ -41,8 +45,7 @@
      <date>1921</date>
       <pubPlace>Kristiania</pubPlace>
       <publisher>Aschehoug (W. Nygaard) </publisher>
-    </bibl>
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <ref target="https://www.nb.no/items/ef8b67eab7a66320913e6e9df3b3d4d5">
       NB. bokhylla
      </ref>
@@ -52,8 +55,7 @@
      <publisher>Fr. Nygaards Forlag </publisher>
      <date>1883</date>
       <idno type="wiki">https://www.wikidata.org/wiki/Q3423739      </idno>
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -69,7 +71,8 @@
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
-  <revisionDesc><change when="2020-11-15">Checked by checkup
+  <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change><change when="2020-11-15">Checked by checkup
                 script</change><change when="2020-11-13">ran oldCheckUp to update</change>
    <change when="2011-05-08">
     La inn manglende entitet for iacute.
