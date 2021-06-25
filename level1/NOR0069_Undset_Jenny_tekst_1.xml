@@ -47,12 +47,14 @@
    <sourceDesc><bibl type="digitalSource">
      <ref target="https://www.bokselskap.no/boker/jenny/tittelside">
       Teksten i bokselskap.no følger 1. utgave, 1911
-     </ref>
-    </bibl><bibl type="digitalSource">
+     </ref>     
+    <date>1911</date>
+    </bibl>
+    <bibl type="digitalSource">
      <ref target="https://www.nb.no/items/URN:NBN:no-nb_digibok_2009102110002">
       Faksimilie i Bokhylla
      </ref>
-     <date>1911</date>
+
     </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
