@@ -10,6 +10,66 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>NOR0069_Undset_Jenny_tekst_1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>NOR0069_Undset_Jenny_tekst_1</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>NOR0070_Krag_Kobberslangen_tekst_1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>NOR0070_Krag_Kobberslangen_tekst_1</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>NOR0068_Undset_Vaaren_tekst_1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>NOR0068_Undset_Vaaren_tekst_1</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>NOR0057_Normann_Krabvaag___skildringer_fra_et_lidet_fiskev%C3%A6r_tekst_1.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -50,71 +110,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>NOR0070_Krag_Kobberslangen_tekst_1.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>NOR0070_Krag_Kobberslangen_tekst_1</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>Validation_scenario</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>NOR0060_Jager_Syk_Kjerlihet_tekst.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>NOR0060_Jager_Syk_Kjerlihet_tekst1</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>Validation_scenario</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>NOR0069_Undset_Jenny_tekst_1.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>NOR0069_Undset_Jenny_tekst_1</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>Validation_scenario</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>NOR0068_Undset_Vaaren_tekst_1.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>NOR0068_Undset_Vaaren_tekst_1</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
