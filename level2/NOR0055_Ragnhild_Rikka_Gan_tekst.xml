@@ -77169,19 +77169,22 @@ Bestyrer paa sit Gan.
        <w lemma="paa" msd="--" pos="ADP" xml:id="NOR0055_558_1659_8">
         paa
        </w>
-       <w lemma="--" msd="--" pos="pu" xml:id="NOR0055_558_1659_9">
-        3000=Spd @X
+       <w lemma="--" msd="--" pos="NUM" xml:id="NOR0055_558_1659_9">
+        3000
        </w>
-       <w lemma="til" msd="--" pos="ADP" xml:id="NOR0055_558_1659_10">
+       <w lemma="" msd="--" pos="PROPN" xml:id="NOR0055_558_1659_10">
+        Spd
+       </w>
+       <w lemma="til" msd="--" pos="ADP" xml:id="NOR0055_558_1659_11">
         til
        </w>
-       <w lemma="jeg" msd="UTR S" pos="DET" xml:id="NOR0055_558_1659_11">
+       <w lemma="jeg" msd="UTR S" pos="DET" xml:id="NOR0055_558_1659_12">
         min
        </w>
-       <w lemma="gammel" msd="SUP nG nN DEF NOM" pos="ADJ" xml:id="NOR0055_558_1659_12">
+       <w lemma="gammel" msd="SUP nG nN DEF NOM" pos="ADJ" xml:id="NOR0055_558_1659_13">
         ældste
        </w>
-       <w lemma="brordatter" msd="UTR S IDF NOM" pos="NOUN" xml:id="NOR0055_558_1659_13">
+       <w lemma="brordatter" msd="UTR S IDF NOM" pos="NOUN" xml:id="NOR0055_558_1659_14">
         Brordatter
        </w>
        <pc pos="PUNCT">

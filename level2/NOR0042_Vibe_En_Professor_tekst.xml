@@ -29183,10 +29183,7 @@
       <w lemma="som" msd="nG S" pos="CCONJ" xml:id="NOR0042_340_591_9">
        som
       </w>
-      <w lemma="--" msd="--" pos="pu" xml:id="NOR0042_340_591_10">
-       aa @X
-      </w>
-      <w lemma="uventet" msd="--" pos="ADV" xml:id="NOR0042_340_591_11">
+       <w lemma="uventet" msd="--" pos="ADV" xml:id="NOR0042_340_591_11">
        uventet
       </w>
       <w lemma="blive" msd="IMPF AKT" pos="VERB" xml:id="NOR0042_340_591_12">

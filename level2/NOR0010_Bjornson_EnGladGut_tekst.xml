@@ -8262,7 +8262,7 @@
       <w lemma="og" msd="--" pos="CCONJ" xml:id="NOR0010_28_217_9">
        og
       </w>
-      <w lemma="være" msd="AKT" pos="INF" xml:id="NOR0010_28_217_10">
+      <w lemma="være" msd="AKT" pos="VERB" xml:id="NOR0010_28_217_10">
        værer
       </w>
       <w lemma="snilde" msd="nG S IDF NOM" pos="NOUN" xml:id="NOR0010_28_217_11">
