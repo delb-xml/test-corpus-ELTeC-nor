@@ -37,7 +37,8 @@
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
-   <sourceDesc><bibl type="digitalSource">
+   <sourceDesc>
+    <bibl type="digitalSource">
        <author>
         C. Collett
        </author>
@@ -54,7 +55,15 @@ ISBN: 978-82-93134-06-0
        <date>
         2013
        </date>
-      </bibl></sourceDesc>
+      </bibl>
+    <bibl type="firstEdition">
+     <title>Amtmandens Døttre</title>
+     <publisher>Johan Dahl</publisher>
+     <pubPlace>Christiania</pubPlace>
+     <date>1855</date>
+    </bibl>
+   
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
