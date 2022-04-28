@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="NOR0041" xml:lang="nb">
+<TEI xml:id="NOR0041" xml:lang="nb" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
     <title>
      Farlige Folk ELTeC-utgaven
     </title>
-    <author ref="https://viaf.org/viaf/5739505 https://www.wikidata.org/wiki/Q550125">Elster, Kristian  (1841-1881)</author>
+    <author ref="https://viaf.org/viaf/5739505 https://www.wikidata.org/wiki/Q550125">
+     Elster, Kristian  (1841-1881)
+    </author>
     <respStmt>
      <resp>
       ELTeC encoding
@@ -29,54 +31,78 @@
     </measure>
    </extent>
    <publicationStmt>
-<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
-<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
-</publicationStmt>
-   <sourceDesc><bibl type="digitalSource">
-      <ref target="https://www.bokselskap.no/boker/farligefolk/tittelside">
-        Teksten i bokselskap.no følger 1. utgave, 1881 (København/Gyldendal). 
-        Digitaliseringen er basert på fil fra Nasjonalbiblioteket (nb.no) 
-      </ref>
-      
-       <author>
-        K. Elster
-       </author>
-       <title>
-        Kristian Elster (d.e.): Farlige Folk, bokselskap.no
-       </title>
-       <pubPlace>
-        Kjøbenhavn
-       </pubPlace>
-       <publisher>
-        Gyldendalske Boghandels Forlag
-       </publisher>
-       <date>
-        1881
-       </date>
-       </bibl></sourceDesc>
+    <publisher ref="https://distant-reading.net">
+     COST Action "Distant Reading for European Literary History" (CA16204)
+    </publisher>
+    <distributor ref="https://zenodo.org/communities/eltec/">
+     Zenodo.org
+    </distributor>
+    <date when="2021-04-09"/>
+    <availability>
+     <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+    </availability>
+    <ref target="https://doi.org/10.5281/zenodo.3462435" type="doi">
+     ELTeC
+    </ref>
+    <ref target="https://doi.org/10.5281/zenodo.4662444" type="doi">
+     ELTeC release 1.1.0
+    </ref>
+    <ref target="https://doi.org/10.5281/zenodo." type="doi">
+     ELTeC-$textLang
+    </ref>
+    <ref target="https://doi.org/10.5281/zenodo." type="doi">
+     ELTeC-$textLang release
+    </ref>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.bokselskap.no/boker/farligefolk/tittelside">
+      Teksten i bokselskap.no følger 1. utgave, 1881 (København/Gyldendal). 
+        Digitaliseringen er basert på fil fra Nasjonalbiblioteket (nb.no)
+     </ref>
+     <author>
+      K. Elster
+     </author>
+     <title>
+      Kristian Elster (d.e.): Farlige Folk, bokselskap.no
+     </title>
+     <pubPlace>
+      Kjøbenhavn
+     </pubPlace>
+     <publisher>
+      Gyldendalske Boghandels Forlag
+     </publisher>
+     <date>
+      1881
+     </date>
+    </bibl>
+   </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p n="eltec-0"/>
   </encodingDesc>
-  <profileDesc xmlns:e="http://distantreading.net/eltec/ns">
+   <profileDesc  xmlns:e="http://distantreading.net/eltec/ns">
    <langUsage>
     <language ident="nb" usage="100"/>
    </langUsage>
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="medium"/>
-    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+    <e:reprintCount key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
   <revisionDesc>
-<change when="2021-04-09">Converted by checkUp script for new release</change><change when="2020-11-15">Checked by checkup
-                script</change><change when="2020-11-13">ran oldCheckUp to update</change>
+   <change when="2021-04-09">
+    Converted by checkUp script for new release
+   </change>
+   <change when="2020-11-15">
+    Checked by checkup
+                script
+   </change>
+   <change when="2020-11-13">
+    ran oldCheckUp to update
+   </change>
    <change when="0001-01-01"/>
   </revisionDesc>
  </teiHeader>
@@ -94,7 +120,7 @@ Digitaliseringen er basert på fil mottatt fra Nasjonalbiblioteket
 978-82-8319-448-7 (epub), 978-82-8319-449-4 (mobi)
     Teksten er
 lastet ned fra
-    <ref target="http://bokselskap.no/">
+    <ref target="#NOR0041_ttp://bokselskap.no/">
      bokselskap.no
     </ref>
    </p>
@@ -111,14 +137,12 @@ lastet ned fra
     bokselskap.no
     Oslo 2019
    </p>
-   
-   
    <div type="chapter">
     <head>
      I.
     </head>
     <p>
-      Et stort Dampskib styrer ind mod en norsk Kystby. Længe har man
+     Et stort Dampskib styrer ind mod en norsk Kystby. Længe har man
   ombord blot seet Vand og Berg, afblæst, vejrbleget Berg. Endelig er
   der en Forandring. Klipperne er tildels bedækkede med kaffebrun Lyng,
   og man ser hist og her en ensom Furru med alle Grene vredne fortvilet
@@ -145,7 +169,7 @@ lastet ned fra
   en Sværm af Baade. De allerfleste af disse Skibe gaar med Fisk. Fisk
   fører disse Smaaskuder, der netop er kommen fra
   Værene,
-     <ref target="#ton1" xml:id="backn1">
+     <ref target="#NOR0041_ton1" xml:id="backn1">
       n1
      </ref>
      Fisk tager Kystdamperne ind saa vel som de, der sætter Byen i
@@ -206,7 +230,7 @@ lastet ned fra
   forstukket bag store Trær og omgivet af et grønt Stakit. Udenfor Haven
   var en med store
   Stenheller
-     <ref target="#ton2" xml:id="backn2">
+     <ref target="#NOR0041_ton2" xml:id="backn2">
       n2
      </ref>
      belagt Plads, der gik lige til Søen. Paa den yderste Rand var rejst en
@@ -249,7 +273,7 @@ lastet ned fra
   Halstørklæde, der var viklet flere Gange  om Halsen. Han svabbede
   om i et Par Botfor, der var altfor store. Askeblondt,
   bustet
-     <ref target="#ton3" xml:id="backn3">
+     <ref target="#NOR0041_ton3" xml:id="backn3">
       n3
      </ref>
      Skjæg omgav en tyk Negermund; han havde næsten hvide Øjne og smaa
@@ -312,7 +336,7 @@ lastet ned fra
      «Saa –.»
     </p>
     <p>
-      «Ja, jeg saa Skibsreder Holt ude paa Kajen,» ytrede den
+     «Ja, jeg saa Skibsreder Holt ude paa Kajen,» ytrede den
   forhenværende Skibskaptejn.
     </p>
     <p>
@@ -344,7 +368,7 @@ lastet ned fra
   Beundring. «Men det var vel Spøg det hele?»
     </p>
     <p>
-      «Spøg? Spøg, Far? Det var Fanden heller. Men hør nu videre.
+     «Spøg? Spøg, Far? Det var Fanden heller. Men hør nu videre.
   Læg Mærke til dette, du Hamre; thi det var dig, han mente med disse
   mætte – – Naa, deri havde han forresten Ret; du ser ud, som om du
   altid var saa mæt, overmæt – ha, ha, ha!» –
@@ -401,7 +425,7 @@ lastet ned fra
   –»
     </p>
     <p>
-      Stub hostede sterkt, trak derpaa Bjørnholt tilside og
+     Stub hostede sterkt, trak derpaa Bjørnholt tilside og
   hviskede: «Hys – husker De ikke – Vik er jo –»
     </p>
     <p>
@@ -432,7 +456,7 @@ lastet ned fra
   Hilsner. «De husker ham jo, Fonn?»
     </p>
     <p>
-      «Ja – begejstret Folketaler,» sagde Præsten humant, men med en
+     «Ja – begejstret Folketaler,» sagde Præsten humant, men med en
   Betoning, der ganske blidelig skjød den omtalte udenfor de
   respektables Samfund.
     </p>
@@ -447,7 +471,7 @@ lastet ned fra
     <p>
      Damperen havde ankret.
   Fløtmandsbaadene
-     <ref target="#ton4" xml:id="backn4">
+     <ref target="#NOR0041_ton4" xml:id="backn4">
       n4
      </ref>
      omsværmede den og begyndte at komme iland med sin Fangst.
@@ -471,7 +495,7 @@ lastet ned fra
      «Grynt, Grynt,» sagde han, idet han gav Onkelen Haanden og tog til
   Hatten for de øvrige. Hamre forandrede ikke en Mine. Han
   glyttede
-     <ref target="#ton5" xml:id="backn5">
+     <ref target="#NOR0041_ton5" xml:id="backn5">
       n5
      </ref>
      henover sine idag flagsmykte Søboder og Fabrikker med det ene Øje og
@@ -482,7 +506,7 @@ lastet ned fra
   som han udtrykte sig. Indbydelsen blev modtagen, og man satte sig i
   Bevægelse indover
   Almenningen.
-     <ref target="#ton6" xml:id="backn6">
+     <ref target="#NOR0041_ton6" xml:id="backn6">
       n6
      </ref>
      Kornelia blev igjen ude paa Bryggen.
@@ -526,7 +550,7 @@ lastet ned fra
   Rotur.
     </p>
     <p>
-      De gik i Taushed indover Bryggen. Udenfor Viks Hus gik de
+     De gik i Taushed indover Bryggen. Udenfor Viks Hus gik de
   forbi Kornelia. Knut saa to nysgjerrige Øjne, der tittede efter ham
   som fra et dybt Skjul, idet hun med Ansigtet halvt vendt mod dem gik
   ind af Haveporten. Han lod Cigaren falde og stansede. «Hvem var det?»
@@ -592,7 +616,7 @@ lastet ned fra
   ifald jeg ikke hjælper ham – ha, ha!» –
     </p>
     <p>
-      «Nej, hør nu, Far, lad os leve som civiliserede Mennesker. Kan
+     «Nej, hør nu, Far, lad os leve som civiliserede Mennesker. Kan
   du ikke mætte din Fange- og Gribelidenskab paa Rotter og Mus eller
   andre Dyr og lade Menneskene i Fred.»
     </p>
@@ -632,8 +656,6 @@ lastet ned fra
   mod Huset.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      II.
@@ -677,7 +699,7 @@ lastet ned fra
   Faderen. Der opstod en pinlig Pause, under hvilken Knut slap den fede,
   fugtige Haand. Omsider satte Holt sig i Sofaen og begyndte
   kremtende
-     <ref target="#ton7" xml:id="backn7">
+     <ref target="#NOR0041_ton7" xml:id="backn7">
       n7
      </ref>
      og forpint:
@@ -710,7 +732,7 @@ lastet ned fra
   ved det ene Vindu.
     </p>
     <p>
-      «Naa – saaledes,» sagde han. «Tør jeg spørge – har jeg
+     «Naa – saaledes,» sagde han. «Tør jeg spørge – har jeg
   Søskende?»
     </p>
     <p>
@@ -796,7 +818,7 @@ lastet ned fra
   Handelsvenner i Bevægelse forat faa noget at vide.
     </p>
     <p>
-      «Du har hørt, at jeg vilde gifte mig?» spurgte Knut
+     «Du har hørt, at jeg vilde gifte mig?» spurgte Knut
   videre.
     </p>
     <p>
@@ -907,7 +929,7 @@ lastet ned fra
      Peter blev blussende rød.
     </p>
     <p>
-      «Ja, det forstaar sig, det er jo ikke noget videre nu,» sagde
+     «Ja, det forstaar sig, det er jo ikke noget videre nu,» sagde
   han undskyldende. «Siden du rejste, har vi jo ikke nogen Taler. Men vi
   har gjort vort bedste. Jeg tror, jeg tør sige, at vi har havt nogen
   Del i, at hverken Bjørnholt eller Hamre er bleven valgt i denne Tid.
@@ -941,7 +963,7 @@ lastet ned fra
   lad ham faa følge sit Kald.»
     </p>
     <p>
-      «Du spøger!»
+     «Du spøger!»
     </p>
     <p>
      «Ja, hvad andet er vel det hele værd? Hvad Pokker vil I? Hvad kan
@@ -979,7 +1001,7 @@ lastet ned fra
   rigtigt med.»
     </p>
     <p>
-      Knut mærkede, at han havde saaret sin Ven, og idet han slog
+     Knut mærkede, at han havde saaret sin Ven, og idet han slog
   ham paa Skulderen, sagde han: «Bryd dig ikke om, hvad jeg siger! Jeg
   er for Tiden afdøet fra alle Samfundsspørgsmaal; jeg lever paa Grund
   af Omstændighederne privat. Og særlig hungrer jeg i Aften efter det
@@ -1051,7 +1073,7 @@ lastet ned fra
   aldrig havde forladt ham. Vik selv huskede han især fra en lun
   Vinterdag med
   kram
-     <ref target="#ton8" xml:id="backn8">
+     <ref target="#NOR0041_ton8" xml:id="backn8">
       n8
      </ref>
      Sne, en Søndag, da han og en Del andre Gutter havde bygget de
@@ -1106,8 +1128,6 @@ lastet ned fra
   paa dem, der boede indenfor det grønne Stakit.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      III
@@ -1604,8 +1624,6 @@ lastet ned fra
   denne Proces ved anden Gang at sende Sønnen ud i Verden.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      IV.
@@ -1625,7 +1643,7 @@ lastet ned fra
      «Stemmer? Du vil faa Stemmer i Overflod! Du med din Begavelse!»
     </p>
     <p>
-      «Men hvorfor i Alverden lader du dig ikke vælge selv, Far?»
+     «Men hvorfor i Alverden lader du dig ikke vælge selv, Far?»
   –
     </p>
     <p>
@@ -1672,13 +1690,13 @@ lastet ned fra
      «Lad gaa,» svarede Knut og tændte en Cigar. «Men før mig nu ikke
   strax sammen med nogen af dem, der lugter af
   Bukkerag.
-     <ref target="#ton9" xml:id="backn9">
+     <ref target="#NOR0041_ton9" xml:id="backn9">
       n9
      </ref>
      Du skal betænke, at jeg kommer fra en Dampskibsrejse.»
     </p>
     <p>
-      «Hvad mener du?» spurgte Peter. «Jeg tænkte, vi skulde gaa op
+     «Hvad mener du?» spurgte Peter. «Jeg tænkte, vi skulde gaa op
   til Aage Storm; der træffer du vist mange, du kjender.»
     </p>
     <p>
@@ -1887,7 +1905,7 @@ lastet ned fra
      «Nej. Jeg ser ikke noget ved det, som er værd at elske. Sterke
   Evighedstanker og store Syner! Ak, Gud forbarme sig! Kræmmertanker og
   Sildesyner,
-     <ref target="#ton10" xml:id="backn10">
+     <ref target="#NOR0041_ton10" xml:id="backn10">
       n10
      </ref>
      min Ven, og intet andet.»
@@ -1961,7 +1979,7 @@ lastet ned fra
   hid, snart did; den lille runde Kone gjorde det samme og klappede ham
   paa Skulderen. Manden stod med
   Snadden
-     <ref target="#ton11" xml:id="backn11">
+     <ref target="#NOR0041_ton11" xml:id="backn11">
       n11
      </ref>
      i Munden og brummede nu og da nogle Ord ind i Samtalen med en dyb,
@@ -2035,7 +2053,7 @@ lastet ned fra
      «Det Skidt,» sagde Landhandleren foragteligt.
     </p>
     <p>
-      Turen kom derpaa til Fruen at spørge. Knut fik herved at vide,
+     Turen kom derpaa til Fruen at spørge. Knut fik herved at vide,
   at hans Ven agtede at grunde en selvstændig Forretning til Høsten, og
   at han allerede havde lejet et lidet Hus.
     </p>
@@ -2107,7 +2125,7 @@ lastet ned fra
   ikke Brandstifter længer?»
     </p>
     <p>
-      «Jeg kan noteres paa den politiske Børs som «behagelig». Jeg
+     «Jeg kan noteres paa den politiske Børs som «behagelig». Jeg
   har meldt mig ind i de ligegyldiges Forening.»
     </p>
     <p>
@@ -2147,7 +2165,7 @@ lastet ned fra
   Bøddel slet og ret.»
     </p>
     <p>
-      «For Pokker, han er ikke at spøge med, din Ridder Hr.
+     «For Pokker, han er ikke at spøge med, din Ridder Hr.
   Aage.»
     </p>
     <p>
@@ -2216,7 +2234,7 @@ lastet ned fra
      «Desværre har ogsaa den rene Vantro gjennem en enkelt Mand –»
     </p>
     <p>
-      «Tab ikke Modet, Kollega! Naar jeg nu bare har faaet –»
+     «Tab ikke Modet, Kollega! Naar jeg nu bare har faaet –»
     </p>
     <p>
      «Om Forladelse,» afbrød Fonn ham og henvendte sig derpaa til Vik.
@@ -2353,14 +2371,14 @@ lastet ned fra
      Strand, der var Botaniker – han var overhoved alt muligt – gjorde
   nogle Bemærkninger om de forskjellige Trærs
   Løvsprætstid
-     <ref target="#ton12" xml:id="backn12">
+     <ref target="#NOR0041_ton12" xml:id="backn12">
       n12
      </ref>
      og kom derved til at tænke paa Vegetationsforholdene paa Madagaskar.
   «Paa Madagaskar,» begyndte han i en Tone, der spaaede et to Timers
   Foredrag, da Bjørnholt i det samme viste sig udenfor
   Havegrinden.
-     <ref target="#ton13" xml:id="backn13">
+     <ref target="#NOR0041_ton13" xml:id="backn13">
       n13
      </ref>
      Han kom som sedvanligt med en Fart af sexten Mil i Vagten, rev
@@ -2404,7 +2422,7 @@ lastet ned fra
      «Hm» – indvendte Fonn –, «jeg kan ikke være ganske enig deri.»
     </p>
     <p>
-      «Men kjære Kollega,» begyndte den anden, og snart var de to
+     «Men kjære Kollega,» begyndte den anden, og snart var de to
   gejstlige Herrer dybt indviklet i en Diskussion om Statens Forhold til
   Kirken. Bjørnholt gik uden videre sin Vej – han skulde endnu indom en
   ti-tolv Steder for at fortælle om Holt og for at samle Nyt. Ogsaa
@@ -2521,8 +2539,6 @@ lastet ned fra
   at tvætte sig efter dette Møde.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      V.
@@ -2597,7 +2613,7 @@ lastet ned fra
   hvilketsomhelst andet.
     </p>
     <p>
-      Holt gik ned i en Smaabarnsskole for at høre, hvordan de der
+     Holt gik ned i en Smaabarnsskole for at høre, hvordan de der
   tog det. Han blev behagelig overrasket ved at finde, at de her lærte
   netop efter hans egen Methode. Men Resultatet var mærkelig
   forskjelligt. Ingen af disse Børn havde noget at indvende mod den
@@ -2745,7 +2761,7 @@ lastet ned fra
   og Lyden af skyllende Vand, hvergang Knut dyppede en ny Klud.
     </p>
     <p>
-      Lidt efter lidt ophørte Krampen. Blot nu og da gik der endnu
+     Lidt efter lidt ophørte Krampen. Blot nu og da gik der endnu
   en Trækning over Læberne, og det ene Øjenlaag løftede sig sagte og
   faldt atter i. Ansigtet var ligagtigt blegt med en svag blaa Skygge om
   Munden og Øjnene.
@@ -2759,7 +2775,7 @@ lastet ned fra
   medens Taarerne strømmede, talte hun til Barnet i de ømmeste Udtryk,
   bad det om ikke at forlade hende, lovede det
   Leger
-     <ref target="#ton14" xml:id="backn14">
+     <ref target="#NOR0041_ton14" xml:id="backn14">
       n14
      </ref>
      og mindede det om, hvor dejligt de havde havt det sammen – ganske som
@@ -2977,7 +2993,7 @@ lastet ned fra
      «Ja.»
     </p>
     <p>
-      Ordene faldt ikke haardt eller vredt paa nogen af Siderne. Men
+     Ordene faldt ikke haardt eller vredt paa nogen af Siderne. Men
   der var mellem hver Replik en Pause, der dog gav den hele Samtale
   noget dulgt stridbart. Vik saa en Stund paa hende med et mørkt,
   forskende Blik; derpaa gav han hende uden at sige et Ord Nøglen og
@@ -3055,7 +3071,7 @@ lastet ned fra
      Kathrine foldede Hænderne: «Ser du!»
     </p>
     <p>
-      «Men nu har jeg selv læst efter; det staar der ikke,
+     «Men nu har jeg selv læst efter; det staar der ikke,
   Kathrine.»
     </p>
     <p>
@@ -3228,7 +3244,7 @@ lastet ned fra
      «Jeg siger, det har smilt.»
     </p>
     <p>
-      En brummende Lyd fra den anden. Det betød: «Hvem?»
+     En brummende Lyd fra den anden. Det betød: «Hvem?»
     </p>
     <p>
      «Hvem?» føg den lille korpulente Mand op. «Det spørger
@@ -3342,7 +3358,7 @@ lastet ned fra
   Fiskefluer og Slugfiske i alle Kulører.
     </p>
     <p>
-      Han trykkede paa et Ringeapparat, og Konsulens «egen Tjener»
+     Han trykkede paa et Ringeapparat, og Konsulens «egen Tjener»
   viste sig. Strax efter bragte han Portvin og Cigarer. Kurt udviklede
   derpaa sin Ide, der vandt Bifald. Da denne Sag var uddrøftet, og da
   Knut begyndte at beundre Geværerne og Fiskefluerne, blev Konsulen
@@ -3458,8 +3474,6 @@ lastet ned fra
   lille Mand og tog sig en mægtig Slurk af sit Glas.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      VI.
@@ -3481,7 +3495,7 @@ lastet ned fra
   Toppen.
     </p>
     <p>
-      Solen fik Magt, og Taagen forsvandt. Søen rullede frem mere
+     Solen fik Magt, og Taagen forsvandt. Søen rullede frem mere
   blaa end nogensinde, Dalenes Grønninger viste sig vaade og friske, og
   de hvide Smaahuse rundt om paa alle Strande blinkede fornøjet med alle
   sine Vinduer over til hverandre. Overalt, paa Søen, Fjeldene, Husene
@@ -3514,9 +3528,9 @@ lastet ned fra
   Fædrelandssange og landlig Begejstring.
     </p>
     <p>
-      Knut var
+     Knut var
   sturen.
-     <ref target="#ton15" xml:id="backn15">
+     <ref target="#NOR0041_ton15" xml:id="backn15">
       n15
      </ref>
      Peter kunde ikke faa ham til at se det Skjønhedsskjær, i hvilket alle
@@ -3534,7 +3548,7 @@ lastet ned fra
   tillands og tilvands. Erindringer om Fodture, han havde foretaget som
   Student, vaktes hos Knut. Han mindedes ensomme Fjeldvand, øde
   Hejer,
-     <ref target="#ton16" xml:id="backn16">
+     <ref target="#NOR0041_ton16" xml:id="backn16">
       n16
      </ref>
      trange, stenfyldte Dale og saa hist og her i en Afkrog en Embedsgaard,
@@ -3552,7 +3566,7 @@ lastet ned fra
   purpurrød af Anstrengelse og Bevægelse.
     </p>
     <p>
-      Turisterne drev op og ned paa Dækket. Nogle Smaabørn legte
+     Turisterne drev op og ned paa Dækket. Nogle Smaabørn legte
   Gjemmespil og knaskede Bonbon; nogle Damer, der var kommet ombord ved
   et af Anløbsstederne med en Kurv med Blomster og en med Kirsebær,
   begyndte at spise de sidste og at tale om theologiske Kandidater og
@@ -3584,7 +3598,7 @@ lastet ned fra
   «Missionsbilleder». Han saa paa hende.
     </p>
     <p>
-      «Kan De virkelig holde ud at læse dette?»
+     «Kan De virkelig holde ud at læse dette?»
     </p>
     <p>
      Et Par uhyre forskræmte Øjne saa paa ham. Hun var paa Flugt ind i
@@ -3624,7 +3638,7 @@ lastet ned fra
      «Det er jo falske Guder.»
     </p>
     <p>
-      «Rigtig. Hvad har saa Troskab og Selvfornegtelse at
+     «Rigtig. Hvad har saa Troskab og Selvfornegtelse at
   betyde?»
     </p>
     <p>
@@ -3722,7 +3736,7 @@ lastet ned fra
      «Overtroisk.»
     </p>
     <p>
-      «Eller smukkere: fordi jeg er ude over min Drømmetid. Enhver
+     «Eller smukkere: fordi jeg er ude over min Drømmetid. Enhver
   har en saadan. Min var storstilet verdenshistorisk og saare
   underfuld.»
     </p>
@@ -3766,10 +3780,10 @@ lastet ned fra
      Paa Bryggen var fuldt af Mennesker og Heste. Bønder i gule
   Skindbuxer og med
   Sveper
-     <ref target="#ton17" xml:id="backn17">
+     <ref target="#NOR0041_ton17" xml:id="backn17">
       n17
      </ref>
-      i Hænderne stod, endnu før Skibet havde lagt til, midt iblandt
+     i Hænderne stod, endnu før Skibet havde lagt til, midt iblandt
   Passagererne og tilbød Skyds.
     </p>
     <p>
@@ -3790,7 +3804,7 @@ lastet ned fra
   fremmed Gods ud over Dækket for at finde hvad der tilhørte Kornelia.
   Han puffede og puffedes, var snart oppe iland for at hjælpe
   Drengen
-     <ref target="#ton18" xml:id="backn18">
+     <ref target="#NOR0041_ton18" xml:id="backn18">
       n18
      </ref>
      at læsse paa, snart igjen ombord for paany at mishandle de andre
@@ -3809,7 +3823,7 @@ lastet ned fra
   Bugtninger og Fald. Snart gjorde den en Afstikker ud af den rette
   Linie for at gjemme sig i et lunt
   Olderkrat
-     <ref target="#ton19" xml:id="backn19">
+     <ref target="#NOR0041_ton19" xml:id="backn19">
       n19
      </ref>
      eller for at drikke af Elven, hvad der gjorde den næsten ufarbar hver
@@ -3870,7 +3884,7 @@ lastet ned fra
      Peter sprang op.
     </p>
     <p>
-      «Det vidste jeg nok. Ha, ha, ha! – Men skal vi ikke gaa
+     «Det vidste jeg nok. Ha, ha, ha! – Men skal vi ikke gaa
   ud?»
     </p>
     <p>
@@ -3889,17 +3903,17 @@ lastet ned fra
     <p>
      Fra Bryggerne tog de en Tur ud paa Marken, hvor Hø i
   Saater
-     <ref target="#ton20" xml:id="backn20">
+     <ref target="#NOR0041_ton20" xml:id="backn20">
       n20
      </ref>
      og paa
   Hesjer
-     <ref target="#ton21" xml:id="backn21">
+     <ref target="#NOR0041_ton21" xml:id="backn21">
       n21
      </ref>
      udbredte en frisk, sommerlig Lugt. En blak Fjordhest gik i
   Tjor,
-     <ref target="#ton22" xml:id="backn22">
+     <ref target="#NOR0041_ton22" xml:id="backn22">
       n22
      </ref>
      længere borte en musegraa, som Peter ikke havde seet. Dens Dyder og
@@ -3950,7 +3964,7 @@ lastet ned fra
   han.
     </p>
     <p>
-      «At du er en snedig Forfører? Dit Asen! Gjør dig ikke noget
+     «At du er en snedig Forfører? Dit Asen! Gjør dig ikke noget
   forfængeligt Haab! Har du aldrig seet dig i Spejl? Tror du, at et
   Menneske med dit Ansigt vilde være istand til at skuffe det
   enfoldigste Barn?»
@@ -3981,8 +3995,6 @@ lastet ned fra
   ser du!»
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      VII.
@@ -4066,7 +4078,7 @@ lastet ned fra
   krøb ham koldt ned ad Ryggen, naar han nu bagefter tænkte derpaa.
     </p>
     <p>
-      Det var «Øren», den skidne Fattigkoloni dernede ved Stranden,
+     Det var «Øren», den skidne Fattigkoloni dernede ved Stranden,
   som var Skyld i det hele. Peter havde faaet ham til at besøge nogle
   syge dernede. Han havde været inde i Stuer og truffet Mennesker paa
   alle Stadier af Forfaldenhed og Smuds og havde i Hus efter Hus faaet
@@ -4155,7 +4167,7 @@ lastet ned fra
     <p>
      Klokken halv fem stod Brandts Vogn for Døren forspændt med de to
   lubne
-     <ref target="#ton23" xml:id="backn23">
+     <ref target="#NOR0041_ton23" xml:id="backn23">
       n23
      </ref>
      Fjordheste. Alt var overordentlig velstelt, Vognen spejlende blank,
@@ -4228,7 +4240,7 @@ lastet ned fra
   fremmede Lande.
     </p>
     <p>
-      Gjesterne begav sig lidt efter lidt ind og samledes i den
+     Gjesterne begav sig lidt efter lidt ind og samledes i den
   store Sal, der stødte op til Spiseværelset, hvis Fløjdøre stod aabne.
   Man saa Valpladsen for sig. De store dækkede Borde skinnede i sin
   uberørte Uskyld. Blomster i store Vaser duftede; det blinkede i en
@@ -4282,13 +4294,13 @@ lastet ned fra
   dæmpet Tilfredshed.
     </p>
     <p>
-      Tjenere, der ikke var ganske fri for en svag Lugt af Stald,
+     Tjenere, der ikke var ganske fri for en svag Lugt af Stald,
   kom ind med fyldte Bakker, og Slaget begyndte.
     </p>
     <p>
      Hummersuppe med Ispunsch. – Bjørnholt var rolig. Han
   likte
-     <ref target="#ton24" xml:id="backn24">
+     <ref target="#NOR0041_ton24" xml:id="backn24">
       n24
      </ref>
      ikke Punsch. Samtalen forstummede. Man spiste. Verten drak et Glas for
@@ -4362,7 +4374,7 @@ lastet ned fra
   omsider bedre, Anfaldet var overstaaet for dennegang – og nu steg der
   i ham et pludseligt
   Opkom
-     <ref target="#ton25" xml:id="backn25">
+     <ref target="#NOR0041_ton25" xml:id="backn25">
       n25
      </ref>
      af Forbandelser over alle disse Flasker, disse Retter, disse Middage
@@ -4423,7 +4435,7 @@ lastet ned fra
      Fonn stod tynd og alvorlig i en Krog og nippede jomfrueligt til en
   Cigaret. Vildhagen
   labbede
-     <ref target="#ton26" xml:id="backn26">
+     <ref target="#NOR0041_ton26" xml:id="backn26">
       n26
      </ref>
      om paa sine brede Elefantfødder og var smaaøjet og gemytlig – han saa
@@ -4431,7 +4443,7 @@ lastet ned fra
   følte Trang til at sætte i Cirkulation.
     </p>
     <p>
-      Fonn nærmede sig Knut og begyndte at tale om «moderne Ideer».
+     Fonn nærmede sig Knut og begyndte at tale om «moderne Ideer».
   Han var forfærdet over, hvorledes disse Tanker sneg sig slangeglat ind
   i Sindene – de var overalt, i vor Literatur, vor Kunst, vor Musik,
   vore Skoler, vore Samtaler. Man kunde endog lytte disse Tankers
@@ -4520,7 +4532,7 @@ lastet ned fra
   Vandretten! Eller da han stjal Møllevandet fra en anden Broder i
   Herren. Eller da hans Læregut holdt
   paa
-     <ref target="#ton27" xml:id="backn27">
+     <ref target="#NOR0041_ton27" xml:id="backn27">
       n27
      </ref>
      at dø af Vanrøgt! Jeg kan finde mig i, at den Røver staar frem paa de
@@ -4538,7 +4550,7 @@ lastet ned fra
   over paa Siden – snart snorkede han sagte. –
     </p>
     <p>
-      Knut forlod Lysthuset og gik op paa Verandaen, hvor de fleste
+     Knut forlod Lysthuset og gik op paa Verandaen, hvor de fleste
   ældre Herrer havde slaaet sig ned og dannet smaa Grupper. I en af
   disse talte man om Politik som om et Slags Utøj, med hvilket en Del af
   Samfundets Medlemmer var befængt, i en anden om Arbejdsnøden. Strand
@@ -4563,7 +4575,7 @@ lastet ned fra
   fortæller, at De har været med i, hvad han kalder Komplottet.»
     </p>
     <p>
-      De satte sig paa Bænken. Paa Plænen begyndte man at lege.
+     De satte sig paa Bænken. Paa Plænen begyndte man at lege.
   Hanna og Peter var Sjælen i Legen. Knut fulgte dem med Øjnene. Der var
   iaften noget særdeles ved Hanna; der laa en varm Glans over hele
   hendes Skikkelse, et Skjær af Livslyst og Lykke. Det var, som om der
@@ -4599,7 +4611,7 @@ lastet ned fra
      «Nej, men vi lærer jo –»
     </p>
     <p>
-      «Behøver det derfor at være sandt?»
+     «Behøver det derfor at være sandt?»
     </p>
     <p>
      «Nej kanske. Jeg har ialfald stundom tænkt det.» – –
@@ -4703,7 +4715,7 @@ lastet ned fra
   ikke tiltroet hende.
     </p>
     <p>
-      Han var saa betagen, at han slet ikke tænkte paa at svare. De
+     Han var saa betagen, at han slet ikke tænkte paa at svare. De
   unge havde ophørt at lege og spredte sig i Parken. Hanna havde faaet
   Øje paa Kornelia og kom løbende i fuld Fart hen til hende, tog hende
   om Livet og førte hende med sig ned over en af Gangene.
@@ -4741,7 +4753,7 @@ lastet ned fra
   Hoverne i Vejen som Klør. De pustede ikke, naar de var komne op, men
   satte strax afsted i fuld Fart for slappe Tøjler, trillende som
   Nøster
-     <ref target="#ton28" xml:id="backn28">
+     <ref target="#NOR0041_ton28" xml:id="backn28">
       n28
      </ref>
      henover Vejen.
@@ -4797,12 +4809,12 @@ lastet ned fra
   tror, jeg vil ud og gaa – eller hør, du: lad os sejle!»
     </p>
     <p>
-      «Jeg er med!» raabte Knut og tog sin Hat.
+     «Jeg er med!» raabte Knut og tog sin Hat.
     </p>
     <p>
      De gik ned til
   Nøstet
-     <ref target="#ton29" xml:id="backn29">
+     <ref target="#NOR0041_ton29" xml:id="backn29">
       n29
      </ref>
      gjennem det dugvaade Græs, i hvilket deres Fodtrin dannede en mat
@@ -4930,7 +4942,7 @@ lastet ned fra
      «Men Knut –! Rejse –! Inat! Og uden at sige Farvel!»
     </p>
     <p>
-      «Ja; det maa saa være. Hils Husets Folk fra mig og tak dem.
+     «Ja; det maa saa være. Hils Husets Folk fra mig og tak dem.
   Jeg har havt det godt, uendelig godt her.»
     </p>
     <p>
@@ -4951,8 +4963,6 @@ lastet ned fra
   nu havde forjaget ham.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      VIII.
@@ -5082,7 +5092,7 @@ lastet ned fra
   Stolryggen.
     </p>
     <p>
-      Knut sprang op. «Hvad fejler dig, Far? Er du syg?»
+     Knut sprang op. «Hvad fejler dig, Far? Er du syg?»
     </p>
     <p>
      «Jeg – jeg – lider undertiden af Svimmelhed. – Jeg taaler ikke
@@ -5120,7 +5130,7 @@ lastet ned fra
   Helvede med det hele!»
     </p>
     <p>
-      «Nej, Far, det behøves ikke. Jeg kommer netop for at sige
+     «Nej, Far, det behøves ikke. Jeg kommer netop for at sige
   dig, at jeg bliver.»
     </p>
     <p>
@@ -5164,7 +5174,7 @@ lastet ned fra
      «Jeg kunde jo ogsaa yde dine Arbejdere Lægehjælp.»
     </p>
     <p>
-      Holt saa med et næsten vemodigt Blik paa Sønnen. Skulde han
+     Holt saa med et næsten vemodigt Blik paa Sønnen. Skulde han
   alligevel opgive sin Kamp og leve i Fred og Ro med sin Søn. Han syntes
   i dette Øjeblik, at alt, hvad han havde udrettet i alle disse Aar,
   kunde synke sporløst sammen, uden at det skulde koste ham et Suk, naar
@@ -5200,7 +5210,7 @@ lastet ned fra
   ligeoverfor en fremmed. –
     </p>
     <p>
-      Knut sad igjen oppe paa sit eget Kammer. Nu var det altsaa
+     Knut sad igjen oppe paa sit eget Kammer. Nu var det altsaa
   besluttet: han vilde blive og vilde maaske igjen tage Del i Dagens
   Kampe. Nu, da det var afgjort, følte han en stille Glæde derved. Han
   var i en forunderlig blød Stemning. Noget varmt, ømt rørte sig dybt i
@@ -5304,8 +5314,6 @@ lastet ned fra
   det vilde.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      IX.
@@ -5420,7 +5428,7 @@ lastet ned fra
   angriber Samfundets helligste Interesser.»
     </p>
     <p>
-      «Hvad siger De om den?» spurgte Bjørnholt og slog Nøglen i
+     «Hvad siger De om den?» spurgte Bjørnholt og slog Nøglen i
   Pulten.
     </p>
     <p>
@@ -5522,7 +5530,7 @@ lastet ned fra
      «Personerne –?»
     </p>
     <p>
-      «Naturligvis en Embedsmand,» svarede Bjørnholt.
+     «Naturligvis en Embedsmand,» svarede Bjørnholt.
     </p>
     <p>
      De to vexlede atter et betegnende Blik. Bjørnholt blev urolig.
@@ -5607,7 +5615,7 @@ lastet ned fra
   Retfærdigheds Skyld?
     </p>
     <p>
-      Kornelia havde levet meget stille efter sin Hjemkomst. Hun
+     Kornelia havde levet meget stille efter sin Hjemkomst. Hun
   sad for det meste oppe paa sit lille Kammer, med den blaamalede Seng,
   det hvide Sprede, Bordet med Vandflasken og Andagtsbogen og den lille
   Boghylde, hvori der blot fandtes Bøger af et stilfærdigt, opbyggeligt
@@ -5684,7 +5692,7 @@ lastet ned fra
   sagde hun.
     </p>
     <p>
-      Efter at de havde beseet alle Husets Rum fra Klædeloft til
+     Efter at de havde beseet alle Husets Rum fra Klædeloft til
   Kjøkken og det hele Indbo lige til Gryderne, og efterat Kornelia havde
   udspurgt sin Veninde om deres daglige Levevis, om hvad Husholdningen
   kostede og hvor hun gjorde sine Indkjøb, vendte de tilbage til Stuen.
@@ -5710,7 +5718,7 @@ lastet ned fra
   Alverden sidder vi her og piner os begge og siger ikke et Ord!»
     </p>
     <p>
-      Og saa blev der talt. Med Armen om hinandens Liv gik de op og
+     Og saa blev der talt. Med Armen om hinandens Liv gik de op og
   ned af Gulvet. Hanna exploderede paa én Gang med alt, hvad hun havde
   paa Hjerte. Det var ikke sandt, ikke et Ord var sandt af alt, hvad man
   sagde om Knut. Hun var næsten grædefærdig, da hun fortalte, hvorledes
@@ -5837,7 +5845,7 @@ lastet ned fra
      «Nu –?»
     </p>
     <p>
-      «Sidst han var hjemme, var han veltalende paa en ganske anden
+     «Sidst han var hjemme, var han veltalende paa en ganske anden
   Maade. Hans Taler var Regimenter, der under fuld Musik og flyvende
   Faner stormede Fiendens Skanser. Det var dejligt, saa varmt, saa
   begejstret.»
@@ -5995,7 +6003,7 @@ lastet ned fra
   forsikrer jeg Dem, ren Kommunist.»
     </p>
     <p>
-      Jomfru Viks smaa dumme Øjne stod stive i hendes Hoved.
+     Jomfru Viks smaa dumme Øjne stod stive i hendes Hoved.
     </p>
     <p>
      «Men hvad er det egentlig Slags Folk?»
@@ -6051,7 +6059,7 @@ lastet ned fra
   kan være bleven saa fordærvet?» spurgte Jomfru Vik.
     </p>
     <p>
-      «
+     «
      Han
      ! – – Ved De hvad
   Slags Person denne Holt egentlig er? – Og Faderen? Kjender De
@@ -6136,7 +6144,7 @@ lastet ned fra
   mod Lampen, saa fra Siden hen paa Datteren og spurgte lavt:
     </p>
     <p>
-      «Er det sandt?» Stemmen, hele Manden dirrede.
+     «Er det sandt?» Stemmen, hele Manden dirrede.
     </p>
     <p>
      «Ja.»
@@ -6216,7 +6224,7 @@ lastet ned fra
   ubevægelige Guds Dom.
     </p>
     <p>
-      «Jeg
+     «Jeg
      er
      forlovet med ham,
   Far,» svarede hun – dennegang med en næsten umærkelig Bæven i sin
@@ -6349,7 +6357,7 @@ lastet ned fra
      «Hvad er der i Vejen, Kornelia? Jeg saa, du var saa bleg –.»
     </p>
     <p>
-      Kornelia kunde paa længe ikke svare. Hvergang hun forsøgte,
+     Kornelia kunde paa længe ikke svare. Hvergang hun forsøgte,
   begyndte hun paany at græde.
     </p>
     <p>
@@ -6390,7 +6398,7 @@ lastet ned fra
      «Sid da. Jeg maa ud i Kjøkkenet igjen.»
     </p>
     <p>
-      Hun gav sig atter ifærd med Aftensmaden. Spisesedlen blev i
+     Hun gav sig atter ifærd med Aftensmaden. Spisesedlen blev i
   en Fart omkalfatret. Nu
      maatte
      det
@@ -6446,7 +6454,7 @@ lastet ned fra
      «Aa, det er vel ikke saa farligt –». Han nærmede sig Døren.
     </p>
     <p>
-      «Peter, hører du!»
+     «Peter, hører du!»
     </p>
     <p>
      «Jeg er saa rasende nysgjerrig.»
@@ -6552,8 +6560,6 @@ lastet ned fra
   aldrig i mit Liv været saa sulten!»
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      X.
@@ -6602,7 +6608,7 @@ lastet ned fra
   hvinte, som om de led utaalelige Kvaler. Den jog uden  Modstand
   over
   Svabergerne
-     <ref target="#ton30" xml:id="backn30">
+     <ref target="#NOR0041_ton30" xml:id="backn30">
       n30
      </ref>
      og borede sig ind under det tynde Jordlag nedenfor disse, som om den
@@ -6647,7 +6653,7 @@ lastet ned fra
   fortabt.»
     </p>
     <p>
-      Han vuggede medynksfuldt paa Hovedet.
+     Han vuggede medynksfuldt paa Hovedet.
     </p>
     <p>
      «Tomme Ord, tomme Ord. Sandheden er blot én, og den er aabenbaret
@@ -6794,7 +6800,7 @@ lastet ned fra
   forkynde Smertens Evangelium for Menneskerne. –
     </p>
     <p>
-      Paa samme Tid som Fonn vandrede alene om oppe paa Højden,
+     Paa samme Tid som Fonn vandrede alene om oppe paa Højden,
   altid søgende de for Vejret mest udsatte Punkter, drev en anden
   skuffet Mand om nede i Parken, men i Ly for Vinden. Det var Bjørnholt.
   Knuts Forlovelse med Kornelia Vik havde været et grusomt Slag for ham.
@@ -6937,7 +6943,7 @@ lastet ned fra
   Sag; hun er jo af Eders.»
     </p>
     <p>
-      «Vi skal gjøre vort – men vi tør ikke stole paa, at det vil
+     «Vi skal gjøre vort – men vi tør ikke stole paa, at det vil
   lykkes.»
     </p>
     <p>
@@ -7003,7 +7009,7 @@ lastet ned fra
      Bjørnholt stansede og greb den anden i Frakken.
     </p>
     <p>
-      «Hvad er det, De siger, Mand? Arne Holt? Spøger det for
+     «Hvad er det, De siger, Mand? Arne Holt? Spøger det for
      ham
      ?»
     </p>
@@ -7058,7 +7064,7 @@ lastet ned fra
      «Det er en anden Sag. Alt for vore dyrebareste Interesser!»
     </p>
     <p>
-      «De er en Klippe, Vildhagen, en Klippe. – De talte om
+     «De er en Klippe, Vildhagen, en Klippe. – De talte om
   Skibsreder Holt?»
     </p>
     <p>
@@ -7169,7 +7175,7 @@ lastet ned fra
   til at tænke paa en hungrig, mordlysten Pøbelhob.
     </p>
     <p>
-      Og over den oprørte Sø jager Hundreder af Søfugle og opfører
+     Og over den oprørte Sø jager Hundreder af Søfugle og opfører
   en ren Helvedeskoncert. Det er, som om de pludselig har opdaget,
   hvilken forfærdelig Gaade Livet er, og som om de med det samme er
   blevne grebne af en vanvittig Rædsel over sin egen Tilværelse. – –
@@ -7213,7 +7219,7 @@ lastet ned fra
   af sig, somme Tider sidder hun nu saadan hen.»
     </p>
     <p>
-      «Hun vil ikke rejse?»
+     «Hun vil ikke rejse?»
     </p>
     <p>
      «Nej.»
@@ -7275,7 +7281,7 @@ lastet ned fra
      «Er Vik hjemme?»
     </p>
     <p>
-      «Ja– a,» svarede Pigen trevent. Hun syntes at lide af den
+     «Ja– a,» svarede Pigen trevent. Hun syntes at lide af den
   almindelige Søndagsmelankoli. «Han sidder inde paa Kontoret.»
     </p>
     <p>
@@ -7308,7 +7314,7 @@ lastet ned fra
   sig og saa stivt paa sin Modstander.
     </p>
     <p>
-      «Godaften Vik,» hilste den anden.
+     «Godaften Vik,» hilste den anden.
     </p>
     <p>
      «– Aften.»
@@ -7379,7 +7385,7 @@ lastet ned fra
      Udveje.»
     </p>
     <p>
-      «Det vil sige, du vilde ikke gaa til
+     «Det vil sige, du vilde ikke gaa til
      mig
      om Hjælp.»
     </p>
@@ -7438,7 +7444,7 @@ lastet ned fra
      «For Knuts.»
     </p>
     <p>
-      Holt bævede i Stemmen ved disse Ord og hostede flere
+     Holt bævede i Stemmen ved disse Ord og hostede flere
   Gange.
     </p>
     <p>
@@ -7476,7 +7482,7 @@ lastet ned fra
      Vik rejste sig.
     </p>
     <p>
-      «Hvordan er det med dig, Holt? Du var dog engang et godt
+     «Hvordan er det med dig, Holt? Du var dog engang et godt
   Hoved. Har det taget paa din Forstand?
      Jeg
      skulde hjælpe din Søn frem paa
@@ -7671,7 +7677,7 @@ lastet ned fra
     <p>
      «Lidt
   fort,»
-     <ref target="#ton31" xml:id="backn31">
+     <ref target="#NOR0041_ton31" xml:id="backn31">
       n31
      </ref>
      sagde Madam Tvets Ørneblik, og de to store Hugtænder gjentog: «Vi er
@@ -7682,7 +7688,7 @@ lastet ned fra
   og ventede i Taushed paa, hvad der videre vilde komme.
     </p>
     <p>
-      Vildhagen flyttede sig uroligt paa Stolen, svedede, blev
+     Vildhagen flyttede sig uroligt paa Stolen, svedede, blev
   rødere og sødere og fortsatte endelig:
     </p>
     <p>
@@ -7721,7 +7727,7 @@ lastet ned fra
   maatte ikke, det skulde ikke ske.
     </p>
     <p>
-      «Hvordan har Deres Mand det nu, Madam Tvet?» spurgte hun, som
+     «Hvordan har Deres Mand det nu, Madam Tvet?» spurgte hun, som
   om det var det uskyldigste Spørgsmaal af Verden.
     </p>
     <p>
@@ -7802,8 +7808,6 @@ lastet ned fra
   udbrød hun: «Men Gud, at du kunde gjøre det, Kornelia!»
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      XI.
@@ -7853,7 +7857,7 @@ lastet ned fra
   Havens Herligheder i Nærheden, tage paa dem, undersøge dem, udfinde
   Hemmeligheden ved Bænkene og
   Grinderne,
-     <ref target="#ton32" xml:id="backn32">
+     <ref target="#NOR0041_ton32" xml:id="backn32">
       n32
      </ref>
      – de kunde endog ustraffet træde ned, omstyrte, plyndre og gjøre sig
@@ -7989,7 +7993,7 @@ lastet ned fra
   efter Ord, udbrød han:
     </p>
     <p>
-      «Rejs, Knut, rejs! Det var afsindigt af mig at overtale dig
+     «Rejs, Knut, rejs! Det var afsindigt af mig at overtale dig
   til at blive. Rejs – idag – imorgen – med første Dampskib!»
     </p>
     <p>
@@ -8067,7 +8071,7 @@ lastet ned fra
   hans Vinduer ind?»
     </p>
     <p>
-      «Han har bedraget os!» skreg nogle af de modigste. «Det staar
+     «Han har bedraget os!» skreg nogle af de modigste. «Det staar
   i Avisen! Han vil ruinere os, staar der.»
     </p>
     <p>
@@ -8176,7 +8180,7 @@ lastet ned fra
   kjæmpet for – det gjaldt Sønnens Agtelse og Kjærlighed.
     </p>
     <p>
-      Vandrende ilsomt frem og tilbage i det lange Værelse, hvor
+     Vandrende ilsomt frem og tilbage i det lange Værelse, hvor
   Maanelyset kom listende ind paa sin stille bekymrede Maade, begyndte
   han at holde Revue over sit Liv.
      Saaledes
@@ -8225,13 +8229,13 @@ lastet ned fra
   Sideværelset.
     </p>
     <p>
-      Holt slæbte sig derind. Følelsen af, at alle Lemmer visnede,
+     Holt slæbte sig derind. Følelsen af, at alle Lemmer visnede,
   var der igjen; der laa Taage for hans Øjne.
     </p>
     <p>
      Knut holdt
   paa
-     <ref target="#ton33" xml:id="backn33">
+     <ref target="#NOR0041_ton33" xml:id="backn33">
       n33
      </ref>
      at tænde Lampen. Den maatte enten være i Ustand, eller han var usikker
@@ -8368,7 +8372,7 @@ lastet ned fra
   Kathrine.
     </p>
     <p>
-      «Det er mig, Kathrine, det er mig, som har gjort det.»
+     «Det er mig, Kathrine, det er mig, som har gjort det.»
     </p>
     <p>
      Kathrine saa forfærdet op.
@@ -8531,7 +8535,7 @@ lastet ned fra
      «Hvad du nu har fortalt, har jeg aldrig anet.»
     </p>
     <p>
-      Holt syntes at krympe sammen under Sønnens Haand; der var
+     Holt syntes at krympe sammen under Sønnens Haand; der var
   ikke en Trevle igjen af den skarpe, stridbare Mand. Ydmyg og angst
   stod han ligeoverfor Knut som for sin Dommer.
     </p>
@@ -8710,7 +8714,7 @@ lastet ned fra
      Holt stirrede, bukkede, stirrede og bukkede.
     </p>
     <p>
-      «Jo–o–jo – naturligvis – vær saa god – Gudbevares –.»
+     «Jo–o–jo – naturligvis – vær saa god – Gudbevares –.»
     </p>
     <p>
      Ind traadte han, der aldrig talte sit Modersmaal, «Konsulen», og
@@ -8748,7 +8752,7 @@ lastet ned fra
   dig af deres Højmodighed.»
     </p>
     <p>
-      «Forudsætningen er selvfølgelig, at min Status er, som af mig
+     «Forudsætningen er selvfølgelig, at min Status er, som af mig
   opgivet. Forøvrigt – jeg har meddelt dem, at du er min Kompagnon. Skal
   jeg kalde dem herind?»
     </p>
@@ -8944,7 +8948,7 @@ lastet ned fra
      «Godt.»
     </p>
     <p>
-      Manden gik. Holt sank ned i sin Lænestol. Det Skjær af Ungdom
+     Manden gik. Holt sank ned i sin Lænestol. Det Skjær af Ungdom
   og Glæde, som der nylig havde været over hans Ansigt, var igjen
   forsvundet.
     </p>
@@ -8952,8 +8956,6 @@ lastet ned fra
      Han var pludselig bleven mindet om en uafgjort Post.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      XII.
@@ -9128,7 +9130,7 @@ lastet ned fra
   ham efter det andet.
     </p>
     <p>
-      Den fremmede Kvinde gik op og ned og gestikulerede heftigt,
+     Den fremmede Kvinde gik op og ned og gestikulerede heftigt,
   medens hun talte. Det var en undersætsig, fyldig og mandig-energisk
   Skikkelse. Hun havde en brunlig Hud, et stivt, begsort Haar og mørke
   Dun paa Overlæben. Hun var klædt i en kort engelsk Rejsedragt, Stoffet
@@ -9211,7 +9213,7 @@ lastet ned fra
      Kathrine kom tilbage, og Holt sneg sig ned i Portrummet. Porten
   stod paa vidt Gab; en kold
   Sno
-     <ref target="#ton34" xml:id="backn34">
+     <ref target="#NOR0041_ton34" xml:id="backn34">
       n34
      </ref>
      strøg ind. Han ventede dernede, indtil alt var bleven stille ovenpaa.
@@ -9407,7 +9409,7 @@ lastet ned fra
   Peter.»
     </p>
     <p>
-      «Kjære Ven, hvad er der hændt?»
+     «Kjære Ven, hvad er der hændt?»
     </p>
     <p>
      Knut fortalte. Den anden sad stum og forfærdet, da han havde endt.
@@ -9629,7 +9631,7 @@ lastet ned fra
   sidste Gang,» sagde hun ligesom undskyldende for sig selv.
     </p>
     <p>
-      Han tog hende i sine Arme, som om han aldrig vilde slippe
+     Han tog hende i sine Arme, som om han aldrig vilde slippe
   hende mere. Han kyssede hende atter og atter og lagde hendes
   taarevaade Kind til sin. «Du er alt, alt, alt,» hviskede han.
     </p>
@@ -9653,15 +9655,13 @@ lastet ned fra
      «Kornelia», hviskede hun, «bliv hos mig.» Saa lagde hun Armen om
   Veninden og trak hende med sig ind i Soveværelset. Hun satte sig,
   Kornelia knælede ned foran hende og lagde Hovedet i hendes Fang.
-     <ref target="#ton35" xml:id="backn35">
+     <ref target="#NOR0041_ton35" xml:id="backn35">
       n35
      </ref>
      De
   var endnu derinde, da Knut forlod Huset.
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      XIII.
@@ -9699,7 +9699,7 @@ lastet ned fra
   eneste gulgraat Ælte. Hele den lille Kystby saa, der den laa midt inde
   i det aldrig trætte Sneslud, ligesaa melankolsk ud som de forfrosne
   Kraaker,
-     <ref target="#ton36" xml:id="backn36">
+     <ref target="#NOR0041_ton36" xml:id="backn36">
       n36
      </ref>
      der sad paa Træerne og trak Hovederne til sig.
@@ -9751,10 +9751,10 @@ lastet ned fra
   Pram, Fløtmændene, der havde bragt Rejsende ombord, lagde fra. Paa
   Dækket var vaadt og glat, Matroser i
   Skindhyre
-     <ref target="#ton37" xml:id="backn37">
+     <ref target="#NOR0041_ton37" xml:id="backn37">
       n37
      </ref>
-      og store Støvler stuvede de sidste Kasser ned i Rummet eller
+     og store Støvler stuvede de sidste Kasser ned i Rummet eller
   trillede de sidste Tønder op paa Overdækket, hvor de surredes fast.
   Fiskere og andre Dækspassagerer skubbede sig frem og tilbage i den
   snevre, hede Gang paa begge Sider af Maskinrummet, en fedtet Opvarter
@@ -9783,7 +9783,7 @@ lastet ned fra
      «Ja –,» svarede den anden og hostede for at faa Stemmen klar.
     </p>
     <p>
-      Det peb tredje Gang.
+     Det peb tredje Gang.
     </p>
     <p>
      Alle tre gjorde dennegang en Bevægelse, som om de samtidig var
@@ -9826,7 +9826,7 @@ lastet ned fra
   Hule – og –»
     </p>
     <p>
-      Redaktør Højsen gik netop forbi. Han kom over Gaden hen til
+     Redaktør Højsen gik netop forbi. Han kom over Gaden hen til
   de to og løftede paa Hatten.
     </p>
     <p>
@@ -9847,8 +9847,6 @@ lastet ned fra
      «Ja,» svarede Peter og gik videre. – – –
     </p>
    </div>
-   
-   
    <div type="chapter">
     <head>
      XIV.
@@ -9869,7 +9867,7 @@ lastet ned fra
   Skare bodfærdige, der af og til samledes i Viks Hus. – –
     </p>
     <p>
-      Gamle Holt laa syg og ventede Døden. Der var bleven
+     Gamle Holt laa syg og ventede Døden. Der var bleven
   telegraferet til Sønnen, som var bosat i Lissabon og som han ikke
   havde seet i alle disse Aar. Telegrammet fandt ham imidlertid ikke
   hjemme; han var paa en længere Rejse, hed det. Hver Dag blev der
@@ -9974,7 +9972,7 @@ lastet ned fra
      Fonn gik. Da Smerten gav sig noget, raabte Holt:
     </p>
     <p>
-      «Læs igjen, Kathrine, læs! Og sig til Knut, naar han kommer:
+     «Læs igjen, Kathrine, læs! Og sig til Knut, naar han kommer:
   Han døde som en ærlig Mand.»
     </p>
     <p>
@@ -10087,7 +10085,7 @@ lastet ned fra
      «Ja – –.»
     </p>
     <p>
-      Der opstod en Pause. Den gamle Hugaf følte sig forlegen
+     Der opstod en Pause. Den gamle Hugaf følte sig forlegen
   ligeoverfor den unge Pige. Han kjendte hende godt fra gamle Dage. Han
   havde engang gaaet og betragtet hende med Misundelse – han misundte
   Vik hans Datter. Hun havde jo netop det, som Holt savnede, dette, som
@@ -10255,7 +10253,7 @@ lastet ned fra
      Vennerne havde endnu ikke vexlet et Ord.
     </p>
     <p>
-      «Kommer du endelig,» sagde Peter.
+     «Kommer du endelig,» sagde Peter.
     </p>
     <p>
      «For at følge hende til Graven.»
@@ -10303,7 +10301,7 @@ lastet ned fra
      Fonn rystede paa Hovedet.
     </p>
     <p>
-      «Hun døde uden Ord og Sakrament. Og hun var dog engang et
+     «Hun døde uden Ord og Sakrament. Og hun var dog engang et
   Guds Barn. Jeg var vissere paa hende end paa mig selv. Men naar jeg
   idag maa sige til mig selv, hun døde ikke den Kristnes Død, da er du
   Skyld deri, Knut Holt. Betænk det, ydmyg dig, forsag og tro.»
@@ -10385,324 +10383,214 @@ lastet ned fra
     </p>
    </div>
   </body>
-   <back>   <p>
+  <back>
+   <p>
     Noter:
    </p>
-    <div type="notes">
-
-  
-    <note target="#backn1" xml:id="ton1">
+   <div type="notes">
+    <note target="#backn1" xml:id="NOR0041_ton1">
      n1.
     Forfatternote:
     Vær, Fiskeplads.
     </note>
-    
-   
-       <note target="#backn2" xml:id="ton2">
+    <note target="#backn2" xml:id="NOR0041_ton2">
      n2.
     Forfatternote:
     Stenhelle,
 Stenflise.
     </note>
-    
-   
-   
-    <note target="#backn3" xml:id="ton3">
+    <note target="#backn3" xml:id="NOR0041_ton3">
      n3.
     Forfatternote:
     Bustet,
 børsteagtig.
     </note>
-    
-   
-   
-    <note target="#backn4" xml:id="ton4">
+    <note target="#backn4" xml:id="NOR0041_ton4">
      n4.
     Forfatternote:
     Fløtmand,
 Færgemand.
     </note>
-    
-   
-   
-    <note target="#backn5" xml:id="ton5">
+    <note target="#backn5" xml:id="NOR0041_ton5">
      n5.
     Forfatternote:
     Glytte, skotte.
     </note>
-    
-   
-   
-    <note target="#backn6" xml:id="ton6">
+    <note target="#backn6" xml:id="NOR0041_ton6">
      n6.
     Forfatternote:
     Almenning, aaben
 Plads.
     </note>
-    
-   
-   
-    <note target="#backn7" xml:id="ton7">
+    <note target="#backn7" xml:id="NOR0041_ton7">
      n7.
     Forfatternote:
     Kremte, rømme sig.
     </note>
-    
-   
-   
-    <note target="#backn8" xml:id="ton8">
+    <note target="#backn8" xml:id="NOR0041_ton8">
      n8.
     Forfatternote:
     Kram, klam.
     </note>
-    
-   
-   
-    <note target="#backn9" xml:id="ton9">
+    <note target="#backn9" xml:id="NOR0041_ton9">
      n9.
     Forfatternote:
     Bukkerag,
 Bukkehaar.
     </note>
-    
-   
-   
-    <note target="#backn10" xml:id="ton10">
+    <note target="#backn10" xml:id="NOR0041_ton10">
      n10.
     Forfatternote:
     Sildesyner, Tegn paa
 Sildens Ankomst.
     </note>
-    
-   
-   
-    <note target="#backn11" xml:id="ton11">
+    <note target="#backn11" xml:id="NOR0041_ton11">
      n11.
     Forfatternote:
     Snadde, kort Pibe.
     </note>
-    
-   
-   
-    <note target="#backn12" xml:id="ton12">
+    <note target="#backn12" xml:id="NOR0041_ton12">
      n12.
     Forfatternote:
     Løvspræt,
 Løvspring
     </note>
-    
-   
-   
-    <note target="#backn13" xml:id="ton13">
+    <note target="#backn13" xml:id="NOR0041_ton13">
      n13.
     Forfatternote:
     Havegrind,
 Haveled.
     </note>
-    
-   
-   
-    <note target="#backn14" xml:id="ton14">
+    <note target="#backn14" xml:id="NOR0041_ton14">
      n14.
     Forfatternote:
     Leger, Legetøj.
     </note>
-    
-   
-   
-    <note target="#backn15" xml:id="ton15">
+    <note target="#backn15" xml:id="NOR0041_ton15">
      n15.
     Forfatternote:
     Sturen, i slet Humør,
 taus
     </note>
-    
-   
-   
-    <note target="#backn16" xml:id="ton16">
+    <note target="#backn16" xml:id="NOR0041_ton16">
      n16.
     Forfatternote:
     Hej, Fjeldslette.
     </note>
-    
-   
-   
-    <note target="#backn17" xml:id="ton17">
+    <note target="#backn17" xml:id="NOR0041_ton17">
      n17.
     Forfatternote:
     Svepe, Svøbe.
     </note>
-    
-   
-   
-    <note target="#backn18" xml:id="ton18">
+    <note target="#backn18" xml:id="NOR0041_ton18">
      n18.
     Forfatternote:
     Dreng, Karl.
     </note>
-    
-   
-   
-    <note target="#backn19" xml:id="ton19">
+    <note target="#backn19" xml:id="NOR0041_ton19">
      n19.
     Forfatternote:
     Olderkrat,
 Ellekrat.
     </note>
-    
-   
-   
-    <note target="#backn20" xml:id="ton20">
+    <note target="#backn20" xml:id="NOR0041_ton20">
      n20.
     Forfatternote:
     Saate, liden Stak
 eller Hob.
     </note>
-    
-   
-   
-    <note target="#backn21" xml:id="ton21">
+    <note target="#backn21" xml:id="NOR0041_ton21">
      n21.
     Forfatternote:
     Hesje, et Slags
 Stillads til at tørre Hø paa.
     </note>
-    
-   
-   
-    <note target="#backn22" xml:id="ton22">
+    <note target="#backn22" xml:id="NOR0041_ton22">
      n22.
     Forfatternote:
     Tjor, Tøir.
     </note>
-    
-   
-   
-    <note target="#backn23" xml:id="ton23">
+    <note target="#backn23" xml:id="NOR0041_ton23">
      n23.
     Forfatternote:
     Lubben, trind.
     </note>
-    
-   
-   
-    <note target="#backn24" xml:id="ton24">
+    <note target="#backn24" xml:id="NOR0041_ton24">
      n24.
     Forfatternote:
     Like, synes om.
     </note>
-    
-   
-   
-    <note target="#backn25" xml:id="ton25">
+    <note target="#backn25" xml:id="NOR0041_ton25">
      n25.
     Forfatternote:
     Opkom, Væld.
     </note>
-    
-   
-   
-    <note target="#backn26" xml:id="ton26">
+    <note target="#backn26" xml:id="NOR0041_ton26">
      n26.
     Forfatternote:
     Labbe, sjokke.
     </note>
-    
-   
-   
-    <note target="#backn27" xml:id="ton27">
+    <note target="#backn27" xml:id="NOR0041_ton27">
      n27 .
     Forfatternote:
     holde paa, være ifærd
 med.
     </note>
-   
-   
-   
-    <note target="#backn28" xml:id="ton28">
+    <note target="#backn28" xml:id="NOR0041_ton28">
      n28.
     Forfatternote:
     Nøste, Nøgle.
     </note>
-    
-   
-   
-    <note target="#backn29" xml:id="ton29">
+    <note target="#backn29" xml:id="NOR0041_ton29">
      n29.
     Forfatternote:
     Nøst, Baadskur.
     </note>
-    
-   
-   
-    <note target="#backn30" xml:id="ton30">
+    <note target="#backn30" xml:id="NOR0041_ton30">
      n30 .
     Forfatternote:
     Svaberg, nøgent
 Fjeld.
     </note>
-   
-   
-   
-    <note target="#backn31" xml:id="ton31">
+    <note target="#backn31" xml:id="NOR0041_ton31">
      n31.
     Forfatternote:
     Fort, hurtig.
     </note>
-    
-   
-   
-    <note target="#backn32" xml:id="ton32">
+    <note target="#backn32" xml:id="NOR0041_ton32">
      n32.
     Forfatternote:
     Grind, Led.
     </note>
-    
-   
-   
-    <note target="#backn33" xml:id="ton33">
+    <note target="#backn33" xml:id="NOR0041_ton33">
      n33.
     Forfatternote:
     Holde paa, være ifærd
 med.
     </note>
-    
-   
-   
-    <note target="#backn34" xml:id="ton34">
+    <note target="#backn34" xml:id="NOR0041_ton34">
      n34.
     Forfatternote:
     Sno, Trækvind, kold
 Blæst.
     </note>
-    
-   
-   
-    <note target="#backn35" xml:id="ton35">
+    <note target="#backn35" xml:id="NOR0041_ton35">
      n35.
     Forfatternote:
     Fang, Skjød.
     </note>
-    
-   
-   
-    <note target="#backn36" xml:id="ton36">
+    <note target="#backn36" xml:id="NOR0041_ton36">
      n36.
     Forfatternote:
     Kraake, Krage.
     </note>
-    
-   
-   
-    <note target="#backn37" xml:id="ton37">
+    <note target="#backn37" xml:id="NOR0041_ton37">
      n37.
     Forfatternote:
     Skindhyre,
 Skindklæder.
     </note>
-    
-   
-    </div>
-   </back>
+   </div>
+  </back>
  </text>
 </TEI>
